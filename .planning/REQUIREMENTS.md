@@ -10,13 +10,13 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Infrastructure
 
 - [x] **INFRA-01**: Repository has suites/ directory with 4 suite subdirectories (lp-angel, corporate, startup, vc-operator)
-- [ ] **INFRA-02**: Each skill is a self-contained directory with SKILL.md (YAML frontmatter + markdown body <500 lines)
-- [ ] **INFRA-03**: shared/frameworks/ directory contains canonical bibliography files referenced by multiple skills
+- [x] **INFRA-02**: Each skill is a self-contained directory with SKILL.md (YAML frontmatter + markdown body <500 lines)
+- [x] **INFRA-03**: shared/frameworks/ directory contains canonical bibliography files referenced by multiple skills
 - [x] **INFRA-04**: install.sh copies skills to ~/.claude/skills/ with platform-safe paths (${HOME} not ~), mkdir -p guards, per-skill success confirmation
-- [ ] **INFRA-05**: README.md with project description, install instructions, full skill catalog with descriptions
+- [x] **INFRA-05**: README.md with project description, install instructions, full skill catalog with descriptions
 - [x] **INFRA-06**: YAML frontmatter includes name, description (activation trigger <250 chars), and applicable Claude Code fields
 - [x] **INFRA-07**: Every skill description uses three-component pattern: domain identifier + "ALWAYS invoke when" directive + negative constraint
-- [ ] **INFRA-08**: docs/how-to-create-skills.md contributor guide for authoring new skills
+- [x] **INFRA-08**: docs/how-to-create-skills.md contributor guide for authoring new skills
 
 ### Skill Quality Standards (apply to every skill)
 
@@ -29,8 +29,8 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **QUAL-07**: Every skill cites which framework is being applied with source reference
 - [ ] **QUAL-08**: Every skill includes LATAM context annotations — US benchmarks flagged, LATAM-adjusted figures included
 - [ ] **QUAL-09**: Every skill has a TEMPLATES.md with a filled (not empty) example enforcing output structure
-- [ ] **QUAL-10**: Every skill's references/ files cite specific URLs that resolve to real, accessible sources
-- [ ] **QUAL-11**: Every SKILL.md includes a "Tone & Editorial Voice" section enforcing direct, no-sugarcoating feedback — seasoned investor/operator voice, unicorn-bar evaluation, no empty encouragement, specific actionable critique
+- [x] **QUAL-10**: Every skill's references/ files cite specific URLs that resolve to real, accessible sources
+- [x] **QUAL-11**: Every SKILL.md includes a "Tone & Editorial Voice" section enforcing direct, no-sugarcoating feedback — seasoned investor/operator voice, unicorn-bar evaluation, no empty encouragement, specific actionable critique
 
 ### Suite 3: Startups — Priority 5 (v1 core)
 
@@ -116,13 +116,13 @@ Which phases cover which requirements. Updated during roadmap creation.
 | Requirement | Phase | Status |
 |-------------|-------|--------|
 | INFRA-01 | Phase 1 | Complete |
-| INFRA-02 | Phase 1 | Pending |
-| INFRA-03 | Phase 1 | Pending |
+| INFRA-02 | Phase 1 | Complete |
+| INFRA-03 | Phase 1 | Complete |
 | INFRA-04 | Phase 1 | Complete |
-| INFRA-05 | Phase 1 | Pending |
+| INFRA-05 | Phase 1 | Complete |
 | INFRA-06 | Phase 1 | Complete |
 | INFRA-07 | Phase 1 | Complete |
-| INFRA-08 | Phase 1 | Pending |
+| INFRA-08 | Phase 1 | Complete |
 | QUAL-01 | Phase 1 | Pending |
 | QUAL-02 | Phase 1 | Pending |
 | QUAL-03 | Phase 1 | Pending |
@@ -132,8 +132,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | QUAL-07 | Phase 1 | Pending |
 | QUAL-08 | Phase 1 | Pending |
 | QUAL-09 | Phase 1 | Pending |
-| QUAL-10 | Phase 1 | Pending |
-| QUAL-11 | Phase 1 | Pending |
+| QUAL-10 | Phase 1 | Complete |
+| QUAL-11 | Phase 1 | Complete |
 | STRT-01 | Phase 1 | Pending |
 | STRT-02 | Phase 1 | Pending |
 | STRT-03 | Phase 1 | Pending |
