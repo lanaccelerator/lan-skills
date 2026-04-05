@@ -25,6 +25,11 @@ Skills that EXECUTE real VC/startup workflows — not roleplay or chat, but acti
 - ✓ deal-memo-writer (with Decile Hub template + LATAM corporate structure flag) — Phase 2
 - ✓ portfolio-reporter, fund-performance-analyzer (Carta Q1-2026 benchmarks) — Phase 2
 - ✓ term-sheet-generator (dual GP/associate mode), thesis-builder — Phase 2
+- ✓ angel-investment-analyzer, vc-fund-due-diligence, portfolio-construction-advisor — Phase 3
+- ✓ lp-term-sheet-analyzer (LP perspective inversion), startup-valuation-checker (dual audience) — Phase 3
+- ✓ open-innovation-scanner, startup-solution-matcher, corporate-venture-evaluator — Phase 3
+- ✓ pilot-program-designer (kill criteria centerpiece) — Phase 3
+- ✓ All 27 skills installable via install.sh (27 OK confirmations) — Phase 3
 
 ### Active
 
@@ -128,4 +133,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-05 after Phase 2 completion*
+*Last updated: 2026-04-05 after Phase 3 completion — all 27 skills complete*
