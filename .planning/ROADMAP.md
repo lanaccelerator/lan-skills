@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation + Startup Core** - Repository infrastructure, quality standards, and the 5 priority startup skills (completed 2026-04-05)
 - [ ] **Phase 2: Startup Expansion + VC Operators** - Remaining 7 startup skills and full 5-skill VC Operator suite
-- [ ] **Phase 3: LP & Angel + Corporate Suites** - 5 LP/Angel skills and 4 Corporate skills completing all 27 skills
+- [x] **Phase 3: LP & Angel + Corporate Suites** - 5 LP/Angel skills and 4 Corporate skills completing all 27 skills (completed 2026-04-05)
 - [ ] **Phase 4: LAN OS Integration** - Landing page section, /skills route, skills-catalog.ts, and in-platform AI assistant
 
 ## Phase Details
@@ -77,7 +77,7 @@ Plans:
 - [x] 03-03-PLAN.md — lp-term-sheet-analyzer + startup-valuation-checker (completes LP/Angel suite)
 - [x] 03-04-PLAN.md — open-innovation-scanner (Corporate suite pattern-setter, new audience voice)
 - [x] 03-05-PLAN.md — startup-solution-matcher + corporate-venture-evaluator (corporate evaluation skills)
-- [ ] 03-06-PLAN.md — pilot-program-designer + README update + install verification (completes Phase 3)
+- [x] 03-06-PLAN.md — pilot-program-designer + README update + install verification (completes Phase 3)
 
 ### Phase 4: LAN OS Integration
 **Goal**: LAN OS platform surfaces all 27 skills with a discovery UI and in-platform AI assistant that routes skill invocations through BYOK billing
@@ -100,5 +100,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Foundation + Startup Core | 5/5 | Complete   | 2026-04-05 |
 | 2. Startup Expansion + VC Operators | 8/9 | In Progress|  |
-| 3. LP & Angel + Corporate Suites | 5/6 | In Progress|  |
+| 3. LP & Angel + Corporate Suites | 6/6 | Complete   | 2026-04-05 |
 | 4. LAN OS Integration | 0/TBD | Not started | - |

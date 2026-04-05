@@ -72,7 +72,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **CORP-01**: open-innovation-scanner — Innovation opportunity map, startup matches per problem, evaluation framework. Frameworks: Chesbrough "Open Innovation", NESTA toolkit, corporate venturing best practices
 - [x] **CORP-02**: startup-solution-matcher — Shortlist of startups solving a business problem with pros/cons, pricing, integration complexity. Frameworks: CB Insights market maps, Gartner methodology, Plug and Play matching
 - [x] **CORP-03**: corporate-venture-evaluator — CVC readiness: strategic fit, financial returns, organizational readiness, governance. Frameworks: BCG corporate venturing, GCV Institute, Intel Capital cases
-- [ ] **CORP-04**: pilot-program-designer — Pilot structure: objectives, KPIs, timeline, budget, success/kill criteria, escalation. Frameworks: Techstars corporate innovation, Wayra, 500 Global corporate programs
+- [x] **CORP-04**: pilot-program-designer — Pilot structure: objectives, KPIs, timeline, budget, success/kill criteria, escalation. Frameworks: Techstars corporate innovation, Wayra, 500 Global corporate programs
 
 ### LAN OS Integration
 
@@ -160,7 +160,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | CORP-01 | Phase 3 | Complete |
 | CORP-02 | Phase 3 | Complete |
 | CORP-03 | Phase 3 | Complete |
-| CORP-04 | Phase 3 | Pending |
+| CORP-04 | Phase 3 | Complete |
 | LANOS-01 | Phase 4 | Pending |
 | LANOS-02 | Phase 4 | Pending |
 | LANOS-03 | Phase 4 | Pending |
