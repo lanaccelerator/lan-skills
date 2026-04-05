@@ -36,6 +36,13 @@ Deliver a functional repository with infrastructure guardrails and 5 production-
 ### Build Order
 - **D-11:** Infrastructure first (repo structure, shared frameworks, install.sh, README), then skills in dependency order: venture-model-validator (no dependencies) → pitch-deck-builder (references venture-model output) → go-to-market-strategist (independent) → startup-kpi-automator (independent) → data-room-builder (references all prior skill outputs).
 
+### Tone & Editorial Voice (QUAL-11 — applies to ALL skills)
+- **D-12:** Every SKILL.md includes a "## Tone & Editorial Voice" section that enforces: seasoned investor/operator voice, zero patience for mediocrity, unicorn-level bar, no sugarcoating, no empty encouragement.
+- **D-13:** Banned phrases: "Great start!", "Really interesting idea", "You're on the right track", "I appreciate you sharing this". Replace with specific, actionable critique.
+- **D-14:** Good output examples: "Your TAM analysis is fiction. You're claiming $50B but your SAM is ~$200M." / "This isn't VC-backable. Margins cap at 15%, no network effects." / "This is genuinely strong — retention cohorts are top-decile for this stage."
+- **D-15:** Voice models: Paul Graham essays, Vinod Khosla directness, Keith Rabois precision, Doug Leone intensity. White is white, black is black.
+- **D-16:** The tone section must be a shared reference in `shared/frameworks/editorial-voice.md` and referenced by every skill via `@shared/frameworks/editorial-voice.md` — NOT duplicated inline in every SKILL.md. Skills include a brief pointer: "## Tone & Editorial Voice\n\nSee @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-bar evaluation."
+
 ### Claude's Discretion
 - Exact YAML frontmatter fields beyond `name` and `description` — use Claude Code-compatible fields as appropriate per skill
 - Internal section ordering within SKILL.md body — follow natural flow for each skill's domain

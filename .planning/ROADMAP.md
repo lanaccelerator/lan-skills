@@ -22,7 +22,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 ### Phase 1: Foundation + Startup Core
 **Goal**: A functional repository with infrastructure guardrails and 5 production-quality startup skills that LAN portfolio companies can install and use today
 **Depends on**: Nothing (first phase)
-**Requirements**: INFRA-01, INFRA-02, INFRA-03, INFRA-04, INFRA-05, INFRA-06, INFRA-07, INFRA-08, QUAL-01, QUAL-02, QUAL-03, QUAL-04, QUAL-05, QUAL-06, QUAL-07, QUAL-08, QUAL-09, QUAL-10, STRT-01, STRT-02, STRT-03, STRT-04, STRT-05
+**Requirements**: INFRA-01, INFRA-02, INFRA-03, INFRA-04, INFRA-05, INFRA-06, INFRA-07, INFRA-08, QUAL-01, QUAL-02, QUAL-03, QUAL-04, QUAL-05, QUAL-06, QUAL-07, QUAL-08, QUAL-09, QUAL-10, QUAL-11, STRT-01, STRT-02, STRT-03, STRT-04, STRT-05
 **Success Criteria** (what must be TRUE):
   1. Running `./install.sh` on macOS, Linux, and WSL copies all 5 startup skills to ~/.claude/skills/ with no errors
   2. Claude auto-activates the correct skill when a user phrases a startup workflow request naturally (e.g., "validate my startup model" triggers venture-model-validator)

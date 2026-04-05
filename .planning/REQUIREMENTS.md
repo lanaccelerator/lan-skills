@@ -30,6 +30,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **QUAL-08**: Every skill includes LATAM context annotations — US benchmarks flagged, LATAM-adjusted figures included
 - [ ] **QUAL-09**: Every skill has a TEMPLATES.md with a filled (not empty) example enforcing output structure
 - [ ] **QUAL-10**: Every skill's references/ files cite specific URLs that resolve to real, accessible sources
+- [ ] **QUAL-11**: Every SKILL.md includes a "Tone & Editorial Voice" section enforcing direct, no-sugarcoating feedback — seasoned investor/operator voice, unicorn-bar evaluation, no empty encouragement, specific actionable critique
 
 ### Suite 3: Startups — Priority 5 (v1 core)
 
@@ -132,6 +133,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | QUAL-08 | Phase 1 | Pending |
 | QUAL-09 | Phase 1 | Pending |
 | QUAL-10 | Phase 1 | Pending |
+| QUAL-11 | Phase 1 | Pending |
 | STRT-01 | Phase 1 | Pending |
 | STRT-02 | Phase 1 | Pending |
 | STRT-03 | Phase 1 | Pending |
@@ -166,8 +168,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | LANOS-05 | Phase 4 | Pending |
 
 **Coverage:**
-- v1 requirements: 50 total
-- Mapped to phases: 50
+- v1 requirements: 51 total
+- Mapped to phases: 51
 - Unmapped: 0
 
 ---
