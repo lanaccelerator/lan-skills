@@ -76,7 +76,7 @@ Plans:
 - [x] 03-02-PLAN.md — vc-fund-due-diligence + portfolio-construction-advisor (fund evaluation + portfolio math)
 - [x] 03-03-PLAN.md — lp-term-sheet-analyzer + startup-valuation-checker (completes LP/Angel suite)
 - [x] 03-04-PLAN.md — open-innovation-scanner (Corporate suite pattern-setter, new audience voice)
-- [ ] 03-05-PLAN.md — startup-solution-matcher + corporate-venture-evaluator (corporate evaluation skills)
+- [x] 03-05-PLAN.md — startup-solution-matcher + corporate-venture-evaluator (corporate evaluation skills)
 - [ ] 03-06-PLAN.md — pilot-program-designer + README update + install verification (completes Phase 3)
 
 ### Phase 4: LAN OS Integration
@@ -100,5 +100,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Foundation + Startup Core | 5/5 | Complete   | 2026-04-05 |
 | 2. Startup Expansion + VC Operators | 8/9 | In Progress|  |
-| 3. LP & Angel + Corporate Suites | 4/6 | In Progress|  |
+| 3. LP & Angel + Corporate Suites | 5/6 | In Progress|  |
 | 4. LAN OS Integration | 0/TBD | Not started | - |
