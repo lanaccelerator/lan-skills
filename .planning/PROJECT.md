@@ -29,7 +29,7 @@ Skills that EXECUTE real VC/startup workflows — not roleplay or chat, but acti
 - [ ] corporate-venture-evaluator — Strategic fit, financial returns, organizational readiness
 - [ ] pilot-program-designer — Objectives, KPIs, timeline, budget, success/kill criteria
 
-**Suite 3: Startups (12 skills)**
+**Suite 3: Startups (13 skills)**
 - [ ] pitch-deck-builder — Slide-by-slide outline, talking points, data needed, common errors
 - [ ] deck-reviewer — Per-slide evaluation: clarity, data, storytelling, design feedback
 - [ ] go-to-market-strategist — Channel strategy, acquisition plan, unit economics, 90-day plan
@@ -42,6 +42,7 @@ Skills that EXECUTE real VC/startup workflows — not roleplay or chat, but acti
 - [ ] pricing-strategy-designer — Value metrics, packaging, competitive pricing, freemium vs paid
 - [ ] venture-model-validator — VC-backable scorecard, comparables, online research, timing analysis
 - [ ] startup-kpi-automator — KPI system by type, dashboards, growth rates, investor report template
+- [ ] fundraising-agent — Complete fundraising co-pilot: 3-phase workflow (Preparation → Fundraising → Closing), investor research & targeting, personalized outreach, meeting prep, term sheet analysis
 
 **Suite 4: VC Operators (5 skills)**
 - [ ] deal-memo-writer — Exec summary, market analysis, competitive landscape, risks, recommendation

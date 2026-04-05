@@ -2,7 +2,7 @@
 
 ## Overview
 
-LAN Skills delivers 26 execution-focused Claude Code Skills across 4 audience suites (Startups, VC Operators, LP/Angel, Corporates) plus a LAN OS platform integration. The journey starts with infrastructure guardrails and the 5 highest-impact startup skills, expands to cover all 26 skills across all suites, and culminates in the /skills route and in-platform AI assistant. Every phase delivers a coherent, installable product increment.
+LAN Skills delivers 26 execution-focused Claude Code Skills across 4 audience suites (Startups, VC Operators, LP/Angel, Corporates) plus a LAN OS platform integration. The journey starts with infrastructure guardrails and the 5 highest-impact startup skills, expands to cover all 27 skills across all suites, and culminates in the /skills route and in-platform AI assistant. Every phase delivers a coherent, installable product increment.
 
 ## Phases
 
@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [ ] **Phase 1: Foundation + Startup Core** - Repository infrastructure, quality standards, and the 5 priority startup skills
 - [ ] **Phase 2: Startup Expansion + VC Operators** - Remaining 7 startup skills and full 5-skill VC Operator suite
-- [ ] **Phase 3: LP & Angel + Corporate Suites** - 5 LP/Angel skills and 4 Corporate skills completing all 26 skills
+- [ ] **Phase 3: LP & Angel + Corporate Suites** - 5 LP/Angel skills and 4 Corporate skills completing all 27 skills
 - [ ] **Phase 4: LAN OS Integration** - Landing page section, /skills route, skills-catalog.ts, and in-platform AI assistant
 
 ## Phase Details
@@ -32,34 +32,34 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: TBD
 
 ### Phase 2: Startup Expansion + VC Operators
-**Goal**: A complete 12-skill Startup suite covering the full founder journey plus a 5-skill VC Operator suite for LAN's deal workflow — all following Phase 1 quality standards
+**Goal**: A complete 13-skill Startup suite covering the full founder journey (including a full fundraising co-pilot) plus a 5-skill VC Operator suite for LAN's deal workflow — all following Phase 1 quality standards
 **Depends on**: Phase 1
-**Requirements**: STRT-06, STRT-07, STRT-08, STRT-09, STRT-10, STRT-11, STRT-12, VCOP-01, VCOP-02, VCOP-03, VCOP-04, VCOP-05
+**Requirements**: STRT-06, STRT-07, STRT-08, STRT-09, STRT-10, STRT-11, STRT-12, STRT-13, VCOP-01, VCOP-02, VCOP-03, VCOP-04, VCOP-05
 **Success Criteria** (what must be TRUE):
-  1. A founder can run the full workflow — from VC-backability check through deck, GTM, KPIs, data room, unit economics, fundraising readiness, competitive map, MVP, sales playbook, and pricing — without leaving the skill suite
+  1. A founder can run the full workflow — from VC-backability check through deck, GTM, KPIs, data room, unit economics, fundraising readiness, competitive map, MVP, sales playbook, pricing, and end-to-end fundraising — without leaving the skill suite
   2. deck-reviewer and pitch-deck-builder activate on distinct natural-language inputs without cross-triggering each other
   3. deal-memo-writer (VC analyst perspective) and pitch-deck-builder (founder perspective) are explicitly distinguished by audience in their descriptions and do not cross-activate
   4. All 5 VC Operator skills produce work products (memos, term sheets, reports) grounded in verified bibliographic sources with accessible URLs
 **Plans**: TBD
 
 ### Phase 3: LP & Angel + Corporate Suites
-**Goal**: All 26 skills complete across all 4 suites — LP/Angel investors and corporate innovation teams can install and run their respective skills
+**Goal**: All 27 skills complete across all 4 suites — LP/Angel investors and corporate innovation teams can install and run their respective skills
 **Depends on**: Phase 2
 **Requirements**: LPAN-01, LPAN-02, LPAN-03, LPAN-04, LPAN-05, CORP-01, CORP-02, CORP-03, CORP-04
 **Success Criteria** (what must be TRUE):
   1. angel-investment-analyzer (LP side) and venture-model-validator (founder side) use the same scoring criteria from opposite perspectives without cross-activating
   2. lp-term-sheet-analyzer references brad-feld-terms.md (the shared framework file already built for term-sheet-generator in Phase 2) without duplicating content
   3. All 4 Corporate skills activate for corporate innovation roles and include a LATAM Context section with corporate-specific benchmarks
-  4. Running `./install.sh` installs all 26 skills across 4 suite directories with per-skill success confirmations
+  4. Running `./install.sh` installs all 27 skills across 4 suite directories with per-skill success confirmations
 **Plans**: TBD
 
 ### Phase 4: LAN OS Integration
-**Goal**: LAN OS platform surfaces all 26 skills with a discovery UI and in-platform AI assistant that routes skill invocations through BYOK billing
+**Goal**: LAN OS platform surfaces all 27 skills with a discovery UI and in-platform AI assistant that routes skill invocations through BYOK billing
 **Depends on**: Phase 3
 **Requirements**: LANOS-01, LANOS-02, LANOS-03, LANOS-04, LANOS-05
 **Success Criteria** (what must be TRUE):
   1. The LAN OS landing page displays a "Skills & Agents" section with 4 suite cards matching the existing design system (gradient border, hover glow, DM Serif heading)
-  2. The /skills route shows all 26 skills in a filterable grid and a user can find any skill by suite in under 5 seconds
+  2. The /skills route shows all 27 skills in a filterable grid and a user can find any skill by suite in under 5 seconds
   3. Clicking [Usar] on any skill opens the in-platform AI assistant with that skill's SKILL.md pre-loaded as the system prompt
   4. For startups with Supabase records, the AI assistant injects their KPI, deck, and metrics context alongside the skill system prompt
 **UI hint**: yes
