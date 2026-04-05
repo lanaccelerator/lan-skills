@@ -20,21 +20,21 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Skill Quality Standards (apply to every skill)
 
-- [ ] **QUAL-01**: Every skill produces structured markdown output (tables, scorecards, memos) — not prose
-- [ ] **QUAL-02**: Every skill has an input gathering flow — asks user for missing data before generating
-- [ ] **QUAL-03**: Every skill branches on stage input (pre-seed, seed, Series A, etc.) where applicable
-- [ ] **QUAL-04**: Every skill includes specific numbers and benchmarks from authoritative sources
-- [ ] **QUAL-05**: Every skill ends with actionable next steps section
-- [ ] **QUAL-06**: Every evaluation skill calls out red flags and errors explicitly
-- [ ] **QUAL-07**: Every skill cites which framework is being applied with source reference
-- [ ] **QUAL-08**: Every skill includes LATAM context annotations — US benchmarks flagged, LATAM-adjusted figures included
-- [ ] **QUAL-09**: Every skill has a TEMPLATES.md with a filled (not empty) example enforcing output structure
+- [x] **QUAL-01**: Every skill produces structured markdown output (tables, scorecards, memos) — not prose
+- [x] **QUAL-02**: Every skill has an input gathering flow — asks user for missing data before generating
+- [x] **QUAL-03**: Every skill branches on stage input (pre-seed, seed, Series A, etc.) where applicable
+- [x] **QUAL-04**: Every skill includes specific numbers and benchmarks from authoritative sources
+- [x] **QUAL-05**: Every skill ends with actionable next steps section
+- [x] **QUAL-06**: Every evaluation skill calls out red flags and errors explicitly
+- [x] **QUAL-07**: Every skill cites which framework is being applied with source reference
+- [x] **QUAL-08**: Every skill includes LATAM context annotations — US benchmarks flagged, LATAM-adjusted figures included
+- [x] **QUAL-09**: Every skill has a TEMPLATES.md with a filled (not empty) example enforcing output structure
 - [x] **QUAL-10**: Every skill's references/ files cite specific URLs that resolve to real, accessible sources
 - [x] **QUAL-11**: Every SKILL.md includes a "Tone & Editorial Voice" section enforcing direct, no-sugarcoating feedback — seasoned investor/operator voice, unicorn-bar evaluation, no empty encouragement, specific actionable critique
 
 ### Suite 3: Startups — Priority 5 (v1 core)
 
-- [ ] **STRT-01**: venture-model-validator — Evaluates if startup is VC-backable, deep online research of competitors, timing analysis, scorecard with comparables, "why now"/"why you" analysis. Frameworks: YC idea evaluation, Thiel monopoly test, a16z PMF, Sequoia enduring companies, Gurley market sizing
+- [x] **STRT-01**: venture-model-validator — Evaluates if startup is VC-backable, deep online research of competitors, timing analysis, scorecard with comparables, "why now"/"why you" analysis. Frameworks: YC idea evaluation, Thiel monopoly test, a16z PMF, Sequoia enduring companies, Gurley market sizing
 - [ ] **STRT-02**: pitch-deck-builder — Generates slide-by-slide outline with talking points, data needed per slide, common errors. Frameworks: Sequoia template, YC Series A guide, Kawasaki 10-20-30, Reid Hoffman teardowns
 - [ ] **STRT-03**: go-to-market-strategist — Designs full GTM: channel strategy, acquisition plan, unit economics, sales process, 90-day plan. Frameworks: Moore "Crossing the Chasm", Weinberg "Traction", YC GTM lectures, a16z GTM guides
 - [ ] **STRT-04**: startup-kpi-automator — KPI system by startup type (SaaS, marketplace, e-commerce, fintech), dashboard structure, growth rate calculations, investor report template, benchmark alerts. Frameworks: Bessemer Cloud Index, OpenView SaaS, YC Standard Metrics, a16z 16 Metrics, Carta KPIs
@@ -123,18 +123,18 @@ Which phases cover which requirements. Updated during roadmap creation.
 | INFRA-06 | Phase 1 | Complete |
 | INFRA-07 | Phase 1 | Complete |
 | INFRA-08 | Phase 1 | Complete |
-| QUAL-01 | Phase 1 | Pending |
-| QUAL-02 | Phase 1 | Pending |
-| QUAL-03 | Phase 1 | Pending |
-| QUAL-04 | Phase 1 | Pending |
-| QUAL-05 | Phase 1 | Pending |
-| QUAL-06 | Phase 1 | Pending |
-| QUAL-07 | Phase 1 | Pending |
-| QUAL-08 | Phase 1 | Pending |
-| QUAL-09 | Phase 1 | Pending |
+| QUAL-01 | Phase 1 | Complete |
+| QUAL-02 | Phase 1 | Complete |
+| QUAL-03 | Phase 1 | Complete |
+| QUAL-04 | Phase 1 | Complete |
+| QUAL-05 | Phase 1 | Complete |
+| QUAL-06 | Phase 1 | Complete |
+| QUAL-07 | Phase 1 | Complete |
+| QUAL-08 | Phase 1 | Complete |
+| QUAL-09 | Phase 1 | Complete |
 | QUAL-10 | Phase 1 | Complete |
 | QUAL-11 | Phase 1 | Complete |
-| STRT-01 | Phase 1 | Pending |
+| STRT-01 | Phase 1 | Complete |
 | STRT-02 | Phase 1 | Pending |
 | STRT-03 | Phase 1 | Pending |
 | STRT-04 | Phase 1 | Pending |
