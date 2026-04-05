@@ -1,6 +1,6 @@
 # LAN Skills & Agents
 
-26 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
+27 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
 
 Unlike roleplay-based AI tools, LAN Skills EXECUTE: they generate pitch decks, calculate unit economics, build data rooms, write deal memos, and design GTM strategies — grounded in industry-standard frameworks (YC, Sequoia, a16z, Brad Feld, ILPA) and calibrated to LATAM market benchmarks (LAVCA 2025, Cuantico 2026).
 
@@ -64,20 +64,20 @@ Run this before committing any changes to verify all SKILL.md files are spec-com
 
 | Skill | Command | Description |
 |-------|---------|-------------|
-| Angel Investment Analyzer | `/angel-investment-analyzer` | Coming in Phase 3 |
-| VC Fund Due Diligence | `/vc-fund-due-diligence` | Coming in Phase 3 |
-| Portfolio Construction Advisor | `/portfolio-construction-advisor` | Coming in Phase 3 |
-| LP Term Sheet Analyzer | `/lp-term-sheet-analyzer` | Coming in Phase 3 |
-| Startup Valuation Checker | `/startup-valuation-checker` | Coming in Phase 3 |
+| Angel Investment Analyzer | `/angel-investment-analyzer` | LP and angel investor due diligence on startup deals. Produces a structured investment scorecard with thesis fit, red flags, LATAM comparables, and an INVEST / PASS / WATCH recommendation. |
+| VC Fund Due Diligence | `/vc-fund-due-diligence` | LP due diligence on VC funds and GPs. Analyzes GP track record, portfolio construction, fee structure, carry, hurdle, clawback, and key person terms against Cambridge Associates and Carta benchmarks. |
+| Portfolio Construction Advisor | `/portfolio-construction-advisor` | Angel and LP portfolio construction strategy. Covers allocation strategy, check sizes, diversification targets, reserve ratios, and expected return distribution using AngelList and Correlation Ventures data. |
+| LP Term Sheet Analyzer | `/lp-term-sheet-analyzer` | LP-side fund term sheet and LPA analysis. Evaluates management fee, carry, hurdle rate, GP commit, clawback, key person clause, and no-fault divorce from the investor's perspective. |
+| Startup Valuation Checker | `/startup-valuation-checker` | Startup valuation reasonableness analysis using multiple methods. Applies Damodaran revenue multiples, Berkus method, Bill Payne Scorecard, DCF, and LATAM comparable transaction data. |
 
 ### Corporates (Suite)
 
 | Skill | Command | Description |
 |-------|---------|-------------|
-| Open Innovation Scanner | `/open-innovation-scanner` | Coming in Phase 3 |
-| Startup Solution Matcher | `/startup-solution-matcher` | Coming in Phase 3 |
-| Corporate Venture Evaluator | `/corporate-venture-evaluator` | Coming in Phase 3 |
-| Pilot Program Designer | `/pilot-program-designer` | Coming in Phase 3 |
+| Open Innovation Scanner | `/open-innovation-scanner` | For CORPORATE INNOVATION TEAMS. Maps innovation opportunities, identifies startup solutions for a business problem, and evaluates strategic alignment using the Chesbrough Open Innovation framework and NESTA toolkit. |
+| Startup Solution Matcher | `/startup-solution-matcher` | For CORPORATE INNOVATION TEAMS. Produces a ranked shortlist of startups solving a specific business problem with pros/cons, pricing estimates, and integration complexity scores using CB Insights and Gartner methodology. |
+| Corporate Venture Evaluator | `/corporate-venture-evaluator` | For CORPORATE INNOVATION TEAMS. CVC readiness assessment covering strategic fit, financial return expectations, organizational readiness, and governance design using BCG and GCV Institute frameworks. |
+| Pilot Program Designer | `/pilot-program-designer` | For CORPORATE INNOVATION TEAMS. Designs a structured startup pilot program with SMART problem statement, KPIs, timeline, budget, governance, and MANDATORY kill criteria using Techstars, Wayra, and 500 Global frameworks. |
 
 ## Validate Before Committing
 
