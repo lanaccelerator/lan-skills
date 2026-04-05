@@ -40,8 +40,10 @@ If any question is not answered, proceed with a stated assumption:
 
 ## Step 2: Apply Frameworks
 
-Read [references/ic-memo-framework.md](references/ic-memo-framework.md) BEFORE writing
-the memo. Apply:
+Read [references/ic-memo-framework.md](references/ic-memo-framework.md) AND
+[references/decile-hub-deal-memo-template.md](references/decile-hub-deal-memo-template.md) BEFORE writing
+the memo. The Decile Hub template defines ALL required sections including the CRITICAL
+LATAM corporate structure flag. Apply:
 
 - **a16z Deal Memo Structure** — 9-section IC memo format
   Source: https://a16z.com/how-a16z-evaluates-startups/
@@ -171,6 +173,7 @@ $22k). Re-evaluate Q4 2026."
 - @shared/frameworks/vc-backable-test.md — market opportunity scoring framework
 - [references/ic-memo-framework.md](references/ic-memo-framework.md) — 9-section IC
   memo structure, red flag triggers, quality thresholds
+- [references/decile-hub-deal-memo-template.md](references/decile-hub-deal-memo-template.md) — Decile Hub enhanced template with LATAM corporate structure flag (CRITICAL)
 - [references/latam-fund-context.md](references/latam-fund-context.md) — FX risk,
   regulatory environment, LATAM operator experience, exit context
 - LAVCA: https://www.lavca.org
