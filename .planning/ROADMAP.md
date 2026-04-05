@@ -29,7 +29,14 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Each of the 5 skills asks for missing inputs, produces structured markdown output (scorecard/memo/outline), cites a specific authoritative framework with URL, and ends with a next steps section
   4. Each skill includes a TEMPLATES.md with a filled example that enforces output structure consistency across runs
   5. Every skill includes a LATAM Context section with LAVCA-sourced benchmarks annotating US figures
-**Plans**: TBD
+**Plans**: 5 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Repo scaffold + install pipeline (directories, install.sh, validate.sh)
+- [ ] 01-02-PLAN.md — Shared frameworks + docs (7 framework files, README.md, contributor guide)
+- [ ] 01-03-PLAN.md — venture-model-validator skill (VC-backability scorecard)
+- [ ] 01-04-PLAN.md — pitch-deck-builder + go-to-market-strategist skills
+- [ ] 01-05-PLAN.md — startup-kpi-automator + data-room-builder skills (completes Phase 1)
 
 ### Phase 2: Startup Expansion + VC Operators
 **Goal**: A complete 13-skill Startup suite covering the full founder journey (including a full fundraising co-pilot) plus a 5-skill VC Operator suite for LAN's deal workflow — all following Phase 1 quality standards
@@ -72,7 +79,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation + Startup Core | 0/TBD | Not started | - |
+| 1. Foundation + Startup Core | 0/5 | Ready to execute | - |
 | 2. Startup Expansion + VC Operators | 0/TBD | Not started | - |
 | 3. LP & Angel + Corporate Suites | 0/TBD | Not started | - |
 | 4. LAN OS Integration | 0/TBD | Not started | - |
