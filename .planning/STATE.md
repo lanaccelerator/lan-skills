@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-08 term-sheet-generator
-last_updated: "2026-04-05T04:40:28.982Z"
+stopped_at: Completed 02-07 portfolio-reporter + fund-performance-analyzer
+last_updated: "2026-04-05T04:44:16.574Z"
 last_activity: 2026-04-05
 progress:
   total_phases: 4
   completed_phases: 1
   total_plans: 14
-  completed_plans: 12
+  completed_plans: 13
   percent: 0
 ---
 
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-04-04)
 ## Current Position
 
 Phase: 02 (startup-expansion-vc-operators) — EXECUTING
-Plan: 8 of 9
+Plan: 9 of 9
 Status: Ready to execute
 Last activity: 2026-04-05
 
@@ -64,6 +64,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 02-startup-expansion-vc-operators P04 | 20 | 2 tasks | 8 files |
 | Phase 02-startup-expansion-vc-operators P06 | 5 | 2 tasks | 4 files |
 | Phase 02-startup-expansion-vc-operators P08 | 274 | 2 tasks | 4 files |
+| Phase 02-startup-expansion-vc-operators P07 | 7 | 2 tasks | 8 files |
 
 ## Accumulated Context
 
@@ -104,6 +105,9 @@ Recent decisions affecting current work:
 - [Phase 02-startup-expansion-vc-operators]: LogiPay Colombia chosen as Mode A TEMPLATES.md example — Colombian SAS structure provides distinct legal context from prior Cóndor Ventures examples
 - [Phase 02-startup-expansion-vc-operators]: term-sheet-draft-guide.md is application layer only (market standards, Hold/Give criteria, red flags, SAFE vs. priced guide) — zero brad-feld-terms.md definition duplication
 - [Phase 02-startup-expansion-vc-operators]: latam-fund-context.md in term-sheet-generator/references/ covers legal vehicles and family office governance norms; deal-memo-writer version covers FX risk and regulatory tables — complementary, non-overlapping
+- [Phase 02-startup-expansion-vc-operators]: Cóndor Ventures Fund I used consistently across both portfolio-reporter and fund-performance-analyzer TEMPLATES.md (same fund, same Q3 2025 period) for cross-skill coherence
+- [Phase 02-startup-expansion-vc-operators]: fund-benchmarks.md is the sole Carta Q1-2026 data source — both skills reference this single file to avoid duplication and ensure single point of update
+- [Phase 02-startup-expansion-vc-operators]: LATAM discount annotation (30-50% below US at same vintage) standardized in both latam-fund-context.md files with identical wording for consistent framing
 
 ### Pending Todos
 
@@ -117,6 +121,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-05T04:40:28.976Z
-Stopped at: Completed 02-08 term-sheet-generator
+Last session: 2026-04-05T04:44:16.571Z
+Stopped at: Completed 02-07 portfolio-reporter + fund-performance-analyzer
 Resume file: None
