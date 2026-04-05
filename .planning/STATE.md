@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-03-PLAN.md
-last_updated: "2026-04-05T02:46:56.346Z"
+stopped_at: Completed 01-04-PLAN.md
+last_updated: "2026-04-05T02:59:39.483Z"
 last_activity: 2026-04-05
 progress:
   total_phases: 4
   completed_phases: 0
   total_plans: 5
-  completed_plans: 3
+  completed_plans: 4
   percent: 0
 ---
 
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-04-04)
 ## Current Position
 
 Phase: 01 (foundation-startup-core) — EXECUTING
-Plan: 4 of 5
+Plan: 5 of 5
 Status: Ready to execute
 Last activity: 2026-04-05
 
@@ -55,6 +55,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 01 P01 | 2 | 2 tasks | 8 files |
 | Phase 01 P02 | 558 | 2 tasks | 10 files |
 | Phase 01-foundation-startup-core P03 | 8 | 2 tasks | 5 files |
+| Phase 01-foundation-startup-core P04 | 12 | 2 tasks | 8 files |
 
 ## Accumulated Context
 
@@ -75,6 +76,9 @@ Recent decisions affecting current work:
 - [Phase 01-foundation-startup-core]: SKILL.md kept at 123 lines — all framework detail in references/, skill body is pure workflow instructions
 - [Phase 01-foundation-startup-core]: venture-model-validator 8-section pattern established as canonical template for all 5 startup skills
 - [Phase 01-foundation-startup-core]: TEMPLATES.md filled with FinTrack hypothetical (Mexico City B2B SaaS) scoring 13/25 — low enough score makes red flags meaningful while staying realistic
+- [Phase 01-foundation-startup-core]: pitch-deck-builder references/sequoia-deck.md is skill-specific application detail (investor intent, failure modes, LATAM variants), not a duplicate of shared/frameworks/sequoia-deck.md
+- [Phase 01-foundation-startup-core]: WhatsApp added as Channel 19 in gtm-channels.md — Weinberg 2014 taxonomy predates WhatsApp for Business; LATAM B2B context requires this channel explicitly
+- [Phase 01-foundation-startup-core]: TEMPLATES.md examples use real LATAM company analogues (Alegra, Konfío) not fictitious companies — produces higher-quality output targets
 
 ### Pending Todos
 
@@ -88,6 +92,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-05T02:46:56.344Z
-Stopped at: Completed 01-03-PLAN.md
+Last session: 2026-04-05T02:59:39.481Z
+Stopped at: Completed 01-04-PLAN.md
 Resume file: None
