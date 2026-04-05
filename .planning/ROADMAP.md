@@ -12,7 +12,7 @@ LAN Skills delivers 26 execution-focused Claude Code Skills across 4 audience su
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation + Startup Core** - Repository infrastructure, quality standards, and the 5 priority startup skills
+- [x] **Phase 1: Foundation + Startup Core** - Repository infrastructure, quality standards, and the 5 priority startup skills (completed 2026-04-05)
 - [ ] **Phase 2: Startup Expansion + VC Operators** - Remaining 7 startup skills and full 5-skill VC Operator suite
 - [ ] **Phase 3: LP & Angel + Corporate Suites** - 5 LP/Angel skills and 4 Corporate skills completing all 27 skills
 - [ ] **Phase 4: LAN OS Integration** - Landing page section, /skills route, skills-catalog.ts, and in-platform AI assistant
@@ -36,7 +36,7 @@ Plans:
 - [x] 01-02-PLAN.md — Shared frameworks + docs (7 framework files, README.md, contributor guide)
 - [x] 01-03-PLAN.md — venture-model-validator skill (VC-backability scorecard)
 - [x] 01-04-PLAN.md — pitch-deck-builder + go-to-market-strategist skills
-- [ ] 01-05-PLAN.md — startup-kpi-automator + data-room-builder skills (completes Phase 1)
+- [x] 01-05-PLAN.md — startup-kpi-automator + data-room-builder skills (completes Phase 1)
 
 ### Phase 2: Startup Expansion + VC Operators
 **Goal**: A complete 13-skill Startup suite covering the full founder journey (including a full fundraising co-pilot) plus a 5-skill VC Operator suite for LAN's deal workflow — all following Phase 1 quality standards
@@ -79,7 +79,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation + Startup Core | 4/5 | In Progress|  |
+| 1. Foundation + Startup Core | 5/5 | Complete   | 2026-04-05 |
 | 2. Startup Expansion + VC Operators | 0/TBD | Not started | - |
 | 3. LP & Angel + Corporate Suites | 0/TBD | Not started | - |
 | 4. LAN OS Integration | 0/TBD | Not started | - |

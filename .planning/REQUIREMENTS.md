@@ -37,8 +37,8 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **STRT-01**: venture-model-validator — Evaluates if startup is VC-backable, deep online research of competitors, timing analysis, scorecard with comparables, "why now"/"why you" analysis. Frameworks: YC idea evaluation, Thiel monopoly test, a16z PMF, Sequoia enduring companies, Gurley market sizing
 - [x] **STRT-02**: pitch-deck-builder — Generates slide-by-slide outline with talking points, data needed per slide, common errors. Frameworks: Sequoia template, YC Series A guide, Kawasaki 10-20-30, Reid Hoffman teardowns
 - [x] **STRT-03**: go-to-market-strategist — Designs full GTM: channel strategy, acquisition plan, unit economics, sales process, 90-day plan. Frameworks: Moore "Crossing the Chasm", Weinberg "Traction", YC GTM lectures, a16z GTM guides
-- [ ] **STRT-04**: startup-kpi-automator — KPI system by startup type (SaaS, marketplace, e-commerce, fintech), dashboard structure, growth rate calculations, investor report template, benchmark alerts. Frameworks: Bessemer Cloud Index, OpenView SaaS, YC Standard Metrics, a16z 16 Metrics, Carta KPIs
-- [ ] **STRT-05**: data-room-builder — Folder structure, document templates, completeness checklist, generates base documents, prioritization. Frameworks: Visible.vc template, NFX guide, Stripe Atlas data room
+- [x] **STRT-04**: startup-kpi-automator — KPI system by startup type (SaaS, marketplace, e-commerce, fintech), dashboard structure, growth rate calculations, investor report template, benchmark alerts. Frameworks: Bessemer Cloud Index, OpenView SaaS, YC Standard Metrics, a16z 16 Metrics, Carta KPIs
+- [x] **STRT-05**: data-room-builder — Folder structure, document templates, completeness checklist, generates base documents, prioritization. Frameworks: Visible.vc template, NFX guide, Stripe Atlas data room
 
 ### Suite 3: Startups — Remaining 7
 
@@ -137,8 +137,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | STRT-01 | Phase 1 | Complete |
 | STRT-02 | Phase 1 | Complete |
 | STRT-03 | Phase 1 | Complete |
-| STRT-04 | Phase 1 | Pending |
-| STRT-05 | Phase 1 | Pending |
+| STRT-04 | Phase 1 | Complete |
+| STRT-05 | Phase 1 | Complete |
 | STRT-06 | Phase 2 | Pending |
 | STRT-07 | Phase 2 | Pending |
 | STRT-08 | Phase 2 | Pending |
