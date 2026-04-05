@@ -7,6 +7,7 @@ description: >
   terms, negotiation levers, or market standards. NOT for analyzing
   term sheets from the LP perspective (use lp-term-sheet-analyzer
   for fund-level LP terms).
+categories: ["business", "venture-capital", "fund-management"]
 metadata:
   author: lan-accelerator
   version: "1.0"

@@ -6,6 +6,7 @@ description: >
   IRR, MOIC, or PME, benchmark fund performance against vintage peers,
   or analyze attribution across portfolio positions. NOT for generating
   LP quarterly reports (use portfolio-reporter for that).
+categories: ["business", "venture-capital", "fund-management"]
 metadata:
   author: lan-accelerator
   version: "1.0"

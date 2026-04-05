@@ -8,6 +8,7 @@ description: >
   NOT for GPs drafting term sheets for startups (use term-sheet-generator for that).
   NOT for founders analyzing term sheets received from VCs (use fundraising-agent
   for that).
+categories: ["business", "investing", "due-diligence"]
 metadata:
   author: lan-accelerator
   version: "1.0"

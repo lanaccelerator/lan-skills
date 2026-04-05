@@ -6,6 +6,7 @@ description: >
   90-day launch plan. Applies Moore "Crossing the Chasm", Weinberg "Traction",
   YC GTM lectures, and a16z GTM guides. NOT for pitch deck creation (use
   pitch-deck-builder) or unit economics calculation (use unit-economics-calculator).
+categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

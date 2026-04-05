@@ -8,6 +8,7 @@ description: >
   recommendation. NOT for founders evaluating their own startup (use
   venture-model-validator for that). NOT for VC fund operators writing IC memos
   (use deal-memo-writer for that).
+categories: ["business", "investing", "due-diligence"]
 metadata:
   author: lan-accelerator
   version: "1.0"

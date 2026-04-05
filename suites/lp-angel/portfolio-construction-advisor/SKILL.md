@@ -8,6 +8,7 @@ description: >
   Correlation Ventures data. NOT for evaluating individual deals (use
   angel-investment-analyzer for that). NOT for evaluating VC fund managers (use
   vc-fund-due-diligence for that).
+categories: ["business", "investing", "due-diligence"]
 metadata:
   author: lan-accelerator
   version: "1.0"

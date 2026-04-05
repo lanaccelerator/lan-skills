@@ -9,6 +9,7 @@ description: >
   estimates, and integration complexity scores. NOT for building an innovation
   strategy (use open-innovation-scanner for that). NOT for VC fund operators
   sourcing deals (use deal-memo-writer for that).
+categories: ["business", "corporate-innovation", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

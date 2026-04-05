@@ -7,6 +7,7 @@ description: >
   revenue multiples, Berkus method, Bill Payne Scorecard, DCF, and LATAM comparable
   transaction data. NOT for building a full financial model (use a spreadsheet). NOT
   for LP-level fund term analysis (use lp-term-sheet-analyzer for that).
+categories: ["business", "investing", "due-diligence"]
 metadata:
   author: lan-accelerator
   version: "1.0"

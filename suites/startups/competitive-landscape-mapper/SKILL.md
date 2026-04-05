@@ -6,6 +6,7 @@ description: >
   analyze competitors, build a competitive matrix, or understand
   their defensibility and moat. NOT for evaluating VC-backability
   overall (use venture-model-validator for full fundability analysis).
+categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

@@ -8,6 +8,7 @@ description: >
   using Techstars Corporate Innovation, Wayra, and 500 Global program frameworks.
   NOT for evaluating which startup to pilot (use startup-solution-matcher for that).
   NOT for designing a CVC investment program (use corporate-venture-evaluator for that).
+categories: ["business", "corporate-innovation", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

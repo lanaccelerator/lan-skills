@@ -6,6 +6,7 @@ description: >
   design their MVP, how to prioritize features, or which tech stack
   to use for a startup product. NOT for growth strategy or channel
   selection (use go-to-market-strategist for that).
+categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

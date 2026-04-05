@@ -6,6 +6,7 @@ description: >
   checklist, or is preparing for fundraising due diligence. Applies Visible.vc
   template, NFX guide, and Stripe Atlas data room. NOT for pitch deck creation
   or go-to-market strategy planning.
+categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

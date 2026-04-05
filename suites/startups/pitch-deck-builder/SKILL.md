@@ -6,6 +6,7 @@ description: >
   Sequoia 10-slide framework, YC Series A guide, Kawasaki 10-20-30, and Reid
   Hoffman teardowns. NOT for reviewing an existing deck (use deck-reviewer)
   or validating the business model (use venture-model-validator).
+categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

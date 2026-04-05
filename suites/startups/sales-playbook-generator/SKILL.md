@@ -7,6 +7,7 @@ description: >
   script, or set up a CRM. NOT for broad go-to-market strategy or
   channel selection (use go-to-market-strategist for multi-channel
   GTM strategy).
+categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

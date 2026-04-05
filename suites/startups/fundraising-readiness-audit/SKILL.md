@@ -7,6 +7,7 @@ description: >
   wants to evaluate readiness before approaching investors. NOT for
   building the pitch deck (use pitch-deck-builder) or calculating
   unit economics (use unit-economics-calculator).
+categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

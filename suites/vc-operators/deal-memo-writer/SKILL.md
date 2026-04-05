@@ -7,6 +7,7 @@ description: >
   market analysis, team assessment, risk register, and invest/pass
   recommendation. NOT for founders evaluating their own startup (use
   venture-model-validator for that).
+categories: ["business", "venture-capital", "fund-management"]
 metadata:
   author: lan-accelerator
   version: "1.0"

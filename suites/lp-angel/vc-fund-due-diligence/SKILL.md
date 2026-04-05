@@ -7,6 +7,7 @@ description: >
   key person, no-fault divorce), and vintage performance against Cambridge Associates
   and Carta benchmarks. NOT for GPs evaluating startups (use deal-memo-writer). NOT
   for founders evaluating their own startup (use venture-model-validator).
+categories: ["business", "investing", "due-diligence"]
 metadata:
   author: lan-accelerator
   version: "1.0"

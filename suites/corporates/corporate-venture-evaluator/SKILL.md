@@ -9,6 +9,7 @@ description: >
   CVC data. NOT for independent VC fund operators evaluating portfolio companies (use
   deal-memo-writer for that). NOT for founders seeking investment (use
   venture-model-validator for that).
+categories: ["business", "corporate-innovation", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

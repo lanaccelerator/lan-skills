@@ -7,6 +7,7 @@ description: >
   when they ask "are my unit economics good?" or "do I have healthy
   margins?". NOT for building financial models or revenue projections
   (use pitch-deck-builder for deck financials).
+categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

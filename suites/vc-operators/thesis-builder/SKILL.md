@@ -7,6 +7,7 @@ description: >
   portfolio construction model, or analyze their anti-portfolio.
   NOT for writing investment committee memos on specific deals
   (use deal-memo-writer for that).
+categories: ["business", "venture-capital", "fund-management"]
 metadata:
   author: lan-accelerator
   version: "1.0"

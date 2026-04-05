@@ -6,6 +6,7 @@ description: >
   LP report, portfolio performance summary, or ILPA-compliant fund
   update. NOT for writing investment committee memos on new deals
   (use deal-memo-writer for that).
+categories: ["business", "venture-capital", "fund-management"]
 metadata:
   author: lan-accelerator
   version: "1.0"

@@ -6,6 +6,7 @@ description: >
   asking for feedback, scoring, or improvement suggestions on a deck
   already built. NOT for creating a new deck from scratch (use
   pitch-deck-builder for that).
+categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

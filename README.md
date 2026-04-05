@@ -1,12 +1,18 @@
 # LAN Skills & Agents
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Skills](https://img.shields.io/badge/Skills-27-blue.svg)](#skill-catalog)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blueviolet.svg)](https://docs.anthropic.com/en/docs/claude-code)
+
 27 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
 
 Unlike roleplay-based AI tools, LAN Skills EXECUTE: they generate pitch decks, calculate unit economics, build data rooms, write deal memos, and design GTM strategies — grounded in industry-standard frameworks (YC, Sequoia, a16z, Brad Feld, ILPA) and calibrated to LATAM market benchmarks (LAVCA 2025, Cuantico 2026).
 
+**Repository:** [github.com/lan-accelerator/lan-skills](https://github.com/lan-accelerator/lan-skills)
+
 ## Install
 
-**3 steps:**
+**Option A: Clone + install script**
 
 ```bash
 # 1. Clone the repository
@@ -20,7 +26,13 @@ cd lan-skills
 # Then type / in Claude Code to see all available skills
 ```
 
-The installer copies all skills to `~/.claude/skills/`. No additional setup required.
+**Option B: npx (one-liner)**
+
+```bash
+npx lan-skills
+```
+
+The installer copies all 27 skills to `~/.claude/skills/`. No additional setup required.
 
 ### Verify Installation
 
@@ -32,52 +44,52 @@ Run this before committing any changes to verify all SKILL.md files are spec-com
 
 ## Skill Catalog
 
-### Startups (Suite)
+### Startups Suite (13 skills)
 
 | Skill | Command | Description |
 |-------|---------|-------------|
-| Venture Model Validator | `/venture-model-validator` | Startup venture-scale analysis. ALWAYS invoke when a user asks to evaluate if their startup is VC-backable, investable, or venture-scale. NOT for pitch deck creation or financial modeling. |
-| Pitch Deck Builder | `/pitch-deck-builder` | Startup investor presentation builder. ALWAYS invoke when a user wants to create, structure, or outline a pitch deck or investor presentation. NOT for reviewing an existing deck or validating the business model. |
-| Go-To-Market Strategist | `/go-to-market-strategist` | Startup go-to-market strategy designer. ALWAYS invoke when a user asks how to acquire customers, design a GTM plan, choose growth channels, or build a 90-day launch plan. NOT for pitch deck creation or unit economics calculation. |
-| Startup KPI Automator | `/startup-kpi-automator` | Startup KPI system designer. ALWAYS invoke when a user asks what metrics to track, how to build a KPI dashboard, or how to prepare an investor update. NOT for pitch deck creation or GTM strategy. |
-| Data Room Builder | `/data-room-builder` | Startup investor data room builder. ALWAYS invoke when a user asks what documents investors need, how to organize a data room, or wants to prepare for fundraising due diligence. NOT for pitch deck creation or GTM planning. |
-| Deck Reviewer | `/deck-reviewer` | Coming in Phase 2 |
-| Unit Economics Calculator | `/unit-economics-calculator` | Coming in Phase 2 |
-| Fundraising Readiness Audit | `/fundraising-readiness-audit` | Coming in Phase 2 |
-| Competitive Landscape Mapper | `/competitive-landscape-mapper` | Coming in Phase 2 |
-| Rapid MVP Builder | `/rapid-mvp-builder` | Coming in Phase 2 |
-| Sales Playbook Generator | `/sales-playbook-generator` | Coming in Phase 2 |
-| Pricing Strategy Designer | `/pricing-strategy-designer` | Coming in Phase 2 |
-| Fundraising Agent | `/fundraising-agent` | Coming in Phase 2 |
+| Venture Model Validator | `/venture-model-validator` | Evaluate if a startup is VC-backable using YC, Thiel, a16z PMF, and Sequoia frameworks |
+| Pitch Deck Builder | `/pitch-deck-builder` | Create investor presentations using Sequoia 10-slide, YC Series A, and Kawasaki 10-20-30 frameworks |
+| Go-To-Market Strategist | `/go-to-market-strategist` | Design GTM plans, choose growth channels, and build 90-day launch plans |
+| Startup KPI Automator | `/startup-kpi-automator` | Design KPI systems, build dashboards, and prepare investor updates |
+| Data Room Builder | `/data-room-builder` | Organize investor data rooms following Visible.vc template and NFX guide |
+| Deck Reviewer | `/deck-reviewer` | Per-slide pitch deck evaluation with scoring and improvement suggestions |
+| Unit Economics Calculator | `/unit-economics-calculator` | Calculate CAC, LTV, LTV/CAC, payback period, contribution margin, and break-even |
+| Fundraising Readiness Audit | `/fundraising-readiness-audit` | Pre-fundraise readiness assessment by stage — "am I ready to raise?" |
+| Competitive Landscape Mapper | `/competitive-landscape-mapper` | Map competitive landscape, analyze competitors, build competitive matrices |
+| Rapid MVP Builder | `/rapid-mvp-builder` | MVP design, feature prioritization with MoSCoW, and tech stack selection |
+| Sales Playbook Generator | `/sales-playbook-generator` | B2B sales process, prospecting sequences, objection handling, CRM setup |
+| Pricing Strategy Designer | `/pricing-strategy-designer` | Pricing models (subscription/usage/freemium), packaging tiers, willingness-to-pay |
+| Fundraising Agent | `/fundraising-agent` | End-to-end fundraising co-pilot — investor research, outreach, term sheet navigation |
 
-### VC Operators (Suite)
-
-| Skill | Command | Description |
-|-------|---------|-------------|
-| Deal Memo Writer | `/deal-memo-writer` | Coming in Phase 2 |
-| Portfolio Reporter | `/portfolio-reporter` | Coming in Phase 2 |
-| Term Sheet Generator | `/term-sheet-generator` | Coming in Phase 2 |
-| Fund Performance Analyzer | `/fund-performance-analyzer` | Coming in Phase 2 |
-| Thesis Builder | `/thesis-builder` | Coming in Phase 2 |
-
-### LP & Angel (Suite)
+### VC Operators Suite (5 skills)
 
 | Skill | Command | Description |
 |-------|---------|-------------|
-| Angel Investment Analyzer | `/angel-investment-analyzer` | LP and angel investor due diligence on startup deals. Produces a structured investment scorecard with thesis fit, red flags, LATAM comparables, and an INVEST / PASS / WATCH recommendation. |
-| VC Fund Due Diligence | `/vc-fund-due-diligence` | LP due diligence on VC funds and GPs. Analyzes GP track record, portfolio construction, fee structure, carry, hurdle, clawback, and key person terms against Cambridge Associates and Carta benchmarks. |
-| Portfolio Construction Advisor | `/portfolio-construction-advisor` | Angel and LP portfolio construction strategy. Covers allocation strategy, check sizes, diversification targets, reserve ratios, and expected return distribution using AngelList and Correlation Ventures data. |
-| LP Term Sheet Analyzer | `/lp-term-sheet-analyzer` | LP-side fund term sheet and LPA analysis. Evaluates management fee, carry, hurdle rate, GP commit, clawback, key person clause, and no-fault divorce from the investor's perspective. |
-| Startup Valuation Checker | `/startup-valuation-checker` | Startup valuation reasonableness analysis using multiple methods. Applies Damodaran revenue multiples, Berkus method, Bill Payne Scorecard, DCF, and LATAM comparable transaction data. |
+| Deal Memo Writer | `/deal-memo-writer` | Write IC memos with market analysis, team assessment, risk register, and invest/pass recommendation |
+| Portfolio Reporter | `/portfolio-reporter` | Generate LP quarterly reports, portfolio performance summaries, ILPA-compliant updates |
+| Term Sheet Generator | `/term-sheet-generator` | Draft priced round term sheets, review terms, negotiation levers, market standards |
+| Fund Performance Analyzer | `/fund-performance-analyzer` | Calculate TVPI, DPI, IRR, MOIC, PME — benchmark against vintage peers |
+| Thesis Builder | `/thesis-builder` | Articulate investment thesis, define pattern-matching criteria, portfolio construction models |
 
-### Corporates (Suite)
+### LP & Angel Suite (5 skills)
 
 | Skill | Command | Description |
 |-------|---------|-------------|
-| Open Innovation Scanner | `/open-innovation-scanner` | For CORPORATE INNOVATION TEAMS. Maps innovation opportunities, identifies startup solutions for a business problem, and evaluates strategic alignment using the Chesbrough Open Innovation framework and NESTA toolkit. |
-| Startup Solution Matcher | `/startup-solution-matcher` | For CORPORATE INNOVATION TEAMS. Produces a ranked shortlist of startups solving a specific business problem with pros/cons, pricing estimates, and integration complexity scores using CB Insights and Gartner methodology. |
-| Corporate Venture Evaluator | `/corporate-venture-evaluator` | For CORPORATE INNOVATION TEAMS. CVC readiness assessment covering strategic fit, financial return expectations, organizational readiness, and governance design using BCG and GCV Institute frameworks. |
-| Pilot Program Designer | `/pilot-program-designer` | For CORPORATE INNOVATION TEAMS. Designs a structured startup pilot program with SMART problem statement, KPIs, timeline, budget, governance, and MANDATORY kill criteria using Techstars, Wayra, and 500 Global frameworks. |
+| Angel Investment Analyzer | `/angel-investment-analyzer` | Due diligence on startup deals — scorecard with thesis fit, red flags, INVEST/PASS/WATCH |
+| VC Fund Due Diligence | `/vc-fund-due-diligence` | Evaluate VC funds and GPs — track record, portfolio construction, fee structure, terms |
+| Portfolio Construction Advisor | `/portfolio-construction-advisor` | Portfolio strategy — allocation, check sizes, diversification, reserve ratios, return distribution |
+| LP Term Sheet Analyzer | `/lp-term-sheet-analyzer` | Analyze fund term sheets and LPAs from the investor's perspective |
+| Startup Valuation Checker | `/startup-valuation-checker` | Valuation reasonableness using Damodaran, Berkus, Scorecard, DCF, and LATAM comparables |
+
+### Corporates Suite (4 skills)
+
+| Skill | Command | Description |
+|-------|---------|-------------|
+| Open Innovation Scanner | `/open-innovation-scanner` | Map innovation opportunities using Chesbrough Open Innovation framework and NESTA toolkit |
+| Startup Solution Matcher | `/startup-solution-matcher` | Ranked startup shortlists with pros/cons, pricing, and integration complexity (CB Insights/Gartner) |
+| Corporate Venture Evaluator | `/corporate-venture-evaluator` | CVC readiness assessment — strategic fit, financial returns, organizational readiness (BCG/GCV) |
+| Pilot Program Designer | `/pilot-program-designer` | Design structured startup pilots with KPIs, timeline, budget, and mandatory kill criteria |
 
 ## Validate Before Committing
 
@@ -102,6 +114,12 @@ Key requirements before a skill can merge:
 3. Skill tested with 5 natural-language phrasings for correct activation
 4. `shared/frameworks/latam-benchmarks.md` referenced in LATAM Context section
 5. `shared/frameworks/editorial-voice.md` referenced in Tone & Editorial Voice section
+
+## Credits
+
+Built by **[LAN Accelerator](https://lan.vc)** — a LATAM VC fund and startup accelerator.
+
+Frameworks and benchmarks sourced from YC, Sequoia, a16z, Brad Feld ("Venture Deals"), ILPA, LAVCA 2025, Cuantico 2026, Cambridge Associates, Carta, Bessemer Cloud Index, and OpenView SaaS Benchmarks.
 
 ## License
 

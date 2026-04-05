@@ -9,6 +9,7 @@ description: >
   prioritized innovation opportunity map. NOT for VC fund operators evaluating
   deals (use deal-memo-writer for that). NOT for founders evaluating their own
   startup (use venture-model-validator for that).
+categories: ["business", "corporate-innovation", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

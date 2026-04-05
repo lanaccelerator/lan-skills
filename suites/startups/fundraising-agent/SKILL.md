@@ -6,6 +6,7 @@ description: >
   fundraising, or closing a venture round. Covers investor research, outreach
   strategy, term sheet navigation, and closing. NOT for evaluating VC-backability
   (use venture-model-validator) or auditing readiness (use fundraising-readiness-audit).
+categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

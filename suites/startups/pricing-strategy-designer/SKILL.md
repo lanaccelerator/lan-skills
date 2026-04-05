@@ -7,6 +7,7 @@ description: >
   how to structure packaging tiers, or whether their current prices
   are right. NOT for calculating unit economics or LTV/CAC
   (use unit-economics-calculator for those calculations).
+categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

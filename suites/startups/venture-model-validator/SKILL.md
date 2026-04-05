@@ -6,6 +6,7 @@ description: >
   ask "is my startup fundable?" or "would VCs invest in this?" Applies YC idea
   evaluation, Thiel monopoly test, a16z PMF, Sequoia enduring companies, and
   Gurley market sizing. NOT for pitch deck creation or financial modeling.
+categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"

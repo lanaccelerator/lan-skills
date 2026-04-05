@@ -6,6 +6,7 @@ description: >
   wants a growth rate calculation template. Applies Bessemer Cloud Index,
   OpenView SaaS benchmarks, YC Standard Metrics, a16z 16 Metrics, and Carta
   KPI data. NOT for pitch deck creation or go-to-market strategy.
+categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
   version: "1.0"
