@@ -42,10 +42,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Suite 3: Startups — Remaining 7
 
-- [ ] **STRT-06**: deck-reviewer — Per-slide evaluation of existing deck: clarity, data, storytelling, design. Actionable feedback. Frameworks: DocSend 200K+ deck analysis, NFX teardowns, a16z pitch feedback
+- [x] **STRT-06**: deck-reviewer — Per-slide evaluation of existing deck: clarity, data, storytelling, design. Actionable feedback. Frameworks: DocSend 200K+ deck analysis, NFX teardowns, a16z pitch feedback
 - [x] **STRT-07**: unit-economics-calculator — Calculates CAC, LTV, LTV/CAC, payback, contribution margin, break-even with analysis. Frameworks: David Skok, Bessemer/OpenView SaaS benchmarks, YC unit economics
-- [ ] **STRT-08**: fundraising-readiness-audit — Evaluates readiness by stage: metrics, data room completeness, narrative, team gaps, comparable raises. Frameworks: YC "How to Raise Money", a16z fundraising guide, Carta data, First Round guides
-- [ ] **STRT-09**: competitive-landscape-mapper — 2x2 map, competitor profiles, differentiation matrix, defensibility analysis. Frameworks: Porter's Five Forces, a16z competitive analysis, CB Insights
+- [x] **STRT-08**: fundraising-readiness-audit — Evaluates readiness by stage: metrics, data room completeness, narrative, team gaps, comparable raises. Frameworks: YC "How to Raise Money", a16z fundraising guide, Carta data, First Round guides
+- [x] **STRT-09**: competitive-landscape-mapper — 2x2 map, competitor profiles, differentiation matrix, defensibility analysis. Frameworks: Porter's Five Forces, a16z competitive analysis, CB Insights
 - [ ] **STRT-10**: rapid-mvp-builder — MVP design: feature prioritization (MoSCoW), tech stack, build plan, launch checklist. Frameworks: Ries "Lean Startup", Pieter Levels, YC "Launch Now"
 - [ ] **STRT-11**: sales-playbook-generator — B2B sales playbook: prospecting, email sequences, objection handling, demo script, closing, CRM setup. Frameworks: Ross "Predictable Revenue", "Challenger Sale", Gong.io data
 - [ ] **STRT-12**: pricing-strategy-designer — Pricing strategy: value metrics, packaging, competitive pricing, freemium vs paid, usage-based vs subscription. Frameworks: Patrick Campbell (ProfitWell), OpenView pricing, Sequoia pricing, "Monetizing Innovation"
@@ -139,10 +139,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | STRT-03 | Phase 1 | Complete |
 | STRT-04 | Phase 1 | Complete |
 | STRT-05 | Phase 1 | Complete |
-| STRT-06 | Phase 2 | Pending |
+| STRT-06 | Phase 2 | Complete |
 | STRT-07 | Phase 2 | Complete |
-| STRT-08 | Phase 2 | Pending |
-| STRT-09 | Phase 2 | Pending |
+| STRT-08 | Phase 2 | Complete |
+| STRT-09 | Phase 2 | Complete |
 | STRT-10 | Phase 2 | Pending |
 | STRT-11 | Phase 2 | Pending |
 | STRT-12 | Phase 2 | Pending |

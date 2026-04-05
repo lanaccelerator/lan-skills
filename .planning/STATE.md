@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-03 fundraising-readiness-audit
-last_updated: "2026-04-05T04:10:40.428Z"
+stopped_at: Completed 02-02 deck-reviewer + competitive-landscape-mapper
+last_updated: "2026-04-05T04:15:11.772Z"
 last_activity: 2026-04-05
 progress:
   total_phases: 4
   completed_phases: 1
   total_plans: 14
-  completed_plans: 7
+  completed_plans: 8
   percent: 0
 ---
 
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-04-04)
 ## Current Position
 
 Phase: 02 (startup-expansion-vc-operators) — EXECUTING
-Plan: 3 of 9
+Plan: 4 of 9
 Status: Ready to execute
 Last activity: 2026-04-05
 
@@ -59,6 +59,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 01-foundation-startup-core P05 | 7 | 2 tasks | 8 files |
 | Phase 02-startup-expansion-vc-operators P01 | 15 | 2 tasks | 4 files |
 | Phase 02-startup-expansion-vc-operators P03 | 4 | 2 tasks | 4 files |
+| Phase 02-startup-expansion-vc-operators P02 | 22 | 2 tasks | 8 files |
 
 ## Accumulated Context
 
@@ -88,6 +89,8 @@ Recent decisions affecting current work:
 - [Phase 02-startup-expansion-vc-operators]: PayRoll MX (Mexico City SME payroll SaaS) chosen as unit-economics-calculator TEMPLATES.md example
 - [Phase 02-startup-expansion-vc-operators]: EduTech MX chosen as fundraising-readiness-audit TEMPLATES.md example — LATAM edtech at lower-quartile Seed metrics produces realistic CONDITIONAL verdict showing all 3 verdict states across 5 dimensions
 - [Phase 02-startup-expansion-vc-operators]: latam-comparable-raises.md is skill-specific enrichment over shared latam-benchmarks.md — adds deal tables, process norms, and timing data not in shared file
+- [Phase 02-startup-expansion-vc-operators]: ClimaAgro chosen as deck-reviewer TEMPLATES.md example — low-scoring deck with two FATAL flaws models the Conditional Pass verdict more instructively than a near-perfect deck
+- [Phase 02-startup-expansion-vc-operators]: TalentBR chosen as competitive-landscape-mapper TEMPLATES.md example — Brazilian HR tech has rich real competitive landscape (Workday, Gupy, Kenoby) enabling specific non-generic competitor profiles
 
 ### Pending Todos
 
@@ -101,6 +104,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-05T04:10:40.426Z
-Stopped at: Completed 02-03 fundraising-readiness-audit
+Last session: 2026-04-05T04:15:11.770Z
+Stopped at: Completed 02-02 deck-reviewer + competitive-landscape-mapper
 Resume file: None
