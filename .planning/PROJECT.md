@@ -12,7 +12,13 @@ Skills that EXECUTE real VC/startup workflows — not roleplay or chat, but acti
 
 ### Validated
 
-(None yet — ship to validate)
+- ✓ Repository infrastructure (install.sh, validate.sh, shared frameworks, README, contributor guide) — Phase 1
+- ✓ venture-model-validator — Phase 1
+- ✓ pitch-deck-builder — Phase 1
+- ✓ go-to-market-strategist — Phase 1
+- ✓ startup-kpi-automator — Phase 1
+- ✓ data-room-builder — Phase 1
+- ✓ Editorial voice / no-sugarcoating tone standard — Phase 1
 
 ### Active
 
@@ -116,4 +122,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-04 after initialization*
+*Last updated: 2026-04-05 after Phase 1 completion*
