@@ -58,7 +58,7 @@ Plans:
 - [x] 02-06-PLAN.md — deal-memo-writer (establishes vc-operators/ suite pattern)
 - [x] 02-07-PLAN.md — portfolio-reporter + fund-performance-analyzer (Carta Q1-2026 benchmarks)
 - [x] 02-08-PLAN.md — term-sheet-generator (dual GP/associate mode)
-- [ ] 02-09-PLAN.md — thesis-builder + fundraising-agent (completes Phase 2)
+- [x] 02-09-PLAN.md — thesis-builder + fundraising-agent (completes Phase 2)
 
 ### Phase 3: LP & Angel + Corporate Suites
 **Goal**: All 27 skills complete across all 4 suites — LP/Angel investors and corporate innovation teams can install and run their respective skills

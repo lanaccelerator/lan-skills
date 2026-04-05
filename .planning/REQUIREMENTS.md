@@ -49,15 +49,15 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **STRT-10**: rapid-mvp-builder — MVP design: feature prioritization (MoSCoW), tech stack, build plan, launch checklist. Frameworks: Ries "Lean Startup", Pieter Levels, YC "Launch Now"
 - [x] **STRT-11**: sales-playbook-generator — B2B sales playbook: prospecting, email sequences, objection handling, demo script, closing, CRM setup. Frameworks: Ross "Predictable Revenue", "Challenger Sale", Gong.io data
 - [x] **STRT-12**: pricing-strategy-designer — Pricing strategy: value metrics, packaging, competitive pricing, freemium vs paid, usage-based vs subscription. Frameworks: Patrick Campbell (ProfitWell), OpenView pricing, Sequoia pricing, "Monetizing Innovation"
-- [ ] **STRT-13**: fundraising-agent — Complete fundraising co-pilot: 3-phase workflow (Preparation → Fundraising → Closing). Investor research & targeting with web search, personalized outreach templates, meeting prep per partner, term sheet analysis from founder perspective. Integrates with venture-model-validator, pitch-deck-builder, data-room-builder, fundraising-readiness-audit, unit-economics-calculator. Includes references/lore-vc-framework.md (CC BY-NC-SA 4.0) and references/investor-research-guide.md. Frameworks: lore.vc "The Fundraising Lore", NFX Signal data, YC fundraising guides, a16z, Brad Feld "Venture Deals", Carta valuation data
+- [x] **STRT-13**: fundraising-agent — Complete fundraising co-pilot: 3-phase workflow (Preparation → Fundraising → Closing). Investor research & targeting with web search, personalized outreach templates, meeting prep per partner, term sheet analysis from founder perspective. Integrates with venture-model-validator, pitch-deck-builder, data-room-builder, fundraising-readiness-audit, unit-economics-calculator. Includes references/lore-vc-framework.md (CC BY-NC-SA 4.0) and references/investor-research-guide.md. Frameworks: lore.vc "The Fundraising Lore", NFX Signal data, YC fundraising guides, a16z, Brad Feld "Venture Deals", Carta valuation data
 
 ### Suite 4: VC Operators
 
 - [x] **VCOP-01**: deal-memo-writer — Investment committee memo: exec summary, market analysis, competitive landscape, team, financials, risks, recommendation. Frameworks: a16z deal memo, Benchmark partner meeting, Sequoia investment memo
-- [ ] **VCOP-02**: portfolio-reporter — LP quarterly reports: portfolio performance, follow-on analysis, reserve allocation. Frameworks: Carta analytics, Visible.vc reporting, ILPA reporting standards
+- [x] **VCOP-02**: portfolio-reporter — LP quarterly reports: portfolio performance, follow-on analysis, reserve allocation. Frameworks: Carta analytics, Visible.vc reporting, ILPA reporting standards
 - [x] **VCOP-03**: term-sheet-generator — Term sheet draft with market standards, term explanations, negotiation levers. Frameworks: Brad Feld "Venture Deals", NVCA model docs, YC SAFE, 500 Global KISS
-- [ ] **VCOP-04**: fund-performance-analyzer — Fund metrics: TVPI, DPI, IRR, PME, vintage comparison, attribution analysis. Frameworks: Cambridge Associates benchmarks, Preqin data, Kauffman returns
-- [ ] **VCOP-05**: thesis-builder — Investment thesis document: market sizing, pattern matching, anti-portfolio analysis. Frameworks: USV thesis, a16z thesis docs, Notation Capital framework, Lux Capital thesis
+- [x] **VCOP-04**: fund-performance-analyzer — Fund metrics: TVPI, DPI, IRR, PME, vintage comparison, attribution analysis. Frameworks: Cambridge Associates benchmarks, Preqin data, Kauffman returns
+- [x] **VCOP-05**: thesis-builder — Investment thesis document: market sizing, pattern matching, anti-portfolio analysis. Frameworks: USV thesis, a16z thesis docs, Notation Capital framework, Lux Capital thesis
 
 ### Suite 1: LP & Angel Investors
 
@@ -146,12 +146,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | STRT-10 | Phase 2 | Complete |
 | STRT-11 | Phase 2 | Complete |
 | STRT-12 | Phase 2 | Complete |
-| STRT-13 | Phase 2 | Pending |
+| STRT-13 | Phase 2 | Complete |
 | VCOP-01 | Phase 2 | Complete |
-| VCOP-02 | Phase 2 | Pending |
+| VCOP-02 | Phase 2 | Complete |
 | VCOP-03 | Phase 2 | Complete |
-| VCOP-04 | Phase 2 | Pending |
-| VCOP-05 | Phase 2 | Pending |
+| VCOP-04 | Phase 2 | Complete |
+| VCOP-05 | Phase 2 | Complete |
 | LPAN-01 | Phase 3 | Pending |
 | LPAN-02 | Phase 3 | Pending |
 | LPAN-03 | Phase 3 | Pending |
