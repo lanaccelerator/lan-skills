@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: planning
-stopped_at: Phase 1 context gathered
-last_updated: "2026-04-05T01:50:48.522Z"
-last_activity: 2026-04-04 — Roadmap created, ready to plan Phase 1
+status: executing
+stopped_at: Completed 01-01-PLAN.md
+last_updated: "2026-04-05T02:27:26.402Z"
+last_activity: 2026-04-05
 progress:
   total_phases: 4
   completed_phases: 0
-  total_plans: 0
-  completed_plans: 0
+  total_plans: 5
+  completed_plans: 1
   percent: 0
 ---
 
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-04)
 
 **Core value:** Skills that EXECUTE real VC/startup workflows — actionable outputs (scorecards, decks, memos) grounded in industry-standard frameworks and bibliography, not roleplay
-**Current focus:** Phase 1 — Foundation + Startup Core
+**Current focus:** Phase 01 — foundation-startup-core
 
 ## Current Position
 
-Phase: 1 of 4 (Foundation + Startup Core)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-04-04 — Roadmap created, ready to plan Phase 1
+Phase: 01 (foundation-startup-core) — EXECUTING
+Plan: 2 of 5
+Status: Ready to execute
+Last activity: 2026-04-05
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -52,6 +52,7 @@ Progress: [░░░░░░░░░░] 0%
 - Trend: —
 
 *Updated after each plan completion*
+| Phase 01 P01 | 2 | 2 tasks | 8 files |
 
 ## Accumulated Context
 
@@ -64,6 +65,8 @@ Recent decisions affecting current work:
 - [Init]: Separate repo (~/lan-skills/) — skills are their own product, independent of LAN OS backend
 - [Init]: SKILL.md format over code — prompt engineering, not software; markdown is portable and versionable
 - [Init]: Infrastructure guardrails (YAML linter, 500-line limit, TEMPLATES.md requirement) must be established in Phase 1 before any skill content is authored
+- [Phase 01]: Use ${HOME} not ~ in install.sh for platform safety (zsh on macOS, bash on Linux/WSL)
+- [Phase 01]: Add [ -f ] null-glob guard in validate.sh — bash expands unmatched glob to literal string causing grep to fail with set -euo pipefail
 
 ### Pending Todos
 
@@ -77,6 +80,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-05T01:50:48.519Z
-Stopped at: Phase 1 context gathered
-Resume file: .planning/phases/01-foundation-startup-core/01-CONTEXT.md
+Last session: 2026-04-05T02:27:26.400Z
+Stopped at: Completed 01-01-PLAN.md
+Resume file: None

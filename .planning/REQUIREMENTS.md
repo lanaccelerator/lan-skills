@@ -9,13 +9,13 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Infrastructure
 
-- [ ] **INFRA-01**: Repository has suites/ directory with 4 suite subdirectories (lp-angel, corporate, startup, vc-operator)
+- [x] **INFRA-01**: Repository has suites/ directory with 4 suite subdirectories (lp-angel, corporate, startup, vc-operator)
 - [ ] **INFRA-02**: Each skill is a self-contained directory with SKILL.md (YAML frontmatter + markdown body <500 lines)
 - [ ] **INFRA-03**: shared/frameworks/ directory contains canonical bibliography files referenced by multiple skills
-- [ ] **INFRA-04**: install.sh copies skills to ~/.claude/skills/ with platform-safe paths (${HOME} not ~), mkdir -p guards, per-skill success confirmation
+- [x] **INFRA-04**: install.sh copies skills to ~/.claude/skills/ with platform-safe paths (${HOME} not ~), mkdir -p guards, per-skill success confirmation
 - [ ] **INFRA-05**: README.md with project description, install instructions, full skill catalog with descriptions
-- [ ] **INFRA-06**: YAML frontmatter includes name, description (activation trigger <250 chars), and applicable Claude Code fields
-- [ ] **INFRA-07**: Every skill description uses three-component pattern: domain identifier + "ALWAYS invoke when" directive + negative constraint
+- [x] **INFRA-06**: YAML frontmatter includes name, description (activation trigger <250 chars), and applicable Claude Code fields
+- [x] **INFRA-07**: Every skill description uses three-component pattern: domain identifier + "ALWAYS invoke when" directive + negative constraint
 - [ ] **INFRA-08**: docs/how-to-create-skills.md contributor guide for authoring new skills
 
 ### Skill Quality Standards (apply to every skill)
@@ -115,13 +115,13 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INFRA-01 | Phase 1 | Pending |
+| INFRA-01 | Phase 1 | Complete |
 | INFRA-02 | Phase 1 | Pending |
 | INFRA-03 | Phase 1 | Pending |
-| INFRA-04 | Phase 1 | Pending |
+| INFRA-04 | Phase 1 | Complete |
 | INFRA-05 | Phase 1 | Pending |
-| INFRA-06 | Phase 1 | Pending |
-| INFRA-07 | Phase 1 | Pending |
+| INFRA-06 | Phase 1 | Complete |
+| INFRA-07 | Phase 1 | Complete |
 | INFRA-08 | Phase 1 | Pending |
 | QUAL-01 | Phase 1 | Pending |
 | QUAL-02 | Phase 1 | Pending |
