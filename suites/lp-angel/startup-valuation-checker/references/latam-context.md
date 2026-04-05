@@ -1,0 +1,121 @@
+# LATAM Startup Valuation Context
+
+**Purpose:** LATAM-specific valuation benchmarks and context for startup-valuation-checker
+Step 5. Provides the regional data layer that corrects for US benchmark anchoring.
+
+**When to use:** startup-valuation-checker — read this file BEFORE producing the final
+verdict to apply LATAM-specific benchmarks.
+
+---
+
+## Pre-Money Valuation Benchmarks by Stage
+
+| Stage      | LATAM Pre-Money Median       | US Pre-Money Median          | LATAM Discount | Source |
+|------------|------------------------------|------------------------------|----------------|--------|
+| Pre-revenue| $1.5–3M                      | $3–6M                        | ~50%           | LAVCA 2025 |
+| Pre-seed   | $3–5M                        | $6–9M                        | ~45%           | LAVCA 2025 / Carta 2024 |
+| Seed       | $6–10M                       | $12–18M                      | ~44%           | LAVCA 2025 / Carta 2024 |
+| Series A   | $15–25M                      | $30–50M                      | ~47%           | LAVCA 2025 / Carta 2024 |
+| Series B   | $40–80M                      | $80–150M                     | ~45%           | Cuantico 2026 |
+
+**Label all US figures:** `(US-sourced benchmark, Carta 2024)`
+**Label all LATAM figures:** `(LATAM, LAVCA 2025)` or `(LATAM, Cuantico 2026)`
+
+**The LATAM discount is NOT a quality signal.** LATAM companies at equivalent metrics
+to US peers are valued lower because:
+1. Exit multiples in LATAM M&A are lower (less competition among acquirers)
+2. IPO paths are limited (few LATAM unicorns list locally; NASDAQ requires USD revenue scale)
+3. Follow-on capital is scarcer at Series B+ in LATAM (less dry powder per company)
+4. FX risk adds discount rate premium for USD-denominated funds investing in local currency revenue
+
+---
+
+## Revenue Multiples by Sector and Stage (LATAM)
+
+| Sector       | Stage    | LATAM ARR Multiple | Notes |
+|--------------|----------|--------------------|-------|
+| SaaS (B2B)   | Pre-seed | 3–5×               | LAVCA 2025 |
+| SaaS (B2B)   | Seed     | 4–6×               | LAVCA 2025 |
+| SaaS (B2B)   | Series A | 5–8×               | LAVCA 2025 |
+| Fintech      | Pre-seed | 4–7×               | LAVCA 2025 (+20–30% to SaaS) |
+| Fintech      | Seed     | 5–8×               | LAVCA 2025 |
+| Edtech       | Seed     | 2–4×               | LAVCA 2025 (post-pandemic contraction) |
+| Healthtech   | Seed     | 3–5×               | LAVCA 2025 |
+| Logistics    | Seed     | 2–3×               | Cuantico 2026 |
+| Agtech       | Seed     | 2–4×               | Cuantico 2026 |
+| Marketplace  | Seed     | 1.5–3× GMV         | Revenue-based multiples vary; use GMV for marketplaces |
+
+**Fintech LATAM premium:** Regulated fintech (holding a CNBV, BACEN, or CMF license)
+commands a 20–30% premium over SaaS multiples because the regulatory moat creates a
+meaningful barrier to entry. Confirm the regulatory license exists before applying premium.
+
+---
+
+## US Benchmark Anchoring — The Most Common Valuation Error
+
+Founders who have participated in US accelerators (YC, Techstars, Latitud) frequently
+anchor on US cohort valuations:
+
+- "YC companies raise at $10–15M pre-money → my pre-seed should be $12M"
+- "My US competitor raised at 10× ARR → I should too"
+- "Carta data says Seed median is $15M → that is my benchmark"
+
+These comparisons are technically accurate for US companies and systematically wrong
+for LATAM-raising companies. LATAM investors closing rounds know the LAVCA median. The
+founder citing YC comps loses credibility, not gains it.
+
+**Exception:** If the startup has significant US revenue (>50% of ARR from US customers)
+or a US co-investor already in the round at a US-level valuation, then US benchmarks
+may be partially applicable. Flag this explicitly in the analysis.
+
+---
+
+## Country-Specific Adjustments
+
+| Country    | Adjustment vs. LATAM Median | Rationale |
+|------------|----------------------------|-----------|
+| Brazil     | At or above median          | Largest market; PIX infrastructure; deepest VC ecosystem |
+| Mexico     | At median                   | Strong fintech regulation (CNBV fintech law); second-largest market |
+| Colombia   | -5 to -15%                  | Growing ecosystem; smaller LP base; less follow-on capital |
+| Chile      | At or above median          | Strong institutional infrastructure; SQM/mining corporate LP base |
+| Peru       | -15 to -25%                 | Emerging VC ecosystem; limited LP base; political risk discount |
+| Argentina  | -25 to -40%                 | Peso instability; currency controls; investor risk premium |
+| Panama     | -10 to -20%                 | Small domestic market; used as legal vehicle hub |
+
+**Application:** When building the LATAM Comparable Transactions table, apply country
+adjustments to comparable valuations. A Colombian company at $4M Seed pre-money is
+roughly equivalent to a Brazilian company at $4.5–5M at the same metrics.
+
+---
+
+## Growth Rate Thresholds for Valuation Defense
+
+For founders defending a STRETCHED valuation, these growth rates support premium pricing:
+
+| Stage    | Revenue Growth Rate | Valuation Impact |
+|----------|---------------------|------------------|
+| Pre-seed | >25% MoM (if any ARR) | Supports 2× median LATAM multiple |
+| Seed     | >15% MoM ARR        | Supports 1.5× LATAM median multiple |
+| Seed     | 10–15% MoM ARR      | Supports LATAM median multiple |
+| Seed     | <10% MoM ARR        | Below median multiple; difficult to argue premium |
+| Series A | >100% ARR YoY       | Supports 1.5× LATAM Series A median |
+| Series A | 60–100% ARR YoY     | Supports LATAM Series A median |
+
+**For investors:** These thresholds define when a premium over median is earned. If a
+startup asks for a 2× median valuation without 2× median growth, the premium is speculative.
+Request evidence of growth rate sustainability (3 consecutive months at stated rate).
+
+---
+
+## Common LATAM Valuation Red Flags
+
+**For investors evaluating a deal:**
+- Pre-seed company with zero ARR asking >$6M pre-money → OVERPRICED unless exceptional team
+- Seed company with $500k ARR asking >$8M pre-money → requires 20%+ MoM growth to justify
+- Founder citing US comparable transactions without LATAM adjustment → anchoring error; no credibility adjustment
+- Revenue recognized in local currency, valuation denominated in USD without FX adjustment → inflated USD ARR
+
+**For founders defending an ask:**
+- Asking above LATAM median without evidence → will fail in term sheet negotiation
+- Using YC demo day comps without US investors in the round → sophisticated LATAM investors will discount
+- No LATAM-specific comparables in your investor deck → leaves credibility gap
