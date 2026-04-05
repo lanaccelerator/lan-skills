@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: verifying
-stopped_at: Phase 2 context gathered
-last_updated: "2026-04-05T03:25:05.054Z"
+status: executing
+stopped_at: Completed 02-01 unit-economics-calculator
+last_updated: "2026-04-05T04:03:46.970Z"
 last_activity: 2026-04-05
 progress:
   total_phases: 4
   completed_phases: 1
-  total_plans: 5
-  completed_plans: 5
+  total_plans: 14
+  completed_plans: 6
   percent: 0
 ---
 
@@ -21,13 +21,13 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-04)
 
 **Core value:** Skills that EXECUTE real VC/startup workflows — actionable outputs (scorecards, decks, memos) grounded in industry-standard frameworks and bibliography, not roleplay
-**Current focus:** Phase 01 — foundation-startup-core
+**Current focus:** Phase 02 — startup-expansion-vc-operators
 
 ## Current Position
 
-Phase: 2
-Plan: Not started
-Status: Phase complete — ready for verification
+Phase: 02 (startup-expansion-vc-operators) — EXECUTING
+Plan: 2 of 9
+Status: Ready to execute
 Last activity: 2026-04-05
 
 Progress: [░░░░░░░░░░] 0%
@@ -57,6 +57,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 01-foundation-startup-core P03 | 8 | 2 tasks | 5 files |
 | Phase 01-foundation-startup-core P04 | 12 | 2 tasks | 8 files |
 | Phase 01-foundation-startup-core P05 | 7 | 2 tasks | 8 files |
+| Phase 02-startup-expansion-vc-operators P01 | 15 | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -82,6 +83,8 @@ Recent decisions affecting current work:
 - [Phase 01-foundation-startup-core]: TEMPLATES.md examples use real LATAM company analogues (Alegra, Konfío) not fictitious companies — produces higher-quality output targets
 - [Phase 01-foundation-startup-core]: startup-kpi-automator TEMPLATES.md uses InvoiceFlow (Mexico invoicing SaaS, $180k ARR) as the hypothetical example — industry-grounded examples produce higher-quality output targets than generic placeholders
 - [Phase 01-foundation-startup-core]: data-room-builder adds 07-latam-legal/ as a standard folder — IP assignment agreements are the #1 LATAM Seed due diligence failure and warrant structural emphasis in the skill template
+- [Phase 02-startup-expansion-vc-operators]: Gross-margin-adjusted LTV (ARPA x Gross Margin % / Monthly Churn Rate) is canonical — revenue-based LTV flagged as RED FLAG anti-pattern
+- [Phase 02-startup-expansion-vc-operators]: PayRoll MX (Mexico City SME payroll SaaS) chosen as unit-economics-calculator TEMPLATES.md example
 
 ### Pending Todos
 
@@ -95,6 +98,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-05T03:25:05.047Z
-Stopped at: Phase 2 context gathered
-Resume file: .planning/phases/02-startup-expansion-vc-operators/02-CONTEXT.md
+Last session: 2026-04-05T04:03:46.967Z
+Stopped at: Completed 02-01 unit-economics-calculator
+Resume file: None

@@ -50,7 +50,7 @@ Plans:
 **Plans**: 9 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — unit-economics-calculator (CAC/LTV/payback/contribution margin/break-even)
+- [x] 02-01-PLAN.md — unit-economics-calculator (CAC/LTV/payback/contribution margin/break-even)
 - [ ] 02-02-PLAN.md — deck-reviewer + competitive-landscape-mapper
 - [ ] 02-03-PLAN.md — fundraising-readiness-audit (5-dimension, READY/CONDITIONAL/NOT READY)
 - [ ] 02-04-PLAN.md — rapid-mvp-builder + pricing-strategy-designer
@@ -91,6 +91,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation + Startup Core | 5/5 | Complete   | 2026-04-05 |
-| 2. Startup Expansion + VC Operators | 0/9 | Not started | - |
+| 2. Startup Expansion + VC Operators | 1/9 | In Progress|  |
 | 3. LP & Angel + Corporate Suites | 0/TBD | Not started | - |
 | 4. LAN OS Integration | 0/TBD | Not started | - |
