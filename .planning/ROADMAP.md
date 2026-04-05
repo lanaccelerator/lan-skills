@@ -69,7 +69,15 @@ Plans:
   2. lp-term-sheet-analyzer references brad-feld-terms.md (the shared framework file already built for term-sheet-generator in Phase 2) without duplicating content
   3. All 4 Corporate skills activate for corporate innovation roles and include a LATAM Context section with corporate-specific benchmarks
   4. Running `./install.sh` installs all 27 skills across 4 suite directories with per-skill success confirmations
-**Plans**: TBD
+**Plans**: 6 plans
+
+Plans:
+- [ ] 03-01-PLAN.md — angel-investment-analyzer (LP/Angel suite pattern-setter, investor-side scorecard)
+- [ ] 03-02-PLAN.md — vc-fund-due-diligence + portfolio-construction-advisor (fund evaluation + portfolio math)
+- [ ] 03-03-PLAN.md — lp-term-sheet-analyzer + startup-valuation-checker (completes LP/Angel suite)
+- [ ] 03-04-PLAN.md — open-innovation-scanner (Corporate suite pattern-setter, new audience voice)
+- [ ] 03-05-PLAN.md — startup-solution-matcher + corporate-venture-evaluator (corporate evaluation skills)
+- [ ] 03-06-PLAN.md — pilot-program-designer + README update + install verification (completes Phase 3)
 
 ### Phase 4: LAN OS Integration
 **Goal**: LAN OS platform surfaces all 27 skills with a discovery UI and in-platform AI assistant that routes skill invocations through BYOK billing
@@ -92,5 +100,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Foundation + Startup Core | 5/5 | Complete   | 2026-04-05 |
 | 2. Startup Expansion + VC Operators | 8/9 | In Progress|  |
-| 3. LP & Angel + Corporate Suites | 0/TBD | Not started | - |
+| 3. LP & Angel + Corporate Suites | 0/6 | Not started | - |
 | 4. LAN OS Integration | 0/TBD | Not started | - |
