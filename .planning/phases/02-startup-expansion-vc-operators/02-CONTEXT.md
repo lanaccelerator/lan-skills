@@ -82,6 +82,9 @@ All decisions D-01 through D-16 from Phase 1 CONTEXT.md remain locked and apply 
 ### Carta Fund Performance Data (MUST READ)
 - `references/carta-fund-performance-q1-2026.pdf` — Carta Fund Performance report with real IRR, TVPI, DPI benchmarks by vintage year and percentile. Incorporate these actual market benchmarks into VC operator skills (fund-performance-analyzer, portfolio-reporter) and LP skills (Phase 3). This is real data, not estimates.
 
+### Digital Transformation Report (available for Phase 3 Corporate suite)
+- `references/digital-transformation-2025.pdf` — Digital Transformation Report 2025. Primary use: Phase 3 corporate skills. May inform competitive-landscape-mapper and rapid-mvp-builder in Phase 2 if relevant industry context is found.
+
 </canonical_refs>
 
 <code_context>
