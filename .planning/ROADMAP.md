@@ -53,7 +53,7 @@ Plans:
 - [x] 02-01-PLAN.md — unit-economics-calculator (CAC/LTV/payback/contribution margin/break-even)
 - [x] 02-02-PLAN.md — deck-reviewer + competitive-landscape-mapper
 - [x] 02-03-PLAN.md — fundraising-readiness-audit (5-dimension, READY/CONDITIONAL/NOT READY)
-- [ ] 02-04-PLAN.md — rapid-mvp-builder + pricing-strategy-designer
+- [x] 02-04-PLAN.md — rapid-mvp-builder + pricing-strategy-designer
 - [x] 02-05-PLAN.md — sales-playbook-generator (WhatsApp-primary LATAM B2B playbook)
 - [ ] 02-06-PLAN.md — deal-memo-writer (establishes vc-operators/ suite pattern)
 - [ ] 02-07-PLAN.md — portfolio-reporter + fund-performance-analyzer (Carta Q1-2026 benchmarks)

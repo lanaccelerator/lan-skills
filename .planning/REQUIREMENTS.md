@@ -46,9 +46,9 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **STRT-07**: unit-economics-calculator — Calculates CAC, LTV, LTV/CAC, payback, contribution margin, break-even with analysis. Frameworks: David Skok, Bessemer/OpenView SaaS benchmarks, YC unit economics
 - [x] **STRT-08**: fundraising-readiness-audit — Evaluates readiness by stage: metrics, data room completeness, narrative, team gaps, comparable raises. Frameworks: YC "How to Raise Money", a16z fundraising guide, Carta data, First Round guides
 - [x] **STRT-09**: competitive-landscape-mapper — 2x2 map, competitor profiles, differentiation matrix, defensibility analysis. Frameworks: Porter's Five Forces, a16z competitive analysis, CB Insights
-- [ ] **STRT-10**: rapid-mvp-builder — MVP design: feature prioritization (MoSCoW), tech stack, build plan, launch checklist. Frameworks: Ries "Lean Startup", Pieter Levels, YC "Launch Now"
+- [x] **STRT-10**: rapid-mvp-builder — MVP design: feature prioritization (MoSCoW), tech stack, build plan, launch checklist. Frameworks: Ries "Lean Startup", Pieter Levels, YC "Launch Now"
 - [x] **STRT-11**: sales-playbook-generator — B2B sales playbook: prospecting, email sequences, objection handling, demo script, closing, CRM setup. Frameworks: Ross "Predictable Revenue", "Challenger Sale", Gong.io data
-- [ ] **STRT-12**: pricing-strategy-designer — Pricing strategy: value metrics, packaging, competitive pricing, freemium vs paid, usage-based vs subscription. Frameworks: Patrick Campbell (ProfitWell), OpenView pricing, Sequoia pricing, "Monetizing Innovation"
+- [x] **STRT-12**: pricing-strategy-designer — Pricing strategy: value metrics, packaging, competitive pricing, freemium vs paid, usage-based vs subscription. Frameworks: Patrick Campbell (ProfitWell), OpenView pricing, Sequoia pricing, "Monetizing Innovation"
 - [ ] **STRT-13**: fundraising-agent — Complete fundraising co-pilot: 3-phase workflow (Preparation → Fundraising → Closing). Investor research & targeting with web search, personalized outreach templates, meeting prep per partner, term sheet analysis from founder perspective. Integrates with venture-model-validator, pitch-deck-builder, data-room-builder, fundraising-readiness-audit, unit-economics-calculator. Includes references/lore-vc-framework.md (CC BY-NC-SA 4.0) and references/investor-research-guide.md. Frameworks: lore.vc "The Fundraising Lore", NFX Signal data, YC fundraising guides, a16z, Brad Feld "Venture Deals", Carta valuation data
 
 ### Suite 4: VC Operators
@@ -143,9 +143,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | STRT-07 | Phase 2 | Complete |
 | STRT-08 | Phase 2 | Complete |
 | STRT-09 | Phase 2 | Complete |
-| STRT-10 | Phase 2 | Pending |
+| STRT-10 | Phase 2 | Complete |
 | STRT-11 | Phase 2 | Complete |
-| STRT-12 | Phase 2 | Pending |
+| STRT-12 | Phase 2 | Complete |
 | STRT-13 | Phase 2 | Pending |
 | VCOP-01 | Phase 2 | Pending |
 | VCOP-02 | Phase 2 | Pending |
