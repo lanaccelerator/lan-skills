@@ -55,7 +55,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [x] **VCOP-01**: deal-memo-writer — Investment committee memo: exec summary, market analysis, competitive landscape, team, financials, risks, recommendation. Frameworks: a16z deal memo, Benchmark partner meeting, Sequoia investment memo
 - [ ] **VCOP-02**: portfolio-reporter — LP quarterly reports: portfolio performance, follow-on analysis, reserve allocation. Frameworks: Carta analytics, Visible.vc reporting, ILPA reporting standards
-- [ ] **VCOP-03**: term-sheet-generator — Term sheet draft with market standards, term explanations, negotiation levers. Frameworks: Brad Feld "Venture Deals", NVCA model docs, YC SAFE, 500 Global KISS
+- [x] **VCOP-03**: term-sheet-generator — Term sheet draft with market standards, term explanations, negotiation levers. Frameworks: Brad Feld "Venture Deals", NVCA model docs, YC SAFE, 500 Global KISS
 - [ ] **VCOP-04**: fund-performance-analyzer — Fund metrics: TVPI, DPI, IRR, PME, vintage comparison, attribution analysis. Frameworks: Cambridge Associates benchmarks, Preqin data, Kauffman returns
 - [ ] **VCOP-05**: thesis-builder — Investment thesis document: market sizing, pattern matching, anti-portfolio analysis. Frameworks: USV thesis, a16z thesis docs, Notation Capital framework, Lux Capital thesis
 
@@ -149,7 +149,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | STRT-13 | Phase 2 | Pending |
 | VCOP-01 | Phase 2 | Complete |
 | VCOP-02 | Phase 2 | Pending |
-| VCOP-03 | Phase 2 | Pending |
+| VCOP-03 | Phase 2 | Complete |
 | VCOP-04 | Phase 2 | Pending |
 | VCOP-05 | Phase 2 | Pending |
 | LPAN-01 | Phase 3 | Pending |

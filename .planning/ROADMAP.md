@@ -57,7 +57,7 @@ Plans:
 - [x] 02-05-PLAN.md — sales-playbook-generator (WhatsApp-primary LATAM B2B playbook)
 - [x] 02-06-PLAN.md — deal-memo-writer (establishes vc-operators/ suite pattern)
 - [ ] 02-07-PLAN.md — portfolio-reporter + fund-performance-analyzer (Carta Q1-2026 benchmarks)
-- [ ] 02-08-PLAN.md — term-sheet-generator (dual GP/associate mode)
+- [x] 02-08-PLAN.md — term-sheet-generator (dual GP/associate mode)
 - [ ] 02-09-PLAN.md — thesis-builder + fundraising-agent (completes Phase 2)
 
 ### Phase 3: LP & Angel + Corporate Suites
@@ -91,6 +91,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation + Startup Core | 5/5 | Complete   | 2026-04-05 |
-| 2. Startup Expansion + VC Operators | 6/9 | In Progress|  |
+| 2. Startup Expansion + VC Operators | 7/9 | In Progress|  |
 | 3. LP & Angel + Corporate Suites | 0/TBD | Not started | - |
 | 4. LAN OS Integration | 0/TBD | Not started | - |
