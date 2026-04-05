@@ -19,6 +19,12 @@ Skills that EXECUTE real VC/startup workflows — not roleplay or chat, but acti
 - ✓ startup-kpi-automator — Phase 1
 - ✓ data-room-builder — Phase 1
 - ✓ Editorial voice / no-sugarcoating tone standard — Phase 1
+- ✓ deck-reviewer, unit-economics-calculator, fundraising-readiness-audit — Phase 2
+- ✓ competitive-landscape-mapper, rapid-mvp-builder, sales-playbook-generator — Phase 2
+- ✓ pricing-strategy-designer, fundraising-agent (3-phase lore.vc co-pilot) — Phase 2
+- ✓ deal-memo-writer (with Decile Hub template + LATAM corporate structure flag) — Phase 2
+- ✓ portfolio-reporter, fund-performance-analyzer (Carta Q1-2026 benchmarks) — Phase 2
+- ✓ term-sheet-generator (dual GP/associate mode), thesis-builder — Phase 2
 
 ### Active
 
@@ -122,4 +128,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-05 after Phase 1 completion*
+*Last updated: 2026-04-05 after Phase 2 completion*
