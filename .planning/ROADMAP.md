@@ -47,7 +47,18 @@ Plans:
   2. deck-reviewer and pitch-deck-builder activate on distinct natural-language inputs without cross-triggering each other
   3. deal-memo-writer (VC analyst perspective) and pitch-deck-builder (founder perspective) are explicitly distinguished by audience in their descriptions and do not cross-activate
   4. All 5 VC Operator skills produce work products (memos, term sheets, reports) grounded in verified bibliographic sources with accessible URLs
-**Plans**: TBD
+**Plans**: 9 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — unit-economics-calculator (CAC/LTV/payback/contribution margin/break-even)
+- [ ] 02-02-PLAN.md — deck-reviewer + competitive-landscape-mapper
+- [ ] 02-03-PLAN.md — fundraising-readiness-audit (5-dimension, READY/CONDITIONAL/NOT READY)
+- [ ] 02-04-PLAN.md — rapid-mvp-builder + pricing-strategy-designer
+- [ ] 02-05-PLAN.md — sales-playbook-generator (WhatsApp-primary LATAM B2B playbook)
+- [ ] 02-06-PLAN.md — deal-memo-writer (establishes vc-operators/ suite pattern)
+- [ ] 02-07-PLAN.md — portfolio-reporter + fund-performance-analyzer (Carta Q1-2026 benchmarks)
+- [ ] 02-08-PLAN.md — term-sheet-generator (dual GP/associate mode)
+- [ ] 02-09-PLAN.md — thesis-builder + fundraising-agent (completes Phase 2)
 
 ### Phase 3: LP & Angel + Corporate Suites
 **Goal**: All 27 skills complete across all 4 suites — LP/Angel investors and corporate innovation teams can install and run their respective skills
@@ -80,6 +91,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation + Startup Core | 5/5 | Complete   | 2026-04-05 |
-| 2. Startup Expansion + VC Operators | 0/TBD | Not started | - |
+| 2. Startup Expansion + VC Operators | 0/9 | Not started | - |
 | 3. LP & Angel + Corporate Suites | 0/TBD | Not started | - |
 | 4. LAN OS Integration | 0/TBD | Not started | - |
