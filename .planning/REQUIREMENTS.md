@@ -113,61 +113,61 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INFRA-01 | TBD | Pending |
-| INFRA-02 | TBD | Pending |
-| INFRA-03 | TBD | Pending |
-| INFRA-04 | TBD | Pending |
-| INFRA-05 | TBD | Pending |
-| INFRA-06 | TBD | Pending |
-| INFRA-07 | TBD | Pending |
-| INFRA-08 | TBD | Pending |
-| QUAL-01 | TBD | Pending |
-| QUAL-02 | TBD | Pending |
-| QUAL-03 | TBD | Pending |
-| QUAL-04 | TBD | Pending |
-| QUAL-05 | TBD | Pending |
-| QUAL-06 | TBD | Pending |
-| QUAL-07 | TBD | Pending |
-| QUAL-08 | TBD | Pending |
-| QUAL-09 | TBD | Pending |
-| QUAL-10 | TBD | Pending |
-| STRT-01 | TBD | Pending |
-| STRT-02 | TBD | Pending |
-| STRT-03 | TBD | Pending |
-| STRT-04 | TBD | Pending |
-| STRT-05 | TBD | Pending |
-| STRT-06 | TBD | Pending |
-| STRT-07 | TBD | Pending |
-| STRT-08 | TBD | Pending |
-| STRT-09 | TBD | Pending |
-| STRT-10 | TBD | Pending |
-| STRT-11 | TBD | Pending |
-| STRT-12 | TBD | Pending |
-| VCOP-01 | TBD | Pending |
-| VCOP-02 | TBD | Pending |
-| VCOP-03 | TBD | Pending |
-| VCOP-04 | TBD | Pending |
-| VCOP-05 | TBD | Pending |
-| LPAN-01 | TBD | Pending |
-| LPAN-02 | TBD | Pending |
-| LPAN-03 | TBD | Pending |
-| LPAN-04 | TBD | Pending |
-| LPAN-05 | TBD | Pending |
-| CORP-01 | TBD | Pending |
-| CORP-02 | TBD | Pending |
-| CORP-03 | TBD | Pending |
-| CORP-04 | TBD | Pending |
-| LANOS-01 | TBD | Pending |
-| LANOS-02 | TBD | Pending |
-| LANOS-03 | TBD | Pending |
-| LANOS-04 | TBD | Pending |
-| LANOS-05 | TBD | Pending |
+| INFRA-01 | Phase 1 | Pending |
+| INFRA-02 | Phase 1 | Pending |
+| INFRA-03 | Phase 1 | Pending |
+| INFRA-04 | Phase 1 | Pending |
+| INFRA-05 | Phase 1 | Pending |
+| INFRA-06 | Phase 1 | Pending |
+| INFRA-07 | Phase 1 | Pending |
+| INFRA-08 | Phase 1 | Pending |
+| QUAL-01 | Phase 1 | Pending |
+| QUAL-02 | Phase 1 | Pending |
+| QUAL-03 | Phase 1 | Pending |
+| QUAL-04 | Phase 1 | Pending |
+| QUAL-05 | Phase 1 | Pending |
+| QUAL-06 | Phase 1 | Pending |
+| QUAL-07 | Phase 1 | Pending |
+| QUAL-08 | Phase 1 | Pending |
+| QUAL-09 | Phase 1 | Pending |
+| QUAL-10 | Phase 1 | Pending |
+| STRT-01 | Phase 1 | Pending |
+| STRT-02 | Phase 1 | Pending |
+| STRT-03 | Phase 1 | Pending |
+| STRT-04 | Phase 1 | Pending |
+| STRT-05 | Phase 1 | Pending |
+| STRT-06 | Phase 2 | Pending |
+| STRT-07 | Phase 2 | Pending |
+| STRT-08 | Phase 2 | Pending |
+| STRT-09 | Phase 2 | Pending |
+| STRT-10 | Phase 2 | Pending |
+| STRT-11 | Phase 2 | Pending |
+| STRT-12 | Phase 2 | Pending |
+| VCOP-01 | Phase 2 | Pending |
+| VCOP-02 | Phase 2 | Pending |
+| VCOP-03 | Phase 2 | Pending |
+| VCOP-04 | Phase 2 | Pending |
+| VCOP-05 | Phase 2 | Pending |
+| LPAN-01 | Phase 3 | Pending |
+| LPAN-02 | Phase 3 | Pending |
+| LPAN-03 | Phase 3 | Pending |
+| LPAN-04 | Phase 3 | Pending |
+| LPAN-05 | Phase 3 | Pending |
+| CORP-01 | Phase 3 | Pending |
+| CORP-02 | Phase 3 | Pending |
+| CORP-03 | Phase 3 | Pending |
+| CORP-04 | Phase 3 | Pending |
+| LANOS-01 | Phase 4 | Pending |
+| LANOS-02 | Phase 4 | Pending |
+| LANOS-03 | Phase 4 | Pending |
+| LANOS-04 | Phase 4 | Pending |
+| LANOS-05 | Phase 4 | Pending |
 
 **Coverage:**
 - v1 requirements: 49 total
-- Mapped to phases: 0
-- Unmapped: 49 (pending roadmap creation)
+- Mapped to phases: 49
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-04-04*
-*Last updated: 2026-04-04 after initial definition*
+*Last updated: 2026-04-04 after roadmap creation*
