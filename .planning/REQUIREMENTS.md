@@ -62,8 +62,8 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Suite 1: LP & Angel Investors
 
 - [x] **LPAN-01**: angel-investment-analyzer — Scorecard with investment criteria, red flags, comparables, thesis fit. Frameworks: Jason Calacanis "Angel", AngelList methodology, Naval Ravikant
-- [ ] **LPAN-02**: vc-fund-due-diligence — GP track record, portfolio construction, fee structure, terms (carry, hurdle, clawback), vintage analysis. Frameworks: Kauffman Foundation, Cambridge Associates, ILPA best practices
-- [ ] **LPAN-03**: portfolio-construction-advisor — Allocation, check sizes, diversification, reserve strategy. Frameworks: AngelList data, Correlation Ventures, Peter Thiel concentrated vs diversified
+- [x] **LPAN-02**: vc-fund-due-diligence — GP track record, portfolio construction, fee structure, terms (carry, hurdle, clawback), vintage analysis. Frameworks: Kauffman Foundation, Cambridge Associates, ILPA best practices
+- [x] **LPAN-03**: portfolio-construction-advisor — Allocation, check sizes, diversification, reserve strategy. Frameworks: AngelList data, Correlation Ventures, Peter Thiel concentrated vs diversified
 - [ ] **LPAN-04**: lp-term-sheet-analyzer — Management fee, carry, preferred return, GP commit, key person, no-fault divorce, clawback analysis. Frameworks: ILPA Model LPA, Brad Feld "Venture Deals"
 - [ ] **LPAN-05**: startup-valuation-checker — Valuation reasonableness via multiple methods: revenue multiples, comparables, DCF, Berkus, Scorecard method. Frameworks: Damodaran (NYU), Bill Payne, Dave Berkus, a16z valuation
 
@@ -153,8 +153,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | VCOP-04 | Phase 2 | Complete |
 | VCOP-05 | Phase 2 | Complete |
 | LPAN-01 | Phase 3 | Complete |
-| LPAN-02 | Phase 3 | Pending |
-| LPAN-03 | Phase 3 | Pending |
+| LPAN-02 | Phase 3 | Complete |
+| LPAN-03 | Phase 3 | Complete |
 | LPAN-04 | Phase 3 | Pending |
 | LPAN-05 | Phase 3 | Pending |
 | CORP-01 | Phase 3 | Pending |
