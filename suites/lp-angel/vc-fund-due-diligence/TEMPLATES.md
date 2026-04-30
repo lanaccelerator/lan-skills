@@ -130,7 +130,7 @@ allocation).
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. **Request audited Fund I financials within 10 business days** — specifically: DPI breakdown
    by portfolio company, confirmation that all exits are realized (not secondary sales to GP

@@ -80,7 +80,7 @@ eligibility assuming execution.
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. Conduct 20 customer discovery interviews with Mexican SMEs (5–50 employees) to identify
    the single biggest pain point in expense management — find the one workflow where

@@ -170,7 +170,7 @@ at least 5 of the top-performing deals.
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. **Audit existing 6 deals within 30 days** — For each company: confirm current ownership
    percentage (fully diluted), verify whether pro-rata rights exist in the investment

@@ -82,7 +82,7 @@ with and which it exceeds. Be specific about the multiple gap if OVERPRICED.]
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 [3 audience-specific actions]
 
@@ -227,7 +227,7 @@ that exit before earning a premium valuation.
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 *For EduSign Brasil (Founder perspective):*
 

@@ -14,7 +14,7 @@ or field order. This example is fully worked through.
 
 **Company:** Grupo Sura (Medellín, Colombia) — insurance, investments, and banking conglomerate
 **Revenue:** ~$4B USD | **Sector:** Financial services (insurtech, wealthtech, pension management)
-**CVC Lead:** Diego Morales, Gerente de Desarrollo Corporativo
+**CVC Lead:** Diego Morales, Corporate Development Manager
 **Proposed Program:** $30M CVC focused on insurtech and wealthtech over 7 years
 **Assessment Date:** April 2026
 
@@ -147,7 +147,7 @@ captive CVC (for Fund II) is warranted or whether the LP + co-investment model i
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. **Secure board approval for 8-year CVC horizon by Q2 2026.** Diego must present the
    "strategic cost of not investing" framing to the board. The question is not "what is the

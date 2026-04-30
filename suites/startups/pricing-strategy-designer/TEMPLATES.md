@@ -158,7 +158,7 @@ advance notice.
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. **Raise prices for all new customers immediately.** Stop signing customers at $25. The
    market rate for this category is $49-149. DocuFlux's 4 current customers signed at $25

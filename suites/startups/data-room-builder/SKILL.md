@@ -87,7 +87,7 @@ Execute in this exact order:
    [references/latam-context.md](references/latam-context.md) — LATAM VCs
    and family office LPs have distinct due diligence requirements
 10. Output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
-11. End with Próximos Pasos
+11. End with Next Steps
 
 ## Step 4: Output Format
 
@@ -101,7 +101,7 @@ Output must include:
 - Completeness scorecard (% complete, blocking items)
 - Base templates for top 3 missing documents
 - LATAM Context box (jurisdiction-specific additions)
-- Próximos Pasos
+- Next Steps
 
 ## Step 5: LATAM Context
 
@@ -123,10 +123,10 @@ See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-b
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 End EVERY output with a prioritized list of which documents to complete first,
-based on the completeness scorecard. Use the header `## Próximos Pasos`.
+based on the completeness scorecard. Use the header `## Next Steps`.
 
 Priority order: BLOCKING items first (investors will halt due diligence without
 these), then RECOMMENDED items (strong preference but negotiable), then

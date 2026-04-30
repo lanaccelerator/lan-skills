@@ -115,7 +115,7 @@ Execute in this exact order:
 6. Flag each metric below threshold as `[BELOW BENCHMARK]` with the specific target and gap
 7. Read [references/latam-context.md](references/latam-context.md) and apply LATAM annotations before producing final output
 8. Produce output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
-9. End with Próximos Pasos addressing the lowest-performing metric first
+9. End with Next Steps addressing the lowest-performing metric first
 
 ## Step 4: Output Format
 
@@ -130,7 +130,7 @@ headings, table columns, or field order. The output contains:
   labeled `(LATAM, Cuantico 2026)` or `(LATAM, LAVCA 2025)`
 - **Interpretation paragraph** — tell the founder what the numbers mean for fundraising
   readiness; do not just restate the numbers
-- **Próximos Pasos** — 3–5 concrete actions targeting the weakest metric first
+- **Next Steps** — 3–5 concrete actions targeting the weakest metric first
 
 ## Step 5: LATAM Context
 
@@ -166,10 +166,10 @@ evaluation. If unit economics are broken, say so directly:
 Do not use phrases like "Great start!", "Looks promising", or "With some work...". These
 waste the founder's time and protect no one.
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 End EVERY analysis with 3–5 specific next actions based on which metric is worst.
-Use the header `## Próximos Pasos`. Actions must be concrete and model-specific.
+Use the header `## Next Steps`. Actions must be concrete and model-specific.
 
 Examples:
 - GOOD: "Increase gross margin from 42% to 65%+ by moving from direct customer support to

@@ -127,7 +127,7 @@ LTV/CAC and payback; be prepared to show churn trending down quarter-over-quarte
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. **Reduce monthly churn from 2.5% to 1.5% within 6 months.** Analyze your 30 churned
    customers from the last quarter: what was the last feature they used, what support ticket

@@ -38,7 +38,7 @@ Ask all seven questions in ONE message. Do not begin analysis until you have ans
 5. **Comparable company or transaction data** — if available; OK to say "none"
 6. **Geographic market** — Brazil, Mexico, Colombia, Chile, Peru, or "pan-LATAM"
 7. **Who is asking:** founder checking their ask OR investor checking deal price —
-   this determines the framing of Próximos Pasos (not the analysis itself)
+   this determines the framing of Next Steps (not the analysis itself)
 
 If the user does not answer a question, proceed with a stated assumption and flag it
 as: `[ASSUMPTION: ...]`. Do not silently skip inputs.
@@ -75,7 +75,7 @@ Execute in this exact order:
    for benchmark data, identify 2–3 comparable LATAM deals at similar stage/sector
 6. Apply LATAM context — read references/latam-context.md for regional benchmarks
 7. Produce output per [TEMPLATES.md](TEMPLATES.md) using the appropriate audience framing
-8. End with Próximos Pasos framed for the asking audience
+8. End with Next Steps framed for the asking audience
 
 ## Step 4: Output Format
 
@@ -124,9 +124,9 @@ this round in a LATAM context unless you have extraordinary traction. US compara
 do not apply here. The investor sitting across from you knows the LAVCA median. Your
 YC peer's valuation is not your benchmark — your sector's LATAM Seed cohort is."
 
-## Step 6: Próximos Pasos — Audience-Framed Actions
+## Step 6: Next Steps — Audience-Framed Actions
 
-End EVERY analysis with 3 specific actions. Use the header `## Próximos Pasos`.
+End EVERY analysis with 3 specific actions. Use the header `## Next Steps`.
 Frame actions for who is asking:
 
 **For founders:**

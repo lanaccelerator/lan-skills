@@ -142,7 +142,7 @@ Execute in this exact order:
 9. Apply LATAM context: read [references/latam-context.md](references/latam-context.md)
 10. Produce the Pilot Program Document using [TEMPLATES.md](TEMPLATES.md) structure
 11. Apply [THEATER] and [NO KILL CRITERIA] callouts where triggered
-12. End with Próximos Pasos
+12. End with Next Steps
 
 ## Step 4: Output Format
 
@@ -161,7 +161,7 @@ The output is a Pilot Program Document containing:
 - **Governance** — weekly standup owner, escalation path, executive sponsor
 - **Risk Register** — top 3 risks: Risk | Probability | Impact | Mitigation
 - **LATAM Context box** — LATAM-specific operational constraints labeled with source
-- **Próximos Pasos** — 4–5 concrete pilot launch actions within 30 days
+- **Next Steps** — 4–5 concrete pilot launch actions within 30 days
 
 ## Step 5: Innovation Theater Detection
 
@@ -221,16 +221,16 @@ Expected tone on innovation theater:
 is not a champion. A pilot without a named director-level owner will be deprioritized
 the moment any internal initiative competes for IT bandwidth. Name the person."
 
-## Step 7: Próximos Pasos
+## Step 7: Next Steps
 
 End EVERY pilot design with 4–5 concrete corporate actions within 30 days. Use the header
-`## Próximos Pasos`.
+`## Next Steps`.
 
 Actions must be corporate-facing, specific, and 30-day scoped:
 
 - GOOD: "Confirm TechBot IA can issue Colombian e-invoices (DIAN CUFE-compliant) before
   contract signature — failure to confirm this blocks first payment."
-- GOOD: "Schedule kill criteria review with Jorge Méndez and VP Tecnología for [date] —
+- GOOD: "Schedule kill criteria review with Jorge Méndez and VP Technology for [date] —
   the GO/NO-GO authority must sign off on thresholds before pilot starts."
 - BAD: "Explore the startup's product further."
 - BAD: "Continue pilot preparation."

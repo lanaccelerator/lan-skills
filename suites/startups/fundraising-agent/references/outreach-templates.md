@@ -4,8 +4,10 @@
 outreach. Adapt to your company but do not change the structure — length, directness,
 and specificity are engineered for VC audience attention spans.
 
-**Language note:** All templates in Spanish by default. Translate to English for US
-investor outreach or when the investor's preferred language is English.
+**Language note:** Templates below are in English. For LATAM investors, translate
+to Spanish/Portuguese as appropriate; the structure and length discipline carry over
+across languages. Use English directly for US investor outreach or when the investor
+prefers English.
 
 ---
 
@@ -16,19 +18,20 @@ to request a double opt-in introduction.
 
 **Format:** Email or LinkedIn message to your mutual connection — NOT to the investor.
 
-**Subject:** Presentación a [Investor Name] — ¿Me ayudas?
+**Subject:** Intro to [Investor Name] — Can you help?
 
 **Body (3 sentences max):**
 
-> Hola [Mutual Connection], estoy levantando una ronda Seed para [Company] —
-> [one-sentence description + 2 key metrics]. Creo que [Investor Name] en [Fund] encaja
-> bien con nuestro thesis: [specific reason in 1 sentence]. ¿Podrías hacer una presentación
-> doble opt-in si te mando 3 líneas y el deck?
+> Hi [Mutual Connection], I'm raising a Seed round for [Company] —
+> [one-sentence description + 2 key metrics]. I think [Investor Name] at [Fund] fits
+> our thesis well: [specific reason in 1 sentence]. Could you do a double opt-in
+> intro if I send you 3 lines and the deck?
 
 **WhatsApp variant (1-2 sentences):**
 
-> Hola [Name], levantando Seed para [Company] ($[MRR] MRR, [X]% crecimiento). ¿Me puedes
-> presentar a [Investor]? Te mando el resumen para que decidas si tiene sentido.
+> Hi [Name], raising Seed for [Company] ($[MRR] MRR, [X]% growth). Can you
+> introduce me to [Investor]? I'll send you the summary so you can decide if it
+> makes sense.
 
 ---
 
@@ -39,20 +42,20 @@ converts at 1–3%. This template is optimized for that constraint.
 
 **Format:** Email to investor directly.
 
-**Subject:** [Company] — [Sector], $[MRR] MRR, [X]% MoM, levantando $[Amount] Seed
+**Subject:** [Company] — [Sector], $[MRR] MRR, [X]% MoM, raising $[Amount] Seed
 
 **Body (5 sentences max):**
 
-> Hola [Investor Name], [Company] ([City, Country]) es [one-sentence description].
-> Tenemos $[MRR] MRR, [X]% crecimiento mensual, y [Key metric — LTV/CAC or payback].
-> Levantamos $[Amount] en [Pre-money] pre-money y creemos que [Fund Name] encaja con
-> nuestro thesis porque [specific reason linked to their portfolio or stated thesis].
-> Tenemos deck y data room disponibles. ¿Tienes 30 minutos para una llamada esta semana?
+> Hi [Investor Name], [Company] ([City, Country]) is [one-sentence description].
+> We have $[MRR] MRR, [X]% monthly growth, and [Key metric — LTV/CAC or payback].
+> We're raising $[Amount] at [Pre-money] pre-money and we believe [Fund Name] fits
+> our thesis because [specific reason linked to their portfolio or stated thesis].
+> Deck and data room available. Do you have 30 minutes for a call this week?
 
 **WhatsApp variant (2 sentences — only if you have their WhatsApp):**
 
-> Hola [Name], soy [Founder] de [Company] — [sector] SaaS, $[MRR] MRR, levantando Seed.
-> ¿Tiene sentido hablar? Te mando el deck.
+> Hi [Name], I'm [Founder] at [Company] — [sector] SaaS, $[MRR] MRR, raising Seed.
+> Does it make sense to talk? I'll send the deck.
 
 ---
 
@@ -60,17 +63,19 @@ converts at 1–3%. This template is optimized for that constraint.
 
 **Use:** Immediately after every investor meeting. Do not wait until the next day.
 
-**Subject:** Re: [Company] — Siguientes pasos
+**Subject:** Re: [Company] — Next steps
 
 **Body (3 sentences max):**
 
-> [Investor Name], gracias por el tiempo hoy. Quedé con tres puntos importantes de tu
-> feedback: [1], [2], [3]. Te envío [specific next step — deck update / data room access /
-> additional metric] esta semana — ¿confirmamos [specific next meeting or next step]?
+> [Investor Name], thanks for the time today. I took away three key points from your
+> feedback: [1], [2], [3]. I'll send [specific next step — deck update / data room
+> access / additional metric] this week — can we confirm [specific next meeting or
+> next step]?
 
 **WhatsApp variant (1 sentence):**
 
-> Gracias por la llamada, [Name]. Te envío el data room esta tarde. ¿Cuándo seguimos?
+> Thanks for the call, [Name]. I'll send the data room this afternoon. When do we
+> follow up?
 
 ---
 
@@ -78,16 +83,17 @@ converts at 1–3%. This template is optimized for that constraint.
 
 **Use:** 7 days after the first meeting, if no response or next step confirmed.
 
-**Subject:** [Company] — Update rápido
+**Subject:** [Company] — Quick update
 
 **Body (2 sentences max):**
 
-> Hola [Name], quería compartir un update: [one new data point — new customer, metric
-> improvement, strategic partnership]. ¿Sigues interesado en continuar la conversación?
+> Hi [Name], wanted to share an update: [one new data point — new customer, metric
+> improvement, strategic partnership]. Are you still interested in continuing the
+> conversation?
 
 **WhatsApp variant (1 sentence):**
 
-> Hola [Name], cerramos [X] nuevos clientes esta semana, llegamos a $[MRR]. ¿Seguimos?
+> Hi [Name], we closed [X] new customers this week, hitting $[MRR]. Continue?
 
 ---
 
@@ -99,12 +105,13 @@ converts at 1–3%. This template is optimized for that constraint.
 
 **Body (2 sentences max):**
 
-> Hola [Name], seguimos avanzando con el proceso y quería saber si tienes preguntas
-> adicionales o algo que te ayude a avanzar con la decisión. Happy to jump on a call.
+> Hi [Name], we're moving the process forward and wanted to know if you have any
+> additional questions or anything that would help you advance the decision. Happy
+> to jump on a call.
 
 **WhatsApp variant (1 sentence):**
 
-> Hola [Name], ¿alguna pregunta pendiente de nuestra parte? Disponible esta semana.
+> Hi [Name], any open questions on our side? Available this week.
 
 ---
 
@@ -113,18 +120,18 @@ converts at 1–3%. This template is optimized for that constraint.
 **Use:** 21 days after first meeting with no response or clear "not interested" signal.
 This is not aggressive — it creates closure and maintains the relationship.
 
-**Subject:** Re: [Company] — Entiendo si el timing no es el correcto
+**Subject:** Re: [Company] — Understood if the timing isn't right
 
 **Body (2 sentences max):**
 
-> Hola [Name], voy a continuar con el proceso de la ronda en los próximos días.
-> Entiendo si el timing o el thesis no encaja ahora — estaré feliz de hacer seguimiento
-> cuando levantemos la Serie A.
+> Hi [Name], I'm continuing with the round process over the coming days. I understand
+> if the timing or thesis doesn't fit right now — happy to follow up when we raise
+> Series A.
 
 **WhatsApp variant (1 sentence):**
 
-> Hola [Name], cerrando la ronda esta semana — sin problema si no encaja ahora. Seguimos
-> en contacto para Serie A.
+> Hi [Name], closing the round this week — no worries if it doesn't fit now. Let's
+> stay in touch for Series A.
 
 ---
 
@@ -136,12 +143,13 @@ This is not aggressive — it creates closure and maintains the relationship.
 
 **Body (2 sentences max):**
 
-> [Investor Name], recibí el term sheet y lo revisaré con mi abogado esta semana.
-> Confirmo si tengo preguntas antes del [specific date, typically 5 days from receipt].
+> [Investor Name], received the term sheet and I'll review it with my lawyer this
+> week. I'll confirm if I have questions before [specific date, typically 5 days
+> from receipt].
 
 **WhatsApp variant (1 sentence):**
 
-> Recibí el term sheet, gracias. Lo reviso esta semana y te confirmo el [date].
+> Got the term sheet, thanks. Reviewing this week and I'll confirm by [date].
 
 ---
 
@@ -170,7 +178,7 @@ extra sentence reduces response rate. If your message is over 5 sentences, cut i
 increase open rates for qualified founders.
 
 **One clear ask:** Every message ends with exactly one ask. "Happy to chat" is not
-an ask. "¿Tienes 30 minutos el jueves a las 3pm o viernes a las 10am?" is an ask.
+an ask. "Do you have 30 minutes Thursday at 3pm or Friday at 10am?" is an ask.
 
 **New data in every follow-up:** Template 4 (Day 7) and Template 5 (Day 14) must
 include a new data point. Never send "just checking in" — it signals nothing has

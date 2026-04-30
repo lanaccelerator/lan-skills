@@ -80,7 +80,7 @@ Execute in this exact order:
 8. Read [references/latam-context.md](references/latam-context.md) BEFORE
    producing LATAM context annotations
 9. Output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
-10. Próximos Pasos targeting the highest-priority defensibility gap
+10. Next Steps targeting the highest-priority defensibility gap
 
 ## Step 4: Output Format
 
@@ -96,7 +96,7 @@ Required output sections:
 - **Porter's Five Forces assessment:** Force | Risk Level | Commentary
 - **Defensibility analysis:** current moats vs required moats at next stage
 - **LATAM Context box** (from references/latam-context.md — apply where relevant)
-- **Próximos Pasos**
+- **Next Steps**
 
 ## Step 5: LATAM Context
 
@@ -131,9 +131,9 @@ market has alternatives. If buyers are not buying your product today, they
 are solving the problem another way — that is a competitor. What are they
 doing instead?"
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
-End EVERY analysis with 3–5 specific next actions. Use header `## Próximos Pasos`.
+End EVERY analysis with 3–5 specific next actions. Use header `## Next Steps`.
 
 Focus on defensibility gaps: identify which moat to prioritize building
 next quarter. Be specific about the action, not the outcome.

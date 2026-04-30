@@ -176,7 +176,7 @@ expect cross-border roadmap. Brazil-only or Mexico-only limits valuation.
 
 > **Colombia-specific requirements:**
 > Colombian VCs (Bancolombia VC, Nazca) require the Cámara de Comercio
-> registration certificate (expedida en los últimos 30 días) in the legal
+> registration certificate (issued within the last 30 days) in the legal
 > section. This is NOT optional — it is the equivalent of a Delaware Certificate
 > of Incorporation. Ensure the certificate is less than 30 days old when you
 > share the data room, as it expires for legal purposes.
@@ -195,7 +195,7 @@ expect cross-border roadmap. Brazil-only or Mexico-only limits valuation.
 
 ---
 
-## 6. Próximos Pasos
+## 6. Next Steps
 
 1. **Sign IP assignment agreements (next 7 days) — BLOCKING:**
    Contact your lawyer today. Template available from Stripe Atlas

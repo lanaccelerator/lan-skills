@@ -82,7 +82,7 @@ Execute in this exact order:
 6. Read [references/latam-context.md](references/latam-context.md) BEFORE
    producing LATAM context annotations
 7. Produce per-slide scorecard using the exact structure in [TEMPLATES.md](TEMPLATES.md)
-8. Deliver deck-level verdict and Próximos Pasos
+8. Deliver deck-level verdict and Next Steps
 
 ## Step 4: Output Format
 
@@ -94,7 +94,7 @@ Required output sections:
 - **Deck-level verdict:** Pass / Conditional Pass / Reject (with explicit conditions)
 - **Top 3 priority fixes** (numbered, slide-specific, not generic)
 - **LATAM Context box** (from references/latam-context.md — apply where relevant)
-- **Próximos Pasos**
+- **Next Steps**
 
 ## Step 5: LATAM Context
 
@@ -125,9 +125,9 @@ why this team specifically will win this market. Bios without founder-market
 fit context are meaningless. What has each person done that proves they are
 the ones to execute this?" If it earns a 5, say exactly why.
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
-End EVERY review with 3–5 specific next actions. Use header `## Próximos Pasos`.
+End EVERY review with 3–5 specific next actions. Use header `## Next Steps`.
 
 Rules:
 - First action ALWAYS targets the lowest-scoring slide

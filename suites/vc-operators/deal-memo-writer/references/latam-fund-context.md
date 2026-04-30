@@ -183,10 +183,10 @@ are sparse (Tiger Global, Kaszek occasionally participate in secondary rounds at
 Series C+). Do not model secondary exits in LP return projections for Seed deals.
 
 **Return modeling note:**
-For a $25M LATAM fund like Cóndor Fund I, a $500k Seed check that returns $5M+ (10×)
+For a $25M LATAM fund like Condor Fund I, a $500k Seed check that returns $5M+ (10×)
 on a $50M–$100M acquisition is a fund-returner on an individual deal basis. Most
 LATAM exits are acquisitions in the $20M–$150M range — not IPOs. Model accordingly.
-A $150M acquisition at 20% Cóndor ownership = $30M return on $500k invested = 60×
+A $150M acquisition at 20% Condor ownership = $30M return on $500k invested = 60×
 gross return. This is the math that justifies LATAM Seed concentration.
 
 ---

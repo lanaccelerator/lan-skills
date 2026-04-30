@@ -85,7 +85,7 @@ Execute in this exact order:
    [references/latam-sales-context.md](references/latam-sales-context.md) — adapt
    sequence channels and timing to LATAM norms
 7. **Output using TEMPLATES.md structure** — fill every section, no skeleton placeholders
-8. **Próximos Pasos** focused on the founder's stated biggest sales challenge
+8. **Next Steps** focused on the founder's stated biggest sales challenge
 
 ## Step 4: Output Format
 
@@ -101,7 +101,7 @@ The output is a B2B Sales Playbook containing:
 - **Demo script outline** — 5 phases with time allocation and key question per phase
 - **CRM setup recommendation** — stage names, definition, conversion target, key activity
 - **LATAM Context box** — channel adjustment, cycle length, reference account requirement
-- **Próximos Pasos** — 3–5 concrete next steps
+- **Next Steps** — 3–5 concrete next steps
 
 ## Step 5: LATAM Context
 
@@ -138,7 +138,7 @@ generic outreach without personalization, you're not doing outbound — you're s
 Challenge vanity metrics: "50 emails sent" is not a pipeline metric. "3 qualified demo
 calls booked this week" is.
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 End EVERY playbook with 3–5 specific next steps. Address the founder's stated
 biggest challenge first.
@@ -154,7 +154,7 @@ biggest challenge first.
   would make you cancel?" — diagnose before prescribing.
 
 Actions must be concrete:
-- GOOD: "Send 50 WhatsApp messages to Gerentes de Operaciones of logistics companies
+- GOOD: "Send 50 WhatsApp messages to Operations Managers of logistics companies
   in Bogotá using the Day 3 template. Track: % read, % response, % booked demo."
 - BAD: "Start doing outbound sales."
 

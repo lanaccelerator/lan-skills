@@ -79,7 +79,7 @@ Execute in this exact order:
 6. Build geographic and sector allocation table
 7. Produce expected return distribution (1 outcome = 10x+, 3–5 = 2–5x, rest 0–1x)
 8. Generate construction plan per [TEMPLATES.md](TEMPLATES.md)
-9. End with Próximos Pasos — specific portfolio actions within 90 days
+9. End with Next Steps — specific portfolio actions within 90 days
 
 ## Step 4: Output Format
 
@@ -96,7 +96,7 @@ The output is a Portfolio Construction Plan containing:
 - **Expected return distribution** (power law outcome model: 1 fund-returner, 3–5 strong
   returns, remainder 0–1x)
 - **3-year deployment calendar** (quarterly pacing from current date to full deployment)
-- **Próximos Pasos** — 3–5 specific portfolio actions
+- **Next Steps** — 3–5 specific portfolio actions
 
 ## Step 5: LATAM Context
 
@@ -132,10 +132,10 @@ A conversion rate, you need 20+ bets to expect 2 to reach Series A. With 5 compa
 have roughly a 46% chance that zero of your investments reach Series A. That is not a
 portfolio — that is a lottery ticket."
 
-## Step 6: Próximos Pasos — Portfolio Actions
+## Step 6: Next Steps — Portfolio Actions
 
 End EVERY analysis with 3–5 specific portfolio actions within 90 days. Use the header
-`## Próximos Pasos`.
+`## Next Steps`.
 
 Actions must be portfolio-construction-specific, not deal evaluation advice:
 

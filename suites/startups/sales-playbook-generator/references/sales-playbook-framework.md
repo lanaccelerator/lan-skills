@@ -70,8 +70,8 @@ Relationship Builders.
 | Behavior | Definition | Example |
 |----------|-----------|---------|
 | **Teach** | Offer insight that reframes how the prospect thinks about their problem | "Most logistics companies think their cost problem is fuel. Our data shows it's unplanned overtime from manual route adjustment — 3× higher impact." |
-| **Tailor** | Customize the message to the specific economic driver of this buyer | For Gerente de Operaciones: "Your fuel costs." For Gerente General: "Your EBITDA margin." Same product, different frame. |
-| **Take Control** | Own the sales process — push back constructively, hold to timeline, qualify hard | "Para avanzar juntos necesito hablar con quien aprueba presupuesto esta semana. ¿Puedes presentarme con esa persona?" |
+| **Tailor** | Customize the message to the specific economic driver of this buyer | For an Operations Manager: "Your fuel costs." For a General Manager: "Your EBITDA margin." Same product, different frame. |
+| **Take Control** | Own the sales process — push back constructively, hold to timeline, qualify hard | "To move forward together I need to speak with whoever approves the budget this week. Can you introduce me to that person?" |
 
 ### Objection Root Cause Analysis
 
@@ -80,11 +80,11 @@ responding is the most important Challenger skill.
 
 | Surface Objection | Possible Root Causes | Diagnostic Question |
 |------------------|---------------------|---------------------|
-| "We already have a system" | Fear of switching cost / internal political risk / genuinely happy | "¿Qué problema de su operación actual solucionaría si empezaran de cero?" |
-| "No budget" | Not a priority / budget not allocated yet / waiting for year-end | "¿Cuánto les está costando no resolver este problema por mes?" |
-| "Send me information" | Avoiding decision / not the right contact / no urgency | "¿Qué necesitaría ver en la información para que valiera una llamada de 15 minutos?" |
-| "Too expensive" | Value not communicated / wrong tier of buyer / bad timing | "¿Caro comparado con qué alternativa específica?" |
-| "Talk to my boss first" | Wrong level — talking to user not buyer | "¿Quién sería la persona correcta? ¿Me puedes presentar?" |
+| "We already have a system" | Fear of switching cost / internal political risk / genuinely happy | "What problem in your current operation would you fix if you were starting from scratch?" |
+| "No budget" | Not a priority / budget not allocated yet / waiting for year-end | "How much is it costing you per month not to solve this problem?" |
+| "Send me information" | Avoiding decision / not the right contact / no urgency | "What would you need to see in the information for it to be worth a 15-minute call?" |
+| "Too expensive" | Value not communicated / wrong tier of buyer / bad timing | "Expensive compared to which specific alternative?" |
+| "Talk to my boss first" | Wrong level — talking to user not buyer | "Who would be the right person? Can you introduce me?" |
 
 ---
 
@@ -108,10 +108,10 @@ Gong.io analyzed 100M+ sales calls and interactions. Key findings for B2B sales:
 
 ### Killer Phrase
 
-- **"Does that make sense?" / "¿Tiene sentido?"** kills deal momentum
+- **"Does that make sense?"** kills deal momentum
 - Implies the prospect may not understand (condescending) or that you're unsure of
   your own pitch (weak)
-- Replace with: "¿Qué parte de esto aplica más a su situación?" (discovery) or silence
+- Replace with: "Which part of this applies most to your situation?" (discovery) or silence
 
 ### Competitor Mentions
 
@@ -133,8 +133,8 @@ outbound prospecting.
 | **Company Size** | "SMEs" | "20–200 vehicle fleet; revenue $2M–$50M" |
 | **Geography** | "LATAM" | "Colombia Tier 1 (Bogotá, Medellín, Cali)" |
 | **Trigger Events** | "When they need us" | "GPS contract expiry, new route expansion, compliance regulation change" |
-| **Buyer Title** | "Decision maker" | "Gerente de Operaciones / Gerente General (companies <50 employees)" |
-| **User Title** | "The team" | "Coordinador de Flota / Supervisor de Operaciones" |
+| **Buyer Title** | "Decision maker" | "Operations Manager / General Manager (companies <50 employees)" |
+| **User Title** | "The team" | "Fleet Coordinator / Operations Supervisor" |
 
 **ICP Tightness Test:** Can you find 50 people matching this ICP on LinkedIn in under
 2 hours? If not, it's too vague. If you find 5,000 in 10 minutes, it may be too broad.

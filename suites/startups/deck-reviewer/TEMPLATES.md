@@ -90,7 +90,7 @@ credible TAM, real product) — the deck is not telling the right story yet.
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. Add Why Now slide before sending to any investor — this is the #1 fix. Write it
    as three enabling events with specific dates and data points. Investors cannot

@@ -169,7 +169,7 @@ Call out unrealistic targets explicitly:
 - "Your 45-day fundraising timeline is not achievable. LATAM Seed raises take 6–9 months.
   Build your financial model for a 9-month runway burn during fundraising."
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 End every phase output with phase-specific next actions:
 

@@ -6,19 +6,19 @@ founders. Do not change section headings, table columns, or field order.
 
 ---
 
-## Example Output: Cóndor Ventures Fund I
+## Example Output: Condor Ventures Fund I
 
-*This is a filled example showing Cóndor Ventures Fund I investment thesis — a $25M
+*This is a filled example showing Condor Ventures Fund I investment thesis — a $25M
 LATAM B2B SaaS and fintech fund (2022 vintage, Brazil/Mexico focus). Use it as the
 structural template for every thesis document you produce.*
 
 ---
 
-# Investment Thesis: Cóndor Ventures Fund I
+# Investment Thesis: Condor Ventures Fund I
 
-**Prepared by:** Isaac García, GP — Cóndor Ventures
+**Prepared by:** Isaac García, GP — Condor Ventures
 **Date:** Q2 2026
-**Fund:** Cóndor Ventures Fund I — $25M committed, 2022 vintage, Brazil/Mexico focus,
+**Fund:** Condor Ventures Fund I — $25M committed, 2022 vintage, Brazil/Mexico focus,
 B2B SaaS and infrastructure fintech thesis, Year 4 of 10-year fund life
 
 ---
@@ -74,7 +74,7 @@ infrastructure and had to rely on proxy signals.
 
 **A fundable company in this thesis looks like:**
 
-| Criterion | Cóndor Ventures standard |
+| Criterion | Condor Ventures standard |
 |-----------|--------------------------|
 | Founder profile | 2+ founders; at least one with LATAM fintech operating experience (BD, product, or risk at an existing LATAM fintech — not US-only background) |
 | Stage at first check | Pre-seed to Seed; first $150k+ MRR OR clear path to $150k in 6 months from identified pipeline |
@@ -93,7 +93,7 @@ infrastructure and had to rely on proxy signals.
 
 ## 4. Portfolio Construction
 
-| Parameter | Cóndor Ventures Fund I |
+| Parameter | Condor Ventures Fund I |
 |-----------|------------------------|
 | Fund size | $25M committed |
 | Initial check range | $750k–$1.5M |

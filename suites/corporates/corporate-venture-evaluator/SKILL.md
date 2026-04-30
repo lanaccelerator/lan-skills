@@ -110,7 +110,7 @@ Execute in this exact order:
 7. Design governance template for recommended CVC model
 8. Apply LATAM context — read [references/latam-context.md](references/latam-context.md)
 9. Produce 3-year milestones for recommended model
-10. End with Próximos Pasos
+10. End with Next Steps
 
 ## Step 4: Output Format
 
@@ -128,7 +128,7 @@ The output is a CVC Readiness Assessment containing:
 - **Innovation Theater Indicators** — explicit `[THEATER]` callouts; no softened concerns
 - **LATAM CVC Context Box** — LATAM CVC benchmarks labeled with source
 - **3-Year Milestones** — concrete milestones for the recommended model
-- **Próximos Pasos** — 3–5 concrete CVC design actions
+- **Next Steps** — 3–5 concrete CVC design actions
 
 ## Step 5: Innovation Theater Detection
 
@@ -193,10 +193,10 @@ program instead. A $5M accelerator program with 3-year milestones can be measure
 to your board. A $5M CVC with 3-year return expectations will be cancelled the first time the
 portfolio marks down."
 
-## Step 7: Próximos Pasos
+## Step 7: Next Steps
 
 End EVERY assessment with 3–5 concrete CVC design actions. Use the header
-`## Próximos Pasos`.
+`## Next Steps`.
 
 Actions must be specific and organizational (not investment advice):
 

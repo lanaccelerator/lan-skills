@@ -9,7 +9,7 @@ table columns, or field order. Fill every section with real analysis — no plac
 
 *This is a filled example for Bancolombia Innovation Lab (Bogotá, Colombia's largest bank)
 evaluating how to address SME lending automation as their strategic challenge. Dr. Ana
-Gómez, VP Innovación, is running the analysis. Use it as the structural template for
+Gómez, VP Innovation, is running the analysis. Use it as the structural template for
 every analysis.*
 
 ---
@@ -20,7 +20,7 @@ every analysis.*
 **Organization:** Bancolombia S.A. — Grupo Bancolombia (Bogotá, Colombia)
 **Sector:** Financial Services / Banking
 **Scale:** ~$12B USD revenue; ~43,000 employees
-**Contact:** Dr. Ana Gómez, VP Innovación
+**Contact:** Dr. Ana Gómez, VP Innovation
 **Analyzed by:** LAN Skills via Claude
 
 ---
@@ -43,7 +43,7 @@ every analysis.*
 
 3. **Innovation budget and governance:** $2M USD for this initiative (standalone, approved
    by the Digital Transformation Committee). Governance: central Bancolombia Innovation Lab
-   owns the initiative. VP Innovación (Dr. Gómez) reports to a Digital Transformation
+   owns the initiative. VP Innovation (Dr. Gómez) reports to a Digital Transformation
    Committee — committee approvals required for vendor selection above $200k. No named
    C-level executive has taken ownership of pilot outcome yet.
 
@@ -82,7 +82,7 @@ every analysis.*
 **[THEATER] No named C-level executive owns this pilot — Dr. Gómez reports to a
 committee, not a named executive.**
 
-VP Innovación reporting to a Digital Transformation Committee is not an executive sponsor.
+VP Innovation reporting to a Digital Transformation Committee is not an executive sponsor.
 Committees approve budgets; they do not break procurement blockage, do not resolve
 cross-functional conflicts, and do not make the "go/no-go" decision with authority. Pilots
 sponsored by committees fail at 3× the rate of pilots with a named C-level owner *(NESTA
@@ -186,7 +186,7 @@ banking integration) should be deprioritized until SFC mandates API interoperabi
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 *Concrete actions for Dr. Gómez and the Bancolombia Innovation Lab within 60 days:*
 

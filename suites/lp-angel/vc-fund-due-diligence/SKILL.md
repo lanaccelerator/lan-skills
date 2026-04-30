@@ -77,7 +77,7 @@ Execute in this exact order:
 5. Apply LATAM context from [references/latam-context.md](references/latam-context.md)
    BEFORE producing the final score
 6. Generate scorecard output using the structure in [TEMPLATES.md](TEMPLATES.md)
-7. End with Próximos Pasos — LP's specific due diligence actions within 30 days
+7. End with Next Steps — LP's specific due diligence actions within 30 days
 
 ## Step 4: Output Format
 
@@ -136,10 +136,10 @@ is slightly >1.0x and the 75th percentile is 1.20x. At 1.8x claimed TVPI, you ar
 the 75th percentile — but only if that TVPI is audited. Show me the DPI, not the TVPI.
 Paper marks are not returns."
 
-## Step 6: Próximos Pasos — LP Due Diligence Actions
+## Step 6: Next Steps — LP Due Diligence Actions
 
 End EVERY analysis with 3–5 specific due diligence actions for the LP to complete within
-30 days. Use the header `## Próximos Pasos`.
+30 days. Use the header `## Next Steps`.
 
 Actions must be LP-facing (not GP coaching):
 

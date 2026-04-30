@@ -74,7 +74,7 @@ Execute in this exact order:
    adjust market sizing methodology, investor expectations, and comparable
    companies for LATAM-specific context
 6. Output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
-7. End with Próximos Pasos
+7. End with Next Steps
 
 ## Step 4: Output Format
 
@@ -105,17 +105,17 @@ See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-b
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 End EVERY deck outline with specific next actions based on which slides have
-`[DATA NEEDED]` flags. Use the header `## Próximos Pasos`.
+`[DATA NEEDED]` flags. Use the header `## Next Steps`.
 
 Actions must be concrete:
 - GOOD: "Interview 10 churned customers to identify the #1 reason for
   cancellation; this data belongs on Slide 2 (Problem)"
 - BAD: "Gather more data"
 
-The most critical [DATA NEEDED] flags become the first Próximos Pasos items —
+The most critical [DATA NEEDED] flags become the first Next Steps items —
 missing market sizing data blocks Series A diligence, missing unit economics
 block Seed diligence.
 

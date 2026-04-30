@@ -83,7 +83,7 @@ Use it as the structural template for every analysis.*
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. **Grow MRR to $25k.** At 15% MoM: $18k → $20.7k → $23.8k → $27.4k — month 3 crosses
    threshold. Track MoM growth rate; if it drops below 15%, diagnose cause immediately.

@@ -74,7 +74,7 @@ Execute in this exact order:
    (minimum Y months away with specific actions required)
 4. Apply LATAM timing context from references/latam-comparable-raises.md
 5. Produce scorecard using TEMPLATES.md structure
-6. End with Próximos Pasos in priority order
+6. End with Next Steps in priority order
 
 ## Step 4: Output Format
 
@@ -89,7 +89,7 @@ The output is a Fundraising Readiness Scorecard containing:
 - **Time estimate to ready** (if CONDITIONAL or NOT READY): "X–Y months if you execute Z"
 - **Comparable raises table** from references/latam-comparable-raises.md
 - **LATAM Context box** with labeled US and LATAM benchmarks
-- **Próximos Pasos** in priority order
+- **Next Steps** in priority order
 
 ## Step 5: LATAM Context
 
@@ -100,7 +100,7 @@ BEFORE producing the final output. Apply these adjustments:
   equivalents. LATAM investors typically require 2–3 meetings before a term sheet vs US
   fast-close norms.
 - **Warm intros are critical.** Cold outreach to LATAM VCs has near-zero conversion.
-  The first Próximos Pasos for a READY founder is building warm intro paths, not cold email.
+  The first Next Steps for a READY founder is building warm intro paths, not cold email.
 - **Down rounds elevated:** 14.5% of Q4 2025 rounds were down rounds — bridge financing
   is available but dilutive. Plan runway accordingly.
 - **Round graduation is difficult:** Only 20.6% of Q2 2024 seed raises closed Series A
@@ -119,9 +119,9 @@ If team gaps are critical, name the exact missing role.
 
 The founder came here for truth. Give it to them.
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
-Order actions by urgency. Use the header `## Próximos Pasos`.
+Order actions by urgency. Use the header `## Next Steps`.
 
 - **NOT READY verdict:** First action is the specific metric to fix with a target number
   and timeline. Example: "Grow MRR from $12k to $25k. At 15% MoM growth this takes

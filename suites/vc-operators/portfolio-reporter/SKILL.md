@@ -126,7 +126,7 @@ Watch list companies get honest assessment with specifics:
 Portfolio table entries must have numbers — valuation, ownership %, follow-on reserve
 used. Empty cells are not acceptable in a completed quarterly report.
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 List next quarter priorities for the fund: specific, action-oriented, named companies
 where applicable. Format as numbered list with expected timing.

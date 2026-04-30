@@ -80,7 +80,7 @@ while data room is incomplete — first meetings lead to immediate data room req
 **To:** Carlos Mejía
 **Subject:** Intro request — CloudMed for Magma Partners
 
-Hola Carlos, I'm working with CloudMed (Colombia clinic SaaS, $38k MRR, 12% MoM growth)
+Hi Carlos, I'm working with CloudMed (Colombia clinic SaaS, $38k MRR, 12% MoM growth)
 who is raising a $2M Seed. Based on Magma's portfolio thesis (B2B SaaS, LATAM) and David
 Arana's focus on health-adjacent SaaS, I think this would be a strong fit. Would you be
 willing to make a double opt-in intro to David if I send you a 3-sentence summary + deck?
@@ -93,7 +93,7 @@ Happy to draft both.
 **To:** carolina.rojas@allvp.vc
 **Subject:** CloudMed — Colombia clinic SaaS, $38k MRR, 12% MoM, raising $2M Seed
 
-Hola Carolina, CloudMed (Bogotá) is the clinic management platform for Colombia's 15,000
+Hi Carolina, CloudMed (Bogotá) is the clinic management platform for Colombia's 15,000
 private clinics — scheduling, billing, and lightweight EHR in a single app replacing
 paper + WhatsApp workflows. We have $38k MRR, 95 clinics, 12% MoM growth, and 8-month
 CAC payback. We're raising a $2M Seed at $10M pre-money and believe ALLVP's B2B SaaS
@@ -152,7 +152,7 @@ Review every term against @shared/frameworks/brad-feld-terms.md:
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 **Phase A (current):**
 1. Complete data room: Get IP assignment agreements signed this week. Certify cap table.

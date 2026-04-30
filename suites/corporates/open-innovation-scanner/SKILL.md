@@ -87,7 +87,7 @@ Execute in this exact order:
 7. Flag innovation theater indicators — EXPLICITLY list each with `[THEATER]` prefix
 8. Apply LATAM context — read [references/latam-context.md](references/latam-context.md)
    before producing final recommendations
-9. End with Próximos Pasos
+9. End with Next Steps
 
 ## Step 4: Output Format
 
@@ -104,7 +104,7 @@ The output is an Innovation Opportunity Map containing:
 - **LATAM Context box** — LATAM-specific corporate innovation benchmarks labeled
   `(LATAM, BCG 2024)`, `(LATAM, LAVCA 2025)`, `(LATAM, IDB 2024)` etc.
 - **Recommended Actions by Priority Tier** — Tier 1 (do in 60 days), Tier 2 (next quarter)
-- **Próximos Pasos** — 3–5 concrete actions within 60 days
+- **Next Steps** — 3–5 concrete actions within 60 days
 
 **Priority scoring:**
 
@@ -168,10 +168,10 @@ internal champion, no defined problem statement, and a 90-day timeline that is i
 for any meaningful pilot. Before engaging a single startup, you need to complete three
 internal steps: [specific instructions]."
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 End EVERY analysis with 3–5 concrete corporate actions within 60 days. Use the header
-`## Próximos Pasos`.
+`## Next Steps`.
 
 Actions must be concrete and corporate-facing (not startup advice):
 
@@ -181,7 +181,7 @@ Actions must be concrete and corporate-facing (not startup advice):
 - BAD: "Explore more startups in this space."
 
 Base next steps on: theater indicators found, lowest-scoring gaps, and LATAM procurement
-reality. If no executive sponsor is named, the FIRST Próximos Pasos must be appointing one.
+reality. If no executive sponsor is named, the FIRST Next Steps must be appointing one.
 
 ## Sources
 

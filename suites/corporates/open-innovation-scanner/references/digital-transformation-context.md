@@ -60,7 +60,7 @@ https://www.nesta.org.uk/toolkit/open-innovation-toolkit/
 
 | Pattern | Failure Rate | Notes |
 |---------|-------------|-------|
-| Pilots without named C-level champion | 3× higher failure rate | VP Innovación reporting to a committee is not a champion |
+| Pilots without named C-level champion | 3× higher failure rate | A VP of Innovation reporting to a committee is not a champion |
 | Pilots without defined success criteria | 2.4× higher failure rate | "We'll know it when we see it" produces theater, not data |
 | Pilots without defined kill criteria | Rarely killed — budget consumed | Open-ended pilots consume budget without producing decisions |
 | First-time corporate-startup partnerships | 2× higher friction/failure vs. experienced corporates | No prior MSA template, no startup relationship manager, procurement mismatch |

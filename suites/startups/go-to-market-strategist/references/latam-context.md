@@ -37,8 +37,9 @@ a single published study; individual results vary by vertical and targeting qual
   terms of service (for volumes >100 messages/day)
 
 **Protocol:** Never send a link in the first message. Open with a relevant question
-or shared context. Example: "Hola [nombre], vi que están en [sector]. ¿Cómo manejan
-el tema de [pain point] actualmente?" Build relationship before pitching.
+or shared context. Example (sent in Spanish locally): "Hi [name], I saw you're in
+[sector]. How are you currently handling [pain point]?" Build relationship before
+pitching.
 
 ---
 

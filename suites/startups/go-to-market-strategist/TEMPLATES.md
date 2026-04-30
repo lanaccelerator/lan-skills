@@ -57,10 +57,10 @@ Score each channel 1–3 for this startup:
 | 1 | Viral / Word of Mouth | 2 | SME owners talk to peers, but not systematically; no product hook |
 | 2 | PR / Media | 1 | Too slow; top funnel only; no SME decision-maker reads fintech press |
 | 3 | Unconventional PR | 1 | Not relevant for B2B financial product |
-| 4 | Search Engine Marketing (SEM) | 2 | "préstamo para PYME" keywords have traffic; high CPC competition |
+| 4 | Search Engine Marketing (SEM) | 2 | "SME loan" keywords (in Spanish for the local market) have traffic; high CPC competition |
 | 5 | Social & Display Ads | 2 | Facebook ads work for B2C; LinkedIn for B2B — medium effectiveness |
 | 6 | Offline Ads | 1 | Radio/TV: wrong medium for B2B financial product |
-| 7 | SEO / Content Marketing | 2 | Long-term channel; "crédito para empresa Monterrey" content works |
+| 7 | SEO / Content Marketing | 2 | Long-term channel; "business credit Monterrey"-style content (in Spanish locally) works |
 | 8 | Email Marketing | 1 | Low deliverability with .mx domains; spam filter issue |
 | 9 | Engineering as Marketing | 1 | No natural product-led viral loop in lending |
 | 10 | Target Market Blogs | 2 | CAINTRA blog/newsletter is a warm channel worth exploring |
@@ -92,12 +92,11 @@ first 500 customers.
 **Execution:**
 1. Join CAINTRA as a financial partner (standard membership ~$1,500/year)
 2. Source contact list from CAINTRA directory + LinkedIn (target: Finance Director
-   or Gerente General at 10–50 employee manufacturing companies)
-3. WhatsApp outreach script (Spanish, relationship-first, not transactional):
-   > "Hola [nombre], vi que tu empresa trabaja con [cliente/sector]. Muchas PYMEs
-   > en Monterrey nos están diciendo que el ciclo 'orden de compra → pago del cliente'
-   > les genera huecos de flujo. ¿Tendrías 15 min esta semana para contarme cómo lo
-   > manejan ustedes?"
+   or General Manager at 10–50 employee manufacturing companies)
+3. WhatsApp outreach script (relationship-first, not transactional — sent in Spanish in market):
+   > "Hi [name], I saw your company works with [customer/sector]. Many SMEs in Monterrey
+   > are telling us that the 'purchase order → customer payment' cycle creates cash flow
+   > gaps. Would you have 15 min this week to share how you handle it?"
 4. Qualify on call: Do they have purchase orders from large buyers? What's their
    typical cash gap in days? What's the loan amount needed?
 5. First loan approval: 48-hour decision cycle (key LATAM B2B differentiator)
@@ -121,8 +120,8 @@ scalable distribution channel with a built-in trust layer.
    (source: SAT registered Contadores Públicos Certificados, LinkedIn, IMCP)
 2. Offer referral program: accountant earns 2% of origination fee per referred
    loan that closes (approx. $600–$2,000 per referral at $20–$100k loan size)
-3. Accountant activation pitch: "Tu cliente tiene la orden de compra. Nosotros le
-   damos el capital en 48 horas. Sin aval. Sin garantía hipotecaria. Tú te llevas el 2%."
+3. Accountant activation pitch: "Your client has the purchase order. We give them
+   the capital in 48 hours. No co-signer. No mortgage collateral. You earn 2%."
 4. Provide accountants with a co-branded PDF one-pager for their clients
 5. Monthly WhatsApp group for accountant partners: product updates, deal status,
    commission payments
@@ -133,21 +132,22 @@ scalable distribution channel with a built-in trust layer.
 
 ---
 
-### Channel 3: SEO Content — "Crédito para PYME" Queries
+### Channel 3: SEO Content — "SME Credit" Queries (Spanish-language, local market)
 
 **Why this channel:**
 Long-term channel (6–18 months to meaningful organic traffic), but starts building
-authority now. "crédito para pyme monterrey", "financiamiento empresarial sin aval",
-"préstamo para empresa pequeña" are high-intent keywords with moderate competition.
+authority now. Spanish-language keywords like "SME credit Monterrey", "business
+financing without collateral", "small business loan" are high-intent terms with
+moderate competition in the local market.
 This channel supports Channels 1 and 2 as social proof — when an accountant's client
 Googles Konfío, they find credible content.
 
 **Execution:**
-1. Publish 2 blog posts/month on konfio.mx blog:
-   - "Cómo funciona el financiamiento con orden de compra en México (2026)"
-   - "Diferencia entre crédito simple y financiamiento de cuentas por cobrar"
-2. Target keywords: "financiamiento para pyme", "préstamo empresarial sin aval",
-   "crédito orden de compra monterrey" — 500–2,000 monthly searches, low competition
+1. Publish 2 blog posts/month on konfio.mx blog (in Spanish for the local market):
+   - "How purchase-order financing works in Mexico (2026)"
+   - "Difference between simple credit and accounts receivable financing"
+2. Target keywords (Spanish): "SME financing", "business loan without collateral",
+   "purchase order credit Monterrey" — 500–2,000 monthly searches, low competition
 3. Include customer success story in each post (with permission) — LATAM B2B
    trust signal: real company names > generic testimonials
 
@@ -220,14 +220,14 @@ at 6-month mark once cohort data is available.
 
 ---
 
-## Próximos Pasos (Example)
+## Next Steps (Example)
 
 1. **Day 1–3:** Join CAINTRA Nuevo León ($1,500 membership). This is table stakes
    for Channel 1 and Channel 2 both — industrial association access is the single
    most leveraged $1,500 you will spend in the first 90 days.
 
 2. **Day 1–5:** Build WhatsApp outreach list of 100 manufacturing SME contacts from
-   CAINTRA directory + LinkedIn (filter: Finance Director / Gerente General, 10–50
+   CAINTRA directory + LinkedIn (filter: Finance Director / General Manager, 10–50
    employees, manufacturing sector, Monterrey or Guadalajara). Target: 100 contacts
    in CRM by Day 5.
 

@@ -82,7 +82,7 @@ Execute in this exact order:
 7. Build 90-day plan table: Week | Goal | Owner | KPI | Budget
 8. Apply LATAM context from [references/latam-context.md](references/latam-context.md)
 9. Output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
-10. End with Próximos Pasos
+10. End with Next Steps
 
 ## Step 4: Output Format
 
@@ -117,17 +117,17 @@ See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-b
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 End EVERY GTM plan with 3–5 specific actions for the next 30 days focused on
-channel validation experiments. Use the header `## Próximos Pasos`.
+channel validation experiments. Use the header `## Next Steps`.
 
 Actions must be concrete:
 - GOOD: "Send 50 WhatsApp messages to CFOs of manufacturing SMEs in Monterrey
   using the outreach script in TEMPLATES.md; measure response rate vs 5% target"
 - BAD: "Start marketing efforts"
 
-First Próximos Pasos items = the highest-scoring channel's immediate first step.
+First Next Steps items = the highest-scoring channel's immediate first step.
 If Channel 1 is WhatsApp outreach: Day 1 action is "build contact list of 100
 target customers from LinkedIn + industry associations."
 

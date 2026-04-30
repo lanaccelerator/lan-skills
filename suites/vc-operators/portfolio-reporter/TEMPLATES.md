@@ -6,19 +6,19 @@ Do not change section headings, table columns, or section order.
 
 ---
 
-## Example Output: Cóndor Ventures Fund I — Q3 2025 LP Report
+## Example Output: Condor Ventures Fund I — Q3 2025 LP Report
 
-*This is a filled example showing Cóndor Ventures Fund I (2022 vintage, $25M, Brazil/Mexico
+*This is a filled example showing Condor Ventures Fund I (2022 vintage, $25M, Brazil/Mexico
 B2B SaaS focus, Year 4 of 10) preparing its Q3 2025 quarterly LP report. Use it as the
 structural template for every quarterly report you produce.*
 
 ---
 
-# Cóndor Ventures Fund I — Q3 2025 LP Report
+# Condor Ventures Fund I — Q3 2025 LP Report
 
-**Prepared by:** Ana Martínez, Fund Analyst — Cóndor Ventures
+**Prepared by:** Ana Martínez, Fund Analyst — Condor Ventures
 **Period:** July 1 – September 30, 2025
-**Fund:** Cóndor Ventures Fund I ($25M committed, 2022 vintage, Year 4 of 10)
+**Fund:** Condor Ventures Fund I ($25M committed, 2022 vintage, Year 4 of 10)
 **LP Audience:** Mixed (3 institutional LPs, 5 family office LPs)
 **Report Date:** October 15, 2025
 
@@ -41,7 +41,7 @@ structural template for every quarterly report you produce.*
 
 **LATAM Note:** No equivalent LATAM fund performance database exists at Carta scale. LATAM
 fund performance typically 30–50% below US equivalents at same vintage due to longer exit
-timelines and thinner secondary markets. Cóndor Ventures at 1.18× TVPI is performing in
+timelines and thinner secondary markets. Condor Ventures at 1.18× TVPI is performing in
 line with or above LATAM peer expectations for Year 4 of a 2022 vintage fund.
 
 ---
@@ -158,10 +158,10 @@ reserved — no new first checks available.
    onboarding fix. Decision gate: if MRR not growing by December, initiate pivot discussion.
 4. **LP annual meeting** — Schedule for December 2025. Send save-the-date to all 8 LPs
    in October. Agenda: 2025 annual review + 2026 harvest period strategy.
-5. **PortCo G (AgroTrack) Series A** — In market with $5M target. Cóndor pro-rata right:
+5. **PortCo G (AgroTrack) Series A** — In market with $5M target. Condor pro-rata right:
    $200k. Confirm LP interest in co-investing alongside.
 
 ---
 
-*Cóndor Ventures Fund I — Q3 2025 Report | Confidential — For LP Use Only*
+*Condor Ventures Fund I — Q3 2025 Report | Confidential — For LP Use Only*
 *Next report: January 2026 (Q4 2025)*

@@ -68,7 +68,7 @@ the user's actual data.
 Subject: InvoiceFlow Update — [Month Year]
 
 MRR: $15,000 (+8% MoM)
-  — Below Bessemer Cloud 100 median of 10% MoM for Seed. Addressing in Próximos Pasos.
+  — Below Bessemer Cloud 100 median of 10% MoM for Seed. Addressing in Next Steps.
 
 Logo Churn: 2.5% monthly (30% annualized)
   — At YC benchmark of <3% monthly. Watch closely — above 3% is disqualifying.
@@ -110,7 +110,7 @@ ASK THIS MONTH:
 
 ---
 
-## 5. Próximos Pasos
+## 5. Next Steps
 
 1. **Fix MoM growth deceleration (next 30 days):** MoM at 8% is below the
    10% Bessemer Seed floor. Hire SDR replacement within 2 weeks. Target: return

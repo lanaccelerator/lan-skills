@@ -74,8 +74,8 @@ e-commerce, healthcare
 **Stage suitability:** Seed → Series A (requires budget; not ideal at pre-seed)
 **Typical CAC range (US-sourced benchmark):** B2B SaaS: $150–$400/customer via Google Ads
 **LATAM-specific notes:** CPC in LATAM is 40–70% below US for equivalent keywords.
-"Crédito para empresas" CPCs in Mexico: $0.50–$2.00 vs $5–$15 for equivalent US
-terms. Google is dominant in LATAM (90%+ search market share in MX/BR/CO). *(Operator
+Spanish-language keywords like "business credit" CPCs in Mexico: $0.50–$2.00 vs
+$5–$15 for equivalent US terms. Google is dominant in LATAM (90%+ search market share in MX/BR/CO). *(Operator
 observation from LATAM SaaS campaigns)*
 **Caution:** Requires conversion rate optimization. Budget without landing page
 testing = waste.
@@ -121,8 +121,9 @@ mature channel; 12–18 month ramp time
 **LATAM-specific notes:**
 - Spanish-language SaaS content is significantly underpopulated vs English — lower
   competition, faster ranking potential for LATAM-specific topics
-- "Factura electrónica México", "crédito para pyme Colombia", "software contable
-  Brasil" are high-intent keywords with low competition vs US equivalents
+- Spanish/Portuguese keywords such as "electronic invoicing Mexico", "SME credit
+  Colombia", "accounting software Brazil" are high-intent terms with low competition
+  vs US equivalents
 - Backlink building in LATAM is harder (fewer Spanish-language link exchanges and
   industry publications); focus on quality content over link building initially
 
@@ -151,8 +152,9 @@ mature channel; 12–18 month ramp time
 Series A
 **LATAM-specific notes:** Works the same as US when the tool is genuinely useful.
 Spanish-language calculators and free tools are rare — high SEO leverage potential.
-Example: a free "¿Cuánto me cuesta no tener capital de trabajo?" calculator embeds in
-accounting blog articles and drives inbound leads for a lending product.
+Example: a free "What does it cost me to lack working capital?" calculator (in Spanish
+for the local market) embeds in accounting blog articles and drives inbound leads for
+a lending product.
 
 ---
 
@@ -252,7 +254,7 @@ propositions, products with natural advocates (accountants, consultants)
 **Best for:** Any B2B product targeting SME owners or professionals
 **Stage suitability:** Pre-seed → Seed
 **LATAM-specific notes:**
-- Hosting a free workshop ("Cómo conseguir capital para PYMEs en 2026") through a
+- Hosting a free workshop ("How to secure capital for SMEs in 2026", in Spanish) through a
   CAINTRA or COPARMEX branch is a proven LATAM GTM tactic for B2B financial products
 - Event marketing in LATAM builds trust faster than digital ads for regulated
   products (fintech, insurtech) where credibility is the primary objection

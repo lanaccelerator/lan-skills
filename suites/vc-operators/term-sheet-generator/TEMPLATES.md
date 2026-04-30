@@ -8,15 +8,15 @@ This template is for VC FUND OPERATORS drafting or reviewing term sheets.
 
 ## Mode A Example: GP Drafting a Seed Term Sheet
 
-*Cóndor Ventures Fund I — drafting a Series Seed priced round term sheet
-for LogiPay Colombia ($12M pre-money, $2.5M raise, Cóndor Ventures as lead investor)*
+*Condor Ventures Fund I — drafting a Series Seed priced round term sheet
+for LogiPay Colombia ($12M pre-money, $2.5M raise, Condor Ventures as lead investor)*
 
 ---
 
 # Term Sheet — Series Seed Preferred Stock Financing
 
 **Issuing Company:** LogiPay Colombia S.A.S.
-**Lead Investor:** Cóndor Ventures Fund I
+**Lead Investor:** Condor Ventures Fund I
 **Date:** April 2026
 **Round Size:** $2,500,000
 **Instrument:** Series Seed Preferred Stock (priced round)
@@ -31,15 +31,15 @@ for LogiPay Colombia ($12M pre-money, $2.5M raise, Cóndor Ventures as lead inve
 
 | Term | Draft Position | Market Standard (LATAM Seed) | Negotiating Range | Hold vs. Give |
 |------|---------------|------------------------------|------------------|---------------|
-| Pre-money Valuation | $12M | $8M–$15M Seed (LATAM) | $10M–$14M acceptable | HOLD below $10M — below this makes Cóndor's ownership economics unworkable at standard check size |
+| Pre-money Valuation | $12M | $8M–$15M Seed (LATAM) | $10M–$14M acceptable | HOLD below $10M — below this makes Condor's ownership economics unworkable at standard check size |
 | Round Size | $2.5M | $1M–$4M LATAM Seed | $2M–$3M acceptable | GIVE — founder has flexibility on round size if valuation holds |
 | Option Pool | 15% (pre-money, unissued) | 10–20% pre-money | Accept 12–18% | HOLD — option pool shuffle means this dilutes founders, not new money. Negotiate the specific 18-month hiring plan to justify the pool size. |
 | Liquidation Preference | 1× non-participating preferred | 1× non-participating = market standard | Do NOT accept 2× or participating | HOLD on non-participating — participating preferred is not market standard at Seed. Any participating language signals misaligned incentives. |
 | Anti-Dilution | Broad-based weighted average | Broad-based WA = market standard everywhere | Reject full ratchet; narrow-based is marginal give | HOLD on broad-based WA. Full ratchet is a red flag. See @shared/frameworks/brad-feld-terms.md. |
 | Dividends | Non-cumulative, declared at board discretion | Non-cumulative, non-compounding | Accept non-cumulative | GIVE — dividends are not economically material at Seed stage |
 
-**Cóndor Fund Context (LATAM):** Cóndor Ventures Fund I has primarily family office LPs. Board governance
-is structured as a standard 3-person board (2 founders + 1 Cóndor seat) rather than a 5-person NVCA-standard
+**Condor Fund Context (LATAM):** Condor Ventures Fund I has primarily family office LPs. Board governance
+is structured as a standard 3-person board (2 founders + 1 Condor seat) rather than a 5-person NVCA-standard
 board — appropriate for LATAM family office LP expectations at Fund I and consistent with the deal stage.
 
 ---
@@ -48,10 +48,10 @@ board — appropriate for LATAM family office LP expectations at Fund I and cons
 
 | Term | Draft Position | Market Standard | Note |
 |------|---------------|-----------------|------|
-| Board Composition | 2 founders, 1 Cóndor Ventures seat | 3-person board for Seed lead | Cóndor gets a board seat as lead. Observer rights only for non-leads. |
+| Board Composition | 2 founders, 1 Condor Ventures seat | 3-person board for Seed lead | Condor gets a board seat as lead. Observer rights only for non-leads. |
 | Protective Provisions | Standard NVCA 11-item list | NVCA standard is the market benchmark | See @shared/frameworks/brad-feld-terms.md for the full list. Key items: no new preferred issuance, no charter changes, no M&A, no liquidation, no dividend on common — all require preferred consent. |
-| Drag-Along Rights | Majority of preferred AND majority of common required to exercise | Standard drag-along requires both preferred and common majority | HOLD — drag-along requiring only preferred majority gives Cóndor forced-sale power. Founders must be co-signatories on drag-along exercise. |
-| Pro-Rata Rights | Full pro-rata for Cóndor on future rounds | Standard for lead Seed investor | Critical for Cóndor to maintain ownership at Series A. Major investor threshold: $500K+ check. |
+| Drag-Along Rights | Majority of preferred AND majority of common required to exercise | Standard drag-along requires both preferred and common majority | HOLD — drag-along requiring only preferred majority gives Condor forced-sale power. Founders must be co-signatories on drag-along exercise. |
+| Pro-Rata Rights | Full pro-rata for Condor on future rounds | Standard for lead Seed investor | Critical for Condor to maintain ownership at Series A. Major investor threshold: $500K+ check. |
 | Information Rights | Monthly financials, quarterly board meeting, annual audited statements, cap table access | Standard | Non-negotiable. Information rights are a hygiene requirement, not a power play. |
 
 ---
@@ -73,13 +73,13 @@ Top 3 terms where you should expect pushback — and your position:
 
 1. **Option pool (15%)**: Founder will argue it is too large. Counter: present the specific 18-month hiring plan requiring those options. If hiring plan justifies 12%, accept 12%. Do not accept below 10%.
 2. **Liquidation preference (1× non-participating)**: If founder pushes for common equity only, explain that preferred is standard for a priced round and 1× non-participating is the most founder-friendly preferred available. HOLD.
-3. **Pro-rata rights**: Founders occasionally resist pro-rata as "too much investor control." Frame as alignment: Cóndor's pro-rata is how you confirm you are still conviction-positive on LogiPay at Series A. HOLD for checks above $500K.
+3. **Pro-rata rights**: Founders occasionally resist pro-rata as "too much investor control." Frame as alignment: Condor's pro-rata is how you confirm you are still conviction-positive on LogiPay at Series A. HOLD for checks above $500K.
 
 ---
 
 ## Mode B Example: Associate/Founder Term Review
 
-*Cóndor Ventures associate reviewing a term sheet from an inbound investor — flagging aggressive terms for GP review.*
+*Condor Ventures associate reviewing a term sheet from an inbound investor — flagging aggressive terms for GP review.*
 
 ---
 

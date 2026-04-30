@@ -94,7 +94,7 @@ Execute in this exact order:
 7. Flag procurement red flags with `[RED FLAG]` prefix
 8. Flag innovation theater indicators with `[THEATER]` prefix
 9. Apply LATAM context — read [references/latam-context.md](references/latam-context.md)
-10. End with Próximos Pasos
+10. End with Next Steps
 
 ## Step 4: Output Format
 
@@ -111,7 +111,7 @@ The output is a Startup Shortlist containing:
 - **Innovation Theater Indicators** — explicit `[THEATER]` callouts for each pattern found
 - **LATAM Context Box** — LATAM procurement benchmarks labeled with source
 - **Recommended Next Steps for Evaluation** — concrete procurement actions
-- **Próximos Pasos** — 4–5 concrete actions
+- **Next Steps** — 4–5 concrete actions
 
 ## Step 5: Procurement Red Flag Detection
 
@@ -184,10 +184,10 @@ Your procurement will take 6-9 months and require US subsidiary contracting with
 and tax complexity. Either accept that complexity or prioritize LATAM-native startups.
 Here are the two LATAM-native alternatives in your shortlist that can close in 8 weeks."
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 End EVERY analysis with 4–5 concrete procurement actions. Use the header
-`## Próximos Pasos`.
+`## Next Steps`.
 
 Actions must be specific and corporate-facing (not startup advice):
 

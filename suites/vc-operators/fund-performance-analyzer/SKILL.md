@@ -129,7 +129,7 @@ interpretation.
 - If top decile, say "top decile for 2019 vintage (>3.01× TVPI threshold)" — not "strong"
 - Precision is the standard — not approximation or spin
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 Focus on actionable analysis conclusions:
 - Reserve allocation decisions: which positions warrant additional capital?

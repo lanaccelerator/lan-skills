@@ -32,7 +32,7 @@ it is the infrastructure that LATAM business communication runs on.
 - Keep first message under 3 sentences — one specific reason for reaching out +
   one data point + one ask
 - Voice notes are culturally accepted for follow-ups with senior decision-makers in
-  LATAM — 60–90 second voice note often outperforms text for Gerente General
+  LATAM — 60–90 second voice note often outperforms text for the General Manager
 - Personalize the opening line with company name and a specific observation
 - Send PDFs directly in WhatsApp — accepted as professional in LATAM
 
@@ -56,7 +56,7 @@ it is the infrastructure that LATAM business communication runs on.
 **Do NOT use WhatsApp:**
 - As the very first touch without any prior connection (unless referral gave the number)
 - For formal contract delivery or legal documents (use email for paper trail)
-- For complex proposals — send via email, then WhatsApp: "Te acabo de enviar la propuesta al email"
+- For complex proposals — send via email, then WhatsApp: "I just sent the proposal to your email"
 
 ---
 
@@ -89,15 +89,17 @@ Cold outreach has a much lower conversion ceiling than warm introductions.
 
 ---
 
-## 3. Decision-Maker Titles — Spanish Mapping
+## 3. Decision-Maker Titles — Local-Language Mapping
 
 Using English titles in LATAM outreach (VP Sales, CEO) is a signal that you don't
-know the market. Use Spanish titles in ICP definition and outreach personalization.
+know the market. Use the local-language titles below in ICP definition and outreach
+personalization. Titles are kept in Spanish/Portuguese as they appear on LinkedIn
+profiles and business cards in market.
 
 ### Startup and SME Titles (<200 employees)
 
-| Role | Spanish Titles in Order of Frequency |
-|------|--------------------------------------|
+| Role | Local-Language Titles in Order of Frequency |
+|------|---------------------------------------------|
 | CEO / Founder | Gerente General, Dueño, Socio, CEO, Presidente, Co-Fundador |
 | VP Sales / Commercial | Director Comercial, Gerente Comercial, Director de Ventas |
 | COO | Director de Operaciones, Gerente de Operaciones |
@@ -107,8 +109,8 @@ know the market. Use Spanish titles in ICP definition and outreach personalizati
 
 ### Mid-Market Titles (200–1,000 employees)
 
-| Role | Spanish Titles in Order of Frequency |
-|------|--------------------------------------|
+| Role | Local-Language Titles in Order of Frequency |
+|------|---------------------------------------------|
 | CEO | CEO, Presidente, Director General |
 | VP Sales | Director Comercial, VP Comercial, Director de Ventas |
 | VP Operations | Director de Operaciones, VP Operaciones |
@@ -118,8 +120,8 @@ know the market. Use Spanish titles in ICP definition and outreach personalizati
 
 ### Enterprise Titles (1,000+ employees)
 
-| Role | Spanish Titles |
-|------|---------------|
+| Role | Local-Language Titles |
+|------|----------------------|
 | CEO | CEO, Presidente, Director General |
 | Commercial | Director Comercial, VP Comercial, Gerente Regional de Ventas |
 | IT/Technology | CTO, Director de TI, Director de Transformación Digital |
@@ -128,8 +130,9 @@ know the market. Use Spanish titles in ICP definition and outreach personalizati
 | Procurement | Director de Procurement, Director de Compras Corporativas |
 
 **Country-Specific Notes:**
-- **Mexico:** "Gerente General" is the most common SME CEO title. "Licenciado/a" as
-  prefix signals formal education — use respectfully in first outreach.
+- **Mexico:** "Gerente General" (General Manager) is the most common SME CEO title.
+  "Licenciado/a" as a prefix signals formal education — use respectfully in first
+  outreach.
 - **Brazil:** Portuguese titles differ — CEO = "CEO" or "Presidente", VP Sales =
   "Diretor Comercial", COO = "Diretor de Operações". Never use Spanish titles in Brazil.
 - **Colombia / Argentina / Chile:** Spanish titles above apply with minor regional
@@ -144,7 +147,7 @@ not fixable with better outreach. Plan pipeline targets accordingly.
 
 | Segment | LATAM Cycle | US Equivalent | Key Reason for Gap |
 |---------|------------|---------------|-------------------|
-| **SME (<50 employees)** | 2–4 months | 1–2 months | Gerente General decides everything — limited bandwidth |
+| **SME (<50 employees)** | 2–4 months | 1–2 months | The General Manager decides everything — limited bandwidth |
 | **Mid-market (50–500 employees)** | 3–6 months | 2–4 months | Multi-stakeholder + legal review + procurement process |
 | **Enterprise (500+ employees)** | 6–18 months | 4–12 months | Manual procurement, legal in-person meetings, IT compliance reviews |
 | **Government / State** | 12–36 months | 12–24 months | Procurement law, budget cycles, political considerations |
@@ -174,8 +177,8 @@ a trust mechanism — not a stall tactic. Prepare for it.
 
 - Relationship-first culture extends to peer validation. A reference call with a
   similar company (same industry, similar size, same geography) carries enormous weight.
-- "¿Puedes hablarme con alguien que ya lo esté usando en Colombia?" is a signal of
-  genuine interest, not a delay tactic.
+- A request like "Can you put me in touch with someone already using it in Colombia?"
+  (typically asked in Spanish in market) is a signal of genuine interest, not a delay tactic.
 
 ### Building a Reference Account Program
 
@@ -218,4 +221,4 @@ budget cycles close. Deals started in November often close in Q1 of the followin
 
 - **December 15 – January 15:** Almost no deals close. Latam decision-makers on vacation.
 - **Holy Week (Semana Santa):** 1 week before Easter. Activity drops significantly.
-- **July (school holidays in some markets):** Gerentes Generales often traveling.
+- **July (school holidays in some markets):** General Managers often traveling.

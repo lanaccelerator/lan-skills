@@ -1,10 +1,10 @@
 # LAN Skills & Agents
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills](https://img.shields.io/badge/Skills-27-blue.svg)](#skill-catalog)
+[![Skills](https://img.shields.io/badge/Skills-29-blue.svg)](#skill-catalog)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blueviolet.svg)](https://docs.anthropic.com/en/docs/claude-code)
 
-27 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
+29 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
 
 Unlike roleplay-based AI tools, LAN Skills EXECUTE: they generate pitch decks, calculate unit economics, build data rooms, write deal memos, and design GTM strategies — grounded in industry-standard frameworks (YC, Sequoia, a16z, Brad Feld, ILPA) and calibrated to LATAM market benchmarks (LAVCA 2025, Cuantico 2026).
 
@@ -32,7 +32,7 @@ cd lan-skills
 npx lan-skills
 ```
 
-The installer copies all 27 skills to `~/.claude/skills/`. No additional setup required.
+The installer copies all 29 skills to `~/.claude/skills/`. No additional setup required.
 
 ### Verify Installation
 
@@ -44,7 +44,7 @@ Run this before committing any changes to verify all SKILL.md files are spec-com
 
 ## Skill Catalog
 
-### Startups Suite (13 skills)
+### Startups Suite (15 skills)
 
 | Skill | Command | Description |
 |-------|---------|-------------|
@@ -52,6 +52,8 @@ Run this before committing any changes to verify all SKILL.md files are spec-com
 | Pitch Deck Builder | `/pitch-deck-builder` | Create investor presentations using Sequoia 10-slide, YC Series A, and Kawasaki 10-20-30 frameworks |
 | Go-To-Market Strategist | `/go-to-market-strategist` | Design GTM plans, choose growth channels, and build 90-day launch plans |
 | Startup KPI Automator | `/startup-kpi-automator` | Design KPI systems, build dashboards, and prepare investor updates |
+| Startup Metrics & OKRs | `/startup-metrics-okrs` | Build full measurement system in one run — North Star + stage-appropriate KPIs + scoreable quarterly OKRs (Doerr/Grove) |
+| Investor Update Compiler | `/investor-update-compiler` | Compile monthly investor updates in Suster/Lemkin format — KPIs, financials, runway, wins, lowlights, asks |
 | Data Room Builder | `/data-room-builder` | Organize investor data rooms following Visible.vc template and NFX guide |
 | Deck Reviewer | `/deck-reviewer` | Per-slide pitch deck evaluation with scoring and improvement suggestions |
 | Unit Economics Calculator | `/unit-economics-calculator` | Calculate CAC, LTV, LTV/CAC, payback period, contribution margin, and break-even |

@@ -81,7 +81,7 @@ Execute in this exact order:
    These are mandatory, not optional.
 7. **Launch checklist** — minimum criteria the product must meet before calling it "live"
 8. Output using [TEMPLATES.md](TEMPLATES.md) structure
-9. **Próximos Pasos**
+9. **Next Steps**
 
 ## Step 4: Output Format
 
@@ -95,7 +95,7 @@ The output contains:
 - **4-week build plan table:** Week | Sprint Goal | Features to Ship | Validation Method
 - **Launch checklist** (minimum viable launch criteria before calling it "live")
 - **LATAM Context box** (payment integrations + compliance requirements for stated geography)
-- **Próximos Pasos**
+- **Next Steps**
 
 ## Step 5: LATAM Context
 
@@ -133,7 +133,7 @@ The MVP must be ONE working user journey from login to value. Everything else is
 The goal of an MVP is NOT to have a complete product. It is to get ONE LEARNING as fast as
 possible. Every feature that is not required for that learning is waste.
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 The FIRST action is always: validate the hypothesis before writing a single line of code.
 

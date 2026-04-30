@@ -143,7 +143,7 @@ See @shared/frameworks/editorial-voice.md. This is a GP/partner voice — a seni
 decision-maker writing to convince a skeptical IC. Wishy-washy language is unacceptable.
 
 - WRONG: "The team seems capable and has relevant experience."
-- RIGHT: "Founder A's prior exit (Empresa X, $40M Series B, capital-efficient SME
+- RIGHT: "Founder A's prior exit (Company X, $40M Series B, capital-efficient SME
   fintech vertical) demonstrates directly applicable LATAM operator experience. This
   team can execute the regulatory navigation that will determine whether this investment
   succeeds or fails."
@@ -156,7 +156,7 @@ Vague characterizations signal an analyst who has not done the work.
 The Investment Recommendation section must end with one of three explicit positions:
 
 **INVEST** — Include: instrument (SAFE / priced round), pre-money valuation,
-Cóndor/fund check size, pro-rata rights, board observer/seat, and any closing conditions.
+fund check size, pro-rata rights, board observer/seat, and any closing conditions.
 
 **PASS** — Include: one specific reason per fatal flaw identified. Examples:
 "LTV/CAC 0.8:1 at Seed — unit economics not viable at current pricing structure."

@@ -6,7 +6,7 @@ based on the user's actual market — no placeholders.
 
 Output includes: 2x2 competitive matrix, competitor profile table, differentiation
 matrix, Porter's Five Forces risk table, defensibility analysis, LATAM context, and
-Próximos Pasos.
+Next Steps.
 
 ---
 
@@ -158,7 +158,7 @@ add features.
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. **Build e-Social compliance automation (highest-priority moat):** E-Social reporting
    is mandatory for Brazilian employers over 10 employees. Automate the 6 most common

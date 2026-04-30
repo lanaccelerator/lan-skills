@@ -74,7 +74,7 @@ any LATAM-specific adjustments explicitly.]
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. [Specific LP action within 14 days]
 2. [Specific LP action]
@@ -225,7 +225,7 @@ a negotiation position for a $2M commitment.
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. **Propose ILPA model LP side letter as negotiation baseline.** Download the ILPA model
    LPA side letter from ilpa.org/model-lpa and submit it to Cóndor Ventures as your

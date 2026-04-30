@@ -13,7 +13,7 @@ or field order. This example is fully worked through.
 ## Problem Definition
 
 **Company:** FEMSA Digital (Monterrey, Mexico) — Digital innovation division of FEMSA/OXXO
-**Internal Champion:** Carlos Ávila, Gerente de Innovación Digital (reports to CTO)
+**Internal Champion:** Carlos Ávila, Digital Innovation Manager (reports to CTO)
 **Problem Statement (refined):** Reduce inventory shrinkage at OXXO convenience stores by
 20% within 12 months through real-time computer vision shelf monitoring integrated with
 the existing SAP inventory management system.
@@ -97,7 +97,7 @@ vendor relationships.
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. **Secure C-Suite sponsor within 30 days.** Request that Carlos Ávila escalate to the CTO of
    OXXO Operations for executive sponsorship. No external startup engagement should begin until

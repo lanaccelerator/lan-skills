@@ -84,7 +84,7 @@ Execute in this exact order:
 7. Apply LATAM context annotations from
    [references/latam-context.md](references/latam-context.md)
 8. Output using [TEMPLATES.md](TEMPLATES.md) structure
-9. **Próximos Pasos** including a specific A/B price test recommendation
+9. **Next Steps** including a specific A/B price test recommendation
 
 ## Step 4: Output Format
 
@@ -99,7 +99,7 @@ The output contains:
 - **Competitive pricing table:** Competitor | Model | Entry Price | Mid-Tier | Enterprise/Top
 - **Price sensitivity estimate** — with value-based justification
 - **LATAM Context box** — currency denomination decision, billing cadence, underpricing check
-- **Próximos Pasos** — including specific A/B test recommendation
+- **Next Steps** — including specific A/B test recommendation
 
 ## Step 5: LATAM Context
 
@@ -142,7 +142,7 @@ you need 841 customers. Run the shadow test before assuming customers will churn
 
 Pricing changes are reversible. Under-pricing for 18 months before realizing it is not.
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 Always include a specific A/B pricing test recommendation. Not "test your pricing" —
 a specific test with a method.

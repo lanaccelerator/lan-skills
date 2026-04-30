@@ -77,7 +77,7 @@ Execute in this exact order:
    BEFORE producing the final analysis
 6. Produce Term Analysis Table per [TEMPLATES.md](TEMPLATES.md)
 7. Issue ACCEPT / NEGOTIATE / PASS recommendation with specific negotiation asks
-8. End with Próximos Pasos (3–5 LP actions)
+8. End with Next Steps (3–5 LP actions)
 
 ## Step 4: Output Format
 
@@ -122,9 +122,9 @@ per year in the investment period. That is 2.5% return drag before a single inve
 is made. No step-down means the drag continues into the harvest period when the GP is
 managing, not deploying, capital. This is not a market-standard term. Negotiate it."
 
-## Step 6: Próximos Pasos — LP Negotiation Actions
+## Step 6: Next Steps — LP Negotiation Actions
 
-End EVERY analysis with 3–5 specific LP actions. Use the header `## Próximos Pasos`.
+End EVERY analysis with 3–5 specific LP actions. Use the header `## Next Steps`.
 
 Actions must be concrete:
 - GOOD: "Propose ILPA model LP side letter as negotiation baseline — specifically

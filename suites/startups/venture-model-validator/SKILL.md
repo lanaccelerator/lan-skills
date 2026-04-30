@@ -64,7 +64,7 @@ Execute in this exact order:
 4. Research comparables — read [references/comparable-companies.md](references/comparable-companies.md) for LATAM examples
 5. Apply LATAM context — read [references/latam-context.md](references/latam-context.md) BEFORE calculating final score
 6. Generate scorecard output using the structure in [TEMPLATES.md](TEMPLATES.md)
-7. End with Próximos Pasos
+7. End with Next Steps
 
 ## Step 4: Output Format
 
@@ -78,7 +78,7 @@ The output is a VC Backability Scorecard containing:
 - **Red flags section** — explicit `[RED FLAG]` callouts, not glossed-over concerns
 - **Comparables table** — 2–4 LATAM companies at comparable stage with metrics
 - **LATAM Context box** — US benchmark labeled `(US-sourced benchmark)` + LATAM-adjusted figure labeled `(LATAM, LAVCA 2025 / Cuantico 2026)`
-- **Próximos Pasos** — 3–5 concrete next actions
+- **Next Steps** — 3–5 concrete next actions
 
 ## Step 5: LATAM Context
 
@@ -100,10 +100,10 @@ See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-b
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 End EVERY analysis with 3–5 specific next actions the founder should take within 30 days,
-based on the gaps identified in the scorecard. Use the header `## Próximos Pasos`.
+based on the gaps identified in the scorecard. Use the header `## Next Steps`.
 
 Actions must be concrete:
 - GOOD: "Conduct 20 customer discovery interviews with [segment] targeting [specific question]"

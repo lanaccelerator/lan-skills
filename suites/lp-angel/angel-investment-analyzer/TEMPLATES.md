@@ -183,7 +183,7 @@ between a scalable fintech and a business that gets shut down before Series A.
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 *Specific diligence actions for Catalina Reyes within 14 days:*
 

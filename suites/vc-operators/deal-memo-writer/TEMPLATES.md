@@ -8,7 +8,7 @@ Do not change section headings, table columns, or field order.
 
 ## Example Output: PayGo México
 
-*This is a filled example showing Cóndor Ventures Fund I evaluating PayGo México —
+*This is a filled example showing Condor Ventures Fund I evaluating PayGo México —
 a Seed-stage B2B fintech SaaS company. Use it as the structural template for every
 IC memo you produce.*
 
@@ -16,9 +16,9 @@ IC memo you produce.*
 
 # Investment Committee Memo: PayGo México
 
-**Prepared by:** Isaac García, GP — Cóndor Ventures Fund I
+**Prepared by:** Isaac García, GP — Condor Ventures Fund I
 **Date:** April 2026
-**Fund:** Cóndor Ventures Fund I ($25M committed, 2022 vintage, Brazil/Mexico B2B SaaS
+**Fund:** Condor Ventures Fund I ($25M committed, 2022 vintage, Brazil/Mexico B2B SaaS
 focus, Year 3 of 10-year fund life — active investment period)
 **Decision required:** Approve $500k check at $12M pre-money SAFE
 
@@ -31,7 +31,7 @@ focus, Year 3 of 10-year fund life — active investment period)
 PayGo México is a Seed-stage B2B fintech enabling SMEs to accept digital payments
 through a single API layer that integrates OXXO Pay, SPEI, and card processing. MRR
 $45k (210 customers, 18% MoM growth). Funding ask: $2.5M raise on $12M pre-money.
-Cóndor proposed check: $500k (20% of round).
+Condor proposed check: $500k (20% of round).
 
 **Conviction:** Founder-market fit is exceptional — CEO previously led BD at Clip
 México (LATAM's leading card acceptance platform), giving PayGo the only biz-dev
@@ -61,7 +61,7 @@ and card processing. SME owners add a payment link to their WhatsApp catalog and
 accept all three payment types through one dashboard. Billing is usage-based (0.8%
 take rate on TPV + $29/mo platform fee).
 
-**Why it matters to Cóndor:** Fits Fund I thesis (B2B SaaS, Mexico primary market,
+**Why it matters to Condor:** Fits Fund I thesis (B2B SaaS, Mexico primary market,
 Seed entry) exactly. This is the third payment infrastructure deal we have evaluated —
 the first two lacked the OXXO relationship that creates a real moat.
 
@@ -195,7 +195,7 @@ OXXO in the next 12 months?"
 
 | Risk | Severity | Mitigation Thesis |
 |------|---------|------------------|
-| CNBV fintech license timeline (24-month requirement) | HIGH | Structure as SOFOM (Sociedad Financiera de Objeto Múltiple) — regulatory pathway reduces timeline from 18 months to ~60 days. Propose SOFOM registration as closing condition. Convertible structure (SAFE) protects Cóndor if licensing is delayed. |
+| CNBV fintech license timeline (24-month requirement) | HIGH | Structure as SOFOM (Sociedad Financiera de Objeto Múltiple) — regulatory pathway reduces timeline from 18 months to ~60 days. Propose SOFOM registration as closing condition. Convertible structure (SAFE) protects Condor if licensing is delayed. |
 | FX risk: USD tech costs (AWS, some engineering) + MXN revenue | MEDIUM | 82% of cost base is MXN-denominated (local dev team + Mexico City office). AWS costs ~$8k/month USD. Hedging not required at Seed; review at Series A when USD cost exposure may increase with Brazil expansion. *(LATAM, LAVCA 2025)* BRL/USD and MXN/USD: 15–30% annual volatility typical. |
 | Competitor risk: Conekta / Clip aggressive pricing in SME segment | MEDIUM | OXXO exclusivity window: 18 months before a competitor could replicate the relationship. After Month 18, differentiation must shift to the SME analytics dashboard (in roadmap). Track Conekta SME product announcements quarterly. |
 | Customer concentration: Top 5 customers = 22% of MRR | LOW | Below the 30% concentration red flag threshold *(US-sourced benchmark, a16z)*. Manageable at Seed; monitor at Series A. |
@@ -218,10 +218,10 @@ this directly and is the standard path for Seed-stage Mexican fintech companies
 - **Instrument:** Post-money SAFE (YC standard form)
 - **Pre-money valuation cap:** $12,000,000
 - **MFN clause:** Yes (Most Favored Nation)
-- **Cóndor check size:** $500,000 (20% of $2.5M round)
-- **Pro-rata rights:** Yes — right to participate in Series A up to Cóndor's pro-rata
+- **Condor check size:** $500,000 (20% of $2.5M round)
+- **Pro-rata rights:** Yes — right to participate in Series A up to Condor's pro-rata
   percentage (maintain 4.2% ownership)
-- **Board:** Board observer seat (non-voting) for Cóndor GP
+- **Board:** Board observer seat (non-voting) for Condor GP
 - **Information rights:** Monthly financials, quarterly board updates, cap table access
 
 **Closing conditions:**
@@ -235,7 +235,7 @@ $12M pre-money at $45k MRR = 22× ARR multiple. *(LATAM, LAVCA 2025)* LATAM Seed
 B2B fintech multiples range 10–25× ARR; 22× is in the upper half, justified by
 18% MoM growth, strong LTV/CAC, and the OXXO moat. Comparable: Konfío raised at
 similar multiples with comparable metrics in 2019. This is a fair entry price for
-Cóndor Fund I given the moat quality.
+Condor Fund I given the moat quality.
 
 **Fund I portfolio fit:**
 This is Investment #6 of 14 planned. At $500k check, exposure is 2% of committed

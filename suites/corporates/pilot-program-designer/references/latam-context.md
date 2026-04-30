@@ -20,7 +20,7 @@ regardless of pilot results. Confirm before contract signature.
 | Chile | SII electronic invoicing (DTE) | Lower barrier than Brazil/Mexico; SII registration straightforward | Less risk; standard 30–45 day process |
 
 **Action:** Always include "Confirm startup can issue [country]-compliant invoices before
-contract signature" as the first item in Próximos Pasos.
+contract signature" as the first item in Next Steps.
 
 ## Data Protection Requirements
 

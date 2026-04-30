@@ -78,7 +78,7 @@ Execute in this exact order:
    [references/latam-context.md](references/latam-context.md) — adjust
    benchmarks for LATAM market reality before producing final output
 7. Output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
-8. End with Próximos Pasos
+8. End with Next Steps
 
 ## Step 4: Output Format
 
@@ -91,7 +91,7 @@ Output must include:
 - Dashboard structure (investor update vs. operations)
 - Investor report template (monthly email format, filled)
 - LATAM Context box (US benchmark + LATAM-adjusted figure, labeled per protocol)
-- Próximos Pasos
+- Next Steps
 
 ## Step 5: LATAM Context
 
@@ -115,10 +115,10 @@ See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-b
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 
-## Step 6: Próximos Pasos
+## Step 6: Next Steps
 
 End EVERY output with specific actions to implement this KPI system in the next
-30 days. Use the header `## Próximos Pasos`.
+30 days. Use the header `## Next Steps`.
 
 Actions must be concrete:
 - GOOD: "Set up a Google Sheet with the 8 KPIs in this dashboard. Automate MRR

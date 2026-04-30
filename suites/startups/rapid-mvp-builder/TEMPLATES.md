@@ -125,7 +125,7 @@ Minimum criteria before calling WasteConnect "live":
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. **Before writing a single line of code:** Talk to 5 São Paulo restaurant owners this week.
    Ask: "How do you currently dispose of organic waste? What do you pay? How much time does

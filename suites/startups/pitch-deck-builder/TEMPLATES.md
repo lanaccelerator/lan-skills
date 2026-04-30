@@ -278,7 +278,7 @@ and common errors. Do not abbreviate or skip sections.
 
 ---
 
-## Próximos Pasos (Example)
+## Next Steps (Example)
 
 Based on the [DATA NEEDED] flags above, founder's immediate actions:
 

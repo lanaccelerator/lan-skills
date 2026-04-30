@@ -22,8 +22,8 @@ and structure.
 
 **Example:**
 Reduce Tier 1 support ticket resolution time from 48 hours to 12 hours for internet
-connectivity issues in the Bogotá residential segment (Claro Colombia, Gerencia de
-Experiencia Cliente). Current median: 48 hours, measured via ServiceNow ticket data from
+connectivity issues in the Bogotá residential segment (Claro Colombia, Customer
+Experience Management). Current median: 48 hours, measured via ServiceNow ticket data from
 Q4 2025. Target: 12 hours median by Day 60 of pilot. Evaluation date: April 15, 2026.
 Startup: TechBot IA (Bogotá, AI customer service routing, 3 enterprise customers including
 ETB and Movistar Colombia).
@@ -65,7 +65,7 @@ indicator that predicts resolution time trajectory.
 **Midpoint Go/No-Go Gate (Day 60):**
 - Kill criteria applied (see Section 5)
 - Decision: GO (proceed to full launch) or NO-GO (terminate pilot)
-- Decision authority: Jorge Méndez + VP Tecnología
+- Decision authority: Jorge Méndez + VP Technology
 
 **Phase 2 — Full Launch (Days 31–60):**
 - Days 31–45: Scaled launch — 500 tickets/day; weekly performance review
@@ -106,7 +106,7 @@ before pilot start, the pilot should not begin.**
 
 | Metric | Success Threshold | Failure Threshold | Decision Date | Decision Authority |
 |--------|-----------------|-------------------|---------------|-------------------|
-| Resolution time (median) | ≤12 hours by Day 60 | >30 hours at Day 60 | April 15, 2026 | Jorge Méndez (Gerente Experiencia Cliente) + VP Tecnología |
+| Resolution time (median) | ≤12 hours by Day 60 | >30 hours at Day 60 | April 15, 2026 | Jorge Méndez (Customer Experience Manager) + VP Technology |
 | Customer CSAT | ≥4.2/5.0 by Day 60 | <3.5/5.0 at Day 60 | April 15, 2026 | Jorge Méndez |
 | AI escalation rate | ≤25% of tickets by Day 45 | >40% at Day 45 | March 31, 2026 | IT Lead + Jorge Méndez |
 
@@ -127,15 +127,15 @@ that pattern.
 
 | Role | Person | Responsibility |
 |------|--------|----------------|
-| Internal Champion | Jorge Méndez, Gerente Experiencia Cliente | Day-to-day pilot owner; escalation point for TechBot IA; weekly standup lead |
-| Executive Sponsor | VP Tecnología (to be named before Day 1) | Kill criteria sign-off; commercial negotiation authority; escalation from Jorge Méndez |
+| Internal Champion | Jorge Méndez, Customer Experience Manager | Day-to-day pilot owner; escalation point for TechBot IA; weekly standup lead |
+| Executive Sponsor | VP Technology (to be named before Day 1) | Kill criteria sign-off; commercial negotiation authority; escalation from Jorge Méndez |
 | IT Point of Contact | [IT Engineer Name] | ServiceNow API access, integration support, 40 hours allocated for Phase 1 |
 | Legal Point of Contact | [Legal Counsel Name] | Contract review, DPA, CRC compliance |
 | TechBot IA Contact | [CEO or CTO name] | Product delivery, integration, KPI reporting |
 
 **Weekly standup:** Every Monday, 30 minutes. Jorge Méndez + TechBot IA lead + IT point of contact.
-**Monthly review:** Jorge Méndez + VP Tecnología + TechBot IA CEO. KPI dashboard review + trajectory assessment.
-**Escalation path:** Jorge Méndez → VP Tecnología → Chief Digital Officer (for budget or legal escalations)
+**Monthly review:** Jorge Méndez + VP Technology + TechBot IA CEO. KPI dashboard review + trajectory assessment.
+**Escalation path:** Jorge Méndez → VP Technology → Chief Digital Officer (for budget or legal escalations)
 
 ---
 
@@ -168,13 +168,13 @@ that pattern.
 
 ---
 
-### 9. Próximos Pasos
+### 9. Next Steps
 
 1. **Confirm TechBot IA can issue Colombian e-invoices (DIAN CUFE-compliant) before contract
    signature** — request invoice compliance documentation from TechBot IA within 5 business
    days. If non-compliant, add 6-week DIAN registration to Phase 0 timeline.
 
-2. **Name the VP Tecnología executive sponsor and schedule kill criteria sign-off meeting**
+2. **Name the VP Technology executive sponsor and schedule kill criteria sign-off meeting**
    — kill criteria table must be reviewed and approved by executive sponsor before pilot
    agreement is signed. Target: within 10 business days.
 

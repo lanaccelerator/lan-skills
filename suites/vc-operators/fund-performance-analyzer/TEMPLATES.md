@@ -6,19 +6,19 @@ Do not change section headings, table columns, or section order.
 
 ---
 
-## Example Output: Cóndor Ventures Fund I — Performance Analysis as of Q3 2025
+## Example Output: Condor Ventures Fund I — Performance Analysis as of Q3 2025
 
-*This is a filled example showing Cóndor Ventures Fund I (2022 vintage, $25M, Brazil/Mexico
+*This is a filled example showing Condor Ventures Fund I (2022 vintage, $25M, Brazil/Mexico
 B2B SaaS focus, Year 4 of 10) as of Q3 2025. Consistent with portfolio-reporter TEMPLATES.md —
 same fund, same period, different analytical lens.*
 
 ---
 
-# Fund Performance Analysis: Cóndor Ventures Fund I
+# Fund Performance Analysis: Condor Ventures Fund I
 
-**Prepared by:** Ana Martínez, Fund Analyst — Cóndor Ventures
+**Prepared by:** Ana Martínez, Fund Analyst — Condor Ventures
 **Analysis date:** September 30, 2025 (Q3 2025 quarter-end)
-**Fund:** Cóndor Ventures Fund I | Vintage: 2022 | Size: $25M committed | Year 4 of 10
+**Fund:** Condor Ventures Fund I | Vintage: 2022 | Size: $25M committed | Year 4 of 10
 
 ---
 
@@ -44,7 +44,7 @@ same fund, same period, different analytical lens.*
 
 **2022 Vintage Benchmarks** — (US-sourced benchmark, Carta Q1 2026)
 
-| Metric | Cóndor Fund I | 2022 Median | 2022 75th Pct | 2022 90th Pct | Cóndor Percentile |
+| Metric | Condor Fund I | 2022 Median | 2022 75th Pct | 2022 90th Pct | Condor Percentile |
 |--------|--------------|-------------|--------------|--------------|-------------------|
 | TVPI | 1.18× | slightly >1.0× | 1.20× | — | Near 75th percentile |
 | IRR | 8.2% | 0.7% | 10.9% | ~35% | Above median; below 75th |
@@ -59,12 +59,12 @@ that cohort.*
 
 ## 3. Percentile Placement Summary
 
-**Cóndor Ventures Fund I is performing near the 75th percentile for its 2022 vintage
+**Condor Ventures Fund I is performing near the 75th percentile for its 2022 vintage
 cohort based on TVPI (1.18× vs 75th percentile 1.20×).**
 
 IRR of 8.2% exceeds the 2022 vintage median (0.7%) by 7.5 percentage points and is
 tracking toward the 75th percentile (10.9%) as the portfolio matures. The 2022 vintage
-median IRR of 0.7% reflects J-curve pressure across the cohort — Cóndor's early secondary
+median IRR of 0.7% reflects J-curve pressure across the cohort — Condor's early secondary
 realization (PortCo A) contributed positively to IRR acceleration.
 
 DPI at 0.08× is above the 2022 vintage median (approximately 0.0×) — most 2022 vintage
@@ -156,14 +156,14 @@ with selective follow-on).
 > than US; (2) thinner secondary market — fewer LATAM fund buyers; (3) fewer Series A+ funds
 > to drive portfolio company markups. Using US Carta benchmarks as reference context only.
 
-> **Cóndor assessment:** Cóndor Ventures Fund I at 1.18× TVPI is performing at or above LATAM
+> **Condor assessment:** Condor Ventures Fund I at 1.18× TVPI is performing at or above LATAM
 > peer expectations for a Year 4, 2022 vintage fund. The first realized secondary (PortCo A at
 > 3.10× position TVPI) confirms that Kaszek-grade secondary buyers are accessible for top
 > LATAM B2B SaaS companies — a key thesis validation.
 
 ---
 
-## Próximos Pasos
+## Next Steps
 
 1. **Portfolio triage** — 5 positions below cost (aggregate 0.88× TVPI on $21.25M). Review
    PortCo E and H for bridge vs write-down decision by Q4 2025. Remaining 3 (PortCo D, F, G)

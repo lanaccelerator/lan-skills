@@ -75,7 +75,7 @@ Execute in this exact order:
 4. Research LATAM comparables — identify 3 comparable LATAM companies at similar stage/sector
 5. Apply LATAM context — read [references/latam-context.md](references/latam-context.md) BEFORE producing the final score
 6. Generate scorecard output using the structure in [TEMPLATES.md](TEMPLATES.md)
-7. End with Próximos Pasos for the investor's 14-day diligence actions
+7. End with Next Steps for the investor's 14-day diligence actions
 
 ## Step 4: Output Format
 
@@ -128,10 +128,10 @@ Expected tone: "This deal fails the moat durability test — three well-funded c
 license or proprietary data asset, this startup is competing on execution speed against
 players with 10× more capital. That is not a moat. That is a race."
 
-## Step 6: Próximos Pasos — Investor Diligence Actions
+## Step 6: Next Steps — Investor Diligence Actions
 
 End EVERY analysis with 3–5 specific diligence actions for the investor to complete
-within 14 days. Use the header `## Próximos Pasos`.
+within 14 days. Use the header `## Next Steps`.
 
 Actions must be concrete and investor-facing (not founder advice):
 
@@ -140,7 +140,7 @@ Actions must be concrete and investor-facing (not founder advice):
 - BAD: "Do more diligence on customers."
 
 Base next steps on the lowest-scoring criteria. If Return Potential scores 2/5, the first
-Próximos Pasos must directly address the ownership/exit math for this specific deal.
+Next Steps must directly address the ownership/exit math for this specific deal.
 
 ## Sources
 
