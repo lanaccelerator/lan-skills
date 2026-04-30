@@ -26,6 +26,8 @@ cd lan-skills
 # Then type / in Claude Code to see all available skills
 ```
 
+> **Windows users:** `install.sh` is a bash script. Run it from **Git Bash** (ships with [Git for Windows](https://git-scm.com/download/win)) or **WSL**. It will not run in `cmd.exe` or PowerShell. Option B (`npx github:...`) works in any shell.
+
 **Option B: npx (one-liner)**
 
 Runs the installer directly from GitHub — no npm publish required, works in any shell on macOS, Linux, and Windows (PowerShell or cmd).
