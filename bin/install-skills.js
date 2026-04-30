@@ -3,8 +3,9 @@
 const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 
-const SKILLS_DIR = path.join(process.env.HOME, '.claude', 'skills');
+const SKILLS_DIR = path.join(os.homedir(), '.claude', 'skills');
 const SUITES_DIR = path.join(__dirname, '..', 'suites');
 
 console.log(`Installing LAN Skills to ${SKILLS_DIR}...`);
