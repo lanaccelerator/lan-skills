@@ -28,7 +28,7 @@ See: .planning/PROJECT.md (updated 2026-04-04)
 Phase: 4
 Plan: Not started
 Status: Phase complete — ready for verification
-Last activity: 2026-04-05
+Last activity: 2026-04-30 - Completed quick task 260430-jga: Fix repo install bugs
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -143,6 +143,7 @@ None yet.
 | # | Description | Date | Commit | Directory |
 |---|-------------|------|--------|-----------|
 | 260405-4en | Publish lan-skills to ecosystem — verify README, install.sh, add package.json, verify SKILL.md frontmatter, prepare PRs | 2026-04-05 | 6f67904 | [260405-4en](./quick/260405-4en-publish-lan-skills-to-ecosystem-verify-r/) |
+| 260430-jga | Fix repo install bugs: lan-accelerator org refs, Windows HOME, npx github URL, Windows install note | 2026-04-30 | e4cec14 | [260430-jga](./quick/260430-jga-fix-repo-install-bugs-lan-accelerator-or/) |
 
 ### Blockers/Concerns
 
