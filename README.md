@@ -28,8 +28,10 @@ cd lan-skills
 
 **Option B: npx (one-liner)**
 
+Runs the installer directly from GitHub — no npm publish required, works in any shell on macOS, Linux, and Windows (PowerShell or cmd).
+
 ```bash
-npx lan-skills
+npx github:isaacgbc/lan-skills
 ```
 
 The installer copies all 29 skills to `~/.claude/skills/`. No additional setup required.
