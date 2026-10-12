@@ -8,7 +8,7 @@
 
 Unlike roleplay-based AI tools, LAN Skills EXECUTE: they generate pitch decks, calculate unit economics, build data rooms, write deal memos, and design GTM strategies — grounded in industry-standard frameworks (YC, Sequoia, a16z, Brad Feld, ILPA) and calibrated to LATAM market benchmarks (LAVCA 2025, Cuantico 2026).
 
-**Repository:** [github.com/isaacgbc/lan-skills](https://github.com/isaacgbc/lan-skills)
+**Repository:** [github.com/lanaccelerator/lan-skills](https://github.com/lanaccelerator/lan-skills)
 
 ## Install
 
@@ -16,7 +16,7 @@ Unlike roleplay-based AI tools, LAN Skills EXECUTE: they generate pitch decks, c
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/isaacgbc/lan-skills.git
+git clone https://github.com/lanaccelerator/lan-skills.git
 cd lan-skills
 
 # 2. Run the installer
@@ -33,7 +33,7 @@ cd lan-skills
 Runs the installer directly from GitHub — no npm publish required, works in any shell on macOS, Linux, and Windows (PowerShell or cmd).
 
 ```bash
-npx github:isaacgbc/lan-skills
+npx github:lanaccelerator/lan-skills
 ```
 
 The installer copies all 32 skills to `~/.claude/skills/`. No additional setup required.
