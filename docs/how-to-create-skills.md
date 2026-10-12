@@ -326,6 +326,7 @@ These phrases are documented in `shared/frameworks/editorial-voice.md`. They com
 | `ilpa-standards.md` | ILPA reporting and LP standards | portfolio-reporter, lp-term-sheet-analyzer, vc-fund-due-diligence |
 | `latam-benchmarks.md` | LAVCA 2025 + Cuantico 2026 LATAM data | All 5 Phase 1 startup skills |
 | `editorial-voice.md` | Tone enforcement | All skills |
+| `company-brain-integration.md` | Company brain (MCP) read-first and write-back, drafts-only outbound, scheduled runs in Claude Code and Codex | meeting-notes-to-brain, all-hands-prep, lead-to-proposal, investor-update-compiler, data-room-builder |
 
 **To reference a shared framework from a skill:**
 

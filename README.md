@@ -1,10 +1,10 @@
 # LAN Skills & Agents
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills](https://img.shields.io/badge/Skills-29-blue.svg)](#skill-catalog)
+[![Skills](https://img.shields.io/badge/Skills-32-blue.svg)](#skill-catalog)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blueviolet.svg)](https://docs.anthropic.com/en/docs/claude-code)
 
-29 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
+32 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
 
 Unlike roleplay-based AI tools, LAN Skills EXECUTE: they generate pitch decks, calculate unit economics, build data rooms, write deal memos, and design GTM strategies — grounded in industry-standard frameworks (YC, Sequoia, a16z, Brad Feld, ILPA) and calibrated to LATAM market benchmarks (LAVCA 2025, Cuantico 2026).
 
@@ -36,7 +36,7 @@ Runs the installer directly from GitHub — no npm publish required, works in an
 npx github:isaacgbc/lan-skills
 ```
 
-The installer copies all 29 skills to `~/.claude/skills/`. No additional setup required.
+The installer copies all 32 skills to `~/.claude/skills/`. No additional setup required.
 
 ### Verify Installation
 
@@ -48,7 +48,7 @@ Run this before committing any changes to verify all SKILL.md files are spec-com
 
 ## Skill Catalog
 
-### Startups Suite (15 skills)
+### Startups Suite (18 skills)
 
 | Skill | Command | Description |
 |-------|---------|-------------|
@@ -57,7 +57,7 @@ Run this before committing any changes to verify all SKILL.md files are spec-com
 | Go-To-Market Strategist | `/go-to-market-strategist` | Design GTM plans, choose growth channels, and build 90-day launch plans |
 | Startup KPI Automator | `/startup-kpi-automator` | Design KPI systems, build dashboards, and prepare investor updates |
 | Startup Metrics & OKRs | `/startup-metrics-okrs` | Build full measurement system in one run — North Star + stage-appropriate KPIs + scoreable quarterly OKRs (Doerr/Grove) |
-| Investor Update Compiler | `/investor-update-compiler` | Compile monthly investor updates in Suster/Lemkin format — KPIs, financials, runway, wins, lowlights, asks |
+| Investor Update Compiler | `/investor-update-compiler` | Compile monthly, quarterly (QoQ) or semi-annual (HoH) investor updates in Suster/Lemkin format: KPIs, financials, runway, wins, lowlights, asks |
 | Data Room Builder | `/data-room-builder` | Organize investor data rooms following Visible.vc template and NFX guide |
 | Deck Reviewer | `/deck-reviewer` | Per-slide pitch deck evaluation with scoring and improvement suggestions |
 | Unit Economics Calculator | `/unit-economics-calculator` | Calculate CAC, LTV, LTV/CAC, payback period, contribution margin, and break-even |
@@ -67,6 +67,9 @@ Run this before committing any changes to verify all SKILL.md files are spec-com
 | Sales Playbook Generator | `/sales-playbook-generator` | B2B sales process, prospecting sequences, objection handling, CRM setup |
 | Pricing Strategy Designer | `/pricing-strategy-designer` | Pricing models (subscription/usage/freemium), packaging tiers, willingness-to-pay |
 | Fundraising Agent | `/fundraising-agent` | End-to-end fundraising co-pilot — investor research, outreach, term sheet navigation |
+| Meeting Notes to Brain | `/meeting-notes-to-brain` | Turn meeting transcripts (Granola, Meet, Fathom, tl;dv) into decisions, owned action items and open questions, filed in the company brain, with follow-up email drafts |
+| All-Hands Prep | `/all-hands-prep` | Weekly team meeting agenda per team from last week's decisions, OKR/KPI deltas, blockers and wins (Grove, Doerr) |
+| Lead to Proposal | `/lead-to-proposal` | Discovery call to same-day proposal and follow-up drafts, matched to your case studies and pricing (SPIN, MEDDICC, Challenger) |
 
 ### VC Operators Suite (5 skills)
 

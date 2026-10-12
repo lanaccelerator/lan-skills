@@ -1,10 +1,19 @@
 ---
 name: investor-update-compiler
-description: Produce a complete monthly investor update in Suster/Lemkin format with a financial section (revenue, costs, runway). Use this skill when a founder needs to send a monthly update to prospect investors, cap table, or newsletter in under 15 minutes. Reads the founder's data room (KPIs, OKRs, financials, customers, investors) and produces a draft that only needs the founder's qualitative storytelling.
+description: >
+  Produce a complete investor update in Suster/Lemkin format with a financial
+  section (revenue, costs, runway), in monthly, quarterly (QoQ) or semi-annual
+  (HoH) cadence. Use this skill when a founder needs to send a monthly,
+  quarterly or half-year update to the cap table, prospect investors or a
+  newsletter in under 15 minutes. Reads KPIs, OKRs, financials, customers and
+  investors from the company brain or data room and produces a draft that only
+  needs the founder's qualitative storytelling. NOT for building the KPI system
+  itself (use startup-metrics-okrs) or for LP reporting by a fund (use
+  portfolio-reporter).
 categories: ["startups", "fundraising", "communications"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
   complements: [startup-metrics-okrs, fundraising-agent]
 license: MIT
@@ -12,7 +21,7 @@ license: MIT
 
 # Investor Update Compiler
 
-Monthly investor update compiler based on Mark Suster (Upfront Ventures, "Invest in Lines, Not Dots"), Jason Lemkin (SaaStr), and Brendan Mulligan. Adapted for LATAM founders with a mandatory financial section.
+Investor update compiler (monthly, quarterly or semi-annual) based on Mark Suster (Upfront Ventures, "Invest in Lines, Not Dots"), Jason Lemkin (SaaStr), and Brendan Mulligan. Adapted for LATAM founders with a mandatory financial section.
 
 ## Workflow premise
 
@@ -24,7 +33,8 @@ The founder adds the qualitative storytelling: context of what happened, why, an
 
 - Month close and an update needs to go out (minimum monthly cadence)
 - An important event needs to be communicated (round closed, critical hire, churn of a large customer)
-- Quarterly newsletter to prospect investors
+- Quarter close: quarterly update for the cap table or prospect investors (see Cadence)
+- Half-year close: semi-annual update, typical for angels, family offices and newsletters (see Cadence)
 - Specific update for someone who asked for details
 
 ## When NOT to Use
@@ -37,7 +47,8 @@ The founder adds the qualitative storytelling: context of what happened, why, an
 
 ```
 Company: [name]
-Reporting month: [month year]
+Cadence: [monthly / quarterly / semiannual] (optional, inferred if omitted)
+Reporting period: [month year / Qn year / Hn year]
 Stage: [pre-seed / seed / Series A]
 Audience: [cap_table / hot_prospects / warm_prospects / newsletter]
 Language: [Spanish / English]
@@ -45,23 +56,83 @@ Language: [Spanish / English]
 Data sources:
 - Historical KPIs: [path or URL]
 - Current quarter OKRs: [path or URL]
-- Monthly financials: [path or URL]
+- Monthly financials: [path or URL] (monthly granularity is needed for every cadence)
 - Customers list: [path or URL]
 - Investors list (for CC): [path or URL]
 
 Founder storytelling (free text):
-- What happened this month in 5-10 lines: [text]
+- What happened this period in 5-10 lines: [text]
 - Qualitative wins (decisions, hires, momentum): [text]
 - Qualitative lowlights (challenges, doubts): [text]
 - Specific asks: [list]
 ```
 
-## Workflow (8 steps)
+## Cadence
+
+Selected by argument (`monthly`, `quarterly`, `semiannual`; also accepted:
+`mensual`, `trimestral`, `semestral`, `Q3 2026`, `H1 2026`) or inferred:
+
+1. Period named as a quarter (Q1-Q4, "tercer trimestre") -> quarterly.
+2. Period named as a half (H1, H2, "primer semestre") -> semi-annual.
+3. A month name -> monthly.
+4. No period given: if the last closed month is a quarter end (Mar, Jun, Sep,
+   Dec) AND the brain shows the previous update for this audience was
+   quarterly, use quarterly; same logic for semi-annual (Jun, Dec). Otherwise
+   monthly. State the inferred cadence in the first line of the output so the
+   founder can override it.
+
+Monthly behavior is the default and is unchanged. Quarterly and semi-annual
+change the sections below; everything not listed works as in monthly.
+
+| Element | Monthly | Quarterly | Semi-annual |
+|---|---|---|---|
+| Main comparison | MoM | QoQ (quarter vs prior quarter) | HoH (half vs prior half) |
+| Secondary comparison | vs quarterly target | YoY same quarter, if 5+ quarters of data | YoY same half, if data exists |
+| KPI table columns | Current, Prior month, Q target, Status | Q end, Prior Q end, QoQ %, Q target, Status | H end, Prior H end, HoH %, Annual target, Status |
+| Monthly trend | No | 3 monthly values per KPI in the appendix | 6 monthly values per KPI in the appendix |
+| Cumulative highlights | No | Top 3-5 of the quarter, each with a number | Top 5 of the half, plus milestones vs the plan announced 6 months ago |
+| OKRs | Status of red ones | Final scoring of the quarter (0.0-1.0) and next quarter OKRs | Scoring of both quarters and H2 or next-year priorities |
+| Runway update | Current pace and base case | Same, plus burn trend over 3 months and change vs last update | Same, plus fundraising plan timeline vs runway |
+| Asks | 2 specific | 2-3 specific, one tied to next quarter's main OKR | 2-3 specific, one strategic (round, key hire, partnership) |
+| Length | 1 page | 1-1.5 pages + appendix | 1.5-2 pages + appendix |
+
+Rules for longer cadences:
+- **Flows are summed, stocks are taken at period end.** Revenue, costs, burn
+  and new customers are totals for the period; MRR, cash, customers and
+  headcount are end-of-period values. Never average MRR across months.
+- **Burn and runway** use the average monthly net burn of the last 3 months
+  (quarterly) or 6 months (semi-annual), plus the last month alone. If they
+  differ by more than 25%, show both and say which one runway assumes.
+- **Cumulative highlights are not a copy of monthly wins.** Pick what
+  changed the trajectory in the period; drop what did not matter in
+  hindsight.
+- **Promises made in the previous update are scored.** Read the previous
+  quarterly or semi-annual update and mark each "looking ahead" item as
+  done, partial or missed. Investors remember; the update should too.
+- Quarterly updates to the cap table should be sent within 45 days of
+  quarter end, the window commonly used for quarterly financial statements
+  in standard investor information rights (NVCA model Investors' Rights
+  Agreement).
+
+## Workflow (9 steps)
 
 ### Step 1: Read and validate sources
 
-Read the data room CSVs and MDs. Validate that:
-- KPIs include the reporting month
+Follow @shared/frameworks/company-brain-integration.md sections 1-3.
+
+When the company brain is connected, read it first:
+- `list_skills` / `get_skill`: the company's own update format wins.
+- `search_brain` + `read_page`: KPI pages, OKRs for the period, monthly
+  financials, customer list, investor list, the data room index (see
+  data-room-builder), and the previous update for the same audience and
+  cadence.
+- `walk_graph` from the OKR pages to the meetings and decisions that explain
+  the period (use them for storytelling prompts, not as invented narrative).
+
+Without a brain, read the data room CSVs and MDs the founder points to.
+
+Validate that:
+- KPIs include the reporting period (every month in it for quarterly and semi-annual)
 - OKRs have updated scoring
 - Financials have the closed month (revenue, costs, cash, runway)
 - Customers have updated status
@@ -70,9 +141,13 @@ If anything is missing, flag it and ask the founder to update before continuing.
 
 ### Step 2: Calculate deltas
 
-For each KPI: current vs prior month, current vs quarterly target, current vs benchmark.
+Monthly: for each KPI, current vs prior month, current vs quarterly target, current vs benchmark.
 For financials: revenue MoM, net burn, runway in months.
 For OKRs: updated scoring, identify the ones in red.
+
+Quarterly and semi-annual: apply the comparisons in the Cadence table (QoQ or
+HoH, YoY when data exists), sum flows and take stocks at period end, and
+score the previous update's promises.
 
 ### Step 3: Identify 3 wins, 2 lowlights, 2 asks
 
@@ -85,7 +160,7 @@ Rules:
 
 ### Step 4: Generate 3-line TL;DR
 
-Line 1: how the month is going in one sentence with the key number
+Line 1: how the period went in one sentence with the key number
 Line 2: big win with data
 Line 3: main ask
 
@@ -171,6 +246,21 @@ Appendices available on request:
 
 ---
 
+### Step 9: File in the brain
+
+Follow @shared/frameworks/company-brain-integration.md section 4. When the
+brain is connected, `create_page` the final draft at
+`investors/updates/<YYYY-MM>-<cadence>-<audience>` (or the brain's existing
+convention), linking the KPI, OKR and financial pages used. The next update
+reads it to score promises. If an email connector is connected, create the
+email as a DRAFT addressed to the investor list; never send. Without a brain,
+save the draft to `./brain-outbox/investor-updates/`.
+
+Quarterly and semi-annual output: see the Spanish quarterly example in
+[TEMPLATES.md](TEMPLATES.md).
+
+---
+
 ## Full example (Trezo case, cap table audience, April 2026)
 
 ```
@@ -237,6 +327,9 @@ Appendices on request: 12-month KPIs, April cohort retention, Q2 OKRs with detai
 - Mulligan, B. *Every Seed Stage Founder Should Send Monthly Investor Updates*. LaunchKit.
 - Khadjavi, R. (2017). *13 Investor Update Emails That Turned Our Dots Into A Line*. Shoelace.
 - Levy, J. *Investor Relations For Startups - The Data*. Zelkova Ventures (the 200% statistic).
+- NVCA Model Legal Documents, *Investors' Rights Agreement* (information rights: quarterly and annual financial statements): https://nvca.org/model-legal-documents/
+- Doerr, J. (2018). *Measure What Matters*. Portfolio (quarterly OKR scoring).
+- @shared/frameworks/company-brain-integration.md - brain read/write
 
 ## Anti-patterns this skill rejects
 

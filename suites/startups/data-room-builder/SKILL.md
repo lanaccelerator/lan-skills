@@ -9,7 +9,7 @@ description: >
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
 license: MIT
 ---
@@ -117,6 +117,37 @@ Key LATAM data room differences vs US:
   Mexico, Brazil, Colombia, Argentina requirements)
 - Add a jurisdiction-specific folder (07-latam-legal/) for regional documents
 
+## Weekly Auto-Refresh
+
+A data room goes stale between rounds. When the company brain is connected,
+keep the data room as brain pages (one index page plus one page per folder)
+and refresh it weekly. Follow @shared/frameworks/company-brain-integration.md
+sections 4 and 6.
+
+1. **Schedule** a headless run every Monday morning, for example
+   `claude -p "Run the data-room-builder skill in weekly refresh mode."` in
+   Claude Code or `codex exec "Run the data-room-builder skill in weekly refresh mode."`
+   in Codex, triggered by cron, launchd or a CI scheduled workflow.
+2. **Pull** the latest KPIs and OKR status from connected sources (metrics
+   sheet, billing, CRM, project tracker) and the brain's KPI and OKR pages.
+   Update the data room's metrics pages with the new values and the date of
+   each source. Never overwrite a value with a blank; a failed source is
+   reported, not zeroed.
+3. **Flag stale items** in the index page with a `STALE` status:
+   - KPIs and financials: older than 35 days
+   - OKRs: older than 7 days in the current quarter, or still showing last
+     quarter
+   - Cap table: older than the last issuance (SAFE, option grant) recorded
+     in the brain
+   - Pitch deck and executive summary: older than 90 days or older than the
+     last KPI change above 20%
+   - Legal documents: any document whose stated expiry date has passed
+4. **Recompute** the completeness scorecard and add a dated line to a
+   change log section on the index page (what changed, what went stale).
+5. **Report** a short summary for the founder: refreshed items, new STALE
+   items, failed sources. No files leave the brain and nothing is shared
+   with investors automatically.
+
 ## Tone & Editorial Voice
 
 See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
@@ -150,3 +181,5 @@ Actions must be concrete:
   Backability section (if run)
 - pitch-deck-builder output: use deck outline to populate Pitch Materials
   section (if run)
+- @shared/frameworks/company-brain-integration.md - brain read/write and
+  scheduled weekly refresh
