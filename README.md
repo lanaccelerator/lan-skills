@@ -1,10 +1,10 @@
 # LAN Skills & Agents
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills](https://img.shields.io/badge/Skills-32-blue.svg)](#skill-catalog)
+[![Skills](https://img.shields.io/badge/Skills-33-blue.svg)](#skill-catalog)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blueviolet.svg)](https://docs.anthropic.com/en/docs/claude-code)
 
-32 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
+33 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
 
 Unlike roleplay-based AI tools, LAN Skills EXECUTE: they generate pitch decks, calculate unit economics, build data rooms, write deal memos, and design GTM strategies — grounded in industry-standard frameworks (YC, Sequoia, a16z, Brad Feld, ILPA) and calibrated to LATAM market benchmarks (LAVCA 2025, Cuantico 2026).
 
@@ -36,7 +36,7 @@ Runs the installer directly from GitHub — no npm publish required, works in an
 npx github:lanaccelerator/lan-skills
 ```
 
-The installer copies all 32 skills to `~/.claude/skills/`. No additional setup required.
+The installer copies all 33 skills to `~/.claude/skills/`. No additional setup required.
 
 ### Verify Installation
 
@@ -48,7 +48,7 @@ Run this before committing any changes to verify all SKILL.md files are spec-com
 
 ## Skill Catalog
 
-### Startups Suite (18 skills)
+### Startups Suite (19 skills)
 
 | Skill | Command | Description |
 |-------|---------|-------------|
@@ -70,6 +70,7 @@ Run this before committing any changes to verify all SKILL.md files are spec-com
 | Meeting Notes to Brain | `/meeting-notes-to-brain` | Turn meeting transcripts (Granola, Meet, Fathom, tl;dv) into decisions, owned action items and open questions, filed in the company brain, with follow-up email drafts |
 | All-Hands Prep | `/all-hands-prep` | Weekly team meeting agenda per team from last week's decisions, OKR/KPI deltas, blockers and wins (Grove, Doerr) |
 | Lead to Proposal | `/lead-to-proposal` | Discovery call to same-day proposal and follow-up drafts, matched to your case studies and pricing (SPIN, MEDDICC, Challenger) |
+| Daily Brief | `/daily-brief` | End-of-day log (bitácora) and morning agenda from email, calendar, meeting notes, AI sessions and commits, filed in the company brain as a draft to self; team mode for cofounders (Newport, Grove) |
 
 ### VC Operators Suite (5 skills)
 
