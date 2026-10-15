@@ -69,6 +69,7 @@ python3 scripts/sync-shared.py
 | Startup Metrics & OKRs | `/startup-metrics-okrs` | Build full measurement system in one run — North Star + stage-appropriate KPIs + scoreable quarterly OKRs (Doerr/Grove) |
 | Investor Update Compiler | `/investor-update-compiler` | Compile monthly, quarterly (QoQ) or semi-annual (HoH) investor updates in Suster/Lemkin format: KPIs, financials, runway, wins, lowlights, asks |
 | Data Room Builder | `/data-room-builder` | Organize investor data rooms following Visible.vc template and NFX guide |
+| Investor Dashboard | `/investor-dashboard` | Lite investor portal from one Google Sheet: summary, KPI tiles with sparklines, P&L, cash and runway, team, cap table and documents, published in Notion, Drive or a Claude artifact (a16z metrics, Tufte sparklines) |
 | Deck Reviewer | `/deck-reviewer` | Per-slide pitch deck evaluation with scoring and improvement suggestions |
 | Unit Economics Calculator | `/unit-economics-calculator` | Calculate CAC, LTV, LTV/CAC, payback period, contribution margin, and break-even |
 | Fundraising Readiness Audit | `/fundraising-readiness-audit` | Pre-fundraise readiness assessment by stage — "am I ready to raise?" |
