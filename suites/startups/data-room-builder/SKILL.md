@@ -121,7 +121,7 @@ Key LATAM data room differences vs US:
 
 A data room goes stale between rounds. When the company brain is connected,
 keep the data room as brain pages (one index page plus one page per folder)
-and refresh it weekly. Follow @shared/frameworks/company-brain-integration.md
+and refresh it weekly. Follow references/shared/company-brain-integration.md
 sections 4 and 6.
 
 1. **Schedule** a headless run every Monday morning, for example
@@ -150,7 +150,7 @@ sections 4 and 6.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
+See references/shared/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 
@@ -181,5 +181,5 @@ Actions must be concrete:
   Backability section (if run)
 - pitch-deck-builder output: use deck outline to populate Pitch Materials
   section (if run)
-- @shared/frameworks/company-brain-integration.md - brain read/write and
+- references/shared/company-brain-integration.md - brain read/write and
   scheduled weekly refresh

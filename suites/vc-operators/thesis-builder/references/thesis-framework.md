@@ -167,4 +167,4 @@ a thesis by demonstrating focus and rigorous filtering.
 - a16z: https://a16z.com/our-investment-thesis/
 - Notation Capital: https://notation.vc/
 - Lux Capital: https://luxcapital.com/
-- @shared/frameworks/vc-backable-test.md — market sizing methodology
+- shared/vc-backable-test.md — market sizing methodology

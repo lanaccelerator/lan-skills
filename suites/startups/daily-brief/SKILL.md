@@ -61,7 +61,7 @@ On the first run, save the answers as a short config page in the brain
 
 ## Step 2: Detect Sources and Read Context
 
-Follow @shared/frameworks/company-brain-integration.md sections 1-3.
+Follow references/shared/company-brain-integration.md sections 1-3.
 
 - `list_skills` / `get_skill`: if the company saved its own daily format,
   follow it.
@@ -127,7 +127,7 @@ Never from another person's private email or chats.
 
 ## Step 4: File in the Brain (idempotent)
 
-Follow @shared/frameworks/company-brain-integration.md section 4.
+Follow references/shared/company-brain-integration.md section 4.
 
 - Path: `daily/<YYYY-MM-DD>` for close and open (one page per day, with a
   `## Apertura` and a `## Cierre` section), `daily/team/<YYYY-MM-DD>` for team
@@ -170,7 +170,7 @@ Output order in the chat:
 ## Schedule It
 
 Run close every day at 21:00 and open at 07:30 with no one typing. Follow
-@shared/frameworks/company-brain-integration.md section 6; details in
+references/shared/company-brain-integration.md section 6; details in
 [references/scheduling.md](references/scheduling.md).
 
 | Agent | Close (21:00) | Open (07:30) |
@@ -200,11 +200,11 @@ Work in LATAM runs heavily on WhatsApp: many commitments of the day never
 touch email. When WhatsApp is connected, scan it for commitments; when it is
 not, say so, because the close will be incomplete. Date format DD/MM/YYYY,
 24-hour times, the user's local timezone (not UTC) for the "today" window.
-For any benchmark cited, follow @shared/frameworks/latam-benchmarks.md.
+For any benchmark cited, follow references/shared/latam-benchmarks.md.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md - direct, no-sugarcoating,
+See references/shared/editorial-voice.md - direct, no-sugarcoating,
 unicorn-bar evaluation. You are NOT a cheerleader. If the day had six
 meetings and zero decisions, say so. If the same pendiente has carried over
 three days in a row, flag it plainly and ask whether to drop or delegate it.
@@ -227,7 +227,7 @@ End every output with 3-5 concrete actions, for example:
   date windows, what counts as signal
 - [Scheduling](references/scheduling.md) - cron, launchd, wrapper with
   same-day guard and lock, Claude Code and Codex headless
-- @shared/frameworks/company-brain-integration.md - brain read/write and
+- references/shared/company-brain-integration.md - brain read/write and
   scheduled runs
 - Newport, C. (2016). *Deep Work*. Grand Central (shutdown ritual).
 - Grove, A. (1983). *High Output Management*. Random House (information

@@ -47,7 +47,7 @@ Defaults in brackets.
 
 ## Step 2: Read Context First
 
-Follow @shared/frameworks/company-brain-integration.md sections 1-3.
+Follow references/shared/company-brain-integration.md sections 1-3.
 
 When the brain is connected:
 - `list_skills` / `get_skill`: use the company's own all-hands format if saved.
@@ -112,7 +112,7 @@ before the meeting so blocks 1-2 are pre-read.
 
 ## Step 5: Save to the Brain
 
-Follow @shared/frameworks/company-brain-integration.md section 4.
+Follow references/shared/company-brain-integration.md section 4.
 
 - Default path: `meetings/all-hands/<YYYY-MM-DD>-agenda` (or the brain's
   existing convention).
@@ -136,7 +136,7 @@ is in Spanish.
 ## Optional: Weekly Automatic Prep
 
 Schedule the skill for Friday afternoon or Sunday evening so the agenda is
-ready before Monday. Follow @shared/frameworks/company-brain-integration.md
+ready before Monday. Follow references/shared/company-brain-integration.md
 section 6, for example:
 - Claude Code: `claude -p "Run the all-hands-prep skill for next Monday's meeting."`
 - Codex: `codex exec "Run the all-hands-prep skill for next Monday's meeting."`
@@ -149,11 +149,11 @@ already filed when the agenda is built.
 See [references/latam-context.md](references/latam-context.md). Small LATAM
 teams often have no project tracker and run tasks in WhatsApp groups and
 spreadsheets; the skill must work from the brain and a sheet alone. For KPI
-benchmarks, follow @shared/frameworks/latam-benchmarks.md.
+benchmarks, follow references/shared/latam-benchmarks.md.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md - direct, no-sugarcoating,
+See references/shared/editorial-voice.md - direct, no-sugarcoating,
 unicorn-bar evaluation. You are NOT a cheerleader. If a team delivered 1 of 4
 commitments, the agenda says 25% and puts it first in that team's block. If a
 Key Result has been off track for 4 weeks, say the quarter target is at risk
@@ -175,7 +175,7 @@ End every output with 3-5 concrete actions, for example:
   Doerr, Wodtke and Lencioni practices, pace rule, confidence scores
 - [LATAM Context](references/latam-context.md) - small teams without
   trackers, WhatsApp-run tasks, holiday calendar
-- @shared/frameworks/company-brain-integration.md - brain read/write and
+- references/shared/company-brain-integration.md - brain read/write and
   scheduled runs
 - Grove, A. (1983). *High Output Management*. Random House.
 - Doerr, J. (2018). *Measure What Matters*. Portfolio.

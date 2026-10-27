@@ -2,7 +2,7 @@
 
 **When to use:** angel-investment-analyzer invokes this file in Step 2. These are the
 investor-lens questions that invert the founder-perspective criteria in
-shared/frameworks/vc-backable-test.md.
+shared/vc-backable-test.md.
 
 The critical distinction: venture-model-validator asks "Should I build this?"
 This skill asks "Should I write this check?"

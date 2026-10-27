@@ -124,7 +124,7 @@ ALWAYS use the structure in [TEMPLATES.md](TEMPLATES.md). Every section is requi
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md. The founder came for a number they can defend, not
+See references/shared/editorial-voice.md. The founder came for a number they can defend, not
 for reassurance. If the ask sits above HIGH, say by how much and what metric would earn it.
 If a metric is a red flag, name it and the target that fixes it.
 

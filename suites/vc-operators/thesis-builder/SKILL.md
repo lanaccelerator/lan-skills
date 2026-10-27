@@ -51,7 +51,7 @@ thesis. Apply the following frameworks in order:
 - **Notation Capital Emerging Manager Thesis** — How emerging managers differentiate from
   incumbent funds through access, insight, or geographic edge
   Source: https://notation.vc/
-- **Market Sizing:** Read @shared/frameworks/vc-backable-test.md for Gurley market sizing
+- **Market Sizing:** Read references/shared/vc-backable-test.md for Gurley market sizing
   methodology — TAM must be bottom-up credible for the thesis category
 
 For LATAM theses: Read [references/latam-fund-context.md](references/latam-fund-context.md)
@@ -103,7 +103,7 @@ Execute in this exact order — produce all 7 sections:
    describe how the thesis evolved from the GP's prior operating or investing experience.
 
 7. **Market Sizing** — TAM/SAM/SOM for the thesis category using bottom-up methodology
-   from @shared/frameworks/vc-backable-test.md. For LATAM-focused funds: apply LATAM
+   from references/shared/vc-backable-test.md. For LATAM-focused funds: apply LATAM
    sizing specifically — do not use US market size as a proxy. Pull Cuantico 2026 and
    LAVCA 2025 data from references/latam-fund-context.md.
 
@@ -145,7 +145,7 @@ second-largest market.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md. GP voice — this is how a fund GP convinces
+See references/shared/editorial-voice.md. GP voice — this is how a fund GP convinces
 institutional LPs to commit $5M or more. Every sentence must carry weight.
 
 The Core Hypothesis must be distinctive. Compare:
@@ -180,8 +180,8 @@ This forces the GP to confront the thesis's weakest point before an LP does.
 - a16z Thesis: https://a16z.com/our-investment-thesis/
 - Notation Capital: https://notation.vc/
 - Lux Capital: https://luxcapital.com/
-- @shared/frameworks/vc-backable-test.md — market sizing methodology
-- @shared/frameworks/editorial-voice.md — tone standard
+- references/shared/vc-backable-test.md — market sizing methodology
+- references/shared/editorial-voice.md — tone standard
 - [references/thesis-framework.md](references/thesis-framework.md) — USV/a16z/Notation structure,
   portfolio construction formulas, anti-portfolio analysis framework
 - [references/latam-fund-context.md](references/latam-fund-context.md) — LATAM structural

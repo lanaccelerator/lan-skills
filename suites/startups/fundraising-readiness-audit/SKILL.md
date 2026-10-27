@@ -44,7 +44,7 @@ If the user does not answer a question, proceed with a stated assumption and fla
 Read [references/readiness-rubric.md](references/readiness-rubric.md) BEFORE scoring.
 Apply stage-specific thresholds from that file. Also read:
 
-- @shared/frameworks/yc-metrics.md — stage-specific metric benchmarks by business model
+- references/shared/yc-metrics.md — stage-specific metric benchmarks by business model
 - **YC "How to Raise Money"** — Source: https://www.ycombinator.com/library/4A-how-to-raise-money
 - **a16z Fundraising Guide** — Source: https://a16z.com/how-to-raise-money-startup/
 - **First Round fundraising signals** — Source: https://review.firstround.com/looking-for-signs-of-magic-how-our-partners-think-about-fundraising/
@@ -123,7 +123,7 @@ BEFORE producing the final output. Apply these adjustments:
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md. The audit verdict must be direct.
+See references/shared/editorial-voice.md. The audit verdict must be direct.
 
 NOT READY means not ready — do not soften to "almost ready" or "getting close."
 If metrics are below benchmark, state which metric is short by exactly how much.
@@ -151,7 +151,7 @@ Magma Partners, ALLVP, and Platanus through [named warm contact]" is an action.
 
 - [Readiness Rubric](references/readiness-rubric.md) — stage-by-stage threshold checklist
 - [LATAM Comparable Raises](references/latam-comparable-raises.md) — LATAM raise data by stage with sourced benchmarks
-- [shared/frameworks/yc-metrics.md](../../../../shared/frameworks/yc-metrics.md) — stage benchmarks by business model
+- [yc-metrics.md](references/shared/yc-metrics.md) — stage benchmarks by business model
 - YC How to Raise: https://www.ycombinator.com/library/4A-how-to-raise-money
 - a16z Fundraising: https://a16z.com/how-to-raise-money-startup/
 - First Round fundraising signals: https://review.firstround.com/looking-for-signs-of-magic-how-our-partners-think-about-fundraising/

@@ -56,7 +56,7 @@ or do they transfer value from LPs to GPs regardless of performance?"
 | 2 | Two or more terms deviate from ILPA standard without justification. Examples: management fee on invested capital post-investment period; no clawback; GP commit funded by management fee waiver. |
 | 1 | Terms are LP-adversarial: >25% carry, 3%+ management fee, no clawback, GP commit <0.5%, no-fault divorce requires >80% supermajority. |
 
-**ILPA reference:** See shared/frameworks/ilpa-standards.md for complete fee/carry/clawback
+**ILPA reference:** See shared/ilpa-standards.md for complete fee/carry/clawback
 benchmarks and red flag definitions.
 
 ---

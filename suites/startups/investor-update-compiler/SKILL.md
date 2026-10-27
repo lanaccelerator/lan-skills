@@ -118,7 +118,7 @@ Rules for longer cadences:
 
 ### Step 1: Read and validate sources
 
-Follow @shared/frameworks/company-brain-integration.md sections 1-3.
+Follow references/shared/company-brain-integration.md sections 1-3.
 
 When the company brain is connected, read it first:
 - `list_skills` / `get_skill`: the company's own update format wins.
@@ -248,7 +248,7 @@ Appendices available on request:
 
 ### Step 9: File in the brain
 
-Follow @shared/frameworks/company-brain-integration.md section 4. When the
+Follow references/shared/company-brain-integration.md section 4. When the
 brain is connected, `create_page` the final draft at
 `investors/updates/<YYYY-MM>-<cadence>-<audience>` (or the brain's existing
 convention), linking the KPI, OKR and financial pages used. The next update
@@ -329,7 +329,7 @@ Appendices on request: 12-month KPIs, April cohort retention, Q2 OKRs with detai
 - Levy, J. *Investor Relations For Startups - The Data*. Zelkova Ventures (the 200% statistic).
 - NVCA Model Legal Documents, *Investors' Rights Agreement* (information rights: quarterly and annual financial statements): https://nvca.org/model-legal-documents/
 - Doerr, J. (2018). *Measure What Matters*. Portfolio (quarterly OKR scoring).
-- @shared/frameworks/company-brain-integration.md - brain read/write
+- references/shared/company-brain-integration.md - brain read/write
 
 ## Anti-patterns this skill rejects
 

@@ -182,7 +182,7 @@ Key LATAM adjustments for corporate venturing:
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, applied to the
+See references/shared/editorial-voice.md — direct, no-sugarcoating, applied to the
 corporate venturing context. You are a corporate development advisor who has seen CVC programs
 launched with fanfare and shut down 3 years later because the board never understood what they
 were actually building.
@@ -213,8 +213,8 @@ Always include concrete governance actions, team actions, and first-deal criteri
 - [Digital Transformation Context](references/digital-transformation-context.md) — BCG corporate
   venturing framework + GCV Institute benchmarks + Intel Capital case studies
 - [LATAM CVC Context](references/latam-context.md) — LATAM CVC activity, benchmarks, failure modes
-- [shared/frameworks/editorial-voice.md](../../../../shared/frameworks/editorial-voice.md) — tone standard
-- [shared/frameworks/latam-benchmarks.md](../../../../shared/frameworks/latam-benchmarks.md) — LATAM LP base context (25% CVCs)
+- [editorial-voice.md](references/shared/editorial-voice.md) — tone standard
+- [latam-benchmarks.md](references/shared/latam-benchmarks.md) — LATAM LP base context (25% CVCs)
 - BCG Corporate Venturing 2021: https://www.bcg.com/publications/2021/corporate-venture-capital
 - GCV Institute Global CVC Activity 2024: https://www.globalcorporateventuring.com/
 - Intel Capital LATAM strategy: https://www.intel.com/content/www/us/en/intel-capital/overview.html

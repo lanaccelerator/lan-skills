@@ -159,7 +159,7 @@ Key LATAM adjustments for corporate innovation:
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, applied to the
+See references/shared/editorial-voice.md — direct, no-sugarcoating, applied to the
 corporate innovation context. You are a corporate innovation advisor who has run dozens
 of startup pilots and seen most fail due to predictable, preventable causes.
 
@@ -189,8 +189,8 @@ reality. If no executive sponsor is named, the FIRST Next Steps must be appointi
   Innovation framework data + BCG/Gartner/McKinsey verified sources
 - [LATAM Corporate Innovation Context](references/latam-context.md) — LATAM procurement
   benchmarks, pilot success rates, sector adoption data
-- [shared/frameworks/editorial-voice.md](../../../../shared/frameworks/editorial-voice.md) — tone standard
-- [shared/frameworks/latam-benchmarks.md](../../../../shared/frameworks/latam-benchmarks.md) — LATAM VC + LP base context
+- [editorial-voice.md](references/shared/editorial-voice.md) — tone standard
+- [latam-benchmarks.md](references/shared/latam-benchmarks.md) — LATAM VC + LP base context
 - Chesbrough "Open Innovation" (2003): https://hbr.org/2003/07/a-better-way-to-innovate
 - NESTA Open Innovation Toolkit: https://www.nesta.org.uk/toolkit/open-innovation-toolkit/
 - BCG 2024 Corporate Innovation Survey: https://www.bcg.com/publications/2024/corporate-innovation-benchmarking

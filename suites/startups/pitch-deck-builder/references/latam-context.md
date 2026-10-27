@@ -166,4 +166,4 @@ measure" rather than "here's our current traction."
 | Series A | $3M–$15M | $1M–$5M ARR; NRR ≥100% | Cohort data required; 12-month retention minimum |
 | Series B | $15M–$50M | $10M+ ARR; scalable CAC | International co-investors typically required |
 
-Source: LAVCA 2025 + Cuantico 2026 *(see full benchmarks in shared/frameworks/latam-benchmarks.md)*
+Source: LAVCA 2025 + Cuantico 2026 *(see full benchmarks in shared/latam-benchmarks.md)*

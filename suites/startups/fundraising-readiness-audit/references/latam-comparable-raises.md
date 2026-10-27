@@ -4,7 +4,7 @@
 - LAVCA 2025 Startup Ecosystem Insights: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
 - Carta Q1 2026 Fund Performance Report (US benchmark context)
 - Cuantico LatAm VC Report 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
-- shared/frameworks/latam-benchmarks.md (canonical LATAM VC data file)
+- shared/latam-benchmarks.md (canonical LATAM VC data file)
 
 **Annotation protocol:**
 - All LATAM figures: `(LATAM, LAVCA 2025)` or `(LATAM, Cuantico 2026)` as appropriate

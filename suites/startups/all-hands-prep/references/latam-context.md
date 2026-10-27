@@ -1,6 +1,6 @@
 # LATAM Context: Weekly Team Meeting
 
-See @shared/frameworks/latam-benchmarks.md for canonical LATAM benchmark data.
+See shared/latam-benchmarks.md for canonical LATAM benchmark data.
 When a KPI is compared against a benchmark, label US figures as
 `(US-sourced benchmark, [Source])` and add the LATAM figure.
 

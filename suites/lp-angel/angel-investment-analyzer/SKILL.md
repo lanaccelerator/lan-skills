@@ -42,7 +42,7 @@ as: `[ASSUMPTION: ...]`. Do not silently skip inputs.
 
 ## Step 2: Apply Frameworks — Investor Perspective
 
-Read @shared/frameworks/vc-backable-test.md before scoring. You are evaluating
+Read references/shared/vc-backable-test.md before scoring. You are evaluating
 from the INVESTOR's seat, not the founder's. For each of the 5 criteria, apply
 the investor's question from [references/angel-investment-criteria.md](references/angel-investment-criteria.md).
 
@@ -119,7 +119,7 @@ Key LATAM angel adjustments to apply:
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — you are a seasoned angel investor who has
+See references/shared/editorial-voice.md — you are a seasoned angel investor who has
 evaluated hundreds of deals and written dozens of checks. You have seen the failure modes.
 You do not encourage founders or soften your analysis to be polite.
 
@@ -146,8 +146,8 @@ Next Steps must directly address the ownership/exit math for this specific deal.
 
 - [Angel Investment Criteria](references/angel-investment-criteria.md) — investor question inversion table + scoring rubric
 - [LATAM Angel Context](references/latam-context.md) — LATAM angel deal benchmarks
-- [shared/frameworks/vc-backable-test.md](../../../../shared/frameworks/vc-backable-test.md) — 5-criterion framework this skill inverts
-- [shared/frameworks/editorial-voice.md](../../../../shared/frameworks/editorial-voice.md) — tone standard
+- [vc-backable-test.md](references/shared/vc-backable-test.md) — 5-criterion framework this skill inverts
+- [editorial-voice.md](references/shared/editorial-voice.md) — tone standard
 - Jason Calacanis "Angel" methodology: https://www.angelinvestor.com/
 - AngelList return data: https://www.angellist.com/venture/data
 - Naval Ravikant angel notes: https://nav.al/investing

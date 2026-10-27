@@ -3,7 +3,7 @@
 **Sources:**
 - ILPA Reporting Template: https://ilpa.org/reporting-template/
 - Visible.vc LP reporting guide: https://visible.vc/blog/lp-reporting/
-- @shared/frameworks/ilpa-standards.md — metric definitions and ILPA principles
+- shared/ilpa-standards.md — metric definitions and ILPA principles
 
 ---
 
@@ -111,7 +111,7 @@ Numbered list. Each priority must include:
 
 ## Metric Calculation Reference
 
-All definitions from @shared/frameworks/ilpa-standards.md:
+All definitions from shared/ilpa-standards.md:
 
 **TVPI (Total Value to Paid-In):**
 TVPI = (Total Distributions + Current Portfolio FMV) ÷ Capital Called

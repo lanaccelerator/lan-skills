@@ -205,7 +205,7 @@ Key LATAM adjustments for corporate pilots:
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, applied to the
+See references/shared/editorial-voice.md — direct, no-sugarcoating, applied to the
 corporate pilot context. You are a corporate innovation advisor who has run dozens of
 startup pilots and watched most fail due to predictable, preventable causes.
 
@@ -241,8 +241,8 @@ Actions must be corporate-facing, specific, and 30-day scoped:
   Wayra, and 500 Global pilot methodology; LATAM pilot failure data
 - [LATAM Corporate Pilot Context](references/latam-context.md) — invoice compliance, data
   protection, FX risk, sector zombie rates
-- [shared/frameworks/editorial-voice.md](../../../../shared/frameworks/editorial-voice.md) — tone standard
-- [shared/frameworks/latam-benchmarks.md](../../../../shared/frameworks/latam-benchmarks.md) — LATAM VC + LP base context
+- [editorial-voice.md](references/shared/editorial-voice.md) — tone standard
+- [latam-benchmarks.md](references/shared/latam-benchmarks.md) — LATAM VC + LP base context
 - Techstars Corporate Innovation: https://www.techstars.com/accelerators/corporate-innovation
 - Wayra Corporate Innovation: https://wayra.com/corporate-innovation
 - 500 Global Corporate Programs: https://500.co/corporations

@@ -5,7 +5,7 @@
 - a16z Fundraising Guide: https://a16z.com/how-to-raise-money-startup/
 - First Round Capital fundraising signals: https://review.firstround.com/looking-for-signs-of-magic-how-our-partners-think-about-fundraising/
 - Carta Q1 2026 Fund Performance Report
-- shared/frameworks/yc-metrics.md — metric definitions and calculation methods
+- shared/yc-metrics.md — metric definitions and calculation methods
 
 **When to use:** Read this file in full before scoring any dimension. Apply the thresholds
 for the founder's target stage. Do not mix stage thresholds.
@@ -67,7 +67,7 @@ $2M–$5M pre-money cap (LATAM, LAVCA 2025). Accelerator + angel round typical.
 - Gross margin: >65%
 - LTV/CAC: ≥2:1 minimum; 3:1 or higher preferred
 
-Read @shared/frameworks/yc-metrics.md for SaaS Benchmarks by Stage table.
+Read shared/yc-metrics.md for SaaS Benchmarks by Stage table.
 
 **Marketplace:**
 - GMV growth: 3–5× YoY
@@ -133,7 +133,7 @@ ALLVP, LAN Accelerator, 500 Latam.
 - LTV/CAC: ≥3:1
 - CAC payback: <12 months
 
-Read @shared/frameworks/yc-metrics.md — a16z 16 Metrics section for full definitions.
+Read shared/yc-metrics.md — a16z 16 Metrics section for full definitions.
 
 Rule of 40 benchmark: target >20 at Series A close.
 

@@ -128,7 +128,7 @@ and LATAM health thesis is the best strategic fit for this round. Would you be o
 
 ### Term Sheet Checklist (on receipt)
 
-Review every term against @shared/frameworks/brad-feld-terms.md:
+Review every term against references/shared/brad-feld-terms.md:
 
 | Term | What to check | Red flag if... |
 |------|---------------|----------------|

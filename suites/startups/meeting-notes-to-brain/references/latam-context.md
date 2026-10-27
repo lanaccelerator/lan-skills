@@ -1,6 +1,6 @@
 # LATAM Context: Meeting Notes
 
-See @shared/frameworks/latam-benchmarks.md for canonical LATAM benchmark data
+See shared/latam-benchmarks.md for canonical LATAM benchmark data
 when a note cites a metric.
 
 ## Language

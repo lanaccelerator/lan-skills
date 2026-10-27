@@ -118,7 +118,7 @@ Label every LATAM-specific observation with `(LATAM)` tag.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md
+See references/shared/editorial-voice.md
 
 Do not validate a weak moat story. If the user claims "our moat is our
 technology" without specifying switching costs or network effects, flag it:

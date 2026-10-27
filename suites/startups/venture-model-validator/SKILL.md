@@ -111,7 +111,7 @@ Key LATAM adjustments to apply:
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
+See references/shared/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 
@@ -134,7 +134,7 @@ sizing, the first next step must directly address market sizing.
 - [Comparable Companies](references/comparable-companies.md) — LATAM startup examples
 - [Power Law and AI Era](references/power-law-and-ai-era.md): Correlation, Cambridge Associates, Carta, PitchBook-NVCA, YC RFS W27, NVIDIA CES 2025, Sequoia, Lightspeed, Greylock
 - YC Requests for Startups: https://www.ycombinator.com/rfs
-- [shared/frameworks/vc-backable-test.md](../../../../shared/frameworks/vc-backable-test.md) — framework details
+- [vc-backable-test.md](references/shared/vc-backable-test.md) — framework details
 - YC Essential Startup Advice: https://www.ycombinator.com/library/Em-yc-s-essential-startup-advice
 - a16z PMF Method: https://a16z.com/the-pmf-method/
 - Sequoia Enduring Companies: https://www.sequoiacap.com/article/elements-of-enduring-companies/

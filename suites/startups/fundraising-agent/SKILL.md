@@ -156,7 +156,7 @@ If you need capital by October, start Phase B by June at the latest.
 ## Step 4: Phase C — Closing (2–4 weeks)
 
 1. **Term sheet receipt → Term analysis:**
-   Read @shared/frameworks/brad-feld-terms.md for every term in the received sheet.
+   Read references/shared/brad-feld-terms.md for every term in the received sheet.
    Flag: participating preferred, full ratchet anti-dilution, board control terms,
    excessive drag-along, cumulative dividends. Reference term-sheet-generator
    (VC operator tool) to understand terms from the GP's perspective.
@@ -192,7 +192,7 @@ Apply from [references/lore-vc-framework.md](references/lore-vc-framework.md) LA
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md. Direct orchestrator voice — identifies what
+See references/shared/editorial-voice.md. Direct orchestrator voice — identifies what
 is missing, what to do next, and in what order. Not a cheerleader.
 
 Call out unrealistic targets explicitly:
@@ -213,7 +213,7 @@ any investor until your pitch deck is reviewed and data room is assembled."
 outreach matters more than volume. Do not send cold outreach until all warm intro paths
 on your priority list are exhausted."
 
-**Phase C:** "Before signing anything: review every term in @shared/frameworks/brad-feld-terms.md.
+**Phase C:** "Before signing anything: review every term in references/shared/brad-feld-terms.md.
 Participating preferred, full ratchet anti-dilution, and investor board majority before
 Series B are deal terms that will haunt you for 7–10 years. Do not sign in a hurry."
 
@@ -225,8 +225,8 @@ Series B are deal terms that will haunt you for 7–10 years. Do not sign in a h
 - Gompers, Gornall, Kaplan, Strebulaev, "How Do Venture Capitalists Make Decisions?", Journal of Financial Economics (2020)
 - Crunchbase, Latin America startup funding EOY 2024: https://news.crunchbase.com/venture/latin-america-startup-funding-eoy-2024/
 - [references/fundraising-playbook-2026.md](references/fundraising-playbook-2026.md): LAN masterclass playbook (Oct 2026): where to raise, list scoring, lead investor
-- @shared/frameworks/brad-feld-terms.md — term sheet term definitions
-- @shared/frameworks/editorial-voice.md — tone standard
+- references/shared/brad-feld-terms.md — term sheet term definitions
+- references/shared/editorial-voice.md — tone standard
 - [references/lore-vc-framework.md](references/lore-vc-framework.md) — 3-phase fundraising framework
 - [references/investor-research-guide.md](references/investor-research-guide.md) — investor research tools and meeting prep
 - [references/outreach-templates.md](references/outreach-templates.md) — email and WhatsApp templates

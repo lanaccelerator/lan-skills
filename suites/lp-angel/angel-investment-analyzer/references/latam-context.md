@@ -7,7 +7,7 @@ the final scorecard. Apply these LATAM-specific adjustments to every benchmark i
 
 ## LATAM Angel Deal Benchmarks
 
-All figures annotated per the protocol in shared/frameworks/latam-benchmarks.md:
+All figures annotated per the protocol in shared/latam-benchmarks.md:
 show US benchmark first `(US-sourced benchmark)`, then LATAM figure `(LATAM, LAVCA 2025)`.
 
 ### Check Sizes

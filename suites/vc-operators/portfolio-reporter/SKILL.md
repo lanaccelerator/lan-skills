@@ -42,7 +42,7 @@ Do not silently skip inputs.
 Read [references/portfolio-report-template.md](references/portfolio-report-template.md)
 BEFORE generating the report. Apply:
 
-- **ILPA Reporting Template** — Read @shared/frameworks/ilpa-standards.md for TVPI, DPI,
+- **ILPA Reporting Template** — Read references/shared/ilpa-standards.md for TVPI, DPI,
   RVPI, IRR, MOIC metric definitions and fund-level reporting standards.
   Source: https://ilpa.org/reporting-template/
 - **Visible.vc LP reporting structure** — Quarterly narrative format, portfolio table design
@@ -63,7 +63,7 @@ Execute in this exact order — produce all 8 sections:
 
 1. **Confirm LP audience type** → adjust detail level (ILPA full vs simplified)
 2. **Calculate or confirm fund-level metrics** — TVPI, DPI, RVPI, IRR using definitions
-   from @shared/frameworks/ilpa-standards.md. Show calculation if data was provided as
+   from references/shared/ilpa-standards.md. Show calculation if data was provided as
    raw inputs.
 3. **Build portfolio summary table** — All active companies with: Stage | Initial Investment |
    Follow-on Reserve | Current Valuation | Ownership % | Status
@@ -116,7 +116,7 @@ and thinner secondary markets.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md. Analyst voice — precise, data-driven, no spin.
+See references/shared/editorial-voice.md. Analyst voice — precise, data-driven, no spin.
 
 Watch list companies get honest assessment with specifics:
 - RIGHT: "GrowthCo is burning $120k/month against $85k/month projected. Bridge required
@@ -143,7 +143,7 @@ Not: "Continue monitoring portfolio companies and maintaining LP relationships."
 - ILPA Reporting Template: https://ilpa.org/reporting-template/
 - Visible.vc LP reporting: https://visible.vc/blog/lp-reporting/
 - Carta Q1 2026 (via references/portfolio-report-template.md)
-- @shared/frameworks/ilpa-standards.md — TVPI, DPI, RVPI, IRR, MOIC definitions
+- references/shared/ilpa-standards.md — TVPI, DPI, RVPI, IRR, MOIC definitions
 - [references/portfolio-report-template.md](references/portfolio-report-template.md) — ILPA-compliant report structure
 - [references/latam-fund-context.md](references/latam-fund-context.md) — LP base, exit environment, benchmark context
 - LAVCA: https://www.lavca.org

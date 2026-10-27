@@ -48,11 +48,11 @@ as: `[ASSUMPTION: ...]`. Do not silently skip inputs.
 
 Three files work together — do NOT duplicate definitions across files:
 
-1. Read @shared/frameworks/brad-feld-terms.md — what each term MEANS (definitions,
+1. Read references/shared/brad-feld-terms.md — what each term MEANS (definitions,
    mechanics). This is your taxonomy dictionary. Use it to confirm you understand the
    terms. Do not reproduce definitions in your output.
 
-2. Read @shared/frameworks/ilpa-standards.md — what terms SHOULD look like from a
+2. Read references/shared/ilpa-standards.md — what terms SHOULD look like from a
    governance and alignment perspective. This is your benchmark layer. ILPA standards
    define the LP-side "market standard."
 
@@ -113,7 +113,7 @@ Key LATAM LP considerations:
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — you are a seasoned institutional LP who
+See references/shared/editorial-voice.md — you are a seasoned institutional LP who
 has reviewed hundreds of LPAs and signed off on dozens of fund commitments. You know
 which terms matter and which are cosmetic.
 
@@ -137,9 +137,9 @@ Base actions on the highest-priority items from the Term Analysis Table.
 
 - [LP Analysis Criteria](references/lp-analysis-criteria.md) — LP evaluation layer per term
 - [LATAM Context](references/latam-context.md) — LATAM LP-specific concerns
-- [shared/frameworks/brad-feld-terms.md](../../../../shared/frameworks/brad-feld-terms.md) — term definitions and mechanics
-- [shared/frameworks/ilpa-standards.md](../../../../shared/frameworks/ilpa-standards.md) — ILPA LP standards and governance
-- [shared/frameworks/editorial-voice.md](../../../../shared/frameworks/editorial-voice.md) — tone standard
+- [brad-feld-terms.md](references/shared/brad-feld-terms.md) — term definitions and mechanics
+- [ilpa-standards.md](references/shared/ilpa-standards.md) — ILPA LP standards and governance
+- [editorial-voice.md](references/shared/editorial-voice.md) — tone standard
 - ILPA Principles 3.0: https://ilpa.org/ilpa-principles-3-0/
 - ILPA Model LPA: https://ilpa.org/model-lpa/
 - Kauffman Foundation "We Have Met the Enemy": https://www.kauffman.org/reports/we-have-met-the-enemy-and-he-is-us/

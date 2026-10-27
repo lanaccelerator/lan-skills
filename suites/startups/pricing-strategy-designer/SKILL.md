@@ -139,7 +139,7 @@ Key LATAM pricing realities:
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md. Challenge underpricing directly and specifically.
+See references/shared/editorial-voice.md. Challenge underpricing directly and specifically.
 
 If a founder is chronically underpriced, say so with evidence:
 "At $29/month you are leaving money on the table. Your 3 case studies show $1,400 average

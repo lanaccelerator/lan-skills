@@ -5,7 +5,7 @@
 For Pre-seed, apply Kawasaki 10-20-30 simplification noted per slide.
 **Relationship to shared framework:** This file provides skill-specific application
 detail (investor intent, failure modes, LATAM variants). The raw framework principles
-are in [shared/frameworks/sequoia-deck.md](../../../../shared/frameworks/sequoia-deck.md).
+are in [sequoia-deck.md](shared/sequoia-deck.md).
 
 ---
 

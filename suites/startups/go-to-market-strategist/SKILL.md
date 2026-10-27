@@ -113,7 +113,7 @@ figure labeled `(LATAM, LAVCA 2025 / Cuantico 2026)`.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
+See references/shared/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 

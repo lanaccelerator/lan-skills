@@ -4,12 +4,15 @@ description: >
   Startup investor presentation builder. ALWAYS invoke when a user wants to
   create, structure, or outline a pitch deck or investor presentation. Applies
   Sequoia 10-slide framework, YC Series A guide, Kawasaki 10-20-30, and Reid
-  Hoffman teardowns. NOT for reviewing an existing deck (use deck-reviewer)
+  Hoffman teardowns. When the user wants the slides themselves, also builds
+  the deck (HTML 16:9, Slides, Keynote) in the startup's own brand with LAN's
+  anti AI-slop design rules and a render-and-check QA loop. NOT for reviewing
+  an existing deck (use deck-reviewer)
   or validating the business model (use venture-model-validator).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.1"
+  version: "1.2"
   suite: startups
 license: MIT
 ---
@@ -74,9 +77,19 @@ Execute in this exact order:
    adjust market sizing methodology, investor expectations, and comparable
    companies for LATAM-specific context
 6. Output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
-7. End with Next Steps
+7. If the user wants the actual slides (not only the outline), build them now
+   following [deck-design-rules.md](references/shared/deck-design-rules.md):
+   the startup's own brand, one idea per slide with the claim as the title,
+   real numbers, logos and photos, nothing from the banned AI-slop list, and the
+   mandatory render-and-check QA loop before showing anyone
+8. End with Next Steps
 
 ## Step 4: Output Format
+
+Write the outline itself under the same rules the slides will follow: every
+slide title is the claim, not a label ("CAC payback fell to 5 months", not
+"Unit economics"); talking points are numbers and verbs, never adjectives or
+buzzwords; no em dashes.
 
 ALWAYS use the exact template structure in TEMPLATES.md. Every slide must
 have: title, talking points, data needed, and common errors. Do not skip
@@ -108,7 +121,7 @@ figure labeled `(LATAM, LAVCA 2025 / Cuantico 2026)`.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
+See references/shared/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 
@@ -132,7 +145,7 @@ block Seed diligence.
   criteria and failure modes
 - [LATAM Context](references/latam-context.md) — investor expectations,
   stage benchmarks, common LATAM deck mistakes
-- [Shared Sequoia Framework](../../../../shared/frameworks/sequoia-deck.md) — canonical
+- [Shared Sequoia Framework](references/shared/sequoia-deck.md) — canonical
   Sequoia structure (raw framework)
 - Sequoia Writing a Business Plan: https://www.sequoiacap.com/article/writing-a-business-plan/
 - YC Series A Diligence Checklist: https://www.ycombinator.com/library/3h-series-a-diligence-checklist

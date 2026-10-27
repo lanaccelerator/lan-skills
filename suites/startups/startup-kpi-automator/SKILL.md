@@ -111,7 +111,7 @@ Key LATAM adjustments:
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
+See references/shared/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 
@@ -135,9 +135,9 @@ immediate instrumentation of the top-3 investor-facing KPIs.
   benchmark tables for SaaS, marketplace, e-commerce, fintech
 - [LATAM Context](references/latam-context.md) — LAVCA 2025 + Cuantico 2026
   LATAM-specific KPI adjustments
-- [shared/frameworks/yc-metrics.md](../../../../shared/frameworks/yc-metrics.md)
+- [yc-metrics.md](references/shared/yc-metrics.md)
   — YC + a16z metric definitions and formulas
-- [shared/frameworks/latam-benchmarks.md](../../../../shared/frameworks/latam-benchmarks.md)
+- [latam-benchmarks.md](references/shared/latam-benchmarks.md)
   — LATAM VC benchmark data (canonical source)
 - Bessemer Cloud Index: https://www.bvp.com/atlas/roadmap-to-epiq
 - OpenView SaaS Benchmarks: https://openviewpartners.com/saas-benchmarks-report/

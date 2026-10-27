@@ -19,7 +19,7 @@ license: MIT
 
 Produces either a complete priced-round term sheet draft (GP Mode A) or a
 term-by-term explanation and market standard comparison (Associate/Founder Mode B).
-Economic and control term taxonomy live in @shared/frameworks/brad-feld-terms.md —
+Economic and control term taxonomy live in references/shared/brad-feld-terms.md —
 this skill builds the APPLICATION layer: negotiation context, LATAM-specific structures,
 and market standards by stage.
 
@@ -42,10 +42,10 @@ If any question is not answered, proceed with a stated assumption: `[ASSUMPTION:
 
 Read [references/term-sheet-draft-guide.md](references/term-sheet-draft-guide.md) BEFORE generating any output. Then:
 
-- **@shared/frameworks/brad-feld-terms.md** — ALL term definitions, liquidation preference mechanics,
+- **references/shared/brad-feld-terms.md** — ALL term definitions, liquidation preference mechanics,
   anti-dilution types, protective provisions, drag-along, board composition by stage, information rights,
   pro-rata. Do NOT paraphrase or re-summarize this content — read the file and apply it directly.
-- **@shared/frameworks/safe-note.md** — SAFE and KISS mechanics if instrument is pre-priced (all four
+- **references/shared/safe-note.md** — SAFE and KISS mechanics if instrument is pre-priced (all four
   variants: post-money cap, cap+discount, MFN, MFN+discount). LATAM cap benchmarks from Cuantico 2026 + LAVCA 2025.
 - **NVCA Model Documents**: https://nvca.org/resources/model-legal-documents/ (standard US priced round templates)
 - **Brad Feld "Venture Deals" (4th ed.)**: https://www.amazon.com/Venture-Deals-Smarter-Lawyer-Capitalist/dp/1119594820
@@ -118,7 +118,7 @@ Read [references/latam-fund-context.md](references/latam-fund-context.md) before
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md.
+See references/shared/editorial-voice.md.
 
 - **Mode A (GP voice):** Decisive. Knows market standards cold. Recommends specific positions and explains the negotiating rationale. Does not hedge — "HOLD on non-participating; participating preferred is not market standard at Seed and signals misaligned incentives."
 - **Mode B (Associate voice):** Precise, educational. Explains both the investor's and founder's perspective without editorializing on behalf of either party. Flags issues without advocacy — the reader decides what to do with the information.
@@ -132,8 +132,8 @@ Never write "this seems reasonable" or "somewhat aggressive." White is white, bl
 
 ## Sources
 
-- @shared/frameworks/brad-feld-terms.md — all term definitions and taxonomy (primary source)
-- @shared/frameworks/safe-note.md — SAFE and KISS mechanics, LATAM cap benchmarks
+- references/shared/brad-feld-terms.md — all term definitions and taxonomy (primary source)
+- references/shared/safe-note.md — SAFE and KISS mechanics, LATAM cap benchmarks
 - [references/term-sheet-draft-guide.md](references/term-sheet-draft-guide.md) — market standards by stage, negotiation levers, red flags
 - [references/latam-fund-context.md](references/latam-fund-context.md) — LATAM legal structures, family office governance norms
 - NVCA Model Documents: https://nvca.org/resources/model-legal-documents/

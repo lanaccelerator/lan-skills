@@ -142,7 +142,7 @@ fall apart in diligence than in outreach.
 
 ### Term sheet receipt:
 
-Read every term carefully against @shared/frameworks/brad-feld-terms.md.
+Read every term carefully against shared/brad-feld-terms.md.
 The three terms that founders most often regret signing:
 1. Participating preferred (takes money twice in acquisitions)
 2. Investor board majority before Series B (loses strategic control)
@@ -209,4 +209,4 @@ investors who receive consistent updates are 3× more likely to lead the next ro
 - lore.vc: https://www.lore.vc
 - YC fundraising guide: https://www.ycombinator.com/library/4A-how-to-raise-money
 - NFX Signal: https://signal.nfx.com
-- @shared/frameworks/brad-feld-terms.md — term sheet analysis
+- shared/brad-feld-terms.md — term sheet analysis

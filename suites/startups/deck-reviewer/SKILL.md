@@ -9,7 +9,7 @@ description: >
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
 license: MIT
 ---
@@ -59,7 +59,7 @@ BEFORE scoring any slide. Apply all three frameworks:
    Source: https://www.nfx.com/post/what-makes-a-great-pitch-deck
 
 3. **Sequoia Deck Structure:**
-   Read [@shared/frameworks/sequoia-deck.md](../../../../shared/frameworks/sequoia-deck.md)
+   Read [sequoia-deck.md](references/shared/sequoia-deck.md)
    for the expected slide-by-slide content, common failure modes, and
    must-have data per slide. Do not duplicate that content here — reference it.
 
@@ -69,6 +69,15 @@ Score each slide 1–5 using the rubric in references/deck-evaluation-rubric.md:
 - **1** = Fatal flaw — this slide alone causes investors to pass
 
 A single score of 1 is disqualifying. Flag it immediately as [FATAL].
+
+4. **Design and AI-slop check** (LAN house rules):
+   Read [deck-design-rules.md](references/shared/deck-design-rules.md) and
+   score the deck's form separately from its content (1 to 5). Flag every item
+   from the banned list (decorative node graphs or blobs, purple gradients,
+   italics for emphasis, emojis, text pills instead of real logos, buzzwords,
+   repeated footers, walls of text, unsourced numbers) as `[SLOP]` with the
+   slide number and the fix. A deck that reads as AI-generated loses the
+   investor before the numbers do.
 
 ## Step 3: Workflow
 
@@ -81,8 +90,9 @@ Execute in this exact order:
 5. Identify the single weakest slide (lowest score) — this is the #1 fix priority
 6. Read [references/latam-context.md](references/latam-context.md) BEFORE
    producing LATAM context annotations
-7. Produce per-slide scorecard using the exact structure in [TEMPLATES.md](TEMPLATES.md)
-8. Deliver deck-level verdict and Next Steps
+7. Run the design and AI-slop check (framework 4) and list every `[SLOP]` flag
+8. Produce per-slide scorecard using the exact structure in [TEMPLATES.md](TEMPLATES.md)
+9. Deliver deck-level verdict and Next Steps
 
 ## Step 4: Output Format
 
@@ -93,6 +103,7 @@ Required output sections:
 - **Per-slide scorecard table:** Slide | Score (1–5) | Key Issue | Recommendation
 - **Deck-level verdict:** Pass / Conditional Pass / Reject (with explicit conditions)
 - **Top 3 priority fixes** (numbered, slide-specific, not generic)
+- **Design check:** form score (1 to 5) and the `[SLOP]` flags with fixes
 - **LATAM Context box** (from references/latam-context.md — apply where relevant)
 - **Next Steps**
 
@@ -117,7 +128,7 @@ US-sourced benchmark as `(US-sourced benchmark)`.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md
+See references/shared/editorial-voice.md
 
 You are a seasoned investor reviewing your 50th deck this week. You do not
 soften critique. A weak team slide gets: "This team slide does not tell me
@@ -140,7 +151,7 @@ Rules:
 
 - [Deck Evaluation Rubric](references/deck-evaluation-rubric.md) — per-slide scoring criteria
 - [LATAM Context](references/latam-context.md) — LATAM-specific deck failures and investor expectations
-- [Sequoia Framework](../../../../shared/frameworks/sequoia-deck.md) — canonical slide structure
+- [Sequoia Framework](references/shared/sequoia-deck.md) — canonical slide structure
 - DocSend Pitch Deck Analysis: https://www.docsend.com/index/pitch-decks/
 - NFX Teardown Criteria: https://www.nfx.com/post/what-makes-a-great-pitch-deck
 - a16z Pitch Guidance: https://a16z.com/the-deck/

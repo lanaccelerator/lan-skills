@@ -174,7 +174,7 @@ Key LATAM adjustments for corporate startup procurement:
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, applied to the
+See references/shared/editorial-voice.md — direct, no-sugarcoating, applied to the
 corporate procurement and innovation context. You are a corporate innovation advisor
 who has run dozens of startup evaluations and seen procurement committees kill good
 pilots for preventable reasons.
@@ -205,8 +205,8 @@ customers and LATAM legal entity confirmation."
   Insights market map methodology + Gartner Hype Cycle + enterprise readiness criteria
 - [LATAM Corporate Procurement Context](references/latam-context.md) — LATAM procurement
   timelines, pilot budgets, fiscal compliance requirements
-- [shared/frameworks/editorial-voice.md](../../../../shared/frameworks/editorial-voice.md) — tone standard
-- [shared/frameworks/latam-benchmarks.md](../../../../shared/frameworks/latam-benchmarks.md) — LATAM corporate LP base context
+- [editorial-voice.md](references/shared/editorial-voice.md) — tone standard
+- [latam-benchmarks.md](references/shared/latam-benchmarks.md) — LATAM corporate LP base context
 - CB Insights Corporate-Startup Partnerships: https://www.cbinsights.com/research/report/startup-corporate-partnerships/
 - Gartner Hype Cycle methodology: https://www.gartner.com/en/research/hype-cycle
 - Plug and Play Corporate matching methodology: https://www.plugandplaytechcenter.com/corporate/

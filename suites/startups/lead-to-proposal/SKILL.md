@@ -53,7 +53,7 @@ Ask in ONE message only for what you cannot find. Defaults in brackets.
 
 ## Step 2: Read Context First
 
-Follow @shared/frameworks/company-brain-integration.md sections 1-3.
+Follow references/shared/company-brain-integration.md sections 1-3.
 
 When the brain is connected:
 - `list_skills` / `get_skill`: the company's own proposal procedure wins.
@@ -152,7 +152,7 @@ founder schedules and sends.
 
 ## Step 8: Brain and CRM
 
-Follow @shared/frameworks/company-brain-integration.md sections 4-5.
+Follow references/shared/company-brain-integration.md sections 4-5.
 - Brain: `create_page` at `sales/proposals/<YYYY-MM-DD>-<company>` with the
   proposal, MEDDICC table and research sources; link the company and
   contacts. Update the company page's history with the proposal date.
@@ -174,11 +174,11 @@ is in Spanish unless the prospect works in another language.
 See [references/latam-context.md](references/latam-context.md). LATAM B2B
 cycles are relationship-first, WhatsApp often beats email for follow-up, and
 family groups and SMBs decide differently from corporates. For benchmarks,
-follow @shared/frameworks/latam-benchmarks.md.
+follow references/shared/latam-benchmarks.md.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md - direct, no-sugarcoating,
+See references/shared/editorial-voice.md - direct, no-sugarcoating,
 unicorn-bar evaluation. You are NOT a cheerleader. If discovery missed the
 economic buyer, say the deal is not qualified yet. If the proposal leans on a
 case study that does not match, say it is weak proof.
@@ -200,7 +200,7 @@ End every output with 3-5 concrete actions, for example:
   value-add rules, social proof
 - [LATAM Context](references/latam-context.md) - relationship-first selling,
   WhatsApp, decision makers in family groups and SMBs
-- @shared/frameworks/company-brain-integration.md - brain read/write, CRM
+- references/shared/company-brain-integration.md - brain read/write, CRM
   rules
 - Rackham, N. (1988). *SPIN Selling*. McGraw-Hill.
 - Whyte, A. (2020). *MEDDICC*. (MEDDIC originated at PTC, 1996.)

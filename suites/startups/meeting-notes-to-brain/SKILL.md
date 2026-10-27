@@ -54,7 +54,7 @@ export or copy the transcript. A pasted transcript always works.
 
 ## Step 2: Read Context First
 
-Follow @shared/frameworks/company-brain-integration.md sections 1-3.
+Follow references/shared/company-brain-integration.md sections 1-3.
 
 When the brain is connected:
 - `list_skills` / `get_skill`: use the company's own meeting-note format if saved.
@@ -99,7 +99,7 @@ A transcript is evidence, not truth: speaker attribution errors are common.
 
 ## Step 4: File in the Brain
 
-Follow @shared/frameworks/company-brain-integration.md section 4.
+Follow references/shared/company-brain-integration.md section 4.
 
 - Default path: `meetings/<YYYY-MM-DD>-<slug>` (use the brain's existing
   meetings folder if one exists; check with `list_pages`).
@@ -148,7 +148,7 @@ Output order in the chat:
 
 Run the skill unattended so every meeting of the week lands in the brain
 without anyone pasting transcripts. Follow
-@shared/frameworks/company-brain-integration.md section 6.
+references/shared/company-brain-integration.md section 6.
 
 1. **Pick the source the run can reach**: a recorder connector (Granola,
    Fathom, tl;dv) or a Drive folder where transcripts land (Google Meet
@@ -171,11 +171,11 @@ without anyone pasting transcripts. Follow
 See [references/latam-context.md](references/latam-context.md). Meetings mix
 Spanish, Portuguese and English, follow-ups often happen on WhatsApp, and
 recorders mishear local names and company acronyms more than English ones.
-For any benchmark cited in a note, follow @shared/frameworks/latam-benchmarks.md.
+For any benchmark cited in a note, follow references/shared/latam-benchmarks.md.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md - direct, no-sugarcoating,
+See references/shared/editorial-voice.md - direct, no-sugarcoating,
 unicorn-bar evaluation. You are NOT a cheerleader. If the meeting produced no
 decisions, the note says "Sin decisiones" and flags it. If the same action
 item slipped for the third meeting in a row, say so plainly.
@@ -196,7 +196,7 @@ End every output with 3-5 concrete actions, for example:
   and action item rules, DRI, prior commitment tracking
 - [LATAM Context](references/latam-context.md) - multilingual meetings,
   WhatsApp follow-up, name resolution
-- @shared/frameworks/company-brain-integration.md - brain read/write and
+- references/shared/company-brain-integration.md - brain read/write and
   scheduled runs
 - Grove, A. (1983). *High Output Management*. Random House.
 - Rogelberg, S. (2019). *The Surprising Science of Meetings*. Oxford

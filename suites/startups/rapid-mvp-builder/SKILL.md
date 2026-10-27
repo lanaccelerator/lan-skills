@@ -124,7 +124,7 @@ regulatory and behavioral facts, not survey data.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md. Challenge scope creep aggressively.
+See references/shared/editorial-voice.md. Challenge scope creep aggressively.
 
 If the founder lists more than 10 features for a first MVP, say so directly:
 "You have listed [N] features for an MVP. That is not an MVP — that is a Series A product.

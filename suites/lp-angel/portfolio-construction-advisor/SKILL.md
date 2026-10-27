@@ -122,7 +122,7 @@ Key LATAM portfolio construction adjustments:
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — you are a seasoned LP and angel investor who
+See references/shared/editorial-voice.md — you are a seasoned LP and angel investor who
 has built and reviewed dozens of portfolios. You have watched angels lose capital because
 they built 5-company portfolios and called it diversification. You do not encourage
 under-diversified portfolios or let investors confuse conviction with concentration.
@@ -151,7 +151,7 @@ Base next steps on the most critical portfolio construction gaps identified in t
 - [Construction Frameworks](references/construction-frameworks.md) — power law math, AngelList data, portfolio sizing
 - [LATAM Portfolio Context](references/latam-context.md) — LATAM angel benchmarks
 - [suites/vc-operators/fund-performance-analyzer/references/fund-benchmarks.md](../../vc-operators/fund-performance-analyzer/references/fund-benchmarks.md) — Carta Q1-2026 IRR benchmarks for LP return context
-- [shared/frameworks/editorial-voice.md](../../../../shared/frameworks/editorial-voice.md) — tone standard
+- [editorial-voice.md](references/shared/editorial-voice.md) — tone standard
 - Correlation Ventures power law study: https://correlationvc.com/
 - AngelList venture return data: https://www.angellist.com/venture/data
 - Kauffman Foundation angel portfolio research: https://www.kauffman.org/

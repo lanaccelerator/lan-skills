@@ -111,7 +111,7 @@ Execute in this exact order:
 2. Ask for all inputs in one message (use Step 1 questions for the confirmed model)
 3. Read [references/unit-economics-formulas.md](references/unit-economics-formulas.md) for model-specific formula variants
 4. Calculate all applicable metrics: CAC, LTV, LTV/CAC, CAC Payback, Contribution Margin, Break-even
-5. Compare against stage benchmarks — read [shared/frameworks/yc-metrics.md](../../../../shared/frameworks/yc-metrics.md) for thresholds
+5. Compare against stage benchmarks — read [yc-metrics.md](references/shared/yc-metrics.md) for thresholds
 6. Flag each metric below threshold as `[BELOW BENCHMARK]` with the specific target and gap
 7. Read [references/latam-context.md](references/latam-context.md) and apply LATAM annotations before producing final output
 8. Produce output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
@@ -153,7 +153,7 @@ Label every US benchmark: `(US-sourced benchmark, [source])`. Label every LATAM 
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
+See references/shared/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
 evaluation. If unit economics are broken, say so directly:
 
 - BAD LTV/CAC: "Your current unit economics do not support a venture-scale business. At
@@ -187,4 +187,4 @@ reduction and gross margin expansion before any other recommendation.
 - Bessemer BVP Roadmap to Epiq: https://www.bvp.com/atlas/roadmap-to-epiq
 - [references/unit-economics-formulas.md](references/unit-economics-formulas.md) — formulas by model
 - [references/latam-context.md](references/latam-context.md) — LATAM benchmarks
-- [shared/frameworks/yc-metrics.md](../../../../shared/frameworks/yc-metrics.md) — stage thresholds
+- [yc-metrics.md](references/shared/yc-metrics.md) — stage thresholds

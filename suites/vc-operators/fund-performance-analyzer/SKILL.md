@@ -45,7 +45,7 @@ Apply:
 - **Carta Fund Performance Report Q1 2026** (PRIMARY benchmark source — real vintage data)
   US-domiciled funds only. See references/latam-fund-context.md for LATAM context.
   Source: via references/fund-benchmarks.md (extracted exact figures)
-- **ILPA metric definitions** — Read @shared/frameworks/ilpa-standards.md for TVPI, DPI,
+- **ILPA metric definitions** — Read references/shared/ilpa-standards.md for TVPI, DPI,
   RVPI, IRR, MOIC calculation methodology and interpretation by fund life stage.
 - **Cambridge Associates VC benchmark methodology**
   Source: https://www.cambridgeassociates.com/insight/venture-capital-benchmark-commentary/
@@ -120,7 +120,7 @@ US equivalents at same vintage."
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md. Analyst voice — precise, no rounding that changes
+See references/shared/editorial-voice.md. Analyst voice — precise, no rounding that changes
 interpretation.
 
 - If IRR is 4.2%, say 4.2% — not "mid-single digits"
@@ -144,6 +144,6 @@ Format as numbered action list, specific to the fund's actual situation.
 - Carta Q1 2026: [references/fund-benchmarks.md](references/fund-benchmarks.md)
 - Cambridge Associates: https://www.cambridgeassociates.com/insight/venture-capital-benchmark-commentary/
 - Kauffman Foundation: https://www.kauffman.org/wp-content/uploads/2019/12/investment_myths_lies_and_truth_about_vc_kauffman_fellowship.pdf
-- @shared/frameworks/ilpa-standards.md — TVPI, DPI, RVPI, IRR, MOIC definitions
+- references/shared/ilpa-standards.md — TVPI, DPI, RVPI, IRR, MOIC definitions
 - [references/latam-fund-context.md](references/latam-fund-context.md) — LATAM fund performance context
 - LAVCA: https://www.lavca.org

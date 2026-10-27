@@ -36,6 +36,13 @@ for skill_md in suites/*/*/SKILL.md; do
   fi
 done
 
+# Shared frameworks must be copied into each skill (installers copy only suites/)
+if command -v python3 >/dev/null 2>&1; then
+  if ! python3 "$(dirname "$0")/scripts/sync-shared.py" --check ${SYNC_SKIP:+--skip=${SYNC_SKIP}}; then
+    ERRORS=$((ERRORS + 1))
+  fi
+fi
+
 if [ ${ERRORS} -gt 0 ]; then
   echo "${ERRORS} validation error(s) found."
   exit 1

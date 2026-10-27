@@ -1,6 +1,6 @@
 # Term Sheet Drafting Guide — Market Standards by Stage
 
-**CRITICAL:** Term definitions live in @shared/frameworks/brad-feld-terms.md.
+**CRITICAL:** Term definitions live in shared/brad-feld-terms.md.
 This file covers ONLY market standards, negotiation context, and deal stage calibration.
 Do not duplicate definitions from brad-feld-terms.md — read that file directly.
 
@@ -13,7 +13,7 @@ Do not duplicate definitions from brad-feld-terms.md — read that file directly
 | Term | Market Standard |
 |------|----------------|
 | Instrument | YC SAFE (post-money, valuation cap only) — no priced round |
-| Valuation cap (LATAM) | $1.5M–$8M depending on traction; see @shared/frameworks/safe-note.md for benchmarks |
+| Valuation cap (LATAM) | $1.5M–$8M depending on traction; see shared/safe-note.md for benchmarks |
 | Liquidation preference | None — SAFE has no liquidation preference at signing |
 | Anti-dilution | None — SAFE terms set at conversion |
 | Board | No board rights; advisory board only |
@@ -137,7 +137,7 @@ The following terms signal an aggressive investor and should ALWAYS be flagged �
 - Round size under $1M — legal costs of a priced round (typically $25K–$50K for both sides) are disproportionate
 - Founders are first-time and not ready to negotiate complex preferred stock terms
 
-**Mechanics and variants:** See @shared/frameworks/safe-note.md for all four SAFE variants, LATAM valuation cap benchmarks (Cuantico 2026 + LAVCA 2025), and conversion mechanics.
+**Mechanics and variants:** See shared/safe-note.md for all four SAFE variants, LATAM valuation cap benchmarks (Cuantico 2026 + LAVCA 2025), and conversion mechanics.
 
 ### Use a priced round when:
 
@@ -157,8 +157,8 @@ The following terms signal an aggressive investor and should ALWAYS be flagged �
 
 ## Sources
 
-- @shared/frameworks/brad-feld-terms.md — all term definitions and red flag taxonomy (primary source)
-- @shared/frameworks/safe-note.md — SAFE and KISS mechanics, LATAM cap benchmarks
+- shared/brad-feld-terms.md — all term definitions and red flag taxonomy (primary source)
+- shared/safe-note.md — SAFE and KISS mechanics, LATAM cap benchmarks
 - NVCA Model Documents: https://nvca.org/resources/model-legal-documents/
 - Brad Feld "Venture Deals" (4th ed.): https://www.amazon.com/Venture-Deals-Smarter-Lawyer-Capitalist/dp/1119594820
 - LAVCA 2025 VC Activity Report: https://www.lavca.org

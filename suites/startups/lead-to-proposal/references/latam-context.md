@@ -1,6 +1,6 @@
 # LATAM Context: From Lead to Signed Proposal
 
-See @shared/frameworks/latam-benchmarks.md for canonical LATAM benchmark data.
+See shared/latam-benchmarks.md for canonical LATAM benchmark data.
 Label US figures as `(US-sourced benchmark, [Source])` and add the LATAM
 figure when one exists.
 

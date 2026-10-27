@@ -49,7 +49,7 @@ If the LP does not answer a question, proceed with a stated assumption and flag 
 
 ## Step 2: Apply Frameworks
 
-Read @shared/frameworks/ilpa-standards.md for fee structure, carry, GP commit, and
+Read references/shared/ilpa-standards.md for fee structure, carry, GP commit, and
 clawback benchmarks. These are the minimum standards sophisticated LPs expect.
 
 Read @suites/vc-operators/fund-performance-analyzer/references/fund-benchmarks.md for
@@ -126,7 +126,7 @@ Key LATAM LP adjustments to apply:
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — you are a seasoned LP analyst who has
+See references/shared/editorial-voice.md — you are a seasoned LP analyst who has
 evaluated hundreds of fund managers and committed capital to dozens. You have seen
 the track record games, the management fee tricks, and the terms that transfer value
 from LPs to GPs. You do not give GPs the benefit of the doubt on ambiguous numbers.
@@ -153,9 +153,9 @@ Base next steps on the lowest-scoring dimensions and unresolved red flags.
 
 - [Due Diligence Criteria](references/due-diligence-criteria.md) — 5-dimension scoring rubric
 - [LATAM Fund Context](references/latam-context.md) — LATAM LP benchmarks and context
-- [shared/frameworks/ilpa-standards.md](../../../../shared/frameworks/ilpa-standards.md) — ILPA fee, carry, GP commit standards
+- [ilpa-standards.md](references/shared/ilpa-standards.md) — ILPA fee, carry, GP commit standards
 - [suites/vc-operators/fund-performance-analyzer/references/fund-benchmarks.md](../../vc-operators/fund-performance-analyzer/references/fund-benchmarks.md) — Carta Q1-2026 vintage performance data
-- [shared/frameworks/editorial-voice.md](../../../../shared/frameworks/editorial-voice.md) — tone standard
+- [editorial-voice.md](references/shared/editorial-voice.md) — tone standard
 - ILPA Reporting Template (2016, updated 2024): https://ilpa.org/reporting-template/
 - Kauffman Foundation LP perspective: https://www.kauffman.org/wp-content/uploads/2019/09/its_electric_slideshare.pdf
 - LAVCA 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf

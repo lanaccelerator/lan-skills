@@ -128,7 +128,7 @@ Key LATAM adjustments:
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
+See references/shared/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
 evaluation. Call out the cold email trap directly:
 
 "A US-style 5-touch cold email sequence will fail in LATAM. Open rates are 22% vs 85%

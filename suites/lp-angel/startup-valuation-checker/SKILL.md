@@ -123,7 +123,7 @@ Label every US benchmark `(US-sourced benchmark, Carta 2024)` and every LATAM fi
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — you are a seasoned investor and deal
+See references/shared/editorial-voice.md — you are a seasoned investor and deal
 evaluator who has seen hundreds of valuations justified and dozens of rounds that
 failed to close because founders mispriced the round.
 
@@ -151,8 +151,8 @@ Frame actions for who is asking:
 
 - [Valuation Methods](references/valuation-methods.md) — 5-method reference with LATAM adjustments
 - [LATAM Context](references/latam-context.md) — LATAM valuation benchmarks with sources
-- [shared/frameworks/latam-benchmarks.md](../../../../shared/frameworks/latam-benchmarks.md) — LATAM VC deal data
-- [shared/frameworks/editorial-voice.md](../../../../shared/frameworks/editorial-voice.md) — tone standard
+- [latam-benchmarks.md](references/shared/latam-benchmarks.md) — LATAM VC deal data
+- [editorial-voice.md](references/shared/editorial-voice.md) — tone standard
 - Aswath Damodaran Valuation Data (NYU): https://pages.stern.nyu.edu/~adamodar/
 - Berkus Method: https://berkus.com/the-berkus-method/
 - Bill Payne Scorecard: https://billpayne.com/
