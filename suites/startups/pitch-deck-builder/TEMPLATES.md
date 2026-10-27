@@ -6,19 +6,21 @@ and common errors. Do not abbreviate or skip sections.
 
 ---
 
-## Example: Alegra — B2B SaaS, SME Accounting, Seed Stage, Raising $2M
+## Example: Contalia, B2B SaaS, SME Accounting, Seed Stage, Raising $2M
 
-**Company:** Alegra
+**Company:** Contalia
 **Stage:** Seed
 **Raising:** $2M
 **Framework:** Sequoia 10-slide (Seed standard)
+
+*Contalia is hypothetical: all company numbers are invented for illustration. Benchmarks carry their real source or are marked directional.*
 
 ---
 
 ### Slide 1 — Company Purpose
 
 **Talking Points:**
-- Alegra helps 500k+ Latin American SMEs manage their accounting in <30 min/month
+- Contalia helps 500k+ Latin American SMEs manage their accounting in <30 min/month
 - Replaces Excel, accountant visits, and paper receipts with a single mobile-first platform
 - Founded 2013 in Colombia; operating in 8 LATAM countries
 
@@ -60,11 +62,11 @@ and common errors. Do not abbreviate or skip sections.
 ### Slide 3 — Solution
 
 **Talking Points:**
-- Alegra is a cloud-based accounting + invoicing platform built for SMEs with
+- Contalia is a cloud-based accounting + invoicing platform built for SMEs with
   zero accounting background — set up in 10 minutes, no accountant needed
 - Key features: electronic invoicing (CFDI/DIAN compliant), bank reconciliation,
   expense tracking, payroll basics, real-time P&L
-- Mobile-first: 65% of Alegra's active sessions are on mobile (founders manage
+- Mobile-first: 65% of Contalia's active sessions are on mobile (founders manage
   business from their phone)
 
 **Data Needed:**
@@ -107,9 +109,9 @@ and common errors. Do not abbreviate or skip sections.
 **Talking Points:**
 - **TAM:** 15M+ formal SMEs in Mexico and Colombia combined (INEGI 2024, DANE 2023)
 - **SAM:** 8M SMEs with >5 employees, digital banking access, and $100+/month
-  budget for software (based on Alegra's ICP criteria)
+  budget for software (based on Contalia's ICP criteria)
 - **SOM:** 500k SMEs reachable via current channels in 36 months
-- **Bottom-up calculation:** 8M SAM × $240 ACV (Alegra's current Seed plan) = **$1.9B SAM**
+- **Bottom-up calculation:** 8M SAM × $240 ACV (Contalia's current Seed plan) = **$1.9B SAM**
 
 **Data Needed:**
 - [available] Mexico SME count: 4.9M formal SMEs (INEGI 2024)
@@ -125,9 +127,9 @@ and common errors. Do not abbreviate or skip sections.
 - Claiming LATAM TAM without country-level breakdown
 
 > **LATAM Context:** Seed investors in LATAM expect SAM calculation with country-level
-> data, not LATAM-wide estimates. Brazil and Mexico represent 78.5% of LATAM VC — a
-> Mexico + Colombia TAM is fundable without requiring pan-LATAM coverage claims.
-> *(LAVCA 2025)*
+> data, not LATAM-wide estimates. Brazil and Mexico took about 73% of 2025 LATAM VC
+> dollars *(Cuantico 2026)*: a Mexico + Colombia TAM is fundable without pan-LATAM
+> coverage claims.
 
 ---
 
@@ -137,15 +139,15 @@ and common errors. Do not abbreviate or skip sections.
 - **Direct competitors:** Contpaqi (Mexico, legacy desktop), Siigo (Colombia, legacy),
   QuickBooks Mexico (US-designed, expensive, complex)
 - **Indirect competitors:** Excel, WhatsApp-based accountants, paper invoicing
-- **Alegra's differentiation:** Mobile-first, <10 min onboarding, LATAM tax compliance
+- **Contalia's differentiation:** Mobile-first, <10 min onboarding, LATAM tax compliance
   built-in (CFDI + DIAN), pricing designed for SME budgets ($20/month vs QuickBooks
   $80+/month)
-- **Moat:** Local tax compliance integrations are hard to replicate quickly — Alegra
+- **Moat:** Local tax compliance integrations are hard to replicate quickly; Contalia
   has 3 years of DIAN and SAT integration work as a barrier
 
 **Data Needed:**
 - [available] QuickBooks Mexico pricing: $80+/month starter plan
-- [available] Alegra pricing: from $20/month
+- [available] Contalia pricing: from $20/month
 - [DATA NEEDED: 2×2 matrix axes — suggest "local compliance depth" vs "SME ease of use"]
 
 **Common Errors to Avoid:**
@@ -162,7 +164,7 @@ and common errors. Do not abbreviate or skip sections.
 - **Core product modules:** Electronic invoicing, expense tracking, bank reconciliation,
   basic payroll, real-time P&L
 - **Roadmap (next 12 months):** Embedded lending (working capital for SMEs based on
-  Alegra invoicing history), open banking integrations, AI-powered expense categorization
+  Contalia invoicing history), open banking integrations, AI-powered expense categorization
 - **Technical differentiator:** Tax authority API integrations (SAT, DIAN, SII, AFIP)
   maintained and updated with each regulatory change
 
@@ -187,7 +189,7 @@ and common errors. Do not abbreviate or skip sections.
 - **Unit economics:**
   - CAC: $85 (blended, primarily self-serve digital)
   - LTV: $720 (avg subscription duration 36 months × $20 ACV)
-  - LTV/CAC: 8.5× — top-decile for LATAM SaaS *(Cuantico 2026)*
+  - LTV/CAC: 8.5×, well above the 3:1 floor investors cite (directional)
   - Payback period: 5.4 months
 - **Gross margin:** 72% (SaaS standard; LATAM infrastructure costs slightly higher)
 
@@ -203,21 +205,21 @@ and common errors. Do not abbreviate or skip sections.
   ads vs partnerships have very different CAC profiles)
 - Presenting LTV without stating the churn assumption behind it
 
-> **LATAM Context:** LTV/CAC of 8.5× puts Alegra in the top quartile of LATAM SaaS
-> at Seed. Seed benchmark in LATAM: ≥3:1 expected, top-quartile ≥5:1 *(Cuantico 2026)*.
-> Series A benchmark (US-sourced): ≥3:1 *(Bessemer Cloud Index — US-sourced benchmark)*.
+> **LATAM Context:** LTV/CAC of 8.5× clears the ≥3:1 floor most investors cite at seed
+> and Series A (directional; no verified LATAM percentile exists). Show the churn
+> assumption behind the LTV or the number will not survive diligence.
 
 ---
 
 ### Slide 9 — Team
 
 **Talking Points:**
-- **CEO:** Co-founded Alegra 2013; 10+ years in LATAM SME software; led company
+- **CEO:** Co-founded Contalia 2013; 10+ years in LATAM SME software; led company
   through 8-country expansion without outside capital until this round
 - **CTO:** 8 years building tax compliance infrastructure; authored Mexico SAT
   integration adopted by 3 other LATAM accounting platforms
 - **Head of Growth:** Former growth lead at Rappi (scaled from 0 to 1M users);
-  built Alegra's self-serve acquisition flywheel that drives $85 blended CAC
+  built Contalia's self-serve acquisition flywheel that drives $85 blended CAC
 - **Advisors:** [DATA NEEDED: 1–2 advisors with LATAM VC or accounting sector credibility]
 
 **Data Needed:**
@@ -264,17 +266,15 @@ and common errors. Do not abbreviate or skip sections.
 
 ## LATAM Context Box
 
-> **Seed investors in LATAM expect at least 1k active paying customers or $100k ARR.**
-> US-style "growth at all costs" narratives underperform vs "unit-economics-first"
-> framing with LATAM LPs and local family offices — 35% of LATAM VC LP capital comes
-> from family offices with shorter time horizons than US endowments.
-> *(LAVCA 2025)*
+> **What LATAM seed money looks like:** the median LATAM seed round was USD 0.5M and
+> the median Series A USD 10M in 2024 *(LAVCA Trends in Tech 2025)*. Only 12% of LATAM
+> seed startups raised a Series A within three years *(LAVCA Startup Ecosystem Insights
+> 2025)*. Contalia's USD 2M ask is a top-of-range seed: the deck must prove it can reach
+> Series A metrics before the ~20-month gap between rounds runs out.
 >
-> **Revenue multiple reality check:** At equivalent ARR and growth rates, LATAM SaaS
-> companies receive valuations 30–50% below US peers. A $2M ARR company growing 3×
-> YoY that commands a $15M pre-money in Silicon Valley will typically get $8–10M pre-money
-> in LATAM. Calibrate your ask to LATAM comps, not US TechCrunch headlines.
-> *(Cuantico 2026)*
+> **Valuation reality check:** LATAM rounds price below US medians at the same ARR and
+> growth (directional; no verified report quantifies the gap). Calibrate the ask to 2-3
+> LATAM comparable rounds with source and date, not US TechCrunch headlines.
 
 ---
 

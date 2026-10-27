@@ -1,12 +1,13 @@
-# Competitive Analysis Framework — Porter's Five Forces + Defensibility Taxonomy
+# Competitive Analysis Framework: Porter's Five Forces + Defensibility Taxonomy
 
 **When to use:** Read this file BEFORE mapping any competitive landscape.
 Apply Porter's Five Forces to the industry structure, then use the defensibility
 taxonomy to assess what moats exist today vs what must be built.
 
 **Sources:**
-- Porter's Five Forces (HBR 1979): https://www.hbs.edu/faculty/Pages/item.aspx?num=195
-- a16z Defensibility: https://a16z.com/defensibility/
+- Porter, "The Five Competitive Forces That Shape Strategy" (HBR 2008, updating the 1979 article): https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy
+- a16z, "The Empty Promise of Data Moats" (2019): https://a16z.com/the-empty-promise-of-data-moats/
+- NFX, "The Network Effects Bible": https://www.nfx.com/post/network-effects-bible
 - CB Insights Market Maps: https://www.cbinsights.com/research/report/venture-capital-market-maps/
 
 ---
@@ -16,7 +17,7 @@ taxonomy to assess what moats exist today vs what must be built.
 ### Definition and Purpose
 
 Porter's Five Forces (Michael E. Porter, Harvard Business Review, 1979) analyzes
-the structural attractiveness of an industry — not just whether a startup can win
+the structural attractiveness of an industry, not just whether a startup can win
 against named competitors today, but whether the industry structure allows for
 sustainable profits over time.
 
@@ -37,7 +38,7 @@ threat often comes from a force that does not yet have a name.
 - Established distribution channels are accessible to new entrants
 - No brand premium required to win initial customers
 
-**LOW threat signals (good for the startup — structural protection):**
+**LOW threat signals (good for the startup, structural protection):**
 - Regulatory licenses with long approval timelines (fintech, healthtech)
 - High upfront capital requirements (hardware, infrastructure)
 - Network effects that make early entrants permanently advantaged
@@ -54,11 +55,11 @@ threat often comes from a force that does not yet have a name.
 - Few alternative suppliers for a critical input
 - Switching suppliers requires significant cost or time
 - Supplier can credibly vertically integrate into the startup's market
-- The startup is a small customer — suppliers prioritize larger clients
+- The startup is a small customer, suppliers prioritize larger clients
 
 **LOW supplier power (good for the startup):**
-- Many alternative suppliers — no single supplier has pricing leverage
-- Inputs are commoditized (AWS, GCP — compute is not a moat)
+- Many alternative suppliers, no single supplier has pricing leverage
+- Inputs are commoditized (AWS, GCP, compute is not a moat)
 - The startup is or will become a large customer with negotiating power
 
 ---
@@ -69,15 +70,15 @@ threat often comes from a force that does not yet have a name.
 
 **HIGH buyer power (bad for the startup):**
 - Customers are large and purchase in high volumes (enterprise B2B)
-- Low switching costs — customers can move to a competitor easily
+- Low switching costs, customers can move to a competitor easily
 - Customers have credible alternatives that they will use if pricing increases
-- Product is not mission-critical — customers can walk away without operational disruption
+- Product is not mission-critical, customers can walk away without operational disruption
 - Customer has price transparency and regularly bids out contracts
 
 **LOW buyer power (good for the startup):**
-- Fragmented customer base — no single customer accounts for >20% of revenue
-- High switching costs — data, workflow integration, or compliance dependency
-- Product is mission-critical — stopping use causes immediate operational pain
+- Fragmented customer base, no single customer accounts for >20% of revenue
+- High switching costs, data, workflow integration, or compliance dependency
+- Product is mission-critical, stopping use causes immediate operational pain
 - No credible alternatives at equivalent price point
 
 ---
@@ -110,12 +111,12 @@ threat often comes from a force that does not yet have a name.
 
 **HIGH rivalry (bad for the startup):**
 - Multiple competitors at similar scale fighting for the same customers
-- Low differentiation — price competition is the primary lever
+- Low differentiation, price competition is the primary lever
 - High customer acquisition costs due to marketing spend competition
-- Competitors can easily copy features — no moat prevents replication
+- Competitors can easily copy features, no moat prevents replication
 
 **LOW rivalry (good for the startup):**
-- Clear market segmentation — few competitors target the same ICP
+- Clear market segmentation, few competitors target the same ICP
 - Network effects reward the leader disproportionately
 - Differentiation is structural (compliance data, first-mover distribution) not cosmetic (design, UX)
 - Industry is growing fast enough that multiple players can expand without head-to-head competition
@@ -125,7 +126,7 @@ threat often comes from a force that does not yet have a name.
 ## 2. Defensibility Moat Taxonomy
 
 A moat is a sustainable competitive advantage that makes it progressively harder
-for competitors to win your customers over time. Technology is NOT a moat — it
+for competitors to win your customers over time. Technology is NOT a moat, it
 is a head start. A moat compounds. Technology can be replicated.
 
 Apply the taxonomy below to evaluate: (a) which moats the startup has built today,
@@ -140,7 +141,7 @@ and (b) which moats must be built by the next funding milestone.
 
 **Direct network effect:** Each new user directly adds value to all existing users.
 - Example: WhatsApp (calling), Slack (workspace collaboration), Mercado Libre (buyer-seller marketplace)
-- LATAM example: Pix (Brazil's instant payment network) — each new bank that connects makes the network more valuable to all existing users
+- LATAM example: Pix (Brazil's instant payment network), each new bank that connects makes the network more valuable to all existing users
 
 **Indirect network effect:** User growth on one side of a market benefits a different
 side (two-sided marketplace or platform).
@@ -162,8 +163,8 @@ requiring price competition.
 
 **Data switching costs:** Customer's historical data is stored in your system.
 Migrating it requires time, manual effort, or data quality risk.
-- Example: A CRM with 5 years of customer interaction history. Migrating to a competitor means migrating all contact records, deal histories, and email threads — weeks of work.
-- LATAM example: Accounting SaaS with 3 years of CFDI (Mexican tax invoices) or NF-e (Brazilian fiscal notes) — switching means re-importing all tax records and risking compliance gaps.
+- Example: A CRM with 5 years of customer interaction history. Migrating to a competitor means migrating all contact records, deal histories, and email threads, weeks of work.
+- LATAM example: Accounting SaaS with 3 years of CFDI (Mexican tax invoices) or NF-e (Brazilian fiscal notes), switching means re-importing all tax records and risking compliance gaps.
 
 **Workflow switching costs:** Customer's internal processes have been redesigned around
 your product. Switching disrupts operations, not just software.
@@ -177,26 +178,26 @@ compliance requirements that bind the customer to a vendor.
 
 ### Data Advantages
 
-**Definition:** Proprietary data that the company accumulates through operation — data
+**Definition:** Proprietary data that the company accumulates through operation, data
 that a new entrant cannot replicate without years of operation.
 
 **Proprietary data moat:** Data that only your company has because of your specific
 position in the market.
-- Example: Nubank's credit scoring models trained on 90M+ Brazilian consumer financial profiles — no competitor has this training set without operating at scale for 10+ years.
+- Example: Nubank's credit scoring models trained on 90M+ Brazilian consumer financial profiles, no competitor has this training set without operating at scale for 10+ years.
 
 **Scale data moat:** Your data set is larger than any competitor's, enabling better
 model accuracy, recommendation quality, or prediction.
-- Example: Totvs has Brazilian SME accounting data from 40+ years of operations — a new entrant's model is always worse because it has less training data.
+- Example: Totvs has Brazilian SME accounting data from 40+ years of operations, a new entrant's model is always worse because it has less training data.
 
 **Unique data moat:** Data that can only be collected through your specific product design.
-- Example: A logistics platform that collects real-time truck location data — this data is only available to the platform operator, not purchasable from any third party.
+- Example: A logistics platform that collects real-time truck location data, this data is only available to the platform operator, not purchasable from any third party.
 
 ---
 
 ### Brand
 
 **Definition:** A brand moat exists when buyers choose a product because of trust or
-status — not just because it is the best product for the price. Brand is a moat only
+status, not just because it is the best product for the price. Brand is a moat only
 when it affects purchasing behavior, not just awareness.
 
 **When brand IS a moat:** Medical software (trust = patient safety), financial products
@@ -228,9 +229,9 @@ a barrier that competitors must satisfy before entering the market.
 
 **LATAM regulatory moat examples:**
 - Mexico fintech (SOFOM license, CNBV): 12–24 month approval process creates structural delay for new entrants
-- Colombia fintech (SFC sandbox): Regulators have limited capacity — only a small number of companies can participate simultaneously
+- Colombia fintech (SFC sandbox): Regulators have limited capacity, only a small number of companies can participate simultaneously
 - Brazil health data (LGPD compliance for medical data): Data sovereignty requirements limit which companies can store patient data
-- Brazil e-Social (mandatory labor compliance reporting): Companies integrated into e-Social reporting have a switching cost — auditors rely on historical filings stored in the system
+- Brazil e-Social (mandatory labor compliance reporting): Companies integrated into e-Social reporting have a switching cost, auditors rely on historical filings stored in the system
 
 ---
 
@@ -238,27 +239,27 @@ a barrier that competitors must satisfy before entering the market.
 
 **Direct competitor:** Same customer segment, same problem, same solution type.
 - Compete for the same purchase decision. Customers evaluate both before deciding.
-- Example: Gupy vs TalentBR — both are Brazilian ATS platforms targeting SME recruitment.
+- Example: Gupy vs TalentBR, both are Brazilian ATS platforms targeting SME recruitment.
 
 **Indirect competitor:** Same customer, same problem, different solution type.
-- Customers may use one or both — but they address the same underlying need.
-- Example: LinkedIn Recruiter vs TalentBR — both help SMEs find candidates, but LinkedIn
+- Customers may use one or both, but they address the same underlying need.
+- Example: LinkedIn Recruiter vs TalentBR, both help SMEs find candidates, but LinkedIn
   is a job board + network while TalentBR is an ATS. Customer may use both.
 
 **Substitute:** Different solution to a related problem the customer has.
 - Customer chooses between the solution categories, not the individual products.
-- Example: WhatsApp + Catho vs TalentBR — the customer decides whether to use a structured
+- Example: WhatsApp + Catho vs TalentBR, the customer decides whether to use a structured
   ATS at all, before deciding which ATS to use.
 
 **Why the classification matters:** Direct competitors require differentiation.
 Indirect competitors may become direct (market expansion). Substitutes require
-behavior change as the first sales motion — harder than switching from a competitor.
+behavior change as the first sales motion, harder than switching from a competitor.
 
 ---
 
 ## 4. 2×2 Axis Selection Guide
 
-The 2×2 matrix is only useful if the axes reflect actual differentiation — dimensions
+The 2×2 matrix is only useful if the axes reflect actual differentiation, dimensions
 where the startup genuinely outperforms competitors, not dimensions chosen to manufacture
 a favorable positioning.
 
@@ -269,10 +270,10 @@ a favorable positioning.
    Use what is true today.
 
 2. **Avoid generic axes.** "Price vs features" and "ease of use vs functionality" are
-   meaningless — every company claims to be in the upper-right. Use specific capability
+   meaningless, every company claims to be in the upper-right. Use specific capability
    dimensions relevant to this market.
 
-3. **The user should be in the upper-right** — but only because the axes genuinely
+3. **The user should be in the upper-right**: but only because the axes genuinely
    reflect where they win. If the user cannot credibly defend their position on both
    axes, the matrix will collapse in investor diligence.
 

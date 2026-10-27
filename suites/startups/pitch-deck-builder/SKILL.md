@@ -1,18 +1,20 @@
 ---
 name: pitch-deck-builder
 description: >
-  Startup investor presentation builder. ALWAYS invoke when a user wants to
-  create, structure, or outline a pitch deck or investor presentation. Applies
-  Sequoia 10-slide framework, YC Series A guide, Kawasaki 10-20-30, and Reid
-  Hoffman teardowns. When the user wants the slides themselves, also builds
-  the deck (HTML 16:9, Slides, Keynote) in the startup's own brand with LAN's
-  anti AI-slop design rules and a render-and-check QA loop. NOT for reviewing
-  an existing deck (use deck-reviewer)
-  or validating the business model (use venture-model-validator).
+  Use when a founder wants to create, structure or outline a pitch deck or investor
+  presentation, or build the slides themselves ("armame el pitch deck", "necesito un deck
+  para inversores", "estructura de mi presentación para la ronda", "slides para el demo day").
+  Picks the framework by stage (Kawasaki pre-seed, Sequoia seed, Sequoia + YC Series A
+  checklist), writes slide-by-slide claims, talking points and [DATA NEEDED] flags, and on
+  request builds the deck (HTML 16:9, Slides, Keynote) in the startup's own brand with LAN's
+  anti AI-slop design rules and a render-and-check QA loop. NOT for critiquing an existing
+  deck (use deck-reviewer), checking if the business is venture-scale (use
+  venture-model-validator), setting the valuation or ask (use startup-valuation-benchmark)
+  or running the raise itself (use fundraising-agent).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.2"
+  version: "1.3"
   suite: startups
 license: MIT
 ---
@@ -40,6 +42,10 @@ answers (or stated assumptions) for each.
 
 If a question is skipped, proceed with a stated assumption flagged as:
 `[ASSUMPTION: ...]`. Do not silently skip inputs.
+
+If the founder has a company brain (LAN Brain or another MCP-connected knowledge base) or a
+data room, read it first (metrics, customers, team, past decks) and ask only for what is
+missing.
 
 ## Step 2: Apply Frameworks
 
@@ -78,7 +84,7 @@ Execute in this exact order:
    companies for LATAM-specific context
 6. Output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
 7. If the user wants the actual slides (not only the outline), build them now
-   following [deck-design-rules.md](references/shared/deck-design-rules.md):
+   following references/shared/deck-design-rules.md:
    the startup's own brand, one idea per slide with the claim as the title,
    real numbers, logos and photos, nothing from the banned AI-slop list, and the
    mandatory render-and-check QA loop before showing anyone
@@ -100,14 +106,17 @@ sections. Do not merge slides. Do not rename columns.
 Read [references/latam-context.md](references/latam-context.md) BEFORE
 producing the final output. Apply LATAM-specific adjustments:
 
-- LATAM investors expect localized market evidence — LAVCA portfolio data
-  and local comparables, not global TAM claims from Gartner or McKinsey
-- Seed investors in LATAM expect ≥1k active paying customers OR ≥$100k ARR
-  before a Seed round (LAVCA 2025)
-- Revenue multiples in LATAM run 30–50% below US peers at equivalent growth
-  — calibrate your ask accordingly (Cuantico 2026)
-- "Brazil + Mexico first" framing is the correct LATAM TAM methodology —
-  claiming "LATAM market" without country specificity fails diligence
+- LATAM investors expect localized market evidence: country-level ICP counts (INEGI,
+  IBGE, DANE) and local comparables, not global TAM claims from Gartner or McKinsey
+- Calibrate the ask to LATAM rounds: median seed USD 0.5M and Series A USD 10M in 2024
+  (LAVCA Trends in Tech 2025). LATAM prices below US medians at the same traction
+  (directional: no verified report quantifies the gap, so never quote a percentage)
+- Show the path to Series A: only 12% of LATAM seed startups raised one within three
+  years (LAVCA Startup Ecosystem Insights 2025), with ~20 months between rounds
+- "Brazil + Mexico first" framing (about 73% of 2025 LATAM VC dollars, Cuantico 2026)
+  beats a generic "LATAM market" claim, which fails diligence
+- AI-native startups: show usage, retention and gross margin after inference costs; the
+  bar for top funds is growth close to 10% per week (LAN's read), vs Paul Graham's 5-7%
 
 - **Lead with the growth line and the logos.** The strongest round narrative fits in one
   line: "We are growing X% per month and want to take the market" (LAN fundraising
@@ -116,12 +125,13 @@ producing the final output. Apply LATAM-specific adjustments:
   founder CV (Ivy League, top company, prior exit, something extraordinary). In LATAM, with
   low liquidity, team and growth weigh most. Cheap signals (LOIs, free pilots) do not count.
 
-Label all US benchmarks as `(US-sourced benchmark)` and provide the LATAM
-figure labeled `(LATAM, LAVCA 2025 / Cuantico 2026)`.
+Label US benchmarks `(US-sourced benchmark)`. Every LATAM figure carries its source and
+date from the verified table in references/latam-context.md, or is marked `(directional)`.
+Never invent a LATAM benchmark.
 
 ## Tone & Editorial Voice
 
-See references/shared/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
+See references/shared/editorial-voice.md: direct, no-sugarcoating, unicorn-bar
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 

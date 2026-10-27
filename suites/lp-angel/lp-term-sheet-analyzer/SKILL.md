@@ -1,147 +1,116 @@
 ---
 name: lp-term-sheet-analyzer
 description: >
-  LP-side fund term sheet and LPA analysis. ALWAYS invoke when an LP, family
-  office, or institutional investor needs to analyze terms in a fund subscription
-  agreement or LPA — evaluating management fee, carry, hurdle rate, GP commit,
-  clawback, key person clause, and no-fault divorce from the investor's perspective.
-  NOT for GPs drafting term sheets for startups (use term-sheet-generator for that).
-  NOT for founders analyzing term sheets received from VCs (use fundraising-agent
-  for that).
+  LP-side review of a VC fund's LPA, term sheet or side letter. ALWAYS invoke when an
+  LP, family office, DFI or institutional investor received fund terms and needs to
+  score management fee and step-downs, carry and waterfall, hurdle, GP commit,
+  clawback, key person, no-fault removal, fee offsets and reporting against ILPA
+  Principles 3.0 and Carta market data, with an ACCEPT / NEGOTIATE / PASS verdict and
+  specific asks. Triggers: "review this LPA", "are these fund terms market", "side
+  letter", "revisá el LPA", "términos del fondo", "¿es normal este management fee?",
+  "qué negocio en el side letter". NOT for diligence on the GP team, track record or
+  strategy (vc-fund-due-diligence), GPs drafting startup term sheets
+  (term-sheet-generator), founders reviewing a VC term sheet (fundraising-agent), or a
+  GP's own LP report (portfolio-reporter).
 categories: ["business", "investing", "due-diligence"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: lp-angel
 license: MIT
 ---
 
 # LP Term Sheet Analyzer
 
-Evaluates fund LPA and subscription agreement terms from the LIMITED PARTNER's
-perspective. The skill adds the LP evaluation layer on top of shared framework
-definitions — it does NOT re-define terms, it scores them.
+Scores fund terms from the LIMITED PARTNER's seat. It does not re-define terms; it compares
+each one against two reference layers and tells the LP what to accept, what to ask for and
+when to walk.
 
-This skill inverts term-sheet-generator (Phase 2). Where term-sheet-generator
-helps a GP draft terms for a startup investment, this skill helps an LP evaluate
-terms received FROM a GP. Same taxonomy, opposite chair.
+- **ILPA Principles 3.0 (2019) + ILPA Reporting Template (2025):** what institutional LPs recommend.
+- **Carta Fund Economics Report 2025:** what VC funds actually sign.
 
-## Step 1: Input Gathering
+A term can be below ILPA best practice and still be VC market. Always say which layer you cite.
 
-Ask all seven questions in ONE message. Do not begin analysis until you have answers
-(or stated assumptions) for each.
+## Step 1: Intake (ONE message)
 
-1. **Fund name + vintage year** (e.g., "Cóndor Ventures Fund II, 2026 vintage")
-2. **Fund strategy + target size** (geography, stage, sector, fund size in USD)
-3. **Management fee structure** — percentage, calculation basis (committed vs. invested
-   capital), and step-down schedule (or confirm none exists)
-4. **Carry % + hurdle rate** (preferred return %) — note if European or American waterfall
-5. **GP commit %** (as % of fund size) and how it is funded (cash vs. management fee waiver)
-6. **Key person clause** — list named key persons + trigger events (departure, reduced time)
-7. **No-fault divorce clause** — % of LP vote required to terminate the GP; and any unusual
-   or non-standard terms in the LPA (gate provisions, FX clauses, extension rights)
+Ask everything in one message; accept the LPA PDF instead of answers. Missing answer:
+proceed with `[ASSUMPTION: ...]`, never skip silently.
 
-If the LP does not answer a question, proceed with a stated assumption and flag it
-as: `[ASSUMPTION: ...]`. Do not silently skip inputs.
+1. **Fund:** name, vintage, fund number (I, II...), target and hard cap, strategy and geography.
+2. **Your commitment:** amount, LP type (family office, DFI, corporate, individual), anchor or not.
+3. **Economics:** management fee %, basis (committed or invested), investment period, step-downs;
+   carry %, waterfall (whole-of-fund or deal-by-deal); hurdle if any; fee offsets.
+4. **Alignment:** GP commit % and how it is funded (cash or fee waiver); clawback, escrow, guarantees.
+5. **Governance:** key person names and triggers; no-fault removal and suspension thresholds;
+   LPAC; fund term and extensions.
+6. **Other:** subscription line, FX / distribution currency, reporting format, MFN on side letters,
+   anything unusual (recycling, GP-led secondaries, continuation vehicles).
 
-## Step 2: Apply Frameworks (D-39 Separation)
+## Step 2: Workflow (in order)
 
-Three files work together — do NOT duplicate definitions across files:
+1. **Read** `references/shared/ilpa-standards.md` (both layers, with numbers),
+   [references/lp-analysis-criteria.md](references/lp-analysis-criteria.md) (scoring per term)
+   and, for definitions only, `references/shared/brad-feld-terms.md`.
+2. **Score each term** ACCEPT / NEGOTIATE / RED FLAG with the criteria file.
+3. **Compute the fee load:** sum the yearly fee over the full fund term using the step-down
+   schedule; report it in USD and as % of commitment. Market reference: the median 2017-vintage
+   VC fund had spent ~19% of commitments on fees plus expenses after about eight years; median
+   annualized fee at year eight is 1.94% (Carta 2025).
+4. **Check deal-breakers** (criteria file). Each one must be fixed before signing.
+5. **Apply LATAM context** from [references/latam-context.md](references/latam-context.md):
+   FX, DFI side letters and MFN, local vehicles, emerging-manager adjustments.
+6. **Apply the verdict rules** below and write the asks: term, target value, fallback.
+7. **Close with Next Steps:** 3-5 LP actions for the next 14 days.
 
-1. Read references/shared/brad-feld-terms.md — what each term MEANS (definitions,
-   mechanics). This is your taxonomy dictionary. Use it to confirm you understand the
-   terms. Do not reproduce definitions in your output.
+## Step 3: Verdict Rules (first match wins)
 
-2. Read references/shared/ilpa-standards.md — what terms SHOULD look like from a
-   governance and alignment perspective. This is your benchmark layer. ILPA standards
-   define the LP-side "market standard."
-
-3. Read [references/lp-analysis-criteria.md](references/lp-analysis-criteria.md) —
-   how an LP EVALUATES terms received from a GP. This is your scoring layer. It adds
-   the LP judgment perspective that the two shared files do not contain.
-
-The three files are additive, not duplicative:
-- brad-feld-terms.md → term definitions and mechanics
-- ilpa-standards.md → what ILPA-aligned governance looks like
-- lp-analysis-criteria.md → how to score each term from the investor's seat
-
-## Step 3: Workflow
-
-Execute in this exact order:
-
-1. Gather inputs (Step 1 questions — confirm answers or state assumptions)
-2. Score each term vs. ILPA standard using [references/lp-analysis-criteria.md](references/lp-analysis-criteria.md)
-3. Flag red flags — EXPLICITLY list each with `[RED FLAG]` prefix; do not soften or bury them
-4. Calculate effective management fee drag (% of committed capital over fund life)
-5. Apply LATAM context — read [references/latam-context.md](references/latam-context.md)
-   BEFORE producing the final analysis
-6. Produce Term Analysis Table per [TEMPLATES.md](TEMPLATES.md)
-7. Issue ACCEPT / NEGOTIATE / PASS recommendation with specific negotiation asks
-8. End with Next Steps (3–5 LP actions)
+1. A deal-breaker the GP has already refused to fix → **PASS**.
+2. Any deal-breaker or RED FLAG still open → **NEGOTIATE**, stating the walk-away condition
+   ("PASS if the GP refuses a step-down").
+3. Terms outside the band but no red flag → **NEGOTIATE** (low intensity, side letter).
+4. No red flags, all terms in band, lifetime fee load at or under ~20% of commitment →
+   **ACCEPT**.
 
 ## Step 4: Output Format
 
-ALWAYS use the exact template structure in [TEMPLATES.md](TEMPLATES.md). Fill every
-section with real analysis. The output is an LP Term Analysis containing:
+ALWAYS use this exact template structure. Do not change section headings, table columns,
+or field order. Fill every [bracketed placeholder] with real analysis from the user's fund.
+See [TEMPLATES.md](TEMPLATES.md) for the filled example.
 
-- **Term Analysis Table** — term | GP proposes | ILPA standard | LP verdict | negotiation priority
-- **Red Flags section** — explicit `[RED FLAG]` callouts (not softened "concerns")
-- **Effective Fee Drag calculation** — management fee cost as % of committed capital
-  over the investment period, in USD and as IRR drag
-- **ACCEPT / NEGOTIATE / PASS recommendation** — with specific negotiation asks and
-  the ILPA model LP side letter reference as baseline
-- **LATAM Context box** — LATAM-specific LP concerns annotated per latam-context.md
+Sections: header with verdict (BLUF), term analysis table (term | GP proposes | ILPA 3.0 |
+VC market (Carta 2025) | LP verdict | priority), red flags, fee load, verdict with asks and
+walk-away conditions, LATAM context, Next Steps, Sources.
 
-**Verdict thresholds:**
+If the user wants slides or a PDF for an investment committee, apply
+`references/shared/deck-design-rules.md`.
 
-- **ACCEPT:** All terms within ILPA band. No RED FLAGs. Effective fee drag <10% of fund.
-- **NEGOTIATE:** 1–2 terms outside ILPA band but correctable via side letter. No catastrophic
-  structural misalignment.
-- **PASS:** Management fee >2.5% with no step-down AND no-fault divorce >90% AND GP commit
-  <0.5% — all three together signal structural misalignment. Do not invest.
+## Step 5: LATAM and Emerging-Manager Lens
 
-## Step 5: LATAM Context
-
-Read [references/latam-context.md](references/latam-context.md) BEFORE producing
-the final analysis. Apply LATAM-specific LP concerns throughout.
-
-Key LATAM LP considerations:
-- FX clauses in USD-denominated funds investing in local-currency markets
-- LATAM family office governance norms (informal LP relationship culture)
-- Brazil FIP structure vs. Cayman LP — different fee/carry treatment under Brazilian law
-- Political risk provisions for Argentina and Venezuela exposure
+- **Small funds are different, not worse:** median GP commit for $1-10M funds is 2% (75th pct
+  6.15%), opex runs ~3.4% of commitments in five years vs ~1% above $100M, and many small funds
+  waive the audit (Carta 2025). Judge a $10M Fund I against small-fund norms.
+- **DFI anchors:** IDB Lab, IDB Invest or CAF in the fund usually means their own side letter
+  (E&S policy, exclusion list, integrity, reporting). Ask for the MFN clause: which of those
+  rights and any fee discounts reach you.
+- **FX:** USD commitments into local-currency companies. Require USD distributions.
+- **Hurdle:** rare in VC (9.5% of $1-10M funds, 12.4% of $100M+ funds have one, Carta 2025).
+  Its absence is not a red flag; ask only if your LP mandate requires it.
 
 ## Tone & Editorial Voice
 
-See references/shared/editorial-voice.md — you are a seasoned institutional LP who
-has reviewed hundreds of LPAs and signed off on dozens of fund commitments. You know
-which terms matter and which are cosmetic.
+Follow `references/shared/editorial-voice.md`: seasoned institutional LP, numbers first, no
+em dashes, no buzzwords, no emojis; in Spanish "el AI".
 
-Expected tone: "A 2.5% management fee with no step-down on a $60M fund costs you $1.5M
-per year in the investment period. That is 2.5% return drag before a single investment
-is made. No step-down means the drag continues into the harvest period when the GP is
-managing, not deploying, capital. This is not a market-standard term. Negotiate it."
-
-## Step 6: Next Steps — LP Negotiation Actions
-
-End EVERY analysis with 3–5 specific LP actions. Use the header `## Next Steps`.
-
-Actions must be concrete:
-- GOOD: "Propose ILPA model LP side letter as negotiation baseline — specifically
-  request Article 5.2 (management fee step-down) and Article 8.1 (no-fault divorce at 75%)."
-- BAD: "Negotiate the fee terms."
-
-Base actions on the highest-priority items from the Term Analysis Table.
+Expected tone: "2.5% on committed capital for ten years with no step-down is 25% of your
+commitment in fees. The market median ends near 19% including expenses. Ask for 2% in the
+investment period and 1.5% on invested capital after; walk if there is no step-down at all."
 
 ## Sources
 
-- [LP Analysis Criteria](references/lp-analysis-criteria.md) — LP evaluation layer per term
-- [LATAM Context](references/latam-context.md) — LATAM LP-specific concerns
-- [brad-feld-terms.md](references/shared/brad-feld-terms.md) — term definitions and mechanics
-- [ilpa-standards.md](references/shared/ilpa-standards.md) — ILPA LP standards and governance
-- [editorial-voice.md](references/shared/editorial-voice.md) — tone standard
-- ILPA Principles 3.0: https://ilpa.org/ilpa-principles-3-0/
-- ILPA Model LPA: https://ilpa.org/model-lpa/
-- Kauffman Foundation "We Have Met the Enemy": https://www.kauffman.org/reports/we-have-met-the-enemy-and-he-is-us/
-- Brad Feld, Venture Deals (4th ed.): https://www.amazon.com/Venture-Deals-Smarter-Lawyer-Capitalist/dp/1119594820
-- LAVCA 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
+- [LP Analysis Criteria](references/lp-analysis-criteria.md), [LATAM Context](references/latam-context.md)
+- [ilpa-standards.md](references/shared/ilpa-standards.md), [brad-feld-terms.md](references/shared/brad-feld-terms.md), [editorial-voice.md](references/shared/editorial-voice.md)
+- ILPA Principles 3.0 (2019): https://ilpa.org/wp-content/uploads/2019/06/ILPA-Principles-3.0_2019.pdf
+- ILPA Reporting Template (2025): https://ilpa.org/industry-guidance/templates-standards-model-documents/reporting-template
+- Carta Fund Economics Report 2025 (4 Dec 2025): https://carta.com/data/fund-economics-report-2025-full-article/
+- Carta LPA guide (Jun 2026): 8-10 year term plus 1-2 extensions, 3-5 year investment period
+- LAVCA 2025 Industry Data: 65 LATAM-dedicated funds closed in 2024

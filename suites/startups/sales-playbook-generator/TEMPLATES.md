@@ -7,7 +7,7 @@ table columns, or field order. Fill every section with real analysis — no plac
 
 ## Example Output: LogiTrack
 
-*This is a filled example for LogiTrack — a hypothetical B2B SaaS for fleet and
+*This is a filled example for LogiTrack (numbers invented for illustration), a hypothetical B2B SaaS for fleet and
 logistics management based in Bogotá, Colombia. Target: Colombian SME logistics
 companies (20–200 trucks). ACV $8,400/year ($700/month). 5 paying customers.
 Founder-led sales. Biggest challenge: generating leads. Use it as the structural
@@ -93,7 +93,7 @@ answering the wrong objection with the right answer.
 **Demo Anti-Patterns:**
 - Feature tour: Do not show every module. Show the 2 that solve their stated pain.
 - No next step: "I'll send you the summary by email" is not a next step. A date is a next step.
-- Talking 70% of the time: Gong.io data shows top reps talk 46%. If you're talking more, stop.
+- Talking 70% of the time: Gong Labs finds the best calls run about 43% talking, 57% listening. If you're talking more, stop.
 
 ---
 
@@ -121,7 +121,7 @@ answering the wrong objection with the right answer.
 
 | Factor | LATAM Reality | Implication for LogiTrack |
 |--------|--------------|--------------------------|
-| **Primary channel** | WhatsApp — 85%+ open rates vs 22% cold email | WhatsApp is Day 3 of sequence, not Day 10 |
+| **Primary channel** | WhatsApp: read and answered far more than cold email in LATAM B2B (directional; track your own rates) | WhatsApp is Day 3 of sequence, not Day 10 |
 | **Sales cycle** | SME logistics in Colombia: 2–4 months vs 1–2 months US | Pipeline targets need realistic monthly close rates |
 | **Reference accounts** | LATAM buyers request references at higher rate than US | Build 2–3 "lighthouse" clients willing to take reference calls before scaling outbound |
 | **Decision-making** | Relationship-first — the General Manager often decides even for operational tools | Always map champion to ultimate decision-maker before presenting proposal |

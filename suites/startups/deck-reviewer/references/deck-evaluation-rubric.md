@@ -1,12 +1,12 @@
-# Deck Evaluation Rubric — Per-Slide Scoring Criteria
+# Deck Evaluation Rubric: Per-Slide Scoring Criteria
 
 **When to use:** Read this file BEFORE scoring any slide in a deck review.
 Apply the criteria below to assign a 1–5 score per slide. A score of 1 on any
-single slide is disqualifying — flag it immediately as [FATAL].
+single slide is disqualifying, flag it immediately as [FATAL].
 
 **Sources:**
-- DocSend Pitch Deck Analysis: https://www.docsend.com/index/pitch-decks/
-- NFX Teardown Criteria: https://www.nfx.com/post/what-makes-a-great-pitch-deck
+- DocSend pitch deck research (Dropbox DocSend, 2021-2023 reports): https://experience.dropbox.com/resources/docsend-pitch-deck-research
+- YC, How to design a better pitch deck: https://www.ycombinator.com/library/4T-how-to-design-a-better-pitch-deck
 - Sequoia Framework: https://www.sequoiacap.com/article/writing-a-business-plan/
 
 ---
@@ -20,15 +20,15 @@ single slide is disqualifying — flag it immediately as [FATAL].
 | 3 | Adequate | Passes but does not differentiate |
 | 2 | Weak | Technically present, fails diligence |
 | 1 | Fatal flaw | This slide alone causes investors to pass |
-| 0 | Missing | Slide is absent entirely — treated as fatal |
+| 0 | Missing | Slide is absent entirely, treated as fatal |
 
 ---
 
 ## Slide Rubrics
 
 ### Company Purpose
-**DocSend note:** Highest-attention slide after Team — average 22 seconds on a
-2m 41s total review. Investors read this first and decide whether to continue.
+**Attention note:** Investors spend under 3 minutes on a whole deck (DocSend, 2021-2023).
+This slide is read first and decides whether they continue.
 
 | Score | Criteria |
 |-------|----------|
@@ -50,21 +50,21 @@ single slide is disqualifying — flag it immediately as [FATAL].
 ### Solution
 | Score | Criteria |
 |-------|----------|
-| 5 | Leads with the specific capability that ONLY this company has. Product shown (screenshot, demo, workflow) — not described. Clear 10x improvement over status quo. |
+| 5 | Leads with the specific capability that ONLY this company has. Product shown (screenshot, demo, workflow), not described. Clear 10x improvement over status quo. |
 | 3 | Product described but differentiation not clear. Features listed but not why this approach wins. No visual evidence of the product. |
 | 1 | Feature list with no differentiation. Product "to be built." Description so generic it could apply to 10 competitors. |
 
 ---
 
 ### Why Now
-**DocSend note:** Third highest attention slide. Missing this slide is the most
-common fatal error in LATAM decks — investors assume timing is arbitrary.
+**Attention note:** Missing this slide is one of the most common fatal errors LAN sees in
+LATAM decks: investors assume the timing is arbitrary.
 
 | Score | Criteria |
 |-------|----------|
 | 5 | Two or three specific enabling events with dates and data: technology shift (cost curve, capability inflection), regulatory change, behavioral inflection, infrastructure availability. Explains why this could not have been built 3 years ago and why waiting 3 more years cedes first-mover advantage. |
 | 3 | Vague "market is ready now" or one enabling factor mentioned without evidence or specificity. Does not prove that timing is non-arbitrary. |
-| 1 | [MISSING SLIDE] or "The market is growing" — not a timing thesis. Investors will pass without understanding why now is the moment. |
+| 1 | [MISSING SLIDE] or "The market is growing", not a timing thesis. Investors will pass without understanding why now is the moment. |
 
 ---
 
@@ -80,7 +80,7 @@ common fatal error in LATAM decks — investors assume timing is arbitrary.
 ### Competition
 | Score | Criteria |
 |-------|----------|
-| 5 | Honest competitor placement — credible incumbents included, not ignored. 2×2 matrix axes reflect actual differentiation dimensions (not generic "price vs features"). Company position in upper-right is defensible, not manufactured. Direct AND indirect competitors addressed. |
+| 5 | Honest competitor placement, credible incumbents included, not ignored. 2×2 matrix axes reflect actual differentiation dimensions (not generic "price vs features"). Company position in upper-right is defensible, not manufactured. Direct AND indirect competitors addressed. |
 | 3 | Competitors identified but axes are generic or manufactured. Company position is not compelling or is obviously self-serving. Missing obvious competitors that investors will name. |
 | 1 | "No competitors" or a matrix where every competitor is in the bottom-left and the company is alone in upper-right with axes that were clearly chosen to manufacture that result. This is a credibility-destroying slide. |
 
@@ -98,16 +98,15 @@ common fatal error in LATAM decks — investors assume timing is arbitrary.
 ### Business Model
 | Score | Criteria |
 |-------|----------|
-| 5 | Pricing model with rationale (why this model, not an alternative). Unit economics: CAC, LTV, gross margin, payback period. Revenue streams clearly differentiated. Why-this-model explained (contractual recurring > usage > transactional — show the investor you chose deliberately). |
+| 5 | Pricing model with rationale (why this model, not an alternative). Unit economics: CAC, LTV, gross margin, payback period. Revenue streams clearly differentiated. Why-this-model explained (contractual recurring > usage > transactional, show the investor you chose deliberately). |
 | 3 | Pricing stated but unit economics absent. Model described without explaining why this pricing construct is optimal for the customer and business. |
 | 1 | "We will charge a subscription fee" with no numbers. Or business model so complex that the slide requires a separate explanation. |
 
 ---
 
 ### Team
-**DocSend note:** Highest-attention slide overall (25+ seconds avg). Investors
-spend more time on Team than any other slide. This slide earns or kills
-conviction.
+**Attention note:** DocSend's data puts Team among the slides investors linger on most.
+This slide earns or kills conviction.
 
 | Score | Criteria |
 |-------|----------|
@@ -118,9 +117,8 @@ conviction.
 ---
 
 ### Financials
-**DocSend note:** Second highest attention slide (22 seconds avg). Most common
-fatal flaw in reviewed decks: absent or incomplete financials signal the
-founder has not modeled the business.
+**Attention note:** Among the most-viewed slides in DocSend's data. Absent or incomplete
+financials signal the founder has not modeled the business.
 
 | Score | Criteria |
 |-------|----------|

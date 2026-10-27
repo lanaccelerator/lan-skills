@@ -1,24 +1,25 @@
-# Fund Performance Analysis — Output Template
+# Fund Performance Analysis: Output Template
 
 ALWAYS use this exact structure. Every section is required. This template is for
-VC FUND OPERATORS analyzing fund-level performance — not for startup founders.
+VC FUND OPERATORS analyzing fund-level performance, not for startup founders.
 Do not change section headings, table columns, or section order.
 
 ---
 
-## Example Output: Condor Ventures Fund I — Performance Analysis as of Q3 2025
+## Example Output: Condor Ventures Fund I, Performance Analysis as of Q2 2026
 
-*This is a filled example showing Condor Ventures Fund I (2022 vintage, $25M, Brazil/Mexico
-B2B SaaS focus, Year 4 of 10) as of Q3 2025. Consistent with portfolio-reporter TEMPLATES.md —
-same fund, same period, different analytical lens.*
+*Hypothetical fund: Condor Ventures Fund I (2022 vintage, $25M, Brazil/Mexico B2B SaaS,
+year 5 of 10). Same fund as the portfolio-reporter example, different lens.*
 
 ---
 
 # Fund Performance Analysis: Condor Ventures Fund I
 
-**Prepared by:** Ana Martínez, Fund Analyst — Condor Ventures
-**Analysis date:** September 30, 2025 (Q3 2025 quarter-end)
-**Fund:** Condor Ventures Fund I | Vintage: 2022 | Size: $25M committed | Year 4 of 10
+**Prepared by:** Ana Martínez, Fund Analyst, Condor Ventures
+**Analysis date:** June 30, 2026 (Q2 2026 quarter-end)
+**Fund:** Condor Ventures Fund I | Vintage: 2022 | Size: $25M committed | Year 5 of 10
+**Data quality:** marks reviewed against IPEV 2025 (calibrated to last round, adjusted for
+Q2 2026 performance); no subscription facility in use, so IRR with and without the line is equal.
 
 ---
 
@@ -26,74 +27,66 @@ same fund, same period, different analytical lens.*
 
 | Metric | Formula | Input Values | Result |
 |--------|---------|-------------|--------|
-| Capital Called | Given | $23.5M called of $25M committed | $23.5M (94%) |
-| Total Distributions | Given | PortCo A secondary Q3 2025 | $1.9M |
-| Current Portfolio FMV | Given | Sum of active position marks | $25.8M |
-| **TVPI** | (Dist + FMV) ÷ Called | ($1.9M + $25.8M) ÷ $23.5M | **1.18×** |
-| **DPI** | Dist ÷ Called | $1.9M ÷ $23.5M | **0.08×** |
-| **RVPI** | FMV ÷ Called | $25.8M ÷ $23.5M | **1.10×** |
-| MOIC | (Realized + Unrealized) ÷ Invested | ($1.9M + $25.8M) ÷ $23.5M | 1.18× (fund nearly fully called) |
-| **Net IRR** | IRR of quarterly cash flows | [Q4 2022: -$5M, Q1 2023: -$6M, Q2 2023: -$5.5M, Q3 2023: -$4M, Q4 2023: -$2M, Q1–Q3 2025: +$1.9M dist; terminal: $25.8M FMV] | **8.2%** |
-| PME vs MSCI EM | Fund IRR vs MSCI EM since Jan 2022 | MSCI EM return Jan 2022–Sep 2025: -4.1% | Fund IRR (8.2%) > MSCI EM (-4.1%) by 12.3pp |
+| Capital Called | Given | $23.5M of $25M (incl. $3.5M fees and expenses) | $23.5M (94%) |
+| Total Distributions | Given | PortCo A secondary, Q3 2025 | $1.9M |
+| Current Portfolio FMV | Given | Sum of active marks | $25.8M |
+| **TVPI** | (Dist + FMV) / Called | ($1.9M + $25.8M) / $23.5M | **1.18x** |
+| **DPI** | Dist / Called | $1.9M / $23.5M | **0.08x** |
+| **RVPI** | FMV / Called | $25.8M / $23.5M | **1.10x** |
+| Gross MOIC | (Realized + Unrealized) / Invested in companies | $27.7M / $20.0M | 1.39x |
+| **Net IRR** | XIRR of dated LP cash flows | Calls: Dec-22 -$5.0M, Mar-23 -$6.0M, Jun-23 -$5.5M, Sep-23 -$4.0M, Dec-23 -$2.0M, Jun-24 -$1.0M; Dist: Sep-25 +$1.9M; NAV Jun-26 +$25.8M | **5.6%** |
+| KS-PME vs MSCI EM | Discount every flow by index growth | [Index levels fetched at run time from MSCI or the LP's data provider] | [ratio; >1.0 = beat the index] |
 
-**Verification:** TVPI = DPI + RVPI → 0.08× + 1.10× = 1.18× ✓
+**Checks:** TVPI = DPI + RVPI: 0.08x + 1.10x = 1.18x. Fee drag: gross MOIC 1.39x vs net TVPI
+1.18x; fees and expenses are 15% of called capital at year 5.
 
 ---
 
 ## 2. Vintage Benchmark Comparison
 
-**2022 Vintage Benchmarks** — (US-sourced benchmark, Carta Q1 2026)
+**2022 vintage, (US-sourced benchmark, Carta Q2 2026)**
 
-| Metric | Condor Fund I | 2022 Median | 2022 75th Pct | 2022 90th Pct | Condor Percentile |
-|--------|--------------|-------------|--------------|--------------|-------------------|
-| TVPI | 1.18× | slightly >1.0× | 1.20× | — | Near 75th percentile |
-| IRR | 8.2% | 0.7% | 10.9% | ~35% | Above median; below 75th |
-| DPI | 0.08× | approx 0.0× | — | — | Above median (first realizations rare at Year 4, 2022 vintage) |
+| Metric | Condor Fund I | 25th | Median | 75th | 90th | Placement |
+|--------|--------------|------|--------|------|------|-----------|
+| TVPI | 1.18x | 0.93x | 1.12x | 1.38x | 1.84x | Second quartile (above median) |
+| Net IRR | 5.6% | -2.8% | 4.4% | 15.4% | 29.0% | Second quartile (above median) |
+| DPI | 0.08x | 0x | 0x | 0x | 0.15x | Top quartile, below top decile |
 
-*(US-sourced benchmark, Carta Q1 2026) — 2,906 US-domiciled funds, data through Q4 2025.
-J-curve note: 2022 vintage turned positive IRR for the first time in the past 4 quarters.
-2022 outperforms 2021 at every percentile — the 2021 funding boom created a headwind for
-that cohort.*
+*US-domiciled funds only, data through Q2 2026. Carta's 2022 vintage is ahead of 2021 at
+every TVPI percentile.*
 
 ---
 
 ## 3. Percentile Placement Summary
 
-**Condor Ventures Fund I is performing near the 75th percentile for its 2022 vintage
-cohort based on TVPI (1.18× vs 75th percentile 1.20×).**
+**Condor Fund I is a second-quartile 2022 fund on value (TVPI 1.18x vs 1.12x median and 1.38x
+75th) and a top-quartile fund on liquidity (DPI 0.08x where the US 75th percentile is still 0x).**
 
-IRR of 8.2% exceeds the 2022 vintage median (0.7%) by 7.5 percentage points and is
-tracking toward the 75th percentile (10.9%) as the portfolio matures. The 2022 vintage
-median IRR of 0.7% reflects J-curve pressure across the cohort — Condor's early secondary
-realization (PortCo A) contributed positively to IRR acceleration.
+It is not top quartile on TVPI or IRR: closing the gap to 1.38x needs $4.7M more value on
+$23.5M called, roughly one more PortCo B-sized markup. The DPI lead is real but small and
+comes from a single secondary.
 
-DPI at 0.08× is above the 2022 vintage median (approximately 0.0×) — most 2022 vintage
-funds have generated no realized returns at the 4-year mark.
-
-**PME interpretation:** At 8.2% IRR vs MSCI EM -4.1% since January 2022, the fund is
-generating 12.3 percentage points of excess return vs the public market alternative.
-For LPs with MSCI EM exposure in other parts of their portfolio, this is a material
-positive in the context of LATAM VC premium.
+**PME:** not computed in this example because index levels were not supplied. With MSCI EM
+levels, report KS-PME and state plainly whether LPs would have done better in the index.
 
 ---
 
-## 4. Attribution Analysis (TVPI by Position)
+## 4. Attribution Analysis
 
-| Position | Capital Invested | Current FMV + Realized | Position TVPI | % of Fund TVPI |
-|----------|-----------------|----------------------|---------------|----------------|
-| PortCo A (FleetPro MX) | $1.0M (cost) | $1.9M realized + $1.2M remaining = $3.1M | 3.10× | 11.1% |
-| PortCo C (DataPago CO) | $600k | $2.8M | 4.67× | 10.1% |
-| PortCo B (LogiScan BR) | $650k | $3.1M | 4.77× | 11.2% |
-| All other positions (5) | $21.25M | $18.7M | 0.88× (below cost) | 67.6% |
-| **Fund total** | **$23.5M** | **$27.7M** | **1.18×** | **100%** |
+| Position | Invested | FMV + Realized | Position MOIC | Value created | % of value created |
+|----------|----------|----------------|---------------|---------------|--------------------|
+| PortCo B (LogiScan BR) | $0.65M | $3.1M | 4.77x | +$2.45M | 31.8% |
+| PortCo C (DataPago CO) | $0.60M | $2.8M | 4.67x | +$2.20M | 28.6% |
+| PortCo A (FleetPro MX) | $1.00M | $1.9M realized + $1.2M FMV = $3.1M | 3.10x | +$2.10M | 27.3% |
+| Other 5 positions | $17.75M | $18.7M | 1.05x | +$0.95M | 12.3% |
+| **Total** | **$20.0M** | **$27.7M** | **1.39x** | **+$7.70M** | **100%** |
 
-**Concentration:** Top 3 positions (PortCo A, B, C) represent $7.45M of $9.25M total
-FMV above cost — 80.5% of TVPI alpha is concentrated in 3 of 8 positions. This is normal
-VC return distribution (power law); however, the remaining 5 positions are collectively
-below cost (0.88× TVPI). Recovery depends on portfolio triage effectiveness.
+**Concentration:** 3 of 8 companies (11% of invested capital) produce 88% of value created.
+That is the normal power-law shape (about 65% of financings return under 1x, Correlation
+Ventures), but it means the other $17.75M is flat: fund outcome rides on B and C.
 
-**Power law confirmation:** Top 3 positions = 37.5% of companies → 80.5% of outperformance.
-Consistent with Cambridge Associates historical VC return distribution analysis.
+**AI exposure:** PortCo C's last round priced AI-agent revenue at a premium multiple. Flag
+the mark as the most sensitive in the portfolio; re-test at each quarter-end per IPEV 2025.
 
 ---
 
@@ -101,22 +94,13 @@ Consistent with Cambridge Associates historical VC return distribution analysis.
 
 | Component | Value | % of TVPI |
 |-----------|-------|-----------|
-| DPI (realized) | 0.08× ($1.9M) | 6.8% |
-| RVPI (unrealized) | 1.10× ($25.8M) | 93.2% |
-| TVPI | 1.18× ($27.7M) | 100% |
+| DPI (realized) | 0.08x ($1.9M) | 6.9% |
+| RVPI (unrealized) | 1.10x ($25.8M) | 93.1% |
+| TVPI | 1.18x ($27.7M) | 100% |
 
-**Interpretation:** At Year 4 of a 2022 vintage fund, 93.2% of TVPI is unrealized — this
-is expected and consistent with J-curve dynamics. The first DPI (0.08×) from PortCo A
-secondary is the only realized component.
-
-**Risk flag:** 5 of 8 portfolio companies are below cost (aggregate TVPI 0.88× on those
-positions). If no recovery in these positions, realized TVPI depends entirely on PortCo A,
-B, and C. Harvest-period thesis must account for this concentration.
-
-**LATAM context:** For a 2022 vintage LATAM fund at Year 4, DPI >0.0× is ahead of LATAM
-peer expectations. The PortCo A secondary at 3.10× TVPI demonstrates that Kaszek and other
-LATAM growth funds are willing buyers for high-quality secondary positions — a positive signal
-for the secondary strategy across remaining portfolio.
+**Interpretation:** 93% unrealized at year 5 is normal; for the 2022 vintage even the US 75th
+percentile has 0x DPI. The risk is the next three years: US 2019 funds at year 7 sit at
+0.04x median DPI (Carta Q2 2026), so LPs should hear a liquidity plan, not a markup story.
 
 ---
 
@@ -124,62 +108,39 @@ for the secondary strategy across remaining portfolio.
 
 | Reserve Category | Amount | Status |
 |-----------------|--------|--------|
-| Total committed capital | $25.0M | — |
-| Capital called | $23.5M | 94% drawn |
 | Remaining dry powder | $1.5M | 6% undrawn |
-| Pro-rata rights committed (PortCo B Series A) | $250k | Q4 2025 expected close |
-| Pro-rata rights committed (PortCo G AgroTrack Series A) | $200k | Q1 2026 expected close |
-| Bridge option (PortCo E TalentBridge) | $150k | Conditional — Q4 2025 decision |
-| Total commitments vs dry powder | $600k firm + $150k conditional | $1.5M covers firm commitments |
+| Pro-rata, PortCo B Series A | $250k | Q3 2026 expected close |
+| Pro-rata, PortCo G (AgroTrack) Series A | $200k | Q4 2026 expected close |
+| Bridge option, PortCo E (TalentBridge) | $150k | Conditional, decision Q3 2026 |
+| Firm + conditional | $450k firm + $150k conditional | $1.05M cushion; $900k if bridge exercised |
 
-**Assessment:** Reserve position is adequate for firm commitments ($600k) with $900k remaining
-cushion. The conditional TalentBridge bridge ($150k) reduces cushion to $750k if exercised.
-No new first-check investments are feasible with current dry powder — deployment plan end
-(Q2 2026) is correct.
-
-**Under-reserved risk:** None identified. Reserve pool was built at $2.5M on $23.5M called
-(10.6%). Industry standard is 30–50% of fund reserved for follow-ons at inception. The
-reserve adequacy reflects a concentrated deployment strategy (most capital in first checks
-with selective follow-on).
+**Assessment:** Firm commitments are covered. No new first checks are feasible. PortCo B is
+the only under-reserved position: at 4.77x it deserves more than pro-rata if the round
+allows a super pro-rata; that would consume most of the cushion.
 
 ---
 
 ## 7. LATAM Fund Context
 
-> **LATAM benchmark note:** Carta Q1 2026 data covers 2,906 US-domiciled funds. No equivalent
-> LATAM fund performance database exists at Carta scale. LAVCA tracks headline LATAM VC
-> investment data but does not publish fund-level IRR/TVPI/DPI benchmarks by vintage year.
-> Preqin has limited LATAM coverage.
+> (US-sourced benchmark, Carta Q2 2026): US-domiciled funds only. No public LATAM VC vintage
+> benchmark of comparable scale exists; Cambridge Associates' EM PE & VC index (10-year pooled
+> IRR 8.12% as of Mar 2026) is the closest free reference. LATAM exits concentrate in M&A and
+> secondaries (Cuantico 2026), so DPI typically arrives later than in US funds.
 
-> **LATAM performance discount:** LATAM fund performance typically 30–50% below US equivalents
-> at same vintage due to: (1) longer exit timelines — LATAM M&A typically 18–36 months longer
-> than US; (2) thinner secondary market — fewer LATAM fund buyers; (3) fewer Series A+ funds
-> to drive portfolio company markups. Using US Carta benchmarks as reference context only.
-
-> **Condor assessment:** Condor Ventures Fund I at 1.18× TVPI is performing at or above LATAM
-> peer expectations for a Year 4, 2022 vintage fund. The first realized secondary (PortCo A at
-> 3.10× position TVPI) confirms that Kaszek-grade secondary buyers are accessible for top
-> LATAM B2B SaaS companies — a key thesis validation.
+> **Condor read:** a first secondary at year 3 in a market where M&A was 67% and secondaries
+> 27% of 2025 exits (Cuantico 2026) is evidence the secondary path works for this portfolio.
+> It is one data point, not a pattern.
 
 ---
 
 ## Next Steps
 
-1. **Portfolio triage** — 5 positions below cost (aggregate 0.88× TVPI on $21.25M). Review
-   PortCo E and H for bridge vs write-down decision by Q4 2025. Remaining 3 (PortCo D, F, G)
-   need 12-month milestone review to assess write-up potential.
-
-2. **LP messaging on benchmarks** — Present IRR (8.2%) against 2022 vintage median (0.7%)
-   with full US-sourced label. Honest framing: "Near 75th percentile for US 2022 vintage;
-   ahead of LATAM peer expectations. J-curve recovery ongoing — harvest period (Year 7–10)
-   is DPI window." Do not claim top-quartile without caveat.
-
-3. **Pro-rata execution** — Confirm $250k PortCo B allocation before Series A close (Q4 2025).
-   This is the highest-conviction follow-on given 4.77× current TVPI on that position.
-
-4. **PME communication** — IRR vs MSCI EM (-4.1%) is a 12.3pp excess return story for LPs
-   with LATAM exposure. Include in LP annual meeting narrative.
-
-5. **Reserve watch** — $750k cushion after firm commitments. No additional capital for
-   watch-list companies unless TalentBridge bridge is declined. Communicate dry powder
-   exhaustion timeline to LPAC before Q2 2026 investment period close.
+1. **Liquidity plan for LPs by Q3 2026:** name which 2 positions could produce a secondary or
+   M&A event by 2028 and the price range that would be acceptable.
+2. **Triage the flat five ($17.75M at 1.05x):** keep, bridge or stop-reserve decision per
+   company at the Q3 2026 portfolio review.
+3. **PortCo B follow-on:** confirm $250k pro-rata and ask for super pro-rata before the
+   Series A term sheet is signed.
+4. **Compute KS-PME vs MSCI EM** with real index levels before the annual LP meeting.
+5. **Mark discipline:** document the calibration bridge for PortCo C's AI-premium mark
+   (IPEV 2025) so the auditor does not challenge it at year-end.

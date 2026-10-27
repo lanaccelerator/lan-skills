@@ -1,118 +1,83 @@
-# LATAM LP Context — VC Fund Due Diligence
+# LATAM LP Context: VC Fund Due Diligence
 
-**Sources:**
-- LAVCA 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
-- Cuantico 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
-- Carta Q1 2026: via suites/vc-operators/fund-performance-analyzer/references/fund-benchmarks.md
-
----
-
-## LATAM LP Base
-
-Who is actually investing in LATAM VC funds (LAVCA 2025):
-
-| LP Type | LATAM % | US % | Implication for Due Diligence |
-|---------|---------|------|-------------------------------|
-| Family offices | ~35% | ~15% | Shorter time horizons; relationship-based; less formal governance expectations |
-| Corporates / CVCs | ~25% | ~10% | Strategic alignment risk; may create conflicts with portfolio companies |
-| Government / DFIs | ~20% | ~5% | IDB Invest, CAF, BNDES — patient capital with development mandates |
-| Pension / Endowments | ~15% | ~55% | Underpenetrated; emerging; formal governance requirements |
-| Fund of Funds | ~5% | ~15% | Growing; ACON Investments, Kauffman secondary |
-
-**Implication:** LATAM GP governance standards often calibrated to family office norms, not
-endowment norms. For LP programs that are institutional (pension, endowment), explicitly verify
-reporting quality, audited financials cadence, and LPAC composition.
+**Sources:** LAVCA Startup Ecosystem Insights 2025 and 2025 Industry Data; Cuantico LatAm VC Report 2026
+(2025 actuals); Carta VC Fund Performance Q2 2026, Fund Economics Report 2025 (4 Dec 2025) and The
+Emerging Manager Paradox (6 Oct 2026). Canonical LATAM data: `shared/latam-benchmarks.md`.
+Rows marked *(directional)* are LAN practitioner judgment, not a published dataset.
 
 ---
 
-## LATAM Fund Performance vs US Benchmarks
+## No LATAM Vintage Benchmark Exists
 
-**The core fact:** No Carta-scale LATAM fund performance database exists. All comparisons
-to Carta benchmarks compare LATAM-focused funds to a US-only benchmark population.
+No public LATAM venture dataset reports TVPI, DPI and IRR by vintage at the depth of Carta's US data.
+Rules:
+1. Benchmark against the current Carta report for the fund's vintage, labeled
+   `(US-sourced benchmark, Carta <report>, <date>)`.
+2. Do not apply a fixed "LATAM discount" to Carta numbers. No source supports one.
+3. Explain the structural differences instead: thinner exits, FX, shallower follow-on capital.
 
-LATAM fund performance typically 30–50% below US equivalents at same vintage due to:
-- Longer exit timelines: LATAM strategic M&A averages 7–10 years vs 5–7 years US
-- Thinner secondary market: 15–30% discount to last round vs 0–10% US
-- Fewer Series A+ funds: ~30–40 active LATAM Series A funds vs 300–400+ US
+**Anchors when the current report cannot be fetched (US-sourced, Carta VC Fund Performance Q2 2026, 23 Sep 2026):**
+- 75th-percentile net IRR in the mid-teens for recent vintages (2017: 15.8%; 2024: 19.1%).
+- Median DPI 0.37x for the 2017 vintage: liquidity is slow even for mature funds.
+- Fund size dispersion: 2019 vintage 90th-percentile TVPI 4.91x for $1-10M funds vs 1.92x for $100M+
+  funds (The Emerging Manager Paradox, 6 Oct 2026).
 
-**2022 vintage benchmark** (US-sourced benchmark, Carta Q1 2026):
-- Median TVPI: slightly >1.0x (J-curve recovery phase)
-- 75th percentile TVPI: 1.20x
-- Median IRR: 0.7%
-- 75th percentile IRR: 10.9%
+## Who Invests in LATAM Funds
 
-**LATAM-adjusted expectation for 2022 vintage fund:**
-A LATAM 2022 vintage fund performing at par with US median is a strong result for LATAM peers.
-A LATAM fund claiming TVPI of 1.8x on a 2022 vintage is claiming 75th percentile-equivalent
-performance — verify with audited financials. (LATAM, LAVCA 2025 / Cuantico 2026)
+- 65 LATAM-dedicated funds closed in 2024 (LAVCA 2025 Industry Data).
+- LAVCA itself was founded in 2002 with support from the IDB's Multilateral Investment Fund, today IDB
+  Lab (LAVCA 2025). DFIs (IDB Lab, IDB Invest, CAF, national development banks) anchor many emerging
+  LATAM funds; family offices, local corporates and HNWIs fill the rest; pension funds are a small,
+  growing share *(directional)*.
+- US reference: the median 2025-vintage US VC fund had 23 LPs; median anchor check at least 22% of the
+  fund since 2023 (Carta 2025).
 
----
+**Diligence implications:**
+- **DFI anchor:** ask for the DFI's investment memo conclusions if shareable, its side letter terms
+  (E&S, exclusion list, integrity, reporting) and whether they reach you through MFN.
+- **Family-office LP base:** expect lighter governance. Verify LPAC composition, audit and reporting
+  cadence yourself.
+- **Concentration:** if one LP holds a large block, check how it votes on key person and removal.
 
-## Exit Environment
+## Exit Environment (Cuantico 2026, 2025 actuals)
 
-| Exit Type | Brazil 2024 Share | Mexico 2024 Share | Notes |
-|-----------|------------------|------------------|-------|
-| All LATAM exits 2024 | 65% | 20% | Brazil dominant; rest of LATAM 15% combined |
-| IPO path | Limited | Limited | US listings (Nasdaq) or local bolsas require $100M+ ARR |
-| Strategic M&A | Most common | Most common | Local and cross-border acquirers |
-| PE buyout | Growing | Growing | LATAM PE expanding from Brazil outward |
+| Metric | Value |
+|--------|-------|
+| VC-backed exits | US$4.9B (+172%), 63 transactions |
+| Exit route | M&A 67%, secondaries 27% |
+| GP view | 62.7% of 126 GPs call the exit environment unfavorable; lack of exits is the top risk (73.8%) |
 
-**GP must demonstrate deal flow in at least one of Brazil or Mexico.** Funds with exclusively
-smaller-market focus (Chile, Colombia, Peru) face structurally fewer exit liquidity events.
+**Implication:** DPI is the scarce number. Ask the GP for every realized exit: buyer, date, proceeds,
+multiple, and whether the buyer was a related party or a continuation vehicle.
 
----
+## Capital Concentration (Cuantico 2026)
 
-## Currency Risk for LATAM-Focused Funds
+Brazil ~49% and Mexico ~24% of 2025 LATAM VC dollars; Chile ~6%, Colombia ~5%, Argentina ~4%. A fund
+focused on smaller markets needs a named exit thesis (regional acquirers, cross-border co-investors).
+It is not disqualifying: Chile and Uruguay scored highest on Cuantico's 2025 VC efficiency index.
 
-| Currency | Annual Volatility (2020–2025) | Risk Level | LP Impact |
-|----------|------------------------------|------------|-----------|
-| BRL/USD | 15–25% annual band | HIGH | 40%+ devaluation events erode USD returns |
-| MXN/USD | 10–18% annual band | MEDIUM-HIGH | 20–30% devaluations possible |
-| COP/USD | 15–20% annual band | HIGH | Colombia deals face structural FX drag |
-| ARS/USD | 50–200%+ | EXTREME | Argentina exposure requires explicit FX structure |
+## Graduation and Reserves
 
-**For LP due diligence:** Ask GP how portfolio companies manage FX exposure. Any USD-denominated
-fund investing primarily in local-currency-revenue companies carries structural margin risk that
-will appear in fund-level TVPI as devaluations occur.
+Only 12% of LATAM seed startups raise a Series A within three years, and two-year graduation rates fell
+at every stage (LAVCA 2025). Test the GP's reserve model against this: reserves spread across the whole
+portfolio are a red flag; reserves concentrated in graduates are the right design.
 
----
+## Currency Risk *(directional)*
 
-## LATAM Fund Terms Context
+| Currency | Risk level | What to ask |
+|----------|------------|-------------|
+| BRL, MXN, COP, CLP | Medium-high: double-digit annual swings are common | Share of portfolio revenue that is USD-linked |
+| ARS | Extreme: history of controls and devaluations | Holding structure, where cash sits, how distributions leave the country |
 
-Deviations from ILPA standards that are common (and sometimes justified) in LATAM:
+A USD fund holding local-revenue companies shows devaluations directly in TVPI. Ask for marks in USD at
+period-end FX and the local-currency value side by side.
 
-| Term | ILPA Standard | LATAM Context | LP Evaluation Guidance |
-|------|---------------|---------------|----------------------|
-| Hurdle rate | 8% preferred return | LATAM funds often 6–8% hurdle | Accept 6% if explained; flag <5% |
-| GP commit | ≥1% cash | Many LATAM GPs commit 0.5–0.75% on fund I | Accept with explanation; flag if funded by mgmt fee waiver |
-| LPAC composition | Independent majority | Family office LP base often means LPAC is a single major LP | Flag if no independent LP representation |
-| Management fee | 2% → 1.5% step-down | Some LATAM first funds charge 2–2.5% with no step-down on small ($10M–$20M) fund sizes | Accept on small fund I with explanation; reject on $50M+ fund |
-| Audited financials | Within 180 days of FY-end | LATAM auditing timelines can extend to 270 days | Accept up to 270 days; flag annual late delivery pattern |
+## LATAM Terms Context
 
----
-
-## Key LP Concern: FX and Currency Reserves
-
-LATAM LPs often deploy USD capital into funds investing in local-currency-revenue companies.
-This creates a structural drag regardless of portfolio company performance:
-
-1. LP commits $1M USD to fund
-2. Fund invests in Brazilian company with BRL revenue
-3. BRL devalues 25% during hold period
-4. Company revenues grow 30% in BRL terms — but exit proceeds in USD are only 2.5% higher
-5. LP's USD return is impacted by devaluation, not just company performance
-
-**What to verify:** Does GP use any hedging at the fund level? Are portfolio companies
-building USD revenue streams? Is there a clear cross-border expansion strategy to USD-denominated
-markets?
-
----
-
-## Standard LATAM Annotation for This Skill
-
-Whenever Carta benchmarks appear in vc-fund-due-diligence output, append:
-
-> "(US-sourced benchmark, Carta Q1 2026) — 2,906 US-domiciled funds, data through Q4 2025.
-> US funds only. No equivalent LATAM fund performance database exists at Carta scale.
-> LATAM fund performance typically 30–50% below US equivalents at same vintage due to longer
-> exit timelines and thinner secondary markets. (LATAM, LAVCA 2025 / Cuantico 2026)"
+| Term | ILPA 3.0 / Carta 2025 market | LATAM practice *(directional)* | LP guidance |
+|------|------------------------------|--------------------------------|-------------|
+| Hurdle | ILPA: from capital-at-risk date; Carta: rare in VC (9.5-12.4% of funds) | Often present when a DFI anchors | Not required; if present, check the clock start |
+| GP commit | ILPA: substantial, in cash; Carta median 1.7% | 0.5-1% on Fund I is common | Accept with a path to 1%+; reject fee-waiver funding |
+| Fee | Carta median 2%, 75th pct 2.5%; 81.9% step down | 2-2.5% on small funds | Accept 2.5% only on small funds with a step-down |
+| LPAC | ILPA: representative cross-section | Often 2-3 LPs, anchor-dominated | Must approve conflicts and related-party deals |
+| Audit | Annual | Small funds sometimes waive (Carta 2025 shows the same for $1-10M US funds) | Require an audit above ~$10-25M fund size |

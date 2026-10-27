@@ -1,259 +1,148 @@
 ---
 name: startup-metrics-okrs
-description: Build a complete startup measurement system in a single run — North Star Metric + 3-5 stage-appropriate KPIs + 1-3 quarterly OKRs with scoreable Key Results (0.0-1.0). Use this skill when a founder needs to define or audit their entire measurement and goal-setting stack in an aligned way, not just one piece. Replaces the need to run KPIs and OKRs as separate exercises.
+description: >
+  Use when a founder needs to decide what to measure and what to aim for: define or audit
+  the North Star Metric, pick 3-5 stage-appropriate KPIs and write 1-3 quarterly OKRs with
+  Key Results scoreable 0.0-1.0, all aligned in one run ("cuál es mi North Star", "armame
+  los OKRs del trimestre", "qué KPIs importan en mi etapa", "cerrar el scoring de OKRs",
+  "mis métricas están alineadas?"). Applies Doerr and Grove OKR rules, the Sean Ellis PMF
+  test and stage benchmarks, including AI-native metrics. NOT for building and automating
+  the dashboard or data pipeline (use startup-kpi-automator), computing CAC/LTV/payback (use
+  unit-economics-calculator), auditing readiness to raise (use fundraising-readiness-audit)
+  or writing the investor update (use investor-update-compiler).
 categories: ["startups", "planning", "kpis", "okrs"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
-  complements: [unit-economics-calculator, fundraising-readiness-audit, investor-update-compiler]
+  complements: [startup-kpi-automator, unit-economics-calculator, fundraising-readiness-audit, investor-update-compiler]
 license: MIT
 ---
 
 # Startup Metrics & OKRs
 
-Unified measurement system for founders, based on frameworks from Doerr, Grove, Sequoia, a16z, and 2026 SaaS benchmarks.
+One aligned measurement system: North Star Metric (NSM) + 3-5 KPIs + 1-3 quarterly OKRs.
+This skill decides WHAT matters. `/startup-kpi-automator` then builds HOW it is measured and
+automated.
 
-## When to Use This Skill
+Write the output in the founder's language (Spanish by default for LATAM founders).
 
-- Founder is defining their measurement system for the first time
-- Founder changed stage (pre-revenue → post-revenue, post-revenue → post-PMF) and needs to reformulate
-- Founder is assembling a data room and needs aligned metrics
-- Founder is preparing a Seed or Series A round and investors will ask
-- End of quarter: closing OKR scoring and formulating the next one
+## Step 1: Input Gathering
 
-## When NOT to Use
+Ask ALL questions in ONE message. If a company brain (LAN Brain or another MCP-connected
+knowledge base) is connected, read current metrics, last quarter's OKRs and strategy notes
+from it first and ask only for gaps.
 
-- Only need a unit economics calculation: use `unit-economics-calculator`
-- Only need to audit fundraising readiness: use `fundraising-readiness-audit`
-- Founder wants to generate the investor update: use `investor-update-compiler`
+1. **Business model:** one line (e.g., "B2B SaaS for Paraguayan SMBs", "AI agent that
+   handles collections calls")
+2. **Stage:** pre-revenue / early post-revenue (under $1M ARR) / post-PMF ($1M+ ARR)
+3. **Current numbers:** MRR, paying customers, growth rate (weekly if known), churn
+4. **Biggest risk this quarter:** one line
+5. **Biggest opportunity this quarter:** one line
+6. **KPIs already tracked:** list, even if informal
+7. **Last quarter's OKRs and scores**, if any
 
----
+Missing answers: proceed with a stated assumption flagged `[ASSUMPTION: ...]`. Never block.
 
-## Required Inputs
+## Step 2: Workflow
 
-```
-Business model: [one line, e.g., "B2B SaaS for Paraguayan SMBs"]
-Stage: [pre-revenue / early post-revenue / post-PMF]
-Current MRR (if applicable): [USD]
-Current customers (if applicable): [number]
-Biggest risk this quarter: [one line]
-Biggest opportunity this quarter: [one line]
-KPIs already being tracked (if any): [list]
-```
+Execute in this order.
 
-## Workflow (8 steps)
-
-### Step 1: Identify measurement segment by stage
+### 2.1 Segment by stage
 
 | Stage | Focus | Metrics that matter |
 |---|---|---|
-| Pre-revenue | Validation | Discovery interviews, Sean Ellis test, landing conversion |
-| Early post-revenue (0 to 1M ARR) | Growth + retention | MRR MoM, logo churn, cohort retention, CAC by channel |
-| Post-PMF (1M+ ARR) | Efficiency + scale | NRR, CAC payback, Rule of 40, LTV:CAC, gross margin |
+| Pre-revenue | Validation | Discovery interviews, Sean Ellis test, landing conversion, first paying customer |
+| Early post-revenue (under $1M ARR) | Growth + retention | Weekly growth, logo churn, cohort retention, CAC by channel |
+| Post-PMF ($1M+ ARR) | Efficiency + scale | NRR, CAC payback, burn multiple, LTV:CAC, gross margin |
 
-Anti-pattern to reject: if a pre-revenue founder asks for LTV:CAC, respond that it is premature. LTV in pre-revenue is fiction.
+Reject premature metrics: LTV:CAC in pre-revenue is fiction. Say so and replace it.
 
-### Step 2: Define the North Star Metric
+### 2.2 Define the North Star Metric
 
-NSM test:
-1. If the metric drops 15% in a week, does the entire organization investigate? If only one team would notice, it is not an NSM, it is a departmental KPI.
-2. Does it capture value for the customer AND the business simultaneously? Revenue alone does NOT pass this test.
-3. Is it durable for at least 12 months? If it will change next quarter, it is an OMTM, not an NSM.
+Pass all three tests or it is not an NSM:
+1. If it drops 15% in a week, does the whole company investigate? If only one team would
+   notice, it is a departmental KPI.
+2. Does it capture customer value AND business value? Revenue alone fails.
+3. Is it durable for 12+ months? If it changes next quarter, it is a One Metric That
+   Matters (OMTM), not an NSM.
 
-Reference cases (LATAM):
-- Nubank: monthly transactions per customer
-- Mercado Libre: completed shipments per active seller
-- Early Rappi (pre-PMF): orders in the first 20 days per new user
-- Mature Rappi: recurring orders per user per month
+Illustrative NSMs by model (patterns, not company-disclosed metrics):
+- Payments / neobank: monthly transactions per active customer
+- Marketplace: completed orders per active seller
+- Delivery, early stage: orders in a new user's first 20 days
+- B2B SaaS: active accounts completing the core workflow each month
+- AI agent / AI service: tasks completed and accepted without human fix per week
+  (outcome, not seats or logins)
 
-### Step 3: Define 3-5 KPIs by stage
+### 2.3 Pick 3-5 KPIs
 
-Rules:
-- KPI must be observable at least weekly
-- Mix of leading (predictive) and lagging (outcome)
-- Each KPI with a referenced 2026 benchmark
+Rules: observable at least weekly; mix leading (predictive) and lagging (outcome); each
+with a benchmark from [references/benchmarks.md](references/benchmarks.md) carrying its
+source, or marked directional. Measure growth week over week: Paul Graham's YC bar is
+5-7% per week; for AI-native startups top funds expect close to 10% per week (LAN's read).
 
-**Typical pre-revenue KPIs:**
-- Discovery interviews per week (target: 5-10)
-- Sean Ellis test % "very disappointed" (target: 40%+)
-- Landing page conversion (benchmark: 2-5% for B2B SaaS)
-- Time to first paying customer (target: shrinking month over month)
+### 2.4 Cross-check NSM and KPIs
 
-**Typical early post-revenue KPIs:**
-- MRR and MoM growth (benchmark: 10-15% MoM at seed)
-- Monthly logo churn (benchmark: under 5%, target under 3%)
-- Cohort retention curves (6+ month cohorts at 70%+ active)
-- CAC payback by channel (benchmark: under 12 months)
-- NPS (benchmark: above 30 healthy, above 40 strong)
+Each KPI is an input that moves the NSM or an output that reflects it. A KPI that connects
+to neither gets removed or replaced. Show the mapping.
 
-**Typical post-PMF KPIs:**
-- NRR (benchmark: 110%+ healthy, 120%+ top tier)
-- LTV:CAC (benchmark: 3:1 minimum, 4-5:1 top quartile)
-- CAC payback (benchmark: under 12 months)
-- Rule of 40 (growth + EBITDA margin >= 40)
-- Gross margin (benchmark: 70%+)
+### 2.5 Write 1-3 quarterly Objectives
 
-### Step 4: Cross-check between NSM and KPIs
+Doerr's rules: 3-5 OKRs maximum (1-3 for a startup), quarterly, qualitative and one line,
+decoupled from bonus, public to the company. Test each:
+- Trajectory change, not monitoring. "Maintain X" is a KPI, not an Objective.
+- Fits on one line.
 
-Each KPI must be either an input that moves the NSM or an output that reflects it. If a KPI does not connect to the NSM, remove or replace it.
+### 2.6 Write 3-5 Key Results per Objective
 
-Example Trezo (early post-revenue):
-- NSM: active paying customers with successful recurring billing in the last month
-- KPI MRR: output of the NSM
-- KPI Logo churn: direct input (more churn lowers the NSM)
-- KPI cohort retention: input that predicts future churn
-- KPI CAC payback: efficiency to scale the NSM
+Quantitative, scoreable 0.0-1.0, mix of inputs and outputs; if all KRs hit, the Objective
+is achieved. Rewrite any KR that fails a test:
+- **Ambition:** if 1.0 is easy, it is not ambitious.
+- **Task:** "launch X" or "hire Y" is a task. Rewrite as outcome: "X used by N users".
+- **Internal jargon:** "ship Foo 4.1" becomes the customer impact it produces.
+- **Control:** "close the seed round" is not controllable in a quarter; use the inputs
+  (qualified investor conversations, lead in diligence).
 
-### Step 5: Identify 1-3 Quarterly Objectives
+### 2.7 Score
 
-Doerr's rules:
-- 3-5 OKRs maximum. More is noise.
-- Quarterly, not annual.
-- Qualitative, inspirational, one line.
-- Decoupled from bonus.
-- Public to the entire org.
+Google scale: 0.7-1.0 delivered (green), 0.4-0.6 progress (yellow), 0.0-0.3 missed (red).
+A team that always scores 1.0 is sandbagging: raise the bar next quarter.
 
-Test for each Objective:
-- Is it a trajectory change, not monitoring? If it is "maintain X," it is a KPI, not an Objective.
-- Did you write it in less than 5 minutes? If yes, it is probably not well thought out.
-- Does it fit on one line? If not, it is not crisp.
+### 2.8 Produce the output
 
-### Step 6: For each Objective, generate 3-5 Key Results
-
-KR rules:
-- Quantitative, scoreable 0.0 to 1.0
-- Mix of inputs and outputs
-- If all KRs are achieved, the Objective is achieved. If not, the KRs were wrong.
-
-Test for each KR:
-- **Ambition test:** If you think you will hit 1.0 easily, it is not ambitious. Reformulate.
-- **Task test:** If it says "launch X" or "hire Y," it is not a KR, it is a task. Reformulate as outcome: "X used by N users," "Y onboarded and delivering Z."
-- **Internal test:** If it is in internal team terms (e.g., "launch Foo 4.1"), reformulate as impact.
-
-### Step 7: Apply scoring framework
-
-Standard Google scale:
-- 0.7 to 1.0 = delivered (green)
-- 0.4 to 0.6 = made progress but not enough (yellow)
-- 0.0 to 0.3 = did not get there (red)
-
-If the team systematically scores 1.0, the KRs were too easy. Reformulate next round.
-
-### Step 8: Produce structured output
-
-Output format (markdown table format, ready for Notion or Sheets):
-
-```
-## Metrics System - [Company] - [Month Year]
-
-### North Star Metric
-[Metric] = [operational definition]
-
-### KPIs ([Stage])
-
-| KPI | Current | Target | Benchmark 2026 | Cadence | Owner |
-|---|---|---|---|---|---|
-| ... | ... | ... | ... | weekly | ... |
-
-### OKRs [Quarter Year]
-
-#### Objective 1: [one line]
-| KR | Target | Current | Score |
-|---|---|---|---|
-| ... | ... | ... | 0.0-1.0 |
-
-#### Objective 2: [one line]
-[...]
-
-### Anti-patterns detected and removed
-- [e.g., "Launch feature X" → reformulated as "X used by 50% of DAU in its first week"]
-```
-
----
-
-## Full example (Trezo case)
-
-Input:
-
-```
-Model: B2B SaaS for recurring billing for Paraguayan SMBs
-Stage: early post-revenue
-MRR: $95K
-Customers: 47
-Q2 risk: churn in price-sensitive SMBs
-Q2 opportunity: close first enterprise customer
-Current KPIs: MRR, customers, churn rate, NPS
-```
-
-Output:
-
-```
-## Metrics System - Trezo - April 2026
-
-### North Star Metric
-Active paying customers with successful recurring billing in the last month
-(captures value delivered to the SMB and Trezo's revenue simultaneously)
-
-### KPIs (early post-revenue)
-
-| KPI | Current | Q2 Target | Benchmark 2026 | Cadence | Owner |
-|---|---|---|---|---|---|
-| MRR | $95K | $130K | 10-15% MoM at seed | weekly | CEO |
-| Paying customers | 47 | 65 | N/A absolute | weekly | Sales |
-| Monthly logo churn | 4.4% | 2.5% | under 3% healthy | weekly | CSM |
-| NPS | 42 | 45 | above 40 strong | monthly | CSM |
-| CAC payback | 14 mo | 11 mo | under 12 healthy | monthly | Sales |
-| NRR | 108% | 115% | 110%+ healthy | monthly | CSM |
-
-### OKRs Q2 2026
-
-#### Objective 1: Close first enterprise customer and validate segment
-| KR | Target | Current | Score |
-|---|---|---|---|
-| 1 enterprise signed with ACV >$20K | 1 | 0 (negotiating) | 0.5 |
-| 3 enterprise leads in active pipeline | 3 | 2 | 0.7 |
-| Enterprise pricing validated with 5 prospects | 5 | 3 | 0.6 |
-
-#### Objective 2: Stop churn in price-sensitive SMBs
-| KR | Target | Current | Score |
-|---|---|---|---|
-| Logo churn under 2.5% in June | 2.5% | 4.4% | 0.0 |
-| Launch $99/month tier with 10 customers | 10 | 0 | 0.0 |
-| Reduce CAC payback to 11 months | 11 | 14 | 0.3 |
-
-#### Objective 3: Accelerate pipeline for Q3 Seed round
-| KR | Target | Current | Score |
-|---|---|---|---|
-| 15 conversations with LATAM VCs | 15 | 4 | 0.3 |
-| 1 VC lead with term sheet under exploration | 1 | 0 | 0.0 |
-| MRR of $130K by 06/30 | $130K | $95K | 0.5 |
-
-### Anti-patterns detected and removed
-- "Launch $99 tier" reformulated as "Launch $99/month tier with 10 customers" (KR must be outcome, not task)
-- "Close Seed round" discarded (not controllable in one quarter by founder alone)
-- KR "MRR of $130K" kept but flagged as risk given current $95K
-```
-
----
-
-## Sources
-
-- Doerr, J. (2018). *Measure What Matters*. Chapters on OKRs, scoring, cadence.
-- Grove, A. (1983). *High Output Management*. Origin of OKRs as iMBO at Intel.
-- Sequoia (2024). *The Sequoia Pitch Memo*. Metrics VCs measure.
-- Bessemer (2026). *State of the Cloud Report*. SaaS benchmarks.
-- ChartMogul (2026). *SaaS Benchmarks Report*. Stage-by-stage data.
+Use the exact structure in [TEMPLATES.md](TEMPLATES.md): NSM with operational definition,
+KPI table (KPI | Current | Target | Benchmark | Cadence | Owner), NSM/KPI mapping, OKR
+tables (KR | Target | Current | Score), anti-patterns detected and removed, cadence, next
+steps. Markdown tables, ready to paste into Notion or Sheets. If the founder wants it as a
+visual one-pager or slide, follow references/shared/deck-design-rules.md.
 
 ## Anti-patterns this skill rejects
 
-- LTV in pre-revenue (it is fiction)
+- LTV in pre-revenue
 - More than 5 OKRs per quarter
 - KRs phrased as to-dos instead of outcomes
-- North Star that only reflects revenue (does not capture customer value)
-- KPIs without comparison benchmark
+- A North Star that only reflects revenue
+- KPIs without a benchmark or a stated "directional" label
 - Lagging KPIs without a leading KPI that predicts them
+- AI products measured by seats or logins instead of completed, accepted work
 
-## Tone
+## Tone & Editorial Voice
 
-Direct, no cheerleading, identifies anti-patterns explicitly, references benchmarks rather than opinions.
+See references/shared/editorial-voice.md. Name each anti-pattern and the rewrite. If the
+growth rate is below the bar, say so with the number.
+
+## Next Steps
+
+End with 3 concrete actions under `## Next Steps`, then the handoff:
+- `/startup-kpi-automator` to wire the KPIs to their data sources and build the weekly board
+- `/unit-economics-calculator` if CAC payback or LTV:CAC is a KPI and has not been computed
+- `/investor-update-compiler` to report the quarter's scores to investors
+
+## Sources
+
+- Doerr, J. (2018). *Measure What Matters*. Portfolio/Penguin.
+- Grove, A. (1983). *High Output Management*. Origin of OKRs at Intel.
+- Sean Ellis PMF survey: 40%+ "very disappointed" as the PMF threshold.
+- Paul Graham, "Startup = Growth" (Sep 2012): https://paulgraham.com/growth.html
+- [Benchmarks](references/benchmarks.md): every KPI benchmark with source and date

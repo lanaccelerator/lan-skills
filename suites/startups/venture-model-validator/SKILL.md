@@ -1,15 +1,19 @@
 ---
 name: venture-model-validator
 description: >
-  Startup venture-scale analysis. ALWAYS invoke when a user asks to evaluate
-  if their startup is VC-backable, investable, or venture-scale, or when they
-  ask "is my startup fundable?" or "would VCs invest in this?" Applies YC idea
-  evaluation, Thiel monopoly test, a16z PMF, Sequoia enduring companies, and
-  Gurley market sizing. NOT for pitch deck creation or financial modeling.
+  Use when a founder asks whether their startup is VC-backable, venture-scale or fundable
+  ("is my startup fundable?", "would VCs invest in this?", "mi startup es invertible?",
+  "esto es para VC o es un negocio tradicional?", "le interesa a un fondo?"). Scores five
+  frameworks (YC idea evaluation, Thiel monopoly test, a16z PMF, Sequoia enduring
+  companies, Gurley market sizing) plus fund-returner math, exit path and an AI-era lens,
+  with LATAM calibration and an honest invest/pass verdict. NOT for building the pitch deck
+  (use pitch-deck-builder), checking readiness to start a raise (use
+  fundraising-readiness-audit), valuation (use startup-valuation-benchmark), or a VC
+  writing an IC memo on someone else's company (use deal-memo-writer).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.1"
+  version: "1.2"
   suite: startups
 license: MIT
 ---
@@ -33,7 +37,9 @@ Ask all six questions in ONE message. Do not start scoring until you have answer
 6. **Why now?** (what has changed in the last 2–3 years that makes this possible/urgent?)
 
 If the user does not answer a question, proceed with a stated assumption and flag it
-as: `[ASSUMPTION: ...]`. Do not silently skip inputs.
+as: `[ASSUMPTION: ...]`. Do not silently skip inputs. If a company brain (LAN Brain or another
+MCP-connected knowledge base), deck or data room is available, read it first and ask only
+for gaps.
 
 ## Step 2: Apply Frameworks
 
@@ -92,7 +98,7 @@ The output is a VC Backability Scorecard containing:
 - **Framework breakdown table** (score, key finding per framework)
 - **Red flags section** — explicit `[RED FLAG]` callouts, not glossed-over concerns
 - **Comparables table** — 2–4 LATAM companies at comparable stage with metrics
-- **LATAM Context box** — US benchmark labeled `(US-sourced benchmark)` + LATAM-adjusted figure labeled `(LATAM, LAVCA 2025 / Cuantico 2026)`
+- **LATAM Context box:** US benchmark labeled `(US-sourced benchmark, source, date)` + LATAM figure labeled `(LATAM, source, date)` or `(LATAM, directional)`
 - **Next Steps** — 3–5 concrete next actions
 
 ## Step 5: LATAM Context
@@ -100,18 +106,22 @@ The output is a VC Backability Scorecard containing:
 Read [references/latam-context.md](references/latam-context.md) BEFORE producing the
 final score. Adjust all US-sourced benchmarks to LATAM reality.
 
-Label every US benchmark as `(US-sourced benchmark)` and include the LATAM-adjusted
-figure labeled `(LATAM, LAVCA 2025 / Cuantico 2026)`.
+Label every figure with source and date per the protocol in the reference file. The
+numbers come from references/shared/latam-benchmarks.md; never quote a LATAM figure that
+is not there and cannot be verified.
 
 Key LATAM adjustments to apply:
-- Fintech captures 61% of LATAM VC vs 13% SaaS — sector mix affects fundability
-- Median gap between LATAM rounds: 20 months vs 12–15 months in US
-- Pre-seed deals dropped 39% in 2025 — earlier companies must hit seed metrics faster
-- Brazil + Mexico = 78.5% of LATAM capital — regional scale means these two markets
+- Fintech took 61% of 2025 LATAM VC dollars, SaaS 13% (Cuantico 2026): sector mix
+  affects fundability
+- ~20 months between LATAM rounds (LAVCA Trends in Tech 2025) and only 12% of seeds reach
+  Series A within three years (LAVCA 2025): score as if the company may never raise again
+- Pre-seed deal count fell 39% in 2025: earlier companies must hit seed metrics faster
+- Brazil + Mexico took ~73% of 2025 dollars (Cuantico 2026): regional scale runs through
+  these two markets
 
 ## Tone & Editorial Voice
 
-See references/shared/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
+See references/shared/editorial-voice.md: direct, no-sugarcoating, unicorn-bar
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 
@@ -127,11 +137,16 @@ Actions must be concrete:
 Base next steps on the lowest-scoring criteria. If the startup scores below 3 on market
 sizing, the first next step must directly address market sizing.
 
+Handoffs: `/rapid-mvp-builder` if the gap is "no product, no paying users",
+`/pitch-deck-builder` once the score clears the bar, `/fundraising-readiness-audit` before
+starting the raise.
+
 ## Sources
 
 - [VC Backability Criteria](references/vc-backable-criteria.md) — consolidated scoring rubric
-- [LATAM Context](references/latam-context.md) — LAVCA 2025 + Cuantico 2026 benchmarks
-- [Comparable Companies](references/comparable-companies.md) — LATAM startup examples
+- [LATAM Context](references/latam-context.md): how LATAM facts move the score
+- [latam-benchmarks.md](references/shared/latam-benchmarks.md): canonical verified LATAM data
+- [Comparable Companies](references/comparable-companies.md): LATAM shortlist; fetch round data at run time
 - [Power Law and AI Era](references/power-law-and-ai-era.md): Correlation, Cambridge Associates, Carta, PitchBook-NVCA, YC RFS W27, NVIDIA CES 2025, Sequoia, Lightspeed, Greylock
 - YC Requests for Startups: https://www.ycombinator.com/rfs
 - [vc-backable-test.md](references/shared/vc-backable-test.md) — framework details

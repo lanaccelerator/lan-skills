@@ -62,8 +62,8 @@ Hard Worker, Relationship Builder, Lone Wolf, Problem Solver, Challenger.
 
 **Result:** Challengers are the top performers at complex B2B sales. Relationship
 Builders are the worst performers for complex sales (despite being the most commonly
-hired profile). For enterprise deals, Challenger profile wins 54% of time vs 4% for
-Relationship Builders.
+hired profile). In complex sales, 54% of star performers were Challengers vs 4%
+Relationship Builders (CEB research as reported in The Challenger Sale, 2011).
 
 ### The Three Challenger Behaviors
 
@@ -90,21 +90,22 @@ responding is the most important Challenger skill.
 
 ## 3. Gong.io Win Rate Benchmarks
 
-Gong.io analyzed 100M+ sales calls and interactions. Key findings for B2B sales:
+Gong Labs analyzes recorded B2B sales calls. Key findings (check the live post for the
+current sample and date): https://www.gong.io/resources/labs/talk-to-listen-conversion-ratio/
 
 ### Talk-to-Listen Ratio
 
-- **Top reps** talk 46% of time in discovery calls (listen 54%)
-- **Average reps** talk 68% of time
-- **Implication:** If you're talking more than 50% during discovery, stop. You're
+- **Highest-converting B2B calls** run about 43% talking, 57% listening (Gong Labs)
+- **Implication:** If you're talking more than half the time during discovery, stop. You're
   diagnosing based on your assumptions, not their reality.
 
 ### Discovery Question Volume
 
-- **8+ questions** per discovery call = highest win rate
-- **4 or fewer questions** = significantly lower win rate
-- **Implication:** Design discovery with at least 8 specific questions mapped to
-  your value hypothesis before each call.
+- **11-14 targeted questions** per discovery call is where success peaks; more than that
+  drops back to average, and top performers spread questions across the call instead of
+  front-loading a checklist (Gong Labs, 519,000+ discovery calls)
+- **Implication:** Prepare 11-14 questions mapped to your value hypothesis and spread
+  them through the conversation.
 
 ### Killer Phrase
 

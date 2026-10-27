@@ -1,124 +1,88 @@
 # LATAM Angel Investment Context
 
-**When to use:** angel-investment-analyzer invokes this file in Step 5 before producing
-the final scorecard. Apply these LATAM-specific adjustments to every benchmark in the output.
+**When to use:** angel-investment-analyzer Step 5, before the final score.
 
-**Sources:** LAVCA 2025 Startup Ecosystem Insights + Cuantico LatAm VC Report 2026 + AngelList LATAM data.
+**Sources:** LAVCA Startup Ecosystem Insights 2025 (data to 30 Jun 2025), Cuantico LatAm VC Report
+2026 (2025 actuals), Carta Data, Correlation Ventures via Seth Levine (2014). Canonical data and the
+annotation protocol: `shared/latam-benchmarks.md`. Rows marked *(directional)* are LAN
+practitioner ranges, not a published dataset: say so when you use them.
 
-## LATAM Angel Deal Benchmarks
+## Graduation and Outcomes (the numbers that drive angel math)
 
-All figures annotated per the protocol in shared/latam-benchmarks.md:
-show US benchmark first `(US-sourced benchmark)`, then LATAM figure `(LATAM, LAVCA 2025)`.
+| Metric | US | LATAM | Source |
+|--------|----|-------|--------|
+| Seed to Series A | ~24% of the 2022 seed cohort had reached A | 2% in 1 year, 7% in 2, 12% in 3 (2,002 seed startups, 2019-2024) | Carta Data; LAVCA 2025 |
+| Graduation trend | Falling | Two-year rates fell at every stage | LAVCA 2025 |
+| Return distribution (all VC financings) | ~65% return under 1x; ~10% return 5x+; ~4% return 10x+ | No LATAM equivalent; assume at least as skewed | Correlation Ventures via Seth Levine, Aug 2014 |
+| Pre-seed 2025 | n/a | Capital -40%, deal count -39.4%, lowest since 2018 | Latin America VC Report via Mexico Business News |
 
-### Check Sizes
+**Implication:** a borderline LATAM deal will most likely never raise a Series A. Score it as if the
+current round is the last money it gets.
 
-| Metric | US Benchmark | LATAM Figure | Source |
-|--------|-------------|--------------|--------|
-| Median angel check | $100k–$500k | $25k–$100k USD | (LATAM, LAVCA 2025) |
-| Pre-seed deal size | $150k–$750k | $50k–$300k | (LATAM, LAVCA 2025) |
-| Seed deal size | $750k–$3M | $500k–$2M | (LATAM, LAVCA 2025) |
+## Check Sizes and Pricing
 
-**Implication:** Ownership math must account for smaller checks. A $50k LATAM angel check
-at a $5M pre-money cap = 1% ownership. After two dilution rounds (Series A, Series B), expect
-0.4%–0.6% at exit. At a $100M acquisition: $400k–$600k returned on $50k = 8–12×.
-At a $50M acquisition: $200k–$300k returned = 4–6×. Entry valuation is critical.
+| Metric | US | LATAM | Source |
+|--------|----|-------|--------|
+| Seed pre-money level | US averaged 156% above LATAM, 2015-2025 | ~40% of the US level | Valoriza via Diario Financiero, 2 Apr 2025 |
+| US seed median (2026) | $4.1M round at $24.3M post-money | n/a | Carta Data Desk, 10 Jul 2026 |
+| Typical angel check | $25K-$250K | $10K-$100K | *(directional)* |
+| Pre-seed cap | n/a | $3M-$10M post-money | *(directional)* |
+| Seed pre-money | n/a | $8M-$20M | *(directional)* |
 
-### Deal Flow and Conversion
+Ownership math example: $50K on a $5M post-money cap = 1.0%. After three priced rounds at ~20%
+dilution (Carta 2025 US medians), ~0.51%. A 10x needs a ~$98M exit; a 5x needs ~$49M.
 
-| Metric | US Figure | LATAM Figure | Source |
-|--------|-----------|--------------|--------|
-| Angel → Series A conversion | ~22% | ~12% | (LATAM, LAVCA 2025) |
-| Seed deals < $1M (2024) | N/A | 82 deals, -39% YoY | (LATAM, LAVCA 2025) |
-| Median time angel → Series A | 18 months | 24 months | (LATAM, LAVCA 2025) |
-| Pre-seed deals 2025 | N/A | 152 deals (-77% vs 2022 peak) | (LATAM, Cuantico 2026) |
+## Where the Money Goes (Cuantico 2026, 2025 actuals)
 
-**Implication for LATAM angels:** Lower follow-on rate (~12% vs ~22%) means the angel must
-be more selective at entry. Do not assume Series A will rescue a borderline deal. The
-majority of LATAM angel investments do not get followed-on by institutional capital.
+| Country | Share of 2025 VC dollars | Sector | % deals / % funding |
+|---------|--------------------------|--------|---------------------|
+| Brazil | ~49% | Fintech | 29% / 61% |
+| Mexico | ~24% | SaaS | 13% / 13% |
+| Chile | ~6% | Logistics | 5% / 17% |
+| Colombia | ~5% | Healthtech | 7% / 3% |
+| Argentina | ~4% | Foodtech | 7% / 4% |
 
-### Geographic Concentration
+**Implication:** deals outside Brazil and Mexico face thinner Series A and exit markets. Ask whether
+the team has a credible expansion path or a named home-market acquirer.
 
-| Country/Region | Share of LATAM Deal Flow | Notes |
-|----------------|--------------------------|-------|
-| Brazil + Mexico | 78.5% combined | (LATAM, LAVCA 2025) — structural concentration |
-| Colombia | ~7% | Stable; growing fintech + agtech |
-| Argentina | ~5% | Peso volatility; USD revenue critical |
-| Chile | ~4% | Strong ecosystem relative to size |
-| Other LATAM | ~5.5% | Fragmented; limited follow-on capital |
+## Exit Environment (Cuantico 2026)
 
-**Implication:** Deals outside Brazil/Mexico face structural fundraising headwinds at Series A.
-For Colombia, Peru, Argentina: evaluate whether the founding team has a Brazil/Mexico expansion
-plan. Without it, the exit path is limited to strategic acquisition within the home market.
+- 2025 VC-backed exits: US$4.9B across 63 transactions; M&A 67%, secondaries 27%.
+- 62.7% of 126 surveyed GPs call the exit environment unfavorable; lack of exits is their top risk.
+- Underwrite strategic M&A by a named buyer (regional bank, retailer, telco, larger fintech or a
+  global player entering LATAM). Every comparable exit you cite needs a source link; if you cannot
+  find one, write "no verified comparable exit in this sector".
+- Time to exit: plan for 7-10 years from a seed entry *(directional)*.
 
-### Sector Distribution
+## Country Rules for Regulated Activities
 
-| Sector | Share of LATAM Seed Deals | Notes |
-|--------|--------------------------|-------|
-| Fintech | ~35% | Dominant; regulatory licensing is moat or risk |
-| Edtech | ~10% | Post-pandemic correction; evaluate retention carefully |
-| Agtech | ~8% | Growing; FINAGRO (Colombia), Pronamp (Brazil) are catalysts |
-| B2B SaaS | ~13% | Underfunded vs US; structural opportunity |
-| Healthtech | ~8% | Regulatory complexity limits speed |
+Match the license to the activity. When unsure, the red flag is "no written regulatory opinion from
+local counsel", not a guessed license name.
 
-**Fintech + edtech = 45% of LATAM seed deals (LATAM, LAVCA 2025)**
+### Brazil
+- Credit fintechs operate as an SCD or SEP authorized by the Banco Central do Brasil (BACEN), or
+  through a licensed partner. Payment institutions need BACEN authorization.
+- PIX (launched Nov 2020) is a real "why now" for payments products built on it.
 
-## Country-Specific Application Rules
+### Mexico
+- Ley Fintech (2018): crowdfunding and e-money institutions (ITF) need CNBV authorization. Lending is
+  usually done through a SOFOM; savings and credit cooperatives as SOFIPO. Check which one applies.
+- Rails: SPEI (Banco de México), CoDi / DiMo; cash collection networks (OXXO) are a Mexico-specific channel.
 
-### Colombia Deals
+### Colombia
+- Taking deposits from the public and electronic deposits / payments (SEDPE) need authorization from
+  the Superintendencia Financiera (SFC). Lending from own balance sheet is generally outside SFC
+  supervision, but raising funds from the public is not: confirm the funding model with counsel.
+- Rails: Nequi, Daviplata, PSE; Bre-B (Banco de la República instant payments) rolling out.
+- Agtech: FINAGRO credit lines are a structural channel for ag-credit products.
 
-- **Regulatory gate:** Colombian fintech requires SFC (Superintendencia Financiera de Colombia)
-  licensing or SEDPE/Depósito Electrónico registration. Score Moat Durability ≤3 without
-  regulatory path clarity.
-- **Agriculture context:** FINAGRO (Fondo para el Financiamiento del Sector Agropecuario) provides
-  state-backed agricultural credit lines. Agtech startups that integrate with FINAGRO pipelines
-  have a structural advantage not available outside Colombia.
-- **Payment infrastructure:** Nequi (Bancolombia), Daviplata (Davivienda), and PSE (interbank
-  transfers) are dominant retail rails. Business-facing fintech must integrate with at least
-  Nequi or Daviplata for consumer-facing products; PSE for B2B.
-- **Seasonality note:** Colombian agricultural cycles follow Semana Santa (April) and school-year
-  start (January/February) patterns. Agtech and edtech revenue curves are seasonal — normalize
-  MRR to annual run rate, not point-in-time.
-- **Geography inside Colombia:** Bogotá + Medellín = ~65% of Colombian startup activity. Startups
-  based in Cali, Barranquilla, or Cartagena face additional fundraising friction even for
-  Colombian-focused rounds.
+## LATAM Angel Pitfalls
 
-### Brazil Deals
-
-- **Regulatory gate:** Brazilian fintech requires BACEN (Banco Central do Brasil) SCD/SEP license
-  for credit operations or PIX participation. Score Moat Durability ≤3 without license or
-  clear regulatory partnership path.
-- **Payment infrastructure:** PIX (launched 2020) created instant payment infrastructure.
-  Brazilian startups that built on PIX have a genuine timing advantage (post-2020 enabler).
-- **Market dominance:** Brazil = ~55% of LATAM VC. A Brazil-first strategy can access the
-  largest LATAM capital pool. A Brazil-only strategy is defensible for Series A.
-
-### Mexico Deals
-
-- **Regulatory gate:** Mexican fintech requires CNBV (Comisión Nacional Bancaria y de Valores)
-  licensing under Ley Fintech (2018). Score Moat Durability ≤3 without CNBV ITF license
-  or SOFOM/SOFIPO registration.
-- **Payment infrastructure:** SPEI (Banco de México interbank) + CoDi/DiMo for consumer.
-  OXXO Pay cash collection network is a unique Mexico channel with no direct equivalent
-  in other LATAM markets.
-- **Market concentration:** Mexico City + Monterrey = ~70% of Mexican deal flow.
-
-## LATAM Angel Valuation Context
-
-- **LATAM valuation discount:** 40–60% below equivalent US stage at same metrics
-  *(LATAM, LAVCA 2025)*. A $5M pre-money cap for a Colombian Seed with $100k MRR is
-  within market range; the equivalent US deal would price at $10M–$15M.
-- **Anti-dilution watch:** LATAM rounds often include broad-based weighted-average anti-dilution.
-  Angel investors on SAFEs convert below institutional investors on priced rounds. Factor
-  this into ownership calculations.
-- **Time to exit:** LATAM median angel → Series A: 24 months. Median Series A → Series B:
-  30 months. Median time to exit (acquisition): 6–8 years from angel entry. Angels should
-  not underwrite a 5-year exit timeline in LATAM.
-
-## Exit Environment
-
-| Exit Type | LATAM Reality | Notes |
-|-----------|---------------|-------|
-| Strategic acquisition | Most common | Large LATAM corporates (Bancolombia, Nubank, Rappi, FEMSA) are active strategic acquirers at $30M–$150M |
-| IPO | Rare | B3 (Brazil) has hosted a few tech IPOs; BMV (Mexico) is limited; NASDAQ listings require US legal structure |
-| Secondary sale | Growing | AngelList LATAM rolling funds; secondaries market thin but improving |
-| Write-off | ~35–40% of LATAM angel deals | Per AngelList LATAM data; higher than US (~25%) due to lower follow-on rates |
+- **US anchoring:** founders citing YC or US seed medians ($24.3M post, Carta 2026). LATAM seed
+  pricing runs around 40% of the US level (Valoriza 2025).
+- **SAFE without a US holdco:** a LATAM-only company cannot just sign the YC SAFE. Ask for the local
+  instrument and a legal opinion (see `shared/safe-note.md`).
+- **FX:** local-currency revenue, USD exit. Model a devaluation scenario for any company without
+  USD-linked revenue.
+- **No pro rata:** without it, your ownership only shrinks. Ask for a side letter on checks you
+  would want to follow.

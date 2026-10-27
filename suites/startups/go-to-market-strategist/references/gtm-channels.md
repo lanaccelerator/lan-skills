@@ -18,7 +18,7 @@ For each startup, score each channel 1–3:
 - **1** = Poor fit: wrong stage, wrong model, or LATAM channel performance too low
 
 **Rule from Weinberg:** Every company finds 1–3 channels that work. The goal of
-scoring is to identify which 3 to run experiments on first — not to find all channels.
+scoring is to identify which 3 to run experiments on first, not to find all channels.
 
 ---
 
@@ -29,7 +29,7 @@ scoring is to identify which 3 to run experiments on first — not to find all c
 **Best for:** B2C products with natural social loop (messaging, photo sharing,
 payments), B2B products with multi-seat use or public output (Slack, Figma, Notion)
 **Stage suitability:** Pre-seed → Series A (but only for products with inherent
-virality — not something you add to a product)
+virality, not something you add to a product)
 **Typical CAC range:** Near-zero (US benchmark); same in LATAM when working
 **LATAM-specific notes:** WhatsApp group sharing is the primary viral loop in
 LATAM B2C and SME B2B. A referral program that routes through WhatsApp (not
@@ -61,7 +61,7 @@ better than tech media for B2B products.
 **Stage suitability:** Pre-seed to Seed
 **Typical CAC range:** Near-zero if it works; unpredictable
 **LATAM-specific notes:** Cultural stunts work in LATAM but require deep local
-cultural knowledge — misaligned stunts backfire significantly. High risk for
+cultural knowledge, misaligned stunts backfire significantly. High risk for
 international founders without LATAM cultural fluency.
 **Not for:** B2B financial products, regulated industries
 
@@ -95,7 +95,7 @@ B2C: $20–$100/customer
 - **Facebook/Instagram:** High penetration in LATAM B2C. CPA 50–60% below US for
   same audience quality. *(Operator observation)*
 - **WhatsApp Business ads:** Click-to-WhatsApp ads on Facebook are highly effective
-  in LATAM for B2C and SME segments — allow users to message directly without email.
+  in LATAM for B2C and SME segments, allow users to message directly without email.
 
 ---
 
@@ -119,7 +119,7 @@ Series A
 **Typical CAC range (US-sourced benchmark):** B2B SaaS organic: <$50/customer when
 mature channel; 12–18 month ramp time
 **LATAM-specific notes:**
-- Spanish-language SaaS content is significantly underpopulated vs English — lower
+- Spanish-language SaaS content is significantly underpopulated vs English, lower
   competition, faster ranking potential for LATAM-specific topics
 - Spanish/Portuguese keywords such as "electronic invoicing Mexico", "SME credit
   Colombia", "accounting software Brazil" are high-intent terms with low competition
@@ -151,7 +151,7 @@ mature channel; 12–18 month ramp time
 **Stage suitability:** Pre-seed (cheapest customer acquisition if it works) through
 Series A
 **LATAM-specific notes:** Works the same as US when the tool is genuinely useful.
-Spanish-language calculators and free tools are rare — high SEO leverage potential.
+Spanish-language calculators and free tools are rare, high SEO leverage potential.
 Example: a free "What does it cost me to lack working capital?" calculator (in Spanish
 for the local market) embeds in accounting blog articles and drives inbound leads for
 a lending product.
@@ -183,7 +183,7 @@ partner
   or payroll products
 - Corporate innovation programs (Wayra by Telefónica, Banorte Pitch, BBVA Open
   Innovation) provide enterprise distribution pilots
-- Relationship-based BD deals take longer in LATAM — expect 3–6 months to first
+- Relationship-based BD deals take longer in LATAM, expect 3–6 months to first
   signed partner agreement vs 1–3 months in US *(Operator observation)*
 
 ---
@@ -201,7 +201,7 @@ the buyer needs education before purchasing
   local phone number increases pick-up rate significantly
 - **Warm intro is the master key:** In LATAM B2B, a mutual connection introduction
   converts at 5–10× cold outreach. Invest in building the network before scaling
-  outbound. *(Operator observation; consistent with LAVCA 2025 founder surveys)*
+  outbound. *(directional, LAN operator read)*
 
 ---
 
@@ -214,8 +214,8 @@ propositions, products with natural advocates (accountants, consultants)
 - Accountant referral programs are highly effective for B2B fintech and accounting
   software in LATAM (accountants serve as trusted advisors to their SME clients)
 - Affiliate payouts: in LATAM, percentage-of-transaction (1–3%) outperforms flat
-  fee for financial products — affiliate is motivated by loan volume, not just signups
-- Track via WhatsApp — affiliates in LATAM typically prefer WhatsApp coordination
+  fee for financial products, affiliate is motivated by loan volume, not just signups
+- Track via WhatsApp, affiliates in LATAM typically prefer WhatsApp coordination
   over email-based affiliate portals *(Operator observation)*
 
 ---
@@ -228,7 +228,7 @@ propositions, products with natural advocates (accountants, consultants)
 - App Store / Google Play: Brazil has the 4th largest app economy globally; Mexico
   is top-10. Mobile-first products see significant organic discovery here.
 - MercadoLibre ecosystem: for e-commerce and fintech, MercadoPago integration
-  provides distribution to 40M+ active LATAM buyers — a platform-within-a-platform opportunity
+  provides distribution to 40M+ active LATAM buyers, a platform-within-a-platform opportunity
 - Accounting software marketplaces (Alegra App Store, Quickbooks Marketplace) are
   emerging as distribution channels for B2B SaaS add-ons in LATAM
 
@@ -242,7 +242,7 @@ propositions, products with natural advocates (accountants, consultants)
 - LATAM industry trade shows with SME decision-maker density: CAINTRA annual
   congress (Monterrey), Expo ANTAD (retail, Guadalajara), Expo Fintech (Mexico City),
   Febraban (Brazil banking sector)
-- Decision-making happens in person in LATAM B2B at a higher rate than in US — trade
+- Decision-making happens in person in LATAM B2B at a higher rate than in US, trade
   show follow-up with WhatsApp (same day) converts 2–3× better than email follow-up
 - Sponsoring smaller vertical association events ($500–$2,000) reaches highly
   qualified SME owners at a lower cost than large national expos
@@ -258,7 +258,7 @@ propositions, products with natural advocates (accountants, consultants)
   CAINTRA or COPARMEX branch is a proven LATAM GTM tactic for B2B financial products
 - Event marketing in LATAM builds trust faster than digital ads for regulated
   products (fintech, insurtech) where credibility is the primary objection
-- Invite local accountants as speakers — they bring their SME clients to the event
+- Invite local accountants as speakers, they bring their SME clients to the event
 
 ---
 
@@ -283,27 +283,31 @@ keynote slots. Generally a brand-building tool, not a primary acquisition channe
 - Facebook Groups still have high engagement for SME professional communities in LATAM
   (vs US where Facebook Groups are declining)
 - Building a WhatsApp community of 100 target customers is a legitimate pre-seed GTM
-  strategy in LATAM — it's a closed-loop focus group and distribution channel combined
+  strategy in LATAM, it's a closed-loop focus group and distribution channel combined
 
 ---
 
-### 19. WhatsApp / Direct Messaging Outreach
+### 19. WhatsApp / Direct Messaging (after opt-in)
 
 **Best for:** B2B SME segment in LATAM; any product targeting mobile-first users
-**Stage suitability:** Pre-seed → Seed (most effective; scales by volume)
-**Typical CAC range (LATAM):** $20–$100 when effective (based on founder time cost
-and conversion rates in LATAM B2B SME) *(Operator observation)*
+**Stage suitability:** Pre-seed → Seed (founder-led)
+**Typical CAC range (LATAM):** USD 20-100 when it works (directional, LAN operator read)
 **LATAM-specific notes:**
-- **WhatsApp penetration:** 95%+ in Mexico, Brazil, Colombia *(GSMA 2024)*
-- **Open rate:** 85%+ in B2B contexts vs 22% for cold email *(Operator observation;
-  aligned with WhatsApp for Business benchmarks)*
-- **Protocol:** Never send a link in the first message. First message = qualification
-  question or shared context. Second message = soft pitch. Third message = call to action.
-- **WhatsApp Business API:** For volumes >100 messages/day, use the official API to
-  avoid account blocks. Providers: Twilio, Vonage, Meta Business Suite
-- This channel has no US equivalent at this cost point — US founders underestimate
-  how effective WhatsApp outreach is in LATAM B2B. It is Channel 12 (Direct Sales)
-  delivered through the most-used communication platform in the region.
+- **Penetration:** over 90% of internet users in Brazil, Mexico and Colombia use WhatsApp
+  (vendor compilations of DataReportal data, 2025-2026; directional).
+- **Opt-in rule:** WhatsApp's Business Messaging Policy allows contacting people only if they
+  gave you their number and opted in; messaging at scale without authorization gets the
+  account limited or removed (https://business.whatsapp.com/policy). It is a follow-up and
+  relationship channel, not a cold-prospecting list.
+- **Ways in:** warm intro that shares the number, event, referral, inbound click-to-WhatsApp
+  ad, a form with an explicit opt-in.
+- **Protocol:** never a link in the first message. Shared context first, soft pitch second,
+  call to action third.
+- **WhatsApp Business Platform (API):** template messages are charged per message and
+  pre-approved; use it for opted-in lists at volume
+  (https://developers.facebook.com/docs/whatsapp/pricing/).
+- Response rates on opted-in conversations are far above cold email (directional, LAN operator
+  read). That gap is about trust, which disappears if the channel is used for spam.
 
 **Note on Weinberg taxonomy:** Weinberg's 2014 book predates WhatsApp for Business.
 For LATAM, treat WhatsApp Outreach as a subset of Channel 12 (Direct Sales) with
@@ -316,13 +320,13 @@ its dominance in the LATAM context.
 
 | Business Type | Stage | Top 3 Channels to Test First |
 |--------------|-------|------------------------------|
-| B2B SaaS | Pre-seed | WhatsApp outreach, Direct sales, Partnerships |
+| B2B SaaS | Pre-seed | Founder-led direct sales (WhatsApp after intro), Partnerships, Communities |
 | B2B SaaS | Seed | Direct sales, Content/SEO, Partnerships |
 | B2B SaaS | Series A | Direct sales, SEM, Partnership/platform |
 | B2C / Consumer | Pre-seed | Viral/WOM, Social ads, Community |
 | B2C / Consumer | Seed | Social ads, Content/SEO, Affiliate |
-| B2B Fintech | Pre-seed | WhatsApp outreach, Accountant partners, Events |
-| B2B Fintech | Seed | WhatsApp outreach, Accountant partners, SEM |
+| B2B Fintech | Pre-seed | Founder-led sales via intros, Accountant partners, Events |
+| B2B Fintech | Seed | Accountant partners, Click-to-WhatsApp ads, SEM |
 | Marketplace | Pre-seed | Direct sales (both sides), WOM, Offline events |
 | E-commerce | Seed | Social ads, SEO/Content, Platform (MercadoLibre) |
 

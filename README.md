@@ -46,6 +46,16 @@ The installer copies all 34 skills to `~/.claude/skills/`. No additional setup r
 
 Run this before committing any changes to verify all SKILL.md files are spec-compliant.
 
+### Shared frameworks
+
+`shared/frameworks/` is the source of truth for material several skills use (editorial voice, LATAM benchmarks, YC metrics, SAFE, ILPA, deck design rules). The installers copy only `suites/`, so every skill carries its own copy in `references/shared/`. After editing a shared file, run:
+
+```bash
+python3 scripts/sync-shared.py
+```
+
+`validate.sh` fails if any skill is out of sync.
+
 ## Skill Catalog
 
 ### Startups Suite (20 skills)

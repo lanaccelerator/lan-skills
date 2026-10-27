@@ -1,11 +1,10 @@
-# Fundraising Readiness Rubric — Stage-by-Stage Thresholds
+# Fundraising Readiness Rubric: Stage-by-Stage Thresholds
 
 **Sources:**
-- YC How to Raise Money: https://www.ycombinator.com/library/4A-how-to-raise-money
-- a16z Fundraising Guide: https://a16z.com/how-to-raise-money-startup/
-- First Round Capital fundraising signals: https://review.firstround.com/looking-for-signs-of-magic-how-our-partners-think-about-fundraising/
-- Carta Q1 2026 Fund Performance Report
-- shared/yc-metrics.md — metric definitions and calculation methods
+- YC, A Guide to Seed Fundraising: https://www.ycombinator.com/library/4A-how-to-raise-money
+- a16z, 16 Startup Metrics: https://a16z.com/16-startup-metrics/
+- Carta, State of Private Markets: 2025 in review (Feb 2026): https://carta.com/data/state-of-private-markets-q4-2025/
+- shared/yc-metrics.md, metric definitions and calculation methods
 
 **When to use:** Read this file in full before scoring any dimension. Apply the thresholds
 for the founder's target stage. Do not mix stage thresholds.
@@ -37,7 +36,7 @@ NOT READY: No customer conversations completed. No evidence of problem severity.
 ### Narrative Clarity Checklist
 
 The pre-seed narrative must answer: Problem (have you experienced it?), Solution (why this,
-why now), Why Us (unique ability to solve it — domain expertise, prior network, unfair access).
+why now), Why Us (unique ability to solve it, domain expertise, prior network, unfair access).
 Market sizing is important but directional estimates are acceptable at pre-seed.
 
 ### Team Gaps
@@ -48,8 +47,8 @@ Market sizing is important but directional estimates are acceptable at pre-seed.
 
 ### Comparable Raises
 
-Reference references/latam-comparable-raises.md: Pre-seed LATAM = $100k–$500k on
-$2M–$5M pre-money cap (LATAM, LAVCA 2025). Accelerator + angel round typical.
+Reference references/latam-comparable-raises.md: pre-seed LATAM = USD 100K-500K on a
+USD 2M-5M cap (directional, LAN operator read). Accelerator + angel round typical.
 
 ---
 
@@ -112,9 +111,9 @@ with data, or a technology unlock that did not exist 3 years ago.
 
 ### Comparable Raises
 
-Reference references/latam-comparable-raises.md: Seed LATAM = $750k–$3M on
-$8M–$20M pre-money (LATAM, LAVCA 2025). Typical investors: Magma Partners, Platanus,
-ALLVP, LAN Accelerator, 500 Latam.
+Reference references/latam-comparable-raises.md: seed LATAM = USD 750K-3M on
+USD 5M-12M pre-money (directional, LAN operator read). Only 7% of LATAM seed companies
+raise a Series A within two years (LATAM, LAVCA 2025): the seed must fund the whole path.
 
 ---
 
@@ -133,7 +132,7 @@ ALLVP, LAN Accelerator, 500 Latam.
 - LTV/CAC: ≥3:1
 - CAC payback: <12 months
 
-Read shared/yc-metrics.md — a16z 16 Metrics section for full definitions.
+Read shared/yc-metrics.md, a16z 16 Metrics section for full definitions.
 
 Rule of 40 benchmark: target >20 at Series A close.
 
@@ -168,8 +167,9 @@ in 18 months" is a Series A story.
 
 ### Comparable Raises
 
-Reference references/latam-comparable-raises.md: Series A LATAM = $3M–$15M on
-$20M–$60M pre-money (LATAM, LAVCA 2025). Investors: a16z Latam, Kaszek, Monashees.
+Reference references/latam-comparable-raises.md: Series A LATAM = USD 3M-15M on
+USD 20M-60M pre-money (directional, LAN operator read). Active leads: KASZEK, monashees,
+QED, Valor, NXTP, ALLVP (LAVCA most-active lists, 2024-1H 2025).
 
 ---
 
@@ -205,5 +205,26 @@ capital efficiency argument (why this amount, why now?).
 
 ### Comparable Raises
 
-Reference references/latam-comparable-raises.md: Series B+ LATAM = $15M+ on
-$60M+ pre-money (LATAM, LAVCA 2025). Investors: Tiger Global, SoftBank LatAm, Sequoia.
+Reference references/latam-comparable-raises.md: Series B+ LATAM = USD 15M+ on
+USD 60M+ pre-money (directional). Series C+ capital in LATAM fell 56.8% in 2025
+(LATAM, Cuantico 2026): late-stage money is scarce, plan for profitability as an option.
+
+---
+
+## AI-Native Startups (apply on top of the stage thresholds)
+
+AI-native companies are judged on the same bar, with four extra checks:
+
+- **Revenue quality.** Separate contracted recurring revenue from usage that can vanish and from
+  paid pilots. Pilots and "experimental budget" revenue do not count as ARR. Show net revenue
+  retention by cohort, not only top-line growth.
+- **Gross margin after inference.** Report gross margin with model and inference costs included.
+  A margin far below software norms needs a credible path (smaller models, caching, pricing).
+- **Pricing model.** Outcome-based or usage-based pricing is normal; the founder must show what
+  the customer pays per unit of value and how that scales.
+- **Growth and team size.** Investors expect faster growth with smaller teams. LAN's read: top
+  funds look for about 10% week-over-week at the earliest stage (Paul Graham, 2012, called 5-7%
+  "good" and 10% "exceptional"). Revenue per employee is a standard question.
+- **Valuation context.** US Series A AI startups priced 38% above non-AI peers in 2025
+  (US-sourced benchmark, Carta 2025 in review). Do not import that premium to LATAM without
+  local comparables.

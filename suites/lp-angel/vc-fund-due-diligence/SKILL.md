@@ -1,162 +1,121 @@
 ---
 name: vc-fund-due-diligence
 description: >
-  LP due diligence on VC funds and GPs. ALWAYS invoke when an LP, family office,
-  or institutional investor needs to evaluate a VC fund manager — analyzing GP track
-  record, portfolio construction, fee structure, terms (carry, hurdle, clawback,
-  key person, no-fault divorce), and vintage performance against Cambridge Associates
-  and Carta benchmarks. NOT for GPs evaluating startups (use deal-memo-writer). NOT
-  for founders evaluating their own startup (use venture-model-validator).
+  LP due diligence on a VC fund manager: should I commit to this fund? ALWAYS invoke when
+  an LP, family office, DFI or fund of funds evaluates a GP, scoring track record
+  (DPI vs TVPI, attribution), portfolio construction, terms vs ILPA and Carta market
+  data, team and key-person risk, and LATAM fit, benchmarked against Carta vintage data,
+  with an INVEST / WATCH / PASS verdict. Covers emerging and first-time managers.
+  Triggers: "should I invest in this fund", "evaluate this GP", "fund DD", "analizá este
+  fondo", "¿entro como LP en este fondo?", "due diligence del GP", "me ofrecieron ser LP".
+  NOT for a clause-by-clause LPA or side letter review (lp-term-sheet-analyzer), GPs
+  evaluating startups (deal-memo-writer), a GP calculating its own fund metrics
+  (fund-performance-analyzer), or designing a whole personal venture allocation
+  (portfolio-construction-advisor).
 categories: ["business", "investing", "due-diligence"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: lp-angel
 license: MIT
 ---
 
 # VC Fund Due Diligence
 
-Evaluates a VC fund and GP from the LP's perspective. Produces a structured Fund Due
-Diligence Report with five scored dimensions, explicit red flags, terms analysis against
-ILPA standards, vintage benchmark comparison using Carta Q1-2026 data, and a firm
-INVEST / PASS / WATCH recommendation.
+Evaluates a VC fund and its GP from the LP's chair: "Should I commit capital to this
+manager?" Not "Is this a good startup?"
 
-This skill occupies the LP's chair. The question it answers is "Should I commit capital
-to this fund manager?" — not "Is this a good startup?"
+## Step 1: Intake (ONE message)
 
-## Step 1: Input Gathering
+Ask everything in one message; accept the deck, DDQ and LPA instead of answers. Missing
+answer: `[ASSUMPTION: ...]`, never skip silently.
 
-Ask all seven questions in ONE message. Do not start scoring until you have answers
-(or stated assumptions) for each.
+1. **Fund:** name, number (I, II...), vintage, target and current close, legal vehicle, GP location.
+2. **Strategy:** stage, sector, geography, target company count, check size, ownership target,
+   reserve ratio, follow-on policy.
+3. **Team:** partners, how long together, prior funds or attributable angel / operator deals,
+   time commitment, who makes decisions.
+4. **Track record:** TVPI, DPI, net IRR per prior fund (or per attributable deal for first-time
+   managers), realized vs unrealized split, audited or not, data as of what date.
+5. **Terms:** fee and step-downs, carry and waterfall, hurdle, GP commit and its funding,
+   clawback, key person, no-fault removal, term and extensions, reporting format.
+6. **LP base:** anchor (DFI or not), number of LPs, your commitment size.
+7. **Your mandate:** why this fund, return target, how it fits your other venture exposure.
 
-1. **Fund name, vintage year, and manager location** (fund name, legal entity, GP location)
-2. **Fund size and strategy** (target raise, final close or current close, stage focus,
-   sector thesis, geographic focus — LATAM / US / global)
-3. **GP team background** (partners' names, prior funds, operating experience, exits, tenure
-   together as a team)
-4. **Track record claims** (stated TVPI, DPI, IRR for Fund I and/or prior funds — ask for
-   realized vs unrealized split; flag if LP cannot provide this)
-5. **Proposed terms** (management fee %, carry %, preferred return/hurdle %, GP commit %,
-   investment period length, fund life, key person clause trigger, no-fault divorce threshold)
-6. **Portfolio construction** (target # of portfolio companies, initial check size range,
-   pro-rata reserve ratio, follow-on strategy)
-7. **LP's investment thesis and return target** (why is LP considering this fund, what return
-   hurdle does LP require from venture allocation, existing portfolio concentration)
+## Step 2: Workflow (in order)
 
-If the LP does not answer a question, proceed with a stated assumption and flag it as:
-`[ASSUMPTION: ...]`. Do not silently skip inputs.
+1. **Read** [references/due-diligence-criteria.md](references/due-diligence-criteria.md)
+   (rubrics, red-flag floors), `references/shared/ilpa-standards.md` (ILPA 3.0 vs Carta market
+   terms) and [references/latam-context.md](references/latam-context.md).
+2. **Fetch the current benchmark** for the fund's vintage: the latest Carta VC Fund Performance
+   report (carta.com/data). If you cannot fetch it, use these anchors and say so: 75th-percentile
+   net IRR in the mid-teens for recent vintages (2017: 15.8%; 2024: 19.1%); median DPI 0.37x for the 2017 vintage
+   (Carta Q2 2026). These are US funds; no public LATAM vintage dataset exists at this depth.
+3. **Rebuild the track record:** DPI first, then TVPI. Ask what share of TVPI sits in the top
+   one or two companies and whether those marks come from a priced round in the last 12 months.
+4. **Score the 5 dimensions** 1-5: Track Record, Portfolio Construction, Terms, Team, LATAM Fit.
+   Apply the red-flag floors.
+5. **Emerging-manager lens:** for Fund I-II, score attributable deals, not fund history. Small
+   funds can outperform: 2019 vintage 90th-percentile TVPI 4.91x for $1-10M funds vs 1.92x for
+   $100M+ (Carta, The Emerging Manager Paradox, 6 Oct 2026). The dispersion cuts both ways.
+6. **AI-era check:** how the GP underwrites AI-native companies (gross margin after inference,
+   model-provider dependency, defensibility), and whether marks on AI companies come from
+   priced rounds or from hype-led notes.
+7. **Terms table:** each term vs ILPA 3.0 and vs Carta 2025 market. For a full LPA review, hand
+   off to lp-term-sheet-analyzer.
+8. **Apply the verdict rules**, then write the report and 3-5 Next Steps for the next 30 days.
 
-## Step 2: Apply Frameworks
+## Step 3: Verdict Rules (first match wins)
 
-Read references/shared/ilpa-standards.md for fee structure, carry, GP commit, and
-clawback benchmarks. These are the minimum standards sophisticated LPs expect.
-
-Read @suites/vc-operators/fund-performance-analyzer/references/fund-benchmarks.md for
-Carta Q1-2026 vintage performance benchmarks (TVPI, DPI, IRR by vintage year). These are
-US-domiciled fund benchmarks — apply the LATAM discount from Step 5 when evaluating
-LATAM-focused funds.
-
-Compare GP's claimed track record vs actual vintage median/top-quartile from Carta data.
-Any claim that cannot be benchmarked against a known vintage must be flagged.
-
-**Critical inversion from investor perspective:** An LP evaluating TVPI of 1.8x must ask
-"Is this Fund I's 1.8x TVPI above or below the 2022 vintage median (slightly >1.0x) or the
-75th percentile (1.20x)?" — not just "Is 1.8x good?" Context is everything.
-
-## Step 3: Workflow
-
-Execute in this exact order:
-
-1. Gather inputs (Step 1 questions — confirm answers or state assumptions)
-2. Score each of the 5 dimensions (1–5 scale, defined in
-   [references/due-diligence-criteria.md](references/due-diligence-criteria.md))
-3. Flag red flags — EXPLICITLY list each red flag with `[RED FLAG]` prefix; do not soften
-   or bury them in caveats
-4. Build terms analysis table: each term vs ILPA standard vs verdict
-5. Apply LATAM context from [references/latam-context.md](references/latam-context.md)
-   BEFORE producing the final score
-6. Generate scorecard output using the structure in [TEMPLATES.md](TEMPLATES.md)
-7. End with Next Steps — LP's specific due diligence actions within 30 days
+1. Any dimension at 1, or Track Record, Team or Portfolio Construction at 2 → **PASS**.
+2. Terms at 2 (fixable by negotiation) → **WATCH**, conditional on named fixes; re-score Terms
+   after the GP answers.
+3. Total 19+/25 with no unresolved red flag → **INVEST**.
+4. Total 14-18 → **WATCH** with named conditions and a decision date (for example final close).
+5. Under 14 → **PASS**.
 
 ## Step 4: Output Format
 
-ALWAYS use the exact template structure in [TEMPLATES.md](TEMPLATES.md). Do not change
-section headings, table columns, or field order. Fill every section with real analysis.
+ALWAYS use this exact template structure. Do not change section headings, table columns, or
+field order. Fill every [bracketed placeholder] with real analysis from the user's fund. See
+[TEMPLATES.md](TEMPLATES.md) for the filled example.
 
-The output is a Fund Due Diligence Report containing:
+Sections: BLUF (verdict + the deciding factor), 5-dimension scorecard, track record rebuild
+(DPI, TVPI, concentration), terms table (term | GP proposes | ILPA 3.0 | Carta 2025 market |
+verdict), red flags, LATAM context box, recommendation with conditions, Next Steps, Sources.
 
-- **Overall score** (sum of 5 dimension scores out of 25)
-- **5-dimension scorecard table** (dimension | score | key finding)
-- **Terms analysis table** (term | GP proposes | ILPA standard | verdict)
-- **Red flags section** — explicit `[RED FLAG]` callouts, not softened concerns
-- **LATAM Context box** — Carta vintage benchmark labeled `(US-sourced benchmark, Carta Q1 2026)`
-  + LATAM-adjusted expectation labeled `(LATAM, LAVCA 2025 / Cuantico 2026)`
-- **INVEST / PASS / WATCH recommendation** with rationale and specific conditions
-
-**Verdict thresholds:**
-
-- **INVEST:** Score ≥19/25, no dimension below 3, no unresolved red flags, terms
-  within ILPA standards or deviation explained
-- **WATCH:** Score 14–18, one or two dimensions at 3, specific conditions that would
-  unlock INVEST verdict
-- **PASS:** Any dimension at 1 or 2, OR unresolved red flags that cannot be explained,
-  OR terms that materially deviate from ILPA without justification
+If the user wants an IC deck or PDF, apply `references/shared/deck-design-rules.md`.
 
 ## Step 5: LATAM Context
 
-Read [references/latam-context.md](references/latam-context.md) BEFORE producing the
-final score. Apply LATAM-specific adjustments to every benchmark comparison.
-
-Label every US benchmark `(US-sourced benchmark, Carta Q1 2026)` and every LATAM figure
-`(LATAM, LAVCA 2025)` or `(LATAM, Cuantico 2026)`.
-
-Key LATAM LP adjustments to apply:
-
-- LATAM fund performance typically 30–50% below US at same vintage — a LATAM fund at US
-  median is outperforming LATAM peers
-- Verify GP's claimed top-quartile TVPI against 2022 vintage median TVPI of slightly >1.0x
-  and 75th percentile of 1.20x (US-sourced benchmark, Carta Q1 2026)
-- LATAM exit timeline adds 2–3 years vs US — IRR impact of 3–5 percentage points for
-  same cash flows delayed
-- Argentine peso FX: ARS/USD is EXTREME volatility — flag any Argentine peso exposure as
-  a separate structural risk
-- LATAM LP base is 35% family offices (vs 15% US) — governance standards reflect this;
-  LPAC may be nominal for emerging managers
+Annotate per `references/shared/latam-benchmarks.md`. Key facts:
+- 65 LATAM-dedicated funds closed in 2024 (LAVCA 2025 Industry Data); most are emerging managers,
+  often anchored by DFIs such as IDB Lab, IDB Invest or CAF *(directional)*. A DFI anchor means
+  institutional diligence happened; it does not replace yours.
+- Exits: US$4.9B across 63 VC-backed exits in 2025, M&A 67%; 62.7% of GPs call the exit market
+  unfavorable (Cuantico 2026). Weight DPI heavily.
+- Capital: Brazil ~49% and Mexico ~24% of 2025 LATAM VC dollars, ~73% together (Cuantico 2026 country table). A "LATAM" fund
+  with neither needs a specific exit thesis.
+- Graduation: 12% of LATAM seed startups raise a Series A within three years (LAVCA 2025). A seed
+  fund's reserve plan must assume most companies will not.
+- Do not apply a fixed "LATAM discount" to Carta numbers: no dataset supports one. Compare
+  against Carta and explain the structural differences (exits, FX, follow-on depth).
 
 ## Tone & Editorial Voice
 
-See references/shared/editorial-voice.md — you are a seasoned LP analyst who has
-evaluated hundreds of fund managers and committed capital to dozens. You have seen
-the track record games, the management fee tricks, and the terms that transfer value
-from LPs to GPs. You do not give GPs the benefit of the doubt on ambiguous numbers.
+Follow `references/shared/editorial-voice.md`: seasoned LP analyst, numbers first, no em
+dashes, no buzzwords, no emojis; in Spanish "el AI".
 
-Expected tone: "Your GP claims top-quartile returns but the 2022 vintage median TVPI
-is slightly >1.0x and the 75th percentile is 1.20x. At 1.8x claimed TVPI, you are above
-the 75th percentile — but only if that TVPI is audited. Show me the DPI, not the TVPI.
-Paper marks are not returns."
-
-## Step 6: Next Steps — LP Due Diligence Actions
-
-End EVERY analysis with 3–5 specific due diligence actions for the LP to complete within
-30 days. Use the header `## Next Steps`.
-
-Actions must be LP-facing (not GP coaching):
-
-- GOOD: "Request audited Fund I financials with DPI breakdown by portfolio company and
-  confirmation of GP commit source (cash vs management fee waiver)."
-- BAD: "Do more diligence on the track record."
-
-Base next steps on the lowest-scoring dimensions and unresolved red flags.
+Expected tone: "The GP sells 1.8x TVPI. The number that matters is 0.9x DPI, and 60% of the TVPI
+is one company marked on a 2022 round. Show me a priced round from the last 12 months or haircut
+that mark."
 
 ## Sources
 
-- [Due Diligence Criteria](references/due-diligence-criteria.md) — 5-dimension scoring rubric
-- [LATAM Fund Context](references/latam-context.md) — LATAM LP benchmarks and context
-- [ilpa-standards.md](references/shared/ilpa-standards.md) — ILPA fee, carry, GP commit standards
-- [suites/vc-operators/fund-performance-analyzer/references/fund-benchmarks.md](../../vc-operators/fund-performance-analyzer/references/fund-benchmarks.md) — Carta Q1-2026 vintage performance data
-- [editorial-voice.md](references/shared/editorial-voice.md) — tone standard
-- ILPA Reporting Template (2016, updated 2024): https://ilpa.org/reporting-template/
-- Kauffman Foundation LP perspective: https://www.kauffman.org/wp-content/uploads/2019/09/its_electric_slideshare.pdf
-- LAVCA 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
-- Carta Q1 2026 Fund Performance Report: https://carta.com/fund-performance
+- [Due Diligence Criteria](references/due-diligence-criteria.md), [LATAM Fund Context](references/latam-context.md)
+- [ilpa-standards.md](references/shared/ilpa-standards.md), [latam-benchmarks.md](references/shared/latam-benchmarks.md), [editorial-voice.md](references/shared/editorial-voice.md)
+- Carta VC Fund Performance Q2 2026 and The Emerging Manager Paradox (6 Oct 2026): https://carta.com/data/
+- Carta Fund Economics Report 2025 (4 Dec 2025): https://carta.com/data/fund-economics-report-2025-full-article/
+- ILPA Principles 3.0 (2019) and Reporting Template (2025): https://ilpa.org/
+- LAVCA Startup Ecosystem Insights 2025 and 2025 Industry Data: https://www.lavca.org/
+- Cuantico LatAm VC Report 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/

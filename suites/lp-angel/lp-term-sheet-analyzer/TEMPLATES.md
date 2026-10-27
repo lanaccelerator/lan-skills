@@ -1,7 +1,7 @@
-# LP Term Sheet Analyzer — Templates
+# LP Term Sheet Analyzer: Templates
 
-This file contains the canonical output template and a fully filled LATAM example.
-All lp-term-sheet-analyzer outputs MUST follow this exact structure.
+Canonical output template plus a filled LATAM example. Every lp-term-sheet-analyzer output follows
+this exact structure.
 
 ---
 
@@ -10,238 +10,208 @@ All lp-term-sheet-analyzer outputs MUST follow this exact structure.
 ```
 # LP Term Analysis: [Fund Name]
 
-**LP:** [Investor name / family office]
-**Fund:** [Fund name, vintage]
-**Strategy:** [Geography, stage, sector]
-**Fund Size:** [USD]
-**Analysis Date:** [Date]
+**Verdict: [ACCEPT / NEGOTIATE / PASS]**: [one sentence: the term that decides it and the walk-away condition]
+
+**LP:** [Investor] | **Fund:** [Name, vintage, Fund #] | **Size:** [target / hard cap, USD]
+**Strategy:** [Geography, stage, sector] | **Commitment considered:** [USD, % of fund]
+**Analysis date:** [Date]
 
 ---
 
 ## Term Analysis Table
 
-| Term                  | GP Proposes          | ILPA Standard          | LP Verdict     | Negotiation Priority |
-|-----------------------|----------------------|------------------------|----------------|---------------------|
-| Management Fee        | [%] on [basis]       | 2% committed → 1.75%   | [ACCEPT/NEGOTIATE/RED FLAG] | [HIGH/MEDIUM/LOW] |
-| Fee Step-Down         | [Yes/No — detail]    | Required after Yr 5    | [ACCEPT/NEGOTIATE/RED FLAG] | [HIGH/MEDIUM/LOW] |
-| Carried Interest      | [%] [waterfall]      | 20%, European           | [ACCEPT/NEGOTIATE/RED FLAG] | [HIGH/MEDIUM/LOW] |
-| Hurdle Rate           | [%]                  | 8% preferred return    | [ACCEPT/NEGOTIATE/RED FLAG] | [HIGH/MEDIUM/LOW] |
-| GP Commit             | [%] ([USD])          | 1–2%, cash-funded       | [ACCEPT/NEGOTIATE/RED FLAG] | [HIGH/MEDIUM/LOW] |
-| Clawback              | [Yes/No + escrow %]  | Required, ≥10% escrow  | [ACCEPT/NEGOTIATE/RED FLAG] | [HIGH/MEDIUM/LOW] |
-| Key Person Clause     | [Named persons]      | Senior only, vol. depart| [ACCEPT/NEGOTIATE/RED FLAG] | [HIGH/MEDIUM/LOW] |
-| No-Fault Divorce      | [% LP vote]          | 75–80% LP supermajority | [ACCEPT/NEGOTIATE/RED FLAG] | [HIGH/MEDIUM/LOW] |
+| Term | GP proposes | ILPA 3.0 | VC market (Carta 2025) | LP verdict | Priority |
+|------|-------------|----------|------------------------|------------|----------|
+| Management fee | [% on basis, period] | Reasonable budget, offsets | Median 2%, 75th pct 2.5% | [ACCEPT / NEGOTIATE / RED FLAG] | [HIGH / MEDIUM / LOW] |
+| Fee step-down | [schedule] | n/a | 81.9% step down at least once; median 1.9% after | [...] | [...] |
+| Carry and waterfall | [% , whole-of-fund / deal-by-deal] | Whole-of-fund best practice | Median 20% | [...] | [...] |
+| Hurdle | [% or none] | From capital-at-risk date | Rare: 9.5-12.4% of funds | [...] | [...] |
+| GP commit | [% , cash / waiver] | Substantial, in cash | Median 1.7% | [...] | [...] |
+| Clawback | [escrow %, guarantee] | Gross of tax, ~30% escrow or guarantee | n/a | [...] | [...] |
+| Key person | [names, triggers] | Automatic suspension, 180 days | n/a | [...] | [...] |
+| No-fault removal | [% in interest] | Supermajority (two-thirds reference) | n/a | [...] | [...] |
+| Fee offsets | [%] | 100% | n/a | [...] | [...] |
+| Reporting | [format, frequency] | ILPA Reporting Template 2025 | n/a | [...] | [...] |
 
 ---
 
 ## Red Flags
 
-[List each with [RED FLAG] prefix. If none, write "None identified."]
+[Each with [RED FLAG] or [DEAL-BREAKER] prefix, one paragraph, the number that proves it. If none: "None identified."]
 
 ---
 
-## Effective Management Fee Drag
+## Fee Load
 
-**Investment period:** [N] years
-**Fee basis:** [%] on [committed / invested] capital
-**Annual fee:** [USD]
-**Total investment period fees:** [USD]
-**Fee drag as % of committed capital:** [%]
-**Estimated IRR drag:** [%] per annum (before any GP alpha)
-
-[Narrative: "At [%] on committed capital with no step-down, you pay [USD] in management
-fees over [N] years. That is [%] of the fund consumed before the GP deploys a dollar."]
+| Item | GP terms | Ask |
+|------|----------|-----|
+| Investment period fee | [%, basis, years] | [...] |
+| Post-period fee | [%, basis, years] | [...] |
+| Lifetime fees, USD (fund / your commitment) | [...] | [...] |
+| Lifetime fees, % of commitment | [...] | [...] |
+| Market reference | ~19% fees + expenses after ~8 years, median 2017-vintage fund (Carta 2025) | |
 
 ---
 
 ## Verdict: [ACCEPT / NEGOTIATE / PASS]
 
-**Rationale:** [2–3 sentences — state the specific terms driving the verdict]
+**Rationale:** [2-3 sentences, naming the terms that drive it]
 
-**If NEGOTIATE — specific asks:**
-1. [Specific negotiation request — term, target value, rationale]
-2. [Specific negotiation request]
-3. [Specific negotiation request]
+**Asks (term, target, fallback):**
+1. [...]
+2. [...]
+3. [...]
 
-**If PASS — structural misalignment:**
-[State the specific combination of terms that triggers PASS and why.]
+**Walk away if:** [specific condition]
 
 ---
 
 ## LATAM Context
 
-[LATAM-specific concerns for this fund. Apply references/latam-context.md. Label
-any LATAM-specific adjustments explicitly.]
+[FX, anchor and MFN, local vehicle, emerging-manager adjustments, each labeled with its source or "directional"]
 
 ---
 
 ## Next Steps
 
-1. [Specific LP action within 14 days]
-2. [Specific LP action]
-3. [Specific LP action]
-4. [Optional: additional action]
-5. [Optional: additional action]
+1. [LP action within 14 days]
+2. [...]
+3. [...]
+
+---
+
+## Sources
+
+[ILPA 3.0, ILPA Reporting Template 2025, Carta Fund Economics 2025, plus any document the LP shared]
 ```
 
 ---
 
-## Filled Example: Cóndor Ventures Fund II LP Analysis
+## Filled Example: Cóndor Ventures Fund II
 
-**Background:** FamilyOffice Andina (Lima family office, $25M in VC allocations, first-time
-LP in a LATAM VC fund) received the Cóndor Ventures Fund II LPA and subscription agreement.
-They are considering a $2M commitment to a $60M target fund focused on early-stage fintech
-and agtech in Andean markets (Peru, Colombia, Chile). Vintage 2026.
+*Fictional fund and LP. Benchmarks are real and sourced.*
 
-**Terms received from GP:**
-- Management fee: 2.5% on committed capital, no step-down
-- Carried interest: 20%, American waterfall (deal-by-deal)
-- Hurdle rate: 6% preferred return
-- GP commit: 0.8% ($480k on $60M)
-- Clawback: Yes — but no escrow requirement
-- Key person clause: Names 3 GPs including 2 junior partners (Founders + VP Investments)
-- No-fault divorce: 85% LP supermajority required
-- FX clause: USD capital calls, distributions at GP discretion in USD or local currency
+**Background:** FamilyOffice Andina (Lima, $25M in venture allocations, first LP commitment to a LATAM
+VC fund) is considering $2M in Cóndor Ventures Fund II: $60M target, early-stage fintech and agtech in
+Peru, Colombia and Chile, 2026 vintage. A multilateral DFI anchors with $15M (25%).
+
+**Terms received:** 2.5% on committed capital for the full 10-year term, no step-down; 20% carry,
+deal-by-deal; 6% hurdle; GP commit 0.8% ($480K), funding source not stated; clawback with no escrow
+or guarantee; key person names 3 people including a VP; no-fault removal at 85% in interest; USD
+capital calls, distributions "in USD or local currency at GP discretion"; reporting in GP format.
 
 ---
 
 # LP Term Analysis: Cóndor Ventures Fund II
 
-**LP:** FamilyOffice Andina (Lima, Peru)
-**Fund:** Cóndor Ventures Fund II, 2026 vintage
-**Strategy:** Early-stage fintech + agtech, Andean markets (Peru, Colombia, Chile)
-**Fund Size:** $60M target
-**LP Commitment Considered:** $2M (3.3% of fund)
-**Analysis Date:** April 2026
+**Verdict: NEGOTIATE.** The fee has no step-down (a deal-breaker until fixed); walk away if the GP
+refuses any step-down.
+
+**LP:** FamilyOffice Andina | **Fund:** Cóndor Ventures Fund II, 2026 | **Size:** $60M target
+**Strategy:** Early-stage fintech + agtech, Andean region | **Commitment considered:** $2M (3.3%)
+**Analysis date:** October 2026
 
 ---
 
 ## Term Analysis Table
 
-| Term                  | GP Proposes                          | ILPA Standard           | LP Verdict      | Negotiation Priority |
-|-----------------------|--------------------------------------|-------------------------|-----------------|---------------------|
-| Management Fee        | 2.5% on committed capital            | 2% committed → 1.75%    | RED FLAG        | HIGH                |
-| Fee Step-Down         | None — full fee for fund life        | Required after Yr 5     | RED FLAG        | HIGH                |
-| Carried Interest      | 20%, American waterfall              | 20%, European waterfall | NEGOTIATE       | MEDIUM              |
-| Hurdle Rate           | 6% preferred return                  | 8% preferred return     | NEGOTIATE       | MEDIUM-HIGH         |
-| GP Commit             | 0.8% ($480k) — funding source unclear| 1–2%, cash-funded        | NEGOTIATE       | HIGH                |
-| Clawback              | Yes — no escrow                      | Required, ≥10% escrow   | NEGOTIATE       | HIGH                |
-| Key Person Clause     | 3 named (Founders + VP Investments)  | Senior only, vol. depart | NEGOTIATE       | HIGH                |
-| No-Fault Divorce      | 85% LP supermajority                 | 75–80% LP supermajority  | NEGOTIATE       | MEDIUM              |
+| Term | GP proposes | ILPA 3.0 | VC market (Carta 2025) | LP verdict | Priority |
+|------|-------------|----------|------------------------|------------|----------|
+| Management fee | 2.5% on committed, 10 years | Reasonable budget, offsets | Median 2%, 75th pct 2.5% | NEGOTIATE | HIGH |
+| Fee step-down | None | n/a | 81.9% step down at least once | DEAL-BREAKER | HIGH |
+| Carry and waterfall | 20%, deal-by-deal | Whole-of-fund best practice | Median 20% | NEGOTIATE | HIGH |
+| Hurdle | 6% | From capital-at-risk date | Rare: 9.5-12.4% of funds | ACCEPT (above market for VC) | LOW |
+| GP commit | 0.8%, source unknown | Substantial, in cash | Median 1.7%; $25-100M funds 1.5% | NEGOTIATE | HIGH |
+| Clawback | Yes, no escrow, no guarantee | ~30% escrow or full guarantee | n/a | RED FLAG | CRITICAL |
+| Key person | 3 names incl. a VP; trigger not stated | Automatic suspension, 180 days | n/a | NEGOTIATE | HIGH |
+| No-fault removal | 85% in interest | Supermajority (two-thirds reference) | n/a | NEGOTIATE | MEDIUM |
+| Fee offsets | Not stated | 100% | n/a | NEGOTIATE | MEDIUM |
+| Reporting | GP format | ILPA Reporting Template 2025 | n/a | NEGOTIATE | MEDIUM |
 
 ---
 
 ## Red Flags
 
-**[RED FLAG] Management fee 2.5% on committed capital with no step-down.**
-At $60M fund size, the LP base pays $1.5M per year in management fees throughout the
-fund's life — including the harvest period (years 6–12) when the GP is managing, not
-deploying, capital. There is no market justification for full fees post-investment period.
-This is the clearest misalignment in the LPA. A first-time LATAM manager cannot command
-2.5% with no step-down — that fee structure belongs to established funds with DPI track records.
+**[DEAL-BREAKER] No fee step-down.** 2.5% on $60M committed for ten years is $15M, 25% of the fund,
+charged in the harvest years when the GP is managing, not deploying. 81.9% of VC funds step down at
+least once (Carta 2025).
 
-**[RED FLAG] No management fee step-down.**
-The absence of a step-down is distinct from the fee level. Even if the GP agrees to
-reduce from 2.5% to 2.25%, the structural absence of step-down logic means the LP
-has no contractual protection in the harvest period. This must be addressed separately
-from the fee percentage.
+**[RED FLAG] Clawback with no escrow and no guarantee.** With deal-by-deal carry, the GP is paid on
+early winners before the LP has its capital back. If later deals fail, the clawback is only as good as
+the GP's willingness to pay. ILPA 3.0 asks for escrow "e.g., 30% of carry or more" or a creditworthy
+guarantee.
+
+**[RED FLAG] GP commit source unknown.** 0.8% is under the median for this fund size (1.5%, Carta
+2025). If it is funded by fee waiver, it is the LPs' money.
 
 ---
 
-## Effective Management Fee Drag
+## Fee Load
 
-**Investment period:** 5 years (assumed — Andean Seed fund typical deployment timeline)
-**Fee basis:** 2.5% on committed capital ($60M)
-**Annual fee:** $1.5M
-**Total investment period fees:** $7.5M over 5 years
-**Fee drag as % of committed capital:** 12.5% consumed by management fees in investment period alone
-**Estimated IRR drag:** ~1.8% per annum before accounting for harvest period fees
+| Item | GP terms | Ask |
+|------|----------|-----|
+| Investment period fee | 2.5% on committed, years 1-10 | 2% on committed, years 1-5 |
+| Post-period fee | (same, no step-down) | 1.5% on invested capital, years 6-10 (assume ~80% invested) |
+| Lifetime fees, fund | $15.0M | $6.0M + $3.6M = $9.6M |
+| Lifetime fees, your $2M | $500K (25%) | $320K (16%) |
+| Market reference | ~19% fees + expenses after ~8 years, median 2017-vintage fund (Carta 2025) | |
 
-At 2.5% on committed capital with no step-down, FamilyOffice Andina's $2M commitment
-generates $250k in management fees in the investment period. That is 12.5% of your check
-consumed before the GP deploys a single dollar to portfolio companies. Assuming a 10-year
-fund life at full fee, total fees on your commitment reach $500k — 25% of your initial capital.
-For the LP to break even on fees alone requires the fund to return >1.25× your invested capital
-before carry participation. That is the hurdle you are paying for before any GP economics apply.
+The GP's terms put your fee load 6 points above the market reference before a single expense; the ask
+lands below it and leaves room for fund expenses.
 
 ---
 
 ## Verdict: NEGOTIATE
 
-**Rationale:** Two RED FLAGs exist (management fee level and absence of step-down) but
-neither is categorically fatal when taken in isolation — both are correctable via side letter.
-The remaining terms (20% carry with American waterfall, 6% hurdle, weak key person clause,
-clawback without escrow) are each individually negotiable. The combination does not yet
-trigger the structural misalignment PASS threshold (which requires all three: fee >2.5%
-with no step-down, no-fault divorce >90%, AND GP commit <0.5%). GP commit of 0.8% is
-below ILPA minimum but above the PASS threshold.
+**Rationale:** one deal-breaker (no step-down) and one structural red flag (unsecured clawback under
+deal-by-deal carry). Both are fixable in the LPA before final close. The hurdle is better than VC
+market and should not be traded away; use it as a concession if needed.
 
-**Specific negotiation asks:**
+**Asks (term, target, fallback):**
+1. **Step-down:** 2% in years 1-5, then 1.5% on invested capital. Fallback: 2.25% then 1.75% on
+   committed.
+2. **Waterfall and clawback:** whole-of-fund carry. Fallback: keep deal-by-deal but add 30% carry
+   escrow plus joint and several GP guarantee, gross of taxes.
+3. **GP commit:** written confirmation it is cash, with a path to 1.5% by final close.
+4. **Key person:** the two founding partners only; triggers include departure and less than
+   substantially all business time; automatic suspension per ILPA 3.0.
+5. **Reporting and FX (side letter):** quarterly ILPA Reporting Template 2025; USD distributions,
+   local currency only with LPAC approval.
 
-1. **Management fee step-down:** Negotiate step-down from 2.5% to 1.75% on invested capital
-   (not committed capital) after the investment period (year 5). If GP refuses step-down
-   entirely, reduce fee to 2% flat as minimum condition for signing.
-
-2. **Waterfall structure:** Request European waterfall (whole-fund carry) instead of American
-   waterfall (deal-by-deal). American waterfall in early-exit scenarios distributes carry to
-   the GP before the LP recovers full capital. European waterfall ensures LP-first capital
-   recovery before any carry distribution.
-
-3. **Key person clause:** Narrow named key persons to Founding Partners only (remove VP
-   Investments from key person definition). Add voluntary departure as trigger event. Request
-   automatic investment period suspension (not just LP vote) upon key person departure.
-
-4. **Clawback escrow:** Request 10% escrow on all carried interest distributions, held in
-   a separate LP-controlled account, released only upon fund wind-down and final clawback
-   reconciliation.
-
-5. **FX clause:** Request explicit USD distribution language — GP may distribute in local
-   currency only with prior written LPAC approval. This protects FamilyOffice Andina from
-   receiving depreciated Peruvian sol or Colombian peso distributions.
+**Walk away if:** the GP refuses any step-down, or refuses both whole-of-fund carry and escrow.
 
 ---
 
 ## LATAM Context
 
-**FX risk:** The GP's "USD or local currency at GP discretion" clause is a material risk
-for FamilyOffice Andina's USD-denominated family office balance sheet. The Andean markets
-(Peru, Colombia, Chile) have moderate FX volatility, but the current political environment
-in Peru (as of 2026) adds tail risk to local currency distributions. Request USD-only
-distribution clause in your side letter — this is a non-negotiable LP protection.
-
-**First-time LP context:** As a first-time LP in a LATAM VC fund, FamilyOffice Andina
-is in a weaker negotiating position than institutional LPs (pension funds, fund of funds).
-The ILPA model LP side letter (available at ilpa.org/model-lpa) provides a pre-negotiated
-baseline that is recognized by market-standard GPs — use it as your opening position, not
-as aspirational terms. Cóndor Ventures has incentive to close LPs and will negotiate;
-they will not walk from a $2M commitment over a fee step-down request.
-
-**Emerging manager adjustment:** Cóndor Ventures Fund II is a second-fund manager with a
-first-fund DPI of approximately 0.3× (early fund, mostly unrealized). The 6% hurdle rate
-(below ILPA 8%) is within acceptable range for LATAM given the region's lower risk-free
-rate environment, but the combination of 6% hurdle + American waterfall means the GP can
-earn carry on individual winning deals while the LP's overall fund performance lags. Push
-to 8% hurdle OR European waterfall — not both simultaneously, as that is too aggressive
-a negotiation position for a $2M commitment.
+- **Anchor math:** the DFI holds 25%. At an 85% no-fault threshold, the DFI alone can block removal;
+  at 75% it cannot. Ask for 75%, and read the DFI's side letter through the MFN clause: E&S reporting
+  and integrity clauses usually come with it *(directional)*, and any fee discount should be visible.
+- **FX:** Andean currencies against a USD fund. "Local currency at GP discretion" moves FX risk onto
+  you. USD-only distributions are a standard side letter ask.
+- **Emerging manager:** a $60M Fund II gets some room on fee level (2.25-2.5% with a step-down) but
+  not on structure. Small funds can outperform (2019 vintage: 90th-pct TVPI 4.91x for $1-10M funds vs
+  1.92x for $100M+, Carta Emerging Manager Paradox, Oct 2026), which is why you are here, and why the
+  protections still matter.
+- **Hurdle:** the hurdle runs on USD contributions, so local interest rates do not justify a higher or
+  lower one. Most VC funds have none (Carta 2025); the 6% is already a concession by the GP.
 
 ---
 
 ## Next Steps
 
-1. **Propose ILPA model LP side letter as negotiation baseline.** Download the ILPA model
-   LPA side letter from ilpa.org/model-lpa and submit it to Cóndor Ventures as your
-   starting negotiation position — specifically Articles covering management fee step-down,
-   no-fault divorce at 75%, and clawback escrow.
+1. **Send the asks above in one redline** to the GP's counsel this week, using the ILPA Model LPA
+   language for clawback and key person as the drafting reference.
+2. **Ask for GP commit evidence:** the GP entity's capital account at first close showing cash funded.
+3. **Get the DFI side letter terms** through the MFN process before signing yours.
+4. **Call two Fund I LPs:** how the GP reported in a down quarter and how it handled LPAC requests.
+5. **Peruvian counsel review** of the FX and distribution clauses (2-3 hours of work).
 
-2. **Request GP commit funding documentation.** Ask the GP to confirm in writing that
-   their 0.8% commit ($480k) is funded with personal cash, not management fee waivers.
-   Request a capital account statement showing GP commitment funded at or before first
-   capital call.
+---
 
-3. **Request legal review of FX and political risk provisions.** Engage a Peruvian
-   funds lawyer to review the LPA for FX distribution language and any provisions
-   that could affect Lima-based LP's USD recovery in an Andean political risk scenario.
+## Sources
 
-4. **Reference check Founding Partners.** Before finalizing commitment, contact 3 LPs
-   from Cóndor Ventures Fund I — specifically ask about GP transparency during down-portfolio
-   scenarios and responsiveness to LPAC requests. Fund I is sufficiently mature to have
-   meaningful data on GP-LP relationship quality.
+- ILPA Principles 3.0 (2019): https://ilpa.org/wp-content/uploads/2019/06/ILPA-Principles-3.0_2019.pdf
+- ILPA Reporting Template (2025): https://ilpa.org/industry-guidance/templates-standards-model-documents/reporting-template
+- Carta Fund Economics Report 2025: https://carta.com/data/fund-economics-report-2025-full-article/
+- Carta, The Emerging Manager Paradox (6 Oct 2026)

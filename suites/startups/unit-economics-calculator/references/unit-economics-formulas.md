@@ -90,7 +90,7 @@ at Pre-seed/Seed with clear path to 3:1+ as gross margins improve or churn decre
 | Series A | ≤18 months | ≤12 months |
 | Series B | ≤12 months | ≤9 months |
 
-*(US: OpenView SaaS Benchmarks; LATAM: Cuantico 2026)*
+*(US and LATAM ranges: directional; see latam-context.md)*
 
 ### Contribution Margin
 
@@ -202,9 +202,10 @@ LTV (lending-adjusted) = LTV_base − (Expected loan volume × Default rate × L
 | Metric | Pre-Seed | Seed | Series A | Source |
 |--------|---------|------|---------|--------|
 | LTV/CAC | Any positive | ≥1.5:1 | ≥3:1 | David Skok SaaS Metrics 2.0 |
-| CAC Payback (US, SaaS) | N/A | ≤24 months | ≤18 months | OpenView SaaS Benchmarks |
-| CAC Payback (LATAM, SaaS) | N/A | ≤18 months | ≤12 months | Cuantico 2026 |
-| Gross Margin (SaaS) | ≥50% | ≥60% | ≥65% | Bessemer BVP |
+| CAC Payback (US, SaaS) | N/A | ≤24 months | ≤18 months | Directional (OpenView ranges, now offline) |
+| CAC Payback (LATAM, SaaS) | N/A | ≤18 months | ≤12 months | Directional, LAN read |
+| Gross Margin (SaaS) | ≥50% | ≥60% | ≥65% | Bessemer (Scaling to $100M, 2021), directional by stage |
+| Gross Margin (AI-native, inference in COGS) | any, trending up | ≥50% | ≥60% | ICONIQ State of AI, Jan 2026 (avg ~52% projected 2026) |
 | Monthly Logo Churn | Any | ≤5% | ≤2% | Bessemer BVP |
 | NRR (SaaS) | N/A | >100% | >110% | a16z / BVP |
 
@@ -213,6 +214,6 @@ LTV (lending-adjusted) = LTV_base − (Expected loan volume × Default rate × L
 ## Sources
 
 - David Skok SaaS Metrics 2.0: https://www.forentrepreneurs.com/saas-metrics-2/
-- OpenView SaaS Benchmarks: https://openviewpartners.com/saas-benchmarks-report/
-- Bessemer BVP Roadmap to Epiq: https://www.bvp.com/atlas/roadmap-to-epiq
-- a16z 16 Metrics: https://a16z.com/16-metrics/
+- High Alpha and Growth Unhinged, 2025 SaaS Benchmarks Report (12 Nov 2025, 800+ companies; replaces the offline OpenView benchmarks): https://www.highalpha.com/saas-benchmarks
+- Bessemer, Scaling to $100 Million (21 Sep 2021): https://www.bvp.com/atlas/scaling-to-100-million
+- a16z 16 Metrics: https://a16z.com/16-startup-metrics/

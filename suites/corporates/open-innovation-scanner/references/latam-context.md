@@ -1,7 +1,16 @@
 # LATAM Corporate Innovation Context
 
-**When to use:** open-innovation-scanner skill — load before Step 5 (LATAM Context).
-**Sources:** BCG 2024, NESTA LATAM 2023, IDB 2024, LAVCA 2025, Cuantico 2026.
+> **Data status (Oct 2026 review):** the benchmark figures in this file that were attributed to a
+> "BCG 2024 / BCG LATAM 2024" survey, a "NESTA LATAM Corporate Innovation Study 2023", "McKinsey
+> LATAM Corporate Innovation 2024", an "IDB Digital Transformation Report 2024" or "GCV 2024" could
+> not be traced to any published report. They are kept only as directional practitioner heuristics,
+> now marked "(directional, source unverified)". Never present them as data or attach a firm's name to them in output.
+> Frameworks (Chesbrough, Gartner Hype Cycle, CB Insights market maps, BCG's CVC models) are fine to use.
+> Specific numbers attributed to named programs or firms (Techstars, Wayra, 500 Global, CB Insights,
+> Gartner, Intel Capital) were not verified either: use them as design patterns, not as published data.
+
+**When to use:** open-innovation-scanner skill, load before Step 5 (LATAM Context).
+**Sources:** directional, source unverified, LAVCA 2025, Cuantico 2026.
 
 ---
 
@@ -26,13 +35,13 @@ The single largest barrier to corporate-startup partnerships in LATAM:
 | Compliance / IT security review | 1–2 months | 2–4 weeks | Especially for cloud/SaaS startups accessing internal data |
 | First payment to startup | 4–9 months total | 6–8 weeks total | Many LATAM startups cannot survive this gap without bridge financing |
 
-**Structural fix (NESTA LATAM 2023):** Corporates with pre-approved MSA templates and
+**Structural fix (directional, source unverified):** Corporates with pre-approved MSA templates and
 startup vendor categories reduce time-to-first-payment to 6–10 weeks. This is the single
 most impactful internal change a corporate can make to enable real startup partnerships.
 
 ### Internal Champion Requirement
 
-**Source:** NESTA LATAM Corporate Innovation Study 2023.
+**Source:** directional, source unverified.
 
 | Champion Level | Pilot Completion Rate | Notes |
 |---------------|----------------------|-------|
@@ -47,12 +56,12 @@ individual at VP level or above who owns the pilot outcome in their performance 
 
 ### Pilot Success Criteria
 
-**Source:** BCG 2024, NESTA LATAM 2023.
+**Source:** directional, source unverified.
 
 - Only **31% of LATAM corporate pilots** define success criteria before starting
-  *(vs. 68% in US — BCG 2024)*
+  *(vs. 68% in US, directional, source unverified)*
 - This is the primary kill-criteria failure: without defined success criteria, pilots
-  never produce a "go/no-go" decision — they run until budget is exhausted
+  never produce a "go/no-go" decision, they run until budget is exhausted
 - Required pilot documentation before any startup engagement:
   1. Problem statement (specific, measurable)
   2. Success criteria (quantitative threshold for proceeding to scale)
@@ -63,7 +72,7 @@ individual at VP level or above who owns the pilot outcome in their performance 
 
 ---
 
-## LATAM Corporate Innovation Models — Case Studies
+## LATAM Corporate Innovation Models, Case Studies
 
 ### Bancolombia Digital Factory / Nequi (Colombia)
 
@@ -74,7 +83,7 @@ that happens to have Bancolombia as an anchor partner.
 **What works:** Full autonomy for the innovation unit; Bancolombia as first customer,
 not as controller. Nequi reached 12M users before spin-off discussion.
 
-**Model:** Coupled (Chesbrough) — internal innovation that operates as if external.
+**Model:** Coupled (Chesbrough), internal innovation that operates as if external.
 Template for corporate-sponsored spinout in LATAM financial services.
 
 **Source:** Bancolombia Annual Report 2024; Nequi public metrics.
@@ -85,7 +94,7 @@ Template for corporate-sponsored spinout in LATAM financial services.
 with resident startups, corporate mentorship, pilot pathways.
 
 **Performance:** 2.5× more qualified startups sourced vs. internal lab equivalent
-*(NESTA LATAM 2023)*. 23 commercial agreements executed in 2024.
+*(directional, source unverified)*. 23 commercial agreements executed in 2024.
 
 **Model:** Outside-In (Chesbrough) with structured sourcing. Best practice for large
 Brazilian banks, telcos, and CPG companies with physical presence in São Paulo.
@@ -97,11 +106,11 @@ Telefónica's connectivity infrastructure; creates commercial partnerships.
 
 **Performance:** 50+ active portfolio companies; 8 exits (2 acquisitions by Vivo).
 
-**Model:** Coupled — combines investment with commercial partnership requirements.
+**Model:** Coupled, combines investment with commercial partnership requirements.
 Startup must generate revenue from Telefónica customers within 12 months of investment.
 Forces accountability that pure accelerator models lack.
 
-### Ruta N Medellín (Colombia — Public Sector Model)
+### Ruta N Medellín (Colombia, Public Sector Model)
 
 **Structure:** Medellín city government-backed innovation hub. Open to all
 corporates as startup sourcing channel.
@@ -122,26 +131,26 @@ as their primary startup pipeline.
 | Manufacturing | 28% | Predictive maintenance, quality control AI, digital twin | Partner with long runway |
 | Agribusiness | 22% | Precision agriculture, supply chain, financing | Partner or Build internal |
 
-*Source: IDB Digital Transformation Report 2024; BCG 2024.*
+*Source: directional, source unverified; directional, source unverified.*
 
 ---
 
 ## LATAM FX Risk in Innovation Budgets
 
-**Source:** BCG 2024, LAVCA 2025.
+**Source:** directional, source unverified, LAVCA 2025.
 
 - Innovation budgets typically denominated in local currency (COP, BRL, MXN, ARS)
 - Startup pilots often priced in USD (especially if startup is funded in USD)
 - FX risk affects pilot ROI calculations:
   - Colombian peso (COP): ~10–15% annual volatility
   - Brazilian real (BRL): ~8–12% annual volatility
-  - Argentine peso (ARS): extreme volatility — avoid USD-denominated pilot contracts
+  - Argentine peso (ARS): extreme volatility, avoid USD-denominated pilot contracts
     with Argentine startups unless corporate has USD reserves
   - Mexican peso (MXN): relatively stable; ~5–8% annual volatility
 
 **Structural fix:** Price pilots in a stable currency unit (USD or LATAM-USD equivalent)
 and include FX clause in MSA. Do not lock in a fixed local-currency price for a 12-month
-pilot — the startup will be underwater by month 6 in volatile-currency markets.
+pilot, the startup will be underwater by month 6 in volatile-currency markets.
 
 ---
 
@@ -158,15 +167,12 @@ pilot — the startup will be underwater by month 6 in volatile-currency markets
 
 **Key insight:** Corporate teams without existing startup networks should budget 3–6 months
 for sourcing before any pilot can begin. The procurement timeline only starts once a
-qualified startup is identified — sourcing adds to the total timeline.
+qualified startup is identified, sourcing adds to the total timeline.
 
 ---
 
 ## Sources for this File
 
-- BCG 2024 Corporate Innovation Survey: https://www.bcg.com/publications/2024/corporate-innovation-benchmarking
-- NESTA LATAM Corporate Innovation Study 2023: https://www.nesta.org.uk/toolkit/open-innovation-toolkit/
-- IDB Digital Transformation Report 2024: https://publications.iadb.org/en/publications/english
 - LAVCA 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
 - Cuantico 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
 - Bancolombia Annual Report 2024: https://www.grupobancolombia.com/investors

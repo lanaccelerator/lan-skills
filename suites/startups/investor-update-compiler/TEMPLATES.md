@@ -1,17 +1,17 @@
-# Investor Update Compiler — Output Template
+# Investor Update Compiler: Output Template
 
 ALWAYS use this exact structure for cap-table audience updates. Adapt down for prospect/newsletter audiences (per audience adaptation table in SKILL.md). Every section here is required.
 
 ---
 
-## Example Output: Trezo — April 2026 (Cap Table audience)
+## Example Output: Trezo: April 2026 (Cap Table audience)
 
-*This is a filled example for Trezo — a Paraguayan B2B SaaS for recurring billing of SMBs, $95K MRR, 47 customers, early post-revenue. Use it as the structural template for every monthly investor update.*
+*This is a filled example for Trezo, a hypothetical Paraguayan B2B SaaS for recurring billing of SMBs, $95K MRR, 47 customers, early post-revenue. Use it as the structural template for every monthly investor update.*
 
 ---
 
 ```
-Subject: Trezo — April 2026 Update
+Subject: Trezo, April 2026 Update
 
 Hi [Name],
 
@@ -33,8 +33,8 @@ Financials April 2026
 - Total costs: $105.2K (payroll $60K, marketing $38K, infra $5.7K, other $1.5K)
 - Net burn: -$10.2K
 - Cash balance at close: $327.3K
-- Runway at current pace: ~32 months (assuming stable burn)
-- Base-case runway (no new capital and growth flat): ~14 months
+- Runway at current net burn: ~32 months
+- Stress case (revenue flat, costs +30%, net burn ~$42K/month): ~8 months
 
 Capital plan: opening Seed $1.5M round in June 2026 to close before September.
 
@@ -51,7 +51,7 @@ Asks
 1. Intros to Heads of Operations at regional logistics companies with 50+ drivers. Validating enterprise tier and need 2 more conversations.
 2. Pricing feedback on the $99 tier before May 7. Sending a separate draft to whoever wants to review.
 
-Looking ahead — May 2026
+Looking ahead, May 2026
 - Close 5 new customers above $200/month
 - Launch $99 tier relaunch on 05/10
 - Onboard María (CSM)
@@ -69,10 +69,10 @@ Appendices on request: 12-month KPIs, April cohort retention, Q2 OKRs with detai
 
 ## Anti-patterns Detected and Removed
 
-- **"Things are going great"** — vague. Replaced with the +19% MoM MRR delta in TL;DR.
-- **"Need help with intros"** — vague ask. Replaced with specific persona, industry, and quantity ("Heads of Operations at regional logistics companies with 50+ drivers, 2 more conversations").
-- **"Working on reducing churn"** — lament without plan. Replaced with concrete action (launch $99 tier on May 10) plus expected impact (1–1.5 pts in 60 days).
-- **No financial section in original draft** — added mandatory section with revenue, costs, burn, cash, and runway. Cap-table investors expect this every month.
+- **"Things are going great"**: vague. Replaced with the +19% MoM MRR delta in TL;DR.
+- **"Need help with intros"**: vague ask. Replaced with specific persona, industry, and quantity ("Heads of Operations at regional logistics companies with 50+ drivers, 2 more conversations").
+- **"Working on reducing churn"**: lament without plan. Replaced with concrete action (launch $99 tier on May 10) plus expected impact (1–1.5 pts in 60 days).
+- **No financial section in original draft**: added mandatory section with revenue, costs, burn, cash, and runway. Cap-table investors expect this every month.
 
 ---
 

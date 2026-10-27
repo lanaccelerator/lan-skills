@@ -32,7 +32,9 @@ Every term has a price. Anti-dilution protection costs you in down-round scenari
 | 2× participating preferred (or higher) | Investor gets 2× investment back before any common distribution | Rare in current market; seen in down rounds or distressed financings |
 | Capped participation | Participating up to a cap (e.g., 3×), then converts | Compromise position; protects founders in mid-size exits |
 
-**Market standard (2024–2025):** 1× non-participating at Series A and beyond. Pre-seed SAFE notes have no liquidation preference.
+**Market standard (2024-2026):** 1x non-participating at Series A and beyond *(directional, practitioner consensus)*. A SAFE carries no liquidation preference until it converts; at a liquidity event before conversion it pays back the purchase amount or converts, per the YC post-money SAFE (`shared/frameworks/safe-note.md`).
+
+**Dilution anchors (US-sourced benchmark):** median dilution per priced round is about 19-20% at seed and 18% at Series A, and it is not rising (Carta, 2025). A term sheet implying well above 25% at one round needs a reason.
 
 ### Anti-Dilution
 
@@ -89,15 +91,15 @@ Standard: monthly financials, quarterly board meeting, annual audited statements
 
 Investor right to participate in future rounds to maintain ownership percentage.
 
-- **Major investor threshold:** Typically investors holding >$500K–$1M have pro-rata rights.
+- **Major investor threshold:** set in the term sheet; often tied to a minimum holding *(directional: $500K-$1M in US Series A practice)*.
 - **Super pro-rata:** Right to invest more than pro-rata share in future rounds. Aggressive; usually resisted by founders.
 
 ## Stage-Appropriate Standards
 
 | Stage | Instrument | Key Terms |
 |-------|-----------|-----------|
-| Pre-seed | YC SAFE (post-money, no discount) | Valuation cap, MFN clause |
-| Seed | YC SAFE (post-money with discount) OR priced seed round | 1× non-participating preferred |
+| Pre-seed | YC post-money SAFE (cap, no discount) or uncapped MFN | Valuation cap, pro rata via side letter |
+| Seed | YC post-money SAFE (cap, no discount) OR priced seed round | 1x non-participating preferred |
 | Series A | Priced round | 1× non-participating, broad-based WA anti-dilution, 5-person board |
 | Series B+ | Priced round | Similar to A; add more complex participation rights in down markets |
 

@@ -25,10 +25,12 @@ NAME = r"([a-z0-9-]+\.md)"
 LINK = re.compile(r"\[([^\]]*)\]\((?:\.\./)*(?:\.?/)?shared/frameworks/" + NAME + r"\)")
 # bare @shared/frameworks/x.md or shared/frameworks/x.md outside a link target
 BARE = re.compile(r"@?shared/frameworks/" + NAME)
+# links already rewritten by a previous run: references/shared/x.md or shared/x.md
+LOCAL = re.compile(r"(?:references/)?shared/" + NAME)
 
 
 def shared_refs(text):
-    return {m[1] for m in LINK.findall(text)} | set(BARE.findall(text))
+    return {m[1] for m in LINK.findall(text)} | set(BARE.findall(text)) | set(LOCAL.findall(text))
 
 
 def closure(names):

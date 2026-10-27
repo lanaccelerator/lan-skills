@@ -1,16 +1,19 @@
 ---
 name: pricing-strategy-designer
 description: >
-  For STARTUP FOUNDERS. Pricing strategy and packaging design.
-  ALWAYS invoke when a founder asks how to price their product,
-  what pricing model to use (subscription vs usage vs freemium),
-  how to structure packaging tiers, or whether their current prices
-  are right. NOT for calculating unit economics or LTV/CAC
-  (use unit-economics-calculator for those calculations).
+  Use when a founder asks how to price or package their product: "cuánto cobro", "cómo armo
+  mis planes de precios", "suscripción, por uso o freemium", "estoy cobrando muy barato?",
+  "cómo cobro un producto de AI o un agente", "precios en dólares o moneda local". Finds the
+  value metric (ProfitWell method), picks the model (seat, flat, usage, outcome, hybrid,
+  transaction), designs 3 tiers, benchmarks competitors, flags LATAM chronic underpricing and
+  ends with a concrete price test. Covers AI-native pricing with inference cost as a floor.
+  NOT for computing CAC, LTV, payback or contribution margin (use unit-economics-calculator),
+  valuation or the round price (use startup-valuation-benchmark), or the sales process and
+  pipeline (use sales-playbook-generator).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.1"
+  version: "1.2"
   suite: startups
 license: MIT
 ---
@@ -24,7 +27,7 @@ currency denomination and chronic underpricing.
 
 ## Step 1: Input Gathering
 
-Ask all eight questions in ONE message. Do not start designing until you have answers
+Ask all questions in ONE message. Do not start designing until you have answers
 (or stated assumptions) for each.
 
 1. **Business model and product description:** What the product does and who uses it
@@ -42,8 +45,13 @@ Ask all eight questions in ONE message. Do not start designing until you have an
 8. **Stage:** Pre-revenue (designing from scratch) / Early revenue (optimizing existing)
    / Growth (restructuring tiers)
 
+9. **AI cost per unit (AI products only):** model/inference cost per task, conversation or
+   active user, if known
+
 If the user does not answer a question, proceed with a stated assumption and flag it
-as: `[ASSUMPTION: ...]`. Do not silently skip inputs.
+as: `[ASSUMPTION: ...]`. Do not silently skip inputs. If a company brain (LAN Brain or
+another MCP-connected knowledge base) is available, pull current pricing, customer case
+studies and competitor notes from it before asking.
 
 ## Step 2: Apply Frameworks
 
@@ -53,13 +61,15 @@ Apply these frameworks in order:
 1. **Patrick Campbell / ProfitWell value metric framework** — The value metric is what
    customers pay for that scales with the value they receive. Pricing that is not tied to
    a value metric is flat pricing — it cannot grow without seat expansion or price increases.
-   Source: https://www.profitwell.com/recur/all/saas-pricing
-2. **OpenView Partners SaaS Pricing Survey** — Product-led growth pricing benchmarks,
-   usage-based pricing adoption rates, expansion revenue patterns.
-   Source: https://openviewpartners.com/2023-saas-pricing-survey/
-3. **Sequoia Pricing Guide** — Pricing is the most powerful lever in your business;
-   a 1% improvement in price = 11× the profit impact of a 1% improvement in volume.
-   Source: https://www.sequoiacap.com/article/pricing-your-product/
+   Source: Patrick Campbell / ProfitWell (now Paddle) value-based pricing method; the original profitwell.com articles are offline
+2. **Kyle Poyar, Growth Unhinged** (former OpenView pricing lead; OpenView's surveys are
+   offline since the firm closed): usage-based and hybrid pricing patterns, PLG pricing,
+   and the 2025 SaaS Benchmarks Report with High Alpha (12 Nov 2025).
+   Source: https://www.growthunhinged.com/
+3. **Price is the strongest profit lever** (Marn and Rosiello, "Managing Price, Gaining
+   Profit", HBR, Sep-Oct 1992, 2,400+ companies): a 1% price improvement with no volume
+   loss lifts operating profit 11.1%, vs 3.3% for a 1% volume improvement.
+   Source: https://hbr.org/1992/09/managing-price-gaining-profit
 4. **"Monetizing Innovation" (Simon-Kucher)** — Feature packaging and willingness-to-pay
    methodology. Price to value, not to cost.
    Source: https://www.simon-kucher.com/en/book/monetizing-innovation
@@ -77,14 +87,19 @@ Execute in this exact order:
 3. **Design 3 pricing tiers** — Starter / Growth / Enterprise — with feature sets, price
    anchors, and target customer segments per tier
 4. **Build a competitive pricing table** — user's proposed price vs 2-3 competitors
-5. **Price sensitivity estimate** — rough willingness-to-pay based on segment, geography,
+5. **Margin floor check (AI and usage-heavy products):** price per unit must cover
+   inference and third-party API cost with gross margin of at least 60% at the expected
+   usage of the median customer; show the math. AI products average far below SaaS margins
+   (Step 5, AI-native pricing). Cap or meter heavy usage in
+   every tier so one power user cannot turn a customer unprofitable.
+6. **Price sensitivity estimate:** rough willingness-to-pay based on segment, geography,
    and delivered value (value-based pricing, not cost-plus)
-6. **Flag chronic underpricing** if present — this is common in LATAM and must be addressed
+7. **Flag chronic underpricing** if present: this is common in LATAM and must be addressed
    directly. Do not soften it. If the founder is underpriced, say so and give the evidence.
-7. Apply LATAM context annotations from
+8. Apply LATAM context annotations from
    [references/latam-context.md](references/latam-context.md)
-8. Output using [TEMPLATES.md](TEMPLATES.md) structure
-9. **Next Steps** including a specific A/B price test recommendation
+9. Output using [TEMPLATES.md](TEMPLATES.md) structure
+10. **Next Steps** including a specific A/B price test recommendation
 
 ## Step 4: Output Format
 
@@ -112,9 +127,10 @@ Key LATAM pricing realities:
   founders fear churn. If a founder's case studies show $1,000+ in annual savings per
   customer but they charge $29/month, they are at 2% of delivered value. Raise prices
   before raising capital.
-- **LATAM discount is real but overstated:** 40-60% below US equivalent is common and
-  usually justified by lower customer LTV and willingness to pay. But "we're in LATAM"
-  is not a justification for pricing at 5-10% of delivered value.
+- **LATAM discount is real but overstated:** LATAM prices sit well below US equivalents
+  (directional: no rigorous LATAM pricing survey exists). Lower willingness to pay can
+  justify part of the gap; "we're in LATAM" does not justify pricing at 5-10% of
+  delivered value.
 - **Currency denomination decision:**
   - USD pricing: Signals international ambition, provides FX hedge against devaluation.
     Right choice for multi-country LATAM products and any product targeting US customers.
@@ -126,7 +142,8 @@ Key LATAM pricing realities:
   of proof before committing to annual contracts. Lead with monthly pricing at 1.2-1.3×
   the annual equivalent (not annual-first as in US SaaS). Example: $49/month OR $39/month
   billed annually.
-- **Freemium conversion in LATAM:** 1-3% conversion rate vs 2-5% in US. Shorter free
+- **Freemium conversion in LATAM:** expect low single-digit free-to-paid conversion
+  (directional; measure your own). Shorter free
   tiers with more friction to upgrade are more effective than open-ended free plans.
   If using freemium, design for conversion, not for adoption.
 - **AI-native products: price the outcome, not the seat.** Across YC S26, a16z speedrun
@@ -136,6 +153,9 @@ Key LATAM pricing realities:
   (Julien Bek): sell the work, not the tool, so each model improvement widens your margin
   instead of commoditizing you. If the product replaces work an agent does end to end,
   model at least one outcome-based option before defaulting to seats.
+  Market data: in ICONIQ's State of AI snapshot (Jan 2026), usage-based pricing rose from
+  19% to 35% of AI companies and outcome-based from 2% to 18% in six months, and AI product
+  gross margins average around 50%, well below SaaS. Price above the inference cost floor.
 
 ## Tone & Editorial Voice
 
@@ -159,11 +179,15 @@ tier page vs your current $29 page. Measure the signup rate difference. A drop o
 20% in signup rate means the market can absorb the higher price — raise prices immediately.
 Shadow tests require no engineering: two landing pages, split by even/odd day of week."
 
+Then hand off: run `/unit-economics-calculator` with the new price to confirm LTV/CAC and
+payback, and `/sales-playbook-generator` if the new tiers change who sells and how.
+
 ## Sources
 
-- ProfitWell value metric: https://www.profitwell.com/recur/all/saas-pricing
-- OpenView Pricing Survey: https://openviewpartners.com/2023-saas-pricing-survey/
-- Sequoia Pricing Guide: https://www.sequoiacap.com/article/pricing-your-product/
+- ProfitWell value metric: Patrick Campbell / ProfitWell (now Paddle) value-based pricing method; the original profitwell.com articles are offline
+- Kyle Poyar, Growth Unhinged (pricing research; replaces the offline OpenView survey): https://www.growthunhinged.com/
+- Marn and Rosiello, "Managing Price, Gaining Profit", HBR 1992: https://hbr.org/1992/09/managing-price-gaining-profit
+- ICONIQ State of AI bi-annual snapshot, Jan 2026 (summary: SaaStr, 28 Jan 2026): https://saastr.com/inference-costs-average-23-of-revenue-at-ai-b2b-companies-how-will-you-pay-for-it
 - Monetizing Innovation: https://www.simon-kucher.com/en/book/monetizing-innovation
 - [Pricing Framework](references/pricing-framework.md) — value metric taxonomy, model decision tree
 - [LATAM Context](references/latam-context.md) — currency decisions, benchmarks, chronic underpricing

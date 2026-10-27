@@ -1,9 +1,9 @@
-# Pilot Program Designer — Template
+# Pilot Program Designer: Template
 
 ## Template: Pilot Program Document
 
 This template shows the exact output format. Fill every field. Do not leave placeholders.
-Use the Claro Colombia / TechBot IA example below as the reference for tone, specificity,
+Use the TelcoAndina / TechBot IA example below (both hypothetical) as the reference for tone, specificity,
 and structure.
 
 ---
@@ -12,7 +12,7 @@ and structure.
 
 **Prepared by:** [Innovation Director Name]
 **Date:** [Date]
-**Status:** Draft — Awaiting Kill Criteria Sign-Off
+**Status:** Draft, Awaiting Kill Criteria Sign-Off
 
 ---
 
@@ -22,7 +22,7 @@ and structure.
 
 **Example:**
 Reduce Tier 1 support ticket resolution time from 48 hours to 12 hours for internet
-connectivity issues in the Bogotá residential segment (Claro Colombia, Customer
+connectivity issues in the Bogotá residential segment (TelcoAndina, Customer
 Experience Management). Current median: 48 hours, measured via ServiceNow ticket data from
 Q4 2025. Target: 12 hours median by Day 60 of pilot. Evaluation date: April 15, 2026.
 Startup: TechBot IA (Bogotá, AI customer service routing, 3 enterprise customers including
@@ -38,7 +38,7 @@ ETB and Movistar Colombia).
 | Customer satisfaction (CSAT) | 3.8/5.0 | ≥4.2/5.0 | <3.5/5.0 | Post-resolution survey | Biweekly | Lag |
 | AI escalation rate to human agents | 68% | ≤25% | >40% | TechBot IA dashboard | Weekly | Lead |
 
-**Notes:** 3 KPIs maximum for a 90-day pilot. Resolution time is the primary KPI — the
+**Notes:** 3 KPIs maximum for a 90-day pilot. Resolution time is the primary KPI, the
 others are directional. CSAT measures customer impact; escalation rate is the lead
 indicator that predicts resolution time trajectory.
 
@@ -57,21 +57,21 @@ indicator that predicts resolution time trajectory.
 | ServiceNow API access granted to TechBot IA | IT (1 engineer, 40 hours) | Day -7 | Pending |
 | DPA (Data Processing Agreement) signed | Legal + CRC review | Day -14 | Pending |
 
-**Phase 1 — Integration and Training (Days 1–30):**
+**Phase 1, Integration and Training (Days 1–30):**
 - Days 1–14: ServiceNow integration + TechBot IA training data ingestion (historical ticket data)
-- Days 15–21: Internal UAT (user acceptance testing) — 50 tickets/day in test environment
-- Days 22–30: Soft launch — 200 tickets/day from Bogotá residential segment only
+- Days 15–21: Internal UAT (user acceptance testing), 50 tickets/day in test environment
+- Days 22–30: Soft launch, 200 tickets/day from Bogotá residential segment only
 
 **Midpoint Go/No-Go Gate (Day 60):**
 - Kill criteria applied (see Section 5)
 - Decision: GO (proceed to full launch) or NO-GO (terminate pilot)
 - Decision authority: Jorge Méndez + VP Technology
 
-**Phase 2 — Full Launch (Days 31–60):**
-- Days 31–45: Scaled launch — 500 tickets/day; weekly performance review
-- Days 46–60: Full launch — 2,000 tickets/day; biweekly KPI review with Jorge Méndez
+**Phase 2, Full Launch (Days 31–60):**
+- Days 31–45: Scaled launch, 500 tickets/day; weekly performance review
+- Days 46–60: Full launch, 2,000 tickets/day; biweekly KPI review with Jorge Méndez
 
-**Phase 3 — Evaluation (Days 61–90):**
+**Phase 3, Evaluation (Days 61–90):**
 - Days 61–75: Performance analysis + commercial negotiation (if GO at Day 60 gate)
 - Days 76–90: Final evaluation + commercial decision
 
@@ -116,9 +116,9 @@ before pilot start, the pilot should not begin.**
 - If results are between success and failure thresholds → WATCH: 30-day extension with
   accelerated KPI review; final decision by Day 90
 
-**Note on this pilot design:** This design includes explicit kill criteria. Approximately 40%
-of Claro Colombia corporate pilots historically lack kill criteria, resulting in programs that
-run 12–18 months without a commercial outcome (BCG LATAM 2024). This pilot will not repeat
+**Note on this pilot design:** This design includes explicit kill criteria. TelcoAndina's past pilots
+without kill criteria ran for a year or more without a commercial decision (pull the actual
+list from the innovation team's records). This pilot will not repeat
 that pattern.
 
 ---
@@ -143,9 +143,9 @@ that pattern.
 
 | Risk | Probability | Impact | Mitigation |
 |------|------------|--------|-----------|
-| ServiceNow API integration takes longer than 14 days | HIGH | HIGH | Pre-allocate IT engineer 2 weeks before Day 1; request ServiceNow API documentation from Claro IT before contract signature |
+| ServiceNow API integration takes longer than 14 days | HIGH | HIGH | Pre-allocate IT engineer 2 weeks before Day 1; request ServiceNow API documentation from TelcoAndina IT before contract signature |
 | TechBot IA cannot issue DIAN-compliant invoices | MEDIUM | HIGH | Confirm CUFE compliance before MSA signature; if non-compliant, TechBot IA must complete DIAN registration (4–8 weeks) before pilot start |
-| CRC data protection review delays pilot start by 60+ days | MEDIUM | MEDIUM | Initiate DPA review in Phase 0, not Day 1; engage Claro legal team 8 weeks before pilot start |
+| CRC data protection review delays pilot start by 60+ days | MEDIUM | MEDIUM | Initiate DPA review in Phase 0, not Day 1; engage TelcoAndina legal team 8 weeks before pilot start |
 
 ---
 
@@ -157,13 +157,12 @@ that pattern.
   customer data handling in telecoms. Pilots involving customer interaction data require
   DPA review before live data is shared with a third party. Add to Phase 0.
 - **SIC (Superintendencia de Industria y Comercio):** Data protection authority.
-  Habeas Data (Ley 1581/2012) applies to customer PII — ticket data contains account
+  Habeas Data (Ley 1581/2012) applies to customer PII, ticket data contains account
   identifiers that qualify as PII. TechBot IA must operate as a data processor (not controller).
 - **DIAN invoice compliance:** TechBot IA must register with DIAN and obtain CUFE
-  (Código Único de Factura Electrónica) before issuing invoices to Claro. Without CUFE,
-  invoices are invalid and cannot be processed by Claro's accounts payable.
-- **Telecom zombie pilot rate:** 28% of Colombian telecom corporate pilots become zombies
-  (BCG LATAM 2024). The most common cause: IT integration delays consume pilot time,
+  (Código Único de Factura Electrónica) before issuing invoices to TelcoAndina. Without CUFE,
+  invoices are invalid and cannot be processed by TelcoAndina's accounts payable.
+- **Telecom zombie pilots:** the usual cause in regulated telecom pilots: IT integration delays consume pilot time,
   leaving no data to evaluate, and the corporate team delays the NO-GO decision.
 
 ---
@@ -171,22 +170,22 @@ that pattern.
 ### 9. Next Steps
 
 1. **Confirm TechBot IA can issue Colombian e-invoices (DIAN CUFE-compliant) before contract
-   signature** — request invoice compliance documentation from TechBot IA within 5 business
+   signature**, request invoice compliance documentation from TechBot IA within 5 business
    days. If non-compliant, add 6-week DIAN registration to Phase 0 timeline.
 
 2. **Name the VP Technology executive sponsor and schedule kill criteria sign-off meeting**
-   — kill criteria table must be reviewed and approved by executive sponsor before pilot
+  , kill criteria table must be reviewed and approved by executive sponsor before pilot
    agreement is signed. Target: within 10 business days.
 
-3. **Request ServiceNow API documentation and technical specification from Claro IT** —
+3. **Request ServiceNow API documentation and technical specification from TelcoAndina IT** -
    share with TechBot IA for integration scoping. IT engineer must be allocated before
    contract signature, not after.
 
-4. **Initiate CRC/SIC data protection review** — engage Claro legal team to begin DPA
+4. **Initiate CRC/SIC data protection review**, engage TelcoAndina legal team to begin DPA
    review and SIC consultation. Do not wait for contract signature; start the clock now.
    Target completion: 6 weeks from today.
 
-5. **Schedule kickoff meeting with TechBot IA CEO, Jorge Méndez, IT lead, and Legal** —
+5. **Schedule kickoff meeting with TechBot IA CEO, Jorge Méndez, IT lead, and Legal** -
    align on Phase 0 timeline, integration access requirements, invoice compliance, and
    kill criteria thresholds before any work begins. Target: within 2 weeks.
 

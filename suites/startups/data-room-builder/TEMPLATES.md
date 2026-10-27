@@ -1,4 +1,4 @@
-# data-room-builder — Output Template
+# data-room-builder: Output Template
 
 **ALWAYS use this exact template structure.** This file shows a filled example
 for "Alegra-style B2B SaaS, Seed stage, raising $2M, Colombia-based."
@@ -6,7 +6,7 @@ Replace all values with the user's actual data.
 
 ---
 
-## Example: B2B SaaS — Seed Stage ($2M raise, Bogotá, Colombia)
+## Example: B2B SaaS: Seed Stage ($2M raise, Bogotá, Colombia)
 
 **Company:** Alegra-style (B2B accounting SaaS for LATAM SMBs)
 **Stage:** Seed | **Raising:** $2M | **Jurisdiction:** Colombia (SAS entity)
@@ -20,8 +20,8 @@ Replace all values with the user's actual data.
 ```
 data-room/
 ├── 01-pitch-materials/
-│   ├── deck-v3.pdf                          [EXISTS — created with /pitch-deck-builder]
-│   ├── exec-summary-1pg.pdf                 [NEEDED — template below]
+│   ├── deck-v3.pdf                          [EXISTS, created with /pitch-deck-builder]
+│   ├── exec-summary-1pg.pdf                 [NEEDED, template below]
 │   └── product-demo-video.mp4               [NEEDED]
 ├── 02-company-overview/
 │   ├── company-profile.pdf                  [EXISTS]
@@ -29,13 +29,13 @@ data-room/
 │   └── customer-testimonials.pdf            [NICE-TO-HAVE]
 ├── 03-financials/
 │   ├── p-and-l-12months.xlsx                [EXISTS]
-│   ├── financial-model-3yr.xlsx             [NEEDED — template structure below]
+│   ├── financial-model-3yr.xlsx             [NEEDED, template structure below]
 │   ├── cap-table.xlsx                       [EXISTS]
-│   └── audited-financials.pdf               [NICE-TO-HAVE — required by family office LPs]
+│   └── audited-financials.pdf               [NICE-TO-HAVE, required by family office LPs]
 ├── 04-legal/
-│   ├── incorporation-docs.pdf               [EXISTS — Cámara de Comercio certificate]
-│   ├── shareholder-rights-agreement.pdf     [NEEDED — BLOCKING]
-│   ├── ip-assignments-contractors.pdf       [NEEDED — BLOCKING]
+│   ├── incorporation-docs.pdf               [EXISTS, Cámara de Comercio certificate]
+│   ├── shareholder-rights-agreement.pdf     [NEEDED, BLOCKING]
+│   ├── ip-assignments-contractors.pdf       [NEEDED, BLOCKING]
 │   └── previous-safe-notes.pdf              [EXISTS]
 ├── 05-team/
 │   ├── founder-bios.pdf                     [EXISTS]
@@ -43,10 +43,10 @@ data-room/
 │   └── org-chart.pdf                        [NEEDED]
 ├── 06-market/
 │   ├── market-analysis.pdf                  [NEEDED]
-│   └── competitive-landscape.pdf            [EXISTS — from /venture-model-validator]
+│   └── competitive-landscape.pdf            [EXISTS, from /venture-model-validator]
 └── 07-latam-legal/
-    ├── camara-de-comercio.pdf               [EXISTS — Colombian requirement]
-    ├── rut-document.pdf                     [EXISTS — Colombian tax registration]
+    ├── camara-de-comercio.pdf               [EXISTS, Colombian requirement]
+    ├── rut-document.pdf                     [EXISTS, Colombian tax registration]
     └── labor-contracts-summary.pdf          [NEEDED]
 ```
 
@@ -82,8 +82,8 @@ data-room/
 Overall: [████████░░░░░░░] 53%
 
 BLOCKING items incomplete: 2
-  ✗ Shareholder rights agreement — deal-killer if missing
-  ✗ IP assignment agreements — most common LATAM Seed due diligence failure
+  ✗ Shareholder rights agreement, deal-killer if missing
+  ✗ IP assignment agreements, most common LATAM Seed due diligence failure
 
 REQUIRED items incomplete: 3
   ✗ 1-page executive summary
@@ -96,7 +96,7 @@ NICE-TO-HAVE items: not blocking
 
 **Verdict:** Not ready to share with investors. Complete the 2 BLOCKING items
 before sending data room access to any investor. A missing shareholder rights
-agreement or IP assignment will halt due diligence immediately — fixing it
+agreement or IP assignment will halt due diligence immediately, fixing it
 after due diligence starts signals disorganization.
 
 ---
@@ -106,8 +106,8 @@ after due diligence starts signals disorganization.
 ### Template A: 1-Page Executive Summary (Filled)
 
 ```
-ALEGRA-STYLE — EXECUTIVE SUMMARY (Seed, $2M Raise)
-——————————————————————————————————————————————————
+ALEGRA-STYLE, EXECUTIVE SUMMARY (Seed, $2M Raise)
+--------------------------------------------------
 COMPANY: [Name] | [City, Country] | Founded [Year]
 THE PROBLEM: LATAM SMBs lose 8–12 hours/month on manual invoicing.
              No affordable, compliant solution exists for the $50B LATAM SMB market.
@@ -120,13 +120,13 @@ TRACTION:
   NRR: [X]% | Logo Churn: [X]% monthly | CAC Payback: [X] months
 
 MARKET: $[X]B SAM (LATAM SMBs with >5 employees using accounting software)
-        Growing at [X]% CAGR through 2030 (LAVCA 2025)
+        Growing at [X]% CAGR through [year] ([source, report, date])
 
-TEAM: [Founder Name], [Role] — [1 key credential]
-      [Co-founder Name], [Role] — [1 key credential]
+TEAM: [Founder Name], [Role], [1 key credential]
+      [Co-founder Name], [Role], [1 key credential]
 
 THE ASK: $2M Seed at $[X]M pre-money cap
-USE OF FUNDS: Product 40% / Sales 35% / G&A 25% — 18 months runway
+USE OF FUNDS: Product 40% / Sales 35% / G&A 25%, 18 months runway
 
 INVESTORS TO DATE: [Existing investor names + amounts] via SAFE notes
 
@@ -140,13 +140,13 @@ CONTACT: [Name] | [email] | [phone/WhatsApp]
 | Product & Engineering | $800k | 40% | 3 engineers | Core product roadmap; SAT/DIAN API integrations |
 | Sales & Marketing | $700k | 35% | 2 SDRs + marketing | First outbound sales team; target 100 new customers |
 | G&A (legal, ops, finance) | $350k | 17.5% | 1 ops hire | Legal setup completion, finance systems |
-| Working Capital Reserve | $150k | 7.5% | — | 3-month cash buffer for runway protection |
+| Working Capital Reserve | $150k | 7.5% |, | 3-month cash buffer for runway protection |
 | **Total** | **$2,000k** | **100%** | **+6 headcount** | **18 months runway at current burn** |
 
 ### Template C: 3-Year Financial Model (Structure)
 
 ```
-STRUCTURE (fill with your numbers — do not share with investors unfilled):
+STRUCTURE (fill with your numbers, do not share with investors unfilled):
 
 Year 1 (Current):
   Starting ARR: $[X] | Ending ARR: $[X] | Growth: [X]%
@@ -166,7 +166,7 @@ Key assumptions to state explicitly:
   - Sales capacity (SDR quota attainment assumption)
   - Churn rate (must match historical cohort data)
 
-LATAM NOTE: Show expansion to Brazil in Year 2 or Year 3 — LATAM investors
+LATAM NOTE: Show expansion to Brazil in Year 2 or Year 3, LATAM investors
 expect cross-border roadmap. Brazil-only or Mexico-only limits valuation.
 ```
 
@@ -177,33 +177,33 @@ expect cross-border roadmap. Brazil-only or Mexico-only limits valuation.
 > **Colombia-specific requirements:**
 > Colombian VCs (Bancolombia VC, Nazca) require the Cámara de Comercio
 > registration certificate (issued within the last 30 days) in the legal
-> section. This is NOT optional — it is the equivalent of a Delaware Certificate
+> section. This is NOT optional, it is the equivalent of a Delaware Certificate
 > of Incorporation. Ensure the certificate is less than 30 days old when you
 > share the data room, as it expires for legal purposes.
 >
-> **LATAM family office LPs:**
-> At a $2M Seed, expect at least one family office LP to require audited
-> financials. If you do not have them, get a "compilación financiera" (compiled
-> financial statement from a CPA) — this is faster and cheaper than a full audit
-> and satisfies most LATAM family office requirements at Seed *(LATAM, LAVCA 2025)*.
+> **Family offices investing directly:**
+> At a $2M Seed with family office participation, expect a request for reviewed or
+> audited financials. If you do not have them, a CPA-compiled statement
+> ("compilación financiera") is faster and cheaper than a full audit and often
+> enough at Seed *(directional, LAN operator read)*.
 >
 > **IP assignment agreements:**
-> The most common LATAM Seed due diligence failure. Engineering contractors in
-> Colombia, Mexico, and Brazil default to retaining IP rights under local labor
-> law unless a signed IP assignment agreement says otherwise. If your dev team
-> includes any contractors without signed agreements, due diligence will halt.
+> The most common LATAM Seed due diligence gap LAN sees. Without a signed
+> assignment, who owns contractor-built code is contestable under local law;
+> have a local lawyer confirm for each country. If any contributor lacks a signed
+> agreement, expect diligence to stop until it is fixed.
 
 ---
 
 ## 6. Next Steps
 
-1. **Sign IP assignment agreements (next 7 days) — BLOCKING:**
-   Contact your lawyer today. Template available from Stripe Atlas
-   (stripe.com/atlas). This is the single most common deal-killer in LATAM
-   Seed due diligence. Every engineer/contractor who touched the product
+1. **Sign IP assignment agreements (next 7 days), BLOCKING:**
+   Contact your lawyer today and use a local-law assignment template (plus a
+   US-style PIIA if you have a Delaware parent). This is the most common gap LAN
+   sees in LATAM Seed due diligence. Every engineer/contractor who touched the product
    must sign one.
 
-2. **Draft shareholder rights agreement (next 14 days) — BLOCKING:**
+2. **Draft shareholder rights agreement (next 14 days), BLOCKING:**
    Use your existing lawyer or a startup-specialized firm (Posse Herrera
    Ruiz for Colombia; Galicia for Mexico). If cost is a concern, Y Combinator's
    Series AA documents are a starting point that LATAM VCs accept.
@@ -214,7 +214,7 @@ expect cross-border roadmap. Brazil-only or Mexico-only limits valuation.
    build with explicit CAC and churn assumptions.
 
 4. **Create 1-page executive summary (next 7 days):**
-   Use Template A above. This is the first document investors read — it must
+   Use Template A above. This is the first document investors read, it must
    stand alone. 70% of investors decide whether to continue due diligence
    based on this page alone.
 

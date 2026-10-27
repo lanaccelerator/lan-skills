@@ -30,13 +30,13 @@ Do not duplicate definitions from brad-feld-terms.md — read that file directly
 | Term | Market Standard |
 |------|----------------|
 | Instrument | YC SAFE (post-money with or without discount) OR priced Series Seed preferred |
-| Pre-money valuation (LATAM) | $6M–$15M (top quartile) |
+| Pre-money valuation (LATAM) | $6M–$10M typical (LAVCA 2025); $10M–$15M only with top-quartile traction (directional) |
 | Option pool | 10–15% pre-money unissued (adjust to 18-month hiring plan) |
 | Liquidation preference | 1× non-participating preferred |
 | Anti-dilution | Broad-based weighted average |
 | Dividends | Non-cumulative, non-compounding |
 | Board | 3-person: 2 founders + 1 lead investor |
-| Protective provisions | NVCA standard 11-item list |
+| Protective provisions | NVCA model term sheet list |
 | Pro-rata | Full pro-rata for lead investor (major investor threshold: $500K+) |
 | Information rights | Monthly financials, quarterly board meeting, annual audited statements |
 | No-shop window | 30–45 days |
@@ -48,7 +48,7 @@ Do not duplicate definitions from brad-feld-terms.md — read that file directly
 | Term | Market Standard |
 |------|----------------|
 | Instrument | Priced round only — no SAFE at Series A |
-| Pre-money valuation (LATAM) | $15M–$40M (top quartile, Cuantico 2026 / LAVCA 2025) |
+| Pre-money valuation (LATAM) | $15M–$25M typical (LAVCA 2025); above that needs top-quartile traction (see startup-valuation-benchmark) |
 | Option pool | 10–15% post-close; often requires pool refresh |
 | Liquidation preference | 1× non-participating preferred |
 | Anti-dilution | Broad-based weighted average |
@@ -56,7 +56,7 @@ Do not duplicate definitions from brad-feld-terms.md — read that file directly
 | Board | 5-person: 2 founders + 2 investors + 1 independent director |
 | Protective provisions | NVCA standard; consult which require only lead consent vs. preferred supermajority |
 | Pro-rata | Full pro-rata for lead (threshold: $1M+); super pro-rata is aggressive |
-| Information rights | Monthly financials, quarterly board meeting, annual audit; ILPA-lite reporting for institutional LPs |
+| Information rights | Monthly financials, quarterly board meeting, annual audit for major investors |
 | No-shop window | 30–45 days |
 
 ---
@@ -70,7 +70,7 @@ Do not duplicate definitions from brad-feld-terms.md — read that file directly
 | Board | 5–7 person board; investors often seek parity or majority |
 | Anti-dilution | Broad-based weighted average; narrow-based possible in competitive rounds |
 | Dividends | Cumulative dividends begin to appear in structured/distressed situations — flag if present |
-| Information rights | Full ILPA-standard reporting expected by institutional LPs |
+| Information rights | Monthly management accounts, quarterly financials, audited annual statements, annual budget, inspection rights for major investors (NVCA model Investors' Rights Agreement). ILPA standards apply to funds, not to portfolio companies. |
 
 ---
 
@@ -119,7 +119,7 @@ The following terms signal an aggressive investor and should ALWAYS be flagged �
 | 2× participating preferred | Not market standard; penalizes founders in every exit scenario | 1× non-participating preferred |
 | No pro-rata for lead investor | Signals lead may not follow on — misaligned incentive structure | Full pro-rata for any check ≥$500K |
 | No information rights | Investor withholding standard governance rights is an investor-quality red flag | Standard monthly/quarterly reporting |
-| No-shop window >45 days | Long no-shop windows expose founder to negotiating leverage loss while the company continues operating | 30–45 days maximum |
+| No-shop window >45 days (practitioner norm) | Long no-shop windows expose founder to negotiating leverage loss while the company continues operating | 30–45 days maximum |
 | Cumulative dividends (Seed/A) | Hidden liquidation preference that compounds over time; not standard until distressed late-stage | Non-cumulative dividends |
 | Drag-along with preferred-only trigger | Enables forced sale without founder consent | Drag-along requires both preferred AND common majority |
 | Super pro-rata rights | Investor takes disproportionate ownership in future rounds, diluting subsequent investors | Standard pro-rata only |

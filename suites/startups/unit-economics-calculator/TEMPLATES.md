@@ -58,9 +58,9 @@ this error. Always use gross-margin-adjusted LTV.
 |--------|------------|-----------|--------|--------|
 | CAC | $472 | — | Calculated | — |
 | LTV (gross-margin-adjusted) | $5,760 | — | David Skok | — |
-| LTV/CAC | 12.2:1 | ≥3:1 | David Skok / OpenView | ABOVE |
-| CAC Payback | 3.3 months | ≤18 months (Seed) | OpenView | ABOVE |
-| Gross Margin | 72% | ≥65% SaaS | Bessemer BVP | ABOVE |
+| LTV/CAC | 12.2:1 | ≥3:1 | David Skok, SaaS Metrics 2.0 | ABOVE |
+| CAC Payback | 3.3 months | ≤18 months (Seed) | Directional | ABOVE |
+| Gross Margin | 72% | ≥65% SaaS | Bessemer, Scaling to $100M (2021) | ABOVE |
 | Monthly Churn | 2.5% | ≤2% (Series A) | Bessemer | WATCH |
 
 **Calculations shown:**
@@ -70,7 +70,7 @@ this error. Always use gross-margin-adjusted LTV.
 - LTV/CAC = $5,760 ÷ $472 = **12.2:1**
 - CAC Payback = $472 ÷ ($200 × 72%) = **3.3 months**
 - Contribution Margin = ~68% (gross margin minus direct CS costs estimated at 4 points)
-- Annual break-even = $38,000 fixed costs ÷ 68% = **$55,882 MRR** needed to cover fixed costs
+- Break-even MRR = $38,000 monthly fixed costs ÷ 68% contribution margin = **$55,882 MRR**
 
 ---
 
@@ -87,25 +87,21 @@ No disqualifying red flags at this stage. One metric on watch:
 
 ## LATAM Context
 
-- **CAC payback — US benchmark:** 12–18 months is "good" *(US-sourced benchmark, Bessemer Cloud Index)*
-- **CAC payback — LATAM:** 6–12 months typical; 60% of Brazilian SaaS recover CAC in <6 months
-  *(LATAM, Cuantico 2026)*. PayRoll MX's 3.3-month payback is exceptional even by LATAM
-  standards — LATAM structural advantage from lower S&M costs is fully realized here.
+- **CAC payback:** 3.3 months on gross margin is well inside the under-12-month range
+  that reads as strong at seed *(LATAM, directional)*. Lower LATAM sales salaries help;
+  the number must hold by channel as paid acquisition scales.
 
-- **Monthly churn — US benchmark:** ≤1% monthly at Series A for enterprise SaaS
-  *(US-sourced benchmark, Bessemer)*
-- **Monthly churn — LATAM:** ≤2.5% monthly is within range for early LATAM SaaS; contracts
-  less standardized, economic volatility higher. Must trend toward ≤1.5% before Series A raise
-  to US-comparable benchmarks *(LATAM, Cuantico 2026)*. PayRoll MX's 2.5% is acceptable at
-  Seed but requires active reduction.
+- **Monthly churn:** 2.5% is acceptable at seed but above the ≤2% international funds
+  expect at Series A *(directional; US ranges from Bessemer-era SaaS benchmarks)*. Must
+  trend toward ≤1.5% before the raise.
 
-- **Gross margin — LATAM note:** LATAM SaaS gross margins similar to US (70–80%) when
-  infrastructure is cloud-native. PayRoll MX's 72% is on target *(LATAM, Cuantico 2026)*.
+- **Gross margin:** 72% is on target for cloud-native SaaS (Bessemer averages ~70% at
+  $1-25M ARR, Scaling to $100M, 2021). PayRoll MX has no AI inference in COGS; if it adds
+  an AI assistant, recompute margin with inference cost per active user.
 
-- **Pricing opportunity:** LATAM SaaS is chronically underpriced — median ARPA 40–60% below
-  equivalent US product. At $200/mo, PayRoll MX has pricing upside. A 20% price increase to
-  $240/mo raises LTV to $6,912 without touching CAC. Run a pricing test before raising.
-  *(LATAM, Cuantico 2026)*
+- **Pricing opportunity:** LTV/CAC of 12:1 with 3.3-month payback signals underpricing
+  *(directional)*. A 20% price increase to $240/mo raises LTV to $6,912 without touching
+  CAC. Run a price test (`/pricing-strategy-designer`) before raising.
 
 ---
 
@@ -153,7 +149,5 @@ LTV/CAC and payback; be prepared to show churn trending down quarter-over-quarte
 ## Sources
 
 - David Skok SaaS Metrics 2.0: https://www.forentrepreneurs.com/saas-metrics-2/
-- OpenView SaaS Benchmarks: https://openviewpartners.com/saas-benchmarks-report/
-- Bessemer BVP Roadmap to Epiq: https://www.bvp.com/atlas/roadmap-to-epiq
-- Cuantico LatAm VC Report 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
-- LAVCA 2025 Startup Ecosystem Insights: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
+- High Alpha and Growth Unhinged, 2025 SaaS Benchmarks Report (12 Nov 2025, 800+ companies; replaces the offline OpenView benchmarks): https://www.highalpha.com/saas-benchmarks
+- Bessemer, Scaling to $100 Million (21 Sep 2021): https://www.bvp.com/atlas/scaling-to-100-million

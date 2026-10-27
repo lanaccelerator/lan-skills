@@ -1,11 +1,9 @@
 # LATAM Context — Pricing Strategy Designer
 
 **Sources:**
-- Cuantico VC Report 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
 - ProfitWell / Paddle SaaS data (global, no LATAM-specific breakdown — treat as directional):
-  https://www.profitwell.com/recur/all/saas-pricing
-- OpenView Partners SaaS Pricing Survey 2023:
-  https://openviewpartners.com/2023-saas-pricing-survey/
+  Patrick Campbell / ProfitWell (now Paddle) value-based pricing method; the original profitwell.com articles are offline
+- Kyle Poyar, Growth Unhinged (pricing research; replaces the offline OpenView survey): https://www.growthunhinged.com/
 
 ---
 
@@ -13,7 +11,7 @@
 
 ### Typical LATAM SaaS Price vs US Equivalent
 
-LATAM SaaS products are typically priced 40-60% below their US equivalents.
+LATAM SaaS products are typically priced 40-60% below their US equivalents (directional).
 This is partially justified (lower customer LTV, lower average income per capita) and
 partially a market inefficiency (LATAM founders systematically underprice out of
 fear of churn).
@@ -28,8 +26,8 @@ fear of churn).
 | Fintech / API | $0.01-0.05/transaction | $0.005-0.03/transaction | 40-60% discount |
 
 **Caveat on these benchmarks:** There is no published LATAM-specific SaaS pricing survey
-with rigorous methodology as of April 2026. These figures are aggregated from public pricing
-pages of notable LATAM SaaS companies and Cuantico 2026 commentary. Use as directional
+with rigorous methodology as of October 2026. These figures are aggregated from public pricing
+pages of notable LATAM SaaS companies. Use as directional
 guidance — verify with actual customer discovery.
 
 ---
@@ -54,10 +52,9 @@ it is caused by founders who have not tested higher price points.
 tests (two landing pages, different prices, measure conversion delta). A 20% drop in
 signup conversion is usually worth a 3× price increase.
 
-**Evidence base:** Studies by ProfitWell show that for B2B SaaS, a 10% price increase
-reduces churn by less than 2% on average for well-positioned products. The "price sensitivity"
-founders fear is typically much lower than expected.
-Source: https://www.profitwell.com/recur/all/saas-pricing
+**Evidence base:** a 1% price improvement with no volume loss lifts operating profit 11.1%,
+vs 3.3% for 1% more volume (Marn and Rosiello, HBR 1992). The churn founders fear from a
+price increase is an assumption until a shadow test measures it.
 
 ---
 

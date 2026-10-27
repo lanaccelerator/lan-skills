@@ -1,12 +1,11 @@
-# LATAM Deck Context — Investor Expectations and Common Failures
+# LATAM Deck Context: Investor Expectations and Common Failures
 
 **When to use:** Read this file BEFORE producing the LATAM Context section
-of any deck review. Apply relevant observations — do not paste all items;
+of any deck review. Apply relevant observations, do not paste all items;
 apply what is relevant to the specific deck being reviewed.
 
 **Sources:**
 - LAVCA 2025 Startup Ecosystem Insights: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
-- NFX LATAM Founders Guide: https://www.nfx.com/post/latam-founders-guide
 - Cuantico LatAm VC Report 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
 
 ---
@@ -14,15 +13,15 @@ apply what is relevant to the specific deck being reviewed.
 ## 1. Missing Local Comparable Raises
 
 **The error:** Founders cite US comparable companies (Series A at $10M, US-stage
-benchmarks) to justify their valuation. LATAM investors know the LATAM market —
+benchmarks) to justify their valuation. LATAM investors know the LATAM market -
 US comps create a credibility gap, not a premium.
 
-**What investors want:** LATAM comparables — companies in a similar sector,
+**What investors want:** LATAM comparables, companies in a similar sector,
 at a similar stage, that raised from LATAM-focused funds. Even if the raise
 was smaller, local comparables ground the ask in market reality.
 
-**Correction:** Research LAVCA portfolio companies, Latitud Scout, and Crunchbase
-LATAM filter. Find 2–3 companies that raised at a similar stage in the same
+**Correction:** Search Crunchbase News, LAVCA's Venture Bulletin, Contxto and fund
+announcements. Find 2–3 companies that raised at a similar stage in the same
 country or adjacent LATAM market. Cite raise amounts and key metrics at raise.
 
 ---
@@ -88,12 +87,14 @@ English financial data, or has bilingual slides. This signals the founder
 has not decided who they are raising from.
 
 **Rule:**
-- LATAM-only raise → Full Spanish deck. No mixed slides.
-- US raise → Full English deck. No mixed slides.
-- Both → Two separate decks. Bilingual slides serve neither audience well.
+- One language per deck, never mixed slides.
+- Use the language of the lead investors you target. Many LATAM funds (and their US co-investors
+  and LPs) read and forward decks in English, so an English deck is often the safer default even
+  for a LATAM raise. A Brazil-first raise with local angels may need Portuguese.
+- Raising from two different audiences: two complete decks, not one bilingual deck.
 
 **Why it matters:** A LATAM investor receiving a mixed-language deck infers
-the founder is hedging on who they want money from — and that the US pitch
+the founder is hedging on who they want money from, and that the US pitch
 is the real pitch. A US investor receiving a Spanish deck cannot share it
 with their partners.
 
@@ -106,7 +107,7 @@ not addressed the pan-LATAM expansion question. LATAM VCs routinely ask:
 "After Mexico, what?" Absence of a plan signals either (a) the founder
 has not thought about it, or (b) the market is too small to expand.
 
-**Context:** Brazil + Mexico represent 78.5% of LATAM VC capital (LAVCA 2025).
+**Context:** Brazil + Mexico took ~73% of LATAM VC capital in 2025 (Cuantico 2026).
 A Mexico-only play for a non-physical product is a reasonable start, but
 investors expect a Brazil thesis within 18–24 months. A B2B SaaS that cannot
 cross borders (regulatory, language, pricing) needs to explain why.
@@ -114,18 +115,22 @@ cross borders (regulatory, language, pricing) needs to explain why.
 **What to add:** One or two sentences in the Market slide or Financials slide:
 "Mexico first (Month 1–18). Colombia + Chile (Month 18–30, same regulatory
 framework, established distribution partners). Brazil (Month 30+, requires
-Portuguese localization and separate GTM investment)." Not a commitment —
+Portuguese localization and separate GTM investment)." Not a commitment -
 a signal that you have thought about expansion sequencing.
 
 ---
 
 ## Stage-Adjusted LATAM Benchmarks
 
-| Stage | Raise Amount (LATAM median) | Key Metrics at Raise | Source |
-|-------|----------------------------|---------------------|--------|
-| Pre-Seed | $200k–$500k | Prototype + 3–10 paying customers | LAVCA 2025 |
-| Seed | $500k–$3M | $100k–$500k ARR or strong engagement metrics | LAVCA 2025 |
-| Series A | $3M–$15M | $1M–$3M ARR, clear GTM, 18+ months runway | LAVCA 2025 |
+| Stage | Typical round (directional) | What investors expect at raise (directional) |
+|-------|-----------------------------|----------------------------------------------|
+| Pre-Seed | USD 100K-500K | Team + MVP + first paying customers |
+| Seed | USD 750K-3M | Repeatable early revenue and a real growth rate |
+| Series A | USD 3M-15M | USD 1M+ ARR or equivalent, working GTM, 18+ months runway |
 
-LATAM median gap between rounds: 20 months vs 12–15 months in US *(LAVCA 2025)*.
-Budget your fundraising timeline accordingly — do not model a 12-month raise cycle.
+Ranges are LAN's operator read; no public dataset publishes LATAM round sizes by stage.
+
+Sourced fact for the deck's timeline and use-of-funds slide: only 7% of LATAM seed companies
+raise a Series A within two years and about 12% within three (LATAM, LAVCA 2025 Startup
+Ecosystem Insights). A seed deck whose plan assumes a Series A in 12 months needs a bridge
+scenario.

@@ -37,7 +37,7 @@ invented for illustration; every benchmark carries its real source.*
 | Dilución | USD 6M - 10M | 1,5 / 25% a 1,5 / 15% | Dilución sana 15-25% |
 | Múltiplo de ingresos ajustado | USD 6,3M - 8,8M | 600K x 21,0x x (1 - 50% a 30%) | Bucket alto crecimiento; descuento privado 30-50% (directional) |
 | VC method | USD 8,2M | 1,5M x 10x = 15M al exit; exit USD 150M con ~55% retenido: compra 18% | Exit por M&A; 3 rondas más; 10x objetivo |
-| Scorecard | USD 10,8M (pre 9,3M) | USD 8M x 1,16 + 1,5M | Promedio seed LATAM USD 8M pre (LAVCA 2025) |
+| Scorecard | USD 10,8M (pre 9,3M) | USD 8M x 1,16 + 1,5M | Seed LATAM USD 8M pre como base (directional: rango seed LATAM USD 8-20M pre) |
 | Rondas comparables | USD 6M - 9M | 2-3 seeds SaaS LATAM 2026 con fuente | Ver tabla de comparables |
 
 ## 3. Rango

@@ -2,7 +2,7 @@
 
 **Purpose:** Apply when term-sheet-generator is used for a LATAM deal or LATAM-domiciled fund.
 Covers legal investment vehicles by country, family office LP governance norms, and currency considerations.
-For FX risk methodology and country-by-country regulatory tables, see deal-memo-writer/references/latam-fund-context.md.
+For FX risk methodology and country-by-country regulatory tables, use the deal-memo-writer skill.
 
 ---
 
@@ -105,8 +105,8 @@ subsidiary is the most common structure for Colombia-focused funds with internat
 
 ### Why This Matters for Term Sheets
 
-Family office LPs are the dominant LP type in LATAM VC (estimated 60–70% of Fund I LP bases in the
-region, per LAVCA 2025). Their governance expectations differ significantly from US institutional LPs
+Family offices are often the largest LP group in a LATAM Fund I (directional, from LATAM GP practice;
+no public dataset gives a reliable share). Their governance expectations differ significantly from US institutional LPs
 (endowments, pension funds, fund of funds):
 
 ### Board Governance
@@ -115,7 +115,6 @@ region, per LAVCA 2025). Their governance expectations differ significantly from
 |-----------|------------------------------|--------------------------|
 | Seed board | 3 persons: 2 founders + 1 lead | 3–5 persons, depends on deal |
 | Series A board | 3–5 persons; 5 common | 5 persons: 2 founders + 2 investors + 1 independent |
-| ILPA compliance | Not expected or required at Fund I | Expected at Series B+ |
 | LP advisory committee | Informal calls acceptable | Formal LPAC with governance rights |
 
 **Implication for term sheet drafting:**

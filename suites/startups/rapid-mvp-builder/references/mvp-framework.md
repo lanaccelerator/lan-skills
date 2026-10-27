@@ -73,7 +73,9 @@ Examples:
 - Analytics dashboard (v1)
 - Multi-currency support (unless LATAM geography requires it)
 - Third-party integrations beyond core payment
-- AI features (v1 — validate the core workflow first)
+- AI features bolted onto a non-AI product (v1: validate the core workflow first). If AI IS
+  the product (an agent or AI service), the model call is the core flow and a Must-have:
+  use a hosted model API, no fine-tuning or custom models in v1
 
 ---
 
@@ -113,15 +115,29 @@ Examples:
 
 ### By Team Tech Capacity
 
+**Default in 2026: build with an AI coding agent** (Claude Code, Cursor, Codex or similar).
+A founder who can describe the product precisely can ship a working Next.js + Supabase MVP
+in days, not months. The agent writes the code; the founder owns the spec, the tests and
+the security checklist below.
+
 **Solo non-technical founder:**
-- No-code first: Glide, Bubble, or Webflow for frontend + Airtable/Supabase for data
-- Goal: Ship in 2-4 weeks without engineering to validate hypothesis
-- Hire CTO after validation, not before
+- AI coding agent on the standard stack (Next.js + Supabase + Vercel), one user journey at a
+  time, deployed from day 1. No-code (Glide, Bubble, Webflow + Airtable) is still fine for a
+  form-and-list product, but it becomes a rewrite later
+- Goal: ship in 1-2 weeks to validate the hypothesis
+- Get a technical advisor to review auth, data access and secrets before real users arrive
+- Hire a CTO after validation, not before
 
 **Non-technical co-founder + CTO:**
-- Standard Supabase + Next.js stack
+- Standard Supabase + Next.js stack, CTO directs AI coding agents
 - CTO builds, founder validates with users simultaneously
-- Timeline: 4-6 weeks to MVP depending on complexity
+- Timeline: 1-3 weeks to MVP depending on complexity
+
+**AI-written code security minimum (all teams):**
+- Row Level Security on every Supabase table; test that user A cannot read user B's data
+- No secrets in the repo or in client code; keys in environment variables
+- Payments and webhooks verified server-side
+- One end-to-end test of the core journey that runs before every deploy
 
 **Technical founding team:**
 - Same Supabase + Next.js stack (do not over-engineer at MVP stage)

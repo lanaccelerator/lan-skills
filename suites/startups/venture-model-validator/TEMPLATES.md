@@ -50,33 +50,34 @@ Fundable at pre-seed/seed with demonstrated PMF signal and a clear niche monopol
 
 ## Comparables
 
-| Company | Country | Stage at Series A | Key Metric | Amount | Outcome |
-|---------|---------|-----------------|------------|--------|---------|
-| Alegra | Colombia | ~$2M ARR | 20k SME customers | $10M Series A (2021) | Independent |
-| Siigo | Colombia | $5M+ ARR | 100k+ SMEs | Acquired by Visma | Acquired |
-| Contalink | Mexico | N/A | Incumbent SaaS | Bootstrapped | Not VC-backed |
-| Aspel | Mexico | N/A | Desktop incumbent | N/A | Not VC-backed |
+| Company | Country | Round | Disclosed metric | Outcome | Source |
+|---------|---------|-------|------------------|---------|--------|
+| Conta Azul | Brazil | Multi-round VC-backed | SMB cloud ERP leader in Brazil | Acquired by Visma, ~USD 300M (Aug 2025) | Visma press release |
+| Siigo | Colombia | Accel-KKR growth equity (2017) | Consolidator: acquired Aspel (Mexico, 2022) | PE-backed, independent | Bloomberg Línea, 9 Feb 2022 |
+| Alegra | Colombia | Series A with Riverwood Capital (2021) | Not disclosed | Independent | Global Legal Chronicle |
+| Contalink | Mexico | Not disclosed | Cloud accounting competitor | Not disclosed | Company site |
 
-**Benchmark:** LATAM B2B SaaS companies typically raise Series A at $1–3M ARR
-*(LATAM, LAVCA 2025)*. FinTrack is at idea stage — 18–24 months from Series A
-eligibility assuming execution.
+**Benchmark:** LATAM SMB accounting software produces exits through strategic and PE
+buyers (Visma, Accel-KKR-backed Siigo), not IPOs. Only 12% of LATAM seed startups raise a
+Series A within three years *(LATAM, LAVCA Startup Ecosystem Insights 2025)*. FinTrack is
+at idea stage, 18-24 months from Series A eligibility assuming execution.
 
 ---
 
 ## LATAM Context
 
-- **US benchmark:** Seed-stage SaaS typically raises at <$1M ARR with strong PMF signal
-  *(US-sourced benchmark, YC S24 data)*
-- **LATAM-adjusted:** Median gap between LATAM rounds is 20 months vs 12–15 months in
-  US. Budget 8–12 months of runway beyond US norms *(LATAM, LAVCA 2025)*
-- **Sector note:** Fintech represents 61% of LATAM VC dollars; pure SaaS (non-fintech)
-  attracts ~13%. A non-fintech SaaS targeting SMEs competes for a smaller capital pool
-  *(LATAM, Cuantico 2026)*
-- **Pre-seed contraction:** 152 pre-seed deals in 2025 vs 660 in 2022 — a 77% drop.
-  Earlier-stage companies must hit seed metrics faster to access capital *(LATAM, Cuantico 2026)*
-- **LATAM valuation discount:** Expect 40–60% discount to equivalent US-stage valuations.
-  FinTrack at seed would likely price at $4M–$8M pre-money vs $10M–$15M for a US peer
-  *(LATAM, LAVCA 2025)*
+- **Time between rounds:** ~20 months on average in LATAM *(LATAM, LAVCA Trends in Tech
+  2025)*. Budget runway for 20+ months, not the 12-15 a US seed plan assumes
+  *(directional)*.
+- **Sector note:** Fintech took 61% of 2025 LATAM VC dollars; SaaS 13% *(LATAM, Cuantico
+  2026)*. A non-fintech SMB SaaS competes for a smaller capital pool.
+- **Pre-seed contraction:** 2025 pre-seed deal count fell 39%, the lowest level since 2018
+  *(LATAM, Latin America VC Report via Mexico Business News)*. Idea-stage companies must
+  reach seed metrics faster.
+- **Valuation:** LATAM seed pre-money averaged about 40% of the US level over 2015-2025
+  *(LATAM, Valoriza via Diario Financiero, Apr 2025)*. Against a US seed median pre-money of
+  USD 16M *(US-sourced benchmark, Carta, Q3 2025)*, FinTrack should not expect more than
+  USD 4-8M pre-money even after reaching seed metrics *(directional)*.
 
 ---
 
@@ -86,19 +87,19 @@ eligibility assuming execution.
    the single biggest pain point in expense management — find the one workflow where
    current tools fail so badly that customers would pay on day one for a fix.
 
-2. Define your 10x differentiation vs Contalink and Alegra. Answer: "Why would a customer
+2. Define your 10x differentiation vs Contalink, Alegra and Contpaqi. Answer: "Why would a customer
    switch from their current tool?" The answer cannot be "it's cheaper" — it must be a
    structural capability they cannot get elsewhere.
 
-3. Build a no-code prototype (Glide or Bubble) and get 3 paying customers before raising
-   any capital. Pre-revenue at idea stage with no team differentiation is not raiseable
+3. Build a working prototype in 1-2 weeks with an AI coding agent (`/rapid-mvp-builder`)
+   and get 3 paying customers before raising any capital. Pre-revenue at idea stage with no team differentiation is not raiseable
    in the 2025 LATAM pre-seed market.
 
 4. Articulate the "Why Now?" — identify a specific regulatory change (SAT mandate, CFDI
    4.0 compliance), infrastructure shift (open banking regulation in Mexico), or behavioral
    change driving urgency that did not exist in 2022.
 
-5. Review Alegra's $10M Series A investor list and identify 5 LATAM-focused seed funds
+5. Map who funded SMB finance software in LATAM in the last 24 months and identify 5 LATAM-focused seed funds
    (LAN Accelerator, 500 Latam, Platanus, Magma Partners, ALL VP) for early relationship
    building — warm intros to these funds require 12–18 months of relationship cultivation.
 
@@ -106,8 +107,11 @@ eligibility assuming execution.
 
 ## Sources
 
-- LAVCA 2025 Startup Ecosystem Insights: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
+- LAVCA Startup Ecosystem Insights 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
+- LAVCA Trends in Tech 2025: https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf
 - Cuantico LatAm VC Report 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
+- Mexico Business News, "Fewer deals, bigger bets": https://mexicobusiness.news/finance/news/fewer-deals-bigger-bets-latin-americas-startup-funding-gap
+- Valoriza via Diario Financiero (2 Apr 2025): https://www.df.cl/df-lab/innovacion-y-startups/informe-revela-que-las-startups-de-eeuu-valen-mas-antes-de-una-ronda-de
 - YC Essential Startup Advice: https://www.ycombinator.com/library/Em-yc-s-essential-startup-advice
 - a16z PMF Method: https://a16z.com/the-pmf-method/
 - Sequoia Enduring Companies: https://www.sequoiacap.com/article/elements-of-enduring-companies/

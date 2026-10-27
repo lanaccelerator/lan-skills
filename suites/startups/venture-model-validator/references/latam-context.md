@@ -1,131 +1,75 @@
-# LATAM Context — Venture Model Validator
-
-**Source:**
-- [LAVCA 2025 Startup Ecosystem Insights](https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf)
-- [Cuantico LatAm VC Report 2026](https://reports.cuanticovp.com/latin-america-vc-report-2026/) (2025 actuals)
-- [LAVCA Trends in Tech 2025](https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf)
+# LATAM Context: Venture Model Validator
 
 **When to use:** venture-model-validator reads this file in Step 3 (Workflow, step 5) and
-Step 5 (LATAM Context) BEFORE calculating the final score. Adjust all US-sourced benchmarks
-using the data below before presenting the scorecard.
+Step 5 (LATAM Context) BEFORE calculating the final score.
+
+**Numbers live in the canonical data layer:** shared/latam-benchmarks.md
+(verified Oct 2026, every figure with source and date). This file only says how to use
+them in the scorecard. If a number is not in the canonical file and you cannot verify it,
+do not state it. Rows marked *(directional)* are LAN's read, not published data.
 
 ---
 
-## How to Annotate Benchmarks in Scorecard Output
+## How to Annotate Benchmarks in the Scorecard
 
-Every quantitative benchmark in the scorecard must follow this protocol:
+1. US benchmark first: `(US-sourced benchmark, <source>, <date>)`
+2. Then the LATAM figure: `(LATAM, <source>, <date>)` or `(LATAM, directional)`
+3. State the direction: LATAM advantage, LATAM discount, or same as US
 
-1. Show the US benchmark first, labeled `(US-sourced benchmark)`
-2. Immediately follow with the LATAM-adjusted figure, labeled `(LATAM, LAVCA 2025)` or `(LATAM, Cuantico 2026)`
-3. Note the direction: LATAM advantage, LATAM discount, or same as US
-
-**Example format:**
-> Seed-stage SaaS valuation: $8M–$15M pre-money *(US-sourced benchmark, YC S24 data)*
-> LATAM seed valuation: $3M–$8M pre-money *(LATAM, LAVCA 2025)* — 40–60% LATAM discount
-
----
-
-## Capital Markets Context (Cuantico 2026 — 2025 actuals)
-
-| Metric | Value | Source |
-|--------|-------|--------|
-| Total LATAM VC invested 2025 | US$4.126B across 681 rounds | Cuantico 2026 |
-| YoY growth | +13.8% (vs US$3.627B in 2024) | Cuantico 2026 |
-| Average ticket size 2025 | US$6.1M (up from US$5.2M in 2024) | Cuantico 2026 |
-| Pre-seed deals 2025 | 152 deals (-39% vs 2024; -77% vs 2022 peak) | Cuantico 2026 |
-| Brazil + Mexico funding share | 78.5% of regional total | Cuantico 2026 |
-| Fintech sector share | 61% of LATAM VC | LAVCA 2025 |
-| SaaS sector share | ~13% of LATAM VC | LAVCA 2025 |
-| Early-stage rounds (Seed + Series A) | US$2.2B = 52% of total | LAVCA 2025 |
-| Median time between rounds | 20 months (vs 12–15 months in US) | LAVCA 2025 |
+**Example:**
+> Seed to Series A: ~24% of the 2022 US seed cohort had raised a Series A *(US-sourced
+> benchmark, Carta)*. LATAM: 12% of seed startups raise one within three years *(LATAM,
+> LAVCA Startup Ecosystem Insights 2025)*. LATAM discount: roughly half the odds.
 
 ---
 
-## Sector Mix — Implications for VC-Backability Scoring
+## Facts that move the score (all in the canonical file)
 
-| Sector | LATAM VC % | US VC % | Implication for Scoring |
-|--------|-----------|---------|--------------------------|
-| Fintech | ~61% | ~13% | Dominant LATAM capital pool; higher competition but more investors |
-| SaaS | ~13% | ~30%+ | Underfunded vs US; structural opportunity but fewer LATAM SaaS VCs |
-| Healthtech | ~8% | ~15% | Emerging; regulatory complexity limits investor pool |
-| Edtech | ~6% | ~8% | Post-pandemic contraction; cautious investors |
-| Logistics/Supply Chain | ~5% | ~5% | Consistent; LATAM supply chain gaps create demand |
+| Fact | Source | Scoring implication |
+|------|--------|---------------------|
+| USD 4.13B across 681 rounds in 2025, +13.8% | Cuantico 2026 | Thin market: the follow-on pool is small |
+| Fintech 61% of 2025 dollars, SaaS 13% | Cuantico 2026 | Non-fintech needs stronger PMF evidence to access the same capital |
+| Brazil + Mexico ~73% of 2025 dollars | Cuantico 2026 | Regional scale runs through Brazil or Mexico |
+| 12% of seeds reach Series A within 3 years | LAVCA Startup Ecosystem Insights 2025 | Underwrite as if the company may never raise again |
+| ~20 months between rounds | LAVCA Trends in Tech 2025 | Plan runway for 20+ months, not 12-15 |
+| Pre-seed 2025: deal count -39%, lowest since 2018 | Latin America VC Report via Mexico Business News | Pre-product startups face a harder market; score PMF conservatively |
+| M&A is 67% of 2025 exits | Cuantico 2026 | Name the acquirers; do not underwrite an IPO |
+| LATAM seed pre-money ~40% of the US level (2015-2025 average) | Valoriza via Diario Financiero (2 Apr 2025) | Fund-returner math must use LATAM entry prices and exits |
 
-**Scoring adjustment:** A non-fintech SaaS startup in LATAM must demonstrate stronger
-PMF signals and market size than a fintech peer to access the same capital, because the
-investor pool is proportionally smaller. Score PMF and market size with this constraint.
-
----
-
-## Fundraising Benchmarks by Stage (LATAM)
-
-| Stage | Typical Check (USD) | Post-Money Cap / Valuation | Notes |
-|-------|--------------------|-----------------------------|-------|
-| Pre-pre-seed (idea, accelerator) | $25K–$150K | $1.5M–$5M cap | LAN Accelerator, Platanus, 500 Latam |
-| Pre-seed (product, no revenue) | $150K–$750K | $3M–$10M cap | SAFE note standard |
-| Seed (early revenue, PMF signals) | $750K–$3M | $8M–$20M pre-money | Priced or SAFE |
-| Series A (PMF proven) | $3M–$15M | $20M–$60M pre-money | Priced round |
-| Series B (scale) | $15M–$50M | $60M–$200M pre-money | Top-quartile LATAM companies |
-
-**LATAM discount:** All LATAM valuations run 40–60% below equivalent US market at same
-stage. This is market pricing norm, not a quality signal.
-
-**US comparison:**
-> Seed-stage SaaS pre-money: $10M–$20M *(US-sourced benchmark, YC S24 data)*
-> LATAM seed pre-money: $8M–$20M, median ~$12M *(LATAM, LAVCA 2025)*
+The revenue-multiple discount vs US peers is real but unquantified in any public dataset.
+Never quote a percentage for it.
 
 ---
 
-## VC-Backability Adjustments for LATAM
+## Sector Mix Adjustment
 
-### Minimum Thresholds (LATAM-calibrated)
+A non-fintech SaaS startup in LATAM must show stronger PMF signals and market size than a
+fintech peer to access the same capital, because the investor pool is proportionally
+smaller. Five companies took about 25% of 2025 venture dollars (LAVCA 2026 Trends in Tech):
+read sector shares as concentrated, not as broad appetite.
+
+---
+
+## LATAM-Calibrated Thresholds (directional)
 
 | Criterion | US Standard | LATAM Adjustment |
 |-----------|-------------|------------------|
-| SAM for fund-returner | >$500M (top-tier fund) | >$100M (LATAM seed fund, $50M–$300M) |
-| Growth rate at seed | >10% MoM | >8% MoM acceptable if market shows structural advantage |
-| Series A revenue threshold | $1–3M ARR | $1–3M ARR — same floor (LAVCA 2025) |
-| Time to Series A | 12–18 months post-seed | 18–30 months post-seed (20-month median gap) |
-| PMF signal for seed | 40% "very disappointed" (Sean Ellis) | Same threshold applies |
+| SAM for fund-returner | >$500M (top-tier fund) | >$100M for a LATAM seed fund ($50M-$300M fund size) |
+| Growth at seed | 5-7%/week during YC (Paul Graham, 2012); ~10%/week for AI-native at top funds (LAN's read) | 10%+ MoM floor for single-country B2B; explain anything lower |
+| Series A revenue | $1-3M ARR | Same floor |
+| Time to Series A | 12-18 months post-seed | 18-30 months post-seed |
+| PMF signal | 40% "very disappointed" (Sean Ellis) | Same threshold |
 
-### Market Geographic Requirement
-
-A LATAM startup achieving regional scale MUST eventually reach Brazil or Mexico:
-- Brazil: ~55% of LATAM VC; largest tech ecosystem
-- Mexico: ~23.5% of LATAM VC; fastest-growing tech ecosystem
-
-Startups outside Brazil/Mexico should price in 2–4 years to enter one of these markets.
-Investors will ask about the Brazil/Mexico strategy in every pitch.
-
-**For startups in other LATAM countries:** Expect fundraising at 60–70% of Brazilian
-peer valuations. Cross-border expansion to Brazil or Mexico required for full VC market
-access.
+Round ranges by stage (check size, cap, pre-money) are in the canonical file, marked
+directional.
 
 ---
 
-## Pre-Seed Market Contraction (Critical Context)
+## Market Geographic Requirement
 
-Pre-seed deals dropped from 660 in 2022 to 152 in 2025 — a 77% contraction.
-
-**Implications for venture-model-validator output:**
-- Ideas and pre-product startups face a significantly harder funding environment in 2025
-- Earlier-stage companies must demonstrate seed-level metrics (revenue, PMF signals)
-  faster to access the reduced pre-seed capital pool
-- Accelerator programs (LAN, Platanus, 500 Latam) have become more critical as bridge
-  capital before reaching seed-fundable stage
-- Score PMF criterion conservatively for pre-product startups — the market has moved up
-
----
-
-## SaaS-Specific LATAM Benchmarks (Cuantico 2026)
-
-| Metric | LATAM Value | US Benchmark | Direction |
-|--------|-------------|--------------|-----------|
-| CAC payback period | 6–12 months | 12–18 months (Bessemer "good") | LATAM structural advantage |
-| % recovering CAC in <6 months | 60% (Brazil) | ~30% top-quartile US | LATAM advantage |
-| LTV/CAC at Series A | ≥3:1 expected; top firms 5:1 | ≥3:1 standard | Same floor |
-| Revenue multiple discount | ~30–50% to US peers at same growth | — | LATAM discount |
-| SaaS market CAGR 2024–2030 | ~25% | ~17% global | LATAM growth advantage |
+A LATAM startup reaching regional scale must eventually win Brazil or Mexico (about 49%
+and 24% of 2025 dollars, Cuantico 2026). Startups elsewhere should plan an entry into one
+of them within 2-4 years; investors ask about it in every pitch (directional).
 
 ---
 
@@ -133,8 +77,8 @@ Pre-seed deals dropped from 660 in 2022 to 152 in 2025 — a 77% contraction.
 
 | Risk | Implication |
 |------|-------------|
-| FX volatility | Revenue in local currency; VC returns in USD — mention for LATAM startups not USD-denominated |
-| Regulatory fragmentation | No unified LATAM framework — country-specific compliance required |
-| Capital markets depth | Limited Series B+ follow-on capital locally — international co-investors needed at Series A |
-| Talent density | Engineering talent concentrated in BR/MX/COL — remote-first required for other markets |
-| Pre-seed contraction | 152 deals (2025) vs 660 (2022) — earlier companies must hit seed metrics faster |
+| FX volatility | Revenue in local currency, returns in USD: ask for USD-linked pricing |
+| Regulatory fragmentation | Country-specific licenses (CNBV, BACEN, SFC, CMF) |
+| Capital depth | Limited local Series B+; international co-investors needed from Series A |
+| Exit scarcity | M&A-led exits; name 10 plausible acquirers |
+| Pre-seed contraction | Earlier companies must reach seed metrics faster |

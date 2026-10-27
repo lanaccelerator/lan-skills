@@ -1,11 +1,29 @@
-# YC Standard Startup Metrics + a16z 16 Metrics
+# YC Standard Startup Metrics + a16z Metric Definitions
 
 **Source:**
-- [A Guide to Startup Metrics — YC Library](https://www.ycombinator.com/library/Fp-a-guide-to-startup-metrics)
-- [16 Metrics — Andreessen Horowitz](https://a16z.com/16-metrics/)
-- [Roadmap to Epiq — Bessemer Venture Partners](https://www.bvp.com/atlas/roadmap-to-epiq)
+- [A Guide to Startup Metrics, YC Library](https://www.ycombinator.com/library/Fp-a-guide-to-startup-metrics)
+- [Startup = Growth, Paul Graham (2012)](https://paulgraham.com/growth.html)
+- [16 Metrics, Andreessen Horowitz](https://a16z.com/16-metrics/)
+- [The State of AI 2025, Bessemer Venture Partners (Aug 2025)](https://www.bvp.com/atlas/the-state-of-ai-2025)
+- Carta Data Desk (10 Jul 2026) and Carta State of Private Markets Q3 2025 for round sizes, valuations and dilution
 **License/Attribution:** Frameworks summarized from public guidance. Cite each source by name and URL.
-**When to use:** startup-kpi-automator (primary), fundraising-readiness-audit (Phase 2), deal-memo-writer (Phase 2). Loaded when scoring or benchmarking any startup's performance metrics.
+**When to use:** startup-kpi-automator (primary), fundraising-readiness-audit, deal-memo-writer, angel-investment-analyzer, startup-valuation-checker. Loaded when scoring or benchmarking any startup's performance metrics. LATAM annotation: `latam-benchmarks.md`.
+
+## Growth Bar (YC)
+
+- "A good growth rate during YC is 5-7% a week. If you can hit 10% a week you're doing exceptionally well. If you can only manage 1%, it's a sign you haven't yet figured out what you're doing." (Paul Graham, Startup = Growth, 2012). Measure on revenue, or on active users before revenue.
+- 5% weekly is about 12x a year; 1% weekly is about 1.7x a year.
+- YC standard deal: $500K, $125K for 7% plus $375K on an uncapped MFN SAFE ([ycombinator.com/deal](https://www.ycombinator.com/deal), 2025).
+
+## Round Benchmarks (US-sourced, Carta)
+
+| Stage | Median round | Median post-money | Typical dilution |
+|-------|--------------|-------------------|------------------|
+| Seed | $4.1M | $24.3M | ~19-20% (Carta 2025) |
+| Series A | $14.4M | $80M | ~18% (Carta 2025) |
+| Series B | $25M | $191M | ~13% (implied) |
+
+Round and post-money: Carta Data Desk, 10 Jul 2026. Pre-money medians 2025: seed $16M, Series A $49.3M (Carta State of Private Markets Q3 2025). LATAM sits far below these levels; see `latam-benchmarks.md`.
 
 ## Key Principles
 
@@ -32,7 +50,9 @@
 | CAC Payback Period | Months to recover CAC | CAC ÷ (ARPU × gross margin %) | Months |
 | Rule of 40 | Growth + profitability balance | ARR YoY growth % + EBITDA margin % | Composite % |
 
-### SaaS Benchmarks by Stage
+### SaaS Benchmarks by Stage *(directional)*
+
+Practitioner ranges consolidated from YC, a16z and Bessemer guidance. Not a single published dataset: use for orientation and say so.
 
 | Metric | Pre-Seed | Seed | Series A | Series B |
 |--------|---------|------|---------|---------|
@@ -45,15 +65,22 @@
 | CAC payback | N/A | <18 months | <12 months | <12 months |
 | Rule of 40 | N/A | N/A | >20 | >40 |
 
-*(Sources: BVP Cloud Index, YC Library, a16z benchmarks)*
+*(Directional; consolidated from YC Library, a16z and Bessemer public guidance)*
 
 ### LATAM SaaS Adjustments
 
-*(US-sourced benchmark)* CAC payback: 12–18 months good per Bessemer.
-*(LATAM, Cuantico 2026)* CAC payback: 6–12 months; 60% of Brazilian SaaS companies recover CAC in <6 months. LATAM operators have structural CAC advantage due to lower sales team costs.
+No public LATAM-wide dataset on CAC payback or LTV/CAC matches US benchmark quality. Apply the US benchmark labeled `(US-sourced benchmark)` and explain the local drivers: cheaper sales salaries, lower ACV, higher SMB churn, FX on local-currency revenue. Do not cite a LATAM payback percentage unless the user provides it.
 
-*(US-sourced benchmark)* LTV/CAC at Series A: ≥3:1.
-*(LATAM, Cuantico 2026)* LTV/CAC at Series A: ≥3:1 expected; top LATAM SaaS firms achieve 5:1 due to low churn and strong retention culture.
+### AI-Native Companies (Bessemer State of AI 2025)
+
+AI products carry inference cost in COGS, so gross margin is the first number to check before applying any SaaS multiple.
+
+| Profile | ARR path | Gross margin | ARR per FTE |
+|---------|----------|--------------|-------------|
+| "Supernova" | ~$40M year 1, ~$125M year 2 | ~25%, often negative | ~$1.13M |
+| "Shooting Star" | ~$3M, $12M, $40M, $103M in years 1-4 | ~60% | ~$164K |
+
+Rules: (1) value AI revenue on gross profit, not top line; (2) separate pilot or usage revenue from contracted recurring revenue; (3) ask what happens to margin if the model provider raises prices or ships the same feature.
 
 ## Marketplace Metrics
 
@@ -98,9 +125,9 @@
 | Default Rate | % of loans or credit facilities defaulting |
 | Regulatory capital ratio | Required capital buffers (varies by jurisdiction) |
 
-## The a16z 16 Metrics Framework
+## Core Metric Definitions (adapted from a16z 16 Metrics)
 
-Full framework at [a16z.com/16-metrics/](https://a16z.com/16-metrics/). Key additions beyond YC standard:
+Full a16z framework at [a16z.com/16-metrics/](https://a16z.com/16-metrics/). The list below adapts it; items 14-16 are LAN additions, and the thresholds are directional rules of thumb:
 
 1. **Bookings** (vs. revenue): Distinguishes contracted future revenue from recognized revenue.
 2. **Revenue** (vs. bookings): GAAP recognized, not contracted.

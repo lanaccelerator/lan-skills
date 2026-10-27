@@ -16,24 +16,34 @@ valuation methods for the startup's stage and revenue status.
 **Mechanism:** Multiply current ARR by the median revenue multiple for the startup's
 stage, sector, and geography.
 
-**LATAM-adjusted multiples (Cuantico 2026 / LAVCA 2025):**
+**LATAM-adjusted multiples *(directional, LAN practitioner ranges; neither Cuantico 2026 nor LAVCA 2025 publishes revenue multiples)*:**
 
-| Stage    | Sector        | US Multiple (2024) | LATAM Multiple | Source |
+| Stage    | Sector        | US Multiple | LATAM Multiple | Basis |
 |----------|---------------|--------------------|----------------|--------|
-| Pre-seed | SaaS          | 5–8× ARR           | 3–5× ARR       | Cuantico 2026 |
-| Seed     | SaaS          | 6–10× ARR          | 4–6× ARR       | Cuantico 2026 |
-| Series A | SaaS          | 8–15× ARR          | 5–8× ARR       | LAVCA 2025 |
-| Seed     | Fintech       | 8–12× ARR          | 5–8× ARR       | LAVCA 2025 (+20–30% to SaaS) |
-| Seed     | Edtech        | 4–6× ARR           | 2–4× ARR       | LAVCA 2025 (post-pandemic contraction) |
-| Seed     | Healthtech    | 5–8× ARR           | 3–5× ARR       | LAVCA 2025 |
-| Seed     | Logistics     | 3–5× ARR           | 2–3× ARR       | Cuantico 2026 |
+| Pre-seed | SaaS          | 5–8× ARR           | 3–5× ARR       | Directional |
+| Seed     | SaaS          | 6–10× ARR          | 4–6× ARR       | Directional |
+| Series A | SaaS          | 8–15× ARR          | 5–8× ARR       | Directional |
+| Seed     | Fintech       | 8–12× ARR          | 5–8× ARR       | Directional (licensed fintech premium) |
+| Seed     | Edtech        | 4–6× ARR           | 2–4× ARR       | Directional (post-pandemic contraction) |
+| Seed     | Healthtech    | 5–8× ARR           | 3–5× ARR       | Directional |
+| Seed     | Logistics     | 3–5× ARR           | 2–3× ARR       | Directional |
 
-**LATAM discount explanation:** LATAM revenue multiples are 30–50% below US peers at
-the same growth rate (LAVCA 2025). This reflects: (1) lower exit multiples in regional
+**LATAM discount explanation:** LATAM revenue multiples sit below US peers at the same growth
+rate. No public dataset quantifies the gap for multiples; the closest sourced figure is pricing:
+US seed pre-money averaged 156% above LATAM in 2015-2025 (Valoriza via Diario Financiero,
+2 Apr 2025). The discount reflects: (1) lower exit multiples in regional
 M&A; (2) fewer IPO paths; (3) longer time-to-exit; (4) higher FX risk. Not a quality
-discount — a market pricing norm.
+discount: a market pricing norm.
 
-**Fintech LATAM premium:** Add 20–30% to the SaaS multiple for LATAM fintech startups
+**Seed caveat:** public-style multiples are a floor at seed. Seed rounds price growth, team and
+scarcity, which is why the Scorecard and comparables usually land higher. Use the multiple to show
+what the revenue alone supports.
+
+**AI caveat:** for AI products, apply the multiple to gross profit or haircut it when gross margin
+is far below SaaS norms (Bessemer State of AI 2025: ~25% for fast-scaling "Supernovas", ~60% for
+"Shooting Stars").
+
+**Fintech LATAM premium *(directional)*:** Add 20–30% to the SaaS multiple for LATAM fintech startups
 with regulatory moat (CNBV license in Mexico, BACEN accreditation in Brazil). Regulated
 fintech faces higher barriers to entry — the moat is worth a premium.
 
@@ -68,18 +78,17 @@ Triangulate against the ask.
 - Flag if comparables are from a different vintage (2021–2022 LATAM bull market comps
   are not applicable in 2025–2026)
 
-**LATAM sector comparables (representative, not exhaustive):**
+**Comparables must be real and sourced.** Build the table at run time from Crunchbase,
+LAVCA, Cuantico, Latitud or press coverage, one link per row, rounds from the last 18-24
+months. If ARR at the raise is not public, write "n/d" and use the round as a price point
+only. Never fill a row from memory or estimate a comparable's ARR.
 
-| Company    | Country | Sector   | Stage | ARR at Raise (est.) | Pre-money | Multiple |
-|------------|---------|----------|-------|---------------------|-----------|----------|
-| Konfío     | Mexico  | Fintech  | Seed  | $1.2M               | $8M       | 6.7×     |
-| Alegra     | Colombia| SaaS/ERP | Seed  | $800k               | $4.5M     | 5.6×     |
-| Tul        | Colombia| B2B Mkt  | Seed  | Pre-rev             | $3.5M     | N/A      |
-| Fintoc     | Chile   | Fintech  | Seed  | $300k               | $4M       | 13.3×    |
-| Nuvemshop  | Brazil  | E-commerce| Series A | $3M            | $18M      | 6×       |
+| Company | Country | Sector | Stage | Date | ARR at raise | Pre-money | Multiple | Source |
+|---------|---------|--------|-------|------|--------------|-----------|----------|--------|
+| [real company] | [ ] | [ ] | [ ] | [month/year] | [USD or n/d] | [USD] | [x or n/d] | [link] |
 
-*(Apply directly from LAVCA/Cuantico data when available. Adjust for vintage: post-2023
-market correction applies a 25–40% discount vs. 2021–2022 peak multiples.)*
+*(Vintage matters: 2021-2022 LATAM peak-market comps overstate 2025-2026 pricing; flag them
+and discount them.)*
 
 **Calculation:**
 ```
@@ -100,9 +109,9 @@ reduces startup risk. Maximum valuation is the sum of all factors at full credit
 
 **Risk factors and maximum credit (LATAM-adjusted):**
 
-| Risk Factor               | Max Value (US) | Max Value (LATAM) | Basis |
+| Risk Factor               | Max Value (Berkus) | Max Value (LATAM, directional) | Basis |
 |---------------------------|----------------|-------------------|-------|
-| Sound idea (basic value)  | $500k          | $250k             | LAVCA pre-revenue median |
+| Sound idea (basic value)  | $500k          | $250k             | Basic value |
 | Working prototype         | $500k          | $250k             | Proof of concept reduces tech risk |
 | Quality management team   | $500k          | $250k             | Team execution reduces team risk |
 | Strategic relationships   | $500k          | $250k             | Partnerships reduce market risk |
@@ -112,9 +121,9 @@ reduces startup risk. Maximum valuation is the sum of all factors at full credit
 - US: $2.5M (all 5 factors at full credit)
 - LATAM: $1.25M (all 5 factors at full credit)
 
-**LATAM adjustment rationale:** LAVCA 2025 pre-revenue median pre-money is $1.5–3M in
-LATAM (vs. $3–6M US). The $250k/factor cap reflects LATAM market reality for pre-revenue
-companies. Use $300–400k/factor only for LATAM companies with US co-investors or
+**LATAM adjustment rationale *(directional)*:** LATAM seed pricing runs around 40% of the US
+level (Valoriza via Diario Financiero, Apr 2025), so the LATAM cap halves Berkus's $500k per
+factor. Use $300–400k/factor only for LATAM companies with US co-investors or
 exceptional team backgrounds (prior exits, top-tier accelerator).
 
 **Calculation:**
@@ -133,7 +142,7 @@ Implied pre-money = Sum of credits assigned to each factor (0 to $250k LATAM eac
 **Mechanism:** Score the startup against regional averages. Multiply regional average
 pre-money by the scorecard index to get implied pre-money.
 
-**LATAM regional average pre-money (LAVCA 2025):**
+**LATAM regional average pre-money *(directional, LAN practitioner ranges)*:**
 - Pre-seed average: $4M pre-money
 - Seed average: $8M pre-money
 

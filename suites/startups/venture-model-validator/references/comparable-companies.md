@@ -1,145 +1,51 @@
 # LATAM Comparable Companies
 
-**Source:** LAVCA portfolio data, Crunchbase public data, public press releases
-**When to use:** venture-model-validator reads this file in Step 3 (Workflow, step 4)
-to identify 2–4 comparable LATAM companies at similar stage with real metrics.
-Select comparables relevant to the startup's sector and stage.
+**When to use:** venture-model-validator, Step 3 (Workflow, step 4), to pick 2-4 LATAM
+comparables at a similar stage and sector.
+
+**Rule (Oct 2026 quality pass):** the previous version of this file carried point-in-time
+metrics at each company's Series A (ARR, customers, growth) that we could not verify; several
+were wrong. They were removed. This file is now a shortlist of WHO to compare against. Fetch
+the round data (amount, date, lead, stage) at run time from press releases, Crunchbase or
+LAVCA news, and print source and date next to every figure. If you cannot verify a metric,
+leave the cell as "not disclosed". Never fill it from memory.
 
 ---
 
-## How to Use This File
+## How to Use
 
-1. Identify the startup's sector (fintech, SaaS, marketplace, logistics, proptech, etc.)
-2. Select 2–4 companies at a similar or slightly later stage
-3. Present as a comparables table in the scorecard:
-   - Company | Country | Stage at Key Raise | Key Metric | Amount | Outcome
-4. Use the metrics to anchor benchmark statements (e.g., "Alegra raised Series A at $2M ARR")
-
----
-
-## Fintech Comparables
-
-### Nubank (Brazil) — Fintech benchmark
-- **Vertical:** Consumer fintech / digital bank
-- **Stage at Series A:** ~$1M ARR; 300k customers (2015)
-- **Amount raised:** Series A $14.3M (Sequoia 2015); IPO NYSE 2021 at ~$41B valuation
-- **Key metric at raise:** Waitlist of 1M+ customers before product launch; 50% MoM growth
-- **Outcome:** NYSE IPO (NASDAQ: NU) — largest fintech IPO in LATAM history
-- **Use when:** Benchmarking consumer fintech or B2C SaaS with strong organic growth
-
-### Clip (Mexico) — Fintech (payments)
-- **Vertical:** SME payments / card reader
-- **Stage at Series B:** ~$10M ARR; 600k merchants
-- **Amount raised:** Series B $50M (General Atlantic 2020); Series C $250M (SoftBank 2021)
-- **Key metric at raise:** 600k+ active merchants; 3x YoY revenue growth
-- **Outcome:** Independent; valued at $2B+ (2021)
-- **Use when:** Benchmarking B2SME fintech or payment infrastructure startups in Mexico
-
-### Konfío (Mexico) — B2B fintech (lending)
-- **Vertical:** SME lending / credit
-- **Stage at Series A:** ~$5M loan book; 500 SME borrowers
-- **Amount raised:** Series A $8M (QED Investors 2016); Series D $100M (2020)
-- **Key metric at raise:** Sub-3% NPL rate vs 10%+ traditional banking; 30% MoM loan book growth
-- **Outcome:** Independent; expanded to full SME financial services suite
-- **Use when:** Benchmarking B2B lending or SME financial services in Mexico
-
-### Bitso (Mexico) — Crypto fintech
-- **Vertical:** Crypto exchange / cross-border payments
-- **Stage at Series B:** ~1M registered users; $1B+ monthly trading volume
-- **Amount raised:** Series B $62M (Paradigm 2021); Series C $250M (Tiger Global 2021)
-- **Key metric at raise:** Largest crypto exchange in Mexico; 40% of Mexican international remittances
-- **Outcome:** Independent; unicorn status (2021) at $2.2B valuation
-- **Use when:** Benchmarking fintech with cross-border or payments angle in Mexico
+1. Identify the startup's sector and stage.
+2. Pick 2-4 companies below (or better, 2-4 recent rounds in the same sector from the last
+   24 months found with web search).
+3. Present: Company | Country | Round (amount, date, lead) | Disclosed metric at the time |
+   Outcome | Source
+4. Use comparables to show that the category gets funded and exits in LATAM, not to
+   anchor valuation. Valuation belongs to `/startup-valuation-benchmark`.
 
 ---
 
-## B2B SaaS Comparables
+## Shortlist by Sector
 
-### Alegra (Colombia) — SME accounting SaaS
-- **Vertical:** B2B SaaS / accounting for SMEs
-- **Stage at Series A:** ~$2M ARR; 20k active SME customers
-- **Amount raised:** Series A $10M (various LATAM investors, 2021)
-- **Key metric at raise:** 20k paying customers across 8 LATAM countries; NPS >60
-- **Outcome:** Independent; expanded to 20+ LATAM countries
-- **Use when:** Benchmarking B2B SaaS targeting SMEs with multi-country LATAM expansion
-
-### Siigo (Colombia) — Enterprise accounting SaaS
-- **Vertical:** B2B SaaS / accounting/ERP
-- **Stage at acquisition:** ~100k+ SME and mid-market customers; $5M+ ARR
-- **Amount raised:** PE-backed growth; acquired by Visma (Norway) for undisclosed amount
-- **Key metric at acquisition:** Dominant Colombia market share; expanding to Ecuador/Mexico
-- **Outcome:** Acquired by Visma — not a VC-exit outcome; PE/strategic acquisition
-- **Use when:** Benchmarking vertical SaaS with dominant local market position (non-venture path)
-
-### Simetrik (Colombia) — B2B SaaS (financial reconciliation)
-- **Vertical:** B2B SaaS / financial operations
-- **Stage at Series A:** ~$500K ARR; 30 enterprise customers
-- **Amount raised:** Series A $20M (Andreessen Horowitz 2022)
-- **Key metric at raise:** 30 enterprise customers including Rappi, Mercado Libre; 200% NRR
-- **Outcome:** Independent; a16z LATAM portfolio company
-- **Use when:** Benchmarking B2B SaaS with enterprise sales motion and high NRR
+| Company | Country | Sector | Use when benchmarking | Known outcome (verify date and figure at run time) |
+|---------|---------|--------|-----------------------|-----------------------------------------------------|
+| Nubank | Brazil | Consumer fintech / digital bank | B2C fintech with organic growth | NYSE IPO, Dec 2021 (ticker NU) |
+| Clip | Mexico | SME payments | Merchant payments in Mexico | Unicorn round, 2021 |
+| Konfío | Mexico | SME lending | B2B credit in Mexico | Independent, multi-round VC-backed |
+| Bitso | Mexico | Crypto / cross-border payments | Payments with a crypto or remittance angle | Unicorn round, 2021 |
+| Conta Azul | Brazil | SMB cloud ERP / accounting | SMB SaaS exits in LATAM | Acquired by Visma for about USD 300M, Aug 2025 (Visma press release) |
+| Siigo | Colombia | Accounting / ERP SaaS | PE-backed consolidator path | Accel-KKR-backed since 2017; acquired Aspel (Mexico) in 2022 (Bloomberg Línea) |
+| Alegra | Colombia | SME accounting SaaS | Multi-country SMB SaaS | Series A with Riverwood Capital, 2021 (amount: verify) |
+| Simetrik | Colombia | Financial reconciliation SaaS | Enterprise B2B SaaS with fintech buyers | VC-backed through Series B (verify rounds) |
+| Kavak | Mexico | Used-car marketplace | High-ticket marketplace with financing | Unicorn; one of five companies with ~25% of 2025 LATAM VC dollars (LAVCA 2026 Trends in Tech) |
+| Rappi | Colombia | Delivery super-app | Consumer marketplace, multi-city | Unicorn |
+| Habi | Colombia | Proptech (iBuyer) | Proptech or high-ticket marketplace | VC-backed through Series B+ (verify) |
+| Tiendanube / Nuvemshop | Argentina / Brazil | E-commerce SaaS | SMB commerce infrastructure | Unicorn round, 2021 |
+| Plata, ADDI, Klar, Omie | Mexico / Colombia / Brazil | Fintech, BNPL, SMB ERP | 2025 capital concentration | With Kavak, ~25% of 2025 LATAM VC dollars (LAVCA 2026 Trends in Tech) |
 
 ---
 
-## Marketplace Comparables
+## Non-venture comparables (show these too when relevant)
 
-### Kavak (Mexico) — Used car marketplace
-- **Vertical:** Marketplace / automotive
-- **Stage at Series A:** ~$5M GMV/month; 1,500 cars sold (2018)
-- **Amount raised:** Series A $47.5M (General Atlantic 2020); unicorn at Series B (2021 $700M)
-- **Key metric at raise:** 100% MoM GMV growth; NPS >70; financing attach rate >60%
-- **Outcome:** Unicorn ($8.7B valuation peak); international expansion Mexico/Brazil/Turkey
-- **Use when:** Benchmarking marketplace startups with high-ticket transactions and financing components
-
-### Rappi (Colombia) — Super-app / marketplace
-- **Vertical:** Consumer marketplace / delivery
-- **Stage at Series A:** ~$500K GMV/month; 50k orders (2016)
-- **Amount raised:** Series A $48.5M (DST Global 2017); SoftBank $1B round (2019)
-- **Key metric at raise:** 5x MoM GMV growth; 10 LATAM cities in 18 months
-- **Outcome:** Unicorn ($5.25B valuation 2019); independent; super-app expansion
-- **Use when:** Benchmarking consumer marketplace with rapid multi-city/country expansion
-
----
-
-## Proptech Comparables
-
-### Habi (Colombia) — Proptech (iBuyer)
-- **Vertical:** Proptech / residential real estate
-- **Stage at Series A:** 100 homes transacted; $5M GMV
-- **Amount raised:** Series A $15M (Inspired Capital + Tiger Global 2021); Series B $100M (2021)
-- **Key metric at raise:** Transaction velocity 3x legacy process; 15% gross margin per home
-- **Outcome:** Independent; expanding Colombia/Mexico; valued at $800M (2021)
-- **Use when:** Benchmarking proptech or high-ticket marketplace startups in LATAM
-
----
-
-## E-Commerce Infrastructure
-
-### Nuvemshop / Tiendanube (Argentina/Brazil) — E-commerce SaaS
-- **Vertical:** SaaS / e-commerce platform for SMEs
-- **Stage at Series A:** ~5,000 active merchants; $500K ARR
-- **Amount raised:** Series A $7M (Kaszek Ventures 2013); Series E $500M (Tiger Global 2021)
-- **Key metric at raise:** 90,000+ active stores at Series C; 5x merchants YoY
-- **Outcome:** Unicorn ($3.1B valuation 2021); independent; LATAM's Shopify alternative
-- **Use when:** Benchmarking SaaS infrastructure plays with SME merchant network effects
-
----
-
-## Summary Reference Table
-
-| Company | Country | Sector | Series A Stage | Series A Raise | Outcome |
-|---------|---------|--------|---------------|----------------|---------|
-| Nubank | Brazil | Consumer fintech | ~$1M ARR, 300k users | $14.3M (2015) | NYSE IPO $41B |
-| Clip | Mexico | SME payments | ~$10M ARR, 600k merchants | $50M Series B (2020) | Independent, $2B+ |
-| Konfío | Mexico | SME lending | $5M loan book, 500 SMEs | $8M (2016) | Independent |
-| Bitso | Mexico | Crypto/payments | 1M users, $1B/mo trading | $62M Series B (2021) | Unicorn $2.2B |
-| Alegra | Colombia | SME SaaS | ~$2M ARR, 20k SMEs | $10M (2021) | Independent, 20+ countries |
-| Siigo | Colombia | ERP SaaS | 100k+ customers | PE-backed | Acquired by Visma |
-| Simetrik | Colombia | B2B SaaS | $500K ARR, 30 enterprise | $20M Series A a16z (2022) | Independent |
-| Kavak | Mexico | Auto marketplace | $5M GMV/mo | $47.5M (2020) | Unicorn $8.7B peak |
-| Rappi | Colombia | Super-app | $500K GMV/mo | $48.5M (2017) | Unicorn $5.25B |
-| Habi | Colombia | Proptech | 100 homes, $5M GMV | $15M (2021) | $800M valuation |
-| Tiendanube | Argentina | E-comm SaaS | 5,000 merchants | $7M (2013) | Unicorn $3.1B |
-
-**Data sources:** Crunchbase public data, LAVCA portfolio announcements, TechCrunch coverage.
-Metrics are point-in-time at first institutional raise; verify current status independently.
+Bootstrapped or PE-owned incumbents (e.g., Contpaqi in Mexico) define the price and
+switching cost a startup must beat. Name them in the competition analysis; they are not
+VC outcomes.

@@ -1,126 +1,86 @@
 # LATAM Portfolio Construction Context
 
-**Sources:**
-- LAVCA 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
-- Cuantico 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
-- Cambridge Associates EM benchmark context
+**Sources:** LAVCA Startup Ecosystem Insights 2025 (data to 30 Jun 2025); Cuantico LatAm VC Report 2026
+(2025 actuals); Carta (Data, Fund Economics 2025, Emerging Manager Paradox Oct 2026). Canonical data:
+`shared/latam-benchmarks.md`. Rows marked *(directional)* are LAN practitioner judgment.
 
 ---
 
-## LATAM Angel Portfolio Benchmarks
+## Graduation: Why LATAM Needs More Bets
 
-| Metric | LATAM | US Equivalent | Notes |
-|--------|-------|---------------|-------|
-| Median angel portfolio size | 8–12 companies | 20–30 companies | LATAM angels significantly under-diversified |
-| Angel-to-Series A conversion | ~12% | ~22% | LATAM structural constraint; fewer Series A funds |
-| Average exit timeline | 7–10 years from Seed | 5–7 years from Seed | 2–3 year IRR drag on identical cash flows |
-| Median angel check size | $25k–$100k USD | $100k–$500k USD | LATAM LPs deploy smaller checks; lower entry ownership |
-| Brazil + Mexico deal flow | 78.5% of LATAM total | N/A | Geographic concentration creates portfolio risk |
+| Metric | LATAM | US | Source |
+|--------|-------|----|--------|
+| Seed to Series A | 2% in 1 year, 7% in 2, 12% in 3 | ~24% of the 2022 seed cohort | LAVCA 2025; Carta |
+| Two-year graduation trend | Falling at every stage | Falling | LAVCA 2025 |
 
-(LATAM, LAVCA 2025 / Cuantico 2026)
+**Expected Series A count** = N x 12% (LATAM, three years):
+- 6 companies → 0.7 expected; P(zero reach Series A) = 0.88^6 = 46%
+- 10 companies → 1.2 expected; P(zero) = 28%
+- 17 companies → 2.0 expected; P(zero) = 11%
+- 25 companies → 3.0 expected; P(zero) = 4%
 
----
+## Where Capital and Exits Are (Cuantico 2026, 2025 actuals)
 
-## Portfolio Size Math — LATAM vs US
+| Country | Share of 2025 VC dollars | Deals |
+|---------|--------------------------|-------|
+| Brazil | ~49% | 363 |
+| Mexico | ~24% | 86 |
+| Chile | ~6% | 53 |
+| Colombia | ~5% | 62 |
+| Argentina | ~4% | 34 |
 
-**Why LATAM portfolios need more companies for the same follow-on probability:**
+- 2025 exits: US$4.9B across 63 transactions; M&A 67%, secondaries 27%.
+- 62.7% of surveyed GPs call the exit environment unfavorable.
+- Mexico briefly out-raised Brazil in 1H 2025 (LAVCA 2025); full-year 2025 Brazil led (Cuantico 2026).
 
-To expect 2 portfolio companies to reach Series A:
-- US: 9 companies needed at 22% conversion rate (9 × 22% = ~2)
-- LATAM: 17 companies needed at 12% conversion rate (17 × 12% = ~2)
+**Allocation guidance *(directional)*:** a LATAM-focused direct portfolio with no Brazil exposure is
+missing about half of regional capital and the largest exit market. Aim for meaningful Brazil and Mexico
+weight, cap any single smaller market (and any market with capital-control history) at ~10-15%, and
+reach Brazil through local co-investors or funds if you lack direct flow.
 
-To expect 1 company to reach Series B (6% LATAM conversion from angel):
-- 17 companies needed (17 × 6% ≈ 1)
+## Exit Timing and IRR
 
-**Implication:** A LATAM angel with 10 companies is statistically likely to see only 1 company
-reach Series A and may see zero reach Series B. Under-diversification in LATAM has immediate
-portfolio math consequences.
+| Exit year | 3x gross | IRR |
+|-----------|----------|-----|
+| 5 | 3x | 24.6% |
+| 7 | 3x | 17.0% |
+| 9 | 3x | 13.0% |
 
----
+Two extra years cut the IRR on a 3x by about 8 points. Plan LATAM holds at 7-10 years *(directional)*
+and set family expectations in IRR, not only in multiple.
 
-## IRR Impact of LATAM Exit Timelines
+## LP Landscape and the Fund Route
 
-| Exit Timeline | IRR Calculation | LATAM vs US IRR Impact |
-|--------------|-----------------|----------------------|
-| 5-year exit, 3x return | 25% IRR | US standard case |
-| 7-year exit, 3x return | 17% IRR | LATAM adjusted |
-| 9-year exit, 3x return | 13% IRR | LATAM extended case |
+- 65 LATAM-dedicated funds closed in 2024 (LAVCA 2025 Industry Data). Most are emerging managers,
+  often anchored by DFIs (IDB Lab, IDB Invest, CAF) *(directional)*.
+- A DFI anchor is a useful signal (institutional diligence happened) but not a performance
+  guarantee. Still run vc-fund-due-diligence.
+- Small funds have the highest dispersion and the highest top end: 2019 vintage 90th-percentile TVPI
+  4.91x for $1-10M funds vs 1.92x for $100M+ (Carta, Oct 2026).
 
-**The 2-year difference between US and LATAM average exit timelines reduces IRR by approximately
-8 percentage points on the same 3x return.** This must be reflected in LP return targets.
+## Family Office Patterns *(directional)*
 
-A LATAM angel portfolio targeting "5x in 7 years" should be modeled as "5x in 9–10 years"
-to account for LATAM structural delay.
+| Parameter | Typical LATAM family office | Better practice |
+|-----------|-----------------------------|-----------------|
+| Venture share of assets | 5-10% | Set it once, in writing, with a pacing plan |
+| Direct portfolio | 5-15 companies, home country | 25+ companies or funds for breadth |
+| Follow-on policy | Ad hoc | Written reserve rule and pro rata in every deal |
+| Horizon expectation | 5-8 years | 7-12 years |
 
----
+**Common errors:**
+1. Deploying everything in year 1 with no reserves.
+2. No pro rata rights, so ownership shrinks in every winner.
+3. Home-country concentration (Mexican families all in Mexico, Brazilian families all in Brazil).
+4. Five-year return expectations on assets that take 7-10 years.
 
-## Geographic Concentration Risk
+## FX
 
-| Country | 2025 Deal Flow | Exit Liquidity | Risk Without Coverage |
-|---------|---------------|---------------|----------------------|
-| Brazil | ~55% | HIGH (65% of LATAM exits 2024) | Severe — missing the largest LATAM exit market |
-| Mexico | ~23.5% | MEDIUM-HIGH (20% of exits) | Significant — missing the second largest market |
-| Colombia | ~7% | MEDIUM | Portfolio can tolerate 1–2 Colombia deals |
-| Argentina | ~5% | LOW-MEDIUM (ARS/USD extreme FX) | Maximum 10% portfolio exposure recommended |
-| Chile | ~4% | MEDIUM | Growing ecosystem; reasonable exposure |
-| Other | ~5% | LOW | Maximum 10% combined; illiquidity risk |
+- USD checks into local-currency revenue: devaluation cuts USD exit value even when the company grows.
+- Prefer companies with USD-linked revenue (cross-border, US customers) for part of the portfolio.
+- For companies with only local revenue, model a 20-30% FX haircut on exit proceeds *(directional)*.
 
-**Recommendation for LATAM-focused portfolio:** Minimum 40% Brazil exposure, 20% Mexico
-exposure. Any portfolio with <30% Brazil coverage is structurally missing the primary
-LATAM exit market.
+## Pre-Seed Scarcity
 
----
-
-## Family Office LATAM Context
-
-LATAM family offices represent 35% of the LATAM LP base (LAVCA 2025) and have distinct
-portfolio construction norms:
-
-| Parameter | Typical LATAM Family Office | ILPA/Institutional LP |
-|-----------|----------------------------|----------------------|
-| Venture allocation | 5–10% of AUM | 10–20% of AUM |
-| Check size per deal | $100k–$500k | $500k–$5M+ |
-| Portfolio concentration | 5–15 companies | 20–50+ companies |
-| Investment horizon | 5–8 years (shorter preference) | 7–12 years |
-| Follow-on strategy | Rarely formalized | Systematic reserve ratio |
-| Pro-rata rights | Often not negotiated | Standard requirement |
-
-**Common family office construction errors in LATAM:**
-1. Deploying full capital in year 1 with no reserve for follow-ons
-2. Not negotiating pro-rata rights, losing ownership in every winning deal
-3. Concentrating in home country (Mexico families → all Mexico; Brazil families → all Brazil)
-4. Setting 5-year return expectations on assets that require 7–10 years to exit
-
----
-
-## FX Risk for LATAM Angel Portfolios
-
-| Portfolio USD Denomination | Local Currency Revenue | Risk Scenario |
-|---------------------------|----------------------|---------------|
-| USD check written | BRL revenue | BRL devaluation reduces exit USD valuation |
-| USD check written | MXN revenue | MXN devaluation reduces exit USD valuation |
-| USD check written | ARS revenue | ARS inflation/devaluation is extreme; 50%+ annual loss possible |
-
-**Practical guidance:**
-- Prioritize portfolio companies with USD-denominated revenue streams (SaaS with US customers,
-  cross-border marketplaces) to reduce FX drag
-- For Argentina-based companies: require a clear dollarization strategy at entry or avoid
-- For Brazil/Mexico companies: model a 20–30% FX haircut on exit USD proceeds as a
-  conservative scenario
-
----
-
-## Pre-Seed Market Contraction (2025)
-
-LATAM pre-seed deal count fell 77% from 2022 peak to 2025:
-- 2022: 660 pre-seed deals
-- 2025: 152 pre-seed deals
-(Cuantico 2026)
-
-**Impact on portfolio construction:**
-- Pre-seed is harder to access at sufficient volume for diversification
-- Accelerator-backed deals (LAN, Platanus, 500 Latam, Y Combinator LATAM) are now the
-  primary feeder for pre-seed deal flow
-- Angel investors must build relationships with accelerators to access the top of the funnel
-- This contraction favors seed-stage entry (more available deal flow) over pre-seed for
-  investors without accelerator relationships
+Pre-seed capital fell 40% and deal count 39.4% in 2025, the lowest level since 2018 (Latin America VC
+Report, via Mexico Business News). Accelerators and their demo days are now the main pre-seed feeder:
+build those relationships or enter at seed.

@@ -1,8 +1,8 @@
 # Pricing Framework Reference
 
 **Sources:**
-- ProfitWell value metric methodology: https://www.profitwell.com/recur/all/saas-pricing
-- OpenView Partners SaaS Pricing Survey: https://openviewpartners.com/2023-saas-pricing-survey/
+- ProfitWell value metric methodology: Patrick Campbell / ProfitWell (now Paddle) value-based pricing method; the original profitwell.com articles are offline
+- Kyle Poyar, Growth Unhinged (pricing research; replaces the offline OpenView survey): https://www.growthunhinged.com/
 - Sequoia Pricing Guide: https://www.sequoiacap.com/article/pricing-your-product/
 - "Monetizing Innovation" (Simon-Kucher): https://www.simon-kucher.com/en/book/monetizing-innovation
 

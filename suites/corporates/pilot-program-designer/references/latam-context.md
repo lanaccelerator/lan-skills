@@ -1,7 +1,16 @@
 # LATAM Corporate Pilot Operational Context
 
-**Source:** Compiled from BCG LATAM 2024, Wayra program data, DIAN/SAT/SFC regulatory
-sources, and NESTA LATAM Corporate Innovation Study 2023.
+> **Data status (Oct 2026 review):** the benchmark figures in this file that were attributed to a
+> "BCG 2024 / BCG LATAM 2024" survey, a "NESTA LATAM Corporate Innovation Study 2023", "McKinsey
+> LATAM Corporate Innovation 2024", an "IDB Digital Transformation Report 2024" or "GCV 2024" could
+> not be traced to any published report. They are kept only as directional practitioner heuristics,
+> now marked "(directional, source unverified)". Never present them as data or attach a firm's name to them in output.
+> Frameworks (Chesbrough, Gartner Hype Cycle, CB Insights market maps, BCG's CVC models) are fine to use.
+> Specific numbers attributed to named programs or firms (Techstars, Wayra, 500 Global, CB Insights,
+> Gartner, Intel Capital) were not verified either: use them as design patterns, not as published data.
+
+**Source:** Compiled from directional, source unverified, Wayra program data, DIAN/SAT/SFC regulatory
+sources, and directional, source unverified.
 **When to use:** Read by pilot-program-designer during Step 6 (LATAM context). Apply
 LATAM-specific adjustments to every pilot timeline, budget, and risk register.
 
@@ -42,7 +51,7 @@ resolve itself.
 ## Procurement and Contract Timeline
 
 LATAM enterprise procurement takes 4–9 months to execute a contract vs. 6–8 weeks in
-US *(BCG 2024)*. The sources of delay:
+US *(directional, source unverified)*. The sources of delay:
 
 1. **Legal review cycles:** 3–5 internal legal review rounds typical for technology
    contracts; each round: 3–6 weeks
@@ -77,11 +86,11 @@ and regulatory review requirements:
 | Manufacturing | 25% | IT/OT integration complexity; legacy systems | 16 months avg |
 
 **Note:** "Zombie pilot rate" = percentage of pilots that run past their intended end
-date without a GO/NO-GO decision. Source: BCG LATAM 2024 corporate innovation survey.
+date without a GO/NO-GO decision. Source: directional, source unverified.
 
 ## LATAM Startup Enterprise Readiness
 
-70% of LATAM startups cannot sign enterprise MSAs without legal counsel *(NESTA 2023)*.
+70% of LATAM startups cannot sign enterprise MSAs without legal counsel *(directional, source unverified)*.
 The corporate must provide template contracts (or at minimum, a contract framework) or
 the pilot will stall at the legal stage.
 

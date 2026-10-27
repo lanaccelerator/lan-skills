@@ -125,7 +125,7 @@ at pre-seed accept narrative timing.
 - Average contract value (current pricing × billing frequency)
 - SAM = ICP count × ACV
 - SOM = realistic subset reachable in 3 years via current channels
-- LATAM context: cite LAVCA or country-level stats (INEGI, DANE, IBGE)
+- LATAM context: cite country-level stats (INEGI, DANE, IBGE) for the ICP count
 
 **Common failure modes:**
 - Top-down: "Global accounting software = $15B. We want 1%." — No VC accepts this.
@@ -216,9 +216,9 @@ than named software competitors if direct competitors are nascent.
 - Gross margin below 60% for SaaS is a yellow flag; below 40% is a red flag for VCs
 
 **LATAM-specific benchmarks:**
-- LTV/CAC at Seed in LATAM: ≥3:1 floor, ≥5:1 top-quartile *(Cuantico 2026)*
-- CAC payback in LATAM: 6–12 months "good"; <6 months top-decile *(Cuantico 2026)*
-  vs US benchmark of 12–18 months *(Bessemer Cloud Index — US-sourced benchmark)*
+- LTV/CAC: ≥3:1 is the floor investors cite, ≥5:1 reads as strong (directional)
+- CAC payback: under 12 months reads as good at seed (directional); state the gross-margin
+  basis. No verified LATAM payback benchmark exists
 
 ---
 

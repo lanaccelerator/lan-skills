@@ -1,156 +1,133 @@
 ---
 name: angel-investment-analyzer
 description: >
-  LP and angel investor due diligence on startup deals. ALWAYS invoke when an
-  angel investor, LP, or seed fund evaluator needs to analyze whether a startup
-  deal is worth investing in — producing a structured investment scorecard with
-  thesis fit, red flags, LATAM comparables, and an INVEST / PASS / WATCH
-  recommendation. NOT for founders evaluating their own startup (use
-  venture-model-validator for that). NOT for VC fund operators writing IC memos
-  (use deal-memo-writer for that).
+  Investor-side scorecard for a single startup deal: should I write this check? ALWAYS
+  invoke when an angel, family office, LP doing a direct co-invest, or seed fund needs
+  to decide on one startup, producing a 5-criterion scorecard, exit-ownership math,
+  red flags, LATAM comparables and an INVEST / WATCH / PASS verdict. Triggers: "should
+  I invest in X", "evaluate this deal", "angel check", "analizá este deal", "¿invierto
+  en esta startup?", "me ofrecieron entrar en la ronda de X", "vale la pena este
+  ticket", "co-inversión". NOT for founders scoring their own startup
+  (venture-model-validator), VC IC memos (deal-memo-writer), checking only whether the
+  price is fair (startup-valuation-checker), designing a whole angel portfolio
+  (portfolio-construction-advisor), or evaluating a fund manager
+  (vc-fund-due-diligence).
 categories: ["business", "investing", "due-diligence"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: lp-angel
 license: MIT
 ---
 
 # Angel Investment Analyzer
 
-Evaluates a startup deal from the investor's perspective. Produces a structured
-Angel Investment Scorecard with five investor-lens criteria, explicit red flags,
-LATAM comparables, and a firm INVEST / PASS / WATCH verdict.
+Answers one question from the investor's chair: "Should I write this check, at this
+price, at this size?" Not "Is this startup fundable?" (that is venture-model-validator).
 
-This skill occupies the investor's chair, not the founder's. The question it answers
-is "Should I write this check?" — not "Is this startup fundable?"
+## Step 1: Intake (ONE message)
 
-## Step 1: Input Gathering
+Ask everything in one message. Accept "no sé" and move on with a flagged assumption.
 
-Ask all six questions in ONE message. Do not start scoring until you have answers
-(or stated assumptions) for each.
+1. **Deal:** company, sector, country, one-sentence description, deck or link.
+2. **Round:** stage, amount raised, pre-money or post-money cap, instrument (SAFE,
+   priced, local convertible), lead investor if any.
+3. **Your check:** size, target ownership, pro rata offered (yes/no), holding horizon.
+4. **Traction:** revenue or MRR, growth last 3-6 months, paying customers, retention,
+   gross margin (with inference cost if AI).
+5. **Team and moat:** founders' background; what stops a funded competitor in 18 months.
+6. **Fit:** your thesis, current portfolio, why this deal.
 
-1. **Deal name and one-sentence description** (company, sector, what it does)
-2. **Stage and round** (pre-seed / seed / Series A + raise size + pre-money valuation)
-3. **Ask and terms** (check size you are considering, your target ownership %, instrument)
-4. **Team background** (founders' prior experience — why this team for this problem?)
-5. **Competitive moat** (what prevents a well-funded competitor from copying this in 18 months?)
-6. **Thesis fit** (how does this deal fit your portfolio thesis, sector focus, or check-size range?)
+Missing answer: proceed with `[ASSUMPTION: ...]`. Never skip an input silently.
 
-If the investor does not answer a question, proceed with a stated assumption and flag it
-as: `[ASSUMPTION: ...]`. Do not silently skip inputs.
+## Step 2: Workflow (in order)
 
-## Step 2: Apply Frameworks — Investor Perspective
+1. **Read** [references/angel-investment-criteria.md](references/angel-investment-criteria.md)
+   (rubrics, red flags, verdict rules) and `references/shared/vc-backable-test.md`
+   (the founder-side framework this skill inverts).
+2. **Run the return math first** (it decides everything else):
+   - Entry ownership = check / post-money.
+   - Exit ownership = entry x (1 - d) ^ n. Default d = 20% per future priced round
+     (US medians: seed ~19-20%, A ~18%, Carta 2025); default n = 3 (A, B, C).
+     Without pro rata, do not assume follow-ons.
+   - Required exit = 10 x check / exit ownership.
+   - Compare with the realistic exit: a named strategic acquirer and a sourced
+     comparable exit in the sector. In LATAM, M&A is 67% of exits (Cuantico 2026).
+3. **Score the 5 criteria** 1-5 with the rubrics: Return Potential, Moat Durability,
+   Customer Validation, Exit Credibility, Investor Timing.
+4. **AI-era check** (if the product uses AI): gross margin after inference cost
+   (Bessemer State of AI 2025: fast-scaling "Supernovas" run ~25% gross margin, steadier
+   "Shooting Stars" ~60%); dependency on one model provider; whether a model release
+   could ship the core feature. A thin wrapper with no proprietary data or workflow
+   lock-in scores Moat Durability 2 at most.
+5. **List red flags** with the `[RED FLAG]` prefix. Do not soften or bury them.
+6. **Find 3 LATAM comparables** (same sector and stage, or a named exit). Each needs a
+   source link. If you cannot verify one, say "no verified comparable" instead of
+   inventing it.
+7. **Apply LATAM context** from [references/latam-context.md](references/latam-context.md).
+8. **Apply the verdict rules** below, then write the output.
+9. **Close with Next Steps:** 3-5 investor diligence actions for the next 14 days,
+   starting with the lowest-scoring criterion.
 
-Read references/shared/vc-backable-test.md before scoring. You are evaluating
-from the INVESTOR's seat, not the founder's. For each of the 5 criteria, apply
-the investor's question from [references/angel-investment-criteria.md](references/angel-investment-criteria.md).
+## Step 3: Verdict Rules (apply in this order, first match wins)
 
-The inversion is critical: venture-model-validator asks "Is my TAM large enough?"
-This skill asks "Can this SAM return 10x my check at my target ownership?"
+1. Any criterion at 1 or 2 → **PASS**.
+2. No realistic exit path, even as category leader, reaches the required exit → **PASS**
+   (the math fails).
+3. Total under 14/25 → **PASS**.
+4. Total 18+ and the 10x math works with realistic dilution → **INVEST**.
+5. Otherwise (14-17, or 18+ with 10x only in a top-quartile exit) → **WATCH** only if
+   you can name a catalyst that would lift one criterion within 90 days and the date to
+   re-check. No named catalyst → **PASS**.
 
-Score each criterion 1–5 using the rubrics in references/angel-investment-criteria.md.
-Any criterion below 3 is a PASS signal. Any criterion at 1 or 2 is a hard PASS.
-
-The five investor-lens criteria:
-
-1. **Return Potential (Market Size × Ownership)** — Can this SAM produce the exit multiple
-   I need, given my check size and realistic ownership dilution?
-2. **Moat Durability** — Is there a defensible barrier that protects my investment from
-   being crowded out by well-funded entrants?
-3. **Customer Validation Strength** — Has this team proven they can find, close, and retain
-   customers at this price point?
-4. **Exit Credibility** — Is there a credible path to an exit multiple I need within my
-   holding period?
-5. **Investor Timing** — Is this the right moment to invest, or will I be too early (burn
-   before product-market fit) or too late (round competed away, valuation inflated)?
-
-## Step 3: Workflow
-
-Execute in this exact order:
-
-1. Gather inputs (Step 1 questions — confirm answers or state assumptions)
-2. Score each investor-lens criterion (1–5 scale, defined in references/angel-investment-criteria.md)
-3. Flag red flags — EXPLICITLY list each red flag with `[RED FLAG]` prefix; do not soften or bury them
-4. Research LATAM comparables — identify 3 comparable LATAM companies at similar stage/sector
-5. Apply LATAM context — read [references/latam-context.md](references/latam-context.md) BEFORE producing the final score
-6. Generate scorecard output using the structure in [TEMPLATES.md](TEMPLATES.md)
-7. End with Next Steps for the investor's 14-day diligence actions
+WATCH is a dated follow-up, not a polite no.
 
 ## Step 4: Output Format
 
-ALWAYS use the exact template structure in [TEMPLATES.md](TEMPLATES.md). Do not change
-section headings, table columns, or field order. Fill every section with real analysis.
+ALWAYS use this exact template structure. Do not change section headings, table
+columns, or field order. Fill every [bracketed placeholder] with real analysis from the
+user's deal. See [TEMPLATES.md](TEMPLATES.md) for the filled example.
 
-The output is an Angel Investment Scorecard containing:
+Sections: header and verdict (BLUF), input recap, return math box, framework breakdown
+table, red flags, LATAM comparables (with sources), LATAM context box, verdict with
+conditions, Next Steps, Sources.
 
-- **Overall score** (sum of 5 criterion scores out of 25)
-- **Framework breakdown table** (investor question | score | key finding per criterion)
-- **Red flags section** — explicit `[RED FLAG]` callouts, not softened concerns
-- **LATAM Comparables table** — 3 comparable companies with stage, metrics, follow-on status
-- **LATAM Context box** — US angel benchmark labeled `(US-sourced benchmark)` + LATAM-adjusted
-  figure labeled `(LATAM, LAVCA 2025 / Cuantico 2026)`
-- **INVEST / PASS / WATCH verdict** with rationale and specific conditions
-
-**Verdict thresholds:**
-
-- **INVEST:** Score ≥18/25, no criterion below 3, clear path to 10× at realistic ownership
-- **WATCH:** Score 14–17, one criterion at 3, specific catalyst could unlock INVEST
-- **PASS:** Any criterion at 1 or 2, OR market too small to return the check at realistic ownership
+If the user wants slides, a one-pager or a PDF of the scorecard, apply
+`references/shared/deck-design-rules.md`.
 
 ## Step 5: LATAM Context
 
-Read [references/latam-context.md](references/latam-context.md) BEFORE producing the
-final score. Apply LATAM-specific adjustments to every benchmark.
+Read [references/latam-context.md](references/latam-context.md) before the final score.
+Annotate per `references/shared/latam-benchmarks.md`: US benchmark first with source,
+then the LATAM figure with source, or `(LATAM, directional)`.
 
-Label every US benchmark `(US-sourced benchmark)` and every LATAM figure
-`(LATAM, LAVCA 2025)` or `(LATAM, Cuantico 2026)`.
-
-Key LATAM angel adjustments to apply:
-
-- Median LATAM angel check is $25k–$100k USD vs $100k–$500k US — adjust ownership math
-- LATAM angel-to-Series A conversion: ~12% vs ~22% US — lower follow-on rate means
-  angel must be more selective at entry
-- Brazil + Mexico = 78.5% of LATAM deal flow — deals outside these two markets face
-  structural fundraising headwinds at later stages
-- Fintech + edtech = 45% of LATAM seed deals — sector concentration affects exit comparable set
-- For Brazil/Mexico fintech deals: require regulatory path clarity (CNBV/BACEN) before
-  scoring Moat Durability above 3
+Key adjustments:
+- Seed to Series A in LATAM: 2% in one year, 7% in two, 12% in three (LAVCA 2025).
+  Roughly half the US rate. Do not assume the next round will rescue a borderline deal.
+- Brazil and Mexico took ~73% of 2025 VC dollars (Cuantico 2026 country table). Deals
+  elsewhere need a credible path to those markets or a home-market acquirer.
+- Fintech took 61% of 2025 funding on 29% of deals (Cuantico 2026): crowded capital,
+  concentrated in a few large rounds.
+- Regulated activities (lending, payments, deposits) need the license that matches the
+  activity in each country. No clear regulatory path → Moat Durability max 3.
 
 ## Tone & Editorial Voice
 
-See references/shared/editorial-voice.md — you are a seasoned angel investor who has
-evaluated hundreds of deals and written dozens of checks. You have seen the failure modes.
-You do not encourage founders or soften your analysis to be polite.
+Follow `references/shared/editorial-voice.md`: seasoned angel, direct, numbers first,
+no em dashes, no buzzwords, no emojis; in Spanish "el AI".
 
-Expected tone: "This deal fails the moat durability test — three well-funded competitors
-(Agrapp, FundAgro, TiendaPago) entered this exact space in Q3 2025. Without a regulatory
-license or proprietary data asset, this startup is competing on execution speed against
-players with 10× more capital. That is not a moat. That is a race."
-
-## Step 6: Next Steps — Investor Diligence Actions
-
-End EVERY analysis with 3–5 specific diligence actions for the investor to complete
-within 14 days. Use the header `## Next Steps`.
-
-Actions must be concrete and investor-facing (not founder advice):
-
-- GOOD: "Request 12-month customer cohort retention data from the founder — specifically
-  Month 3 and Month 6 retention rates broken out by acquisition channel."
-- BAD: "Do more diligence on customers."
-
-Base next steps on the lowest-scoring criteria. If Return Potential scores 2/5, the first
-Next Steps must directly address the ownership/exit math for this specific deal.
+Expected tone: "The math does not work. At $50K on an $8M post-money you own 0.625%; after
+three rounds at 20% that is 0.32%. A 10x needs a ~$156M exit. The largest exit you can
+name in this sector is a fraction of that. Pass, or ask for a lower cap."
 
 ## Sources
 
-- [Angel Investment Criteria](references/angel-investment-criteria.md) — investor question inversion table + scoring rubric
-- [LATAM Angel Context](references/latam-context.md) — LATAM angel deal benchmarks
-- [vc-backable-test.md](references/shared/vc-backable-test.md) — 5-criterion framework this skill inverts
-- [editorial-voice.md](references/shared/editorial-voice.md) — tone standard
-- Jason Calacanis "Angel" methodology: https://www.angelinvestor.com/
-- AngelList return data: https://www.angellist.com/venture/data
-- Naval Ravikant angel notes: https://nav.al/investing
+- [Angel Investment Criteria](references/angel-investment-criteria.md): rubrics, red flags, verdict rules
+- [LATAM Angel Context](references/latam-context.md): LATAM benchmarks and country rules
+- [vc-backable-test.md](references/shared/vc-backable-test.md), [latam-benchmarks.md](references/shared/latam-benchmarks.md), [editorial-voice.md](references/shared/editorial-voice.md)
+- LAVCA Startup Ecosystem Insights 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
+- Cuantico LatAm VC Report 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
+- Bessemer, The State of AI 2025: https://www.bvp.com/atlas/the-state-of-ai-2025
+- Carta, dilution per round (2025) and Data Desk (10 Jul 2026): https://carta.com/data/
+- Correlation Ventures data via Seth Levine, "Venture Outcomes are Even More Skewed Than You Think" (Aug 2014; ~65% of financings return under 1x, ~4% return 10x+): https://sethlevine.com/tags/venture-economics/
 - YC Essential Startup Advice: https://www.ycombinator.com/library/Em-yc-s-essential-startup-advice
-- LAVCA 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
-- Cuantico 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/

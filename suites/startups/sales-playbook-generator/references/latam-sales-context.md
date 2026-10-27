@@ -4,7 +4,7 @@
 Read this before finalizing any prospecting sequence or CRM setup.
 
 **Sources:**
-- Gong.io LATAM data (directional): https://www.gong.io/resources/labs/
+- Gong Labs, talk-to-listen and discovery research (global, not LATAM-specific): https://www.gong.io/resources/labs/talk-to-listen-conversion-ratio/
 - WhatsApp Business statistics (Meta): https://business.whatsapp.com/
 - Predictable Revenue LATAM adaptation: https://predictablerevenue.com/book/
 - LAN Accelerator portfolio company data (internal, anonymized)
@@ -16,7 +16,11 @@ Read this before finalizing any prospecting sequence or CRM setup.
 WhatsApp is the dominant B2B communication channel in LATAM. This is not a trend —
 it is the infrastructure that LATAM business communication runs on.
 
-### Key Statistics
+### Key Statistics (directional)
+
+No public dataset measures LATAM B2B WhatsApp vs email response rates. These are
+practitioner ranges from LAN portfolio outreach: use them to set targets, then replace them
+with your own tracked numbers after the first 50 touches.
 
 | Metric | WhatsApp (LATAM B2B) | Cold Email (LATAM) | Cold Email (US) |
 |--------|--------------------|--------------------|----------------|
@@ -65,7 +69,7 @@ it is the infrastructure that LATAM business communication runs on.
 LATAM buyers buy from people they know or from people vouched for by people they know.
 Cold outreach has a much lower conversion ceiling than warm introductions.
 
-### Channel Hierarchy by Trust Level
+### Channel Hierarchy by Trust Level (directional)
 
 | Trust Level | Channel | Expected Response Rate |
 |------------|---------|----------------------|
@@ -140,7 +144,7 @@ profiles and business cards in market.
 
 ---
 
-## 4. Sales Cycle Benchmarks
+## 4. Sales Cycle Benchmarks (directional)
 
 LATAM sales cycles are longer than US equivalents at every segment. This is structural,
 not fixable with better outreach. Plan pipeline targets accordingly.
@@ -152,7 +156,7 @@ not fixable with better outreach. Plan pipeline targets accordingly.
 | **Enterprise (500+ employees)** | 6–18 months | 4–12 months | Manual procurement, legal in-person meetings, IT compliance reviews |
 | **Government / State** | 12–36 months | 12–24 months | Procurement law, budget cycles, political considerations |
 
-### Pipeline Conversion Rate Targets (LATAM B2B SaaS, $1k–$10k ACV)
+### Pipeline Conversion Rate Targets (LATAM B2B SaaS, $1k–$10k ACV; directional, LAN read)
 
 | Stage | Target Conversion | Notes |
 |-------|-----------------|-------|

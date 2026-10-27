@@ -2,7 +2,7 @@
 
 **Source:** [Writing a Business Plan — Sequoia Capital](https://www.sequoiacap.com/article/writing-a-business-plan/)
 **License/Attribution:** Public guidance from Sequoia Capital. Cite as "Sequoia Capital pitch structure" with URL.
-**When to use:** pitch-deck-builder invokes this for every presentation it builds. pitch-deck-builder references this file directly in its Framework Applied section.
+**When to use:** pitch-deck-builder invokes this for every presentation it builds. pitch-deck-builder references this file directly in its Framework Applied section. When the slides themselves are produced (HTML, Slides, PDF), also apply `deck-design-rules.md`.
 
 ## Key Principles
 
@@ -47,6 +47,5 @@ Sequoia's structure reflects how partners actually make investment decisions: th
 | Metric | Standard | Source |
 |--------|----------|--------|
 | Ideal deck length | 10–15 slides | Sequoia guidance |
-| Time to read (target) | 3–4 minutes cold | DocSend 2023 Pitch Deck Report |
-| Most-read slide (by time) | Team > Financials > Problem | DocSend 2023 (200K+ decks analyzed) |
-| Fatal rejection triggers | No competitive slide, missing market sizing, no team bios | YC, First Round review patterns |
+| Time to read (target) | 3-4 minutes cold | DocSend pitch deck research *(directional; check the current DocSend report before citing a number)* |
+| Fatal rejection triggers | No competitive slide, missing market sizing, no team bios | Practitioner review patterns *(directional)* |

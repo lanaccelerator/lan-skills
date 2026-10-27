@@ -1,5 +1,14 @@
 # Digital Transformation Context — Startup Evaluation Methodology
 
+> **Data status (Oct 2026 review):** the benchmark figures in this file that were attributed to a
+> "BCG 2024 / BCG LATAM 2024" survey, a "NESTA LATAM Corporate Innovation Study 2023", "McKinsey
+> LATAM Corporate Innovation 2024", an "IDB Digital Transformation Report 2024" or "GCV 2024" could
+> not be traced to any published report. They are kept only as directional practitioner heuristics,
+> now marked "(directional, source unverified)". Never present them as data or attach a firm's name to them in output.
+> Frameworks (Chesbrough, Gartner Hype Cycle, CB Insights market maps, BCG's CVC models) are fine to use.
+> Specific numbers attributed to named programs or firms (Techstars, Wayra, 500 Global, CB Insights,
+> Gartner, Intel Capital) were not verified either: use them as design patterns, not as published data.
+
 **Source:** Digital Transformation 2025 (references/digital-transformation-2025.pdf) — Technology Evaluation chapter.
 **Scope for this skill:** CB Insights market map methodology + Gartner evaluation framework + startup procurement evaluation criteria.
 **NOT this skill's scope:** Open innovation / Chesbrough framework (see open-innovation-scanner), CVC readiness (see corporate-venture-evaluator).
@@ -103,7 +112,7 @@ Minimum enterprise readiness requirements for a startup to be shortlisted for co
 
 ## LATAM Corporate Pilot Data
 
-**Source:** McKinsey LATAM Corporate Innovation 2024
+**Source:** directional, source unverified
 
 Key statistics for calibrating shortlist and procurement expectations:
 

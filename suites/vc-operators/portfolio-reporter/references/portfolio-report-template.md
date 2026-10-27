@@ -1,7 +1,9 @@
 # Portfolio Report Template — ILPA-Compliant Quarterly Report Structure
 
 **Sources:**
-- ILPA Reporting Template: https://ilpa.org/reporting-template/
+- ILPA Reporting Template and Performance Template (released Jan 2025, adoption from Q1 2026):
+  https://ilpa.org/industry-guidance/templates-standards-model-documents/updated-ilpa-templates-hub
+- IPEV Valuation Guidelines 2025: https://www.privateequityvaluation.com
 - Visible.vc LP reporting guide: https://visible.vc/blog/lp-reporting/
 - shared/ilpa-standards.md — metric definitions and ILPA principles
 
@@ -23,20 +25,25 @@ Required columns:
 - Active portfolio companies (current vs original)
 
 **Benchmark labeling:** When including Carta vintage benchmarks, label every figure:
-"(US-sourced benchmark, Carta Q1 2026)". Include the LATAM note (see Section 5 of SKILL.md).
+"(US-sourced benchmark, Carta Q2 2026)". Include the LATAM annotation from latam-fund-context.md.
 
 ### Section 2: Portfolio Summary Table
 
-Required columns per ILPA Principle 3 (Transparency):
+Required columns per ILPA Principles 3.0 (Transparency section, 2019):
 - Company name and current stage
 - Initial investment ($) and follow-on capital used ($)
 - Current fair market value (FMV) — mark-to-market per last round
 - Ownership % (fully diluted)
 - Status: On plan / Watch list / Exited / Partially exited
 
-**FMV calculation:** Use last priced round as mark. For companies with no new financing in
->18 months, use 1.0× cost (flat mark) unless evidence of material change. Never write up
-without a priced event; never write down without documented deterioration.
+**FMV calculation (IPEV Valuation Guidelines 2025, effective for reporting periods from
+1 Apr 2026):** fair value is re-estimated at every quarter-end, even when a recent round
+exists. Start from the last priced round, then calibrate: adjust for company performance
+since that round (revenue vs plan, runway), market multiples of comparable public companies,
+and instrument rights (preferences, SAFEs and notes valued per their terms). Holding at cost
+or at the last round without that analysis is not fair value. Write a one-line calibration
+note per mark; flag any mark carried unchanged for more than two quarters. AI-company marks
+priced at premium revenue multiples get the same test, not an exemption.
 
 ### Section 3: Top Performers
 
@@ -154,7 +161,7 @@ For fully-called funds: MOIC ≈ TVPI. Distinction matters only when fund has un
 **Institutional LPs (pension funds, endowments, FoFs):**
 - Full ILPA-compliant format required
 - Capital account statement per LP per quarter
-- Fee and expense disclosure per Principle 3
+- Fee and expense disclosure per the ILPA Reporting Template (2025 update)
 - LPAC-relevant items flagged separately
 
 **Family office LPs (LATAM common):**

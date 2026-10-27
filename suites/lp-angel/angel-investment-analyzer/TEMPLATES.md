@@ -1,21 +1,22 @@
-# Angel Investment Scorecard — Output Template
+# Angel Investment Scorecard: Output Template
 
 ALWAYS use this exact structure. Every section is required. Do not change headings,
-table columns, or field order. Fill every section with real analysis — no placeholders.
+table columns, or field order. Fill every section with real analysis, no placeholders.
 
 ---
 
 ## Example Output: AgriPay Colombia
 
-*This is a filled example for AgriPay Colombia — a hypothetical agricultural input financing
-startup based in Bogotá. Catalina Reyes is an angel investor evaluating a $50k check from
-her $500k angel portfolio. Use it as the structural template for every analysis.*
+*Filled example for AgriPay Colombia, a hypothetical agricultural input financing startup in
+Bogotá. Catalina Reyes is an angel evaluating a $50K check from her $500K angel portfolio. The
+company, people and competitors are fictional. Benchmark figures are real and sourced. In a real
+run, every comparable and competitor must be a real company with a source link.*
 
 ---
 
 # Angel Investment Scorecard: AgriPay Colombia
 
-**Date:** April 2026
+**Date:** October 2026
 **Investor:** Catalina Reyes (angel, $500k portfolio)
 **Check Size Evaluated:** $50,000 USD
 **Stage:** Seed
@@ -30,23 +31,23 @@ her $500k angel portfolio. Use it as the structural template for every analysis.
 
 *Catalina's answers to the Step 1 input questions:*
 
-1. **Deal:** AgriPay Colombia — provides short-term financing (30–90 day terms) to Colombian
+1. **Deal:** AgriPay Colombia provides short-term financing (30-90 day terms) to Colombian
    smallholder farmers to purchase seeds, fertilizer, and agrochemicals directly from
    distributors. Farmers repay from harvest proceeds.
 
 2. **Stage and round:** Seed. Raising $1.2M at $7M pre-money cap. Instrument: priced equity
-   (SAS — Sociedad por Acciones Simplificada). Current MRR: $85k. Founded 18 months ago.
+   (SAS, Sociedad por Acciones Simplificada). Current MRR: $85k. Founded 18 months ago.
 
-3. **Ask and terms:** Catalina considering $50k check, targeting ~0.71% ownership pre-dilution
-   (at $7M pre-money). No pro-rata rights offered. Simple equity, no preferences beyond 1×
+3. **Ask and terms:** Catalina considering $50k check, targeting ~0.61% ownership at entry
+   ($50K / $8.2M post-money). No pro-rata rights offered. Simple equity, no preferences beyond 1x
    non-participating liquidation preference.
 
-4. **Team:** CEO (Andrés Morales) — 10 years in Colombian agricultural banking at Banco
-   Agrario. CTO (Valentina Cruz) — ex-Rappi engineering, 6 years. No prior startup exits.
-   Head of Collections (Camila Pinto) — 8 years credit risk at Bancolombia.
+4. **Team:** CEO (Andrés Morales): 10 years in Colombian agricultural banking at Banco
+   Agrario. CTO (Valentina Cruz): ex-Rappi engineering, 6 years. No prior startup exits.
+   Head of Collections (Camila Pinto): 8 years credit risk at Bancolombia.
 
 5. **Competitive moat:** AgriPay claims first-mover advantage in digital agricultural input
-   financing in Colombia. Uses distributor partnership model — inputs disbursed directly
+   financing in Colombia. Uses distributor partnership model : inputs disbursed directly
    to distributors (no cash to farmers), reducing fraud. Has 3 active distributor partnerships
    covering Cundinamarca and Boyacá departments.
 
@@ -59,165 +60,128 @@ her $500k angel portfolio. Use it as the structural template for every analysis.
 
 ## Angel Investment Scorecard
 
-**Overall Score: 16/25** — Verdict: **WATCH**
+**Overall Score: 16/25. Verdict: WATCH (re-check 31 Jan 2027).**
 
-*Score does not meet INVEST threshold (≥18) and no criterion falls below 3. Specific catalyst
-conditions defined below would convert WATCH to INVEST.*
+BLUF: real business, wrong price and an open regulatory question. 10x needs a ~$160M exit, which
+only a category leader reaches. Invest only if the two catalysts below land before close.
+
+---
+
+## Return Math
+
+| Step | Value |
+|------|-------|
+| Entry ownership | $50K / $8.2M post-money = 0.61% |
+| Dilution assumed | 3 priced rounds at 20% each (US medians: seed ~19-20%, A ~18%, Carta 2025); no pro rata |
+| Exit ownership | 0.61% x 0.8^3 = 0.31% |
+| Exit needed for 10x ($500K) | ~$160M |
+| Exit needed for 5x ($250K) | ~$80M |
+| Realistic exit path | Strategic M&A by a Colombian bank or regional ag-input distributor; $160M+ only as the national category leader |
 
 ---
 
 ## Framework Breakdown
 
-| Investor Question | Score (1–5) | Key Finding |
+| Investor Question | Score (1-5) | Key Finding |
 |------------------|-------------|-------------|
-| Return Potential: Can this SAM produce 10× at realistic ownership? | 3/5 | Math requires $250M+ exit for 10× at Catalina's likely post-dilution ownership of ~0.25%. Colombian agtech acquisition landscape thin. |
-| Moat Durability: Defensible against well-funded entrants? | 3/5 | Distributor partnership model is structural but not exclusive. Agrapp and FundAgro have similar models. FINAGRO regulatory clarity incomplete — does not yet score above 3. |
-| Customer Validation: Proven ability to find, close, retain customers at this price? | 4/5 | $85k MRR with 340 active farmer-borrowers. Default rate 3.2% (strong for sector). Distributor NPS not reported but 3 renewals completed in 18 months. |
-| Exit Credibility: Path to exit multiple within holding period? | 3/5 | Bancolombia and Banco Agrario are credible strategic acquirers. No comparable Colombian agtech acquisition at venture multiples exists yet. Exit requires category leadership in underdeveloped acquirer landscape. |
-| Investor Timing: Right moment to invest? | 3/5 | PMF signals real but early. Round not yet competed for by institutional investors. Valuation at $7M is within market range for $85k MRR stage, but 82× MRR multiple is high by LATAM seed norms. |
+| Return Potential: can this produce 10x at realistic ownership? | 3/5 | 10x needs ~$160M; reachable only as category leader. 5x needs ~$80M, plausible. |
+| Moat Durability: defensible against funded entrants? | 3/5 | Distributor model reduces fraud but contracts are non-exclusive. No written regulatory opinion: capped at 3. |
+| Customer Validation: proven ability to find, close and retain customers? | 4/5 | $85K MRR, 340 active borrowers, 3.2% default, 3 distributor renewals in 18 months. |
+| Exit Credibility: path to the exit within the holding period? | 3/5 | Named potential acquirers (large Colombian banks, input distributors); no verified Colombian ag-credit exit found as a comparable. |
+| Investor Timing: right moment to invest? | 3/5 | PMF signal real, no institutional lead yet. Pre-money is ~6.9x ARR ($7M / $1.02M ARR) on 18 months of history, before the regulatory question is closed. |
 
-**Score Interpretation:** 16/25 falls in the WATCH band (14–17). No criterion below 3 means
-no hard disqualifier. The deal is real — $85k MRR and a banking-experienced CEO are genuine
-signals. But three criteria at 3/5 means the upside case requires multiple optimistic
-assumptions simultaneously. One catalyst could flip this to INVEST.
+**Score interpretation:** 16/25, no criterion below 3, 10x only in a category-leader exit. Verdict
+rule 5 applies: WATCH with named catalysts, otherwise PASS.
 
 ---
 
 ## Red Flags
 
-**[RED FLAG] Three Colombian agtech lenders entered this exact space in Q3–Q4 2025.**
-Agrapp (backed by Acumen), FundAgro (Bancolombia CVC), and TiendaPago (Mexican expansion
-into Colombia) are all operating in agricultural input financing with distributor-partnership
-models. AgriPay is not first-mover — it is competing against companies with $5M–$30M in
-capital already deployed. Without a structural moat (regulatory license, exclusive distributor
-contracts, or proprietary credit scoring data), AgriPay is competing on execution speed against
-players with 10× more resources.
+**[RED FLAG] No written regulatory opinion.** AgriPay lends to farmers. Lending from its own balance
+sheet is generally outside SFC supervision in Colombia, but its next step (a credit line from
+third-party investors or deposits) may not be. No opinion from Colombian counsel exists. That is a
+governance gap at $85K MRR.
 
-**[RED FLAG] Founder has no fintech regulatory experience — FINAGRO licensing path unclear.**
-CEO Andrés Morales brings agricultural banking domain expertise, but Banco Agrario is a
-state-owned entity operating under different regulatory frameworks than private fintech.
-AgriPay's product constitutes regulated credit operations in Colombia, requiring SFC
-(Superintendencia Financiera de Colombia) licensing or at minimum SEDPE/Depósito Electrónico
-registration. Neither license has been filed as of this analysis. Operating without SFC
-clarity at $85k MRR is existential risk — the SFC has issued cease-and-desist orders to
-Colombian fintechs operating without proper licensing at this revenue level.
+**[RED FLAG] Non-exclusive distributor contracts.** All three distributor partnerships can sign
+with a competitor tomorrow. Two funded competitors (fictional for this example: "AgroCrédito" and
+"CampoPay") run the same model.
+
+**[RED FLAG] No pro rata.** Without it, Catalina cannot defend her 0.61% and the dilution above is
+the best case.
 
 ---
 
 ## LATAM Comparables
 
-| Company | Country | Stage | Key Metric | Follow-On Status |
-|---------|---------|-------|------------|-----------------|
-| Agrapp | Colombia | Series A | $8M deployed in agricultural loans | Backed by Acumen Fund; operational since 2019 |
-| Konfío | Mexico | Series C | $1.3B credit portfolio, 40k businesses | SoftBank-backed; US$280M Series C (2022) — exit path unclear |
-| Agrostar | Brazil | Series B | $40M ARR, 2M farmers | Acquired by Raízen (2023) for ~$120M — strongest LATAM agtech comparable exit |
+| Company | Country | Stage | Key Metric | Follow-on / Exit | Source |
+|---------|---------|-------|------------|------------------|--------|
+| [Comparable A: fictional for this example] | Colombia | Series A | Ag-input credit, $8M loan book | Raised A in 2024 | [link required in a real run] |
+| [Comparable B: fictional for this example] | Mexico | Series B | SME credit, distributor channel | No exit yet | [link required in a real run] |
+| [Comparable C: fictional for this example] | Brazil | Acquired | Agri-fintech | Strategic M&A | [link required in a real run] |
 
-**LATAM Exit Benchmark (most relevant):** Agrostar (Brazil) acquired by Raízen at ~$120M
-in 2023 represents the credible ceiling for LATAM agtech. At $120M acquisition and
-Catalina's expected post-dilution ownership of ~0.25%, her return would be $300k on $50k
-= 6× *(LATAM, LAVCA 2025)*. Below 10× target, but above 5× floor. Konfío demonstrates
-that fintech-enabled ag-credit can reach significant scale, but also that LATAM exits
-often come via strategic acquisition rather than IPO.
+In a real run: three real companies with a Crunchbase, LAVCA or press link each. If you cannot verify
+one, write "no verified comparable" in that row.
 
 ---
 
 ## LATAM Context
 
-**Angel check size:**
-- US median angel check: $100k–$500k *(US-sourced benchmark)*
-- LATAM median angel check: $25k–$100k USD *(LATAM, LAVCA 2025)*
-- Catalina's $50k check is squarely within LATAM angel norms.
-
-**Angel-to-Series A conversion:**
-- US: ~22% of angel-backed companies reach Series A *(US-sourced benchmark)*
-- LATAM: ~12% *(LATAM, LAVCA 2025)* — AgriPay must be exceptional, not merely good,
-  to attract institutional follow-on capital
-
-**Valuation context:**
-- $7M pre-money at $85k MRR = 82× MRR multiple
-- LATAM Seed norm: $40–70× MRR for companies with early PMF signals *(LATAM, LAVCA 2025)*
-- AgriPay is priced in the 90th percentile of LATAM Seed — above market for the current
-  evidence base. A comparable Colombian fintech at $85k MRR would typically price at
-  $4M–$6M pre-money *(LATAM, Cuantico 2026)*
-
-**Colombia-specific context:**
-- FINAGRO (Fondo para el Financiamiento del Sector Agropecuario) provides state-backed
-  agricultural credit. Startups with FINAGRO partnership or FINAGRO-eligible loan products
-  have regulatory tailwind not available to startups operating outside the FINAGRO framework.
-- Nequi and Daviplata are the dominant consumer payment rails — AgriPay must integrate with
-  at least one for farmer repayment to reduce operational friction.
-- Semana Santa (April) and coffee harvest season (October–November) drive Colombian
-  agricultural demand cycles. MRR figures from Q1 (pre-Semana Santa) may understate
-  seasonal capacity.
+- **Graduation:** ~24% of 2022 US seed startups reached Series A *(US-sourced benchmark, Carta)*.
+  LATAM: 12% within three years of the seed *(LATAM, LAVCA 2025)*. LATAM discount: half the odds.
+  AgriPay must fund itself to breakeven on this round if no Series A comes.
+- **Pricing:** US seed median $24.3M post-money *(US-sourced benchmark, Carta Data Desk, Jul 2026)*.
+  LATAM seed pricing runs around 40% of the US level *(LATAM, Valoriza via Diario Financiero, Apr
+  2025)*. AgriPay's $7M pre-money sits just under the LAN seed range of $8M-$20M *(LATAM, directional)*:
+  fair for the revenue, rich for an unresolved regulatory risk.
+- **Sector:** fintech took 61% of 2025 LATAM VC dollars on 29% of deals *(LATAM, Cuantico 2026)*.
+  Capital exists for the category, but it concentrates in a few large rounds.
+- **Geography:** Colombia took ~5% of 2025 LATAM VC dollars *(LATAM, Cuantico 2026)*. The Series A
+  will likely need a Brazil, Mexico or international lead.
+- **Exits:** M&A is 67% of LATAM VC-backed exits *(LATAM, Cuantico 2026)*. Underwrite a sale to a
+  bank or distributor, not an IPO.
 
 ---
 
 ## WATCH Recommendation
 
-**Verdict: WATCH**
+**Verdict: WATCH, re-check 31 Jan 2027 or at round close, whichever comes first.**
 
-AgriPay Colombia is a real business with genuine signal: $85k MRR, a banking-credentialed CEO,
-and a product designed around distributor disbursement that reduces fraud risk relative to
-direct farmer cash transfers. The customer validation score (4/5) reflects actual execution.
+**INVEST if both happen before close:**
+1. A written opinion from Colombian counsel on the current and planned funding model, with no
+   license gap (or a filed application where one is needed).
+2. At least one exclusive distributor contract (signed, not an MOU) in a department with more than
+   50,000 smallholder farmers.
 
-However, WATCH — not INVEST — because three criteria at 3/5 require simultaneous optimism on
-return math, moat durability, and exit environment. The regulatory risk is the critical near-term
-variable: SFC licensing ambiguity at $85k MRR is not a minor concern, it is the difference
-between a scalable fintech and a business that gets shut down before Series A.
+**Negotiate in parallel:** pre-money at $5.5M-$6M (~5.4-5.9x ARR) and a pro rata side letter.
 
-**INVEST if ALL of the following occur before the round closes:**
-
-1. AgriPay files for SFC licensing (SEDPE or equivalent) or secures a formal partnership
-   with Banco Agrario that provides regulatory shelter — eliminating the most acute existential risk.
-2. AgriPay demonstrates 90-day farmer cohort retention ≥85% across at least 2 harvest cycles —
-   proving the repayment model survives full agricultural seasonality, not just the first crop.
-3. At least one exclusive distributor contract executed (not MOU) covering a department with
-   >50k smallholder farmers — creating a structural barrier that Agrapp and FundAgro cannot
-   easily replicate without time-intensive partnership development.
-
-**Do not invest if:**
-- SFC regulatory clarity is not achieved before round close
-- Valuation is not negotiated down to $5M–$6M pre-money (current $7M prices in 24 months
-  of execution that has not yet occurred)
-- FundAgro (Bancolombia CVC) secures exclusive distributor agreements in Cundinamarca or Boyacá
+**PASS if:** the regulatory opinion shows a license gap with no plan, or the price stays at $7M with
+no pro rata.
 
 ---
 
 ## Next Steps
 
-*Specific diligence actions for Catalina Reyes within 14 days:*
+*Diligence actions for Catalina Reyes within 14 days:*
 
-1. **Request SFC regulatory opinion or legal memo.** Ask AgriPay for their legal counsel's
-   written opinion on whether current operations require SFC licensing. If no legal memo exists,
-   this is the most urgent gap. A startup at $85k MRR operating in regulated credit without a
-   written regulatory opinion from Colombian counsel has a governance failure, not just a
-   regulatory gap.
-
-2. **Pull 12-month cohort retention data by harvest cycle.** Request farmer-borrower cohort
-   data broken out by first loan date, with repayment completion rates at Day 30, Day 60,
-   Day 90. Specifically ask: "What % of first-time borrowers took a second loan?" — repeat
-   borrowing rate is the strongest signal of product-market fit in agricultural credit.
-
-3. **Verify distributor contract terms — exclusive vs non-exclusive.** Request the executed
-   contracts (not term sheets) for all 3 distributor partnerships. Confirm whether the
-   partnerships are exclusive, the revenue share structure, and the termination terms.
-   If all three distributors are non-exclusive, the moat analysis weakens materially.
-
-4. **Check Agrapp and FundAgro geographic overlap.** Map where Agrapp and FundAgro are
-   currently operating (use LinkedIn job postings + LAVCA deal data as proxies). If either
-   competitor is actively hiring in Cundinamarca or Boyacá — AgriPay's current operating
-   departments — competitive threat timeline is 6–12 months, not 18–24.
+1. **Ask for the regulatory opinion today.** If none exists, ask who their Colombian counsel is and
+   give them 10 days. No opinion by close = PASS.
+2. **Pull borrower cohorts by first-loan month:** repayment at day 30, 60, 90, and the share of
+   first-time borrowers who took a second loan. Repeat borrowing is the PMF signal in ag-credit.
+3. **Read the three distributor contracts** (executed versions): exclusivity, revenue share,
+   termination terms.
+4. **Map competitor presence** in Cundinamarca and Boyacá (job posts, distributor calls). If a funded
+   competitor is hiring there, the moat window is 6-12 months, not 18-24.
+5. **Send the counter:** $5.5M-$6M pre-money plus pro rata, with the return math above attached.
 
 ---
 
 ## Sources
 
-- LAVCA 2025 Startup Ecosystem Insights: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
+- LAVCA Startup Ecosystem Insights 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
 - Cuantico LatAm VC Report 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
-- AngelList LATAM return data: https://www.angellist.com/venture/data
+- Carta Data (seed to Series A, Data Desk Jul 2026, dilution 2025): https://carta.com/data/
+- Valoriza via Diario Financiero, 2 Apr 2025: https://www.df.cl/df-lab/innovacion-y-startups/informe-revela-que-las-startups-de-eeuu-valen-mas-antes-de-una-ronda-de
 - FINAGRO Colombia: https://www.finagro.com.co/
 - SFC Colombia: https://www.superfinanciera.gov.co/
-- Jason Calacanis "Angel" methodology: https://www.angelinvestor.com/
-- Naval Ravikant angel notes: https://nav.al/investing
 - [Angel Investment Criteria](references/angel-investment-criteria.md)
 - [LATAM Angel Context](references/latam-context.md)

@@ -1,20 +1,19 @@
 ---
 name: all-hands-prep
 description: >
-  For STARTUP FOUNDERS and team leads. Prepares the weekly all-hands or team
-  meeting: reads last week's decisions, action items, OKR and KPI status and
-  open tasks from the company brain, CRM and project tracker, and produces an
-  agenda per team with this week's commitments, blockers, wins and KPI deltas,
-  saved back to the brain. Applies Grove (High Output Management) and Doerr
-  weekly OKR check-ins. ALWAYS invoke when a user asks to prepare the weekly
-  meeting, all-hands, team sync, staff meeting, Monday agenda or weekly
-  check-in. NOT for designing OKRs or KPI systems from scratch (use
-  startup-metrics-okrs) or for summarizing a meeting that already happened
-  (use meeting-notes-to-brain).
+  For STARTUP FOUNDERS and team leads. Use when the user wants to prepare the weekly
+  all-hands, team sync, staff meeting or Monday check-in: reads last week's decisions,
+  commitments, OKR and KPI status and open tasks from the company brain, CRM and tracker, and
+  builds a time-boxed agenda per team with KPI deltas, delivery rate, blockers as decisions,
+  wins with numbers and this week's commitments, saved back to the brain (Grove, Doerr,
+  Wodtke). Spanish triggers: "prepará la reunión semanal", "agenda del lunes", "armame el
+  all-hands", "reunión de equipo de esta semana". NOT for designing OKRs or KPIs (use
+  startup-metrics-okrs), summarizing a meeting that already happened (use
+  meeting-notes-to-brain) or a daily recap (use daily-brief).
 categories: ["startups", "operations", "management"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
   complements: [meeting-notes-to-brain, startup-metrics-okrs, investor-update-compiler]
 license: MIT
@@ -123,6 +122,10 @@ Follow references/shared/company-brain-integration.md section 4.
   edit the "Compromisos de la semana" table on the agenda page.
 
 Without a brain: write to `./brain-outbox/all-hands/<date>-agenda.md`.
+
+If the agenda is shown on screen or shared as slides or a dashboard, apply
+references/shared/deck-design-rules.md: KPI numbers big, status by weight and color of one
+accent, no decorative charts.
 
 ## Step 6: Output Format
 

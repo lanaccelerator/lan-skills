@@ -42,7 +42,7 @@ collectors who confirm pickups within 2 hours of posting.
 | Collector signup + profile | Must-have | No marketplace without demand side | None | 3 days |
 | Pickup request posting | Must-have | Core transaction unit — hypothesis cannot be tested without it | Restaurant profile | 4 days |
 | Pickup acceptance flow | Must-have | Closes the transaction loop — collector confirms, restaurant notified | Pickup request | 3 days |
-| PIX payment integration | Must-have | LATAM requirement — cash payment and bank transfer by QR code; without PIX, conversion drops 60-80% in Brazil | Pickup acceptance | 5 days |
+| PIX payment integration | Must-have | LATAM requirement: instant bank transfer by QR code, ~40% of Brazilian online purchases (EBANX 2025) | Pickup acceptance | 5 days |
 | LGPD data consent notice | Must-have | LATAM requirement — Brazil data privacy law requires notice at registration, even at MVP stage | Signup | 1 day |
 | Pickup status tracking | Should-have | Reduces support tickets and WhatsApp coordination; important but the hypothesis can still be tested without it | Pickup acceptance | 4 days |
 | In-app messaging | Should-have | Reduces dependency on WhatsApp; improves retention but not required for v1 transaction | Pickup request | 4 days |
@@ -108,10 +108,10 @@ Minimum criteria before calling WasteConnect "live":
 **Brazil — required, not optional:**
 
 - **PIX (Brazil Central Bank):** Mandatory for any consumer or B2B product in Brazil.
-  Free, instant (24/7), and used by 73% of Brazilian adults. Without PIX as a payment
-  option, conversion rates are 60-80% lower than equivalent product with PIX. Integrate
-  via PagSeguro or Mercado Pago, not directly via Banco Central API (too complex for MVP).
-  Source: Brazilian Central Bank, Pix adoption statistics.
+  Free for individuals, instant (24/7), and about 40% of Brazilian online purchases
+  (EBANX Beyond Borders 2025). Leaving it out loses a large share of checkouts. Integrate
+  via PagSeguro or Mercado Pago, not directly via the Banco Central API (requires a
+  financial institution license).
 
 - **LGPD (Lei Geral de Proteção de Dados):** Brazilian data privacy law equivalent to GDPR.
   Requires a data collection notice at user registration stating what data is collected and

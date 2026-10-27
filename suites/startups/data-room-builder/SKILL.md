@@ -1,15 +1,19 @@
 ---
 name: data-room-builder
 description: >
-  Startup investor data room builder. ALWAYS invoke when a user asks what
-  documents investors need, how to organize a data room, wants a due diligence
-  checklist, or is preparing for fundraising due diligence. Applies Visible.vc
-  template, NFX guide, and Stripe Atlas data room. NOT for pitch deck creation
-  or go-to-market strategy planning.
+  For STARTUP FOUNDERS preparing investor due diligence. ALWAYS invoke when a founder asks what
+  documents investors will ask for, how to organize or audit a data room, wants a due
+  diligence checklist, or needs the data room kept current between rounds. Spanish triggers:
+  "armame el data room", "qué documentos piden los inversores?", "checklist de due
+  diligence", "sala de datos para la ronda". Produces a stage-calibrated folder tree, document
+  checklist with owners, completeness score, templates for the most-missed documents, and a
+  weekly refresh from the company brain. NOT for deciding whether to raise (use
+  fundraising-readiness-audit), running the raise (use fundraising-agent), building the deck
+  (use pitch-deck-builder) or monthly investor updates (use investor-update-compiler).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.1"
+  version: "1.2"
   suite: startups
 license: MIT
 ---
@@ -19,46 +23,41 @@ license: MIT
 Integration skill that pulls together outputs from all prior startup skills to
 produce a complete investor-ready data room. Generates a prioritized folder
 structure, document checklist, completeness scorecard, and base templates for
-the most commonly missing documents. Applies Visible.vc, NFX, and Stripe Atlas
-data room standards.
-
-If the user has run /venture-model-validator or /pitch-deck-builder, their
-outputs auto-populate this data room. Ask for them in Step 1.
+the most commonly missing documents. Applies the Visible.vc data room structure, YC's
+seed diligence guidance and the NVCA document set.
 
 ## Step 1: Input Gathering
 
-Ask all seven questions in ONE message. Do not generate any output until you
-have answers (or stated assumptions) for each.
+First inventory what exists. If a company brain is connected, follow
+references/shared/company-brain-integration.md sections 1-3: search for the cap table, SAFEs,
+incorporation documents, financial model, KPI pages, deck, contracts, and any earlier
+venture-model-validator or pitch-deck-builder output. With Drive or Notion connected, list the
+existing data room folder. Mark each found document EXISTS with its path and date.
 
-1. **Company name and fundraising stage** — Seed / Series A / Series B
-2. **Have you run /venture-model-validator?** If yes: paste the scorecard
-   summary — it will auto-populate the VC Backability section of the data room
-3. **Have you run /pitch-deck-builder?** If yes: paste the deck outline — it
-   will auto-populate the Pitch Materials section
-4. **Business model** — SaaS / marketplace / fintech / hardware / other
-5. **Current legal setup** — incorporated? jurisdiction? cap table clean?
-6. **Current financial state** — months of runway, last 12 months revenue,
-   do you have audited financials?
-7. **Previous rounds raised** — amount, investors, instruments (SAFEs? priced
-   round?)
+Then ask, in ONE message, only for what is still unknown:
 
-If the user does not answer a question, proceed with a stated assumption and
-flag it: `[ASSUMPTION: ...]`. Do not silently skip inputs.
+1. **Company and stage:** pre-seed / seed / Series A / Series B
+2. **Business model:** SaaS / marketplace / fintech / hardware / AI-native / other
+3. **Legal setup:** entity, jurisdiction (local only, or Delaware/Cayman parent), cap table state
+4. **Financial state:** runway, last 12 months revenue, reviewed or audited financials?
+5. **Previous rounds:** amounts, investors, instruments (SAFE, notes, priced)
+6. **Who will read it:** LATAM VCs, US VCs, family offices, corporates
+
+Proceed on answers or on `[ASSUMPTION: ...]`.
 
 ## Step 2: Apply Frameworks
 
 Read [references/folder-structure.md](references/folder-structure.md) before
 generating the data room structure. Apply all frameworks in priority order:
 
-- **Visible.vc standard data room** — primary folder structure and document list.
+- **Visible.vc standard data room**: primary folder structure and document list.
   Source: https://visible.vc/blog/startup-data-room/
-- **NFX data room completeness checklist** — document-by-document investor
-  requirements and why each matters.
-  Source: https://www.nfx.com/post/how-to-build-a-data-room/
-- **Stripe Atlas required documents** — legal and corporate governance
-  requirements for US-incorporated startups.
-  Source: https://stripe.com/atlas/guides/data-room
-- **Stage calibration** — Seed requires minimum 12 documents across 6 folders;
+- **YC seed diligence guidance**: what seed investors actually check.
+  Source: https://www.ycombinator.com/library/4A-how-to-raise-money
+- **NVCA model documents**: the Series A legal set (charter, SPA, investors'
+  rights, voting, ROFR) a priced round will produce or require.
+  Source: https://nvca.org/model-legal-documents/
+- **Stage calibration**: Seed requires minimum 12 documents across 6 folders;
   Series A requires minimum 25 documents across 8 folders (see
   references/folder-structure.md for full lists)
 
@@ -66,7 +65,7 @@ generating the data room structure. Apply all frameworks in priority order:
 
 Execute in this exact order:
 
-1. Gather inputs (Step 1 questions — confirm answers or state assumptions)
+1. Gather inputs (Step 1 questions, confirm answers or state assumptions)
 2. Determine completeness tier by stage:
    - Seed: 12 documents minimum across 6 folders
    - Series A: 25 documents minimum across 8 folders
@@ -79,12 +78,13 @@ Execute in this exact order:
    (c) cap table summary
 6. Create completeness scorecard (% complete, critical missing items
    highlighted as BLOCKING or RECOMMENDED)
-7. If user provided /venture-model-validator output: populate VC Backability
-   section with scorecard data
-8. If user provided /pitch-deck-builder output: populate Pitch Materials
-   section with deck structure
+7. Populate the VC Backability and Pitch Materials sections from
+   venture-model-validator and pitch-deck-builder output if found in Step 1
+8. AI-native companies add: model and data provider contracts, data rights and
+   privacy basis for training or inference data, gross margin with inference cost,
+   and an evaluation or quality report for the core AI feature
 9. Apply LATAM context from
-   [references/latam-context.md](references/latam-context.md) — LATAM VCs
+   [references/latam-context.md](references/latam-context.md), LATAM VCs
    and family office LPs have distinct due diligence requirements
 10. Output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
 11. End with Next Steps
@@ -103,16 +103,19 @@ Output must include:
 - LATAM Context box (jurisdiction-specific additions)
 - Next Steps
 
+Investors look at the index page and the one-page executive summary first. When either is
+rendered as a page, PDF or slide, apply references/shared/deck-design-rules.md.
+
 ## Step 5: LATAM Context
 
 Read [references/latam-context.md](references/latam-context.md) BEFORE
 producing the final output.
 
 Key LATAM data room differences vs US:
-- LATAM Seed VC due diligence is lighter on legal review (incorporation +
-  cap table + SAFE notes sufficient for most LATAM Seed VCs)
-- LATAM family office LPs require full audited financials earlier (often at
-  Seed for rounds >$2M)
+- LATAM seed VC diligence is usually lighter on legal review (incorporation +
+  cap table + SAFEs) (directional, LAN operator read)
+- Family offices investing directly often ask for reviewed or audited
+  financials earlier, for rounds above USD 2M (directional)
 - Jurisdiction-specific documents are mandatory (see latam-context.md for
   Mexico, Brazil, Colombia, Argentina requirements)
 - Add a jurisdiction-specific folder (07-latam-legal/) for regional documents
@@ -150,7 +153,7 @@ sections 4 and 6.
 
 ## Tone & Editorial Voice
 
-See references/shared/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
+See references/shared/editorial-voice.md, direct, no-sugarcoating, unicorn-bar
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 
@@ -165,18 +168,18 @@ NICE-TO-HAVE items.
 
 Actions must be concrete:
 - GOOD: "Get IP assignment agreements signed by all contractors within 7 days.
-  This is the most common deal-killer in LATAM Seed due diligence."
+  This is the most common gap LAN sees in LATAM Seed due diligence."
 - BAD: "Complete legal documentation"
 
 ## Sources
 
-- [Folder Structure Reference](references/folder-structure.md) — Seed and
+- [Folder Structure Reference](references/folder-structure.md), Seed and
   Series A folder taxonomies with document requirements
-- [LATAM Context](references/latam-context.md) — jurisdiction-specific
+- [LATAM Context](references/latam-context.md), jurisdiction-specific
   requirements, LATAM VC vs. family office due diligence differences
 - Visible.vc Data Room Guide: https://visible.vc/blog/startup-data-room/
-- NFX Data Room Guide: https://www.nfx.com/post/how-to-build-a-data-room/
-- Stripe Atlas Data Room: https://stripe.com/atlas/guides/data-room
+- YC, A Guide to Seed Fundraising: https://www.ycombinator.com/library/4A-how-to-raise-money
+- NVCA Model Legal Documents: https://nvca.org/model-legal-documents/
 - venture-model-validator output: use scorecard summary to populate VC
   Backability section (if run)
 - pitch-deck-builder output: use deck outline to populate Pitch Materials

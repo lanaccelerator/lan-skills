@@ -1,6 +1,15 @@
 # LATAM Corporate Procurement Context
 
-**Source:** LAVCA 2025, McKinsey LATAM Corporate Innovation 2024, PitchBook LATAM 2024
+> **Data status (Oct 2026 review):** the benchmark figures in this file that were attributed to a
+> "BCG 2024 / BCG LATAM 2024" survey, a "NESTA LATAM Corporate Innovation Study 2023", "McKinsey
+> LATAM Corporate Innovation 2024", an "IDB Digital Transformation Report 2024" or "GCV 2024" could
+> not be traced to any published report. They are kept only as directional practitioner heuristics,
+> now marked "(directional, source unverified)". Never present them as data or attach a firm's name to them in output.
+> Frameworks (Chesbrough, Gartner Hype Cycle, CB Insights market maps, BCG's CVC models) are fine to use.
+> Specific numbers attributed to named programs or firms (Techstars, Wayra, 500 Global, CB Insights,
+> Gartner, Intel Capital) were not verified either: use them as design patterns, not as published data.
+
+**Source:** LAVCA 2025, directional, source unverified, PitchBook LATAM 2024
 **Scope:** LATAM corporate startup procurement operational benchmarks — timelines, legal structures, fiscal compliance, sector-specific enterprise readiness.
 **When to use:** All startup-solution-matcher analyses. Read before producing final shortlist recommendations.
 
@@ -59,7 +68,7 @@ payable rejection, and kills the contract at the final step.
 
 **Rule:** If a startup cannot issue a compliant fiscal invoice in the corporate's primary market,
 remove them from the shortlist. This is not an edge case — it is the #3 reason LATAM pilots fail
-(McKinsey 2024).
+(directional, source unverified).
 
 ---
 
@@ -81,7 +90,7 @@ Sectors where LATAM-native startups have the highest enterprise readiness and pr
 
 ## Pilot Budget Calibration
 
-**Source:** McKinsey LATAM Corporate Innovation 2024
+**Source:** directional, source unverified
 
 | Pilot Scope | LATAM Budget Range | US Equivalent |
 |-------------|-------------------|--------------|

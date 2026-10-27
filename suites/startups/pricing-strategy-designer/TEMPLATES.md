@@ -186,8 +186,8 @@ advance notice.
 
 ## Sources
 
-- ProfitWell value metric: https://www.profitwell.com/recur/all/saas-pricing
-- OpenView Partners Pricing Survey: https://openviewpartners.com/2023-saas-pricing-survey/
+- ProfitWell value metric: Patrick Campbell / ProfitWell (now Paddle) value-based pricing method; the original profitwell.com articles are offline
+- Kyle Poyar, Growth Unhinged (pricing research; replaces the offline OpenView survey): https://www.growthunhinged.com/
 - Sequoia Pricing Guide: https://www.sequoiacap.com/article/pricing-your-product/
 - DocuSign pricing: https://www.docusign.com/products/electronic-signature/pricing
 - PandaDoc pricing: https://www.pandadoc.com/pricing/

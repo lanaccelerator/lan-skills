@@ -1,104 +1,83 @@
-# YC SAFE Note — Simple Agreement for Future Equity
+# YC SAFE: Simple Agreement for Future Equity
 
-**Source:** [YC Standard Documents — ycombinator.com/documents](https://www.ycombinator.com/documents)
-**License/Attribution:** YC SAFE templates are published free for use. Cite as "YC SAFE (post-money, 2018 version)" or "YC SAFE (2018 revision)."
-**When to use:** term-sheet-generator (Phase 2), fundraising-agent (Phase 2). Loaded when advising on pre-seed or seed financing structure. The SAFE is the dominant pre-seed instrument in LATAM and globally.
+**Source:** [YC Standard Documents, ycombinator.com/documents](https://www.ycombinator.com/documents) (post-money SAFE, YC's standard since 2018, plus the optional Pro Rata Side Letter). YC standard deal: [ycombinator.com/deal](https://www.ycombinator.com/deal).
+**License/Attribution:** YC SAFE templates are published free for use. Cite as "YC post-money SAFE (2018 standard)".
+**When to use:** term-sheet-generator, fundraising-agent, angel-investment-analyzer, startup-valuation-checker. Loaded when advising on pre-seed or seed financing structure. The SAFE is the dominant pre-seed instrument for startups with a US (Delaware) holding company, in LATAM and globally.
 
 ## Key Principles
 
-1. **SAFE is not debt.** It has no maturity date, no interest, and no obligation to repay. It converts to equity at a future priced round or liquidity event.
-2. **Post-money SAFEs (2018 revision) give founders certainty.** The valuation cap is the denominator for conversion calculation — founders can know exactly how much dilution they're taking.
-3. **SAFE economics are set at conversion, not at signing.** The actual share price and dilution aren't determined until the Series A priced round triggers conversion.
-4. **Multiple SAFEs stack.** SAFE holders convert at their respective terms. Stacking multiple SAFE rounds at different caps creates complex cap table math at Series A.
+1. **A SAFE is not debt.** No maturity date, no interest, no repayment obligation. It converts into equity at a priced round, or pays out at a liquidity event.
+2. **Post-money cap = known ownership.** "On a post-money valuation cap SAFE, the ownership sold equals the investment divided by the valuation cap" (YC user guide). $500K on a $6.7M post-money cap is about 7.5%.
+3. **That ownership is measured before the priced round.** The new money and any option pool increase in the priced round dilute SAFE holders and founders alike.
+4. **SAFEs stack.** Every SAFE converts on its own terms. Several SAFEs at different caps dilute the founders, not the earlier SAFE holders, because each post-money SAFE fixes its own percentage. Model the stack before signing the next one.
+5. **Keep the SAFE unmodified.** YC's guidance: give extra rights (pro rata, information) in a separate side letter, not by editing the SAFE.
 
-## Four SAFE Variants
+## YC's Three Standard Post-Money Forms
 
-### 1. Post-Money Cap, No Discount (Most Common)
+| Form | Converts at | When it fits | Founder impact |
+|------|-------------|--------------|----------------|
+| Valuation Cap, no Discount | The cap price (investment / post-money cap) | Default for pre-seed and seed | Cleanest; dilution known at signing |
+| Discount, no Valuation Cap | Priced-round price x (1 - discount) | Investor accepts the next round's price minus a discount | No ceiling on price; investor gets only the discount |
+| Uncapped MFN (no cap, no discount) | Inherits better terms of any later SAFE issued before conversion | Very early checks; the $375K of YC's standard deal | Dangerous at scale: one aggressive later SAFE re-prices every MFN holder |
 
-**When to use:** Standard pre-seed; investor willing to wait for priced round; no urgency on their part.
+**Pro Rata Side Letter (optional):** gives the investor the right to buy into the priced round that converts the SAFE. It is not part of the SAFE itself.
 
-**Mechanics:** SAFE converts at the lower of:
-- Valuation cap ÷ fully-diluted post-money shares
-- Series A price per share
+**Non-standard variants:** a SAFE with both a cap AND a discount, or with an MFN plus discount, is not one of YC's current post-money forms. It is a modification: flag it, check it was drafted by counsel, and price the extra concession.
 
-**Founder impact:** Cleanest instrument. Dilution is predictable. Most LATAM pre-seed rounds use this variant.
+## YC Standard Deal (reference point, 2025)
 
-### 2. Post-Money Cap with Discount
-
-**When to use:** When investor wants both a cap and a discount as separate concessions.
-
-**Mechanics:** SAFE converts at the lower of:
-- Valuation cap conversion price
-- Series A price × (1 - discount rate), typically 80% (20% discount) to 85% (15% discount)
-
-**Founder impact:** More dilutive than cap-only. Two separate downside protections for investor.
-
-### 3. MFN (Most Favored Nation), No Cap
-
-**When to use:** Very early stage where no cap can be agreed; angel hedge — they get whatever terms future investors get.
-
-**Mechanics:** If company issues a future SAFE with better terms (lower cap, higher discount), existing MFN holder gets the same improved terms automatically.
-
-**Founder impact:** Dangerous at scale — if first institutional investor gets aggressive terms, all MFN SAFEs adopt those terms.
-
-### 4. MFN with Discount, No Cap
-
-**When to use:** Extremely early; investor wants MFN protection plus a discount regardless of future terms.
-
-**Founder impact:** Least founder-friendly. Avoid unless early FFF (Friends, Family, Fools) round.
+$500K total: $125K for 7% (post-money SAFE) plus $375K on an uncapped MFN SAFE that takes the terms of the company's next equity round ([ycombinator.com/deal](https://www.ycombinator.com/deal)).
 
 ## Key SAFE Terms
 
-| Term | Definition | Typical Range |
+| Term | Definition | Typical range |
 |------|-----------|---------------|
-| Valuation Cap | Maximum company valuation at which SAFE converts | Pre-seed: $3M–15M; Seed: $10M–30M in LATAM |
-| Discount Rate | % reduction on Series A price at conversion | 10–25%; 20% most common |
-| MFN | Automatic adoption of better future SAFE terms | Binary (yes/no) |
-| Pro-Rata Rights | Right to invest in Series A to maintain % ownership | Standard for checks >$100K |
+| Valuation cap (post-money) | Maximum valuation used to set the conversion price | LATAM: see table below *(directional)* |
+| Discount | Reduction on the priced-round price | 10-25%, 20% common *(directional)* |
+| MFN | Holder adopts better terms granted in later SAFEs | Yes / no |
+| Pro rata | Right to invest in the converting priced round | Side letter, usually for larger checks; threshold negotiated |
 
-### LATAM Cap Benchmarks (Cuantico 2026 + LAVCA 2025)
+### LATAM Cap Ranges *(directional, LAN deal flow 2025-2026)*
 
-| Stage | LATAM Cap Range (USD) | Context |
-|-------|----------------------|---------|
-| Pre-pre-seed (idea) | $1.5M–$5M | Angel/accelerator check sizes $25K–$150K |
-| Pre-seed (product, no revenue) | $3M–$10M | Typical LAN Accelerator entry point |
-| Seed (revenue, early PMF signals) | $8M–$20M | LATAM top-quartile startups |
-| Note: LATAM caps are 40–60% below equivalent US caps at same stage | | |
+| Stage | Post-money cap | Typical check |
+|-------|----------------|---------------|
+| Pre-pre-seed (idea, accelerator) | $1.5M-$5M | $25K-$150K |
+| Pre-seed (product, little revenue) | $3M-$10M | $150K-$750K |
+| Seed (revenue, early PMF) | $8M-$20M | $750K-$3M |
+
+For the gap with the US: US seed pre-money averaged 156% above LATAM in 2015-2025 (Valoriza, via Diario Financiero, 2 Apr 2025), and the US seed median post-money was $24.3M in mid-2026 (Carta Data Desk, 10 Jul 2026). See `shared/frameworks/latam-benchmarks.md`.
+
+### LATAM Legal Note
+
+The YC SAFE assumes a US (usually Delaware) company. A startup incorporated only in a LATAM country cannot simply sign it: local convertible instruments exist (for example the "mútuo conversível" in Brazil), and enforceability, tax and FX registration differ by country. Flag this whenever the company has no US holding company and recommend local counsel.
 
 ## Common Negotiation Points
 
-### Founders Should Push On
+### Founders should push on
+- **Post-money vs pre-money:** use the post-money form. Pre-money SAFEs (pre-2018) make dilution hard to predict.
+- **Stacking:** total SAFE ownership sold before the priced round. Above ~20-25% combined, the priced round gets hard to lead *(directional)*.
+- **Side letters:** grant pro rata only to investors who will actually use it.
+- **No board rights** through a SAFE.
 
-- **Post-money vs. pre-money:** Always use post-money SAFE. Pre-money SAFEs (pre-2018) create unpredictable dilution math.
-- **Option pool treatment at conversion:** Ensure SAFE conversion math includes post-close option pool (standard in post-money SAFE).
-- **Pro-rata trigger size:** Set pro-rata threshold at $100K+ to limit number of investors with rights.
-- **Board rights:** SAFE should have no board rights. Any observer rights should expire at Series A.
-
-### Investors Typically Require
-
-- **Information rights:** Annual financials, quarterly updates. Standard.
-- **Pro-rata in next qualified round:** Typical for checks >$50K.
-- **MFN clause:** For first-check investors at very early stage.
+### Investors typically ask for
+- Information rights (side letter): quarterly updates, annual financials.
+- Pro rata in the next priced round (side letter).
+- MFN on very early checks.
 
 ## Conversion Mechanics (Worked Example)
 
-**Setup:**
-- Company raises $500K on a SAFE with $5M post-money cap
-- Series A: $3M raised at $15M pre-money valuation ($18M post-money)
+**Setup:** $500K SAFE on a $5M post-money cap. Later, Series A of $3M at $15M pre-money ($18M post-money), no pool increase.
 
-**Conversion calculation:**
-- SAFE cap: $5M → conversion price = $5M / (fully diluted shares at $5M cap)
-- Series A price: $18M / fully diluted post-money shares
-- SAFE converts at the lower price (the cap price, since $5M < $18M)
-
-**Dilution result:**
-- SAFE investor owns: $500K / $5M cap = 10% of the company at conversion
-- This 10% is calculated on the post-money cap, so it is predictable before Series A
+1. SAFE ownership before the Series A: $500K / $5M = **10%**.
+2. The Series A sells $3M / $18M = 16.7% of the post-round company.
+3. SAFE holder after the Series A: 10% x (1 - 16.7%) = **~8.3%**.
+4. The SAFE converts at the cap price because the cap ($5M) is below the round's pre-money ($15M); the investor gets roughly 3x more shares per dollar than the Series A investor.
 
 ## Red Flags in SAFE Terms
 
-- Pre-money SAFE → unpredictable dilution; avoid
-- "Shadow SAFE" (two separate SAFEs with conflicting caps on same financing) → cap table chaos at Series A
-- SAFE with participation rights at conversion → not standard; converts SAFE into preferred equivalent
-- Valuation cap tied to "next financing" that includes bridge rounds → can trigger conversion prematurely
-- No MFN clause when SAFE is in a "friends and family" round → early angels get worse terms than next angels
+- Pre-money SAFE: unpredictable dilution.
+- Modified YC form without a redline explanation: assume the change favors whoever drafted it.
+- Cap AND discount in one SAFE: double concession, non-standard.
+- MFN SAFEs outstanding when the company plans an aggressive later SAFE: every MFN holder re-prices.
+- SAFE stack above ~25% of the company before the first priced round *(directional)*.
+- LATAM-only company signing a US SAFE with no local legal opinion.

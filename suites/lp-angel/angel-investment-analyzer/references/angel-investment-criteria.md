@@ -1,4 +1,4 @@
-# Angel Investment Criteria — Investor Perspective Inversion
+# Angel Investment Criteria: Investor Perspective Inversion
 
 **When to use:** angel-investment-analyzer invokes this file in Step 2. These are the
 investor-lens questions that invert the founder-perspective criteria in
@@ -32,9 +32,9 @@ can this deal return 10× my investment?"
 | 2 | Math fails at realistic ownership: dilution to exit likely leaves investor below 2× unless lead investor terms |
 | 1 | Market too small to return the check; or valuation already prices in exit; no viable return scenario |
 
-**Angel-specific note:** A $50k check at 3% ownership in a $7M pre-money cap, diluted 50% through Series A/B/C,
-arrives at 1.5% ownership at exit. If exit is $80M, that is $1.2M returned on $50k — a 24× return but only
-if exit reaches $80M. Run this math explicitly. Most angels do not.
+**Angel-specific note:** a $50K check on a $7M pre-money ($7.05M post) buys ~0.71%. Three later
+rounds at ~20% dilution each (US medians: seed ~19-20%, A ~18%, Carta 2025) leave ~0.36%. A 10x
+($500K back) needs a ~$140M exit. Run this math explicitly in every output. Most angels do not.
 
 ### Criterion 2: Moat Durability
 
@@ -49,9 +49,14 @@ competitive crowding, especially from well-funded entrants?"
 | 2 | Feature differentiation only; well-funded competitor could match in 18 months |
 | 1 | No structural moat; commodity competition; "we win on customer service" |
 
-**LATAM fintech exception:** For Colombian, Mexican, or Brazilian fintech deals — Moat Durability cannot
-score above 3 without a clear CNBV (Mexico) / BACEN (Brazil) / SFC (Colombia) regulatory path or license.
-Fintech operating without regulatory clarity is existential risk, not moat.
+**LATAM regulated-activity rule:** for fintech, insurtech or healthtech, Moat Durability cannot score
+above 3 without a written regulatory opinion or the license that matches the activity (see
+latam-context.md for Brazil, Mexico and Colombia). Operating in a regulated activity without one is
+existential risk, not moat.
+
+**AI-native rule:** if the core feature could ship inside a foundation model or a large incumbent's
+product within 12 months, and the company has no proprietary data, distribution or workflow lock-in,
+Moat Durability scores 2 at most.
 
 ### Criterion 3: Customer Validation Strength
 
@@ -79,9 +84,10 @@ within a timeframe consistent with my holding period (typically 5–10 years)?"
 | 2 | Thin exit environment: few strategic buyers, no comparable LATAM exits in sector, acquisition unlikely at venture multiples |
 | 1 | No credible exit: niche too small, acquirers absent, IPO impossible at scale, or founder explicitly anti-exit |
 
-**LATAM exit reality check:** LATAM angel-to-Series A conversion is ~12% (vs ~22% US). Most LATAM angel
-investments do not follow-on to Series A. Model the exit as a strategic acquisition, not an IPO.
-Named acquirers are required for a score above 3.
+**LATAM exit reality check:** only 12% of LATAM seed startups raise a Series A within three years
+(LAVCA 2025), about half the US rate (Carta: ~24% of the 2022 seed cohort). M&A is 67% of LATAM
+VC-backed exits (Cuantico 2026). Model the exit as a strategic acquisition, not an IPO. A score
+above 3 requires named acquirers and at least one sourced comparable exit.
 
 ### Criterion 5: Investor Timing
 
@@ -97,46 +103,33 @@ already reflects upside, competition crowded, co-investors anchored)?"
 | 2 | Late entry: PMF unproven but valuation already priced in; OR round heavily competed and terms unfavorable |
 | 1 | Wrong time: too early (burning pre-product) or too late (institutional lead anchored, no info rights, valuation at Series A range) |
 
-## Verdict Decision Rules
+## Verdict Decision Rules (first match wins)
 
-### INVEST
+1. Any criterion at 1 or 2 → **PASS**.
+2. Required exit for 10x (10 x check / exit ownership) is out of reach of any realistic path, even
+   as category leader with named acquirers → **PASS**.
+3. Total under 14/25 → **PASS**.
+4. Total 18+ and 10x works at realistic dilution → **INVEST**.
+5. Otherwise → **WATCH**, only with a named catalyst that would lift one criterion within 90 days
+   and a re-check date (e.g., "INVEST if month-6 cohort retention reaches 85% in the next report").
+   No named catalyst → **PASS**.
 
-All three conditions must be true:
-
-1. Overall score ≥ 18/25
-2. No individual criterion below 3
-3. Clear mathematical path to 10× at realistic ownership percentage (run the math)
-
-### PASS
-
-Any one condition triggers PASS:
-
-1. Any individual criterion scores 1 or 2
-2. Return Potential math fails at realistic dilution (even with a perfect score on other criteria)
-3. Market size too small to return the check (sub-$50M SAM with check >$50k)
-4. Pre-revenue at a valuation >10× projected 12-month revenue run rate
-
-### WATCH
-
-Requires all three:
-
-1. Overall score 14–17
-2. No criterion below 3 (all criteria at 3 or above)
-3. A specific, named catalyst exists that would flip a 3-criterion to 4 within 90 days
-
-**WATCH is not a soft PASS.** A WATCH verdict requires a specific follow-up trigger event
-(e.g., "INVEST if closes BancoAgrario partnership before Q3 2026" or "INVEST if Month-6
-cohort retention reaches ≥85% in the next reporting period").
+Additional PASS triggers regardless of score: SAM under ~$50M with a check above $50K; pre-revenue
+at a valuation above 10x the projected 12-month revenue run rate.
 
 ## Common Red Flag Triggers
 
-These do not require a criterion to score 1 — they are explicit [RED FLAG] callouts
+These do not require a criterion to score 1. They are explicit [RED FLAG] callouts
 regardless of score:
 
-- Founder claims "no competition" — no market has no competition; this is a diligence failure
+- Founder claims "no competition": no market has no competition; this is a diligence failure
 - Pre-revenue deal with no comparable LATAM angel exits in the sector
 - Valuation >10× projected 12-month revenue run rate at pre-seed/seed
 - Founding team has zero regulatory experience in a sector requiring regulatory approval (fintech, healthtech)
 - Single-customer concentration >50% of revenue
-- Round has been "open" for >6 months without closing — market has already passed
+- Round has been "open" for >6 months without closing: the market has already passed
+- AI product with gross margin under ~40% after inference cost and no plan to improve it (Bessemer
+  State of AI 2025: "Shooting Star" AI companies run ~60%)
+- Revenue is mostly pilots or usage credits presented as ARR
+- LATAM-only company signing a US SAFE with no local legal opinion
 - Cap table complexity at early stage (>5 investors pre-Series A without institutional lead)

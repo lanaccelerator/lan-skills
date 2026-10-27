@@ -1,14 +1,14 @@
 # KPI Benchmarks by Business Model
 
 Stage-gated benchmark tables for all four business models. US-sourced
-benchmarks are labeled `(US-sourced benchmark)`. LATAM-adjusted figures are
-labeled `(LATAM, Cuantico 2026)` or `(LATAM, LAVCA 2025)`.
+benchmarks are labeled `(US-sourced benchmark)`. LATAM ranges are labeled `(LATAM, directional)`:
+no public LATAM report publishes KPI benchmarks.
 
 **Sources:**
-- Bessemer Cloud Index: https://www.bvp.com/atlas/roadmap-to-epiq
-- OpenView SaaS Benchmarks: https://openviewpartners.com/saas-benchmarks-report/
+- Bessemer Cloud Index: https://www.bvp.com/atlas/scaling-to-100-million
+- High Alpha and Growth Unhinged, 2025 SaaS Benchmarks Report (12 Nov 2025, 800+ companies; replaces the offline OpenView benchmarks): https://www.highalpha.com/saas-benchmarks
 - YC Standard Metrics: https://www.ycombinator.com/library/Fp-a-guide-to-startup-metrics
-- a16z 16 Metrics: https://a16z.com/16-metrics/
+- a16z 16 Metrics: https://a16z.com/16-startup-metrics/
 - Carta State of Private Markets: https://carta.com/blog/state-of-private-markets/
 
 ---
@@ -22,33 +22,33 @@ Primary framework: Bessemer Cloud Index + YC Standard Metrics + a16z 16 Metrics.
 | KPI | Pre-Seed | Seed | Series A | Series B | Source |
 |-----|---------|------|---------|---------|--------|
 | MRR | $0–$10k | $10k–$100k | $100k–$1M | $1M+ | YC Standard Metrics |
-| MRR Growth (MoM) | >15% | >10% | >7% | >5% | Bessemer Cloud 100 |
-| ARR Growth (YoY) | — | >100% | >80% | >60% | OpenView SaaS |
-| Logo Churn (monthly) | <5% | <3% | <2% | <1.5% | Bessemer Cloud 100 |
+| MRR Growth (MoM) | >15% | >10% | >7% | >5% | Directional (PG 2012: 5-7%/week during YC) |
+| ARR Growth (YoY) | n/a | >100% | >80% | >60% | High Alpha/Growth Unhinged 2025: median 75-100% under $1M ARR |
+| Logo Churn (monthly) | <5% | <3% | <2% | <1.5% | Directional |
 | Revenue Churn (monthly) | <5% | <3% | <2% | <1% | a16z 16 Metrics |
 | NRR (annual) | — | >100% | >110% | >120% | YC + Carta |
 | GRR (annual) | — | >80% | >85% | >90% | Carta |
-| Gross Margin | >55% | >65% | >70% | >72% | Bessemer Cloud 100 |
+| Gross Margin | >55% | >65% | >70% | >72% | Bessemer Scaling to $100M (~70% avg), directional by stage |
 | LTV/CAC | — | >2:1 | >3:1 | >4:1 | a16z 16 Metrics |
-| CAC Payback (months) | — | <18 | <12 | <12 | Bessemer Cloud 100 |
-| Rule of 40 | — | — | >20 | >40 | BVP / OpenView |
+| CAC Payback (months) | n/a | <18 | <12 | <12 | Directional |
+| Rule of 40 | n/a | n/a | >20 | >40 | Bessemer (Rule of 40, later stage) |
 
 *(US-sourced benchmark)* All figures above are US-market benchmarks from BVP,
-YC, a16z, Carta, and OpenView. Apply LATAM adjustments from latam-context.md.
+YC, a16z, Carta and High Alpha, or directional where marked. Apply LATAM adjustments from latam-context.md.
 
 ### SaaS LATAM Adjustments
 
 | KPI | US Benchmark | LATAM Adjusted | Source |
 |-----|-------------|----------------|--------|
-| CAC payback "good" | 12–18 months | 6–12 months | Cuantico 2026 |
-| Seed MoM growth floor | 15–20% | 12–15% (smaller markets) | LAVCA 2025 |
-| NRR PMF signal | >110% (Series A) | >100% (Seed) | LAVCA 2025 |
+| CAC payback "good" | 12–18 months | 6–12 months | Directional |
+| Seed MoM growth floor | 15–20% | 10%+ (smaller markets) | Directional |
+| NRR PMF signal | >110% (Series A) | >100% (Seed) | Directional |
 
 ### SaaS Metric Definitions (Fully-Loaded)
 
 | Metric | Formula | What Counts in COGS |
 |--------|---------|---------------------|
-| MRR | Sum of all active subscription revenue ÷ 12 | Subscriptions only; exclude one-time fees |
+| MRR | Recurring subscription revenue for the month (annual contracts ÷ 12) | Subscriptions only; exclude one-time fees |
 | ARR | MRR × 12 | — |
 | Logo Churn | Customers churned ÷ starting customers | Count each customer once regardless of seats |
 | Revenue Churn | MRR lost (excl. new) ÷ starting MRR | Include downgrades; exclude new customers |
@@ -139,6 +139,6 @@ Primary framework: a16z fintech metrics + LATAM regulatory context.
 | Default Rate | Defaulted loan value ÷ Total loan book | Track by cohort vintage |
 | Regulatory Capital Ratio | Tier 1 capital ÷ risk-weighted assets | Varies by country; Brazil (BCB) most complex |
 
-**LATAM Fintech Note:** *(LATAM, LAVCA 2025)* Fintech captures 61% of LATAM VC
-vs 13% globally. CAC economics are harder in fintech due to high compliance
+**LATAM Fintech Note:** fintech took 61% of LATAM VC dollars in 2025 (Cuantico, LatAm
+VC Report 2026). CAC economics are harder in fintech due to high compliance
 costs; a CAC payback of <12 months at Seed is strong for LATAM fintech.

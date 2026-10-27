@@ -1,16 +1,18 @@
 ---
 name: sales-playbook-generator
 description: >
-  For STARTUP FOUNDERS. B2B sales playbook design and generation.
-  ALWAYS invoke when a founder asks how to build a sales process,
-  create prospecting sequences, handle objections, write a demo
-  script, or set up a CRM. NOT for broad go-to-market strategy or
-  channel selection (use go-to-market-strategist for multi-channel
-  GTM strategy).
+  Use when a founder asks how to sell B2B: build the sales process, ICP, prospecting
+  sequence (WhatsApp-first for LATAM), objection handling, demo script, CRM stages and
+  conversion targets ("cómo vendo esto a empresas", "armame el playbook de ventas", "qué le
+  escribo por WhatsApp a un prospecto", "cómo manejo la objeción de precio", "cómo armo el
+  CRM", "guion para la demo"). Founder-led to first SDR/AE hires; includes AI-assisted
+  prospecting. NOT for overall go-to-market or channel strategy (use
+  go-to-market-strategist), turning a lead into a proposal (use lead-to-proposal) or
+  setting prices (use pricing-strategy-designer).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
 license: MIT
 ---
@@ -26,7 +28,7 @@ WhatsApp-primary, 3–6 month cycles.
 
 ## Step 1: Input Gathering
 
-Ask ALL seven questions in ONE message. Do not generate a playbook until
+Ask ALL questions in ONE message. Do not generate a playbook until
 you have answers (or stated assumptions) for each.
 
 1. **Product and business model** — what it does, who it's for, how it charges
@@ -47,7 +49,9 @@ you have answers (or stated assumptions) for each.
 7. **Team** — Founder-led only / have SDR / have AE / have full sales team
 
 If a question is skipped, proceed with a stated assumption flagged as:
-`[ASSUMPTION: ...]`. Do not silently skip inputs.
+`[ASSUMPTION: ...]`. Do not silently skip inputs. If a company brain (LAN Brain or another
+MCP-connected knowledge base) or CRM export is available, read past deals, win/loss notes and
+customer case studies first: they are the raw material for the ICP and the objection matrix.
 
 ## Step 2: Apply Frameworks
 
@@ -61,9 +65,9 @@ BEFORE designing the playbook. Apply all three frameworks:
    control) wins at complex B2B sales. Objection handling requires diagnosing root cause,
    not just scripting a response.
    Source: https://www.challengerinc.com/the-challenger-sale/
-3. **Gong.io conversation data** — Top reps talk 46% of time vs 68% average; 8+ discovery
-   questions = highest win rate; "does that make sense?" kills deal momentum.
-   Source: https://www.gong.io/resources/labs/
+3. **Gong Labs call research:** the highest-converting B2B calls run about 43% talking,
+   57% listening; discovery success peaks at 11-14 questions spread across the call.
+   Source: https://www.gong.io/resources/labs/talk-to-listen-conversion-ratio/
 
 ## Step 3: Workflow
 
@@ -81,6 +85,11 @@ Execute in this exact order:
 4. **Outline demo script** — 5 phases with time allocations:
    Opening → Discovery → Demo → Close → Next Step
 5. **Recommend CRM setup** — stage names, conversion rate targets, key fields per stage
+   and the AI assist per stage: account research and first-line personalization drafted by
+   an AI agent from the prospect's site and LinkedIn, call notes summarized into the CRM,
+   follow-ups drafted for founder approval. AI drafts, a human sends: never automate mass
+   WhatsApp sends (WhatsApp's Business Messaging Policy requires opt-in for business-initiated
+   messages, and numbers reported as spam get banned)
 6. **Apply LATAM context** from
    [references/latam-sales-context.md](references/latam-sales-context.md) — adapt
    sequence channels and timing to LATAM norms
@@ -108,15 +117,16 @@ The output is a B2B Sales Playbook containing:
 Read [references/latam-sales-context.md](references/latam-sales-context.md) BEFORE
 finalizing the prospecting sequence.
 
-**WhatsApp is Channel 1 for LATAM B2B prospecting.** 85%+ open rates vs 22% cold email.
-Every prospecting sequence must include WhatsApp messages — not as an option but as the
+**WhatsApp is Channel 1 for LATAM B2B prospecting.** It is read and answered far more
+than cold email (directional: no public LATAM dataset; track your own rates from touch one).
+Every prospecting sequence must include WhatsApp messages, not as an option but as the
 primary channel. A US-style 5-touch cold email sequence will fail in LATAM. If the
 sequence has no WhatsApp touches, rewrite it.
 
 Key LATAM adjustments:
 - **Relationship-first motion:** warm intro > LinkedIn connection > WhatsApp DM > cold
   email. Cold email is a last resort after exhausting warm channels.
-- **Sales cycle benchmarks:** LATAM enterprise B2B typically 3–6 months vs 2–4 months US.
+- **Sales cycle:** LATAM enterprise B2B typically 3–6 months vs 2–4 months US (directional).
   Budget accordingly and set realistic pipeline timelines.
 - **Decision-maker title mapping:** Use Spanish titles in ICP definition.
   "Director Comercial" = VP Sales, "Gerente General" = CEO/MD for SMEs,
@@ -128,11 +138,11 @@ Key LATAM adjustments:
 
 ## Tone & Editorial Voice
 
-See references/shared/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
+See references/shared/editorial-voice.md: direct, no-sugarcoating, unicorn-bar
 evaluation. Call out the cold email trap directly:
 
-"A US-style 5-touch cold email sequence will fail in LATAM. Open rates are 22% vs 85%
-for WhatsApp. If your sequence has no WhatsApp touches, rewrite it. If you're sending
+"A US-style 5-touch cold email sequence will fail in LATAM. Your buyers live on WhatsApp.
+If your sequence has no WhatsApp touches, rewrite it. If you're sending
 generic outreach without personalization, you're not doing outbound — you're spamming."
 
 Challenge vanity metrics: "50 emails sent" is not a pipeline metric. "3 qualified demo
@@ -158,6 +168,10 @@ Actions must be concrete:
   in Bogotá using the Day 3 template. Track: % read, % response, % booked demo."
 - BAD: "Start doing outbound sales."
 
+Handoffs: `/lead-to-proposal` once a qualified lead asks for a proposal,
+`/pricing-strategy-designer` if "too expensive" dominates the objection log,
+`/go-to-market-strategist` if the problem is the channel, not the sales motion.
+
 ## Sources
 
 - [Sales Playbook Framework](references/sales-playbook-framework.md) — Predictable
@@ -166,4 +180,4 @@ Actions must be concrete:
   decision-maker mapping, sales cycle benchmarks, relationship-first tactics
 - Predictable Revenue: https://predictablerevenue.com/book/
 - Challenger Sale: https://www.challengerinc.com/the-challenger-sale/
-- Gong.io Labs: https://www.gong.io/resources/labs/
+- Gong Labs, talk-to-listen research: https://www.gong.io/resources/labs/talk-to-listen-conversion-ratio/

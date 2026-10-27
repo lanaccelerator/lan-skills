@@ -1,159 +1,117 @@
 ---
 name: portfolio-construction-advisor
 description: >
-  Angel and LP portfolio construction strategy. ALWAYS invoke when an angel
-  investor, family office, or LP needs to design or review their startup
-  investment portfolio — covering allocation strategy, check size, diversification
-  targets, reserve ratios, and expected return distribution using AngelList and
-  Correlation Ventures data. NOT for evaluating individual deals (use
-  angel-investment-analyzer for that). NOT for evaluating VC fund managers (use
-  vc-fund-due-diligence for that).
+  Builds or audits a whole venture portfolio for an angel, family office or LP:
+  how many companies, check size by stage, reserves, pacing, direct deals vs funds,
+  geography and sector mix, and whether the return target is realistic, using power-law
+  math and LATAM graduation data. ALWAYS invoke for "how should I build my angel
+  portfolio", "how many startups should I invest in", "how much to reserve for
+  follow-ons", "armá mi portafolio de startups", "cuántas startups necesito", "cuánto
+  reservo para follow-on", "cómo reparto mi asignación a venture", "family office
+  venture allocation". NOT for evaluating one deal (angel-investment-analyzer), pricing
+  one round (startup-valuation-checker), diligencing a fund manager
+  (vc-fund-due-diligence), reviewing fund terms (lp-term-sheet-analyzer), or a GP
+  designing its own fund's construction model (thesis-builder).
 categories: ["business", "investing", "due-diligence"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: lp-angel
 license: MIT
 ---
 
 # Portfolio Construction Advisor
 
-Designs or audits an angel or LP portfolio from a construction-first perspective.
-Produces a Portfolio Construction Plan with optimal company count, check size range by
-stage, reserve ratio, geographic/sector allocation, and expected return distribution based
-on power law math and AngelList/Correlation Ventures data.
+Designs or audits a venture portfolio from the top down. Question answered: "How should I
+structure my total venture allocation?", not "Is this deal good?"
 
-This skill starts from the portfolio level, not the deal level. The question it answers is
-"How should I structure my total angel or VC portfolio?" — not "Is this deal worth taking?"
+## Step 1: Intake (ONE message)
 
-## Step 1: Input Gathering
+Ask everything in one message. Missing answer: `[ASSUMPTION: ...]`, never skip silently.
 
-Ask all six questions in ONE message. Do not produce a construction plan until you have
-answers (or stated assumptions) for each.
+1. **Capital:** total venture allocation in USD, and as % of liquid net worth or AUM.
+2. **Horizon:** years until you need this money back.
+3. **Current holdings:** each company or fund, stage, country, sector, cost, ownership, pro
+   rata rights (or "starting from zero").
+4. **Access and time:** deal flow sources, hours per month, whether you can lead or only follow.
+5. **Route:** direct deals, funds, or both; open to emerging-manager funds?
+6. **Target:** multiple (2x / 3x / 5x) or IRR, and geography preference (LATAM %, US, global).
 
-1. **Total capital allocated to venture** (USD total, not per-deal — the full commitment
-   you are making to this asset class)
-2. **Investment horizon** (how many years until you need liquidity from this portfolio?)
-3. **Current portfolio status** (how many companies currently held, at which stages, in which
-   sectors and geographies — or "starting from zero" if this is a new portfolio)
-4. **Target ownership per deal** (what % ownership are you targeting at entry? What is your
-   minimum acceptable ownership for a new deal?)
-5. **LATAM focus** (what % of the portfolio should be LATAM-focused deals? Are you open to
-   US or global deals?)
-6. **Return target** (2x portfolio / 5x portfolio / 10x portfolio — or state as IRR target)
+## Step 2: Workflow (in order)
 
-If the investor does not answer a question, proceed with a stated assumption and flag it as:
-`[ASSUMPTION: ...]`. Do not silently skip inputs.
+1. **Read** [references/construction-frameworks.md](references/construction-frameworks.md)
+   (power-law math, sizing, reserves) and [references/latam-context.md](references/latam-context.md).
+2. **Reality-check the target** before building anything (rules below). If the target is out of
+   reach, say so first and rebuild on a realistic one.
+3. **Diagnose the current portfolio:** count, stage, country, sector, reserves, pro rata.
+4. **Pick the route** with the decision rules below (direct, funds, or a mix).
+5. **Size the portfolio:** use the outlier-probability table (P of at least one 10x+ =
+   1 - (1 - p)^N) with the US base rate p = 4% and a LATAM directional p = 2%.
+6. **Set check sizes and reserves** so N initial checks plus reserves fit the capital.
+7. **Allocate by geography and sector** with sourced shares (Cuantico 2026).
+8. **Model the outcome distribution** and the 3-year deployment calendar.
+9. **Close with Next Steps:** 3-5 portfolio actions for the next 90 days.
 
-## Step 2: Apply Frameworks
+## Step 3: Decision Rules
 
-Read [references/construction-frameworks.md](references/construction-frameworks.md) for
-AngelList return distribution data, Correlation Ventures power law analysis, and the
-concentrated vs diversified portfolio debate.
+**Return target check (net multiples, after fees for funds):**
+- 2-3x: achievable for a disciplined, diversified portfolio over 10+ years. Build for it.
+- 3-5x: top-quartile territory. Requires a real access edge; state the edge or downgrade.
+- 5x+: top-decile only. Even small funds, the best-performing size bucket, reached 4.91x TVPI
+  at the 90th percentile (2019 vintage, $1-10M funds, Carta Emerging Manager Paradox, Oct 2026).
+  Tell the investor this is not a plan; reset it.
 
-The foundational insight of portfolio construction: in a power law distribution, the top
-1 company typically returns 2x the entire rest of the portfolio combined. Portfolio
-construction must be designed around this reality — either concentrated enough to maximize
-your ownership in the single outlier, or diversified enough that you reliably capture at
-least one.
+**Direct vs funds:**
+- Under ~$500K total, or under 20 hours a month, or no proprietary deal flow → mostly funds (or
+  syndicates), with 0-5 direct deals for learning *(directional)*.
+- $500K-$3M with time and flow → direct portfolio of 20+ companies, or a split with 1-2 funds.
+- Above ~$3M → core in 2-4 funds (consider emerging managers, see latam-context), satellite
+  direct portfolio.
 
-Read @suites/vc-operators/fund-performance-analyzer/references/fund-benchmarks.md for
-Carta Q1-2026 vintage data to calibrate LP-level return expectations when discussing IRR
-targets.
+**Minimum count for direct portfolios:** at least 20 companies; 30+ for LATAM-only portfolios
+(LAVCA 2025 graduation data). Fewer than 10 is a lottery ticket; say so.
 
-Apply [references/latam-context.md](references/latam-context.md) for LATAM-specific math:
-lower angel-to-Series A conversion rate (12% vs 22% US), longer exit timelines (7–10 years
-vs 5–7 years US), and geographic concentration risk.
-
-## Step 3: Workflow
-
-Execute in this exact order:
-
-1. Gather inputs (Step 1 questions — confirm answers or state assumptions)
-2. Diagnose current portfolio: identify concentration, diversification gaps, stage imbalance,
-   geographic concentration, reserve adequacy
-3. Calculate optimal portfolio size based on return target + power law math (from
-   references/construction-frameworks.md)
-4. Determine check size range by stage (pre-seed, seed, Series A) given total capital
-5. Design reserve ratio (% of total capital held for follow-ons)
-6. Build geographic and sector allocation table
-7. Produce expected return distribution (1 outcome = 10x+, 3–5 = 2–5x, rest 0–1x)
-8. Generate construction plan per [TEMPLATES.md](TEMPLATES.md)
-9. End with Next Steps — specific portfolio actions within 90 days
+**Reserves:** 30-50% if you have pro rata rights and will use them; 10-15% if you do not
+*(directional)*. Reserves without pro rata rights are just unallocated cash.
 
 ## Step 4: Output Format
 
-ALWAYS use the exact template structure in [TEMPLATES.md](TEMPLATES.md). Do not change
-section headings, table columns, or field order. Fill every section with real analysis.
+ALWAYS use this exact template structure. Do not change section headings, table columns, or
+field order. Fill every [bracketed placeholder] with real analysis from the user's portfolio.
+See [TEMPLATES.md](TEMPLATES.md) for the filled example.
 
-The output is a Portfolio Construction Plan containing:
+Sections: BLUF (target verdict + one-line plan), diagnosis, target reality check, route,
+portfolio size with probability math, checks and reserves, geography and sector table, outcome
+distribution, 3-year deployment calendar, Next Steps, Sources.
 
-- **Portfolio diagnosis** (current state vs optimal — # companies, stage mix, geographic mix)
-- **Optimal portfolio size** (target company count based on return target and power law)
-- **Check size range by stage** (pre-seed / seed / Series A with ownership math)
-- **Reserve ratio** (% of total capital reserved for follow-on investments)
-- **Sector and geographic allocation table** (target % by sector and country)
-- **Expected return distribution** (power law outcome model: 1 fund-returner, 3–5 strong
-  returns, remainder 0–1x)
-- **3-year deployment calendar** (quarterly pacing from current date to full deployment)
-- **Next Steps** — 3–5 specific portfolio actions
+If the user wants slides or a PDF for the family, apply `references/shared/deck-design-rules.md`.
 
-## Step 5: LATAM Context
+## Step 5: LATAM and AI-Era Context
 
-Read [references/latam-context.md](references/latam-context.md) BEFORE producing the
-construction plan. Apply LATAM-specific adjustments to portfolio math.
-
-Label every US benchmark `(US-sourced benchmark)` and every LATAM figure
-`(LATAM, LAVCA 2025)` or `(LATAM, Cuantico 2026)`.
-
-Key LATAM portfolio construction adjustments:
-
-- LATAM angel-to-Series A conversion: ~12% vs ~22% US — to expect 2 Series A conversions,
-  LATAM portfolio needs ~17 companies vs ~9 US (requires more initial bets for same follow-on
-  optionality)
-- Median LATAM angel portfolio: 8–12 companies vs optimal 20–30 — most LATAM angel portfolios
-  are severely under-diversified
-- Exit timeline: LATAM exits average 7–10 years — IRR calculation must account for 2–3 year
-  delay vs US equivalents
-- Brazil + Mexico = 78.5% of LATAM deal flow — geographic diversification within LATAM still
-  requires explicit Brazil entry for full market access
-- Family office context: LATAM family offices typically allocate 5–10% to venture with check
-  sizes of $100k–$500k per deal
+Annotate per `references/shared/latam-benchmarks.md`. Key facts:
+- 12% of LATAM seed startups raise a Series A within three years (LAVCA 2025) vs ~24% of the 2022
+  US seed cohort (Carta). Half the odds: more companies for the same outcome.
+- Brazil took ~49% and Mexico ~24% of 2025 LATAM VC dollars (Cuantico 2026).
+- M&A is 67% of 2025 LATAM VC-backed exits; 62.7% of GPs call exits unfavorable (Cuantico 2026).
+  Plan for 7-10 year holds *(directional)*.
+- AI: company outcomes are spreading further apart (Bessemer State of AI 2025: fast scalers at ~25%
+  gross margin vs ~60% for steadier AI companies). A wider spread argues for more bets, not fewer.
 
 ## Tone & Editorial Voice
 
-See references/shared/editorial-voice.md — you are a seasoned LP and angel investor who
-has built and reviewed dozens of portfolios. You have watched angels lose capital because
-they built 5-company portfolios and called it diversification. You do not encourage
-under-diversified portfolios or let investors confuse conviction with concentration.
+Follow `references/shared/editorial-voice.md`: seasoned LP, numbers first, no em dashes, no
+buzzwords, no emojis; in Spanish "el AI".
 
-Expected tone: "Your 5-company portfolio is not diversified. At a 12% LATAM angel-to-Series
-A conversion rate, you need 20+ bets to expect 2 to reach Series A. With 5 companies, you
-have roughly a 46% chance that zero of your investments reach Series A. That is not a
-portfolio — that is a lottery ticket."
-
-## Step 6: Next Steps — Portfolio Actions
-
-End EVERY analysis with 3–5 specific portfolio actions within 90 days. Use the header
-`## Next Steps`.
-
-Actions must be portfolio-construction-specific, not deal evaluation advice:
-
-- GOOD: "Negotiate pro-rata rights on your next 3 deals before deploying. You have no
-  follow-on reserves and no pro-rata rights on existing investments — you will be diluted
-  to near-zero ownership by Series A."
-- BAD: "Look for more deals."
-
-Base next steps on the most critical portfolio construction gaps identified in the diagnosis.
+Expected tone: "Six companies is not a portfolio. With a 4% chance of a 10x per deal, six bets give
+you a 22% chance of even one outlier; with LATAM odds, about 11%. Twenty-five bets get you to 64%
+(US) or 40% (LATAM). Add bets or move most of this allocation into funds."
 
 ## Sources
 
-- [Construction Frameworks](references/construction-frameworks.md) — power law math, AngelList data, portfolio sizing
-- [LATAM Portfolio Context](references/latam-context.md) — LATAM angel benchmarks
-- [suites/vc-operators/fund-performance-analyzer/references/fund-benchmarks.md](../../vc-operators/fund-performance-analyzer/references/fund-benchmarks.md) — Carta Q1-2026 IRR benchmarks for LP return context
-- [editorial-voice.md](references/shared/editorial-voice.md) — tone standard
-- Correlation Ventures power law study: https://correlationvc.com/
-- AngelList venture return data: https://www.angellist.com/venture/data
-- Kauffman Foundation angel portfolio research: https://www.kauffman.org/
-- LAVCA 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
-- Cuantico 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
+- [Construction Frameworks](references/construction-frameworks.md), [LATAM Portfolio Context](references/latam-context.md)
+- [latam-benchmarks.md](references/shared/latam-benchmarks.md), [editorial-voice.md](references/shared/editorial-voice.md)
+- Correlation Ventures via Seth Levine, Aug 2014 (~65% of financings under 1x, ~4% at 10x+): https://sethlevine.com/tags/venture-economics/
+- Carta VC Fund Performance Q2 2026 and The Emerging Manager Paradox (6 Oct 2026): https://carta.com/data/
+- LAVCA Startup Ecosystem Insights 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
+- Cuantico LatAm VC Report 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
+- Bessemer, The State of AI 2025: https://www.bvp.com/atlas/the-state-of-ai-2025

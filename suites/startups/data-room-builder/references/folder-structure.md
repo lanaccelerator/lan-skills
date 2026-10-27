@@ -5,8 +5,8 @@ Visible.vc, NFX, and Stripe Atlas data room guides.
 
 **Sources:**
 - Visible.vc Data Room Guide: https://visible.vc/blog/startup-data-room/
-- NFX Data Room Guide: https://www.nfx.com/post/how-to-build-a-data-room/
-- Stripe Atlas Data Room: https://stripe.com/atlas/guides/data-room
+- YC, A Guide to Seed Fundraising (what seed investors actually ask for): https://www.ycombinator.com/library/4A-how-to-raise-money
+- NVCA Model Legal Documents (Series A document set): https://nvca.org/model-legal-documents/
 
 ---
 
@@ -16,19 +16,19 @@ Target completeness before sharing: all 12 required documents present.
 
 ### Required Folders and Documents
 
-**01-pitch-materials/** — What you use to tell your story
+**01-pitch-materials/**: What you use to tell your story
 | Document | Required? | Why Investors Need It | Format |
 |---------|-----------|----------------------|--------|
 | Pitch deck (current) | REQUIRED | Primary investment narrative; sets the frame for everything else | PDF |
 | 1-page executive summary | REQUIRED | Some investors review summary before deck; must stand alone | PDF |
 
-**02-company-overview/** — What you do
+**02-company-overview/**: What you do
 | Document | Required? | Why Investors Need It | Format |
 |---------|-----------|----------------------|--------|
 | Product overview / screenshots | REQUIRED | Visual proof the product exists | PDF |
 | Demo video or live demo link | RECOMMENDED | Reduces investor confusion faster than any document | MP4 / Link |
 
-**03-financials/** — Your financial story
+**03-financials/**: Your financial story
 | Document | Required? | Why Investors Need It | Format |
 |---------|-----------|----------------------|--------|
 | 12-month P&L (actuals) | REQUIRED | Validates your claimed metrics; investors will check this against your pitch deck numbers | Excel / Google Sheet |
@@ -36,20 +36,20 @@ Target completeness before sharing: all 12 required documents present.
 | Use of funds breakdown | REQUIRED | Shows capital discipline; investors need to know what the round accomplishes | PDF / Excel |
 | 3-year financial model | REQUIRED | Forward-looking assumptions; investors test your business logic | Excel |
 
-**04-legal/** — Corporate health
+**04-legal/**: Corporate health
 | Document | Required? | Why Investors Need It | Format |
 |---------|-----------|----------------------|--------|
 | Incorporation documents | REQUIRED | Confirms legal entity exists and is properly structured | PDF |
 | IP assignment agreements | REQUIRED | Confirms company owns its technology; #1 Seed due diligence failure | PDF |
 | Prior funding documents (SAFEs, convertible notes) | REQUIRED if applicable | Confirms prior round terms; affects current cap table | PDF |
 
-**05-team/** — Who you are
+**05-team/**: Who you are
 | Document | Required? | Why Investors Need It | Format |
 |---------|-----------|----------------------|--------|
 | Founder bios | REQUIRED | Team is the primary investment thesis at Seed; bios must support the narrative | PDF |
 | LinkedIn profiles | RECOMMENDED | Verifies bios; investors will check regardless | Links |
 
-**06-market/** — Why this matters
+**06-market/**: Why this matters
 | Document | Required? | Why Investors Need It | Format |
 |---------|-----------|----------------------|--------|
 | Market analysis / TAM/SAM/SOM | RECOMMENDED | Validates market sizing claims in deck | PDF |
@@ -67,7 +67,7 @@ existing folder.
 
 ### New Folders for Series A
 
-**07-customers/** — Proof of demand
+**07-customers/**: Proof of demand
 | Document | Required? | Why Investors Need It | Format |
 |---------|-----------|----------------------|--------|
 | Customer list (anonymized) | REQUIRED | Validates ARR claims; top 10 customers by ARR | PDF / Excel |
@@ -76,7 +76,7 @@ existing folder.
 | NPS survey results | RECOMMENDED | PMF signal; Series A investors expect NPS >40 | PDF |
 | Reference customer contacts | REQUIRED | Investors will call references; prep them | List |
 
-**08-operations/** — How you scale
+**08-operations/**: How you scale
 | Document | Required? | Why Investors Need It | Format |
 |---------|-----------|----------------------|--------|
 | Org chart (current + 18-month plan) | REQUIRED | Shows hiring plan alignment with fund use | PDF |
@@ -125,5 +125,5 @@ existing folder.
 | CRM export | Sales pipeline (anonymize customer names if pre-NDA) |
 
 **PDF rule:** Always PDF for documents shared with investors. Never share
-editable Word or Keynote files — they look unfinished and create version
+editable Word or Keynote files, they look unfinished and create version
 confusion.

@@ -1,13 +1,13 @@
-# Fundraising Readiness Scorecard — Output Template
+# Fundraising Readiness Scorecard: Output Template
 
 ALWAYS use this exact structure. Every section is required. Do not change section
-headings, table columns, or field order. Fill every section with real analysis — no placeholders.
+headings, table columns, or field order. Fill every section with real analysis, no placeholders.
 
 ---
 
 ## Example Output: EduTech MX
 
-*This is a filled example for EduTech MX — a hypothetical K-12 edtech SaaS startup based
+*This is a filled example for EduTech MX, a hypothetical K-12 edtech SaaS startup based
 in Mexico City targeting Seed raise, with $18k MRR, 45 schools on platform, growing 15% MoM.
 Use it as the structural template for every analysis.*
 
@@ -15,7 +15,7 @@ Use it as the structural template for every analysis.*
 
 # Fundraising Readiness Scorecard: EduTech MX
 
-**Date:** April 2026
+**Date:** October 2026
 **Target Stage:** Seed
 **Business Model:** B2B SaaS (K-12 schools)
 **Geography:** LATAM-focused raise (Mexico + Colombia)
@@ -30,9 +30,9 @@ Use it as the structural template for every analysis.*
 |-----------|--------|---------------|-----------------|-----|
 | Metrics Threshold | CONDITIONAL | $18k MRR, 15% MoM growth, ~8% monthly school churn | $25–$50k MRR OR 20%+ MoM sustained ≥3 months (yc-metrics.md) | $7k MRR below lower bound; growth rate 5pp short |
 | Data Room | NOT READY | Cap table complete; no 12-month financial model, no product demo recording | Seed minimum: cap table, 12mo financials model, product demo, 2+ customer references | 2 required documents missing |
-| Narrative Clarity | READY | "Why now" = SEP 2024 federal mandate for digital learning records + COVID learning gap quantified at 1.8 grade levels. Why Us = founder ran K-12 curriculum dept at SEP for 6 years | Investable story: Problem quantified, timing trigger real, differentiation clear | No gap — narrative is fundable |
+| Narrative Clarity | READY | "Why now" = 2024 shift of private-school procurement to digital gradebooks (hypothetical) + COVID learning gap quantified at 1.8 grade levels. Why Us = founder ran K-12 curriculum dept at SEP for 6 years | Investable story: Problem quantified, timing trigger real, differentiation clear | No gap, narrative is fundable |
 | Team Gaps | CONDITIONAL | Founding team: CEO (pedagogy, ex-SEP) + CTO (full-stack engineer). Zero GTM ownership on team | Seed: clear owner for sales motion; edtech requires dedicated school relationship manager | GTM/sales lead missing; technical founders cannot close school procurement alone |
-| Comparable Raises | CONDITIONAL | $18k MRR; LATAM edtech Seed raises at $10k–$40k MRR range (LATAM, LAVCA 2025) | Within range but at lower quartile; top LATAM edtech Seed companies raise at $30k+ MRR | Improve metrics before approaching top-tier LATAM VCs; Magma/ALLVP will pass at this MRR |
+| Comparable Raises | CONDITIONAL | USD 18K MRR; 3 verified LATAM edtech seed/pre-seed raises of USD 400K-1.2M in the last 12 months | Seed raises found are at USD 800K-1.2M; directional seed range USD 750K-3M (LAN operator read) | Fundable at the low end of the range; a USD 1M round fits, a USD 2M+ round does not yet |
 
 ---
 
@@ -53,39 +53,53 @@ Use it as the structural template for every analysis.*
 
 ---
 
+## How Much / At What Valuation
+
+- **Round:** USD 40K monthly burn x (18 months to Series A milestones + 6 buffer) = **USD 960K**,
+  rounded to a USD 1M seed. Milestones it buys: USD 80K MRR, 3 sales reps ramped, NRR above 105%.
+- **Price:** USD 1M / 18% target dilution = USD 5.6M post-money, **USD 4.6M pre-money**.
+- **Sanity checks:** (1) inside the directional LATAM seed range of USD 5M-12M pre-money only at
+  the bottom, consistent with USD 18K MRR; (2) a Series A at 2-3x step-up (USD 11-17M post) is
+  plausible at USD 80K MRR; (3) the lead sets the final price, so do not anchor above USD 6M post.
+
+---
+
 ## Comparable Raises
 
-| Company | Country | Stage | MRR at Raise | Pre-Money | Investor | Date |
-|---------|---------|-------|-------------|-----------|---------|------|
-| Aprende | Mexico | Seed | ~$30k MRR | $8M | LAN Accelerator + 500 Latam | 2023 |
-| Colegio Digital | Colombia | Seed | ~$20k MRR | $6M | Magma Partners | 2022 |
-| Vinco Educación | LATAM | Series A | $200k MRR | $12M | Reach Capital | 2022 |
-| Lms Lite | Mexico | Pre-seed | ~$5k MRR | $3M | Angel round | 2023 |
+*Illustrative rows for a hypothetical company. In a real run every row comes from a web search
+with its source URL, and the table says "No verified comparables found" if none exist.*
 
-*LATAM edtech Seed range: $10k–$40k MRR on $6M–$12M pre-money (LATAM, LAVCA 2025)*
+| Company | Country | Stage | Amount | Lead | Date | Source |
+|---------|---------|-------|--------|------|------|--------|
+| [K-12 SaaS found via search] | Mexico | Seed | USD 1.2M | [lead fund] | 2025-11 | [press release URL] |
+| [Edtech found via search] | Colombia | Seed | USD 800K | [lead fund] | 2026-03 | [Crunchbase News URL] |
+| [Edtech found via search] | Chile | Pre-seed | USD 400K | [accelerator] | 2026-05 | [fund announcement URL] |
+
+*Directional LATAM seed range: USD 750K-3M on USD 5M-12M pre-money (LAN operator read, not a
+published dataset).*
 
 ---
 
 ## LATAM Context
 
-- **(LATAM, LAVCA 2025):** Median gap between LATAM rounds = 20 months vs 12–15 months in US.
-  Start fundraising 3 months earlier than US equivalents. EduTech MX should begin LP outreach
-  now to be closing in month 4–5.
-- **(US-sourced benchmark, Carta Q1 2026):** Seed-to-Series A graduation rate = 20.6% within
-  6 quarters. Only 1 in 5 seed companies reaches Series A. Plan your bridge round strategy now.
-- **(US-sourced benchmark, Carta Q1 2026):** Median time seed → Series A in Q4 2025 = 1.9 years.
-  Budget 24+ months between Seed close and Series A close for LATAM timing.
-- **(US-sourced benchmark, Carta Q1 2026):** Down rounds at 14.5% of Q4 2025 rounds — elevated.
-  Bridge financing available but dilutive. Avoid entering market undercapitalized.
-- **Warm intros are required.** Cold outreach to Magma Partners, ALLVP, or Platanus has near-zero
-  conversion. First investor meeting must come through a warm intro from a portfolio founder or
-  trusted advisor in their network.
+- **(LATAM, LAVCA 2025):** only 7% of LATAM seed companies raise a Series A within two years and
+  about 12% within three. EduTech MX's seed must fund the full path to Series A metrics; plan a
+  bridge option from day one.
+- **(US-sourced benchmark, Carta, Q4 2025):** median seed to Series A in the US is 1.9 years.
+  Budget at least 24 months between seed close and Series A close in LATAM.
+- **(LATAM, Cuantico 2026):** USD 4.126B across 681 rounds in 2025 with average ticket up 16%:
+  capital is concentrating in fewer companies. Brazil + Mexico take ~73%, which helps a Mexico
+  HQ.
+- **(Directional, LAN operator read):** a LATAM seed process takes 6-9 months. Start outreach in
+  month 1 to close by month 6-7, with 15+ months of runway at kickoff.
+- **Warm intros are required.** First meetings with Magma Partners, ALLVP or Latitud should come
+  through a portfolio founder or a trusted advisor, not a cold email.
 
 ---
 
 ## Next Steps
 
-1. **Grow MRR to $25k.** At 15% MoM: $18k → $20.7k → $23.8k → $27.4k — month 3 crosses
+1. **Grow MRR to $25k.** At 15% MoM: $18k → $20.7k → $23.8k → $27.4k, month 3 crosses
    threshold. Track MoM growth rate; if it drops below 15%, diagnose cause immediately.
 
 2. **Build the financial model this week.** 12 months of actuals + 18-month projection.

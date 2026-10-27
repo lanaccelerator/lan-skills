@@ -1,30 +1,38 @@
 ---
 name: startup-kpi-automator
 description: >
-  Startup KPI system designer. ALWAYS invoke when a user asks what metrics to
-  track, how to build a KPI dashboard, how to set up investor reporting, or
-  wants a growth rate calculation template. Applies Bessemer Cloud Index,
-  OpenView SaaS benchmarks, YC Standard Metrics, a16z 16 Metrics, and Carta
-  KPI data. NOT for pitch deck creation or go-to-market strategy.
+  Use when a founder wants to build and automate the KPI dashboard: define each metric's
+  formula by business model, wire the data sources (Stripe, CRM, database, bank), set
+  stage-gated targets and alerts, and split the weekly operating board from the monthly
+  investor KPI block ("armame el dashboard de KPIs", "qué métricas trackeo y de dónde
+  salen", "automatizar el reporte de métricas", "tablero semanal para el equipo",
+  "calculá mi tasa de crecimiento semanal"). Covers SaaS, marketplace, e-commerce, fintech
+  and AI-native products. NOT for choosing the North Star and quarterly OKRs (use
+  startup-metrics-okrs), deep CAC/LTV math (use unit-economics-calculator), writing the
+  investor update itself (use investor-update-compiler) or pitch decks (use
+  pitch-deck-builder).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
 license: MIT
 ---
 
 # Startup KPI Automator
 
-Designs a model-specific KPI dashboard, defines each metric precisely, sets
-stage-gated benchmark targets, and generates an investor report template.
-Applies Bessemer Cloud Index, OpenView, YC Standard Metrics, a16z 16 Metrics,
-and Carta KPI data. Branches by business model — SaaS / marketplace /
-e-commerce / fintech each produce distinct KPI sets.
+Designs a model-specific KPI dashboard, defines each metric precisely, maps every KPI
+to its data source and refresh cadence, sets stage-gated targets, and produces the
+monthly investor KPI block. Branches by business model: SaaS, marketplace, e-commerce,
+fintech, with AI-native additions when inference is a material cost.
+
+Boundary: startup-metrics-okrs decides WHAT matters (North Star, 3-5 KPIs, OKRs); this
+skill builds HOW it gets measured, automated and reported. If the founder has no North
+Star yet, run `/startup-metrics-okrs` first or define a provisional one in Step 3.
 
 ## Step 1: Input Gathering
 
-Ask all six questions in ONE message. Do not generate any output until you have
+Ask all questions in ONE message. Do not generate any output until you have
 answers (or stated assumptions) for each.
 
 1. **Company name and one-sentence description**
@@ -37,9 +45,15 @@ answers (or stated assumptions) for each.
 5. **Investor update frequency** — monthly / quarterly / ad hoc
 6. **Primary goal for this KPI system** — fundraising readiness / operational
    insight / both
+7. **Data sources and tools:** billing (Stripe, Mercado Pago, local processor), CRM,
+   product database or analytics, bank, spreadsheet or BI tool in use
+8. **AI-native?** Does the product run models whose inference cost scales with usage?
 
 If the user does not answer a question, proceed with a stated assumption and
 flag it: `[ASSUMPTION: ...]`. Do not silently skip inputs.
+
+If a company brain (LAN Brain or another MCP-connected knowledge base) is connected, read
+current metrics, OKRs and past investor updates from it first and ask only for gaps.
 
 ## Step 2: Apply Frameworks
 
@@ -52,12 +66,13 @@ relevant frameworks:
   Source: https://www.ycombinator.com/library/Fp-a-guide-to-startup-metrics
 - **a16z 16 Metrics** — applies to growth-stage companies; fully-loaded CAC,
   gross-margin-adjusted LTV, bookings vs. revenue separation.
-  Source: https://a16z.com/16-metrics/
-- **Bessemer Cloud 100 benchmarks** — SaaS only; stage-specific targets for
-  MRR growth, churn, NRR, CAC payback.
-  Source: https://www.bvp.com/atlas/roadmap-to-epiq
-- **OpenView SaaS benchmarks** — ARR growth rate context for SaaS.
-  Source: https://openviewpartners.com/saas-benchmarks-report/
+  Source: https://a16z.com/16-startup-metrics/
+- **Bessemer, Scaling to $100 Million (2021):** SaaS only; growth, net retention and
+  gross margin by ARR scale.
+  Source: https://www.bvp.com/atlas/scaling-to-100-million
+- **High Alpha and Growth Unhinged, 2025 SaaS Benchmarks Report** (12 Nov 2025, 800+
+  companies): growth by ARR band, AI-native vs other SaaS. Replaces OpenView, now offline.
+  Source: https://www.highalpha.com/saas-benchmarks
 - **Carta KPI data** — NRR, churn, and valuation benchmarks by stage.
   Source: https://carta.com/blog/state-of-private-markets/
 
@@ -71,14 +86,21 @@ Execute in this exact order:
 3. For each KPI: define the metric precisely (formula + what counts), set
    stage-gated benchmark target, flag whether current value is above or below
    benchmark with a clear STATUS label (On Track / At Risk / Below Bar)
-4. Design dashboard structure — which KPIs belong in the investor update
-   (monthly) vs. the internal operations dashboard (weekly)
-5. Generate investor report template in monthly email format
-6. Apply LATAM context from
+4. Map each KPI to its data source, owner and refresh cadence; prefer automatic pulls
+   (billing API, CRM export, database query) over manual entry, and name the tool
+   (Google Sheets + connector, Looker Studio, Metabase, or an HTML board built with an AI
+   coding agent). Set an alert threshold for each red-line KPI
+5. Design dashboard structure: internal operations board (weekly; growth measured
+   week over week) vs. investor KPI block (monthly, 5-7 metrics). Visual boards (HTML,
+   PDF, slides) follow references/shared/deck-design-rules.md: one message per chart,
+   the key series in the accent color, no decoration
+6. Generate the investor KPI block in monthly email format; for the full narrative
+   update hand off to `/investor-update-compiler`
+7. Apply LATAM context from
    [references/latam-context.md](references/latam-context.md) — adjust
    benchmarks for LATAM market reality before producing final output
-7. Output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
-8. End with Next Steps
+8. Output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
+9. End with Next Steps
 
 ## Step 4: Output Format
 
@@ -98,20 +120,23 @@ Output must include:
 Read [references/latam-context.md](references/latam-context.md) BEFORE
 producing the final output. Adjust all US-sourced benchmarks to LATAM reality.
 
-Label every US benchmark as `(US-sourced benchmark)` and include the
-LATAM-adjusted figure labeled `(LATAM, Cuantico 2026 / LAVCA 2025)`.
+Label every US benchmark `(US-sourced benchmark)` with source and date. No public LATAM
+report publishes KPI benchmarks, so LATAM ranges are `(LATAM, directional)`; never
+attribute them to Cuantico or LAVCA.
 
-Key LATAM adjustments:
-- CAC payback: 6–12 months typical in LATAM vs. 12–18 months "good" per
-  Bessemer — LATAM structural advantage
-- NRR: LATAM investors weight NRR heavily as the primary PMF indicator at Seed
-- Reporting: LATAM family office LPs expect quarterly; US VCs expect monthly
-- Seed MoM growth expectation: 15–20% in LATAM vs. 20–30% YC bar (smaller
-  initial markets)
+Key adjustments:
+- Growth: Paul Graham's YC bar is 5-7% per week (2012); for AI-native startups top funds
+  expect close to 10% per week (LAN's read). Single-country LATAM B2B SaaS: 10%+ MoM is
+  the floor that needs no explanation at seed (directional)
+- CAC payback: under 12 months on gross margin reads as strong; lower LATAM sales
+  salaries help until the company hires US sellers
+- NRR: above 100% is a strong seed signal for SMB-heavy LATAM SaaS (directional)
+- AI-native: add gross margin after inference, inference cost per unit of work, task
+  success rate and revenue per employee (references/latam-context.md)
 
 ## Tone & Editorial Voice
 
-See references/shared/editorial-voice.md — direct, no-sugarcoating, unicorn-bar
+See references/shared/editorial-voice.md: direct, no-sugarcoating, unicorn-bar
 evaluation. You are NOT a cheerleader. If the work is weak, say it's weak. If it's
 exceptional, acknowledge specifically.
 
@@ -133,14 +158,15 @@ immediate instrumentation of the top-3 investor-facing KPIs.
 
 - [KPI Benchmarks by Model](references/kpi-benchmarks.md) — stage-gated
   benchmark tables for SaaS, marketplace, e-commerce, fintech
-- [LATAM Context](references/latam-context.md) — LAVCA 2025 + Cuantico 2026
-  LATAM-specific KPI adjustments
+- [LATAM Context](references/latam-context.md): LATAM and AI-native KPI adjustments,
+  verified capital-market facts
 - [yc-metrics.md](references/shared/yc-metrics.md)
   — YC + a16z metric definitions and formulas
 - [latam-benchmarks.md](references/shared/latam-benchmarks.md)
   — LATAM VC benchmark data (canonical source)
-- Bessemer Cloud Index: https://www.bvp.com/atlas/roadmap-to-epiq
-- OpenView SaaS Benchmarks: https://openviewpartners.com/saas-benchmarks-report/
+- Bessemer, Scaling to $100 Million (2021): https://www.bvp.com/atlas/scaling-to-100-million
+- Paul Graham, Startup = Growth (2012): https://paulgraham.com/growth.html
+- High Alpha and Growth Unhinged, 2025 SaaS Benchmarks Report (12 Nov 2025, 800+ companies; replaces the offline OpenView benchmarks): https://www.highalpha.com/saas-benchmarks
 - YC Standard Metrics: https://www.ycombinator.com/library/Fp-a-guide-to-startup-metrics
-- a16z 16 Metrics: https://a16z.com/16-metrics/
+- a16z 16 Metrics: https://a16z.com/16-startup-metrics/
 - Carta State of Private Markets: https://carta.com/blog/state-of-private-markets/

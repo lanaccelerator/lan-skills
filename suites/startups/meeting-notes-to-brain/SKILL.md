@@ -1,19 +1,19 @@
 ---
 name: meeting-notes-to-brain
 description: >
-  For STARTUP FOUNDERS and teams. Turns a meeting transcript (Granola, Google
-  Meet notes, Fathom, tl;dv, Otter or pasted text) into structured notes with
-  decisions, action items with owner and due date, open questions and people
-  mentioned, files them in the company brain linked to people and companies,
-  and creates follow-up email DRAFTS per attendee. ALWAYS invoke when a user
-  shares a transcript or recording notes, asks to summarize a meeting, extract
-  action items, log a call to the brain, or process this week's meetings. NOT
-  for preparing the weekly team agenda (use all-hands-prep) or for turning a
-  sales discovery call into a proposal (use lead-to-proposal).
+  Use when a user shares a meeting transcript or recorder notes (Granola, Google Meet,
+  Fathom, tl;dv, Otter, pasted text) or asks to summarize a meeting, extract action items,
+  log a call to the company brain or process this week's meetings ("resumí esta reunión",
+  "pasame en limpio la llamada", "sacá los pendientes y quién hace qué", "subí la reunión
+  al brain", "armá los mails de seguimiento"). Produces decisions, action items with owner
+  and due date, open questions and people mentioned, files them in the company brain (LAN
+  Brain or any MCP brain) linked to people and companies, and creates follow-up email
+  DRAFTS, never sends. NOT for preparing the weekly team agenda (use all-hands-prep) or
+  turning a sales discovery call into a proposal (use lead-to-proposal).
 categories: ["startups", "operations", "productivity"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
   complements: [all-hands-prep, lead-to-proposal, investor-update-compiler]
 license: MIT

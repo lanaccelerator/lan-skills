@@ -1,19 +1,18 @@
 ---
 name: daily-brief
 description: >
-  For STARTUP FOUNDERS and cofounders. Builds an end-of-day log (bitácora) and
-  a morning agenda from today's email, calendar, meeting notes in the brain,
-  WhatsApp, AI sessions (Claude Code, Codex) and git commits, files the daily
-  page in the company brain and delivers it as a draft. ALWAYS invoke when a
-  user asks for a daily summary, end-of-day recap, shutdown review, "qué hice
-  hoy", today's agenda, "qué tengo mañana", a morning brief, or what the whole
-  team did today. NOT for processing a single meeting transcript (use
-  meeting-notes-to-brain) or preparing the weekly team meeting (use
-  all-hands-prep).
+  For STARTUP FOUNDERS and cofounders. Use when the user wants an end-of-day log or a morning
+  agenda built from today's email, calendar, meeting notes, WhatsApp, AI sessions and git
+  commits, filed in the company brain and delivered as a draft to self. Spanish triggers:
+  "qué hice hoy", "bitácora del día", "resumen del día", "cierre del día", "qué tengo
+  mañana", "agenda de hoy", "qué hizo el equipo hoy". Modes: close, open, team; can run on a
+  schedule. NOT for processing a single meeting transcript (use meeting-notes-to-brain),
+  preparing the weekly team meeting (use all-hands-prep) or writing an investor update (use
+  investor-update-compiler).
 categories: ["startups", "operations", "productivity"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
   complements: [meeting-notes-to-brain, all-hands-prep, investor-update-compiler]
 license: MIT
@@ -169,30 +168,12 @@ Output order in the chat:
 
 ## Schedule It
 
-Run close every day at 21:00 and open at 07:30 with no one typing. Follow
-references/shared/company-brain-integration.md section 6; details in
-[references/scheduling.md](references/scheduling.md).
-
-| Agent | Close (21:00) | Open (07:30) |
-|---|---|---|
-| Claude Code | `claude -p "Run the daily-brief skill in close mode for today. Drafts only."` | `claude -p "Run the daily-brief skill in open mode for today. Drafts only."` |
-| Codex | `codex exec "Run the daily-brief skill in close mode for today. Drafts only."` | `codex exec "Run the daily-brief skill in open mode for today. Drafts only."` |
-
-Crontab (macOS and Linux; on macOS launchd also works):
-
-```
-0 21 * * *  ~/bin/daily-brief.sh close
-30 7 * * *  ~/bin/daily-brief.sh open
-```
-
-Two guards are mandatory in the wrapper script (example in the reference):
-- **Same-day guard:** skip if `daily/<today>` already has the section for
-  this mode and no new source items arrived since it was written.
-- **Single-instance lock:** a lock directory (`mkdir` is atomic) so a slow
-  run and the next trigger never write the same page at once.
-
-The scheduled run must have the same connectors as an interactive session
-and only read, brain-write and draft permissions. Never grant send.
+Close at 21:00 and open at 07:30 with no one typing, headless in Claude Code (`claude -p`) or
+Codex (`codex exec`), triggered by cron or launchd. Commands, wrapper script, same-day guard and
+single-instance lock are in [references/scheduling.md](references/scheduling.md); follow
+references/shared/company-brain-integration.md section 6. The scheduled run gets the same
+connectors as an interactive session with read, brain-write and draft permissions only. Never
+grant send.
 
 ## LATAM Context
 

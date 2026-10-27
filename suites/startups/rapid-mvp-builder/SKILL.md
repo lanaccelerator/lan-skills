@@ -1,15 +1,19 @@
 ---
 name: rapid-mvp-builder
 description: >
-  For STARTUP FOUNDERS. MVP design and feature prioritization.
-  ALWAYS invoke when a founder asks what to build first, how to
-  design their MVP, how to prioritize features, or which tech stack
-  to use for a startup product. NOT for growth strategy or channel
-  selection (use go-to-market-strategist for that).
+  Use when a founder asks what to build first, how to scope or design the MVP, how to
+  prioritize features, which tech stack to use, or how to build it fast with Claude Code
+  or another AI coding agent ("qué construyo primero", "armame el plan del MVP", "cómo
+  priorizo features", "qué stack uso", "cómo lo construyo con Claude Code si no soy
+  técnico"). Produces a testable hypothesis, MoSCoW feature cut, stack, week-by-week build
+  plan with LATAM payment and compliance requirements, and a launch checklist. NOT for
+  growth channels or launch marketing (use go-to-market-strategist), pricing (use
+  pricing-strategy-designer) or judging if the idea is venture-scale (use
+  venture-model-validator).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
 license: MIT
 ---
@@ -22,7 +26,7 @@ guidance, payment integration requirements, and a launch checklist.
 
 ## Step 1: Input Gathering
 
-Ask all seven questions in ONE message. Do not start planning until you have answers
+Ask all questions in ONE message. Do not start planning until you have answers
 (or stated assumptions) for each.
 
 1. **Business model:** SaaS / marketplace / e-commerce / fintech / other
@@ -35,9 +39,13 @@ Ask all seven questions in ONE message. Do not start planning until you have ans
    / technical founder
 6. **Geography:** Brazil / Mexico / Colombia / pan-LATAM / US-global
 7. **Timeline:** How many weeks to MVP? (determines scope constraints)
+8. **AI in the product:** Is AI the core of the product (agent, AI service), a feature, or absent?
+9. **Build tools:** Will you build with an AI coding agent (Claude Code, Cursor, Codex), no-code,
+   or a hired developer?
 
 If the user does not answer a question, proceed with a stated assumption and flag it
-as: `[ASSUMPTION: ...]`. Do not silently skip inputs.
+as: `[ASSUMPTION: ...]`. Do not silently skip inputs. If a company brain (LAN Brain or another
+MCP-connected knowledge base) holds customer interviews or product notes, read them first.
 
 ## Step 2: Apply Frameworks
 
@@ -57,6 +65,10 @@ Apply these frameworks in order:
 4. **YC "Launch Now"** — The cost of not shipping is higher than the cost of a rough launch.
    Every week without a live product is a week without learning.
    Source: https://www.ycombinator.com/library/4D-yc-s-essential-guide-to-go-to-market
+5. **AI-agent-built MVP:** with Claude Code or a similar coding agent, the bottleneck moves
+   from writing code to specifying it: one user journey per session, a written spec, an
+   end-to-end test, and the security minimum in references/mvp-framework.md (Row Level
+   Security, no secrets in code, server-side payment checks).
 
 ## Step 3: Workflow
 
@@ -71,11 +83,12 @@ Execute in this exact order:
    user," it is a Should-have or lower.
 4. **Tech stack recommendation** based on business model + team tech capacity — use the
    decision tree in [references/mvp-framework.md](references/mvp-framework.md)
-5. **Build 4-week plan** (adapt to stated timeline):
-   - Week 1: Core data model + authentication + user roles
-   - Week 2: Primary user flow — the one journey from login to value
-   - Week 3: Payment + core LATAM integrations
-   - Week 4: Polish + launch checklist completion
+5. **Build the plan** (default 2 weeks with an AI coding agent, 4 weeks without; adapt to
+   the stated timeline):
+   - Phase 1: Core data model + authentication + user roles (+ the model call, if AI is the core)
+   - Phase 2: Primary user flow, the one journey from login to value
+   - Phase 3: Payment + core LATAM integrations
+   - Phase 4: Security minimum + launch checklist completion
 6. **Identify LATAM-required integrations** from
    [references/latam-context.md](references/latam-context.md) based on geography input.
    These are mandatory, not optional.
@@ -92,7 +105,7 @@ The output contains:
 - **Hypothesis statement** (one sentence — what this MVP will prove or disprove)
 - **MoSCoW feature table:** Feature | Category | Rationale | Dependency | Est. Build Time
 - **Tech stack recommendation table:** Layer | Technology | Rationale
-- **4-week build plan table:** Week | Sprint Goal | Features to Ship | Validation Method
+- **Build plan table:** Week | Sprint Goal | Features to Ship | Validation Method
 - **Launch checklist** (minimum viable launch criteria before calling it "live")
 - **LATAM Context box** (payment integrations + compliance requirements for stated geography)
 - **Next Steps**
@@ -103,11 +116,12 @@ Read [references/latam-context.md](references/latam-context.md) BEFORE outputtin
 LATAM payment integrations are NOT optional — they are Must-haves for consumer and fintech MVPs.
 
 Key requirements by geography:
-- **Brazil:** PIX integration required for any consumer or B2C product. Without PIX, conversion
-  rates drop 60-80% vs equivalent US product. LGPD (data privacy) notice required at launch.
-- **Mexico:** OXXO (cash, ~25% of transactions) + SPEI (bank transfer) for e-commerce.
-  SAT CFDI 4.0 required for B2B billing at any scale.
-- **Colombia:** PSE (bank transfer) + Nequi (mobile wallet) for consumer products.
+- **Brazil:** PIX integration required for any consumer or B2C product (~40% of online
+  purchases, EBANX Beyond Borders 2025). LGPD (data privacy) notice required at launch.
+- **Mexico:** OXXO (cash vouchers) + SPEI (bank transfer) for e-commerce.
+  SAT CFDI 4.0 required for B2B invoicing.
+- **Colombia:** PSE (bank transfer) + Nequi (mobile wallet) for consumer products; check
+  Bre-B (instant payments, launched 2025) support with your provider.
 - **LATAM-wide:** Mercado Pago covers all major markets as a unified integration option.
 
 Tech talent notes:
@@ -142,7 +156,12 @@ The FIRST action is always: validate the hypothesis before writing a single line
 - BAD: "Start building the product"
 
 Building before talking to users is the most common and most expensive mistake in early-stage
-startup history. Do not recommend it.
+startup history. Do not recommend it. AI coding agents make building cheap; they do not make
+the wrong product right.
+
+Handoffs: `/go-to-market-strategist` for the first 100 users, `/pricing-strategy-designer`
+before the payment page goes live, `/startup-metrics-okrs` to pick the metric that proves
+the hypothesis.
 
 ## Sources
 
@@ -150,5 +169,7 @@ startup history. Do not recommend it.
 - MoSCoW Prioritization: https://www.productplan.com/glossary/moscow-prioritization/
 - Pieter Levels: https://levels.io/bootstrapping/
 - YC Launch Now: https://www.ycombinator.com/library/4D-yc-s-essential-guide-to-go-to-market
+- Claude Code docs: https://code.claude.com/docs
+- EBANX Beyond Borders 2025 (Pix share of online purchases): https://insights.ebanx.com/en/
 - [MVP Framework](references/mvp-framework.md) — MoSCoW rubric, tech stack decision tree
 - [LATAM Context](references/latam-context.md) — payment integrations, compliance requirements

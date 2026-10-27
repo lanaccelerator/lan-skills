@@ -39,12 +39,22 @@ Other Carta data points:
   Series C+ rose from $23.9B to $31.8B (Carta Data Minute, 8 Jul 2026).
   https://carta.com/data/newsletter-archive/
 
-**LATAM** (as carried in startup-valuation-checker, references/latam-context.md):
-pre-money ranges of pre-seed $3-5M, seed $6-10M, Series A $15-25M (LAVCA 2025), Series B
-$40-80M (Cuantico 2026). These predate the 2025-2026 US jump, so the gap to US medians is wider
-today. LATAM VC investment was USD 4.2B in 2024 (Crunchbase, EOY 2024).
-https://news.crunchbase.com/venture/latin-america-startup-funding-eoy-2024/
-No verified 2026 LATAM median exists in this snapshot: never present one.
+**LATAM** (canonical, verified data layer: shared/latam-benchmarks.md):
+
+- Median round size 2024: seed USD 0.5M, Series A USD 10M, Series B USD 25.5M (LAVCA Trends
+  in Tech 2025, data as of 31 Dec 2024).
+  https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf
+- LATAM seed pre-money averaged about 40% of the US level over 2015-2025 (US 156% higher;
+  Valoriza, reported by Diario Financiero, 2 Apr 2025).
+  https://www.df.cl/df-lab/innovacion-y-startups/informe-revela-que-las-startups-de-eeuu-valen-mas-antes-de-una-ronda-de
+- Only 12% of LATAM seed startups raise a Series A within three years (LAVCA Startup Ecosystem
+  Insights 2025): price the round so the company can survive without the next one.
+- Round ranges by stage (pre-seed $3-10M post-money cap, seed $8-20M pre-money, Series A
+  $20-60M pre-money) are **directional** (LAN deal flow 2025-2026), not a published dataset.
+- LATAM VC investment: USD 4.13B across 681 rounds in 2025 (Cuantico, LatAm VC Report 2026);
+  USD 4.2B in 2024 (Crunchbase, EOY 2024). Use one source per output.
+
+No verified 2026 LATAM median valuation exists: never present one.
 
 ## 2. Growth and traction benchmarks
 
@@ -165,5 +175,5 @@ already in, advisors, closed paying customers, clear traction, founder CV.
 - Neeraj Agrawal, "The SaaS Travel Adventure" (TechCrunch, 1 Feb 2015): https://techcrunch.com/2015/02/01/the-saas-travel-adventure/
 - PitchBook-NVCA Venture Monitor Q1 2026 (exits)
 - Crunchbase, Latin America funding EOY 2024: https://news.crunchbase.com/venture/latin-america-startup-funding-eoy-2024/
-- LAVCA 2025 and Cuantico 2026 (via startup-valuation-checker, references/latam-context.md)
+- LAVCA Trends in Tech 2025; LAVCA Startup Ecosystem Insights 2025; Cuantico LatAm VC Report 2026; Valoriza via Diario Financiero (2 Apr 2025). Canonical: shared/latam-benchmarks.md
 - Bill Payne Scorecard; Dave Berkus method

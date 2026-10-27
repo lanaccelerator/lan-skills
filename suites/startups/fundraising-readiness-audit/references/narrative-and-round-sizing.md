@@ -15,8 +15,8 @@ deck looks. Everything else in the deck must support that line.
 
 - The earlier the stage, the more investors buy the future: team, vision, speed.
 - The later the stage, the more they buy the track record: numbers, retention, margins.
-- LATAM has low liquidity (USD 4.2B of VC in 2024, Crunchbase EOY 2024), so team and growth weigh
-  most when a LATAM fund decides.
+- LATAM has low liquidity (USD 4.1B of VC in 2025, Crunchbase; USD 4.126B in 681 rounds, Cuantico
+  2026), so team and growth weigh most when a LATAM fund decides.
 
 ## 2. Validators that weigh (the "logos")
 
@@ -66,13 +66,17 @@ Pre-money  = post-money - round
 Illustrative: USD 1.2M / 20% = USD 6M post-money, USD 4.8M pre-money.
 
 Median dilution per priced round, US: seed about 19-20%, Series A about 18% (Carta, "Startup
-dilution per round is not rising", 2025, 12,435 priced US software rounds since Jan 2021).
+dilution per round is not rising", 2025, 12,435 priced US software rounds since Jan 2021). Across
+seed to Series C it fell from about 18% to 16% during 2025 (Carta, State of Private Markets: 2025
+in review, Feb 2026). All US-sourced benchmarks.
 
 Sanity checks before the founder states a number:
-1. **Comparables:** rounds at the same stage and market. LATAM valuations sit below US ones.
+1. **Comparables:** verified rounds at the same stage and market (see latam-comparable-raises.md
+   section 3). LATAM valuations usually sit below US ones; no public dataset quantifies the gap, so
+   do not quote a percentage discount.
 2. **Next round:** the next investor must be able to pay 2-3x this price. An inflated valuation
    today is a down round tomorrow.
 3. **The market decides:** the lead sets the price; competition between funds is the only thing
    that improves it.
 
-For a full method-by-method valuation, hand off to /startup-valuation-checker.
+For a full method-by-method valuation, hand off to /startup-valuation-benchmark.

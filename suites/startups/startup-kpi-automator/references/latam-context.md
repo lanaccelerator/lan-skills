@@ -1,106 +1,104 @@
-# LATAM Context — KPI System
+# LATAM and AI-Era Context: KPI System
 
-KPI-specific LATAM adjustments for startup-kpi-automator. Apply these
-annotations to all US-sourced benchmarks in the output.
+KPI-specific adjustments for startup-kpi-automator. Apply them to every US-sourced
+benchmark in the output.
 
-**Sources:**
-- LAVCA 2025 Startup Ecosystem Insights:
-  https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
-- Cuantico LatAm VC Report 2026:
-  https://reports.cuanticovp.com/latin-america-vc-report-2026/
-- Carta State of Private Markets (LATAM section):
-  https://carta.com/blog/state-of-private-markets/
-
----
-
-## CAC Payback Divergence
-
-*(US-sourced benchmark, Bessemer Cloud Index)* CAC payback: 12–18 months is
-"good" for B2B SaaS at Seed.
-
-*(LATAM, Cuantico 2026)* CAC payback in LATAM: 6–12 months typical. 60% of
-Brazilian SaaS companies recover CAC in less than 6 months. LATAM operators
-have a structural CAC advantage driven by lower sales team costs and high
-inbound pull from underserved market segments.
-
-**Implication:** A LATAM B2B SaaS with 10-month CAC payback is performing
-within the US "good" range but below the LATAM median. Flag this in output
-and ask what is causing elevated CAC vs. LATAM peers.
-
----
-
-## NRR as Primary PMF Indicator
-
-*(LATAM, LAVCA 2025)* LATAM investors weight NRR heavily as the indicator of
-product-market fit, more so than in the US where DAU/MAU and growth rate
-carry equal weight.
-
-A LATAM Seed company with NRR >100% will open Series A conversations that a
-company with 30% MoM growth but NRR <90% will not. Prioritize NRR tracking
-from day 1.
-
-**Target:** NRR >100% is the LATAM Seed PMF signal. NRR >110% is exceptional
-and will attract top-tier LATAM VCs (Softbank LATAM, Kaszek) at Seed.
+**Read this first (checked 27 Oct 2026):** no public LATAM report publishes KPI benchmarks
+(CAC payback, NRR, churn, growth by stage). Cuantico and LAVCA report capital flows only.
+The LATAM ranges below are **directional** (LAN's read). Label them `(LATAM, directional)`
+and never attribute them to Cuantico or LAVCA.
 
 ---
 
 ## Growth Rate Expectations
 
-*(US-sourced benchmark, YC)* Seed-stage SaaS: 20–30% MoM is the YC bar for
-VC-backable early-stage growth.
+- *(US-sourced benchmark)* Paul Graham, "Startup = Growth" (Sep 2012): 5-7% per week is a
+  good rate during YC (about 23-34% per month); 10% per week is exceptional.
+  https://paulgraham.com/growth.html
+- *(LAN's read, Oct 2026)* For AI-native startups, top funds now expect growth close to
+  10% per week. LAN states this as its own read, not a published benchmark.
+- *(US-sourced benchmark)* High Alpha and Growth Unhinged, 2025 SaaS Benchmarks Report
+  (12 Nov 2025, 800+ companies): median YoY growth under $1M ARR was 100% for AI-native vs
+  75% for other SaaS; at $1-5M ARR, 110% vs 40%. https://www.highalpha.com/saas-benchmarks
+- *(LATAM, directional)* B2B SaaS selling only into one LATAM country often grows slower
+  than the US bar because of smaller initial markets. Treat 10% MoM as the floor that needs
+  no explanation at seed; below it, the founder must explain why.
 
-*(LATAM, LAVCA 2025)* LATAM Seed investors expect 15–20% MoM from B2B SaaS
-companies due to smaller initial addressable markets. An SMB software product
-targeting Mexican accountants has a different TAM ceiling than a product
-targeting US enterprise — growth acceleration typically comes at Series A when
-cross-border expansion begins.
-
-**Implication:** 15% MoM in LATAM at Seed is respectable. Below 10% requires
-explanation. At 20%+ MoM with LATAM-focused product, the company has
-outperformed the market.
-
----
-
-## Reporting Frequency by LP Type
-
-*(LATAM, LAVCA 2025)* LP base in LATAM is 35% family offices vs. 15% US.
-Family offices prefer quarterly reporting cadence with in-person relationship
-management. US-based VCs (Sequoia, a16z, Tiger) co-investing in LATAM rounds
-expect monthly updates in standard format.
-
-**Implication for KPI system design:**
-- Build ONE monthly investor update (covers US VC co-investors)
-- Family office LPs receive quarterly version (3 months of data in one email)
-- Do not build separate systems; derive the quarterly from the monthly
+**Implication:** measure growth weekly. Monthly reporting hides whether the company is on a
+5%-per-week or a 1%-per-week path.
 
 ---
 
-## LATAM SaaS NRR and Valuation
+## CAC Payback
 
-*(LATAM, Cuantico 2026)* LATAM B2B SaaS companies with NRR >100% at Seed
-attract 30% higher valuations compared to same-ARR peers with NRR <95%.
-This premium reflects the difficulty of achieving expansion revenue in LATAM
-SMB markets where budget cycles are constrained.
-
-**Implication:** NRR is the highest-leverage KPI for LATAM Seed fundraising.
-If only one metric gets automated and tracked weekly, it should be NRR.
+- *(US-sourced benchmark)* Under 12 months on gross margin reads as good at seed and
+  Series A; 12-18 months is common later (directional ranges, see kpi-benchmarks.md).
+- *(LATAM, directional)* Lower sales salaries can shorten payback, until the company hires
+  US sellers or sells to US customers. If payback is long despite low salaries, ask which
+  channel is broken.
 
 ---
 
-## Fintech-Specific LATAM Context
+## NRR as a PMF Signal
 
-*(LATAM, LAVCA 2025)* Fintech represents 61% of LATAM VC investment vs. 13%
-globally. This creates two divergent dynamics:
+- *(US-sourced benchmark)* Public SaaS median NRR 110% (Clouded Judgement, 23 Oct 2026).
+- *(LATAM, directional)* SMB-heavy LATAM SaaS rarely expands seats fast; NRR above 100% at
+  seed is a strong signal. Track it from the first cohort.
 
-1. **More capital available:** LATAM fintech companies can raise at Seed with
-   lighter metrics than SaaS equivalents because investors are more familiar
-   with the space
-2. **More competition for capital:** Top LATAM fintech VCs (QED, Ignia,
-   Monashees) see 10× more deal flow in fintech than SaaS; differentiation
-   requires exceptional unit economics, not just growth
+---
 
-**LATAM fintech KPI priority at Seed:**
-1. Default rate (if lending) — must be below 5% to be fundable
-2. CAC payback — must show path to <12 months
-3. Regulatory compliance cost as % of revenue — often overlooked; BCB and
-   CNBV compliance costs can destroy margins if not tracked
+## Reporting Cadence
+
+- Build ONE monthly investor KPI block; derive quarterly versions from it. Angels and
+  family offices often prefer quarterly, institutional VCs monthly (directional).
+- LAVCA (Startup Ecosystem Insights 2025) finds CVCs in 15% of LATAM rounds in
+  2024-1H 2025: corporate investors often want KPIs mapped to their own pilot or strategic
+  goals. Add one line for them instead of a separate report.
+
+---
+
+## Fintech-Specific Context
+
+- Fintech took 61% of LATAM VC dollars in 2025 (Cuantico, LatAm VC Report 2026) and in
+  2024 (LAVCA Trends in Tech 2025): more capital and more competition for it.
+- KPI priority at seed (directional):
+  1. Default rate and loss curves by vintage (lending)
+  2. CAC payback with a path under 12 months
+  3. Regulatory compliance cost as % of revenue (BCB, CNBV, local central banks)
+  4. Take rate net of processing and banking API fees
+
+---
+
+## AI-Native KPI Additions
+
+Add these to the dashboard for any product where model inference is a material cost:
+
+| KPI | Formula | Why |
+|-----|---------|-----|
+| Gross margin after inference | (Revenue − hosting − inference − AI APIs − human review) ÷ Revenue | ICONIQ (Jan 2026): AI product margins average ~41% in 2024, projected ~52% in 2026, well below SaaS |
+| Inference cost per unit of work | AI cost ÷ tasks (or conversations, agent runs) | The lever that moves margin; track weekly |
+| Task success / acceptance rate | Tasks accepted without human fix ÷ tasks | Outcome pricing only works if this is high |
+| Usage retention | Week-N active usage of a cohort ÷ week-0 | Seat counts hide whether the agent is used |
+| Revenue per employee | ARR ÷ FTEs | AI-native teams run small; investors compare it |
+
+---
+
+## Verified capital-market facts (context only)
+
+| Fact | Source |
+|------|--------|
+| USD 4.13B across 681 LATAM rounds in 2025, +13.8% YoY | Cuantico, LatAm VC Report 2026 |
+| ~20 months on average between rounds | LAVCA Trends in Tech 2025 |
+| 12% of seed startups raise a Series A within 3 years | LAVCA Startup Ecosystem Insights 2025 |
+
+---
+
+## Sources
+
+- Paul Graham, Startup = Growth (2012): https://paulgraham.com/growth.html
+- High Alpha and Growth Unhinged, 2025 SaaS Benchmarks Report: https://www.highalpha.com/saas-benchmarks
+- Clouded Judgement (Jamin Ball): https://cloudedjudgement.substack.com/archive
+- ICONIQ State of AI bi-annual snapshot (Jan 2026), via SaaStr (28 Jan 2026): https://saastr.com/inference-costs-average-23-of-revenue-at-ai-b2b-companies-how-will-you-pay-for-it
+- Cuantico LatAm VC Report 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
+- LAVCA Trends in Tech 2025: https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf
+- LAVCA Startup Ecosystem Insights 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf

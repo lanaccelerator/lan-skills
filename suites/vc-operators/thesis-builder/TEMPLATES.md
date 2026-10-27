@@ -1,93 +1,73 @@
-# Investment Thesis — Output Template
+# Investment Thesis: Output Template
 
 ALWAYS use this exact structure. Every section is required. This template is for
-VC FUND OPERATORS building or articulating their investment thesis — not for startup
+VC FUND OPERATORS building or articulating their investment thesis, not for startup
 founders. Do not change section headings, table columns, or field order.
 
 ---
 
 ## Example Output: Condor Ventures Fund I
 
-*This is a filled example showing Condor Ventures Fund I investment thesis — a $25M
-LATAM B2B SaaS and fintech fund (2022 vintage, Brazil/Mexico focus). Use it as the
-structural template for every thesis document you produce.*
+*Hypothetical fund: $25M, 2022 vintage, Brazil/Mexico, SME fintech infrastructure. Market
+facts carry a source; inputs the GP must still source are tagged `[ASSUMPTION: ...]` with the
+place to get the real number. Never fill those with invented figures.*
 
 ---
 
 # Investment Thesis: Condor Ventures Fund I
 
-**Prepared by:** Isaac García, GP — Condor Ventures
+**Prepared by:** Isaac García, GP, Condor Ventures
 **Date:** Q2 2026
-**Fund:** Condor Ventures Fund I — $25M committed, 2022 vintage, Brazil/Mexico focus,
-B2B SaaS and infrastructure fintech thesis, Year 4 of 10-year fund life
+**Fund:** $25M committed, 2022 vintage, Brazil/Mexico, year 5 of 10
 
 ---
 
 ## 1. Core Hypothesis
 
-Brazil and Mexico have $280B+ in SME working capital needs served today by informal
-credit or predatory factoring at 60–120% annual rates. Open banking mandates (PIX in
-Brazil, open banking regulation in Mexico) for the first time create the infrastructure
-for underwriting SMEs at scale using transaction data — a capability that was
-architecturally impossible with legacy banking infrastructure. We believe the next
-generation of LATAM credit infrastructure will be built by fintech-native platforms,
-not banks. The incumbents cannot adapt their cost structures fast enough: a
-traditional LATAM bank requires $500+ in annual profit per SME client to justify
-credit underwriting, but 85% of LATAM SMEs generate less than that in bank fees
-annually. This is a structural gap, not a temporary inefficiency, and it is the
-right moment to fund the companies that will close it.
+SME credit in Brazil and Mexico will be underwritten from transaction and invoice data, not
+from collateral and bank statements, and the companies that own that data flow (accounting,
+payments, invoicing software used daily by SMEs) will capture the credit margin that banks
+cannot serve profitably. Two things changed: the data rails exist (PIX and Open Finance in
+Brazil, CFDI e-invoicing in Mexico) and AI makes reading that data per customer almost free,
+so a $20k credit line can be underwritten at a cost that used to require a $500k line. Banks
+will not close this gap because their cost to serve is built for branch-era underwriting.
+**Kill condition:** if by 2028 banks match software-embedded lenders on approval time and loss
+rate for sub-$50k lines, the thesis is wrong.
 
 ---
 
 ## 2. Market Thesis
 
-**Structural shifts enabling the opportunity:**
+**Technology:** PIX (launched Nov 2020) and Open Finance give consented, real-time cash-flow
+data in Brazil [pull current PIX volumes: BCB PIX statistics]. Mexico's CFDI electronic
+invoices put every formal sale on a SAT record. Open-weight models now compete with frontier
+models on meaningful benchmarks (YC RFS Winter 2027), so per-customer document reading and
+cash-flow analysis in Portuguese and Spanish is cheap and can run inside a regulated lender's
+own infrastructure.
 
-**Technology infrastructure (2020–2026):**
-- PIX (Brazil): 150M+ accounts active, 60B+ transactions annually since launch 2020.
-  For the first time, SME cash flow data is available digitally in near-real-time.
-  Source: Banco Central do Brasil, 2025.
-- Open Banking Mandate (Mexico, Phase 3 live 2025): CNBV requires all financial
-  institutions to share transactional data via API with authorized fintechs.
-  This is the data layer that makes SME underwriting viable without physical branches.
-- CFDI 4.0 Digital Invoice Trail (Mexico, Jan 2024): 100% of Mexican SMEs with
-  revenue >$200k/year must issue digital invoices via SAT. This creates a real-time
-  revenue verification layer that previously required 3 months of bank statements.
-- Smartphone penetration: 85%+ across Brazil and Mexico for working-age population,
-  removing the last physical barrier to digital-first financial products.
+**Regulation:** licences gate the credit model (SOFOM in Mexico; SCD/SEP in Brazil). The
+companies that get licensed, or partner with a licensed balance sheet, own the margin.
 
-**Demographic shift:**
-- LATAM has 25M+ SMEs, of which <15% have access to formal credit (IDB Invest 2024).
-  The informal economy is not a transitional state — it is a structural outcome of
-  the banking cost-to-serve problem. Fintech solves this at a different cost layer.
+**Capital market:** LATAM VC was US$4.126B in 2025 across 681 rounds, the lowest deal count
+since 2017; fintech took 61% of capital with 29% of deals (Cuantico 2026). Capital is
+concentrating in proven lenders; seed-stage software that owns SME workflows is less crowded.
 
-**Infrastructure gap (the "why now" trigger):**
-The enabling event is not a single moment but a convergence: PIX data layer +
-open banking mandates + digital invoice infrastructure creates, for the first time,
-a complete data stack for SME underwriting without physical branches. Prior fintech
-attempts at LATAM SME credit (2015–2020) failed because they lacked this data
-infrastructure and had to rely on proxy signals.
+**Why now:** the data rails are live, AI dropped the underwriting cost, and the 2022-2024
+correction cleared out lenders that had no data edge.
 
 ---
 
 ## 3. Pattern Matching
 
-**A fundable company in this thesis looks like:**
-
 | Criterion | Condor Ventures standard |
 |-----------|--------------------------|
-| Founder profile | 2+ founders; at least one with LATAM fintech operating experience (BD, product, or risk at an existing LATAM fintech — not US-only background) |
-| Stage at first check | Pre-seed to Seed; first $150k+ MRR OR clear path to $150k in 6 months from identified pipeline |
-| Geography | One country, one customer segment — no pan-LATAM launch strategies at Seed |
-| Business model | Embedded credit or infrastructure SaaS; must use transaction data for underwriting from Day 1 |
-| Must-have structural element | Data advantage: either proprietary data source, exclusive distribution channel, or regulatory moat (SOFOM structure, BACEN authorization) that competitors cannot replicate in 12 months |
-| Disqualifying signals | Full-stack digital bank ambition at Seed; revenue from only 1–2 customers; no transaction data in underwriting model |
-
-**What this is NOT:**
-- Consumer fintech lending to unbanked individuals (regulatory and default risk exceeds
-  our risk tolerance at Fund I check sizes)
-- Pan-LATAM launch strategy at Seed stage
-- B2C consumer apps without a financial product embedded
+| Founder profile | At least one founder with LATAM credit, risk or payments operating experience |
+| Stage at first check | Seed; $50k+ MRR in software or a live loan book with 6+ months of loss data |
+| Geography | One country and one SME segment at first check |
+| Business model | Software SMEs use weekly (invoicing, payments, accounting) with credit embedded |
+| Structural element | Owns the data flow; underwriting uses it from day 1; licence or licensed partner signed |
+| AI requirement | Uses models to cut underwriting and servicing cost, measured in cost per approved line |
+| Disqualifying signals | Full-stack bank at seed; loan book funded by equity; no loss data; 1-2 customers |
 
 ---
 
@@ -95,142 +75,86 @@ infrastructure and had to rely on proxy signals.
 
 | Parameter | Condor Ventures Fund I |
 |-----------|------------------------|
-| Fund size | $25M committed |
-| Initial check range | $750k–$1.5M |
-| Reserve ratio | 50% ($12.5M reserved for follow-ons) |
-| Target portfolio size | 15–18 companies |
-| Target ownership at initial check | 10–12% |
-| Follow-on strategy | 2–3× pro-rata in portfolio companies reaching Series A milestones |
-| Fund life | 10 years (5-year investment period, 5-year harvest) |
-| Current deployment status | Year 4 — 11 investments made, $13.5M deployed |
+| Fund size / investable after fees | $25M / about $20.5M (2% fee in investment period, stepping down) |
+| Initial check range | $750k-$1.5M |
+| Reserve ratio | 45% of investable ($9.2M) |
+| Target portfolio size | 12-15 companies |
+| Target ownership at entry | 8-10% post-money |
+| Follow-on strategy | Pro-rata only in companies that hit Series A milestones; super pro-rata in the top 2 |
+| Fund life | 10 years + up to two 1-year extensions; investment period 5 years |
 
-**Reserve ratio methodology:** 50% = standard emerging market reserve for a Seed-focused
-fund. Formula: undeployed capital / fund size = ($12.5M / $25M) = 50%.
-Source: references/thesis-framework.md
+**Ownership math:** $1.2M into a $10M pre-money, $2.5M round = $1.2M / $12.5M post = 9.6%.
+After a Series A (about 18% dilution, Carta 2026) without pro-rata: about 7.9%.
 
-**Ownership targeting:** At $750k–$1.5M initial check on $8M–$15M pre-money valuations
-(Seed range), target ownership = check ÷ pre-money = $1.0M ÷ $10.0M = 10%.
+**Fund-returner test:** $25M / 8% = a $312M exit returns the fund once. A 3x net fund needs
+one or two exits of $500M+ in this category within 10 years. LATAM fintech has produced
+outcomes at that scale; the thesis must name the likely acquirers (regional banks, payment
+companies, global fintechs) because M&A was 67% of main LATAM exits in 2025 (Cuantico 2026).
 
 ---
 
 ## 5. Anti-Portfolio Analysis
 
-Deals we systematically pass on — and the explicit reason for each:
-
-**1. Pan-LATAM launch strategies at Seed**
-We pass on any company that claims to be building for "all of LATAM" at Seed stage.
-Execution risk in 5+ markets simultaneously is a fund-returner killer. Every LATAM
-success story (Nubank, Konfío, Clip) started in one country, one segment, and achieved
-defensible leadership before expanding. We want that first-market leadership proven
-before we invest.
-
-**2. Consumer lending to unbanked individuals**
-Regulatory complexity (CNBV fintech license timeline in Mexico: 18–36 months, SAT
-requirements; BACEN restrictions in Brazil), combined with default risk in the lowest-income
-segments, exceeds our risk tolerance at Fund I check sizes. We defer to specialized
-microfinance institutions and impact funds with different return profiles.
-
-**3. Full-stack digital bank builds**
-Capital-intensive, regulatory timeline 2–3 years before first revenue, and the
-competitive set now includes Nubank (which has moved downmarket) and Mercado Pago.
-We need 10× return in 10 years — full-stack bank builds at $25M fund check sizes
-cannot generate those returns at the valuation entry points available today.
-
-**4. Infrastructure-only plays without a credit product path**
-Pure API / payments infrastructure without a path to embedded credit means we are
-investing in a utility, not a franchise. Utilities are competitively commoditized.
-We invest in data-advantage businesses that own the credit relationship.
-
-**5. Teams without LATAM operator experience**
-US-based fintech operators who "want to expand to LATAM" consistently underestimate:
-regulatory navigation (CNBV / BACEN timelines), sales cycle differences,
-and the importance of existing relationships with OXXO, Rappi, or major LATAM banks.
-We pass on teams where no founder has operated in LATAM financial services.
+1. **Pan-LATAM launches at seed.** Five regulators and five sales motions at once; we want
+   leadership in one market first. Exception: software with no licence dependency.
+2. **Balance-sheet consumer lending.** Credit losses sit on the startup, the model needs debt
+   more than equity, and our check size cannot absorb a bad loan vintage.
+3. **Full-stack digital banks.** Licence timelines and capital needs do not fit a $25M fund.
+4. **Pure payments infrastructure without a credit or data path.** Commoditizes to price.
+5. **AI wrappers without proprietary data.** If the model and the data are both rented, the
+   margin goes to the model provider and the incumbent with the data.
 
 ---
 
 ## 6. Thesis Evolution
 
-**How the thesis changed:**
+- **2022 (formation):** broad B2B SaaS plus fintech in LATAM.
+- **2024:** narrowed to SME credit infrastructure after our two fintech companies grew faster
+  than our SaaS companies and consumer lending in our pipeline showed unstable loss rates.
+- **2026:** added the AI mechanism: underwriting and servicing cost per line is now the metric
+  we diligence first.
 
-*2021 (fund formation):* Original thesis was broad B2B SaaS in LATAM — fintech was
-one sector among three (SaaS, healthtech, fintech). The portfolio data shifted us:
-our two fintech investments (Q4 2022, Q1 2023) both had 3× faster growth than our
-two SaaS investments, driven by the PIX-era data infrastructure advantage.
-
-*2023 (thesis refinement):* We sharpened to fintech infrastructure specifically
-after observing that consumer fintech (lending to individuals) had unit economics
-that broke at scale due to LATAM default rates (2.5–4× US levels). The credit
-opportunity was specifically in SME, where transaction data dramatically improves
-underwriting accuracy.
-
-*2026 (current position):* The thesis is now specific: fintech-native SME credit
-platforms using transaction data from PIX/open banking. We dropped healthtech from
-the focus entirely after seeing that LATAM healthcare regulatory timelines were
-consistently 3× longer than projections.
-
-**What would cause the thesis to change again:**
-- If BACEN or CNBV issue rulings that block fintechs from accessing open banking data
-  for credit underwriting purposes — this would eliminate the data advantage thesis
-- If Nubank or Mercado Pago moves aggressively into SME credit at our portfolio's
-  price points — our response would be to shift up-market (enterprise credit) where
-  relationships and regulatory expertise matter more than distribution
+**What would change it again:** regulators restricting Open Finance data for credit; banks
+shipping comparable embedded credit through accounting software partnerships; a sharp rise in
+SME defaults that breaks the loss assumptions of data-based models.
 
 ---
 
-## 7. Market Sizing
-
-**Thesis category:** Fintech-native SME credit platforms in Brazil + Mexico
+## 7. Market Sizing (bottom-up)
 
 | Layer | Calculation | Source |
 |-------|-------------|--------|
-| TAM | 25M LATAM SMEs × $280B unmet credit needs = $280B | IDB Invest 2024 |
-| SAM (Brazil + Mexico) | 78.5% of LATAM capital concentration × $280B = $220B addressable in primary markets | LAVCA 2025 (LATAM, LAVCA 2025) |
-| SAM (formal SMEs using digital invoicing) | Brazil: 12M SMEs with CNPJ. Mexico: 2.5M+ with CFDI 4.0 digital trail. Subset using digital payment infrastructure: ~8M combined. At $15k average credit line = $120B SAM | Banco Central do Brasil + SAT Mexico 2025 |
-| SOM (reachable in 10-year fund horizon) | Fintech-native platforms can realistically serve 3–5% of formal SME addressable market by 2030 given current adoption trajectories = $3.6–6.0B | (LATAM, Cuantico 2026) |
+| SMEs in target segment | [ASSUMPTION: formal SMEs with 5-100 employees in Brazil and Mexico; get counts from IBGE/SEBRAE and INEGI] = N | Official statistics |
+| Share reachable through software | [ASSUMPTION: share using digital invoicing or accounting software; from SAT CFDI issuers and vendor reports] = r | SAT, vendor data |
+| Credit need per SME | [ASSUMPTION: average working-capital line; from portfolio loan books] = L | Portfolio data |
+| SAM | N x r x L (outstanding credit) and N x r x L x annual net margin (revenue pool) | Computed |
+| SOM (10 years) | Share Condor's companies can win, justified by comparable penetration of software-embedded lenders | Portfolio and comps |
 
-**Venture relevance:** A fund-returner at $25M fund size requires a single portfolio
-company to reach $500M+ exit value (20× on $25M fund = $500M+ in total portfolio exits
-for a 3× DPI). The $120B SAM supports multiple portfolio companies reaching $500M+
-valuations in a 10-year horizon.
-
-**LATAM annotation:** US SaaS/fintech market sizing is frequently used as a proxy for
-LATAM by inexperienced investors — this is incorrect. Brazil + Mexico combined GDP is
-$3.2T vs US $28T (11.4% ratio), but SME credit penetration gap is 8× larger, making
-the opportunity proportionally larger per dollar of GDP than the US equivalent.
+Report the revenue pool, not only the loan stock: a credit TAM in loan balance overstates the
+venture-relevant market by an order of magnitude. Do not use US market size as a proxy.
 
 ---
 
 ## Thesis Stress Test
 
-**Strongest challenge:** "Your thesis depends on PIX / open banking data access remaining
-available to fintechs. A regulatory reversal — which Brazil and Mexico have both
-demonstrated capacity for in fintech — would eliminate the data advantage that
-differentiates your portfolio companies from banks."
-
-**Our response:** "This is the right challenge. Our mitigation is threefold: (1) portfolio
-companies are building direct SME relationships that persist regardless of data infrastructure
-changes; (2) we invest specifically in companies that are building proprietary data sets
-from their own transaction history, not relying solely on open banking access; (3) we
-require SOFOM / BACEN structural solutions as closing conditions, so our companies have
-regulatory moats that pure technology plays do not."
-
-**LPs will push hardest on:** "Why can't Nubank or Mercado Pago do this better than
-your portfolio companies?" — Prepare: "Nubank and MercadoPago have $5B+ distribution
-advantages but have not moved into SME credit because their unit economics require
-$200M+ revenue from a product line to justify product investment. Our portfolio targets
-$50M revenue businesses with 40%+ gross margins — below Nubank's investment threshold
-but above microfinance economics. The market gap is structural and persistent."
+**Strongest challenge:** "Big platforms (a large digital bank or a marketplace's fintech arm)
+can embed SME credit faster than your companies."
+**Our response:** "They can for SMEs already on their platform. Our companies own workflows
+those platforms do not (accounting, invoicing, B2B payments); we back only companies whose
+data comes from their own product."
+**LPs will push hardest on:** loss rates through a credit cycle. Prepare: vintage loss curves
+for every portfolio lender, and the share of credit risk sitting on partner balance sheets.
 
 ---
 
 ## LATAM Fund Context Box
 
-> **DFI LP Note (if applicable):** IDB Invest and CAF require development additionality
-> metrics alongside financial return thesis. Include: estimated SMEs reached with
-> formal credit for the first time, employment created by portfolio companies, and
-> percentage of portfolio companies serving underbanked segments.
+> **Benchmark labels:** US fund data `(US-sourced benchmark, Carta Q2 2026)`. No public LATAM
+> vintage dataset exists; the closest free reference is Cambridge Associates' Emerging Markets
+> PE & VC index (10-year pooled IRR 8.12% as of Mar 2026).
 >
-> **Benchmark:** Total LATAM VC invested 2025: $4.126B across 681 rounds (Cuantico 2026).
-> Fintech sector: 61% of all LATAM VC investment. Brazil: 47% of capital; Mexico: 31.5%.
-> Median LATAM Seed check: $1.5M (LAVCA 2025) `(LATAM, LAVCA 2025)`.
+> **Market:** LATAM VC 2025: US$4.126B, 681 rounds; fintech 61% of capital; Brazil US$2.03B
+> and Mexico US$980M (Cuantico 2026).
+>
+> **DFI LPs (if applicable):** add additionality and impact metrics: SMEs receiving formal
+> credit for the first time, credit volume to women-led SMEs, jobs in portfolio companies.

@@ -1,5 +1,14 @@
 # Digital Transformation Context — CVC Readiness and Governance
 
+> **Data status (Oct 2026 review):** the benchmark figures in this file that were attributed to a
+> "BCG 2024 / BCG LATAM 2024" survey, a "NESTA LATAM Corporate Innovation Study 2023", "McKinsey
+> LATAM Corporate Innovation 2024", an "IDB Digital Transformation Report 2024" or "GCV 2024" could
+> not be traced to any published report. They are kept only as directional practitioner heuristics,
+> now marked "(directional, source unverified)". Never present them as data or attach a firm's name to them in output.
+> Frameworks (Chesbrough, Gartner Hype Cycle, CB Insights market maps, BCG's CVC models) are fine to use.
+> Specific numbers attributed to named programs or firms (Techstars, Wayra, 500 Global, CB Insights,
+> Gartner, Intel Capital) were not verified either: use them as design patterns, not as published data.
+
 **Source:** Digital Transformation 2025 (references/digital-transformation-2025.pdf) — Corporate Venturing chapter.
 **Scope for this skill:** BCG corporate venturing framework + GCV Institute CVC benchmarks + Intel Capital case studies + corporate governance for CVC programs.
 **NOT this skill's scope:** Open innovation / Chesbrough framework (see open-innovation-scanner), startup procurement evaluation (see startup-solution-matcher).
@@ -65,9 +74,11 @@ BCG identifies four structural models for corporate venture activity. Each has d
 
 ---
 
-## GCV Institute Benchmarks — Global CVC Activity 2024
+## Global CVC Activity (directional, source unverified)
 
-**Source:** https://www.globalcorporateventuring.com/
+**Note:** the figures below were labeled "GCV Institute 2024" but no matching published table was
+found. Use them only as rough orientation; for real numbers pull the current Global Corporate
+Venturing or CB Insights CVC report: https://www.globalcorporateventuring.com/
 
 | Metric | Global Value | Notes |
 |--------|-------------|-------|
@@ -81,7 +92,7 @@ BCG identifies four structural models for corporate venture activity. Each has d
 | CVC programs shut down within 5 years | ~35% | Primarily due to misaligned return expectations |
 
 **Strategic vs. financial return trade-off:**
-- 65% of CVC programs cite "strategic intelligence" as primary value, not financial returns (GCV 2024)
+- 65% of CVC programs cite "strategic intelligence" as primary value, not financial returns (directional, source unverified)
 - Top-performing CVCs (Google Ventures, Intel Capital, Salesforce Ventures) have both strategic thesis AND financial discipline
 - Worst-performing CVCs are either purely strategic (no financial discipline → write-offs) or purely financial (no differentiation from independent VCs → lose quality deals)
 
@@ -98,7 +109,7 @@ Intel Capital's approach in LATAM demonstrated that technology CVCs with a clear
 - Adjacency exploration ("this could be interesting") was explicitly excluded from the investment mandate
 - Portfolio companies received real strategic value (supply chain access, co-marketing, developer ecosystem) — not just capital
 
-**Key LATAM lesson:** Intel Capital's LATAM investments in Brazil, Mexico, and Colombia (2008-2020) showed that portfolio companies receiving strategic support (supply chain access, co-sell arrangements) had 2× higher survival rates than companies receiving capital only.
+**Key LATAM lesson:** Intel Capital's LATAM investments in Brazil, Mexico, and Colombia (2008-2020) showed that portfolio companies receiving strategic support (supply chain access, co-sell arrangements) had higher survival rates than companies receiving capital only (directional, source unverified).
 
 **Implication for LATAM CVC design:** Define the strategic support the corporate can provide (customers, distribution, co-sell, technology access) before the investment thesis. If the answer is "access to capital," the CVC has no competitive advantage over independent VCs.
 

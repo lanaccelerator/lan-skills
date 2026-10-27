@@ -1,20 +1,20 @@
 ---
 name: lead-to-proposal
 description: >
-  For STARTUP FOUNDERS selling B2B. Runs one deal from discovery call to signed
-  proposal: reads the call transcript, crosses the client's pain against the
-  startup's own case studies, offering and pricing in the company brain,
-  researches the client online, writes a same-day proposal in the startup's
-  format, and drafts the follow-up sequence until close. Applies SPIN, MEDDICC
-  and Challenger. ALWAYS invoke when a user says they just had a discovery or
-  sales call, needs a commercial proposal or quote for a specific prospect, or
-  wants follow-ups to close a deal. NOT for designing the overall sales process
-  or playbook (use sales-playbook-generator) or for setting price levels (use
-  pricing-strategy-designer).
+  For STARTUP FOUNDERS selling B2B, one deal at a time. ALWAYS invoke when a founder just had a
+  discovery or sales call, needs a commercial proposal or quote for a named prospect, or wants
+  the follow-ups to close that deal. Spanish triggers: "armame la propuesta para X", "tuve la
+  llamada de discovery con X", "cotización para este cliente", "seguimiento para cerrar el
+  deal". Reads the call transcript, matches the prospect's pain to the startup's own case
+  studies and price list in the company brain, researches the client online, writes a
+  same-day proposal and drafts the follow-up sequence (SPIN, MEDDICC, Challenger). Drafts
+  only. NOT for designing the overall sales process (use sales-playbook-generator), setting
+  price levels (use pricing-strategy-designer), the GTM plan (use go-to-market-strategist) or
+  filing a meeting without a proposal (use meeting-notes-to-brain).
 categories: ["startups", "sales", "business"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
   complements: [meeting-notes-to-brain, sales-playbook-generator, pricing-strategy-designer]
 license: MIT
@@ -125,13 +125,19 @@ raise, backed by data.
   plan and timeline, investment, terms, next steps with dates.
 - Pricing: only from the brain's price list and discount rules. Show the
   calculation (units x price). Any discount outside the rules is
-  `[requiere aprobación]`.
+  `[requiere aprobación]`. For usage- or outcome-based pricing, state the
+  billing unit, the estimated monthly volume from the prospect's own numbers,
+  and any cap or minimum, so procurement can budget it.
 - ROI: only from their numbers and the case study's results, with
   assumptions stated. No fabricated ROI.
 - Next steps: a mutual action plan with dates from today to signature,
   naming who does each step on both sides.
 - Output as markdown, or create a doc through a connected Docs tool if the
   user wants it. Do not share it externally.
+- When the proposal is rendered as a designed PDF, doc or deck, apply
+  references/shared/deck-design-rules.md: the startup's brand, the
+  prospect's numbers as the hero, real customer logos only with permission,
+  no decorative AI imagery.
 
 ## Step 7: Follow-up Sequence (drafts)
 

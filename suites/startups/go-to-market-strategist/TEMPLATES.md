@@ -1,4 +1,4 @@
-# Go-to-Market Strategist — Template
+# Go-to-Market Strategist: Template
 
 **ALWAYS use this exact template structure.** The output must include: beachhead
 segment definition, channel scorecard, 90-day plan table, and unit economics
@@ -6,14 +6,14 @@ targets. Do not skip sections. Do not substitute narrative for tables.
 
 ---
 
-## Example: Konfío-style B2B Fintech — SME Lending, Mexico, Early Revenue
+## Example: CapitalPyme (hypothetical), B2B Fintech, SME Lending, Mexico, Early Revenue
 
-**Company:** Konfío (illustrative example)
-**Sector:** B2B fintech — working capital loans for Mexican SMEs
-**Stage:** Early revenue — $200k ARR
+**Company:** CapitalPyme (hypothetical company; all figures illustrative)
+**Sector:** B2B fintech, working capital loans for Mexican SMEs
+**Stage:** Early revenue, $200k ARR
 **Raising:** Seed
 **Business model:** Loan origination fee (3–5% of loan amount) + interest spread
-**Sales cycle:** SMB — $500–$5k initial loan, then repeat borrowers
+**Sales cycle:** SMB, $500–$5k initial loan, then repeat borrowers
 **Current customers:** 800 paying SMEs in Monterrey and Guadalajara
 
 ---
@@ -29,16 +29,16 @@ between receiving a purchase order and receiving payment from their customer.
 - Specific enough to dominate: ~15,000 manufacturing SMEs in Monterrey/GDL metro
   fitting this profile (INEGI 2024)
 - Trigger event: manufacturers with a confirmed purchase order have immediate,
-  predictable need — highest conversion rate of any SME segment
+  predictable need, highest conversion rate of any SME segment
 - Reference customers in this segment spread via industrial associations (CAINTRA
-  in Monterrey) — beachhead customers market for you
+  in Monterrey), beachhead customers market for you
 - Large enough to matter: 15,000 businesses × $40k average loan × 3% fee = $18M
   annual origination fee potential from beachhead alone
 
 **Do NOT target yet:**
 - E-commerce SMEs (different cash flow cycle, higher default risk, different channel)
 - Mexico City SMEs (different association network, different sales motion)
-- Colombia or Brazil (different regulatory environment — after beachhead is proven)
+- Colombia or Brazil (different regulatory environment, after beachhead is proven)
 
 **Beachhead success signal:** 500 active borrowers in Monterrey/GDL with >40%
 repeat borrowing rate. At that point, expand to Mexico City.
@@ -58,45 +58,46 @@ Score each channel 1–3 for this startup:
 | 2 | PR / Media | 1 | Too slow; top funnel only; no SME decision-maker reads fintech press |
 | 3 | Unconventional PR | 1 | Not relevant for B2B financial product |
 | 4 | Search Engine Marketing (SEM) | 2 | "SME loan" keywords (in Spanish for the local market) have traffic; high CPC competition |
-| 5 | Social & Display Ads | 2 | Facebook ads work for B2C; LinkedIn for B2B — medium effectiveness |
+| 5 | Social & Display Ads | 2 | Facebook ads work for B2C; LinkedIn for B2B, medium effectiveness |
 | 6 | Offline Ads | 1 | Radio/TV: wrong medium for B2B financial product |
 | 7 | SEO / Content Marketing | 2 | Long-term channel; "business credit Monterrey"-style content (in Spanish locally) works |
 | 8 | Email Marketing | 1 | Low deliverability with .mx domains; spam filter issue |
 | 9 | Engineering as Marketing | 1 | No natural product-led viral loop in lending |
 | 10 | Target Market Blogs | 2 | CAINTRA blog/newsletter is a warm channel worth exploring |
-| 11 | Business Development / Partnerships | **3** | Accountants + CFO advisors as referral partners — high fit |
-| 12 | Sales (direct outbound) | **3** | WhatsApp outreach to industrial association member lists — high fit |
-| 13 | Affiliate Programs | 2 | Accountant referral program (5% of origination fee) — testable |
-| 14 | Existing Platforms | 2 | Konfío distribution through accounting software (Alegra, Contpaqi) |
-| 15 | Trade Shows / Events | 2 | CAINTRA events, COPARMEX — good for early trust building |
-| 16 | Offline Events | 2 | Industry association workshops — relationship-first LATAM approach |
+| 11 | Business Development / Partnerships | **3** | Accountants + CFO advisors as referral partners, high fit |
+| 12 | Sales (direct, founder-led) | **3** | Intros through the industrial association and current borrowers, then WhatsApp follow-up, high fit |
+| 13 | Affiliate Programs | 2 | Accountant referral program (5% of origination fee), testable |
+| 14 | Existing Platforms | 2 | CapitalPyme distribution through accounting software (Alegra, Contpaqi) |
+| 15 | Trade Shows / Events | 2 | CAINTRA events, COPARMEX, good for early trust building |
+| 16 | Offline Events | 2 | Industry association workshops, relationship-first LATAM approach |
 | 17 | Speaking Engagements | 1 | Too slow for early stage |
 | 18 | Community Building | 1 | No community product; not a network effects business |
-| 19 | WhatsApp / Messaging Outreach | **3** | Dominant B2B channel in LATAM; 85%+ open rate in B2B contexts |
+| 19 | WhatsApp / Messaging (after opt-in) | **3** | Where SME owners actually reply; only with contacts who shared their number or came from a click-to-WhatsApp ad |
 
-**Top 3 Channels Selected:** WhatsApp outreach (19), Direct sales via partners (11),
+**Top 3 Channels Selected:** Association intros + WhatsApp follow-up (12 + 19), Direct sales via partners (11),
 Content + SEO (7)
 
 ---
 
-## 3. Acquisition Plan — Top 3 Channels
+## 3. Acquisition Plan: Top 3 Channels
 
-### Channel 1: WhatsApp Outreach via Industrial Associations
+### Channel 1: Industrial Association Intros + WhatsApp Follow-up
 
 **Why this channel:**
-WhatsApp for Business open rates in B2B LATAM: 85%+ vs 22% for cold email
-*(operator observation; LATAM B2B benchmark)*. CAINTRA Nuevo León has a published
-directory of 4,200+ manufacturing SMEs in Monterrey. This is the fastest path to
-first 500 customers.
+SME owners in Mexico answer WhatsApp far more than email *(directional, LAN operator read)*,
+but WhatsApp's Business policy requires that contacts gave their number and opted in. The
+industrial association supplies the trust and the introductions; WhatsApp carries the
+conversation after that. This is the fastest compliant path to the first 500 customers.
 
 **Execution:**
 1. Join CAINTRA as a financial partner (standard membership ~$1,500/year)
-2. Source contact list from CAINTRA directory + LinkedIn (target: Finance Director
-   or General Manager at 10–50 employee manufacturing companies)
-3. WhatsApp outreach script (relationship-first, not transactional — sent in Spanish in market):
-   > "Hi [name], I saw your company works with [customer/sector]. Many SMEs in Monterrey
-   > are telling us that the 'purchase order → customer payment' cycle creates cash flow
-   > gaps. Would you have 15 min this week to share how you handle it?"
+2. Get introduced at association events and through current borrowers (target: Finance
+   Director or General Manager at 10-50 employee manufacturing companies). Ask each contact
+   for their WhatsApp in person or by email; that is the opt-in.
+3. First WhatsApp message after the intro (sent in Spanish in market):
+   > "Hi [name], [referrer] suggested we talk. Many SMEs in Monterrey tell us the 'purchase
+   > order to customer payment' gap squeezes cash. Would you have 15 min this week to share
+   > how you handle it?"
 4. Qualify on call: Do they have purchase orders from large buyers? What's their
    typical cash gap in days? What's the loan amount needed?
 5. First loan approval: 48-hour decision cycle (key LATAM B2B differentiator)
@@ -111,7 +112,7 @@ first 500 customers.
 
 **Why this channel:**
 SME owners in Mexico trust their accountant more than any digital ad. An accountant
-recommending Konfío to 20 clients converts at 3–5× the rate of a cold WhatsApp message.
+recommending CapitalPyme to 20 clients converts far better than any cold message (directional).
 Building a network of 50 accountant referral partners in Monterrey/GDL creates a
 scalable distribution channel with a built-in trust layer.
 
@@ -132,23 +133,23 @@ scalable distribution channel with a built-in trust layer.
 
 ---
 
-### Channel 3: SEO Content — "SME Credit" Queries (Spanish-language, local market)
+### Channel 3: SEO Content: "SME Credit" Queries (Spanish-language, local market)
 
 **Why this channel:**
 Long-term channel (6–18 months to meaningful organic traffic), but starts building
 authority now. Spanish-language keywords like "SME credit Monterrey", "business
 financing without collateral", "small business loan" are high-intent terms with
 moderate competition in the local market.
-This channel supports Channels 1 and 2 as social proof — when an accountant's client
-Googles Konfío, they find credible content.
+This channel supports Channels 1 and 2 as social proof, when an accountant's client
+Googles CapitalPyme, they find credible content.
 
 **Execution:**
-1. Publish 2 blog posts/month on konfio.mx blog (in Spanish for the local market):
+1. Publish 2 blog posts/month on the CapitalPyme blog (in Spanish for the local market):
    - "How purchase-order financing works in Mexico (2026)"
    - "Difference between simple credit and accounts receivable financing"
 2. Target keywords (Spanish): "SME financing", "business loan without collateral",
-   "purchase order credit Monterrey" — 500–2,000 monthly searches, low competition
-3. Include customer success story in each post (with permission) — LATAM B2B
+   "purchase order credit Monterrey", 500–2,000 monthly searches, low competition
+3. Include customer success story in each post (with permission), LATAM B2B
    trust signal: real company names > generic testimonials
 
 **Budget:** 16 hours/month founder or content person
@@ -172,11 +173,11 @@ by Day 75; full channel payoff at Month 9+
 rate (5 loans/year) × avg relationship duration (1 year at seed stage). Will revise
 at 6-month mark once cohort data is available.
 
-> **LATAM Context:** LTV/CAC floor for Seed fintech in LATAM is ≥3:1
-> *(Cuantico 2026)*. Konfío's WhatsApp channel at 10:1 and Accountant channel at
+> **LATAM Context:** a 3:1 LTV/CAC floor is the common rule of thumb
+> *(US-sourced benchmark; no published LATAM equivalent)*. CapitalPyme's WhatsApp channel at 10:1 and Accountant channel at
 > 4:1 are both above floor. US benchmark for B2B fintech Seed: ≥3:1 LTV/CAC
-> *(Bessemer Cloud Index — US-sourced benchmark)*. LATAM structural advantage:
-> WhatsApp direct outreach has no US equivalent at this cost point.
+> LATAM structural advantage: founder-led WhatsApp follow-up on warm contacts is cheap and
+> has no US equivalent at this cost point *(directional)*.
 
 ---
 
@@ -184,16 +185,16 @@ at 6-month mark once cohort data is available.
 
 | Week | Goal | Owner | KPI | Budget |
 |------|------|-------|-----|--------|
-| 1–2 | Join CAINTRA; build contact list of 500 manufacturing SME contacts | CEO | 500 contacts in CRM | $1,500 CAINTRA fee |
-| 1–2 | Write WhatsApp outreach script; A/B test 2 versions with 20 contacts each | CEO | Response rate >20% | $0 |
-| 3–4 | First 100 WhatsApp messages sent; track response rate | CEO | 25+ responses (25%) | $0 |
+| 1–2 | Join CAINTRA; attend the first members event; log every contact with their consent | CEO | 50 contacts with opt-in in CRM | $1,500 CAINTRA fee |
+| 1–2 | Ask 20 current borrowers for 2 intros each; write the post-intro WhatsApp message | CEO | 40 intro requests | $0 |
+| 3–4 | First 100 opted-in contacts messaged after intros or association events; track replies | CEO | 25+ replies | $0 |
 | 3–4 | Identify top 50 accountants in Monterrey/GDL; draft referral program one-pager | CEO | 50 accountants identified | $200 materials |
 | 5–6 | First 15 qualified loan conversations; submit first 5 loan applications | CEO + Ops | 5 loans in review | $0 |
 | 5–6 | Call top 10 accountants; pitch referral program | CEO | 5 accountant calls completed | $0 |
 | 7–8 | Close first 10 loans; collect customer success story from best borrower | CEO + Ops | 10 loans closed | $0 |
 | 7–8 | Onboard first 5 accountant referral partners; set up commission tracking | CEO | 5 active partners | $0 |
 | 9–10 | Publish first 2 blog posts; submit to Google Search Console | Content | 2 posts live | $0 |
-| 9–10 | Scale WhatsApp outreach to 300 total contacts; iterate on best-performing script | CEO | 300 total outreach contacts | $0 |
+| 9–10 | Launch a click-to-WhatsApp ad test in Monterrey (opt-in by design); iterate the first message | CEO | 300 opted-in conversations total | $1,000 ads |
 | 11–12 | Review 90-day results; score channels vs targets; decide which channel to double down | CEO | Report: CAC/channel vs target | $0 |
 | 11–12 | Build accountant referral partner WhatsApp group; first group update | CEO | 15+ partners in group | $0 |
 | **Milestone** | **50 active borrowers with ≥1 loan closed by Day 90** | **CEO** | **50 borrowers** | **~$2,000 total** |
@@ -202,42 +203,38 @@ at 6-month mark once cohort data is available.
 
 ## 6. LATAM Context Box
 
-> **WhatsApp for Business open rates in B2B LATAM: 85%+ vs 22% for cold email**
-> *(operator observation; aligned with LATAM B2B messaging data)*. WhatsApp is not
-> a secondary channel in LATAM — it is the primary B2B communication medium for
-> SME segment.
+> **WhatsApp is where SME owners reply, and it is opt-in.** Contact people only after
+> they shared their number (intro, event, ad, form). Cold blasts get the number reported
+> and the account limited (WhatsApp Business Messaging Policy).
 >
 > **Relationship-first sales motion:** In LATAM B2B, warm intro converts at 3–5×
-> the rate of cold outreach. CAINTRA membership, accelerator networks (LAN, Wayra,
-> NXTP, 500 Latam), and accountant referral networks are not "nice-to-have" — they
-> are the distribution infrastructure for SME fintech in Mexico. *(Operator observation;
-> consistent with LAVCA 2025 founder survey data)*
+> the rate of cold outreach (directional). CAINTRA membership, accelerator networks (LAN, Wayra,
+> NXTP, 500 Global), and accountant referral networks are not "nice-to-have", they
+> are the distribution infrastructure for SME fintech in Mexico. *(directional, LAN operator read)*
 >
-> **Time between LATAM rounds: 20 months** vs 12–15 months in the US *(LAVCA 2025)*.
-> This $200k ARR → Seed raise is the right moment. Do not wait for $500k ARR — the
-> 20-month window means you need 12–15 months of runway after raising Seed to hit
-> Series A metrics.
+> **Only 7% of LATAM seed companies raise a Series A within two years** *(LATAM, LAVCA
+> 2025)*. The GTM plan funded by this seed must reach Series A metrics on its own runway;
+> do not plan on a quick follow-on round.
 
 ---
 
 ## Next Steps (Example)
 
 1. **Day 1–3:** Join CAINTRA Nuevo León ($1,500 membership). This is table stakes
-   for Channel 1 and Channel 2 both — industrial association access is the single
+   for Channel 1 and Channel 2 both, industrial association access is the single
    most leveraged $1,500 you will spend in the first 90 days.
 
-2. **Day 1–5:** Build WhatsApp outreach list of 100 manufacturing SME contacts from
-   CAINTRA directory + LinkedIn (filter: Finance Director / General Manager, 10–50
-   employees, manufacturing sector, Monterrey or Guadalajara). Target: 100 contacts
-   in CRM by Day 5.
+2. **Day 1–5:** Ask each of the 20 best current borrowers for 2 intros to peers
+   (Finance Director / General Manager, 10–50 employees, manufacturing, Monterrey or
+   Guadalajara). Target: 40 intro requests sent by Day 5.
 
-3. **Day 5–10:** Send first 50 WhatsApp messages using script in TEMPLATES.md.
-   Measure: response rate. Target: ≥20%. If below 10%, iterate script before
-   scaling to 500 contacts.
+3. **Day 5–10:** Message the first 50 introduced contacts on WhatsApp (only after
+   they shared their number). Measure reply rate. If under 10%, fix the message and
+   the intro ask before adding volume.
 
 4. **Day 10–20:** Identify 10 accounting firms serving manufacturing SMEs in
    Monterrey. Call each to present referral program. Target: 3 active referral
-   partners by Day 20. Each accountant partner can introduce 10–20 SME clients —
+   partners by Day 20. Each accountant partner can introduce 10–20 SME clients -
    3 partners = 30–60 potential borrowers without additional outreach.
 
 5. **Day 30:** Review first-month data. Score Channel 1 (WhatsApp) against $80 CAC

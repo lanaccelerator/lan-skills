@@ -1,100 +1,82 @@
-# LATAM LP Context — Fund Term Analysis
+# LATAM LP Context: Fund Term Analysis
 
-**Purpose:** LATAM-specific LP concerns for fund subscription and LPA review. This file
-provides the regional adjustment layer for lp-term-sheet-analyzer Step 5.
+**When to use:** lp-term-sheet-analyzer Step 2 (item 5), before the verdict.
 
-**When to use:** lp-term-sheet-analyzer — read this file BEFORE producing final term
-analysis to apply LATAM-specific LP concerns.
+**Sources:** Carta Fund Economics Report 2025 (4 Dec 2025); Carta, The Emerging Manager Paradox
+(6 Oct 2026); LAVCA 2025 Industry Data; Cuantico LatAm VC Report 2026; ILPA Principles 3.0 (2019).
+Canonical LATAM data: `shared/latam-benchmarks.md`. Rows marked *(directional)* are LAN
+practitioner judgment, not a published dataset.
+
+---
+
+## Who Sits Next to You in a LATAM Fund
+
+- 65 LATAM-dedicated funds closed in 2024 (LAVCA 2025 Industry Data). Most are emerging managers.
+- Typical LP stack *(directional)*: a DFI anchor (IDB Lab, IDB Invest, CAF, a national development
+  bank), family offices, local corporates, HNWIs, sometimes the GP's own network. Pension funds are
+  a small, growing share.
+- US reference: the median 2025-vintage VC fund had 23 LPs, and the median anchor check has been at
+  least 22% of the fund since 2023 (Carta 2025). LATAM funds tend to be more anchor-concentrated
+  *(directional)*.
+
+**What it means for your review:**
+1. **Read the anchor's side letter rights.** DFIs typically negotiate E&S policy compliance, an
+   exclusion list, integrity / AML clauses, reporting and sometimes fee terms *(directional)*.
+2. **Ask for the MFN clause.** Which side letter terms (fee discounts, information rights, co-invest)
+   reach LPs of your size? MFN is usually tiered by commitment size.
+3. **Check the voting math.** With one anchor at 25-40%, a no-fault threshold above 75% means the
+   anchor alone decides. That can protect you (DFIs police governance) or not. Say which.
 
 ---
 
 ## FX Clauses
 
-USD-denominated funds investing in local-currency markets introduce FX risk that standard
-ILPA terms do not address. LP evaluation checklist:
-
-- **Distribution currency:** Does the LPA specify USD distributions, or does the GP have
-  discretion to distribute in local currency? Local currency distributions at GP discretion
-  is a hidden return drag — especially for Mexican peso, Colombian peso, and Argentine peso
-  exposure where FX volatility can erode 15–30% of nominal returns.
-- **Capital call currency:** USD capital calls with local currency investments mean the GP
-  bears FX risk at deployment. Check whether the LPA passes this risk to LPs via valuation
-  adjustments at capital call.
-- **Brazil-specific:** Brazilian Reais (BRL) has significant volatility. If the fund holds
-  BRL assets, verify whether the LPA permits BRL-denominated valuation for portfolio reporting
-  (favorable for GP optics) vs. mark-to-market in USD (more transparent for LP).
-
-**LP action:** Request explicit USD distribution language in the LPA or LP side letter.
-If GP refuses, apply a 10–20% FX drag estimate to your IRR projections before committing.
+USD fund, local-currency portfolio:
+- **Distribution currency:** require USD distributions. "USD or local currency at GP discretion" is
+  a hidden return drag; ask that local-currency distributions need LPAC approval.
+- **Valuation currency:** ask that marks be reported in USD at period-end FX, with the local-currency
+  value disclosed. LPs should see the FX effect, not a local-currency mark.
+- **Stress test:** if the GP cannot show the portfolio's USD vs local revenue mix, model a 20-30%
+  devaluation scenario on local-revenue holdings *(directional)*.
 
 ---
 
-## LATAM Family Office LP Rights
+## Political and Capital-Control Risk
 
-LATAM family offices frequently commit to funds without adequate LPA review due to:
-- Relationship-driven investment culture (informal trust replaces formal governance)
-- Limited institutional LP experience (many are first-time LP families in VC)
-- GPs from the same social networks (conflict avoidance in negotiations)
-
-**For LAN OS users:** The ILPA education function is important — help LP understand their
-legal rights under the LPA before they waive them in side letter negotiations.
-
-**Key rights often unknowingly waived:**
-- LPAC participation — many LATAM family offices accept observer status, not voting membership
-- Audited financial rights — accept quarterly unaudited statements without requiring annual audits
-- Pro-rata follow-on rights — do not request pro-rata in subsequent funds
+For funds with exposure to markets with capital controls or a history of them (Argentina has
+alternated controls and liberalization; Venezuela): ask whether the LPA lets the GP suspend
+distributions from those holdings, whether force majeure is broad enough to excuse non-payment, and
+whether the fund keeps accounts outside those jurisdictions. Above ~20% of capital in such markets
+with a silent LPA → RED FLAG *(threshold directional)*.
 
 ---
 
-## Political Risk Provisions
+## Local Vehicles
 
-**Argentina and Venezuela exposure:** Funds with portfolio companies in Argentina or
-Venezuela face expropriation risk, currency controls, and banking restrictions. Check:
-- Does the LPA permit the GP to gate withdrawals or suspend distributions for Argentina
-  or Venezuela-based portfolio companies?
-- Is there a force majeure clause broad enough to excuse non-distribution from politically
-  constrained markets?
-- Does the fund have currency accounts outside these jurisdictions for distributions?
-
-**LATAM political risk standard:** Acceptable if GP has explicit operational protocols for
-Argentina/Venezuela. Unacceptable if LPA is silent on political risk and the fund has >20%
-capital deployed to Argentina or Venezuela.
+- **Brazil FIP** (Fundo de Investimento em Participações), regulated by the CVM: governance, fee and
+  carry mechanics and tax treatment differ from a Cayman or Delaware LP. Ask for a legal and tax
+  opinion on how ILPA-style protections (clawback, key person, removal) are implemented.
+- **Mexico CKD / CERPI:** listed vehicles for institutional (Afore) capital, with their own governance
+  rules.
+- **Parallel structures:** a Cayman or Delaware vehicle for foreign LPs plus a local vehicle for
+  domestic LPs is common. Check both carry the same economics and that fees are not charged twice.
 
 ---
 
-## Brazilian LP Legal Vehicles
+## Emerging-Manager Adjustments
 
-Some LATAM funds are structured as Brazilian FIP (Fundo de Investimento em Participações)
-rather than Cayman LP structures. FIP structures have different treatment:
+Small and first funds earn some flexibility because the data supports them: in the 2019 vintage, the
+90th-percentile TVPI was 4.91x for $1-10M funds vs 1.92x for $100M+ funds (Carta, The Emerging Manager
+Paradox, 6 Oct 2026). Small funds also run higher costs: median opex ~3.4% of commitments in five years
+for $1-10M funds vs ~1% above $100M, and many waive the audit (Carta 2025).
 
-- **Management fee:** Subject to IOF (financial transactions tax) in some scenarios — verify
-  net fee to LP in FIP structure vs. Cayman LP
-- **Carry structure:** Brazilian carry distribution through FIP is subject to capital gains
-  treatment under Brazilian law — different from Cayman LP where carry is structured as
-  carried interest
-- **LP rights:** FIP LPs have fewer governance rights than Cayman LP limited partners — the
-  CVM (Comissão de Valores Mobiliários) regulates FIP governance, which may preempt standard
-  ILPA provisions
+**Acceptable flexibility for a LATAM Fund I or II under ~$50M:**
+- Fee up to 2.5% in the investment period IF the GP shows the budget and there is a step-down.
+- GP commit 0.5-1% in cash IF there is a written path to 1% (median for $1-10M funds is 2%, so ask why
+  it is lower).
+- No-fault threshold up to 80% IF the LP base is concentrated.
+- Simplified LPAC (2-3 LPs) IF it approves conflicts and related-party deals.
+- No audit on a fund under ~$10M IF the LPs agree in writing *(directional)*.
 
-**LP action:** If fund is structured as Brazilian FIP, require a legal opinion on governance
-equivalence to ILPA standards before committing.
-
----
-
-## Emerging Manager Adjustments
-
-LATAM first-fund or second-fund managers often cannot meet full ILPA standards due to:
-- Smaller LP base (10–20 LPs vs. 50+ for US institutionals) — harder to achieve 75% no-fault
-  divorce threshold with fewer LPs
-- Limited track record — DPI may be zero; TVPI unrealized
-- Lower GP commit capacity (smaller GP team, less personal capital)
-
-**LATAM emerging manager acceptable deviations:**
-- GP commit 0.5–1% (below 1% ILPA minimum) IF GP has credible plan to reach 1% by year 3
-- No-fault divorce at 80–85% (above 75% ILPA standard) IF LP base is small and concentrated
-- Simplified LPAC (2 LPs vs. institutional full committee) IF LPAC has veto on key events
-
-**Deviations that are never acceptable:**
-- No clawback provision
-- No key person clause
-- Management fee >2.5% with no step-down (regardless of fund size or manager experience)
+**Never acceptable at any size:** no clawback, no key person clause, no step-down at all, zero cash GP
+commit.

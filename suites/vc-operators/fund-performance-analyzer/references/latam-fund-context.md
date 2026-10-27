@@ -1,143 +1,82 @@
-# LATAM Fund Context — Performance Analysis
+# LATAM Fund Context (Performance Analysis)
 
-**Sources:**
-- LAVCA: https://www.lavca.org
-- Carta Q1 2026: via fund-benchmarks.md
-- Cambridge Associates: https://www.cambridgeassociates.com/insight/venture-capital-benchmark-commentary/
-- Cuantico 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/
+Read before finalizing any analysis of a LATAM-focused fund. Every figure below carries its
+source; anything marked "directional" is practitioner judgment, not data, and must be
+presented that way.
 
 ---
 
-## Core Limitation: No Carta-Scale LATAM Fund Database
+## 1. There is no Carta-scale LATAM vintage benchmark
 
-**The single most important fact for LATAM fund performance analysis:**
+- **Carta** publishes vintage percentiles for US-domiciled funds only (see fund-benchmarks.md).
+- **Cambridge Associates** publishes an Emerging Markets PE & VC index (798 funds, 1986-2026)
+  and a Latin America & Caribbean PE/VC benchmark; the detailed LATAM vintage tables are
+  sold through S&P/IHS Markit, not free. PE and VC are pooled, so it is not a clean VC
+  benchmark either.
+- **LAVCA** and **Cuantico VP** track investment volume, deals and exits, not fund-level
+  IRR/TVPI/DPI.
 
-No equivalent to Carta's 2,906-fund database exists for LATAM-domiciled or LATAM-focused
-VC funds. This is not a gap that will close in the near term — Carta's data scale requires
-a mature institutional LP base that regularly reports to a centralized data platform.
+Consequence: a LATAM fund compared to Carta is being compared to a different population.
+Say so in the first sentence of the benchmark section, not in a footnote.
 
-**What exists:**
-- **LAVCA (Latin American Venture Capital Association):** Tracks headline LATAM VC investment
-  volume, deal count, and geographic distribution. Does NOT publish fund-level IRR, TVPI,
-  or DPI benchmarks by vintage. Source: https://www.lavca.org
-- **Preqin:** Has limited LATAM coverage — fewer than 200 LATAM VC funds in database vs
-  2,906 in Carta's US sample. Data is often self-reported with inconsistent methodology.
-- **Cambridge Associates:** Includes some LATAM funds in global EM benchmark. Not published
-  at vintage-level granularity comparable to Carta.
-- **Cuantico VC:** Tracks LATAM investment activity and startup data — not fund returns.
-  Source: https://reports.cuanticovp.com/latin-america-vc-report-2026/
+## 2. Public emerging-markets reference point (free, citable)
 
-**Conclusion:** Any LATAM fund performance analysis that uses Carta benchmarks is comparing
-to a different population (US funds only). This must be disclosed explicitly — not buried
-in footnotes.
+Cambridge Associates, Emerging Markets PE & VC Index, as of 31 Mar 2026 (pooled horizon IRR,
+net to LPs):
+https://www.cambridgeassociates.com/wp-content/uploads/2026/08/WEB-2026-Q1-Emerging-Markets-PEVC-Benchmark-Book.pdf
 
----
+| Horizon | EM PE & VC index | mPME vs MSCI EM | Value-add (bps) |
+|---------|------------------|-----------------|-----------------|
+| 1 year | 8.37% | 30.64% | -2,227 |
+| 3 years | 2.72% | 15.47% | -1,274 |
+| 5 years | 1.19% | 4.62% | -342 |
+| 10 years | 8.12% | 8.14% | -1 |
+| 15 years | 8.45% | 5.00% | +346 |
+| 20 years | 9.58% | 5.88% | +370 |
 
-## LATAM Performance Discount Factors
+Read it as: over 10 years, emerging-markets private capital roughly matched EM public
+equities; it beat them only over 15+ years. A LATAM GP claiming top-quartile US-style returns
+needs fund-specific evidence, not a regional average.
 
-LATAM fund performance typically lags US equivalents at same vintage by 30–50%. The key
-structural reasons:
+## 3. Liquidity reality (why DPI lags)
 
-### 1. Exit Timeline — Longest Impact Factor
+Cuantico VP, "Latin America VC Report 2026" (data full-year 2025),
+https://reports.cuanticovp.com/latin-america-vc-report-2026/:
+- VC-backed exits reached US$4.9B in 2025 (+172% vs 2024) across 63 transactions (62 in 2024).
+- M&A was 67% of the main exits, secondaries 27%, one SPAC. Two deals (Despegar, Securitize)
+  were about 48% of disclosed value: the exit market is concentrated, not deep.
+- Secondaries (Vercel, Plata, Contabilizei, Omie) show partial liquidity is now a real path.
+- In Cuantico's investor survey (126 respondents), 62.7% call the exit environment
+  unfavorable and 73.8% name lack of exits as the top 2026 risk.
 
-| Exit Type | US Timeline | LATAM Timeline | Difference |
-|-----------|------------|----------------|-----------|
-| Strategic M&A | 5–7 years from Seed | 7–10 years from Seed | +2–3 years |
-| Secondary to growth fund | 4–6 years | 5–8 years | +1–2 years |
-| PE buyout | 5–7 years | 5–8 years | +1 year |
-| IPO | 7–10 years (Nasdaq/NYSE) | 10–15 years (B3 threshold: $100M+ ARR) | +3–5 years |
+Compare US context: 1,578 US VC exits in 2025, of which 50 IPOs (PitchBook-NVCA Venture
+Monitor Q1 2026).
 
-**Impact on IRR:** Identical cash flows delayed by 2 years reduce IRR by approximately
-3–5 percentage points, depending on TVPI level. A US fund at 12% IRR with equivalent
-cash flows 2 years later would generate approximately 8–9% IRR.
+## 4. Structural drags to name (directional, no published magnitude)
 
-### 2. Secondary Market — Thinner Buyer Pool
+State these as mechanisms, never as a percentage discount:
+- **Longer time to liquidity:** fewer strategic acquirers and a thin IPO window push exits
+  later, which lowers IRR even at the same TVPI.
+- **Fewer follow-on investors at Series A+:** fewer priced rounds means fewer markups, so RVPI
+  can sit at cost longer than in a US portfolio.
+- **FX:** USD-reporting funds with local-revenue companies lose value in devaluations.
+  Quote the actual move of the relevant currency over the holding period from a market data
+  source rather than a generic band.
 
-LATAM secondary market characteristics (2025):
-- Primary buyers: Kaszek, Advent International, DILA Capital, some US crossover funds
-- Secondary transaction timeline: 3–6 months (vs 4–8 weeks in US)
-- Pricing discount: 15–30% to last round (vs 0–10% in US secondaries)
-- Liquidity impact: Fewer exit paths for underperforming positions; lower realized values
+Do not quote a "LATAM funds are X% below US" figure. No public dataset supports a number.
 
-**Implication for DPI:** LATAM funds have fewer opportunities to generate DPI through
-secondaries vs US equivalents. First-round DPI events may take 1–2 years longer.
+## 5. Standard annotation (paste whenever Carta appears)
 
-### 3. Follow-on Funding Environment — Fewer Series A+ Funds
+> (US-sourced benchmark, Carta Q2 2026): US-domiciled funds only. No public LATAM VC vintage
+> benchmark of comparable scale exists; Cambridge Associates' EM PE & VC index (10-year pooled
+> IRR 8.12% as of Mar 2026) is the closest free reference. LATAM exits concentrate in M&A and
+> secondaries (Cuantico 2026), so DPI typically arrives later than in US funds.
 
-**LATAM Series A+ ecosystem (2025):**
-- $10M+ Series A funds active in LATAM: approximately 30–40 funds
-- Equivalent US ecosystem: 300–400+ funds
-- Ratio: ~10:1 — 10 US funds for every LATAM fund targeting same stage
+## 6. Framing for LPs
 
-**Impact on TVPI:** Portfolio company valuations are marked up primarily at financing
-events. Fewer Series A+ funds = fewer markup events = lower unrealized TVPI in mid-fund
-years. LATAM funds must hold longer before markup, depressing RVPI vs US equivalents.
-
-### 4. FX Risk — Structural Margin Compression
-
-Portfolio companies with USD-denominated costs (cloud, tech talent, SaaS tools) and
-local-currency revenue face margin compression in devaluation events.
-
-| Currency | Annual Volatility (2020–2025 avg) | Devaluation Risk |
-|----------|----------------------------------|-----------------|
-| BRL/USD | 15–25% annual band | HIGH — 40% devaluation events possible |
-| MXN/USD | 10–18% annual band | MEDIUM-HIGH — 20–30% devaluations possible |
-| COP/USD | 15–20% annual band | HIGH — significant devaluation cycles |
-| ARS/USD | 50–200%+ | EXTREME — not comparable to other LATAM currencies |
-
-**Fund-level impact:** FX devaluation reduces USD value of local-currency revenue, compresses
-EBITDA margins, and reduces exit valuations for companies priced in local currency. Funds
-with USD-denominated carry and management fees bear this risk through portfolio company
-valuations.
-
----
-
-## Small Fund Advantage for LATAM Managers
-
-LATAM fund I typically raises $10M–$30M — equivalent to Carta's small fund category ($1M–$10M
-is the smallest bucket; LATAM fund I falls in $10M–$50M range). The small fund advantage
-documented in Carta data is structurally relevant:
-
-- Lower capital base = same absolute return generates higher TVPI
-- Single breakout company can return the fund (3× TVPI on 10% ownership = entire $30M fund
-  returned on one $100M+ exit)
-- Fewer LPs = faster decision-making = better deal access through speed
-
-**For benchmarking:** When comparing a $25M LATAM fund to Carta data, the small fund TVPI
-advantage partially offsets the LATAM performance discount. Use this framing carefully — the
-advantage exists in theory but requires at least one breakout company to materialize.
-
----
-
-## Standard LATAM Annotation (Required in All Outputs)
-
-Use this exact text whenever Carta benchmarks appear in a LATAM fund analysis:
-
-> "(US-sourced benchmark, Carta Q1 2026) — 2,906 US-domiciled funds, data through Q4 2025.
-> US funds only. No equivalent LATAM fund performance database exists at Carta scale.
-> LAVCA tracks headline LATAM investment data; Preqin has limited LATAM coverage.
-> LATAM fund performance typically 30–50% below US equivalents at same vintage due to:
-> longer exit timelines (LATAM M&A 18–36 months longer than US), thinner secondary markets,
-> and fewer Series A+ follow-on funds to drive portfolio company markups."
-
----
-
-## Contextualizing LATAM Fund Performance for LPs
-
-**When LATAM fund is above US Carta median:**
-State: "Performing above US 2022 vintage median of [X]% IRR — a strong result for a LATAM
-fund where structural headwinds (longer exit timelines, thinner secondary market) typically
-produce IRR 30–50% below US equivalents at same vintage."
-
-**When LATAM fund is below US Carta median:**
-State: "Below US 2022 vintage median of [X]% IRR. For LATAM context: LAVCA does not
-publish equivalent LATAM benchmarks. Based on structural performance factors (exit
-timelines, secondary market), LATAM fund performance at this vintage typically ranges
-from [adjusted range]. Fund is [above/below] LATAM peer expectations."
-Never say "below benchmark" without clarifying it is a US-only benchmark.
-
-**When LATAM fund is near US 75th percentile or higher:**
-State: "Near/at the US 75th percentile for [vintage] vintage — exceptional performance
-for a LATAM fund, particularly given structural headwinds. Top LATAM funds can match or
-exceed US top-quartile performance when thesis selection (market timing + portfolio
-construction) is correct."
+- **Above the US median:** "Above the US [vintage] median of [X] (Carta Q2 2026), achieved in a
+  market with a thinner exit path."
+- **Below the US median:** "Below the US [vintage] median of [X]. There is no public LATAM
+  vintage benchmark; against the EM PE & VC index the fund is [above/below]." Never write
+  "below benchmark" without saying which benchmark.
+- **At or above the US 75th percentile:** say it plainly and name the 1-3 positions driving it.

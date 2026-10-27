@@ -6,7 +6,7 @@ ALWAYS use this exact structure. Every section is required. Do not change column
 
 ## Example Output: Trezo
 
-*This is a filled example for Trezo — a Paraguayan B2B SaaS for recurring billing of SMBs, $95K MRR, 47 customers, early post-revenue stage. Use it as the structural template for every metrics & OKR design.*
+*This is a filled example for Trezo (hypothetical; numbers invented), a Paraguayan B2B SaaS for recurring billing of SMBs, $95K MRR, 47 customers, early post-revenue stage. Use it as the structural template for every metrics & OKR design.*
 
 ---
 
@@ -33,12 +33,12 @@ This metric captures value delivered to the SMB (their billing actually works) a
 
 | KPI | Current | Q2 Target | Benchmark 2026 | Cadence | Owner |
 |---|---|---|---|---|---|
-| MRR | $95K | $130K | 10–15% MoM at seed | weekly | CEO |
+| MRR | $95K | $130K | 10%+ MoM floor at seed (directional); PG bar 5-7%/week | weekly | CEO |
 | Paying customers | 47 | 65 | N/A absolute | weekly | Sales |
-| Monthly logo churn | 4.4% | 2.5% | under 3% healthy | weekly | CSM |
-| NPS | 42 | 45 | above 40 strong | monthly | CSM |
-| CAC payback | 14 mo | 11 mo | under 12 healthy | monthly | Sales |
-| NRR | 108% | 115% | 110%+ healthy | monthly | CSM |
+| Monthly logo churn | 4.4% | 2.5% | under 3% healthy (directional) | weekly | CSM |
+| NPS | 42 | 45 | above 40 strong (directional) | monthly | CSM |
+| CAC payback | 14 mo | 11 mo | under 12 healthy (directional) | monthly | Sales |
+| NRR | 108% | 115% | 110% public SaaS median (Clouded Judgement, Oct 2026) | monthly | CSM |
 
 NSM/KPI cross-check:
 - MRR → output of NSM
@@ -95,9 +95,17 @@ NSM/KPI cross-check:
 
 ---
 
+## Next Steps
+
+1. **Churn first (this week):** call the 5 SMBs that churned last month and log the reason; Objective 2 fails without it.
+2. **Wire the board (2 weeks):** run `/startup-kpi-automator` to pull MRR, churn and NRR from billing automatically every Monday.
+3. **Measure growth weekly:** at 11% MoM Trezo grows about 2.5% per week, half of Paul Graham's 5% floor. The enterprise tier is the lever; review it every Monday.
+
+---
+
 ## Sources Cited
 
 - Doerr, J. (2018). *Measure What Matters*. Penguin.
-- Bessemer (2026). *State of the Cloud Report*.
-- ChartMogul (2026). *SaaS Benchmarks Report*.
-- Sequoia (2024). *The Sequoia Pitch Memo*.
+- Paul Graham (2012). *Startup = Growth*.
+- Clouded Judgement (Jamin Ball), 23 Oct 2026: public SaaS median NRR.
+- Ranges marked directional are LAN's read, not published benchmarks.

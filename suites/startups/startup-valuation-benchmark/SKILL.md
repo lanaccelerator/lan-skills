@@ -1,20 +1,21 @@
 ---
 name: startup-valuation-benchmark
 description: >
-  For STARTUP FOUNDERS. Use when a founder wants to benchmark their valuation before a round:
-  "what valuation can I defend?", "is my seed/Series A price in line with the market?", "how do
-  I compare to other startups at my stage?", "what multiple should I ask for?". Benchmarks the
-  round against public data by stage (Carta round medians and dilution), growth and traction
-  (ARR, growth rate, net retention, gross margin, burn multiple), and public SaaS multiples
-  fetched at run time, then triangulates a defensible valuation range with the dilution method,
-  VC method, Scorecard, Berkus and growth-adjusted revenue multiples. Outputs a one-page
+  For STARTUP FOUNDERS. Use when a founder wants to benchmark or set their valuation before
+  a round: "what valuation can I defend?", "is my seed/Series A price in line with the
+  market?", "cuánto vale mi startup?", "a qué valuación levanto?", "cuánto diluyo en esta
+  ronda?", "qué múltiplo puedo pedir?". Benchmarks the round against public data by stage
+  (Carta round medians and dilution), traction (ARR, growth, net retention, gross margin,
+  burn multiple) and live public SaaS multiples, then triangulates a defensible range with
+  the dilution method, VC method, Scorecard, Berkus and growth-adjusted multiples. Outputs a
   benchmark card, a low/base/high range and the recommended ask. NOT for an investor checking
-  whether a deal is fairly priced (use startup-valuation-checker). NOT for computing CAC, LTV
-  or payback (use unit-economics-calculator).
+  whether a deal is fairly priced (use startup-valuation-checker), computing CAC, LTV or
+  payback (use unit-economics-calculator), pricing the product (use
+  pricing-strategy-designer) or running the raise (use fundraising-agent).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
 license: MIT
 ---
@@ -43,7 +44,8 @@ assumptions for each.
 9. **Their number:** the valuation (pre or post-money) they have in mind, and why
 
 If an answer is missing, proceed with a stated assumption flagged as `[ASSUMPTION: ...]`.
-Never silently skip an input.
+Never silently skip an input. If a company brain (LAN Brain or another MCP-connected
+knowledge base) or data room is connected, pull the metrics and cap table from it first.
 
 ## Step 2: Load Benchmarks
 
@@ -109,13 +111,18 @@ ALWAYS use the structure in [TEMPLATES.md](TEMPLATES.md). Every section is requi
 - **Recommended ask:** post-money, pre-money, round, dilution, and the 3-fact story
 - **Red flags:** anything that will cost the founder price or the round
 - **LATAM context box** (for LATAM founders)
+- If the founder wants the card as a visual (HTML/PDF one-pager or slide), follow
+  references/shared/deck-design-rules.md
 - **Next Steps**
 
 ## Step 5: LATAM Context
 
 - LATAM rounds and valuations run lower than US medians at the same stage. US Carta medians are
   the ceiling a LATAM founder argues toward, never the default anchor.
-- LATAM has low liquidity (USD 4.2B of VC in 2024, Crunchbase): team and growth weigh most.
+- LATAM seed pre-money averaged about 40% of the US level over 2015-2025 (Valoriza via Diario
+  Financiero, Apr 2025); median LATAM seed round USD 0.5M and Series A USD 10M in 2024 (LAVCA
+  Trends in Tech 2025). Canonical data: references/shared/latam-benchmarks.md.
+- LATAM has low liquidity (USD 4.13B of VC in 2025, Cuantico 2026): team and growth weigh most.
   The later the stage, the more investors weigh track record over future.
 - Founders anchored on a US accelerator peer's price lose rounds. The lead investor sets the
   price; competition between funds is the only thing that improves it.

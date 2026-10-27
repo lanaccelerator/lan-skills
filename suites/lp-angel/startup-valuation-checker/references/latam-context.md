@@ -10,13 +10,16 @@ verdict to apply LATAM-specific benchmarks.
 
 ## Pre-Money Valuation Benchmarks by Stage
 
-| Stage      | LATAM Pre-Money Median       | US Pre-Money Median          | LATAM Discount | Source |
+*Directional LAN practitioner ranges. LAVCA 2025 and Cuantico 2026 do not publish LATAM
+valuation medians by stage; the US column is the 2024 Carta view, superseded by the refresh below.*
+
+| Stage      | LATAM Pre-Money (directional) | US Pre-Money (Carta 2024)    | LATAM Discount | Basis |
 |------------|------------------------------|------------------------------|----------------|--------|
-| Pre-revenue| $1.5–3M                      | $3–6M                        | ~50%           | LAVCA 2025 |
-| Pre-seed   | $3–5M                        | $6–9M                        | ~45%           | LAVCA 2025 / Carta 2024 |
-| Seed       | $6–10M                       | $12–18M                      | ~44%           | LAVCA 2025 / Carta 2024 |
-| Series A   | $15–25M                      | $30–50M                      | ~47%           | LAVCA 2025 / Carta 2024 |
-| Series B   | $40–80M                      | $80–150M                     | ~45%           | Cuantico 2026 |
+| Pre-revenue| $1.5–3M                      | $3–6M                        | ~50%           | Directional |
+| Pre-seed   | $3–5M                        | $6–9M                        | ~45%           | Directional |
+| Seed       | $6–10M                       | $12–18M                      | ~44%           | Directional |
+| Series A   | $15–25M                      | $30–50M                      | ~47%           | Directional |
+| Series B   | $40–80M                      | $80–150M                     | ~45%           | Directional |
 
 ### US refresh, Carta 2025-2026 (use these for current US anchors)
 
@@ -38,8 +41,12 @@ Median round size and post-money valuation, US software rounds (Carta Data Desk,
 - Label these `(US-sourced benchmark, Carta 2025-2026)`. They widen the LATAM gap: founders
   anchoring on them overprice LATAM rounds even more.
 
-**Label all US figures:** `(US-sourced benchmark, Carta 2024)`
-**Label all LATAM figures:** `(LATAM, LAVCA 2025)` or `(LATAM, Cuantico 2026)`
+**Sourced gap:** US seed pre-money averaged 156% above LATAM in 2015-2025, so LATAM seed sits
+around 40% of the US level (Valoriza via Diario Financiero, 2 Apr 2025). This is consistent with
+the ~45% discount column above.
+
+**Label all US figures:** `(US-sourced benchmark, Carta <date>)`
+**Label LATAM figures:** with their source and date, or `(LATAM, directional)` for the ranges above
 
 **The LATAM discount is NOT a quality signal.** LATAM companies at equivalent metrics
 to US peers are valued lower because:
@@ -52,17 +59,19 @@ to US peers are valued lower because:
 
 ## Revenue Multiples by Sector and Stage (LATAM)
 
+*Directional LAN practitioner ranges; no public LATAM multiples dataset exists.*
+
 | Sector       | Stage    | LATAM ARR Multiple | Notes |
 |--------------|----------|--------------------|-------|
-| SaaS (B2B)   | Pre-seed | 3–5×               | LAVCA 2025 |
-| SaaS (B2B)   | Seed     | 4–6×               | LAVCA 2025 |
-| SaaS (B2B)   | Series A | 5–8×               | LAVCA 2025 |
-| Fintech      | Pre-seed | 4–7×               | LAVCA 2025 (+20–30% to SaaS) |
-| Fintech      | Seed     | 5–8×               | LAVCA 2025 |
-| Edtech       | Seed     | 2–4×               | LAVCA 2025 (post-pandemic contraction) |
-| Healthtech   | Seed     | 3–5×               | LAVCA 2025 |
-| Logistics    | Seed     | 2–3×               | Cuantico 2026 |
-| Agtech       | Seed     | 2–4×               | Cuantico 2026 |
+| SaaS (B2B)   | Pre-seed | 3–5×               | Directional |
+| SaaS (B2B)   | Seed     | 4–6×               | Directional |
+| SaaS (B2B)   | Series A | 5–8×               | Directional |
+| Fintech      | Pre-seed | 4–7×               | Directional (licensed premium) |
+| Fintech      | Seed     | 5–8×               | Directional |
+| Edtech       | Seed     | 2–4×               | Directional |
+| Healthtech   | Seed     | 3–5×               | Directional |
+| Logistics    | Seed     | 2–3×               | Directional |
+| Agtech       | Seed     | 2–4×               | Directional |
 | Marketplace  | Seed     | 1.5–3× GMV         | Revenue-based multiples vary; use GMV for marketplaces |
 
 **Fintech LATAM premium:** Regulated fintech (holding a CNBV, BACEN, or CMF license)
@@ -78,10 +87,10 @@ anchor on US cohort valuations:
 
 - "YC companies raise at $10–15M pre-money → my pre-seed should be $12M"
 - "My US competitor raised at 10× ARR → I should too"
-- "Carta data says Seed median is $15M → that is my benchmark"
+- "Carta says the US seed median pre-money is $16M → that is my benchmark" (Carta Q3 2025)
 
 These comparisons are technically accurate for US companies and systematically wrong
-for LATAM-raising companies. LATAM investors closing rounds know the LAVCA median. The
+for LATAM-raising companies. LATAM investors closing rounds know where regional rounds price. The
 founder citing YC comps loses credibility, not gains it.
 
 **Exception:** If the startup has significant US revenue (>50% of ARR from US customers)
@@ -92,12 +101,15 @@ may be partially applicable. Flag this explicitly in the analysis.
 
 ## Country-Specific Adjustments
 
+*Directional.* Context: Brazil took ~49%, Mexico ~24%, Chile ~6%, Colombia ~5%, Argentina ~4% of
+2025 LATAM VC dollars (Cuantico 2026).
+
 | Country    | Adjustment vs. LATAM Median | Rationale |
 |------------|----------------------------|-----------|
 | Brazil     | At or above median          | Largest market; PIX infrastructure; deepest VC ecosystem |
 | Mexico     | At median                   | Strong fintech regulation (CNBV fintech law); second-largest market |
 | Colombia   | -5 to -15%                  | Growing ecosystem; smaller LP base; less follow-on capital |
-| Chile      | At or above median          | Strong institutional infrastructure; SQM/mining corporate LP base |
+| Chile      | At or above median          | Strong institutional infrastructure; CORFO programs |
 | Peru       | -15 to -25%                 | Emerging VC ecosystem; limited LP base; political risk discount |
 | Argentina  | -25 to -40%                 | Peso instability; currency controls; investor risk premium |
 | Panama     | -10 to -20%                 | Small domestic market; used as legal vehicle hub |
@@ -110,7 +122,8 @@ roughly equivalent to a Brazilian company at $4.5–5M at the same metrics.
 
 ## Growth Rate Thresholds for Valuation Defense
 
-For founders defending a STRETCHED valuation, these growth rates support premium pricing:
+For founders defending a STRETCHED valuation, these growth rates support premium pricing
+*(directional; YC reference: 5-7% weekly is good, 10% exceptional, Paul Graham 2012)*:
 
 | Stage    | Revenue Growth Rate | Valuation Impact |
 |----------|---------------------|------------------|

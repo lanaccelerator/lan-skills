@@ -4,94 +4,73 @@
 
 ---
 
-## USV (Union Square Ventures) Thesis Structure
+## USV (Union Square Ventures): a thesis that evolves in public
 
-**Source:** https://www.usv.com/writing/2016/09/usv-thesis/
+**Source:** "USV Thesis 3.0" (Sep 2018): https://www.usv.com/writing/2018/09/usv-thesis-3-0/
+and "USV Thesis 2.0" (Aug 2016): https://www.usv.com/writing/2016/08/usv-thesis-2-0/
 
-USV's thesis model is the gold standard for structured VC thesis writing. Their
-framework identifies a network architecture layer and explains why companies at that
-layer will create defensible value.
+- **Thesis 1.0:** "Invest in large networks of engaged users, differentiated by user
+  experience, and defensible through network effects." (Twitter, Etsy, Tumblr, Kickstarter.)
+- **Thesis 2.0:** when new consumer networks became hard to start, USV added vertical networks
+  and marketplaces (for example financial services), the underlying technology of networks,
+  and enablers of open, decentralized data.
+- **Thesis 3.0:** the common thread became companies that broaden access (to knowledge,
+  capital, well-being), across networks, platforms and protocols.
 
-**USV Layer Model (as applied to thesis construction):**
-
-| Layer | Definition | Example thesis framing |
-|-------|------------|------------------------|
-| Networks | Platforms where participants produce value for each other (two-sided, multi-sided) | "We invest in networks that connect buyers and sellers with higher trust or lower cost than existing intermediaries" |
-| Markets | Platforms that enable transactions within networks (liquidity provision) | "We invest in market platforms where the price discovery mechanism is structurally better than offline equivalents" |
-| Infrastructure | Software that makes the above network and market layer possible | "We invest in developer tools, data infrastructure, and APIs that the application layer depends on and cannot easily replace" |
-| Applications | Products end users interact with, built on the above infrastructure | "We invest in application-layer products that solve a specific workflow problem for a defined customer segment" |
-
-**How to apply USV structure to a LATAM thesis:**
-1. Identify which layer the fund's thesis companies will primarily operate in
-2. Explain why that layer is underinvested in the fund's target geography/sector
-3. Name the specific structural advantage that companies at that layer will build
-
-**USV's key thesis insight:** They did not say "we invest in internet companies."
-They said they invest in networks with concentrated, defensible value creation — and
-then explained the specific architecture that makes those networks work. A thesis should
-be this specific about the structural dynamic it is betting on.
+**What to copy:** a thesis names a structural dynamic (network effects, then access), states
+which companies it excludes, and is revised in writing when the market changes. Section 6
+(Thesis Evolution) should read like USV's 1.0 to 3.0 history, not like a fixed mission.
 
 ---
 
-## a16z Thesis Writing Principles
+## A thesis is a contrarian, falsifiable belief
 
-**Source:** https://a16z.com/our-investment-thesis/
+Principles used by most thesis-driven funds (not a single firm's document):
 
-a16z frames their thesis as a set of contrarian beliefs about how the world will
-change. The key principles:
+1. **Contrarian:** a prediction most investors currently doubt. If every LP already agrees,
+   it is consensus, and consensus is priced.
+2. **Mechanism:** names the force (technology, regulation, behavior, cost curve) that makes it
+   possible now and not five years ago.
+3. **Timing:** why this window, and what would make it close.
+4. **Fund advantage:** why this GP sees, wins and helps these deals.
+5. **Falsifiable:** names the outcome that would prove it wrong.
 
-1. **Thesis as a contrarian belief:** A thesis is not an observation about what is
-   already true — it is a specific prediction about what will become true that most
-   investors currently doubt. If every LP agrees with the thesis, it is not a thesis;
-   it is conventional wisdom.
+Structure: Belief, Evidence, Mechanism, Timing, Fund advantage, Kill condition.
 
-2. **Structural enablers:** A good thesis names the specific force (technology,
-   regulation, behavior) that makes the opportunity possible NOW, rather than 5 years
-   ago or 5 years from now.
+### AI-era reference point: YC Requests for Startups, Winter 2027
 
-3. **Fund-specific advantage:** a16z's thesis includes why a16z specifically is
-   positioned to win the deal flow and add value. A fund thesis without a stated
-   competitive advantage is incomplete.
+https://www.ycombinator.com/rfs (accessed Oct 2026). YC's framing: "AI's biggest bottlenecks
+are moving beyond the models" into hardware, infrastructure, financial systems and specialized
+software for the real economy. Examples of thesis-grade mechanisms in that list:
+- **AI for the Air-Gapped Economy:** defense, banks, hospitals and nuclear plants cannot send
+  data to an AI API; on-prem models, deployment tooling, accreditation and hardware.
+- **Own Your Intelligence:** open-weight models now compete with frontier models on meaningful
+  benchmarks, so regulated companies will own specialized models trained on their data.
+- **AI for City Hall:** permits, 311, public records, licensing and inspections still run by
+  hand in most of 19,000 US cities.
 
-4. **Falsifiability criterion:** A good thesis can be proven wrong. If the thesis
-   cannot be falsified — if there is no outcome that would disprove it — it is not
-   a thesis; it is marketing copy.
-
-**a16z thesis structure (adapted for LATAM VC):**
-- Belief: What do we believe about how the world will change?
-- Evidence: What signals in the market support this belief?
-- Mechanism: What force (technology / regulation / behavior) will make this happen?
-- Timing: Why is this the right moment and not 3 years ago or 3 years from now?
-- Fund advantage: Why are we specifically positioned to win this deal flow?
+LATAM translation test: does the same bottleneck exist in the fund's geography (regulated
+banks and insurers, state-owned utilities, municipal permits), who buys, and in what currency?
+An "AI" thesis that does not name the bottleneck and the buyer is a sector label.
 
 ---
 
-## Notation Capital Emerging Manager Framework
+## Emerging-manager edge (how LPs read a Fund I thesis)
 
-**Source:** https://notation.vc/
+LPs typically test three sources of edge; a Fund I thesis must claim at least one with
+evidence:
 
-Notation Capital focuses on how emerging managers differentiate from incumbent funds.
-Their framework is directly applicable for first-time LATAM fund GPs.
+1. **Access:** sees deals incumbents do not (community, sector reputation, geography).
+2. **Insight:** a better model of how the industry works (operating experience, proprietary
+   data, a distinctive framework).
+3. **Value-add:** helps companies in ways a large fund cannot justify (customer introductions,
+   regulatory know-how, time per company).
 
-**Three sources of emerging manager alpha:**
-
-1. **Access differentiation:** The emerging manager sees deals that established
-   funds do not. This requires: proximity to the founder community, sector reputation,
-   or geographic presence that incumbents lack.
-
-2. **Insight differentiation:** The emerging manager has a better theory of how
-   an industry works than established funds. This requires: prior operating experience
-   in the target sector, proprietary data sources, or a distinctive analytical framework.
-
-3. **Value-add differentiation:** The emerging manager can help portfolio companies
-   in ways that larger funds cannot. This requires: operational depth, specific
-   customer or partner relationships, or willingness to spend more time per company
-   than a $1B AUM fund can justify.
-
-**For LATAM emerging managers:** The most defensible differentiation is geographic
-presence + sector operating experience. A fund GP who has built a company in Mexico
-City fintech has access and insight advantages that US-based investors flying in
-for meetings cannot replicate. This must be made explicit in the thesis.
+Context: established managers took 90.9% of US VC capital raised in Q1 2026 (PitchBook-NVCA
+Venture Monitor Q1 2026), and 64% of 2025 capital raised on Carta went to $100M+ funds (Carta
+Q2 2026). An emerging manager without a provable edge is competing for the remaining sliver.
+For LATAM emerging managers, the most defensible edge is local presence plus sector operating
+experience that fly-in investors cannot replicate.
 
 ---
 
@@ -99,32 +78,37 @@ for meetings cannot replicate. This must be made explicit in the thesis.
 
 **Reserve ratio:**
 ```
-Reserve ratio = Undeployed reserve capital / Total fund size
+Reserve ratio = Capital reserved for follow-ons / Investable capital
+Investable capital = Fund size - lifetime management fees and expenses
 ```
-Standard for early-stage funds: 40–60%. Example: $25M fund with 50% reserve =
-$12.5M for initial investments + $12.5M reserved for follow-on.
-
-**Why this matters for thesis:** A thesis that requires follow-on investment in
-every portfolio company needs a higher reserve ratio. A thesis that invests only
-once per company (no follow-ons) can deploy a larger percentage in initial checks.
+Early-stage funds commonly reserve 40-60% (directional; set it from the fund's own follow-on
+plan). Fees matter: at a 2% fee for the investment period stepping down after (Carta median,
+"Fund Economics Report 2025"), lifetime fees on a 10-year fund are often 15-20% of commitments,
+so a $25M fund has roughly $20-21M to invest, not $25M.
 
 **Ownership targeting:**
 ```
-Target ownership % = Initial check / Pre-money valuation
+Initial ownership = Check / Post-money valuation
 ```
-Example: $1.0M check at $10M pre-money = 10% initial ownership.
+Example: $1.0M check in a $10M pre-money round of $2M = $1.0M / $12M = 8.3% (not 10%: divide by
+post-money).
 
-**Dilution modeling:** Ownership at Series A will be diluted by the Seed round
-new investor pool and option pool expansion. Rule of thumb: 20–30% dilution from
-Seed to Series A. Plan for 7–8% ownership at Series A if targeting 10% at Seed.
+**Dilution modeling:** each priced round dilutes roughly 18-20% at seed and about 18% at Series A
+(Carta medians, 2026). Holding 10% after seed, expect about 8% after the Series A unless you
+buy pro-rata.
 
-**Return math:**
+**Return math (fund-returner test):**
 ```
-Required portfolio exit value = Fund size × Target DPI × (1 / dilution factor)
+Exit value needed to return the fund = Fund size / Ownership at exit
 ```
-Example: $25M fund targeting 3× DPI needs $75M returned to LPs. At a 15% carry,
-GP gets $75M × 0.15 = $11.25M. A fund-returner is a single company returning
-the full $25M fund = requires $250M exit at 10% ownership.
+$25M fund, 8% ownership at exit: a single $312.5M exit returns the fund once. Target 3x net
+TVPI: about $75M back to LPs plus 20% carry on profits, so roughly $85-90M of gross proceeds;
+with a power-law portfolio, that requires one or two outcomes above $500M at 8%. If the thesis
+category cannot produce exits that size within 10 years, the fund math fails no matter how good
+the companies are.
+
+Deal-level reality check: about 65% of venture financings return less than 1x and about 4%
+return 10x or more (Correlation Ventures, as reported by Seth Levine).
 
 **Power law implication for thesis:** The thesis must identify the category where
 one company can produce 10–20× the initial investment within the fund's 10-year
@@ -145,13 +129,12 @@ a thesis by demonstrating focus and rigorous filtering.
 3. Exception criteria (if any — "unless X condition is met")
 
 **Examples of strong anti-portfolio framing:**
-- "We pass on pan-LATAM launch strategies at Seed — execution risk across 5 regulatory
-  environments simultaneously exceeds our risk tolerance, and 0 of 8 LATAM Seed companies
-  we observed in 2022–2024 that launched across 5 countries in Year 1 achieved leadership
-  in any market by Year 3."
-- "We pass on consumer fintech targeting unbanked individuals — default rates in this
-  segment run 8–12% annually in Mexico and Brazil vs. 2–3% in SME lending (Cuantico 2026),
-  and our fund structure cannot absorb the write-down risk at our check sizes."
+- "We pass on pan-LATAM launch strategies at Seed: running five regulatory environments at
+  once exceeds what a seed team can execute, and [cite the GP's own pipeline data, e.g. how
+  many multi-country seed companies it tracked reached leadership in any one market]."
+- "We pass on balance-sheet consumer lending: credit losses sit on the startup's books, the
+  model needs debt capital more than equity, and our check size cannot absorb a bad vintage
+  of loans." (Use real default data from the target lenders, not an industry average.)
 
 **What NOT to write:**
 - "We pass on deals outside our focus areas" — This is circular. State what the focus
@@ -163,8 +146,8 @@ a thesis by demonstrating focus and rigorous filtering.
 
 ## Sources
 
-- USV: https://www.usv.com/writing/2016/09/usv-thesis/
-- a16z: https://a16z.com/our-investment-thesis/
-- Notation Capital: https://notation.vc/
-- Lux Capital: https://luxcapital.com/
+- USV Thesis 3.0 (2018): https://www.usv.com/writing/2018/09/usv-thesis-3-0/
+- YC Requests for Startups, Winter 2027: https://www.ycombinator.com/rfs
+- Carta, "Fund Economics Report 2025" (4 Dec 2025); Carta, "VC Fund Performance: Q2 2026"
+- PitchBook-NVCA Venture Monitor Q1 2026
 - shared/vc-backable-test.md — market sizing methodology

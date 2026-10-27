@@ -1,134 +1,101 @@
-# Fund Performance Benchmarks — Carta Q1 2026
+# Fund Performance Benchmarks (Carta Q2 2026)
 
-**Source:** Carta Fund Performance Report Q1 2026
-**Coverage:** 2,906 US-domiciled VC funds
-**Data through:** Q4 2025
-**Published:** Q1 2026
+**Source:** Carta, "VC Fund Performance: Q2 2026" (Hamza Shad, Kevin Dowd), published
+23 Sep 2026. https://carta.com/data/vc-fund-performance-q2-2026-full-report/
+**Sample:** 2,500+ Carta fund customers, US-domiciled VC funds only, vintages 2017 to 2026,
+AUM of at least $1M. All metrics net to LPs. Vintage = year of the fund's first cost basis.
+**Data through:** end of Q2 2026 (30 Jun 2026).
 
-**CRITICAL:** This data covers US-domiciled funds ONLY. See latam-fund-context.md for LATAM
-context. Every figure from this file must be labeled "(US-sourced benchmark, Carta Q1 2026)"
-when cited in skill outputs.
-
----
-
-## IRR by Vintage Year (Net IRR as of Q4 2025)
-
-| Vintage | 25th Pct | Median (50th) | 75th Pct | 90th Pct | Notes |
-|---------|----------|---------------|----------|----------|-------|
-| 2017 | — | 12.0% | — | — | Mature vintage; harvest period underway |
-| 2018 | — | 10.2% | — | 35.6% | Top-performing 90th pct vintage |
-| 2019 | — | 7.4% | — | — | COVID-entry vintage; recovering |
-| 2020 | — | 4.2% | — | — | Benefited from 2021 run-up; still J-curving |
-| 2021 | — | 1.4% | — | 18.2%+ | Boom vintage; median below inflation |
-| 2022 | — | 0.7% | 10.9% | ~35% | J-curve recovery; turned positive past 4Q |
-| 2023 | — | approx -2.9% | 9.8% | — | Still in J-curve at 8 quarters |
-| 2024 | — | — | — | 35.7% | Too early for median; top decile outliers only |
-
-**J-curve note:** Net IRR expected to be negative in fund years 1–4. The 2021 and 2022 vintages
-turned positive IRR for the first time in the past four quarters. 2022 vintage outperforms
-2021 vintage at every percentile — the 2021 funding boom created a performance headwind for
-that cohort.
+**CRITICAL:** US-domiciled funds only. Label every figure "(US-sourced benchmark, Carta Q2 2026)".
+Carta restates history as late data arrives, so a newer edition supersedes these numbers:
+when web access is available, check https://carta.com/data/ for a newer "VC Fund Performance"
+report before benchmarking and use the newest one.
 
 ---
 
-## TVPI by Vintage Year (as of Q4 2025)
+## Net IRR by vintage (as of Q2 2026)
 
-| Vintage | 25th Pct | Median | 75th Pct | 90th Pct | Notes |
-|---------|----------|--------|----------|----------|-------|
-| 2017 | — | 1.89× | 2.63× | 4.03× | Mature; top 10% fund-returners |
-| 2018 | — | 1.59× | 2.40× | 4.07× | Highest 90th pct TVPI in full sample |
-| 2019 | — | 1.33× | 1.90× | 3.01× | 3× = strong performance threshold |
-| 2020 | — | — | — | — | Insufficient data for percentile cuts |
-| 2021 | — | slightly >1.0× | — | — | Barely above J-curve at 4-year mark |
-| 2022 | — | slightly >1.0× | 1.20× | — | 75th pct is the performance benchmark |
+| Vintage | 25th | Median | 75th | 90th |
+|---------|------|--------|------|------|
+| 2017 | 3.1% | 9.3% | 15.8% | 25.7% |
+| 2018 | 1.4% | 6.3% | 14.8% | 27.3% |
+| 2019 | -0.7% | 5.3% | 13.4% | 22.0% |
+| 2020 | -2.7% | 3.8% | 10.8% | 19.6% |
+| 2021 | -3.7% | 1.6% | 9.0% | 15.7% |
+| 2022 | -2.8% | 4.4% | 15.4% | 29.0% |
+| 2023 | -6.3% | 1.9% | 12.4% | 40.4% |
+| 2024 | -11.5% | -0.1% | 19.1% | 56.5% |
 
-**Top-decile interpretation:** 90th percentile TVPI for 2019 vintage is 3.01× — the "3× multiple
-for strong fund performance" marker. The 2017 and 2018 vintages at 4.0×+ are generational
-outperformers. The gap between 75th and 90th percentile is larger than median-to-75th,
-confirming VC's power-law return distribution.
+IRR for 2022 and later vintages is noisy: early markups on few cash flows inflate the top
+percentiles (2024 90th pct at 56.5% is not a durable signal). Use TVPI for funds under year 4.
 
----
+## Net TVPI by vintage (as of Q2 2026)
 
-## DPI by Vintage Year (as of Q4 2025)
+| Vintage | 25th | Median | 75th | 90th |
+|---------|------|--------|------|------|
+| 2017 | 1.19x | 1.72x | 2.27x | 4.14x |
+| 2018 | 1.09x | 1.40x | 2.04x | 3.71x |
+| 2019 | 0.97x | 1.29x | 1.85x | 2.67x |
+| 2020 | 0.90x | 1.15x | 1.55x | 2.38x |
+| 2021 | 0.88x | 1.06x | 1.31x | 1.65x |
+| 2022 | 0.93x | 1.12x | 1.38x | 1.84x |
+| 2023 | 0.90x | 1.03x | 1.23x | 1.72x |
+| 2024 | 0.88x | 1.00x | 1.21x | 1.50x |
 
-| Vintage | Status | Notes |
-|---------|--------|-------|
-| 2017–2018 | Most mature; top 15%+ registering DPI >1× (returned more than called) | Full harvest phase |
-| 2019–2020 | Some funds beginning marginal DPI; substantial returns uncommon | Early harvest |
-| 2021 | Very few returns; approx DPI 0.1× for top performers | Still in portfolio value building |
-| 2022 | Minimal — smattering of 0.05–0.1× DPI | First secondaries appearing |
-| 2023+ | Effectively 0 | Fully in J-curve |
+## Net DPI by vintage (as of Q2 2026)
 
-**LP return timing:**
-- >50% of 2020 vintage funds have begun generating some DPI
-- ~33% of 2021 vintage funds have started returning capital vs 60% of 2017 vintage at same
-  16-quarter mark
-- Exit environment chilling from 2021–2022 peak = longer time to liquidity across all vintages
-- Q4 2025 US VC: ~$41B fundraising — highest quarterly total since Q1 2022 (positive signal
-  for future DPI as portfolio companies access growth capital)
+| Vintage | 25th | Median | 75th | 90th |
+|---------|------|--------|------|------|
+| 2017 | 0.10x | 0.37x | 0.70x | 1.37x |
+| 2018 | 0x | 0.15x | 0.44x | 1.12x |
+| 2019 | 0x | 0.04x | 0.26x | 0.71x |
+| 2020 | 0x | 0.02x | 0.15x | 0.38x |
+| 2021 | 0x | 0x | 0.04x | 0.19x |
+| 2022 | 0x | 0x | 0x | 0.15x |
+| 2023 | 0x | 0x | 0x | 0.06x |
+| 2024 | 0x | 0x | 0x | 0x |
 
----
+Carta's headline: around 9 years out, not even the 75th percentile of 2017 funds has reached
+1x DPI. Paper gains are rising (2017 90th pct TVPI went from 3.31x to 4.14x in two years, partly
+on AI-company markups) while top-decile IRR fell (2017: 28.7% to 25.7%). Time to liquidity is
+the binding constraint, not markups.
 
-## Small Fund Advantage
-
-Smaller fund sizes generate better TVPI multiples due to lower absolute capital required
-to produce the same multiple. Relevant for emerging LATAM managers ($10M–$30M fund I):
-
-| Vintage | Fund Size | 90th Pct TVPI | vs. All-Fund 90th Pct |
-|---------|-----------|--------------|----------------------|
-| 2017 | $1M–$10M | 5.54× | +1.51× vs 4.03× all-fund |
-| 2018 | $1M–$10M | 4.50× | +0.43× vs 4.07× all-fund |
-| 2019 | $1M–$10M | 5.42× | +2.41× vs 3.01× all-fund |
-
-**LATAM implication:** LATAM fund I ($10M–$30M range) falls in the small fund category where
-top-decile outperformance is structurally more accessible. The 5.54× 2017 vintage top decile
-for small funds means LPs with small fund exposure captured meaningfully better returns than
-large fund benchmarks suggest.
+Other Q2 2026 data points (same report):
+- 64% of 2025 capital raised on Carta went to $100M+ funds (38% in 2017).
+- Median LP count for $100M-$250M funds: 44 in H1 2026, down from 59 in 2025.
 
 ---
 
-## Benchmark Interpretation Guide
+## Fund size effect (emerging managers)
 
-### When to use which percentile
+Carta, "The Emerging Manager Paradox" (6 Oct 2026): for the 2019 vintage, 90th-percentile TVPI
+was 4.91x for $1M-$10M funds vs 1.92x for $100M+ funds. Small funds have a fatter right tail
+and a worse left tail: dispersion is the point, not a higher median. Use it to frame a small
+LATAM Fund I honestly ("top-decile outcomes are more reachable at this size, so is a sub-1x
+outcome"), never as a promised return.
 
-**Median (50th percentile):**
-- "Are we outperforming the average fund?"
-- Baseline expectation for LPs in diversified VC programs
-- A 2022 vintage fund at median IRR (0.7%) is not generating meaningful returns yet
+## Deal-level return distribution (context for attribution)
 
-**75th percentile:**
-- "Are we in the top quartile of our vintage?"
-- Standard LP expectation for funds with active sourcing or differentiation
-- A 2022 vintage fund at 75th percentile TVPI (1.20×) is a strong early performer
-
-**90th percentile:**
-- "Are we a top-decile fund?"
-- Only achievable by funds with 1–3 breakout companies
-- A 2019 vintage fund at 90th percentile TVPI (3.01×) has returned 3× LP capital
-
-### J-curve by vintage year (2025 reference)
-
-| Vintage | Fund Year (as of 2025) | Expected TVPI Zone | IRR Status |
-|---------|----------------------|-------------------|-----------|
-| 2017 | Year 8 | 1.5×–2.5× for median | Fully positive; harvest active |
-| 2018 | Year 7 | 1.3×–2.0× for median | Fully positive; harvest active |
-| 2019 | Year 6 | 1.1×–1.7× for median | Turning positive |
-| 2020 | Year 5 | 1.0×–1.4× for median | Mid J-curve exit |
-| 2021 | Year 4 | 0.9×–1.1× for median | Near J-curve bottom |
-| 2022 | Year 3 | 0.8×–1.2× for median | J-curve recovery phase |
-| 2023 | Year 2 | 0.7×–1.0× for median | Deep J-curve |
-| 2024 | Year 1 | 0.5×–0.8× for median | Inception phase |
+Correlation Ventures data (as reported by Seth Levine, Foundry): about 65% of venture financings return less than 1x, about 4% return 10x or more.
+A fund's TVPI is normally carried by one to three positions; concentration in the attribution
+section is expected, not a defect.
 
 ---
 
-## Source Metadata
+## Interpretation rules
 
-- **Report:** Carta Fund Performance Report Q1 2026
-- **Funds analyzed:** 2,906 US-domiciled venture capital funds
-- **Data through:** Q4 2025 (December 31, 2025)
-- **Vintages covered:** 2010–2024 (active vintages only)
-- **Fund type:** US-domiciled VC only — no PE, no hedge funds, no international funds
-- **Label all figures as:** "(US-sourced benchmark, Carta Q1 2026)"
+- **Median:** "Are we better than the typical fund of our vintage?"
+- **75th percentile:** top-quartile line; what most institutional LPs underwrite to.
+- **90th percentile:** top decile; almost always one or two breakout companies.
+- Funds in years 1-3: compare TVPI, flag IRR as not meaningful, expect DPI near 0x.
+- Funds in years 4-7: TVPI is the main test, DPI starts to separate managers.
+- Funds in years 8+: DPI is the test. A 2017 fund at 0.37x DPI is median, not a failure.
 
-*(US-sourced benchmark, Carta Q1 2026) — US funds only. See latam-fund-context.md for
-LATAM performance context and appropriate discount factors.*
+---
+
+## Fund terms context (for fee drag and reserve questions)
+
+- Management fee: median 2% during the investment period, then steps down; carry 20% is the
+  norm; median VC GP commit 1.7% (Carta, "Fund Economics Report 2025", 4 Dec 2025).
+- Fund life 8-10 years plus one or two 1-year extensions; investment period 3-5 years or until
+  70-75% deployed; a 7-8% hurdle appears only in some VC funds (Carta LPA guide, Jun 2026).

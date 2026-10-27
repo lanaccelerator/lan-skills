@@ -20,9 +20,9 @@ Rule: raise where your market is. Going to the US without a plan to sell to the 
 
 | | US | LATAM |
 |---|---|---|
-| Capital | Deep, thousands of funds | Low liquidity: USD 4.2B of VC in 2024 (Crunchbase, EOY 2024) |
+| Capital | Deep, thousands of funds | Low liquidity: USD 4.1B of VC in 2025 (Crunchbase); USD 4.126B in 681 rounds (Cuantico 2026) |
 | What weighs most | Traction, market, track record | Team and growth, above everything |
-| Tickets and valuations | Carta medians (see startup-valuation-checker) | Smaller, lower valuations |
+| Tickets and valuations | Carta medians (see startup-valuation-benchmark) | Smaller, lower valuations |
 | Exits | Many buyers | Few, almost always M&A |
 
 ## 1. A round has a beginning and an end

@@ -1,113 +1,73 @@
 # LATAM CVC Context
 
-**Source:** LAVCA 2025, GCV Institute 2024, Cuantico 2026
-**Scope:** LATAM corporate venture capital activity, benchmarks, structural challenges, and successful models.
-**When to use:** All corporate-venture-evaluator analyses. Read before producing CVC readiness assessment.
+Read before producing any CVC readiness assessment for a LATAM corporate. Figures with a source
+are data. "Directional" marks practitioner judgment from LATAM programs: use it to reason,
+never present it as a statistic. An earlier version of this file quoted LATAM CVC counts,
+check sizes and an LP-base share without a traceable source; those were removed.
 
 ---
 
-## LATAM CVC Activity — Scale and Growth
+## 1. Market facts (sourced)
 
-**Source:** LAVCA 2025
+- **LATAM VC 2025:** US$4.126B across 681 rounds, lowest deal count since 2017; fintech 61% of
+  capital; Brazil US$2.03B, Mexico US$980M (Cuantico VP, "Latin America VC Report 2026").
+  https://reports.cuanticovp.com/latin-america-vc-report-2026/
+- **Exits 2025:** US$4.9B across 63 transactions; M&A 67% and secondaries 27% of main exits;
+  62.7% of 126 surveyed investors call the exit environment unfavorable (same report).
+  Corporates are the natural buyers in an M&A-led exit market: a CVC that is also a credible
+  acquirer has an edge independent VCs do not.
+- **Cost of capital (Brazil):** the Selic rose to 15% in mid-2025 and held there through year-end; Copom
+  started cutting in March 2026 and had reached 14% by August 2026 (Banco Central do Brasil, Copom decisions).
+  Check the current rate before the board meeting.
 
-| Metric | Value | Notes |
-|--------|-------|-------|
-| Corporates/CVCs as % of LATAM LP base | ~25% | Up from ~15% in 2020 — fastest-growing LP category |
-| Active LATAM-based CVC units | ~45 | Vs. 1,800+ globally — significant gap |
-| LATAM CVC average check size | $500k-$2M USD | Below global median of $1-5M; reflects earlier-stage focus |
-| LATAM CVC average fund commitment | $10-30M | Smaller than global average ($50-200M) |
-| LATAM CVC investment horizon stated | 5-7 years | Below the 7-10 year horizon required for early-stage VC returns |
+## 2. Example LATAM corporate venturing vehicles (verify current status before citing)
 
-**Structural implication:** LATAM corporates that join the LP base as passive LPs provide patient capital to independent VC funds. LATAM corporates that create captive CVCs face structural headwinds from shorter time horizons and smaller committed capital.
+| Corporate | Vehicle | Model | What to learn |
+|-----------|---------|-------|---------------|
+| FEMSA (Mexico) | FEMSA Ventures (since 2018) | Direct early-stage investing plus commitments to LATAM VC funds | A hybrid of LP and direct investing gives deal flow without building a large team first |
+| YPF (Argentina) | YPF Ventures (since 2019) | Balance-sheet CVC focused on energy transition and mobility | A narrow thesis tied to the core business keeps the portfolio coherent |
+| Falabella (Chile) | Falabella Ventures | Venture arm of a listed retailer, direct early-stage stakes | Retail distribution is the strategic value it offers startups |
+| Itaú Unibanco (Brazil) | Cubo Itaú | Innovation hub with corporate partners | A hub generates relationships and deal flow; it is not a fund and does not produce financial returns by itself |
+| Embraer (Brazil) | EmbraerX | Separate unit for adjacent markets (urban air mobility) | Use a separate unit when the new business would cannibalize or be slowed by the core |
 
----
+## 3. The board's opportunity-cost question (Brazil and high-rate markets)
 
-## Active LATAM CVC Programs — Case Studies
+With fixed income paying double digits, a board will ask: "Why lock capital for 10 years at an
+uncertain IRR?" The answer cannot be financial. VC returns are uncertain even in the US (Carta
+Q2 2026: median 2017-vintage DPI 0.37x after about nine years). The CVC must be justified by a
+named strategic return: a capability, a channel, or an acquisition pipeline that costs more to
+miss than the capital costs to commit. If the corporate cannot name it, recommend an LP
+commitment or a pilot program instead of a captive CVC.
 
-### Itaú Unibanco — Cubo Itaú
-**Sector focus:** Fintech, banking infrastructure, financial services
-**Model:** Hybrid — direct CVC investments + corporate accelerator (Cubo is the largest fintech hub in LATAM, São Paulo)
-**Investment stage:** Seed to Series B
-**Strategic thesis:** Defend fintech incumbency by investing in and acquiring fintech disruptors before they become competitive threats
-**Lesson:** Cubo's success comes from the strategic support (bank distribution, compliance navigation, customer access) — capital alone would not have differentiated from independent VCs
+## 4. Speed and legal cost (directional)
 
-### TOTVS Ventures
-**Sector focus:** B2B SaaS, ERP ecosystem, HR tech, supply chain
-**Model:** Captive CVC
-**Investment stage:** Seed to Series A
-**Strategic thesis:** Build an ecosystem of software companies that integrate with TOTVS's core ERP platform — creating switching costs and distribution leverage
-**Lesson:** Clear strategic thesis (ecosystem lock-in) produces portfolio coherence. TOTVS portfolio companies integrate with core product — not financial investments only.
+| Process | Typical corporate | What a startup round expects |
+|---------|-------------------|------------------------------|
+| Investment decision | Months (full committee cycle) | Weeks |
+| Legal review | M&A-style diligence | Standard SAFE or NVCA-style terms with light diligence |
 
-### Embraer — EmbraerX
-**Sector focus:** Aerospace, aviation technology, urban mobility, logistics
-**Model:** Corporate spin-out / innovation lab with investment rights
-**Strategic thesis:** Explore adjacent markets (eVTOL, urban air mobility) without cannibalizing core Embraer aerospace business
-**Lesson:** Innovation lab model works when the strategic divergence from core business requires organizational separation. EmbraerX avoids "innovator's dilemma" by creating a structurally separate unit.
+Programs that work give the CVC delegated authority below a threshold (for example, CVC
+director plus CFO sign-off for small minority checks) and a pre-approved simplified legal
+framework for minority investments. Applying full M&A legal review to a $1M minority check
+makes the program uneconomic and slow enough to lose good rounds.
 
-### Grupo Bancolombia — Innovation Fund
-**Sector focus:** Fintech, digital financial services, SME banking
-**Model:** LP in accelerator (Ruta N, Platanus Colombia) + direct investments
-**Lesson:** LP + accelerator hybrid model works for mid-size corporates ($2-5B revenue) that cannot justify full captive CVC infrastructure. Bancolombia gets deal flow access without building a full team.
+## 5. Model by committed capital (directional)
 
----
+1. **Captive CVC:** only with enough committed capital for a real portfolio (at least 10-15
+   companies plus reserves) and a dedicated team with VC experience. Below that, management cost
+   and concentration dominate.
+2. **LP in a LATAM early-stage fund with co-investment rights:** the default for corporates with
+   tens of millions to commit and no VC team; deal flow and learning without the overhead.
+3. **Accelerator or venture-studio partnership:** for small budgets; pair it with a pilot
+   program so startups get a customer, not only a logo.
+4. **Balance-sheet deals:** opportunistic, one-off strategic stakes; not a program.
 
-## LATAM CVC Structural Challenges
+## 6. AI-era note
 
-### The SELIC Rate Problem (Brazil)
-
-Brazilian SELIC rate: 10.5% (2024). This creates a legitimate board-level objection to CVC:
-
-"Why accept 10-year CVC returns at uncertain IRR when we can guarantee 10.5% in fixed income?"
-
-**How successful Brazilian CVCs answer this:** The CVC is not competing with fixed income on financial returns. It is competing with the cost of NOT having access to emerging technology that disrupts the core business. The strategic cost of missing a fintech disruption (Itaú's rationale for Cubo) exceeds the opportunity cost of the capital.
-
-Without this strategic framing, CVC programs will be cancelled in Brazil during the first market downturn.
-
-### Corporate Speed Mismatch
-
-| Process | Corporate Speed | Startup Speed |
-|---------|----------------|---------------|
-| Investment decision | 3-6 months (full IC cycle) | 4-6 weeks (VC move fast) |
-| Term sheet negotiation | 6-12 weeks (legal review) | 1-2 weeks |
-| First check to close | 4-9 months | 6-8 weeks |
-
-**Result:** Corporate CVCs that cannot accelerate their decision-making lose quality deals to independent VCs. Startups raising a Series A with multiple term sheets will not wait 4 months for corporate IC approval.
-
-**Solution:** Streamlined IC process for investments ≤ $2M (CVC Director + CFO approval, no full IC required). Capped legal review ($15-25k for SAFE/standard terms). This is structural — not resolved by "trying to move faster."
-
-### Legal Review Cost Trap
-
-Most LATAM corporate legal teams apply M&A standards to CVC investments:
-- Full due diligence: $150-200k per deal
-- Timeline: 8-16 weeks
-- Standard: 100-page legal opinion
-
-This makes CVC economics impossible for check sizes below $5M. At $1M check size + $175k legal review, the corporate spends 17.5% of the investment on legal before any value is created.
-
-**Benchmark:** Successful LATAM CVC programs (Itaú, TOTVS) cap CVC legal review at $15-25k for standard SAFE investments. The difference is board-level approval of a "simplified CVC legal framework" that bypasses standard M&A review for minority investments below $5M.
-
----
-
-## LATAM CVC Return Environment
-
-| Factor | LATAM Impact | US Comparison |
-|--------|-------------|---------------|
-| Exit environment | Limited; IPO market thin outside Brazil | Robust; NYSE/NASDAQ accessible |
-| M&A acquirers | Primarily US strategic buyers for LATAM exits | Deep US + European buyer universe |
-| Secondary markets | Very limited; GP-led secondaries rare | Growing secondary market |
-| Time to liquidity | 9-12 years average (vs. 7-10 US) | 7-10 year average |
-| Financial IRR expectation | 8-15% top-quartile (LATAM discount to US) | 15-25% top-quartile (global VC) |
-
-**LATAM discount on VC returns:** LATAM CVC programs should be designed with the explicit understanding that financial returns will benchmark at a LATAM discount (30-50% below equivalent US VC funds at same vintage). The strategic return must compensate for this discount in the board's evaluation framework.
-
----
-
-## LATAM-Specific CVC Design Recommendations
-
-1. **Captive CVC requires $50M+ committed capital to be viable.** Below $50M, portfolio diversification is insufficient (minimum 10-15 investments) and management cost (2-3 investment professionals) consumes too high a % of fund size.
-
-2. **For $10-30M committed capital:** LP in a LATAM-focused early-stage fund (Kaszek, Canary, Monashees, or sector-specific) with co-investment rights. Access to deal flow without management overhead.
-
-3. **For $5-10M committed capital:** Accelerator sponsorship (Wayra LATAM, 500 Latam, Platanus, Rockstart Colombia) with optional SAFE investment rights per cohort.
-
-4. **Investment committee design for LATAM:** Include at least one LATAM VC fund manager as a non-voting IC observer. Without this, the IC will apply M&A standards that are incompatible with startup evaluation.
+Corporates now adopt AI largely through startups and vendors. In MIT NANDA's "The GenAI Divide:
+State of AI in Business 2025" (Jul 2025; 52 interviews, 153 leader surveys, 300 public
+deployments), about 95% of generative AI pilots showed no measurable P&L impact, and purchased
+or partnered solutions succeeded roughly twice as often as internal builds (as reported by
+Fortune, 18 Aug 2025). Small sample, directional. Implication: a CVC whose portfolio companies
+also become pilots and vendors (with data access and security terms sorted) produces strategic
+return faster than a purely financial one.
