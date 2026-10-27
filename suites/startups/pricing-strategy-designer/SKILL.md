@@ -10,7 +10,7 @@ description: >
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
 license: MIT
 ---
@@ -129,6 +129,13 @@ Key LATAM pricing realities:
 - **Freemium conversion in LATAM:** 1-3% conversion rate vs 2-5% in US. Shorter free
   tiers with more friction to upgrade are more effective than open-ended free plans.
   If using freemium, design for conversion, not for adoption.
+- **AI-native products: price the outcome, not the seat.** Across YC S26, a16z speedrun
+  and top-fund portfolios (LAN idea-engine radar, Oct 2026), outcome and usage pricing is
+  replacing per-seat SaaS: pay per operation, per milestone, per recovered dollar or per
+  confirmed conversion, often with no annual contract. Sequoia's services-as-software thesis
+  (Julien Bek): sell the work, not the tool, so each model improvement widens your margin
+  instead of commoditizing you. If the product replaces work an agent does end to end,
+  model at least one outcome-based option before defaulting to seats.
 
 ## Tone & Editorial Voice
 

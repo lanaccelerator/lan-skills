@@ -10,7 +10,7 @@ description: >
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
 license: MIT
 ---
@@ -66,10 +66,19 @@ Execute in this exact order:
    - **c. Narrative clarity** — Can they tell the story? Must cover: Problem (quantified) →
      Solution (differentiation) → Why Now (timing trigger) → Why Us (unfair advantage) →
      Market (SAM/SOM credible) → Traction (PMF signal)
+     Apply the one-line test and the validators check in
+     [references/narrative-and-round-sizing.md](references/narrative-and-round-sizing.md):
+     "We are growing X% per month and want to take the market" with a real X, plus which of
+     the 5 validators are present (investors in, advisors, closed paying customers, clear
+     traction, founder CV). No real X = NOT READY on this dimension.
    - **d. Team gaps** — Which roles are missing that investors expect at this stage?
      Stage-specific expectations are in references/readiness-rubric.md.
    - **e. Comparable raises** — What did similar LATAM companies raise at these metrics?
      Read references/latam-comparable-raises.md for LATAM raise data by stage.
+2b. Size the round (same reference, sections 4-5): round = monthly burn x (months to
+   next-round milestones + 6), targeting 18-24 months of runway; post-money = round / 15-25%
+   dilution. Run the three sanity checks (comparables, 2-3x step-up for the next round, the lead
+   sets the price). Add a "How much / at what valuation" block to the scorecard.
 3. Produce overall verdict: READY TO RAISE / CONDITIONAL (fix X first) / NOT READY
    (minimum Y months away with specific actions required)
 4. Apply LATAM timing context from references/latam-comparable-raises.md
@@ -105,6 +114,10 @@ BEFORE producing the final output. Apply these adjustments:
   is available but dilutive. Plan runway accordingly.
 - **Round graduation is difficult:** Only 20.6% of Q2 2024 seed raises closed Series A
   within 6 quarters (US-sourced benchmark, Carta Q1 2026). Plan for bridge rounds.
+- **Team and growth weigh most in LATAM** (low liquidity: USD 4.2B of VC in 2024, Crunchbase).
+  The later the stage, the more investors weigh track record over future.
+- **Growth bar:** LAN's read is that the bar moved from about 10% per month to 10% per week for
+  top funds. YC benchmark: 5-7% per week is good, 10% exceptional (Paul Graham, 2012).
 - **Label all Carta figures:** "(US-sourced benchmark, Carta Q1 2026)"
 - **Label all LATAM figures:** "(LATAM, LAVCA 2025)"
 
@@ -143,3 +156,6 @@ Magma Partners, ALLVP, and Platanus through [named warm contact]" is an action.
 - a16z Fundraising: https://a16z.com/how-to-raise-money-startup/
 - First Round fundraising signals: https://review.firstround.com/looking-for-signs-of-magic-how-our-partners-think-about-fundraising/
 - Carta Q1 2026 (via references/latam-comparable-raises.md)
+- [Narrative and Round Sizing](references/narrative-and-round-sizing.md): LAN masterclass (Oct 2026): narrative test, validators, how much and at what valuation
+- Carta, "Startup dilution per round is not rising" (2025)
+- Paul Graham, "Startup = Growth" (2012): https://paulgraham.com/growth.html

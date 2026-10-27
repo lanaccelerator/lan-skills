@@ -18,6 +18,26 @@ verdict to apply LATAM-specific benchmarks.
 | Series A   | $15–25M                      | $30–50M                      | ~47%           | LAVCA 2025 / Carta 2024 |
 | Series B   | $40–80M                      | $80–150M                     | ~45%           | Cuantico 2026 |
 
+### US refresh, Carta 2025-2026 (use these for current US anchors)
+
+Median round size and post-money valuation, US software rounds (Carta Data Desk, 10 Jul 2026,
+1,000+ rounds). Implied dilution = round / post-money.
+
+| Stage    | Median round | Median post-money | Implied dilution |
+|----------|--------------|-------------------|------------------|
+| Seed     | $4.1M        | $24.3M            | ~17%             |
+| Series A | $14.4M       | $80M              | ~18%             |
+| Series B | $25M         | $191M             | ~13%             |
+| Series C | ~$40M        | $391M             | ~10%             |
+| Series D | $63M         | $789M             | ~8%              |
+
+- Pre-money medians hit records in 2025: seed $16M and Series A $49.3M (Carta, State of Private
+  Markets Q3 2025). These are US numbers; the 2024 ranges in the table above are older and lower.
+- Median dilution per priced round: seed about 19-20%, Series A about 18%, not rising (Carta,
+  "Startup dilution per round is not rising", 2025, 12,435 priced US software rounds).
+- Label these `(US-sourced benchmark, Carta 2025-2026)`. They widen the LATAM gap: founders
+  anchoring on them overprice LATAM rounds even more.
+
 **Label all US figures:** `(US-sourced benchmark, Carta 2024)`
 **Label all LATAM figures:** `(LATAM, LAVCA 2025)` or `(LATAM, Cuantico 2026)`
 

@@ -9,7 +9,7 @@ description: >
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
 license: MIT
 ---
@@ -57,6 +57,17 @@ Ask ALL six questions in ONE message. Do not begin Phase A until you have answer
 
 If any question is not answered, proceed with: `[ASSUMPTION: ...]`. Do not skip inputs.
 
+## Step 1b: Where to Raise and the Shape of the Round
+
+Read [references/fundraising-playbook-2026.md](references/fundraising-playbook-2026.md)
+sections 0-2 before Phase A.
+
+- **LATAM or US:** product built for LATAM customers means raise in LATAM (most founders).
+  Go to the US only if the founder can and wants to win the US market, with a C-Corp, real
+  presence and a network of backed founders. State the route explicitly in the output.
+- **A round has a beginning and an end:** flag "always raising" and drip raises that inch the
+  valuation up as patterns investors frown upon. The plan is one process: open, compete, close.
+
 ## Step 2: Phase A — Preparation (4–6 weeks)
 
 Read [references/lore-vc-framework.md](references/lore-vc-framework.md) for full
@@ -74,8 +85,13 @@ Preparation phase guidance before executing this phase.
    [Y/N — you can proceed either way]"
 5. Unit economics story ready? → If not done: "Suggest /unit-economics-calculator.
    [Y/N — you can proceed either way]"
-6. **Investor target list:** Build the 9-column table (see D-22 format below)
-7. **Warm intro mapping:** For each investor on the target list, identify the warm
+6. **Narrative and round size:** the round story ("we are growing X% per month and want
+   to take the market"), how much (burn x months to next-round milestones + 6) and at what
+   valuation (round / 15-25% dilution). If missing: "Suggest /fundraising-readiness-audit."
+7. **Validators:** list the logos that weigh (investors in, advisors, closed paying customers,
+   clear traction, founder CV). See playbook section 3.
+8. **Investor target list:** Build the 9-column table (see D-22 format below)
+9. **Warm intro mapping:** For each investor on the target list, identify the warm
    intro path — specific mutual connection who can make the intro, or "Cold"
 
 **Investor Target List Output (D-22 — mandatory 9-column format):**
@@ -86,6 +102,17 @@ Preparation phase guidance before executing this phase.
 
 Produce for 20–30 target investors. Rate Thesis Fit 1–5 (5 = perfect thesis match,
 1 = unlikely fit). List portfolio conflicts if the firm already backs a direct competitor.
+
+**Score and tier the list (playbook section 4):** add a 100-point score per fund: thesis fit 30
+(geography, stage, vertical, ticket), warmth 25 (portfolio-founder intro > acquaintance > cold),
+stage and ticket 20, LATAM track 15, access 10 (partner vs analyst). Tiers: T1 80+, T2 60-79,
+T3 40-59, T4 under 40. Any direct competitor in the portfolio = "Do not apply", whatever the score.
+Do not build the list only from local VC association directories: many members are not active VC
+investors, and more investors active in LATAM are headquartered in North America than in South
+America (LAN survey, October 2026).
+
+**State vs context:** keep the pipeline state in a Google Sheets CRM (one row per fund) and the
+conversations, objections, materials sent and decisions in the founder's company brain.
 Warm Intro Path = the specific person who can make the intro, or "Cold — NFX Signal research."
 
 **Target list quality standard:** No unrealistic targets. If the founder mentions
@@ -114,6 +141,11 @@ for meeting prep methodology.
    - Questions you should ask (shows you've done research)
 4. **Follow-up cadence:** Day 1 / Day 7 / Day 14 / Day 21 using templates in
    references/outreach-templates.md
+4b. **Lead investor first (playbook section 5):** Phase A gauges each fund's hunger; Phase B
+   converts the founder's favorite into the lead. The lead typically takes about 50% of the round,
+   comes in first and sets price and terms; followers close after. Run the switch (all targets
+   contacted within 1 week, first meetings inside the same 2 weeks) and push to sign the first
+   term sheet fast.
 5. **Process management tracking sheet:**
    | Investor | Stage | Last Contact | Next Step | Deadline |
 
@@ -190,6 +222,9 @@ Series B are deal terms that will haunt you for 7–10 years. Do not sign in a h
 - lore.vc (CC BY-NC-SA 4.0): https://www.lore.vc — see references/lore-vc-framework.md
 - NFX Signal investor research: https://signal.nfx.com
 - YC fundraising guide: https://www.ycombinator.com/library/4A-how-to-raise-money
+- Gompers, Gornall, Kaplan, Strebulaev, "How Do Venture Capitalists Make Decisions?", Journal of Financial Economics (2020)
+- Crunchbase, Latin America startup funding EOY 2024: https://news.crunchbase.com/venture/latin-america-startup-funding-eoy-2024/
+- [references/fundraising-playbook-2026.md](references/fundraising-playbook-2026.md): LAN masterclass playbook (Oct 2026): where to raise, list scoring, lead investor
 - @shared/frameworks/brad-feld-terms.md — term sheet term definitions
 - @shared/frameworks/editorial-voice.md — tone standard
 - [references/lore-vc-framework.md](references/lore-vc-framework.md) — 3-phase fundraising framework

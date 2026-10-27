@@ -10,7 +10,7 @@ description: >
 categories: ["business", "investing", "due-diligence"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: lp-angel
 license: MIT
 ---
@@ -107,6 +107,11 @@ Key LATAM valuation realities:
 - Pre-seed pre-money median: $3–5M LATAM vs. $6–9M US (Carta 2024 / LAVCA 2025)
 - Seed pre-money median: $6–10M LATAM vs. $12–18M US (LAVCA 2025 / Carta 2024)
 - Series A pre-money median: $15–25M LATAM vs. $30–50M US (LAVCA 2025 / Carta 2024)
+- Current US anchors are higher than the ranges above: seed median post-money $24.3M on a $4.1M
+  round, Series A $80M on $14.4M (Carta Data Desk, Jul 2026); see references/latam-context.md
+  "US refresh". Use them only to show the gap, never as the LATAM target.
+- Dilution sanity check: a priced round usually costs 15-25% (US medians: seed ~19-20%, A ~18%,
+  Carta 2025). An ask implying under 10% dilution at seed needs exceptional evidence.
 - Founders with US accelerator backgrounds (YC, Techstars) often anchor on US valuations.
   LATAM investor reality is the benchmark that closes rounds — not US comparables.
 
@@ -149,5 +154,7 @@ Frame actions for who is asking:
 - Berkus Method: https://berkus.com/the-berkus-method/
 - Bill Payne Scorecard: https://billpayne.com/
 - Carta State of Private Markets Q1 2024: https://carta.com/blog/state-of-private-markets-q1-2024/
+- Carta State of Private Markets Q3 2025: https://carta.com/data/state-of-private-markets-q3-2025-full-report/
+- Carta Data Desk, round size and valuation by stage (10 Jul 2026); Carta, "Startup dilution per round is not rising" (2025)
 - LAVCA 2025: https://www.lavca.org/wp-content/uploads/2025/08/LAVCA_Startup-Ecosystem-Insights_2025.pdf
 - Cuantico 2026: https://reports.cuanticovp.com/latin-america-vc-report-2026/

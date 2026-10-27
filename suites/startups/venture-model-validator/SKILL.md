@@ -9,7 +9,7 @@ description: >
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
 license: MIT
 ---
@@ -53,6 +53,21 @@ scoring. Apply all five frameworks in order:
 
 Score each framework criterion 1–5 using the rubrics in references/vc-backable-criteria.md.
 A score below 3 on any single criterion is disqualifying.
+
+## Step 2b: Fund-Returner Math and AI-Era Lens
+
+Read [references/power-law-and-ai-era.md](references/power-law-and-ai-era.md) and add a
+"Why a VC says yes or no" block to the scorecard:
+
+- **Power law:** ~65% of financings return under 1x and ~4% return 10x+ (Correlation Ventures via
+  Seth Levine); the 10x+ deals carry 60%+ of top-100 gains in most years (Cambridge Associates).
+- **Fund-returner test:** a USD 100M fund must return USD 300M; at ~10% ownership at exit, one
+  USD 1B exit returns the fund. State whether the founder's market allows that outcome.
+- **Exit path:** ~97% of 2025 US VC exits were M&A (50 IPOs of 1,578, PitchBook-NVCA Q1 2026).
+  Ask for the 10 most plausible acquirers.
+- **AI-era lens:** sell the work not the tool (Sequoia), outcome pricing, proprietary context as
+  the moat (Lightspeed on Harvey; YC "Own Your Intelligence"), fit with YC's Winter 2027 RFS, and
+  where the product sits on NVIDIA's perception -> generative -> agentic -> physical curve.
 
 ## Step 3: Workflow
 
@@ -117,6 +132,8 @@ sizing, the first next step must directly address market sizing.
 - [VC Backability Criteria](references/vc-backable-criteria.md) — consolidated scoring rubric
 - [LATAM Context](references/latam-context.md) — LAVCA 2025 + Cuantico 2026 benchmarks
 - [Comparable Companies](references/comparable-companies.md) — LATAM startup examples
+- [Power Law and AI Era](references/power-law-and-ai-era.md): Correlation, Cambridge Associates, Carta, PitchBook-NVCA, YC RFS W27, NVIDIA CES 2025, Sequoia, Lightspeed, Greylock
+- YC Requests for Startups: https://www.ycombinator.com/rfs
 - [shared/frameworks/vc-backable-test.md](../../../../shared/frameworks/vc-backable-test.md) — framework details
 - YC Essential Startup Advice: https://www.ycombinator.com/library/Em-yc-s-essential-startup-advice
 - a16z PMF Method: https://a16z.com/the-pmf-method/

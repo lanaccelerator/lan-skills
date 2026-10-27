@@ -9,7 +9,7 @@ description: >
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
 license: MIT
 ---
@@ -95,6 +95,13 @@ producing the final output. Apply LATAM-specific adjustments:
   — calibrate your ask accordingly (Cuantico 2026)
 - "Brazil + Mexico first" framing is the correct LATAM TAM methodology —
   claiming "LATAM market" without country specificity fails diligence
+
+- **Lead with the growth line and the logos.** The strongest round narrative fits in one
+  line: "We are growing X% per month and want to take the market" (LAN fundraising
+  masterclass, Oct 2026). Put the validators that weigh on the traction or team slide:
+  investors already in, advisors, closed paying customers, clear traction numbers, and
+  founder CV (Ivy League, top company, prior exit, something extraordinary). In LATAM, with
+  low liquidity, team and growth weigh most. Cheap signals (LOIs, free pilots) do not count.
 
 Label all US benchmarks as `(US-sourced benchmark)` and provide the LATAM
 figure labeled `(LATAM, LAVCA 2025 / Cuantico 2026)`.
