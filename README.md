@@ -1,10 +1,10 @@
 # LAN Skills & Agents
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills](https://img.shields.io/badge/Skills-33-blue.svg)](#skill-catalog)
+[![Skills](https://img.shields.io/badge/Skills-34-blue.svg)](#skill-catalog)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blueviolet.svg)](https://docs.anthropic.com/en/docs/claude-code)
 
-33 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
+34 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
 
 Unlike roleplay-based AI tools, LAN Skills EXECUTE: they generate pitch decks, calculate unit economics, build data rooms, write deal memos, and design GTM strategies — grounded in industry-standard frameworks (YC, Sequoia, a16z, Brad Feld, ILPA) and calibrated to LATAM market benchmarks (LAVCA 2025, Cuantico 2026).
 
@@ -36,7 +36,7 @@ Runs the installer directly from GitHub — no npm publish required, works in an
 npx github:lanaccelerator/lan-skills
 ```
 
-The installer copies all 33 skills to `~/.claude/skills/`. No additional setup required.
+The installer copies all 34 skills to `~/.claude/skills/`. No additional setup required.
 
 ### Verify Installation
 
@@ -48,7 +48,7 @@ Run this before committing any changes to verify all SKILL.md files are spec-com
 
 ## Skill Catalog
 
-### Startups Suite (19 skills)
+### Startups Suite (20 skills)
 
 | Skill | Command | Description |
 |-------|---------|-------------|
@@ -62,6 +62,7 @@ Run this before committing any changes to verify all SKILL.md files are spec-com
 | Deck Reviewer | `/deck-reviewer` | Per-slide pitch deck evaluation with scoring and improvement suggestions |
 | Unit Economics Calculator | `/unit-economics-calculator` | Calculate CAC, LTV, LTV/CAC, payback period, contribution margin, and break-even |
 | Fundraising Readiness Audit | `/fundraising-readiness-audit` | Pre-fundraise readiness assessment by stage — "am I ready to raise?" |
+| Startup Valuation Benchmark | `/startup-valuation-benchmark` | Benchmark your round against public data (Carta stage medians, growth, traction, public SaaS multiples) and build a defensible valuation range and ask |
 | Competitive Landscape Mapper | `/competitive-landscape-mapper` | Map competitive landscape, analyze competitors, build competitive matrices |
 | Rapid MVP Builder | `/rapid-mvp-builder` | MVP design, feature prioritization with MoSCoW, and tech stack selection |
 | Sales Playbook Generator | `/sales-playbook-generator` | B2B sales process, prospecting sequences, objection handling, CRM setup |

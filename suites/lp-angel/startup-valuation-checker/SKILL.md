@@ -26,6 +26,9 @@ and LATAM-specific comparable transaction data. Serves two audiences:
 The skill produces the same analysis for both audiences — only the framing of
 recommendations differs. The math does not change based on who is asking.
 
+Founders who want to benchmark their round against market data first (stage medians, growth,
+traction, public multiples) and build the ask: run `/startup-valuation-benchmark`.
+
 ## Step 1: Input Gathering
 
 Ask all seven questions in ONE message. Do not begin analysis until you have answers
