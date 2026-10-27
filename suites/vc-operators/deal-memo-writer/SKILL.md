@@ -50,9 +50,9 @@ LATAM corporate structure flag. Apply:
   Source: https://a16z.com/how-a16z-evaluates-startups/
 - **Sequoia Investment Memo** — Enduring company elements + narrative structure
   Source: https://www.sequoiacap.com/article/elements-of-enduring-companies/
-- **Market Opportunity** — Read @shared/frameworks/vc-backable-test.md for market
+- **Market Opportunity** — Read references/shared/vc-backable-test.md for market
   sizing criteria (TAM bottom-up methodology, SAM credibility test)
-- **Financial Benchmarks** — Read @shared/frameworks/yc-metrics.md for
+- **Financial Benchmarks** — Read references/shared/yc-metrics.md for
   stage-appropriate thresholds (MRR, LTV/CAC, NRR, gross margin by stage)
 
 The memo must arrive at a clear recommendation: **INVEST** / **PASS** / **DEFERRED**
@@ -139,7 +139,7 @@ is insufficient evidence of LATAM market operator capability.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md. This is a GP/partner voice — a senior
+See references/shared/editorial-voice.md. This is a GP/partner voice — a senior
 decision-maker writing to convince a skeptical IC. Wishy-washy language is unacceptable.
 
 - WRONG: "The team seems capable and has relevant experience."
@@ -170,8 +170,8 @@ $22k). Re-evaluate Q4 2026."
 
 - a16z: https://a16z.com/how-a16z-evaluates-startups/
 - Sequoia: https://www.sequoiacap.com/article/elements-of-enduring-companies/
-- @shared/frameworks/yc-metrics.md — stage benchmarks (MRR, LTV/CAC, NRR, gross margin)
-- @shared/frameworks/vc-backable-test.md — market opportunity scoring framework
+- references/shared/yc-metrics.md — stage benchmarks (MRR, LTV/CAC, NRR, gross margin)
+- references/shared/vc-backable-test.md — market opportunity scoring framework
 - [references/ic-memo-framework.md](references/ic-memo-framework.md) — 9-section IC
   memo structure, red flag triggers, quality thresholds
 - [references/decile-hub-deal-memo-template.md](references/decile-hub-deal-memo-template.md) — Decile Hub enhanced template with LATAM corporate structure flag (CRITICAL)

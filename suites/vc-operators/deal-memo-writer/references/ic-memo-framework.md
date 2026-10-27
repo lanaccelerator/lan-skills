@@ -132,7 +132,7 @@ Label each benchmark: `(US-sourced benchmark, YC / a16z)` or `(LATAM, LAVCA 2025
 - Gross margin <40% for SaaS (suggests COGS misclassification or service-heavy model)
 - Burn multiple >3× at current ARR (spending $3+ to generate $1 of new ARR)
 
-**Stage benchmarks (from @shared/frameworks/yc-metrics.md):**
+**Stage benchmarks (from shared/yc-metrics.md):**
 
 | Metric | Seed | Series A | Notes |
 |--------|------|---------|-------|
@@ -243,4 +243,4 @@ Key Sequoia elements:
 - Sequoia: https://www.sequoiacap.com/article/elements-of-enduring-companies/
 - a16z 16 Metrics: https://a16z.com/16-metrics/
 - YC Metrics Guide: https://www.ycombinator.com/library/Fp-a-guide-to-startup-metrics
-- Brad Feld, Venture Deals (4th ed.) — term sheet taxonomy: @shared/frameworks/brad-feld-terms.md
+- Brad Feld, Venture Deals (4th ed.) — term sheet taxonomy: shared/brad-feld-terms.md

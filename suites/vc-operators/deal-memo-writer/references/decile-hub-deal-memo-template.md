@@ -8,7 +8,7 @@
 1. **Problem** — What specific pain point does this startup solve? Who feels it? How painful is it (hair-on-fire, nice-to-have, or vitamin)?
 2. **Product/Service** — How does the product solve the pain point? What's the mechanism? Is it 10x better than the alternative or incremental?
 3. **Market** — TAM/SAM/SOM with methodology (top-down AND bottom-up). If the numbers diverge by >3x, call it out.
-4. **Key Terms** — Instrument (SAFE/priced/convertible), round type, round size, valuation (pre/post), key terms. Reference @shared/frameworks/brad-feld-terms.md for standard benchmarks.
+4. **Key Terms** — Instrument (SAFE/priced/convertible), round type, round size, valuation (pre/post), key terms. Reference shared/brad-feld-terms.md for standard benchmarks.
 
 ## Why Invest
 
@@ -40,7 +40,7 @@
 ## Business, Economics, Ethics
 
 1. **Path to Market Presence** — Segments, brand strategy, GTM approach, sales motion, channel/partnership strategy. Reference the startup's GTM plan if available.
-2. **Unit Economics** — Current and target. CAC, LTV, LTV/CAC, contribution margin, payback period. If they don't know these numbers, that's a flag. Reference @shared/frameworks/yc-metrics.md.
+2. **Unit Economics** — Current and target. CAC, LTV, LTV/CAC, contribution margin, payback period. If they don't know these numbers, that's a flag. Reference shared/yc-metrics.md.
 3. **12-24 Month Milestones** — Specific roadmap with KPIs and capital requirements per milestone. What does success look like in 12 months? 24 months?
 4. **Exit Potential** — Realistic exit paths. Strategic acquirers (name them), IPO viability, secondary. For LATAM: limited buyer universe is a real constraint — address it.
 5. **Positive Impact / Mensarius Oath** — Does this business create genuine positive impact? Not ESG theater — actual impact on customers, communities, or systems.
@@ -54,7 +54,7 @@
 
 ## Flags (CRITICAL)
 
-1. **Cap Table Health** — Does the cap table reflect best practices? Founder ownership sufficient for motivation through Series B+? Option pool adequate? Dead equity from departed co-founders? Reference @shared/frameworks/brad-feld-terms.md for standard benchmarks.
+1. **Cap Table Health** — Does the cap table reflect best practices? Founder ownership sufficient for motivation through Series B+? Option pool adequate? Dead equity from departed co-founders? Reference shared/brad-feld-terms.md for standard benchmarks.
 2. **Conflict of Interest** — Any economic conflicts between founders, investors, or advisors? Related-party transactions?
 3. **Legal Structure** — LLC, LP, C-Corp, passthrough? Is the structure investment-ready for institutional follow-on?
 
