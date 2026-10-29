@@ -54,13 +54,25 @@ LATAM corporate structure flag. Apply:
   sizing criteria (TAM bottom-up methodology, SAM credibility test)
 - **Financial Benchmarks** — Read references/shared/yc-metrics.md for
   stage-appropriate thresholds (MRR, LTV/CAC, NRR, gross margin by stage)
+- **AI-era evaluation (if the company is AI-native or AI-core)** — Read
+  references/shared/ai-era-evaluation.md for AI moats (process power, proprietary
+  data, system of record, wrapper risk), revenue-quality split (contracted vs usage
+  vs pilot), Bessemer Supernova vs Shooting Star archetypes, and modern red flags
+  (round-tripping, demo-vs-product gap, copyright, talent, GPU access).
 
 The memo must arrive at a clear recommendation: **INVEST** / **PASS** / **DEFERRED**
 (with specific conditions for Deferred).
 
+**Quality bar (from real top-firm memos):** a mediocre memo describes; an excellent
+memo decides. Recommendation in the first sentence; a falsifiable thesis (2-3 claims an
+IC member could disagree with); bottom-up TAM (never "1% of a huge market"); named
+competitors ("no competition" is a red flag); 2-3 risks that actually matter with
+concrete mitigants (a mitigant is not a wish); replace hope with mechanics; grade
+metrics against the world-class ceiling; name your own kill-shots before the IC does.
+
 ## Step 3: Workflow
 
-Execute in this exact order — produce all 9 sections:
+Execute in this exact order — produce all 10 sections:
 
 1. **Executive Summary** — 1 paragraph: investment thesis + key conviction + recommendation
    upfront. Skeptical IC partners read this paragraph first and decide whether to
@@ -97,7 +109,16 @@ Execute in this exact order — produce all 9 sections:
    For LATAM deals: FX risk (USD cost base + local currency revenue) is MANDATORY in
    the Risk Register. Fintech/healthtech/edtech: regulatory risk is mandatory.
 
-9. **Investment Recommendation** — INVEST / PASS / DEFERRED.
+9. **Counterfactual Analysis** — Required by the Decile Hub template. What happens if
+   we do NOT invest (does the company raise anyway, from whom, do we lose access)?
+   Alternative scenarios and what would make us regret passing. Include a **pre-mortem**:
+   assume 24 months passed and the company failed — list the 3-4 most likely causes of
+   death, concrete (for AI deals: model commoditization, copyright, talent flight,
+   round-tripping). Run the **anti-portfolio check**: is the recommendation anchoring on
+   price, dismissing a category, reasoning by false analogy, or treating a solvable risk
+   as fatal? Separate the ~70% you can diligence from the irreducible ~30% bet and name it.
+
+10. **Investment Recommendation** — INVEST / PASS / DEFERRED.
    - **INVEST**: Include proposed terms (instrument, pre-money, check size, pro-rata
      rights, board seat if applicable), and any closing conditions.
    - **PASS**: One specific reason per fatal flaw. Do not list vague concerns.
@@ -172,8 +193,10 @@ $22k). Re-evaluate Q4 2026."
 - Sequoia: https://www.sequoiacap.com/article/elements-of-enduring-companies/
 - references/shared/yc-metrics.md — stage benchmarks (MRR, LTV/CAC, NRR, gross margin)
 - references/shared/vc-backable-test.md — market opportunity scoring framework
-- [references/ic-memo-framework.md](references/ic-memo-framework.md) — 9-section IC
-  memo structure, red flag triggers, quality thresholds
+- references/shared/ai-era-evaluation.md — AI moats, revenue quality, Supernova vs
+  Shooting Star archetypes, modern red flags, AI-era memo format (2024-2026)
+- [references/ic-memo-framework.md](references/ic-memo-framework.md) — 10-section IC memo
+  structure, red flag triggers, quality thresholds, a16z 6-dimension scoring rubric
 - [references/decile-hub-deal-memo-template.md](references/decile-hub-deal-memo-template.md) — Decile Hub enhanced template with LATAM corporate structure flag (CRITICAL)
 - [references/latam-fund-context.md](references/latam-fund-context.md) — FX risk,
   regulatory environment, LATAM operator experience, exit context

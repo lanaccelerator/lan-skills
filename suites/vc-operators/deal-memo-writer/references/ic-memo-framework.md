@@ -26,7 +26,7 @@ paragraph, you have not done the work yet.
 
 ---
 
-## The 9 Sections: Purpose, Quality Threshold, Red Flag Triggers
+## The 10 Sections: Purpose, Quality Threshold, Red Flag Triggers
 
 ### Section 1: Executive Summary
 
@@ -184,7 +184,29 @@ Every fintech/healthtech/edtech deal must include regulatory risk.
 
 ---
 
-### Section 9: Investment Recommendation
+### Section 9: Counterfactual Analysis
+
+**Purpose:** Required by the Decile Hub template. Tests the recommendation against the
+cost of being wrong in the other direction, and names the bet the fund is really making.
+
+**Minimum quality threshold:** Four parts. (1) What happens if we do not invest: does
+the company raise anyway, from whom, and do we lose pro-rata or the relationship.
+(2) Pre-mortem: assume 24 months passed and the company failed; list 3-4 concrete
+causes of death (for AI deals include model commoditization, copyright/IP, talent
+flight, round-tripping revenue). (3) Anti-portfolio check: is the call anchoring on
+price, dismissing a category by association, reasoning by false analogy, or treating
+a solvable risk as fatal. (4) The irreducible bet: separate the ~70% that diligence
+can answer from the ~30% that is a bet, and state that bet in one sentence.
+
+**Red flag triggers:**
+- Pre-mortem causes that repeat the Risk Register word for word (no new thinking)
+- Generic causes of death ("execution risk", "competition") with no mechanism
+- No statement of what would make the fund regret passing
+- The irreducible bet is missing or is a restatement of the thesis
+
+---
+
+### Section 10: Investment Recommendation
 
 **Purpose:** Close the loop. Give the committee a single explicit position with
 supporting terms and conditions.

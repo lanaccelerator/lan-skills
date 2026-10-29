@@ -87,7 +87,7 @@ on new payment rails.
 
 **LATAM benchmark:** $3.2B SAM is credible for a LATAM fund returning mandate.
 *(US-sourced benchmark, YC)* Series A market size threshold: SAM >$500M.
-*(LATAM, LAVCA 2025)* LATAM Seed-stage SaaS with SAM >$100M is fundable for
+*(LATAM, directional)* LATAM Seed-stage SaaS with SAM >$100M is fundable for
 LATAM-focused funds — $3.2B SAM is well above threshold.
 
 ---
@@ -158,7 +158,7 @@ at $1.5M ARR as a condition of Series A.
 - CAC: $7,000 (fully-loaded: sales commission + onboarding + allocated overhead)
 - LTV/CAC: 3.1:1 — above Seed minimum threshold of 2:1
 
-*(LATAM, LAVCA 2025)* LTV/CAC ≥3:1 is consistent with top-quartile LATAM B2B SaaS
+*(LATAM, directional)* LTV/CAC ≥3:1 is consistent with top-quartile LATAM B2B SaaS
 at Seed. CAC payback of 7 months is well within the LATAM structural advantage
 (lower sales team costs vs US peer set).
 
@@ -196,7 +196,7 @@ OXXO in the next 12 months?"
 | Risk | Severity | Mitigation Thesis |
 |------|---------|------------------|
 | CNBV fintech license timeline (24-month requirement) | HIGH | Structure as SOFOM (Sociedad Financiera de Objeto Múltiple) — regulatory pathway reduces timeline from 18 months to ~60 days. Propose SOFOM registration as closing condition. Convertible structure (SAFE) protects Condor if licensing is delayed. |
-| FX risk: USD tech costs (AWS, some engineering) + MXN revenue | MEDIUM | 82% of cost base is MXN-denominated (local dev team + Mexico City office). AWS costs ~$8k/month USD. Hedging not required at Seed; review at Series A when USD cost exposure may increase with Brazil expansion. *(LATAM, LAVCA 2025)* BRL/USD and MXN/USD: 15–30% annual volatility typical. |
+| FX risk: USD tech costs (AWS, some engineering) + MXN revenue | MEDIUM | 82% of cost base is MXN-denominated (local dev team + Mexico City office). AWS costs ~$8k/month USD. Hedging not required at Seed; review at Series A when USD cost exposure may increase with Brazil expansion. *(LATAM, directional)* BRL/USD and MXN/USD: 15–30% annual volatility typical. |
 | Competitor risk: Conekta / Clip aggressive pricing in SME segment | MEDIUM | OXXO exclusivity window: 18 months before a competitor could replicate the relationship. After Month 18, differentiation must shift to the SME analytics dashboard (in roadmap). Track Conekta SME product announcements quarterly. |
 | Customer concentration: Top 5 customers = 22% of MRR | LOW | Below the 30% concentration red flag threshold *(US-sourced benchmark, a16z)*. Manageable at Seed; monitor at Series A. |
 | OXXO partnership dependency (single strategic partner) | HIGH | This is both the moat AND the key risk. If OXXO changes commercial terms or launches competing product, PayGo's primary moat dissolves. Mitigation: negotiate 24-month pricing lock in SAFE close conditions. |
@@ -210,7 +210,33 @@ this directly and is the standard path for Seed-stage Mexican fintech companies
 
 ---
 
-## 9. Investment Recommendation
+## 9. Counterfactual Analysis
+
+**If we don't invest:** PayGo raises anyway. Two Mexico City seed funds are in
+diligence and the round is 60% committed. We lose the 4.2% position and the pro-rata
+into a Series A that, if the OXXO channel holds, prices at $40M+ pre-money.
+
+**Regret test:** we regret passing if OXXO Pay renews exclusivity and PayGo reaches
+$150k MRR by Q2 2027, the point where the moat becomes visible to every Series A fund.
+
+**Pre-mortem (24 months out, PayGo failed):**
+1. OXXO renegotiated commercial terms at month 18 and the take rate collapsed.
+2. SOFOM registration stalled and CNBV forced a payment-volume cap below $150k/month.
+3. Clip bundled a free SME analytics dashboard and churn doubled.
+4. The founding CTO left after the Brazil expansion stretched a 9-person team.
+
+**Anti-portfolio check:** the 22× ARR multiple is the obvious reason to pass, and it is
+the anchoring trap. The price is in the upper half of the range, not outside it, and the
+SAFE structure caps our downside. We are not treating the CNBV risk as fatal because a
+known regulatory path exists.
+
+**The irreducible bet:** diligence confirms the metrics, the team and the license path.
+What it cannot confirm is whether OXXO keeps PayGo as its preferred SME partner after
+the exclusivity window. That is the bet.
+
+---
+
+## 10. Investment Recommendation
 
 ### INVEST
 
@@ -231,7 +257,7 @@ this directly and is the standard path for Seed-stage Mexican fintech companies
    commercial contact (GP to conduct)
 
 **Rationale for valuation:**
-$12M pre-money at $45k MRR = 22× ARR multiple. *(LATAM, LAVCA 2025)* LATAM Seed
+$12M pre-money at $45k MRR = 22× ARR multiple. *(LATAM, directional)* LATAM Seed
 B2B fintech multiples range 10–25× ARR; 22× is in the upper half, justified by
 18% MoM growth, strong LTV/CAC, and the OXXO moat. Comparable: Konfío raised at
 similar multiples with comparable metrics in 2019. This is a fair entry price for

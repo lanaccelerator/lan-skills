@@ -2,3 +2,6 @@
 **/.DS_Store
 node_modules/
 *.log
+# local source material and a separate nested repo, not part of the skills
+/references/
+/awesome-claude-skills/

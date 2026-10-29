@@ -73,3 +73,15 @@ This is a deal-breaker common in LATAM and MUST be investigated for every deal:
   - Common pattern: founders raised from local angels into the local SAS/SRL, now need to restructure to a Delaware C-Corp for institutional VC. This is fixable but costs $10-30k and takes 2-4 months.
 
 **If the corporate structure is a mess, say so explicitly.** "The cap table has 3 entities across 2 jurisdictions with no holding company. This needs $25k and 3 months of legal work before institutional investors will participate. Condition this investment on completing the flip within 60 days of close."
+
+## Counterfactual Analysis (REQUIRED by Decile)
+
+1. **What happens if we don't invest?** Does the company raise anyway, from whom, at what valuation? Do we lose access to the relationship or to pro-rata in future rounds?
+2. **Alternative scenarios + regret test** — What would make us regret passing? Name the specific upside we forgo.
+3. **Pre-mortem** — Assume 24 months passed and the company failed. List the 3-4 most likely causes of death, concrete (for AI deals include: model commoditization, copyright/IP, talent flight, round-tripping revenue). Prospective hindsight improves identification of failure causes by ~30%.
+4. **Anti-portfolio check** — Is the recommendation falling into a known reasoning failure: anchoring on price/multiple ("outrageously expensive"), dismissing a category by association, reasoning by false analogy to a prior loser, or treating a solvable risk as fatal? (Bessemer passed on Google, Apple, FedEx, eBay, PayPal, Tesla, Zoom this way.)
+5. **Name the irreducible bet** — Separate the ~70% you can diligence (plumbing) from the ~30% that is an irreducible bet (poetry). State the bet explicitly.
+
+## Recommendation up front (quality bar)
+
+Open the memo with the decision, not the description. First sentence: INVEST / PASS / DEFERRED + check size + terms + a graded conviction word. A mediocre memo describes; an excellent memo decides. A reasoned PASS is as valuable as an INVEST.
