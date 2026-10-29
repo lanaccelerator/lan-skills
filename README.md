@@ -1,10 +1,10 @@
 # LAN Skills & Agents
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills](https://img.shields.io/badge/Skills-34-blue.svg)](#skill-catalog)
+[![Skills](https://img.shields.io/badge/Skills-35-blue.svg)](#skill-catalog)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blueviolet.svg)](https://docs.anthropic.com/en/docs/claude-code)
 
-34 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
+35 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
 
 Unlike roleplay-based AI tools, LAN Skills EXECUTE: they generate pitch decks, calculate unit economics, build data rooms, write deal memos, and design GTM strategies — grounded in industry-standard frameworks (YC, Sequoia, a16z, Brad Feld, ILPA) and calibrated to LATAM market benchmarks (LAVCA 2025, Cuantico 2026).
 
@@ -36,7 +36,7 @@ Runs the installer directly from GitHub — no npm publish required, works in an
 npx github:lanaccelerator/lan-skills
 ```
 
-The installer copies all 34 skills to `~/.claude/skills/`. No additional setup required.
+The installer copies all 35 skills to `~/.claude/skills/`. No additional setup required.
 
 ### Verify Installation
 

@@ -9,7 +9,8 @@ description: >
   OKRs, financials and the previous update from the company brain or data room; the founder
   only adds the story. Drafts only, never sends. NOT for building the KPI system (use
   startup-metrics-okrs), a fund's LP report (use portfolio-reporter), the data room (use
-  data-room-builder) or a daily or weekly internal recap (use daily-brief or all-hands-prep).
+  data-room-builder), the investor dashboard page (use investor-dashboard) or a daily or
+  weekly internal recap (use daily-brief or all-hands-prep).
 categories: ["startups", "fundraising", "communications"]
 metadata:
   author: lan-accelerator

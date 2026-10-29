@@ -1,17 +1,15 @@
 ---
 name: investor-dashboard
 description: >
-  For STARTUP FOUNDERS. Builds a lite investor dashboard (a monthly report
-  portal) from ONE Google Sheet: executive summary with status pills, KPI
-  tiles with month-over-month change and sparklines, revenue vs EBITDA and
-  cash vs burn charts, a simple P&L, team, cap table and documents. Publishes
-  it in Notion, Google Drive or a Claude artifact (one HTML page), with no
-  login to build. ALWAYS invoke when a user asks for an investor dashboard,
-  investor portal, "dashboard de inversores", "portal de inversores", a
-  monthly report page for investors, or a visual front page for the data
-  room. NOT for organizing data room folders and documents (use
-  data-room-builder) or writing the narrative update email (use
-  investor-update-compiler).
+  For STARTUP FOUNDERS. Use when a founder needs an investor dashboard: a one-page monthly
+  portal built from ONE Google Sheet, with executive summary and status pills, KPI tiles with
+  month-over-month change and sparklines, revenue vs EBITDA and cash vs burn charts, a simple
+  P&L, team, cap table and documents, published in Notion, Google Drive or a Claude artifact
+  with no login to build. Spanish triggers: "armame el dashboard de inversores", "portal de
+  inversores", "reporte mensual en una página para inversores", "portada del data room".
+  NOT for organizing data room folders and documents (use data-room-builder), writing the
+  investor update email (use investor-update-compiler) or the internal KPI system and
+  operating board (use startup-kpi-automator).
 categories: ["startups", "fundraising", "investor-relations"]
 metadata:
   author: lan-accelerator
@@ -173,7 +171,7 @@ Footer: "Confidential · {month}".
 4. **Flag stale items**: any metric or document older than 35 days.
 5. **Report** to the founder: what changed, what is missing, what failed.
    When the brain is connected, file the report there. Follow
-   @shared/frameworks/company-brain-integration.md sections 4 and 6.
+   references/shared/company-brain-integration.md sections 4 and 6.
 
 ## Guardrails
 

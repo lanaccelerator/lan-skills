@@ -9,7 +9,8 @@ description: >
   checklist with owners, completeness score, templates for the most-missed documents, and a
   weekly refresh from the company brain. NOT for deciding whether to raise (use
   fundraising-readiness-audit), running the raise (use fundraising-agent), building the deck
-  (use pitch-deck-builder) or monthly investor updates (use investor-update-compiler).
+  (use pitch-deck-builder), the investor dashboard page (use investor-dashboard) or monthly
+  investor updates (use investor-update-compiler).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator

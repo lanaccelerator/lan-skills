@@ -9,8 +9,8 @@ description: >
   "calculá mi tasa de crecimiento semanal"). Covers SaaS, marketplace, e-commerce, fintech
   and AI-native products. NOT for choosing the North Star and quarterly OKRs (use
   startup-metrics-okrs), deep CAC/LTV math (use unit-economics-calculator), writing the
-  investor update itself (use investor-update-compiler) or pitch decks (use
-  pitch-deck-builder).
+  investor update itself (use investor-update-compiler), the investor-facing dashboard page
+  (use investor-dashboard) or pitch decks (use pitch-deck-builder).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
