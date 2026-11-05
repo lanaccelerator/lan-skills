@@ -18,15 +18,16 @@ you cannot learn what you came to learn.
 Challenge question for every Must-have candidate:
 > "What specifically breaks if this is not in v1? Can the hypothesis still be tested?"
 
-If the answer is "users can work around it" or "we'd have to do it manually but it works" —
+If the answer is "users can work around it" or "we'd have to do it manually but it works",
 it is not a Must-have. Demote to Should-have.
 
 Examples of genuine Must-haves:
 - User authentication (without it, you have no users at all)
 - The core transaction or workflow the MVP is designed to validate
-- Payment processing (if the hypothesis requires customers to pay — without payment, you have
+- Payment processing (if the hypothesis requires customers to pay; without payment, you have
   not validated willingness-to-pay, only interest)
-- Legal requirements (LGPD notice in Brazil, CFDI in Mexico) — these are not optional at launch
+- Legal requirements (LGPD notice in Brazil, Ley 7593 consent notice in Paraguay, CFDI in
+  Mexico): these are not optional at launch
 
 Anti-patterns in Must-have categorization:
 - Admin dashboard → Should-have (use Supabase Studio directly)
@@ -47,7 +48,7 @@ Examples:
 - In-app messaging (users can WhatsApp in the meantime)
 - Status notifications (founder can manually notify in early days)
 - Search + filter (manual browsing works for first 50 items)
-- Profile editing (support request for MVP — address post-launch)
+- Profile editing (support request for MVP, address post-launch)
 
 ### Could-have
 
@@ -66,7 +67,7 @@ Definition: Explicitly out of scope for this version. Saying "won't-have" is a c
 not a deferral. If it appears in v2, it should be a conscious re-evaluation, not a
 "we ran out of time."
 
-Always include in the plan — it prevents scope creep by making exclusions explicit.
+Always include in the plan: it prevents scope creep by making exclusions explicit.
 
 Examples:
 - Native mobile app (v1)
@@ -88,13 +89,13 @@ Examples:
 - Backend: Next.js API routes (Node.js) or Supabase Edge Functions
 - Database: Supabase (PostgreSQL)
 - Auth: Supabase Auth
-- Recommended: Full Supabase stack — fastest to production, handles RLS, auth, storage
+- Recommended: Full Supabase stack: fastest to production, handles RLS, auth, storage
 
 **Marketplace:**
 - Same as SaaS + payment processing for both sides
 - Critical: Choose payment provider that handles marketplace splits from day 1
   (Stripe Connect, MercadoPago Marketplace, PagSeguro Marketplace)
-- Do not build a custom split payment system at MVP — use provider primitives
+- Do not build a custom split payment system at MVP: use provider primitives
 
 **E-commerce:**
 - Frontend: Next.js
@@ -106,7 +107,7 @@ Examples:
 - Requires banking partner / fintech infrastructure from day 1 (not optional at MVP)
 - Brazil: Partner with a Baas (Banking-as-a-Service) provider: Dock, Celcoin, or BMP
 - Mexico: STP for SPEI integration, Conekta for card processing
-- Do not attempt to build payment infrastructure at MVP — use regulated partners
+- Do not attempt to build payment infrastructure at MVP: use regulated partners
 
 **Consumer App:**
 - Mobile-first web app (Next.js, mobile-responsive) before native app
@@ -141,7 +142,7 @@ the security checklist below.
 
 **Technical founding team:**
 - Same Supabase + Next.js stack (do not over-engineer at MVP stage)
-- Resist the urge to build custom infrastructure — use managed services
+- Resist the urge to build custom infrastructure: use managed services
 - Goal is shipping, not technical purity
 
 ---
@@ -157,7 +158,7 @@ When prioritizing features, score each on two dimensions (1-5 scale):
 - 2: Useful post-validation but not needed for the test
 - 1: Not related to the hypothesis at all
 
-**Build Cost (1-5, inverted — lower cost = higher score):**
+**Build Cost (1-5, inverted: lower cost = higher score):**
 - 5: Less than 1 day to build
 - 4: 1-3 days
 - 3: 3-7 days
@@ -184,7 +185,8 @@ These criteria must be met before calling any MVP "live":
 **Legal:**
 - [ ] Privacy policy exists (even if simple)
 - [ ] Terms of service exist
-- [ ] LGPD notice at signup (Brazil) OR equivalent local privacy notice
+- [ ] LGPD notice at signup (Brazil), Ley 7593 consent notice (Paraguay, enforceable ~Nov 2027)
+  OR equivalent local privacy notice
 - [ ] Data is not stored without explicit user consent
 
 **Operational:**
@@ -196,3 +198,80 @@ These criteria must be met before calling any MVP "live":
 **LATAM-specific:**
 - [ ] Local payment method integrated (PIX for Brazil, OXXO/SPEI for Mexico, PSE for Colombia)
 - [ ] Compliance notice at registration for jurisdiction
+
+---
+
+## Building with an AI Coding Agent
+
+**Sources:**
+- LAN Brain workflow-bench (Aug 2026): curated docs vs raw files, 165 runs of real tasks
+- Anthropic, "The new rules of context engineering" (claude.dev blog, 2026):
+  https://claude.dev/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models/
+- Claude Code subagents docs: https://code.claude.com/docs/en/sub-agents
+
+### 1. A PRD over a prompt
+
+The agent builds what the spec says. A one-line prompt ("hacé una app para restaurantes")
+produces a generic app; a one-page PRD produces the MVP you scoped. Write the PRD first,
+save it in the repo (`docs/prd.md`), and point every build session at it.
+
+Minimum PRD (one page, plain markdown):
+1. **Hypothesis** (the sentence from Step 1 of the workflow)
+2. **First user** and the one journey from login to value, as numbered steps
+3. **Must-haves** from the MoSCoW table, each with an acceptance test ("restaurante publica
+   un retiro en menos de 5 minutos")
+4. **Won't-haves**, explicit, so the agent does not add them
+5. **Data model** (tables and who can read each row)
+6. **Integrations** (payment provider, email, LATAM compliance notice)
+7. **Definition of done**: the end-to-end test that must pass before deploy
+
+### 2. Docs are the AI's memory
+
+The agent forgets everything between sessions. What survives is what is written: the PRD,
+a short instructions file (`AGENTS.md` or `CLAUDE.md`), decisions and learnings. Curated
+docs beat raw files by a wide margin:
+
+| Finding (LAN Brain workflow-bench, Aug 2026, 165 runs) | Result |
+|---|---|
+| Curated brain vs raw files | -67% tokens, -52% time, at least the same quality |
+| Cheaper model class (Opus) with curated docs vs top model class (Fable) alone | 82.9 vs 79.6 out of 100 |
+| Fixing 3 stale pricing pages | +56 points across all 4 models tested |
+
+Two lessons for an MVP team: (a) good docs are worth more than a more expensive model;
+(b) one stale page poisons every answer that touches it, so update docs in the same PR
+that changes the behavior.
+
+### 3. Progressive disclosure
+
+Anthropic removed over 80% of Claude Code's system prompt for newer models with no
+measurable loss. The principles that carry over to your own repo:
+- Let the model use judgment: short instructions, no walls of rules for old model weaknesses
+- Design the interfaces (folder layout, file names, tool and script names) so the right
+  thing is easy to find
+- Progressive disclosure: the instructions file stays short and points to deeper docs and
+  skills that load only when the task needs them
+- Simple tool descriptions: one line on what it does and when to use it
+
+Rule of thumb: if `AGENTS.md` passes about 150 lines, move sections into `docs/` and leave a
+one-line pointer.
+
+### 4. Shipping cadence: several PRs merged per day
+
+Small PRs, merged the same day, deployed automatically. One user journey or one fix per PR,
+each with its test. Benchmark: LAN Brain shipped 116 PRs in 30 days (16 in one day) with one
+person coding with Claude Code. A week-long branch is a red flag at MVP stage: it hides
+risk and delays learning.
+
+### 5. Security day-1 checklist
+
+Run before the first real user, not after the first incident:
+- [ ] **Secrets scanning pre-commit** (gitleaks or trufflehog as a git hook). No key in the
+  repo, ever; keys in environment variables
+- [ ] **Least privilege**: database Row Level Security on every table, separate keys per
+  environment, the agent and each tool get only the access the task needs
+- [ ] **Dependency scan** (Trivy, Semgrep, `npm audit` or GitHub Dependabot, all free tiers)
+- [ ] Payments and webhooks verified server-side
+- [ ] One test that proves user A cannot read user B's data
+
+For questionnaires, data protection laws and certifications, hand off to
+security-compliance-starter.

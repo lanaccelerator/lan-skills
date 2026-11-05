@@ -1,4 +1,4 @@
-# startup-kpi-automator — Output Template
+# startup-kpi-automator: Output Template
 
 **ALWAYS use this exact template structure.** This file shows a filled example
 for "B2B SaaS, early revenue, $180k ARR, Seed stage." Replace all values with
@@ -6,7 +6,7 @@ the user's actual data.
 
 ---
 
-## Example: B2B SaaS — Seed Stage ($180k ARR)
+## Example: B2B SaaS, Seed Stage ($180k ARR)
 
 **Company:** InvoiceFlow (B2B invoicing automation for LATAM SMBs)
 **Model:** SaaS | **Stage:** Seed | **ARR:** $180k | **MRR:** $15,000
@@ -20,13 +20,13 @@ the user's actual data.
 
 | KPI | Formula | Current Value | Target (Seed) | Status |
 |-----|---------|--------------|---------------|--------|
-| MRR | Sum of recurring subscription revenue for the month (annual contracts ÷ 12) | $15,000 | $10k–$100k | On Track |
+| MRR | Sum of recurring subscription revenue for the month (annual contracts ÷ 12) | $15,000 | $10k-$100k | On Track |
 | MRR Growth (MoM) | (MRR this month - MRR last month) ÷ MRR last month | 8% | >10% *(directional floor at seed)* | At Risk |
-| ARR | MRR × 12 | $180,000 | $120k–$1.2M | On Track |
+| ARR | MRR × 12 | $180,000 | $120k-$1.2M | On Track |
 | Logo Churn (monthly) | Customers lost ÷ starting customers | 2.5% | <3% *(directional)* | On Track |
 | NRR (annual) | (Start MRR + expansion - contraction - churn) ÷ start MRR | 104% | >100% *(directional)* | On Track |
-| CAC (fully-loaded) | Total S&M spend ÷ new customers acquired | $1,200 | — *(compare to LTV)* | Needs tracking |
-| LTV | ARPU × gross margin % ÷ monthly churn rate | $5,760 | — *(compare to CAC)* | Needs tracking |
+| CAC (fully-loaded) | Total S&M spend ÷ new customers acquired | $1,200 | n/a *(compare to LTV)* | Needs tracking |
+| LTV | ARPU × gross margin % ÷ monthly churn rate | $5,760 | n/a *(compare to CAC)* | Needs tracking |
 | LTV/CAC | LTV ÷ CAC | 4.8× | ≥3:1 *(David Skok)* | On Track |
 | CAC Payback | CAC ÷ (ARPU × gross margin %) | 7 months | <12 months *(directional)* | On Track |
 | Gross Margin | (Revenue - COGS) ÷ Revenue | 72% | ~70% avg at $1-25M ARR *(Bessemer, Scaling to $100M, 2021)* | On Track |
@@ -43,7 +43,7 @@ the user's actual data.
 
 ## 2. Dashboard Structure
 
-### Investor Update (Monthly — share with all investors)
+### Investor Update (Monthly, share with all investors)
 
 | Metric | Why It's in This View |
 |--------|-----------------------|
@@ -53,7 +53,7 @@ the user's actual data.
 | Runway | Financial health |
 | New customers added | Growth velocity |
 
-### Operations Dashboard (Weekly — internal only)
+### Operations Dashboard (Weekly, internal only)
 
 | Metric | Why It's in This View |
 |--------|-----------------------|
@@ -65,10 +65,64 @@ the user's actual data.
 
 ---
 
-## 3. Investor Report Template (Monthly Email)
+## 3. Product Analytics Layer
+
+**Tier:** A (PostHog Cloud, free tier). InvoiceFlow sends ~180,000 events per month,
+well under the 1M free events. Self-hosted Umami stays on the marketing site only.
+
+**Activation event:** "un usuario está activado cuando envía su primera factura timbrada
+dentro de 7 días del signup". Today: 41% of signups activate (company data).
+
+### Events to instrument (12)
+
+| Event | Fires when | Feeds KPI |
+|-------|-----------|-----------|
+| `account_created` | Signup completed | Trial starts |
+| `company_connected` | First RFC/tax id and certificate uploaded | Activation funnel step 1 |
+| `invoice_sent` | First and every invoice issued | Activation, core usage |
+| `invoice_paid` | Payment matched to an invoice | Customer value delivered |
+| `teammate_invited` | Invite sent | Expansion signal |
+| `entity_added` | Second legal entity added | NRR driver (multi-entity) |
+| `plan_upgraded` | Plan change up | Expansion MRR |
+| `plan_downgraded` | Plan change down | Contraction MRR |
+| `subscription_cancelled` | Cancel confirmed | Logo churn |
+| `ai_extraction_run` | AI reads a supplier invoice PDF | LLM cost per unit |
+| `ai_extraction_corrected` | User edits an AI-extracted field | AI task success rate |
+| `error_shown` | User sees an error screen | Support load, churn risk |
+
+### Capabilities on
+
+| Capability | Set up for | Owner | First readout |
+|------------|-----------|-------|---------------|
+| Session replay + AI summaries | Signups that do not reach `invoice_sent` in 7 days | Product lead | Monday: 5 replays, 3 blockers written to the brain |
+| Experiments | Onboarding: certificate upload before vs after the first draft invoice | Product lead | After 400 signups per variant, or 4 weeks |
+| Feature flags | New multi-entity dashboard to 10% of accounts | CTO | Roll out to 100% if error rate stays under 1% |
+| Survey on `subscription_cancelled` | "¿Qué te hizo cancelar?" with 5 options + free text | CEO | Monthly, in the churn review |
+| LLM analytics | Cost, latency p50/p95 and correction rate per model on `ai_extraction_run` | CTO | Weekly; quality judge on a 50-call sample with the cheapest model class (Haiku) |
+| Data warehouse | Stripe + HubSpot joined to product events by account id | CEO | Which week-1 behavior predicts paying (first query) |
+| Error tracking | Errors linked to the session replay and the account | CTO | Daily triage of errors on paying accounts |
+| PostHog MCP | Read-only key, so Claude answers "qué usan los clientes que expanden?" | CEO | Used in the weekly all-hands prep |
+
+**Current AI unit cost:** $0.011 per extraction, p95 latency 6.8 s, 7% of fields corrected
+by users (company data). Gross margin after inference: 72% (already in the KPI table).
+
+### Registro (where it gets written)
+
+| What | Where in the company brain | Rule |
+|------|----------------------------|------|
+| Each KPI definition and formula | One page per KPI | Edited only with a dated note of what changed |
+| Each experiment | One page: hypothesis, variants, dates, result, decision | Written win or lose, within 48 h of closing |
+| Weekly metric readout | Weekly page, linked from the all-hands | Monday before 10:00 |
+
+> Midan TODO, anoten TODO, documenten TODO. If a number moved and nobody wrote why, the
+> next investor question has no answer.
+
+---
+
+## 4. Investor Report Template (Monthly Email)
 
 ```
-Subject: InvoiceFlow Update — [Month Year]
+Subject: InvoiceFlow Update, [Month Year]
 
 MRR: $15,000 (+8% MoM)
   Below our 10% MoM target. Plan in Lowlights.
@@ -82,14 +136,14 @@ NRR: 104%
 Runway: 14 months at current burn.
 
 HIGHLIGHTS:
-• Signed 3 enterprise pilot agreements (Pemex supplier network) — potential for
+• Signed 3 enterprise pilot agreements (Pemex supplier network), potential for
   high-NRR contract tier
 • Partnership with Mexican tax authority SAT on e-invoicing API reduces
   implementation cost by 40%
 • NPS: 67
 
 LOWLIGHTS:
-• MoM growth decelerated from 12% to 8% — tied to SDR departure. Hiring
+• MoM growth decelerated from 12% to 8%, tied to SDR departure. Hiring
   replacement now.
 • Integration bug with Contpaq (Mexico's top accounting software) delayed 2
   enterprise closes. Fixed in v2.3.
@@ -102,7 +156,7 @@ ASK THIS MONTH:
 
 ---
 
-## 4. LATAM Context Summary
+## 5. LATAM Context Summary
 
 | Benchmark | US Standard | LATAM Adjusted | Direction |
 |-----------|-------------|----------------|-----------|
@@ -113,7 +167,7 @@ ASK THIS MONTH:
 
 ---
 
-## 5. Next Steps
+## 6. Next Steps
 
 1. **Fix MoM growth deceleration (next 30 days):** MoM at 8% is below the
    10% MoM floor. Hire SDR replacement within 2 weeks. Target: return
@@ -121,7 +175,7 @@ ASK THIS MONTH:
 
 2. **Instrument CAC fully-loaded (next 2 weeks):** Currently tracking S&M spend
    but not allocating sales ops and founder time. True fully-loaded CAC may be
-   2–3× the current estimate. Calculate it before any investor meeting.
+   2-3× the current estimate. Calculate it before any investor meeting.
 
 3. **Set up NRR cohort tracking (next 30 days):** NRR at 104% is strong but
    you cannot prove it without cohort data. Use ChartMogul or a Stripe + Google
@@ -132,6 +186,11 @@ ASK THIS MONTH:
    every Monday. Stop sending unformatted spreadsheet attachments.
 
 5. **Track Rule of 40 starting now (even if negative):** At 8% MoM growth and
-   likely negative EBITDA, Rule of 40 is probably negative — that's expected at
+   likely negative EBITDA, Rule of 40 is probably negative, and that's expected at
    Seed. Tracking it now shows investors you understand the metric before they
    ask. Series A conversations will include this question.
+
+6. **Instrument the 12 events and the activation definition (this week):** Install
+   PostHog, ship the events list in section 3, write the activation sentence in the
+   brain, and watch 5 session replays of signups who stalled before `invoice_sent`.
+   Today 59% of signups never reach first value; that is a bigger lever than any ad.

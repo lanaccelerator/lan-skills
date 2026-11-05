@@ -26,10 +26,10 @@ Primary framework: Bessemer Cloud Index + YC Standard Metrics + a16z 16 Metrics.
 | ARR Growth (YoY) | n/a | >100% | >80% | >60% | High Alpha/Growth Unhinged 2025: median 75-100% under $1M ARR |
 | Logo Churn (monthly) | <5% | <3% | <2% | <1.5% | Directional |
 | Revenue Churn (monthly) | <5% | <3% | <2% | <1% | a16z 16 Metrics |
-| NRR (annual) | — | >100% | >110% | >120% | YC + Carta |
-| GRR (annual) | — | >80% | >85% | >90% | Carta |
+| NRR (annual) | n/a | >100% | >110% | >120% | YC + Carta |
+| GRR (annual) | n/a | >80% | >85% | >90% | Carta |
 | Gross Margin | >55% | >65% | >70% | >72% | Bessemer Scaling to $100M (~70% avg), directional by stage |
-| LTV/CAC | — | >2:1 | >3:1 | >4:1 | a16z 16 Metrics |
+| LTV/CAC | n/a | >2:1 | >3:1 | >4:1 | a16z 16 Metrics |
 | CAC Payback (months) | n/a | <18 | <12 | <12 | Directional |
 | Rule of 40 | n/a | n/a | >20 | >40 | Bessemer (Rule of 40, later stage) |
 
@@ -49,7 +49,7 @@ YC, a16z, Carta and High Alpha, or directional where marked. Apply LATAM adjustm
 | Metric | Formula | What Counts in COGS |
 |--------|---------|---------------------|
 | MRR | Recurring subscription revenue for the month (annual contracts ÷ 12) | Subscriptions only; exclude one-time fees |
-| ARR | MRR × 12 | — |
+| ARR | MRR × 12 | n/a |
 | Logo Churn | Customers churned ÷ starting customers | Count each customer once regardless of seats |
 | Revenue Churn | MRR lost (excl. new) ÷ starting MRR | Include downgrades; exclude new customers |
 | NRR | (Start MRR + expansion - contraction - churn) ÷ start MRR | Existing customers only; no new logos |
@@ -99,7 +99,7 @@ Primary framework: YC e-commerce metrics + DTC benchmarks.
 | Gross Margin | >40% | >45% | >50% | YC + industry norms |
 | CAC Payback (months) | <6 | <4 | <3 | YC |
 | Repeat Purchase Rate (12mo) | >25% | >35% | >50% | DTC benchmarks |
-| AOV (Average Order Value) | Track | Growing | Optimized | — |
+| AOV (Average Order Value) | Track | Growing | Optimized | n/a |
 | LTV/CAC | >1.5:1 | >2:1 | >3:1 | YC |
 
 ### E-Commerce Metric Definitions
