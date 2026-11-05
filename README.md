@@ -1,12 +1,12 @@
 # LAN Skills & Agents
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills](https://img.shields.io/badge/Skills-35-blue.svg)](#skill-catalog)
+[![Skills](https://img.shields.io/badge/Skills-41-blue.svg)](#skill-catalog)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blueviolet.svg)](https://docs.anthropic.com/en/docs/claude-code)
 
-35 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
+41 execution-focused Claude Code skills for LATAM startup founders, VC operators, LP investors, and corporate innovators.
 
-Unlike roleplay-based AI tools, LAN Skills EXECUTE: they generate pitch decks, calculate unit economics, build data rooms, write deal memos, and design GTM strategies — grounded in industry-standard frameworks (YC, Sequoia, a16z, Brad Feld, ILPA) and calibrated to LATAM market benchmarks (LAVCA 2025, Cuantico 2026).
+Unlike roleplay-based AI tools, LAN Skills EXECUTE: they generate pitch decks, calculate unit economics, build data rooms, write deal memos, and design GTM strategies, grounded in industry-standard frameworks (YC, Sequoia, a16z, Brad Feld, ILPA) and calibrated to LATAM market benchmarks (LAVCA 2025, Cuantico 2026).
 
 **Repository:** [github.com/lanaccelerator/lan-skills](https://github.com/lanaccelerator/lan-skills)
 
@@ -30,13 +30,13 @@ cd lan-skills
 
 **Option B: npx (one-liner)**
 
-Runs the installer directly from GitHub — no npm publish required, works in any shell on macOS, Linux, and Windows (PowerShell or cmd).
+Runs the installer directly from GitHub: no npm publish required, works in any shell on macOS, Linux, and Windows (PowerShell or cmd).
 
 ```bash
 npx github:lanaccelerator/lan-skills
 ```
 
-The installer copies all 35 skills to `~/.claude/skills/`. No additional setup required.
+The installer copies all 41 skills to `~/.claude/skills/`. No additional setup required.
 
 ### Verify Installation
 
@@ -48,7 +48,7 @@ Run this before committing any changes to verify all SKILL.md files are spec-com
 
 ### Shared frameworks
 
-`shared/frameworks/` is the source of truth for material several skills use (editorial voice, LATAM benchmarks, YC metrics, SAFE, ILPA, deck design rules). The installers copy only `suites/`, so every skill carries its own copy in `references/shared/`. After editing a shared file, run:
+`shared/frameworks/` is the source of truth for material several skills use (editorial voice, LATAM benchmarks, YC metrics, SAFE, ILPA, deck design rules, AI-era evaluation, B2B buying 2026). The installers copy only `suites/`, so every skill carries its own copy in `references/shared/`. After editing a shared file, run:
 
 ```bash
 python3 scripts/sync-shared.py
@@ -58,7 +58,7 @@ python3 scripts/sync-shared.py
 
 ## Skill Catalog
 
-### Startups Suite (20 skills)
+### Startups Suite (27 skills)
 
 | Skill | Command | Description |
 |-------|---------|-------------|
@@ -66,23 +66,29 @@ python3 scripts/sync-shared.py
 | Pitch Deck Builder | `/pitch-deck-builder` | Create investor presentations using Sequoia 10-slide, YC Series A, and Kawasaki 10-20-30 frameworks |
 | Go-To-Market Strategist | `/go-to-market-strategist` | Design GTM plans, choose growth channels, and build 90-day launch plans |
 | Startup KPI Automator | `/startup-kpi-automator` | Design KPI systems, build dashboards, and prepare investor updates |
-| Startup Metrics & OKRs | `/startup-metrics-okrs` | Build full measurement system in one run — North Star + stage-appropriate KPIs + scoreable quarterly OKRs (Doerr/Grove) |
+| Startup Metrics & OKRs | `/startup-metrics-okrs` | Build full measurement system in one run: North Star + stage-appropriate KPIs + scoreable quarterly OKRs (Doerr/Grove) |
 | Investor Update Compiler | `/investor-update-compiler` | Compile monthly, quarterly (QoQ) or semi-annual (HoH) investor updates in Suster/Lemkin format: KPIs, financials, runway, wins, lowlights, asks |
 | Data Room Builder | `/data-room-builder` | Organize investor data rooms following Visible.vc template and NFX guide |
 | Investor Dashboard | `/investor-dashboard` | Lite investor portal from one Google Sheet: summary, KPI tiles with sparklines, P&L, cash and runway, team, cap table and documents, published in Notion, Drive or a Claude artifact (a16z metrics, Tufte sparklines) |
 | Deck Reviewer | `/deck-reviewer` | Per-slide pitch deck evaluation with scoring and improvement suggestions |
 | Unit Economics Calculator | `/unit-economics-calculator` | Calculate CAC, LTV, LTV/CAC, payback period, contribution margin, and break-even |
-| Fundraising Readiness Audit | `/fundraising-readiness-audit` | Pre-fundraise readiness assessment by stage — "am I ready to raise?" |
+| Fundraising Readiness Audit | `/fundraising-readiness-audit` | Pre-fundraise readiness assessment by stage: "am I ready to raise?" |
 | Startup Valuation Benchmark | `/startup-valuation-benchmark` | Benchmark your round against public data (Carta stage medians, growth, traction, public SaaS multiples) and build a defensible valuation range and ask |
 | Competitive Landscape Mapper | `/competitive-landscape-mapper` | Map competitive landscape, analyze competitors, build competitive matrices |
 | Rapid MVP Builder | `/rapid-mvp-builder` | MVP design, feature prioritization with MoSCoW, and tech stack selection |
 | Sales Playbook Generator | `/sales-playbook-generator` | B2B sales process, prospecting sequences, objection handling, CRM setup |
 | Pricing Strategy Designer | `/pricing-strategy-designer` | Pricing models (subscription/usage/freemium), packaging tiers, willingness-to-pay |
-| Fundraising Agent | `/fundraising-agent` | End-to-end fundraising co-pilot — investor research, outreach, term sheet navigation |
+| Fundraising Agent | `/fundraising-agent` | End-to-end fundraising co-pilot: investor research, outreach, term sheet navigation |
 | Meeting Notes to Brain | `/meeting-notes-to-brain` | Turn meeting transcripts (Granola, Meet, Fathom, tl;dv) into decisions, owned action items and open questions, filed in the company brain, with follow-up email drafts |
 | All-Hands Prep | `/all-hands-prep` | Weekly team meeting agenda per team from last week's decisions, OKR/KPI deltas, blockers and wins (Grove, Doerr) |
 | Lead to Proposal | `/lead-to-proposal` | Discovery call to same-day proposal and follow-up drafts, matched to your case studies and pricing (SPIN, MEDDICC, Challenger) |
 | Daily Brief | `/daily-brief` | End-of-day log (bitácora) and morning agenda from email, calendar, meeting notes, AI sessions and commits, filed in the company brain as a draft to self; team mode for cofounders (Newport, Grove) |
+| Customer Retention & Expansion | `/customer-retention-expansion` | Post-sale engine: onboarding to first value, health score, QBRs with measured benefits, renewals, upsell Mínimo to Estándar to Premium, referrals |
+| Outbound Learning Loop | `/outbound-learning-loop` | Warm-first outbound that learns from every reply: multi-threaded accounts (decider, champion, user, finance), drafts only, weekly learnings to the brain |
+| Security & Compliance Starter | `/security-compliance-starter` | Staged security plan for selling to corporates: day-1 agent basics, questionnaire bank, LGPD and Paraguay Ley 7593, when SOC 2 or ISO 27001 pays off |
+| AI Engineering Playbook | `/ai-engineering-playbook` | Build with AI agents: docs as memory, AGENTS.md, top model orchestrates and cheap subagents execute, cheap judges, adversarial panel, several PRs a day |
+| Competitor Watch | `/competitor-watch` | Weekly monitoring of pricing pages, changelogs, job posts and posts of 5 competitors plus the Claude/ChatGPT baseline, summary filed to the brain |
+| AI Service Horizon | `/ai-service-horizon` | Decide where to sit on tool, tool plus service, or AI-native service (YC RFS 2026, Sequoia services thesis), with margin model and 90-day move |
 
 ### VC Operators Suite (5 skills)
 
@@ -91,16 +97,16 @@ python3 scripts/sync-shared.py
 | Deal Memo Writer | `/deal-memo-writer` | Write IC memos with market analysis, team assessment, risk register, and invest/pass recommendation |
 | Portfolio Reporter | `/portfolio-reporter` | Generate LP quarterly reports, portfolio performance summaries, ILPA-compliant updates |
 | Term Sheet Generator | `/term-sheet-generator` | Draft priced round term sheets, review terms, negotiation levers, market standards |
-| Fund Performance Analyzer | `/fund-performance-analyzer` | Calculate TVPI, DPI, IRR, MOIC, PME — benchmark against vintage peers |
+| Fund Performance Analyzer | `/fund-performance-analyzer` | Calculate TVPI, DPI, IRR, MOIC, PME, benchmarked against vintage peers |
 | Thesis Builder | `/thesis-builder` | Articulate investment thesis, define pattern-matching criteria, portfolio construction models |
 
 ### LP & Angel Suite (5 skills)
 
 | Skill | Command | Description |
 |-------|---------|-------------|
-| Angel Investment Analyzer | `/angel-investment-analyzer` | Due diligence on startup deals — scorecard with thesis fit, red flags, INVEST/PASS/WATCH |
-| VC Fund Due Diligence | `/vc-fund-due-diligence` | Evaluate VC funds and GPs — track record, portfolio construction, fee structure, terms |
-| Portfolio Construction Advisor | `/portfolio-construction-advisor` | Portfolio strategy — allocation, check sizes, diversification, reserve ratios, return distribution |
+| Angel Investment Analyzer | `/angel-investment-analyzer` | Due diligence on startup deals: scorecard with thesis fit, red flags, INVEST/PASS/WATCH |
+| VC Fund Due Diligence | `/vc-fund-due-diligence` | Evaluate VC funds and GPs: track record, portfolio construction, fee structure, terms |
+| Portfolio Construction Advisor | `/portfolio-construction-advisor` | Portfolio strategy: allocation, check sizes, diversification, reserve ratios, return distribution |
 | LP Term Sheet Analyzer | `/lp-term-sheet-analyzer` | Analyze fund term sheets and LPAs from the investor's perspective |
 | Startup Valuation Checker | `/startup-valuation-checker` | Valuation reasonableness using Damodaran, Berkus, Scorecard, DCF, and LATAM comparables |
 
@@ -110,7 +116,7 @@ python3 scripts/sync-shared.py
 |-------|---------|-------------|
 | Open Innovation Scanner | `/open-innovation-scanner` | Map innovation opportunities using Chesbrough Open Innovation framework and NESTA toolkit |
 | Startup Solution Matcher | `/startup-solution-matcher` | Ranked startup shortlists with pros/cons, pricing, and integration complexity (CB Insights/Gartner) |
-| Corporate Venture Evaluator | `/corporate-venture-evaluator` | CVC readiness assessment — strategic fit, financial returns, organizational readiness (BCG/GCV) |
+| Corporate Venture Evaluator | `/corporate-venture-evaluator` | CVC readiness assessment: strategic fit, financial returns, organizational readiness (BCG/GCV) |
 | Pilot Program Designer | `/pilot-program-designer` | Design structured startup pilots with KPIs, timeline, budget, and mandatory kill criteria |
 
 ## Validate Before Committing
@@ -131,7 +137,7 @@ Fix all `FAIL` lines before submitting a pull request. `WARN` lines should be ad
 See [docs/how-to-create-skills.md](docs/how-to-create-skills.md) for the complete guide to authoring new skills.
 
 Key requirements before a skill can merge:
-1. Run `./validate.sh` — all FAIL lines resolved
+1. Run `./validate.sh`, all FAIL lines resolved
 2. TEMPLATES.md contains a filled (not empty) example output
 3. Skill tested with 5 natural-language phrasings for correct activation
 4. `shared/frameworks/latam-benchmarks.md` referenced in LATAM Context section
@@ -139,7 +145,7 @@ Key requirements before a skill can merge:
 
 ## Credits
 
-Built by **[LAN Accelerator](https://lan.vc)** — a LATAM VC fund and startup accelerator.
+Built by **[LAN Accelerator](https://lan.vc)**, a LATAM VC fund and startup accelerator.
 
 Frameworks and benchmarks sourced from YC, Sequoia, a16z, Brad Feld ("Venture Deals"), ILPA, LAVCA 2025, Cuantico 2026, Cambridge Associates, Carta, Bessemer Cloud Index, and OpenView SaaS Benchmarks.
 

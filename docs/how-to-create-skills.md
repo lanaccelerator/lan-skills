@@ -19,13 +19,13 @@ suites/startups/my-new-skill/
 
 **Rules:**
 - `SKILL.md` is required. No other file is optional if it is referenced in SKILL.md.
-- `TEMPLATES.md` is required per QUAL-09. It must contain a filled example — not a skeleton with empty brackets.
+- `TEMPLATES.md` is required per QUAL-09. It must contain a filled example, not a skeleton with empty brackets.
 - `references/` must be one level deep. No file inside `references/` may link to another file in `references/`. Claude uses `head -100` previews and will miss deeply nested content.
 - Hard limit: SKILL.md must be ≤500 lines. Move detailed content to `references/` and `TEMPLATES.md`.
 
 ## 2. YAML Frontmatter Specification
 
-The frontmatter controls how Claude Code discovers and activates the skill. A single YAML error causes Claude Code to silently ignore the skill — no error message.
+The frontmatter controls how Claude Code discovers and activates the skill. A single YAML error causes Claude Code to silently ignore the skill, no error message.
 
 **Minimal valid frontmatter:**
 
@@ -48,7 +48,7 @@ license: MIT
 | Field | Rule | Failure Mode |
 |-------|------|-------------|
 | `name` | 1–64 chars. Lowercase, numbers, hyphens only. No leading/trailing/consecutive hyphens (`--`). Must match the directory name exactly. | Skill silently ignored by Claude Code |
-| `description` | Max 1024 chars. First 250 chars shown in listings — front-load the use case. No XML tags (`<`, `>`). Cannot be empty. | Wrong trigger or no trigger |
+| `description` | Max 1024 chars. First 250 chars shown in listings, front-load the use case. No XML tags (`<`, `>`). Cannot be empty. | Wrong trigger or no trigger |
 | `name` = directory name | `my-new-skill/` → `name: my-new-skill` | Slash-command mismatch; invocation fails |
 
 **What NOT to put in frontmatter:**
@@ -96,7 +96,7 @@ The negative constraint is **mandatory**. Without it, all five startup skills wi
 
 ## 4. SKILL.md Body Structure
 
-Every skill body must contain these sections in this order. Claude reads from top to bottom — section order affects what gets executed first.
+Every skill body must contain these sections in this order. Claude reads from top to bottom, section order affects what gets executed first.
 
 ```markdown
 # [Skill Name]
@@ -104,14 +104,14 @@ Every skill body must contain these sections in this order. Claude reads from to
 ## Input Gathering
 
 [Numbered questions Claude asks before starting work]
-[Ask all questions in one message — do not interrogate one at a time]
-[Provide defaults or "enter N/A if unknown" options — don't block on missing data]
+[Ask all questions in one message, do not interrogate one at a time]
+[Provide defaults or "enter N/A if unknown" options, don't block on missing data]
 
 ## Framework Applied
 
 [What framework is being used and why]
 [Link to references/ file: See [references/framework-name.md](references/framework-name.md)]
-[Never paste the full framework content inline — link to references/]
+[Never paste the full framework content inline, link to references/]
 
 ## Workflow
 
@@ -128,12 +128,12 @@ See [TEMPLATES.md](TEMPLATES.md) for the filled example.
 
 ## LATAM Context
 
-See [references/latam-context.md](references/latam-context.md) — read before
+See [references/latam-context.md](references/latam-context.md), read before
 scoring any metric. US benchmarks require LATAM annotation.
 
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating,
+See @shared/frameworks/editorial-voice.md, direct, no-sugarcoating,
 unicorn-bar evaluation. You are NOT a cheerleader. If the work is weak,
 say it's weak and explain exactly why. If it's exceptional, acknowledge
 specifically which metric, which benchmark, and why it matters.
@@ -141,23 +141,23 @@ specifically which metric, which benchmark, and why it matters.
 ## Próximos Pasos
 
 [3–5 specific, actionable next steps for the founder/operator after this output]
-[Not "continue building" — specific: "Run the Sean Ellis PMF survey with your
+[Not "continue building", specific: "Run the Sean Ellis PMF survey with your
 first 40 users. >40% must say they'd be 'very disappointed' if the product
 disappeared."]
 
 ## Sources
 
 [Inline citation list matching references/ files]
-- [Source Name](URL) — what it covers
+- [Source Name](URL) - what it covers
 ```
 
 ## 5. TEMPLATES.md Requirement
 
-`TEMPLATES.md` must contain a **filled** example output — not an empty skeleton.
+`TEMPLATES.md` must contain a **filled** example output, not an empty skeleton.
 
 **Why this matters:** Empty templates produce generic output. Claude sees `[Insert market analysis here]` and fills it with generic text. Claude sees a filled example with real numbers, specific structure, and named companies and matches that quality and format.
 
-The filled example does not need to be real — use a hypothetical startup ("Hypothetical: ContaFácil, B2B SaaS invoice automation for LATAM SMBs, Pre-seed, $15K MRR, Mexico-first").
+The filled example does not need to be real, use a hypothetical startup ("Hypothetical: ContaFácil, B2B SaaS invoice automation for LATAM SMBs, Pre-seed, $15K MRR, Mexico-first").
 
 **Required instruction in SKILL.md body:**
 
@@ -205,14 +205,14 @@ Every SKILL.md must include the following section. It is **not optional**. This 
 ```markdown
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating,
+See @shared/frameworks/editorial-voice.md, direct, no-sugarcoating,
 unicorn-bar evaluation. You are NOT a cheerleader. If the work is weak,
 say it's weak. If it's exceptional, acknowledge specifically.
 ```
 
 **Why this section exists:** Without an explicit tone directive, Claude defaults to encouraging, hedging language that softens critique. This is actively harmful to founders who need honest feedback to improve their companies. A skill that says "Your TAM analysis is fiction" and explains exactly why is more valuable than a skill that says "Your TAM analysis could be strengthened."
 
-**The full tone specification is in `shared/frameworks/editorial-voice.md`.** The section in SKILL.md is a pointer — not a duplicate. Do not copy the banned phrases list or voice model descriptions into every skill. Point to the shared file.
+**The full tone specification is in `shared/frameworks/editorial-voice.md`.** The section in SKILL.md is a pointer, not a duplicate. Do not copy the banned phrases list or voice model descriptions into every skill. Point to the shared file.
 
 ## 8. Validation Before Commit
 
@@ -248,7 +248,7 @@ Before a skill can be merged, it must be tested with **5 natural-language phrasi
 | "Build me a 2x2 matrix of my competitors" | Should activate `/competitive-landscape-mapper` |
 | "I need to analyze competition for my pitch deck" | Should activate `/pitch-deck-builder` (NOT competitive-landscape-mapper) |
 
-The last phrasing tests that the negative constraint in `/pitch-deck-builder` does NOT prevent it from activating when the user mentions pitch and competition together — and that `/competitive-landscape-mapper` does NOT incorrectly activate on "for my pitch deck."
+The last phrasing tests that the negative constraint in `/pitch-deck-builder` does NOT prevent it from activating when the user mentions pitch and competition together, and that `/competitive-landscape-mapper` does NOT incorrectly activate on "for my pitch deck."
 
 **Document test results** in a `TEST-ACTIVATION.md` file in the skill directory during development. Remove before merging to keep directory clean.
 
@@ -310,7 +310,7 @@ Why: Without negative constraints, all five startup skills will cross-trigger wh
 
 These phrases are documented in `shared/frameworks/editorial-voice.md`. They communicate nothing, protect the speaker's comfort at the expense of the founder's growth, and undermine the core value proposition of LAN Skills.
 
-## 11. Shared Frameworks — When to Create vs. Reference
+## 11. Shared Frameworks: When to Create vs. Reference
 
 **Rule:** If 2+ skills reference the same framework, it belongs in `shared/frameworks/`. If only one skill uses it, it belongs in that skill's `references/` directory.
 
@@ -326,7 +326,10 @@ These phrases are documented in `shared/frameworks/editorial-voice.md`. They com
 | `ilpa-standards.md` | ILPA reporting and LP standards | portfolio-reporter, lp-term-sheet-analyzer, vc-fund-due-diligence |
 | `latam-benchmarks.md` | LAVCA 2025 + Cuantico 2026 LATAM data | All 5 Phase 1 startup skills |
 | `editorial-voice.md` | Tone enforcement | All skills |
-| `company-brain-integration.md` | Company brain (MCP) read-first and write-back, drafts-only outbound, scheduled runs in Claude Code and Codex | meeting-notes-to-brain, all-hands-prep, lead-to-proposal, investor-update-compiler, data-room-builder |
+| `company-brain-integration.md` | Company brain (MCP) read-first and write-back, drafts-only outbound, scheduled runs in Claude Code and Codex | 23 skills, among them meeting-notes-to-brain, lead-to-proposal, investor-update-compiler, outbound-learning-loop, customer-retention-expansion, competitor-watch |
+| `deck-design-rules.md` | LAN deck and visual design rules: one idea per slide, real logos, no decorative AI imagery, print-ready | 24 skills that produce decks, PDFs or dashboards, among them pitch-deck-builder, deck-reviewer, lead-to-proposal, investor-update-compiler |
+| `ai-era-evaluation.md` | AI-era moats, wrapper risk, revenue quality, Bessemer archetypes | deal-memo-writer, venture-model-validator, ai-service-horizon |
+| `b2b-buying-2026.md` | How companies buy in 2026: ~13 people per purchase, multi-threading, founder max 33% talk, must-ask list, business case and exec meeting, full B2B process, warm-first outbound | sales-playbook-generator, lead-to-proposal, meeting-notes-to-brain, outbound-learning-loop, customer-retention-expansion, go-to-market-strategist, security-compliance-starter |
 
 **To reference a shared framework from a skill:**
 
@@ -339,7 +342,7 @@ In SKILL.md body:
 ```markdown
 ## Tone & Editorial Voice
 
-See @shared/frameworks/editorial-voice.md — direct, no-sugarcoating, unicorn-bar evaluation.
+See @shared/frameworks/editorial-voice.md, direct, no-sugarcoating, unicorn-bar evaluation.
 ```
 
 **Do NOT inline the content** from shared frameworks into individual skill files. The `shared/frameworks/` directory is the single source of truth. If a framework needs updating, it is updated once and all skills get the update.
