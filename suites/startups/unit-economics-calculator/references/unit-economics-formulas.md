@@ -1,4 +1,4 @@
-# Unit Economics Formulas — Definitions and Calculation Guide
+# Unit Economics Formulas: Definitions and Calculation Guide
 
 **Primary source:** David Skok, SaaS Metrics 2.0
 https://www.forentrepreneurs.com/saas-metrics-2/
@@ -25,7 +25,7 @@ Branch to the correct model section based on the user's confirmed business model
 
 **Critical rules:**
 - Use the SAME period for both numerator and denominator. If you spent $8,500 in April,
-  count only customers acquired in April — not customers from a prior campaign.
+  count only customers acquired in April, not customers from a prior campaign.
 - Common error: Using blended CAC (total S&M spend ever ÷ total customers ever). This
   understates CAC in growth phases and hides channel deterioration.
 - Common error: Excluding salaries and counting only ad spend. Fully-loaded CAC is 2–4×
@@ -35,7 +35,7 @@ Branch to the correct model section based on the user's confirmed business model
 
 **Formula:** LTV = ARPA × Gross Margin % ÷ Monthly Churn Rate
 
-**CRITICAL: This is gross-margin-adjusted LTV — NOT revenue × average lifetime months.**
+**CRITICAL: This is gross-margin-adjusted LTV, NOT revenue × average lifetime months.**
 
 - ARPA = Average Revenue Per Account per month
 - Gross Margin % = (Revenue - COGS) ÷ Revenue × 100
@@ -71,7 +71,7 @@ overstatement using revenue-based calculation.
 *(Source: David Skok SaaS Metrics 2.0; top-quartile from Bessemer BVP)*
 
 **If LTV/CAC < 1:1:** The business model destroys value. Every customer acquired results
-in a net loss — more scale = more loss. Do not raise growth capital at this ratio.
+in a net loss: more scale = more loss. Do not raise growth capital at this ratio.
 
 **If LTV/CAC 1:1–3:1:** Business model viable but not yet venture-optimized. Acceptable
 at Pre-seed/Seed with clear path to 3:1+ as gross margins improve or churn decreases.
@@ -118,7 +118,7 @@ unit economics quality.
 
 ### CAC (Marketplaces)
 
-Calculate separately for **buyers** and **sellers** — these are two different acquisition
+Calculate separately for **buyers** and **sellers**: these are two different acquisition
 motions with different CAC profiles.
 
 - Buyer CAC = Buyer-side S&M spend ÷ New paying buyers acquired
@@ -151,7 +151,7 @@ If S&M spend is not split, use the combined approach:
 
 **Formula:** CAC = Total S&M spend ÷ New customers acquired in period
 
-Include only S&M costs in numerator — not fulfillment or COGS.
+Include only S&M costs in numerator, not fulfillment or COGS.
 
 ### LTV (E-commerce / Transactional)
 
@@ -178,7 +178,7 @@ This is the true per-unit profit before S&M and fixed costs.
 
 - TPV = Total Payment Volume processed
 - Net Take Rate = Gross take rate minus interchange, payment processing costs, banking fees
-- LATAM context: Payment processing fees 2.5–3.5% vs 1.5–2.5% in US — compresses fintech
+- LATAM context: Payment processing fees 2.5–3.5% vs 1.5–2.5% in US, which compresses fintech
   margins structurally
 
 ### LTV (Fintech)
@@ -197,6 +197,92 @@ LTV (lending-adjusted) = LTV_base − (Expected loan volume × Default rate × L
 
 ---
 
+## Mixed Billing Formulas (setup + base + usage + outcome)
+
+### Revenue split
+
+| Component | Type | In MRR / ARR? | Report as |
+|---|---|---|---|
+| Setup fee | One-time | Never | "Ingreso único (setup)", on its own line |
+| Recurring base | Recurring, committed | Yes | Committed MRR |
+| Usage / variable | Recurring, variable | Run-rate only | Trailing 3-month average |
+| Outcome / % of savings | Variable, measured in arrears | Run-rate only, conservative case | Trailing 3-month average and conservative case, labeled |
+| Pilot fees (Mínimo) | Short-term | No, until converted | "Ingreso de piloto" |
+
+**Committed MRR** = sum of recurring base fees.
+**Run-rate MRR** = committed MRR + trailing 3-month usage + conservative outcome.
+**ARR** = MRR x 12, stating which MRR. Never add setup; never annualize the best month.
+
+Accounting note: for financial statements, setup that is not a distinct service is
+usually recognized over the contract term, and variable consideration (usage, outcome) is
+recognized only when a significant reversal is unlikely (IFRS 15 / ASC 606). For
+management metrics, keep setup apart from MRR either way. Confirm treatment with the
+company's accountant.
+
+### Setup fee in payback and LTV
+
+- Setup gross profit = Setup collected - Onboarding cost
+- Onboarding cost = onboarding hours x loaded hourly cost + third-party costs
+- **CAC payback (Skok)** = CAC / recurring gross profit per month
+- **Payback without setup** = (CAC + Onboarding cost) / recurring gross profit per month
+- **Payback with setup** = max(0, CAC + Onboarding cost - Setup collected) / recurring
+  gross profit per month
+- **LTV (headline)** = recurring gross profit per month / monthly churn
+- **Customer value including setup** = LTV + Setup gross profit (second line, never the headline)
+
+Use setup collected (cash), not invoiced. If a pilot setup is credited toward the full
+setup on conversion, count the total collected across both.
+
+### Outcome and % of savings fees
+
+- Outcome billed = share x measured result, after caps and floors per customer
+- Outcome collected = Outcome billed x (1 - dispute rate)
+- Outcome gross profit = Outcome collected - (measurement + reconciliation + review + legal cost)
+- Outcome gross margin = Outcome gross profit / Outcome billed
+- **Conservative case:** low end of the customer's own numbers and a decaying baseline
+  (backlogs get worked down). **Base case:** trailing 3-month actual.
+- **Recognition lag:** months from result to cash = data close + approval + payment term.
+  Working capital tied up ≈ monthly outcome billed x lag in months.
+- LTV, payback and any investor-facing ARR use the conservative case.
+
+### Mixed billing LTV
+
+Recurring GP per customer per month = (Base + Usage + Outcome conservative) - (delivery
+COGS + outcome cost + disputes), divided by active recurring customers.
+LTV = Recurring GP per customer per month / Monthly churn.
+
+---
+
+## Expansion Math
+
+### Compounding the three levers
+
+Revenue = Customers x Average ticket x Purchase frequency
+
+Growth multiple = (1 + a) x (1 + b) x (1 + c), where a, b, c are the improvements.
+
+| Improvement per lever | Added (wrong) | Compounded (right) |
+|---|---|---|
+| +10% each | +30% | 1.1^3 = 1.331, +33% |
+| +20% each | +60% | 1.2^3 = 1.728, +73% |
+| +30% each | +90% | 1.3^3 = 2.197, +120% |
+
+Andrés Nájera (LAN mentor masterclass, Nov 2026) presents +20% on each lever as +66%; the
+compounded figure is +72.8%, rounded +73%.
+
+For a recurring B2B product, read frequency as billed months per customer per year (net of
+pauses and churn) or billable purchases per customer per year (renewals, add-on modules,
+new entities). Name the mapping in the output.
+
+### Expansion in LTV and NRR
+
+- Monthly expansion rate = expansion MRR from existing customers / MRR at start of month
+- **LTV with expansion** = Recurring GP per customer per month / (Monthly churn - Monthly
+  expansion rate), only when churn is higher than expansion. If expansion is equal or
+  higher (negative net churn), cap LTV at 60 months of gross profit.
+- **NRR** = (Starting MRR + Expansion - Contraction - Churned MRR) / Starting MRR, over 12 months.
+- Show LTV with expansion as a sensitivity; the headline uses LTV without expansion.
+
 ## Benchmark Summary Table
 
 | Metric | Pre-Seed | Seed | Series A | Source |
@@ -208,6 +294,7 @@ LTV (lending-adjusted) = LTV_base − (Expected loan volume × Default rate × L
 | Gross Margin (AI-native, inference in COGS) | any, trending up | ≥50% | ≥60% | ICONIQ State of AI, Jan 2026 (avg ~52% projected 2026) |
 | Monthly Logo Churn | Any | ≤5% | ≤2% | Bessemer BVP |
 | NRR (SaaS) | N/A | >100% | >110% | a16z / BVP |
+| Setup fee vs onboarding cost | Covers cost | Covers cost + margin | Covers CAC + onboarding | LAN read, directional |
 
 ---
 
@@ -217,3 +304,4 @@ LTV (lending-adjusted) = LTV_base − (Expected loan volume × Default rate × L
 - High Alpha and Growth Unhinged, 2025 SaaS Benchmarks Report (12 Nov 2025, 800+ companies; replaces the offline OpenView benchmarks): https://www.highalpha.com/saas-benchmarks
 - Bessemer, Scaling to $100 Million (21 Sep 2021): https://www.bvp.com/atlas/scaling-to-100-million
 - a16z 16 Metrics: https://a16z.com/16-startup-metrics/
+- IFRS 15 Revenue from Contracts with Customers: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-15-revenue-from-contracts-with-customers/

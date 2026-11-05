@@ -1,7 +1,7 @@
-# LATAM Context — Pricing Strategy Designer
+# LATAM Context: Pricing Strategy Designer
 
 **Sources:**
-- ProfitWell / Paddle SaaS data (global, no LATAM-specific breakdown — treat as directional):
+- ProfitWell / Paddle SaaS data (global, no LATAM-specific breakdown: treat as directional):
   Patrick Campbell / ProfitWell (now Paddle) value-based pricing method; the original profitwell.com articles are offline
 - Kyle Poyar, Growth Unhinged (pricing research; replaces the offline OpenView survey): https://www.growthunhinged.com/
 
@@ -18,7 +18,7 @@ fear of churn).
 
 | Product Category | US Typical Entry | LATAM Typical Entry | LATAM vs US |
 |-----------------|-----------------|---------------------|-------------|
-| B2B SaaS — SME tools | $80-150/mo | $30-79/mo | 40-60% discount |
+| B2B SaaS: SME tools | $80-150/mo | $30-79/mo | 40-60% discount |
 | CRM / Sales tools | $50-100/user/mo | $20-50/user/mo | 40-60% discount |
 | Invoicing / accounting | $30-80/mo | $15-40/mo | 40-60% discount |
 | HR / payroll tools | $8-15/employee/mo | $4-8/employee/mo | 40-50% discount |
@@ -28,7 +28,7 @@ fear of churn).
 **Caveat on these benchmarks:** There is no published LATAM-specific SaaS pricing survey
 with rigorous methodology as of October 2026. These figures are aggregated from public pricing
 pages of notable LATAM SaaS companies. Use as directional
-guidance — verify with actual customer discovery.
+guidance: verify with actual customer discovery.
 
 ---
 
@@ -37,7 +37,7 @@ guidance — verify with actual customer discovery.
 **Definition:** Setting prices well below delivered value because founders fear that higher
 prices will cause churn or slow customer acquisition.
 
-**This is the most common LATAM SaaS pricing error.** It is not caused by the market —
+**This is the most common LATAM SaaS pricing error.** It is not caused by the market:
 it is caused by founders who have not tested higher price points.
 
 **Pattern recognition:**
@@ -62,7 +62,7 @@ price increase is an assumption until a shadow test measures it.
 
 The currency you price in is a strategic decision, not an operational default.
 
-### USD Pricing — When to Use
+### USD Pricing: When to Use
 
 **Indicators:**
 - Product serves customers in 2+ LATAM countries
@@ -80,7 +80,7 @@ The currency you price in is a strategic decision, not an operational default.
   (even if economically equivalent)
 - Requires a payment processor that handles currency conversion (Stripe, Mercado Pago do this)
 
-### Local Currency Pricing — When to Use
+### Local Currency Pricing: When to Use
 
 **Indicators:**
 - Single-country B2C product (consumers, not businesses)
@@ -126,14 +126,38 @@ churn at Month 1 (customers don't renew when they haven't fully evaluated the pr
 
 ### Annual Discount Structure for LATAM
 
-| Monthly Price | Annual Price (per month) | Effective Annual Discount |
-|--------------|-------------------------|--------------------------|
-| $49 | $39 | 20% |
-| $149 | $119 | 20% |
-| $399 | $319 | 20% |
+The discount applies to the recurring base only, never to setup or outcome fees.
 
-20% is the sweet spot for LATAM B2B. Below 15% and customers don't feel compelled to switch.
+| Monthly Base | Annual Base (per month) | Effective Annual Discount |
+|--------------|-------------------------|--------------------------|
+| $350 (Mínimo, if extended) | $290 | 17% |
+| $600 (Estándar) | $500 | 17% |
+| $1,800 (Premium) | $1,500 | 17% |
+
+15-20% is the sweet spot for LATAM B2B. Below 15% and customers don't feel compelled to switch.
 Above 25% and you've trained customers to wait for a discount.
+
+---
+
+## Mixed Billing and the Three Plans in LATAM
+
+- **Approval thresholds:** many LATAM corporates let a manager approve a small fixed
+  purchase, while larger amounts go to the Gerente General, a board or regional
+  headquarters. Ask for the threshold in discovery and size Mínimo below it.
+- **Setup fee on its own invoice line:** taxes such as IVA apply to setup too. Quote prices
+  with and without tax. Ask for 50% of setup on signature, since corporate payment terms
+  run 30-60 days.
+- **Vendor registration first:** a large buyer may need tax ID, certificates, insurance and
+  bank data before the first invoice (alta de proveedor). Have the folder ready so the
+  setup invoice is not delayed.
+- **Outcome fees:** agree the baseline and the data source (bank statement, ERP export)
+  in writing. Family groups and SMB owners accept a share of savings readily when the
+  number comes from their own report; corporates often need a monthly cap to budget it.
+- **Local currency invoicing:** keep the USD list price, invoice in local currency at the
+  day's rate when the buyer requires it, and state the rate source in the contract.
+- **Free pilots:** common in LATAM and costly. A paid Mínimo with success criteria and a
+  pre-agreed Estándar price converts better than a free trial with no terms (directional,
+  LAN founder work).
 
 ---
 
@@ -165,7 +189,7 @@ Freemium is likely to fail if:
 - The sales motion is outbound/demo-led (freemium adds a free tier that complicates AE quota)
 - The product requires onboarding investment before value is seen (open-ended free creates
   abandoned accounts, not future customers)
-- CAC is already high — free users who don't convert just dilute conversion metrics
+- CAC is already high: free users who don't convert just dilute conversion metrics
 
 **Rule of thumb:** If your paid conversion rate on trials is below 20%, fix the trial
 experience before adding a free tier.
@@ -185,7 +209,7 @@ experience before adding a free tier.
 
 ### Mexico
 - Price-sensitive market, especially outside CDMX tech ecosystem
-- High card decline rates at consumer level — ensure OXXO payment available for any
+- High card decline rates at consumer level: ensure OXXO payment available for any
   B2C product; PSE-equivalent (SPEI + OXXO) critical for e-commerce
 - MXN vs USD decision: for CDMX tech startups, USD; for consumer/SME products across
   Mexico, MXN pricing reduces friction
@@ -193,7 +217,7 @@ experience before adding a free tier.
 ### Argentina
 - Active VC market but currency risk is extreme (ARS depreciation)
 - USD pricing is standard for Argentinian SaaS founders, even for domestic customers
-- Buyers are price-experienced — Argentine SaaS founders often have the most sophisticated
+- Buyers are price-experienced: Argentine SaaS founders often have the most sophisticated
   pricing instincts in LATAM due to inflationary environment forcing constant repricing
 
 ### Colombia

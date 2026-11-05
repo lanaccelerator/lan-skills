@@ -1,193 +1,249 @@
 ---
 name: pricing-strategy-designer
 description: >
-  Use when a founder asks how to price or package their product: "cuánto cobro", "cómo armo
-  mis planes de precios", "suscripción, por uso o freemium", "estoy cobrando muy barato?",
-  "cómo cobro un producto de AI o un agente", "precios en dólares o moneda local". Finds the
-  value metric (ProfitWell method), picks the model (seat, flat, usage, outcome, hybrid,
-  transaction), designs 3 tiers, benchmarks competitors, flags LATAM chronic underpricing and
-  ends with a concrete price test. Covers AI-native pricing with inference cost as a floor.
-  NOT for computing CAC, LTV, payback or contribution margin (use unit-economics-calculator),
-  valuation or the round price (use startup-valuation-benchmark), or the sales process and
-  pipeline (use sales-playbook-generator).
+  For STARTUP FOUNDERS pricing a B2B or AI product. ALWAYS invoke when a founder asks how much
+  to charge, how to package plans or how to bill: "cuánto cobro", "armame los planes de
+  precios", "cobro setup, por uso o por resultado?", "estoy cobrando muy barato?", "cómo cobro
+  un agente de AI", "precios en dólares o moneda local". Finds the value metric (ProfitWell),
+  designs three plans (Mínimo pilot to get in, Estándar to sell, Premium as anchor) with mixed
+  billing (setup fee + usage + outcome or % of savings, never per seat only), checks the
+  inference margin floor, runs willingness-to-pay methods (Van Westendorp), flags LATAM
+  underpricing and ends with a price test. NOT for CAC, LTV or payback math (use
+  unit-economics-calculator), the price inside one specific proposal (use lead-to-proposal),
+  upsells and renewals with existing customers (use customer-retention-expansion), valuation
+  (use startup-valuation-benchmark) or the sales process (use sales-playbook-generator).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.2"
+  version: "1.3"
   suite: startups
+  complements: [unit-economics-calculator, lead-to-proposal, customer-retention-expansion, sales-playbook-generator]
 license: MIT
 ---
 
 # Pricing Strategy Designer
 
-Designs a pricing strategy using the Patrick Campbell / ProfitWell value metric
-methodology. Produces a pricing model recommendation with value metric identification,
-three-tier packaging, competitive pricing table, and LATAM-specific context on
-currency denomination and chronic underpricing.
+Designs how a startup charges: the value metric, three plans and a mixed billing model.
+Built on the Patrick Campbell / ProfitWell value metric method, Kyle Poyar's usage and
+hybrid pricing research, Simon-Kucher's "Monetizing Innovation" (price to value, not to
+cost), and anchoring research (Tversky and Kahneman, 1974; Huber, Payne and Puto, 1982).
+
+The packaging is always three plans:
+
+- **Mínimo:** a small pilot with a narrow scope and a fixed, easy price. Its job is to get
+  in the door and convert most proposals into a first "yes", then upsell.
+- **Estándar:** the average standard work you actually want to sell. Most revenue lands here.
+- **Premium:** the expensive anchor. Few buy it, it makes Estándar look reasonable, and the
+  one who buys it pays like several Estándar customers.
+
+Billing is mixed: a setup fee, a recurring base, a usage or variable component and, where
+the value can be measured, an outcome fee or a % of savings. Per seat only is no longer
+enough: when an AI agent does the work, the customer needs fewer seats exactly as you
+deliver more value. Capture part of the upside you generate, and mix the components per
+client.
 
 ## Step 1: Input Gathering
 
-Ask all questions in ONE message. Do not start designing until you have answers
-(or stated assumptions) for each.
+Read the company brain first (references/shared/company-brain-integration.md, sections
+1-3): current price list, proposals sent and their outcome, case studies with measured
+benefits, competitor notes, cost per unit. Then ask ONLY for what is missing, all in ONE
+message. Defaults in brackets.
 
-1. **Business model and product description:** What the product does and who uses it
-2. **Current pricing:** What do you charge today? If nothing, what have you been thinking?
-3. **Customer segments:** Do you have different customer types with different budgets and
-   usage patterns?
-4. **Value metric candidates:** What do customers get more of when they use your product
-   more? (Examples: contracts signed, invoices sent, API calls made, records stored,
-   seats/users, revenue processed)
-5. **Competitor pricing:** What do 2-3 closest competitors charge? (model + entry price
-   if known — "I don't know" is acceptable)
-6. **Business model type:** SaaS / marketplace / transactional / API / fintech
-7. **Geography:** LATAM-only / US-only / global? (Major impact on price point and
-   currency denomination decision)
-8. **Stage:** Pre-revenue (designing from scratch) / Early revenue (optimizing existing)
-   / Growth (restructuring tiers)
+1. **Product and buyer:** what the product does, who uses it, who pays. [From the brain]
+2. **Current pricing:** what you charge today and how (seat, flat, usage). [Nothing yet]
+3. **Value delivered:** what the customer saves or earns, in their numbers (hours, costs,
+   recovered revenue, risk avoided). [From case studies in the brain, else ask]
+4. **Value metric candidates:** what the customer gets more of as they use it more
+   (documents processed, invoices managed, conversations, revenue processed). [Inferred]
+5. **Onboarding effort:** hours or cost to integrate, migrate data and train a new
+   customer. [ASSUMPTION: 20-40 hours for B2B with an integration]
+6. **Cost per unit:** hosting, inference, third-party APIs, messaging, human review per
+   unit of work. [Required for AI products; estimate from provider price lists]
+7. **Alternatives:** what the buyer does today and 2-3 competitors with known prices.
+   ["I don't know" is fine]
+8. **Deal history:** proposals sent, accepted, lost on price. [From the brain or CRM]
+9. **Geography and currency:** countries sold to, currency of invoicing. [USD list price]
+10. **Stage:** pre-revenue / early revenue / restructuring existing plans. [Early revenue]
 
-9. **AI cost per unit (AI products only):** model/inference cost per task, conversation or
-   active user, if known
-
-If the user does not answer a question, proceed with a stated assumption and flag it
-as: `[ASSUMPTION: ...]`. Do not silently skip inputs. If a company brain (LAN Brain or
-another MCP-connected knowledge base) is available, pull current pricing, customer case
-studies and competitor notes from it before asking.
+If the user does not answer, proceed and mark it `[ASSUMPTION: ...]`. Never invent a case
+study, a competitor price or a customer metric.
 
 ## Step 2: Apply Frameworks
 
 Read [references/pricing-framework.md](references/pricing-framework.md) BEFORE designing.
-Apply these frameworks in order:
 
-1. **Patrick Campbell / ProfitWell value metric framework** — The value metric is what
-   customers pay for that scales with the value they receive. Pricing that is not tied to
-   a value metric is flat pricing — it cannot grow without seat expansion or price increases.
-   Source: Patrick Campbell / ProfitWell (now Paddle) value-based pricing method; the original profitwell.com articles are offline
-2. **Kyle Poyar, Growth Unhinged** (former OpenView pricing lead; OpenView's surveys are
-   offline since the firm closed): usage-based and hybrid pricing patterns, PLG pricing,
-   and the 2025 SaaS Benchmarks Report with High Alpha (12 Nov 2025).
-   Source: https://www.growthunhinged.com/
-3. **Price is the strongest profit lever** (Marn and Rosiello, "Managing Price, Gaining
-   Profit", HBR, Sep-Oct 1992, 2,400+ companies): a 1% price improvement with no volume
-   loss lifts operating profit 11.1%, vs 3.3% for a 1% volume improvement.
-   Source: https://hbr.org/1992/09/managing-price-gaining-profit
-4. **"Monetizing Innovation" (Simon-Kucher)** — Feature packaging and willingness-to-pay
-   methodology. Price to value, not to cost.
-   Source: https://www.simon-kucher.com/en/book/monetizing-innovation
+1. **Value metric (Patrick Campbell / ProfitWell, now Paddle):** the unit the customer pays
+   for must (a) be understood without explanation, (b) grow with the value received and
+   (c) be measurable and billable without dispute. Pricing not tied to a value metric
+   cannot grow without more seats or price increases.
+2. **Usage and hybrid pricing (Kyle Poyar, Growth Unhinged):** a predictable floor plus a
+   variable component that expands with use.
+3. **Price is the strongest profit lever (Marn and Rosiello, HBR 1992, 2,400+ companies):**
+   a 1% price improvement with no volume loss lifts operating profit 11.1%, vs 3.3% for 1%
+   more volume.
+4. **Price to value (Simon-Kucher, "Monetizing Innovation"):** start from willingness to
+   pay, then design the product and plans around it.
+5. **Anchoring and decoy effects:** the first number seen sets the reference (Tversky and
+   Kahneman, 1974), and adding a clearly more expensive option shifts choice toward the
+   middle one (asymmetric dominance, Huber, Payne and Puto, 1982; Ariely, "Predictably
+   Irrational", 2008). This is why Premium exists.
+6. **Services as software (Sequoia, Julien Bek, Mar 2026):** for every $1 spent on
+   software, $6 is spent on services. If the product does the work, price the work and
+   the result, not the tool.
 
 ## Step 3: Workflow
 
-Execute in this exact order:
+Execute in this order.
 
-1. **Identify the value metric** — What does the customer pay for that scales with the
-   value they receive? The value metric must meet three criteria: (a) customers understand
-   it intuitively, (b) it increases as customers get more value, (c) it can be measured
-   and billed reliably.
-2. **Recommend the pricing model** — usage-based / subscription (seat or flat) / hybrid /
-   freemium+paid / transaction fee — with explicit rationale for why this model over alternatives
-3. **Design 3 pricing tiers** — Starter / Growth / Enterprise — with feature sets, price
-   anchors, and target customer segments per tier
-4. **Build a competitive pricing table** — user's proposed price vs 2-3 competitors
-5. **Margin floor check (AI and usage-heavy products):** price per unit must cover
-   inference and third-party API cost with gross margin of at least 60% at the expected
-   usage of the median customer; show the math. AI products average far below SaaS margins
-   (Step 5, AI-native pricing). Cap or meter heavy usage in
-   every tier so one power user cannot turn a customer unprofitable.
-6. **Price sensitivity estimate:** rough willingness-to-pay based on segment, geography,
-   and delivered value (value-based pricing, not cost-plus)
-7. **Flag chronic underpricing** if present: this is common in LATAM and must be addressed
-   directly. Do not soften it. If the founder is underpriced, say so and give the evidence.
-8. Apply LATAM context annotations from
-   [references/latam-context.md](references/latam-context.md)
-9. Output using [TEMPLATES.md](TEMPLATES.md) structure
-10. **Next Steps** including a specific A/B price test recommendation
+1. **Value metric.** Pick one, list the rejected alternatives and why.
+2. **Delivered value per month** for the typical customer, conservative and base case,
+   from their numbers. Every input carries its source or `[ASSUMPTION]`.
+3. **Mixed billing design.** Decide each component, with its unit and its reason:
+   - **Setup fee (one-time):** integration, data migration, configuration, training.
+     Covers your onboarding cost and filters unserious buyers. Price it at or above your
+     onboarding cost; never waive it in Estándar or Premium.
+   - **Recurring base:** the predictable floor (platform fee, capacity included). Seats
+     can be one line inside it, never the only one.
+   - **Usage / variable:** price per unit of work above an included volume, with a cap
+     the buyer can budget.
+   - **Outcome or % of savings:** a share of the measured result (savings, recovered
+     revenue, conversions). Only when there is an agreed baseline, a measurement method
+     both sides can audit, and a cap and floor. Billed in arrears (monthly or quarterly
+     true-up).
+   Rule of thumb: total price captures 10-30% of delivered value (directional). Below 10%
+   is underpricing; above 30% needs proof the buyer already accepts.
+4. **Design the three plans.** Use [references/pricing-framework.md](references/pricing-framework.md)
+   section "Three plans":
+   - **Mínimo:** one team, one branch or one process; 30-90 days; fixed price known up
+     front (procurement approves it fast); reduced setup that is credited to Estándar if
+     they convert. Written success criteria and the Estándar price are agreed in the same
+     document. Target: most proposals accept it. It must not lose money.
+   - **Estándar:** the full standard scope; all billing components; the plan you
+     recommend and show as "recomendado".
+   - **Premium:** 2.5-4x the typical Estándar monthly total (directional); adds what costs
+     you to deliver (dedicated person, SLA, custom integrations, guarantee, higher outcome
+     share). It must be profitable if someone buys it: an anchor you cannot deliver is a
+     lie. Target: 5-15% of deals.
+5. **Upsell path Mínimo to Estándar.** Define the conversion meeting date, the success
+   criteria, the setup credit and the pre-agreed price. The execution after the sale
+   belongs to `/customer-retention-expansion`.
+6. **Mix per client.** Show how the same plan flexes: a buyer with a fixed annual budget
+   gets a higher base and a capped variable; a CFO who wants shared risk gets a lower base
+   and a higher outcome share. The components move, the total value captured stays in range.
+7. **Willingness to pay.** Run or design one method: Van Westendorp Price Sensitivity Meter
+   (4 questions to 10-30 buyers), Gabor-Granger (accept or reject at successive prices),
+   or the value-based estimate when no survey is possible. See the framework file.
+8. **Margin floor.** Gross margin of at least 60% per plan at the median customer's usage,
+   with inference, messaging, third-party APIs and human review in COGS. Also check the
+   heaviest customer. Cap or meter usage so one power user cannot turn an account
+   unprofitable.
+9. **Buyer alternatives.** Compare against the status quo (doing it by hand), an agency or
+   service provider, and 1-3 competitors. Only published prices, with source and date.
+10. **Expected funnel.** For 10 proposals, estimate how many accept Mínimo, Estándar and
+    Premium, the Mínimo to Estándar conversion, setup revenue (one-time, reported apart)
+    and MRR at month 6. Compare with the current model.
+11. **Flag underpricing** directly if present (common in LATAM). Give the evidence.
+12. **Price test** and handoffs (Próximos Pasos).
+
+Setup fees are one-time revenue: report them apart from MRR and ARR, never inside them.
+Hand the plan to `/unit-economics-calculator` to compute payback with and without setup.
 
 ## Step 4: Output Format
 
-ALWAYS use the exact template structure in [TEMPLATES.md](TEMPLATES.md). Every section
-is required. Fill every [bracketed placeholder] with real analysis.
+ALWAYS use this exact template structure. Do not change section headings, table columns,
+or field order. Fill every [bracketed placeholder] with real analysis from the user's
+startup.
 
-The output contains:
-- **Value metric identification** — the one metric that scales with customer value, with
-  rationale for why this metric over alternatives
-- **Pricing model recommendation** — with explicit reasoning vs alternatives considered
-- **Packaging tiers table:** Tier | Monthly Price | Annual Price | Key Features | Limits | Target Segment
-- **Competitive pricing table:** Competitor | Model | Entry Price | Mid-Tier | Enterprise/Top
-- **Price sensitivity estimate** — with value-based justification
-- **LATAM Context box** — currency denomination decision, billing cadence, underpricing check
-- **Next Steps** — including specific A/B test recommendation
+See [TEMPLATES.md](TEMPLATES.md) for the filled example. Sections, in order:
 
-## Step 5: LATAM Context
+1. Métrica de valor
+2. Modelo de cobro mixto: Componente | Qué cobra | Unidad | Por qué
+3. Los tres planes: Plan | Para quién | Alcance | Setup | Base mensual | Variable | Resultado | Total mes típico | Rol
+4. Ruta de upsell Mínimo a Estándar
+5. Cómo ancla Premium
+6. Valor entregado y disposición a pagar
+7. Piso de margen
+8. Alternativas del comprador
+9. Embudo esperado de 10 propuestas
+10. Contexto LATAM
+11. Próximos pasos (with one specific price test)
+12. Fuentes
 
-Read [references/latam-context.md](references/latam-context.md) BEFORE producing the output.
+If the brain is connected, file the result as a page (default
+`sales/pricing/<YYYY-MM-DD>-planes`) and link it from the offering page, so lead-to-proposal
+reads the new price list from there. Never overwrite the current price list without the
+founder's approval: create the new version and flag the change.
 
-Key LATAM pricing realities:
+## LATAM Context
 
-- **Chronic underpricing:** LATAM SaaS is systematically underpriced. The most common
-  LATAM startup pricing error is setting prices at 20-30% of delivered value because
-  founders fear churn. If a founder's case studies show $1,000+ in annual savings per
-  customer but they charge $29/month, they are at 2% of delivered value. Raise prices
-  before raising capital.
-- **LATAM discount is real but overstated:** LATAM prices sit well below US equivalents
-  (directional: no rigorous LATAM pricing survey exists). Lower willingness to pay can
-  justify part of the gap; "we're in LATAM" does not justify pricing at 5-10% of
-  delivered value.
-- **Currency denomination decision:**
-  - USD pricing: Signals international ambition, provides FX hedge against devaluation.
-    Right choice for multi-country LATAM products and any product targeting US customers.
-  - Local currency: Reduces psychological friction, increases conversion. Right choice
-    for single-country B2C products where customers are price-sensitive.
-  - Hybrid: USD list price, local currency payment option via Mercado Pago or Stripe.
-    Often best of both worlds.
-- **Annual vs monthly billing in LATAM:** LATAM B2B customers often require 3+ months
-  of proof before committing to annual contracts. Lead with monthly pricing at 1.2-1.3×
-  the annual equivalent (not annual-first as in US SaaS). Example: $49/month OR $39/month
-  billed annually.
-- **Freemium conversion in LATAM:** expect low single-digit free-to-paid conversion
-  (directional; measure your own). Shorter free
-  tiers with more friction to upgrade are more effective than open-ended free plans.
-  If using freemium, design for conversion, not for adoption.
-- **AI-native products: price the outcome, not the seat.** Across YC S26, a16z speedrun
-  and top-fund portfolios (LAN idea-engine radar, Oct 2026), outcome and usage pricing is
-  replacing per-seat SaaS: pay per operation, per milestone, per recovered dollar or per
-  confirmed conversion, often with no annual contract. Sequoia's services-as-software thesis
-  (Julien Bek): sell the work, not the tool, so each model improvement widens your margin
-  instead of commoditizing you. If the product replaces work an agent does end to end,
-  model at least one outcome-based option before defaulting to seats.
-  Market data: in ICONIQ's State of AI snapshot (Jan 2026), usage-based pricing rose from
-  19% to 35% of AI companies and outcome-based from 2% to 18% in six months, and AI product
-  gross margins average around 50%, well below SaaS. Price above the inference cost floor.
+Read [references/latam-context.md](references/latam-context.md) BEFORE producing the
+output. For regional data, follow references/shared/latam-benchmarks.md and label LATAM
+ranges `(LATAM, directional)`.
+
+- **Chronic underpricing:** LATAM SaaS is often priced at a small fraction of delivered
+  value because founders fear churn. If case studies show USD 1,000+ of annual savings and
+  the price is USD 29/month, the price captures about 3% of value. Raise prices before
+  raising capital.
+- **The LATAM discount is real but overstated:** lower willingness to pay justifies part
+  of the gap with US prices, not pricing at 5% of delivered value.
+- **Mínimo fits LATAM procurement:** a fixed, small amount often sits below the
+  threshold that needs board or regional approval. Ask for that threshold in discovery
+  and size Mínimo under it.
+- **Setup fee and payment terms:** corporates pay at 30-60 days; ask for 50% of setup on
+  signature. Invoice setup as a separate line (taxes such as IVA apply to it too).
+- **Outcome fees need an auditable baseline:** agree the baseline and the data source
+  (bank statement, ERP report) in writing before the start. Without it, the outcome fee
+  becomes a monthly argument.
+- **Currency:** USD list price, local currency invoicing at the day's rate when needed.
+  Multi-country and US-facing products price in USD.
+- **Monthly before annual:** LATAM B2B buyers often need 3+ months of proof before an
+  annual prepay. Lead monthly; offer annual at month 3-4 with about a 15-20% discount.
+- **AI-native: price the work and the result, not the seat.** In ICONIQ's State of AI
+  snapshot (Jan 2026), usage-based pricing rose from 19% to 35% of AI companies and
+  outcome-based from 2% to 18% in six months, and AI product gross margins average around
+  50%, well below SaaS (US-sourced benchmark). Price above the inference cost floor.
 
 ## Tone & Editorial Voice
 
-See references/shared/editorial-voice.md. Challenge underpricing directly and specifically.
+See references/shared/editorial-voice.md: direct, not a cheerleader. Challenge
+underpricing with numbers:
 
-If a founder is chronically underpriced, say so with evidence:
-"At $29/month you are leaving money on the table. Your 3 case studies show $1,400 average
-annual savings per customer. You are priced at 2% of your delivered value. At this price
-point you have a math problem: to reach $1M ARR you need 2,873 customers. At $99/month
-you need 841 customers. Run the shadow test before assuming customers will churn."
+"A USD 300 por usuario, cada vez que tu agente hace mejor su trabajo tu cliente te saca un
+usuario. Tu ingreso cae justo cuando tu valor sube. Con setup + base + 10% de lo
+recuperado, el mismo cliente te paga USD 1.100 por mes y se queda con el 83% del valor."
 
-Pricing changes are reversible. Under-pricing for 18 months before realizing it is not.
+If Premium is a fake anchor (a price nobody could justify and you could not deliver), say
+so. If Mínimo is so cheap it loses money or so broad it cannibalizes Estándar, say so.
 
-## Step 6: Next Steps
+## Próximos Pasos
 
-Always include a specific A/B pricing test recommendation. Not "test your pricing" —
-a specific test with a method.
+Always include one specific price test with a method, not "test your pricing". Examples:
 
-Example: "Run a shadow pricing test for 30 days: send 50% of new trial signups to a $99
-tier page vs your current $29 page. Measure the signup rate difference. A drop of less than
-20% in signup rate means the market can absorb the higher price — raise prices immediately.
-Shadow tests require no engineering: two landing pages, split by even/odd day of week."
+- "Mandá las próximas 10 propuestas con los tres planes lado a lado y Estándar marcado
+  como recomendado. Medí cuántas eligen cada plan. Si menos de 6 de 10 aceptan Mínimo, el
+  piloto es muy caro o muy amplio: reducí el alcance, no el precio."
+- "Corré Van Westendorp con 15 gerentes de finanzas de tu ICP (4 preguntas, formulario
+  gratis). Si tu base de Estándar queda arriba del punto 'caro pero lo consideraría', bajá
+  la base y subí el componente de resultado."
+- "Pasá a los 3 clientes actuales por usuario a setup + base + uso en la renovación, con
+  60 días de aviso por escrito y precio congelado 90 días."
 
-Then hand off: run `/unit-economics-calculator` with the new price to confirm LTV/CAC and
-payback, and `/sales-playbook-generator` if the new tiers change who sells and how.
+Then hand off: `/unit-economics-calculator` with the new plans (payback with and without
+setup, margin on outcome fees), `/lead-to-proposal` to quote a named prospect from the new
+price list, `/customer-retention-expansion` to run the Mínimo to Estándar to Premium
+upsells, and `/sales-playbook-generator` if the plans change who sells and how.
 
 ## Sources
 
 - ProfitWell value metric: Patrick Campbell / ProfitWell (now Paddle) value-based pricing method; the original profitwell.com articles are offline
-- Kyle Poyar, Growth Unhinged (pricing research; replaces the offline OpenView survey): https://www.growthunhinged.com/
+- Kyle Poyar, Growth Unhinged (usage and hybrid pricing research): https://www.growthunhinged.com/
 - Marn and Rosiello, "Managing Price, Gaining Profit", HBR 1992: https://hbr.org/1992/09/managing-price-gaining-profit
+- Monetizing Innovation (Simon-Kucher): https://www.simon-kucher.com/en/book/monetizing-innovation
+- Tversky and Kahneman, "Judgment under Uncertainty: Heuristics and Biases", Science, 1974: https://www.science.org/doi/10.1126/science.185.4157.1124
+- Huber, Payne and Puto, "Adding Asymmetrically Dominated Alternatives", Journal of Consumer Research, 1982: https://doi.org/10.1086/208899
+- Ariely, D. (2008). *Predictably Irrational*. Harper.
+- Van Westendorp, P. (1976). NSS Price Sensitivity Meter, ESOMAR Congress.
+- Sequoia, "Services: The New Software" (Julien Bek, Mar 2026): https://www.sequoiacap.com/article/services-the-new-software
 - ICONIQ State of AI bi-annual snapshot, Jan 2026 (summary: SaaStr, 28 Jan 2026): https://saastr.com/inference-costs-average-23-of-revenue-at-ai-b2b-companies-how-will-you-pay-for-it
-- Monetizing Innovation: https://www.simon-kucher.com/en/book/monetizing-innovation
-- [Pricing Framework](references/pricing-framework.md) — value metric taxonomy, model decision tree
-- [LATAM Context](references/latam-context.md) — currency decisions, benchmarks, chronic underpricing
+- [Pricing Framework](references/pricing-framework.md): value metric, mixed billing, three plans, willingness-to-pay methods
+- [LATAM Context](references/latam-context.md): currency, billing cadence, procurement, underpricing

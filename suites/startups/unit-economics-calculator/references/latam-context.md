@@ -1,7 +1,6 @@
 # LATAM and AI-Native Unit Economics Context
 
-**Apply these annotations AFTER calculating metrics with
-[unit-economics-formulas.md](unit-economics-formulas.md).**
+**Apply these annotations AFTER calculating metrics with the formulas file.**
 
 **Read this first (checked 27 Oct 2026):** no public LATAM report publishes CAC payback,
 LTV/CAC, churn or gross-margin benchmarks. The Cuantico LatAm VC Report 2026 and the LAVCA
@@ -108,6 +107,23 @@ test is the fastest LTV lever:
 - Monthly churn < 2% with no discounting
 
 Hand off to `/pricing-strategy-designer` for the test design.
+
+---
+
+## Setup Fees and Outcome Fees in LATAM
+
+- **Cash, not invoice:** corporate buyers pay at 30-60 days, and vendor registration (tax
+  ID, certificates, bank data) can delay the first invoice by weeks. Payback with setup
+  uses setup collected. Ask for 50% on signature.
+- **Taxes:** IVA or VAT applies to setup and outcome fees too. Compute margins net of tax.
+- **Outcome fee disputes:** the customer's own report (bank statement, ERP export) is the
+  source. Without a signed baseline, expect disputes; model a dispute rate (5% is a
+  reasonable starting assumption, directional) until you have your own history.
+- **Payment lag:** an outcome fee measured on month-end data, approved by the customer and
+  paid at 30-45 days reaches cash 1.5-2.5 months after the result. Count it as working
+  capital.
+- **Pilots:** paid pilots (Mínimo plans) are common; report pilot revenue apart and count
+  a pilot as a customer only when it converts to a recurring plan.
 
 ---
 
