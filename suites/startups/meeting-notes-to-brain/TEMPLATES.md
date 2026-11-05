@@ -61,6 +61,24 @@ Reunión anterior: [[2026-09-24-distribuidora-norte-kickoff]]
 - "Bajamos de 9,2 a 8,2 kilómetros por entrega" (Laura, min 12:15). Equivale a -11%.
 - "Si me conectás el ERP, lo llevo a las tres sucursales" (Carlos, min 34:50).
 
+## Llamada de venta (ampliación a 3 sucursales)
+Habló el equipo Ruteo: 47% (estimado de la transcripción: 2.890 de 6.150 palabras; Granola free no da métrica). Regla: máx. 33%. HABLÓ DE MÁS: monólogo de Ana del min 24:10 al 29:30, demo de reportes que nadie pidió.
+
+| # | Pregunta obligatoria | Estado | Respuesta (min) |
+|---|---|---|---|
+| 1 | Herramientas actuales | SÍ | "Planilla de flota y el ERP para pedidos" (09:30) |
+| 2 | Presupuesto | NO | - |
+| 3 | ¿Buscan activamente esto? | SÍ | "Queremos bajar el costo por entrega este año" (07:45) |
+| 4 | Otras opciones, incluso no hacer nada | NO | - |
+| 5 | Plazo | PARCIAL | "Antes de la temporada alta" sin fecha (36:20) |
+| 6 | Requisitos | SÍ | Integración con el ERP (18:40) |
+| 7 | Función que lo hace obvio | SÍ | "Si me conectás el ERP, lo llevo a las tres" (34:50) |
+| 8 | Quién decide y aprueba | PARCIAL | "Lo tengo que consultar" (38:00) |
+Cobertura: 5/8. Menos de 6: llamada de calificación antes de la propuesta.
+
+Mapa de decisión: decisor Roberto, Gerente General [verificar, inferido] | champion [[laura-gimenez]] | usuario/evaluador [[carlos-mendez]] | finanzas o compras SIN IDENTIFICAR (preguntar a Carlos) | TI, dueño del ERP SIN IDENTIFICAR (preguntar a Laura). Riesgo: 2 contactos, ninguno decide la compra.
+Cierre: próximo paso con fecha (propuesta 17/10). OK.
+
 ## Pendientes de verificar
 - Nombre completo y rol de "Roberto".
 ```
@@ -102,7 +120,11 @@ Ana
 - Creada: `meetings/2026-10-08-distribuidora-norte-piloto`
 - Ingerida: transcripción completa como fuente
 - Actualizadas (historial): `people/carlos-mendez`, `people/laura-gimenez`, `companies/distribuidora-norte`
-- No conectado: CRM. La etapa del deal no se actualizó; sugerencia: mover a "Propuesta" el 17/10.
+- No conectado: CRM. Actualización del día, lista para pegar (hoy, 08/10):
+  - Etapa: Piloto (pasa a "Propuesta" el 17/10)
+  - Próximo paso: llamada de calificación de 20 min con Carlos (presupuesto, otras opciones, quién aprueba)
+  - Fecha del próximo paso: 13/10/2026
+  - Nota de actividad: "08/10 revisión piloto sem. 4 con Carlos y Laura: -11% km/entrega, quieren 3 sucursales si integramos ERP; falta aprobador y presupuesto."
 
 Fuentes: transcripción Granola 08/10/2026; brain `meetings/2026-09-24-distribuidora-norte-kickoff`, `companies/distribuidora-norte`.
 
@@ -113,7 +135,7 @@ Fuentes: transcripción Granola 08/10/2026; brain `meetings/2026-09-24-distribui
 1. Ana: resolver el ítem `[sin dueño]` (quién aprueba la compra) en la propuesta del 17/10. Sin aprobador identificado, el deal no tiene camino a firma.
 2. Ana: revisar y enviar el borrador de seguimiento hoy.
 3. Diego: confirmar que la fecha propuesta del 24/10 para el importador es realista; si no, corregirla antes de que salga el correo.
-4. Correr lead-to-proposal con esta nota como discovery para la propuesta de 3 sucursales.
+4. Ana: en la llamada del 13/10 cubrí las 3 preguntas faltantes (presupuesto, otras opciones, quién aprueba) y pedí que se sume Roberto; recién ahí corré lead-to-proposal con esta nota como discovery.
 5. Pedir de nuevo a Carlos el costo actual por km (no mencionado dos reuniones seguidas); sin ese dato la propuesta no puede mostrar ROI.
 
 ---

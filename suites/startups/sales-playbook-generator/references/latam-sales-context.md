@@ -1,4 +1,4 @@
-# LATAM B2B Sales Context — Channels, Cycles, and Decision-Makers
+# LATAM B2B Sales Context: Channels, Cycles, and Decision-Makers
 
 **Purpose:** LATAM-specific calibration for the sales-playbook-generator skill.
 Read this before finalizing any prospecting sequence or CRM setup.
@@ -8,12 +8,14 @@ Read this before finalizing any prospecting sequence or CRM setup.
 - WhatsApp Business statistics (Meta): https://business.whatsapp.com/
 - Predictable Revenue LATAM adaptation: https://predictablerevenue.com/book/
 - LAN Accelerator portfolio company data (internal, anonymized)
+- Andrés Nájera, LAN mentor masterclass on warm intros and referrals (Nov 2026)
+- Association websites listed in section 7 (check each member directory before prospecting)
 
 ---
 
 ## 1. WhatsApp as Primary B2B Channel
 
-WhatsApp is the dominant B2B communication channel in LATAM. This is not a trend —
+WhatsApp is the dominant B2B communication channel in LATAM. This is not a trend:
 it is the infrastructure that LATAM business communication runs on.
 
 ### Key Statistics (directional)
@@ -27,26 +29,26 @@ with your own tracked numbers after the first 50 touches.
 | Open rate | 85%+ | 15–22% | 22–28% |
 | Response rate | 25–40% | 3–8% | 5–10% |
 | Penetration (MX/BR/CO) | 95%+ | 100% (but ignored) | 100% |
-| B2B acceptance | High — normal business channel | Low — often spam-filtered | Medium |
+| B2B acceptance | High: normal business channel | Low: often spam-filtered | Medium |
 
 ### WhatsApp Best Practices for B2B Outreach
 
 **DO:**
 - Use a WhatsApp Business account (verified, professional photo, business description)
-- Keep first message under 3 sentences — one specific reason for reaching out +
+- Keep first message under 3 sentences: one specific reason for reaching out +
   one data point + one ask
 - Voice notes are culturally accepted for follow-ups with senior decision-makers in
-  LATAM — 60–90 second voice note often outperforms text for the General Manager
+  LATAM: a 60-90 second voice note often outperforms text for the General Manager
 - Personalize the opening line with company name and a specific observation
-- Send PDFs directly in WhatsApp — accepted as professional in LATAM
+- Send PDFs directly in WhatsApp, accepted as professional in LATAM
 
 **DO NOT:**
-- Send WhatsApp as a first touch without any prior LinkedIn connection or referral —
+- Send WhatsApp as a first touch without any prior LinkedIn connection or referral,
   still considered intrusive without context
-- Use formal/stiff language — WhatsApp tone is warmer than email even in B2B
-- Broadcast mass messages — recipients can see if it is a broadcast
-- Send WhatsApp after 8pm local time — even for business it is considered intrusive
-- Follow up more than 3 times without a response — move to breakup message
+- Use formal/stiff language: WhatsApp tone is warmer than email even in B2B
+- Broadcast mass messages: recipients can see if it is a broadcast
+- Send WhatsApp after 8pm local time: even for business it is considered intrusive
+- Follow up more than 3 times without a response: move to breakup message
 
 ### When to Use WhatsApp vs When NOT To
 
@@ -54,13 +56,13 @@ with your own tracked numbers after the first 50 touches.
 - After LinkedIn connection accepted (Day 3 of sequence)
 - After in-person event meeting where number was exchanged
 - After phone/email introduction from a mutual contact
-- For follow-up after demo (48h follow-up — faster than email)
+- For follow-up after demo (48h follow-up, faster than email)
 - For short-form check-ins during late-stage deals
 
 **Do NOT use WhatsApp:**
 - As the very first touch without any prior connection (unless referral gave the number)
 - For formal contract delivery or legal documents (use email for paper trail)
-- For complex proposals — send via email, then WhatsApp: "I just sent the proposal to your email"
+- For complex proposals: send via email, then WhatsApp: "I just sent the proposal to your email"
 
 ---
 
@@ -83,7 +85,7 @@ Cold outreach has a much lower conversion ceiling than warm introductions.
 ### Relationship-Building Accelerants in LATAM
 
 - **Accelerator and ecosystem networks:** LAN Accelerator, Wayra, NXTP, 500 Global
-  LATAM, Endeavor — a connection from these networks opens doors cold outreach cannot
+  LATAM, Endeavor: a connection from these networks opens doors cold outreach cannot
 - **Industry WhatsApp groups:** Most LATAM verticals have informal WhatsApp groups of
   decision-makers. Getting into one group is worth 100 cold messages.
 - **Industry events:** Physical events in LATAM have higher B2B relationship value than
@@ -93,7 +95,7 @@ Cold outreach has a much lower conversion ceiling than warm introductions.
 
 ---
 
-## 3. Decision-Maker Titles — Local-Language Mapping
+## 3. Decision-Maker Titles: Local-Language Mapping
 
 Using English titles in LATAM outreach (VP Sales, CEO) is a signal that you don't
 know the market. Use the local-language titles below in ICP definition and outreach
@@ -135,9 +137,9 @@ profiles and business cards in market.
 
 **Country-Specific Notes:**
 - **Mexico:** "Gerente General" (General Manager) is the most common SME CEO title.
-  "Licenciado/a" as a prefix signals formal education — use respectfully in first
+  "Licenciado/a" as a prefix signals formal education, use respectfully in first
   outreach.
-- **Brazil:** Portuguese titles differ — CEO = "CEO" or "Presidente", VP Sales =
+- **Brazil:** Portuguese titles differ: CEO = "CEO" or "Presidente", VP Sales =
   "Diretor Comercial", COO = "Diretor de Operações". Never use Spanish titles in Brazil.
 - **Colombia / Argentina / Chile:** Spanish titles above apply with minor regional
   variations. "Gerente General" widely used across all three.
@@ -151,7 +153,7 @@ not fixable with better outreach. Plan pipeline targets accordingly.
 
 | Segment | LATAM Cycle | US Equivalent | Key Reason for Gap |
 |---------|------------|---------------|-------------------|
-| **SME (<50 employees)** | 2–4 months | 1–2 months | The General Manager decides everything — limited bandwidth |
+| **SME (<50 employees)** | 2–4 months | 1–2 months | The General Manager decides everything, limited bandwidth |
 | **Mid-market (50–500 employees)** | 3–6 months | 2–4 months | Multi-stakeholder + legal review + procurement process |
 | **Enterprise (500+ employees)** | 6–18 months | 4–12 months | Manual procurement, legal in-person meetings, IT compliance reviews |
 | **Government / State** | 12–36 months | 12–24 months | Procurement law, budget cycles, political considerations |
@@ -175,7 +177,7 @@ At 7 touches per prospect = 140 outbound activities per closed deal.
 ## 5. Reference Account Behavior
 
 LATAM buyers request reference calls at a much higher rate than US buyers. This is
-a trust mechanism — not a stall tactic. Prepare for it.
+a trust mechanism, not a stall tactic. Prepare for it.
 
 ### Why Reference Calls Matter More in LATAM
 
@@ -188,21 +190,21 @@ a trust mechanism — not a stall tactic. Prepare for it.
 
 1. **Identify 2–3 "lighthouse" customers** willing to take reference calls before
    you scale outbound. One customer per major vertical or geography if possible.
-2. **Brief them before the call** — share who is calling, what their main concern is,
+2. **Brief them before the call**: share who is calling, what their main concern is,
    what you'd like them to emphasize. Don't script it, but orient it.
-3. **Case studies in Spanish** — English case studies signal you don't know the
+3. **Case studies in Spanish**: English case studies signal you don't know the
    market. Every case study should be in the language of the market.
-4. **Hard numbers required** — "We're happy with LogiTrack" is not a reference.
+4. **Hard numbers required**: "We're happy with LogiTrack" is not a reference.
    "We reduced overtime costs by 18% in the first 60 days" is a reference.
-5. **Shorten reference to case study cycle** — after every positive reference call,
+5. **Shorten reference to case study cycle**: after every positive reference call,
    ask the reference customer for permission to write a case study. Convert references
    to self-service assets.
 
 ### When to Offer a Reference
 
 - **Proactively offer** at Proposal stage for deals >$5k ACV
-- **Wait for them to ask** for deals <$5k ACV — offering too early signals desperation
-- **Never offer references** you haven't briefed — surprise reference calls go badly
+- **Wait for them to ask** for deals <$5k ACV: offering too early signals desperation
+- **Never offer references** you haven't briefed: surprise reference calls go badly
 
 ---
 
@@ -226,3 +228,72 @@ budget cycles close. Deals started in November often close in Q1 of the followin
 - **December 15 – January 15:** Almost no deals close. Latam decision-makers on vacation.
 - **Holy Week (Semana Santa):** 1 week before Easter. Activity drops significantly.
 - **July (school holidays in some markets):** General Managers often traveling.
+
+---
+
+## 7. Warm Sources: Super Whos, Gremios, WhatsApp Communities, Referrals
+
+### Super whos (Nájera)
+
+A "super who" is one person with access to thousands of your ICP: a gremio manager, a
+consultant who serves the whole sector, an accountant with 300 SME clients, the organizer of
+the sector's main event. Find three, in different industries or associations, so one closed
+door does not stop the pipeline.
+
+Script (WhatsApp or email, short, sent as a draft for the founder to approve):
+
+"Hola [nombre], estoy ayudando a [cliente ideal] a [resolver X] con [solución]. ¿Conocés a
+alguien que se pueda beneficiar?"
+
+Nájera reports about 30% reply and 12% positive on his automated warm outreach. These are
+WARM numbers (people who know the sender). Do not use them as a cold-email target.
+
+### Gremios, chambers and clusters
+
+Associations gather the ICP in one place: member directories, sector events, committees and
+the association's own WhatsApp groups. Join as a member or sponsor a committee session
+before prospecting the directory, and ask the association staff for an intro, not just a list.
+
+| Country | Association | Who it gathers |
+|---|---|---|
+| Chile | SOFOFA | Industrial companies |
+| Chile | CChC | Construction and real estate |
+| Chile | SNA | Agriculture and agribusiness |
+| Chile | ABIF | Banks |
+| Chile | FinteChile | Fintechs |
+| Chile | AACH | Insurers |
+| Chile | Clínicas de Chile | Private clinics and health providers |
+| Chile | CCS | Commerce and services (Santiago) |
+| Chile | ASECH | Entrepreneurs and SMEs |
+| Chile | CONUPIA | Micro, small and mid-size industry |
+| Paraguay | UIP | Industrial companies |
+| Paraguay | ARP | Livestock and agribusiness |
+| Paraguay | CAPECO | Grain and oilseed exporters |
+| Paraguay | CAPACO | Construction |
+| Paraguay | ASOBAN | Banks |
+| Paraguay | Cámara Paraguaya de Fintech | Fintechs |
+| Paraguay | CISOFT | Software and IT services |
+| Paraguay | AMCHAM | Companies doing business with the US |
+
+For other countries, search "[industria] cámara" or "[industria] asociación gremial" plus the
+country, and check the members page.
+
+### WhatsApp communities of the ICP
+
+Most verticals have communities where owners and managers ask each other for suppliers.
+Get in through a member, contribute before you sell (answer questions, share one useful
+resource), and never broadcast a pitch: admins remove vendors who spam, and the reputation
+cost reaches the whole community.
+
+### Referrals several times a year
+
+Ask every happy customer for a referral at the "thank you" moment: after a measurable win,
+a renewal, a compliment in a meeting or a positive survey answer. Several times a year, not
+once. Log each ask and each intro in the CRM the same day.
+
+### Why this compounds
+
+Growth formula: +20% customers x +20% average ticket x +20% purchase frequency = 1.2 x 1.2 x
+1.2 = 1.728, so +73% revenue. (Nájera states it as +66%; the correct math is +73%.)
+Referrals feed the first factor; upsell and retention feed the other two.
+

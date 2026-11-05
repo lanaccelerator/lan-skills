@@ -8,14 +8,15 @@ description: >
   al brain", "armá los mails de seguimiento"). Produces decisions, action items with owner
   and due date, open questions and people mentioned, files them in the company brain (LAN
   Brain or any MCP brain) linked to people and companies, and creates follow-up email
-  DRAFTS, never sends. NOT for preparing the weekly team agenda (use all-hands-prep) or
+  DRAFTS, never sends. Sales calls also get founder talk %, must-ask coverage (x/8), the
+  decision map and a same-day CRM update. NOT for preparing the weekly team agenda (use all-hands-prep) or
   turning a sales discovery call into a proposal (use lead-to-proposal).
 categories: ["startups", "operations", "productivity"]
 metadata:
   author: lan-accelerator
-  version: "1.1"
+  version: "1.2"
   suite: startups
-  complements: [all-hands-prep, lead-to-proposal, investor-update-compiler]
+  complements: [all-hands-prep, lead-to-proposal, investor-update-compiler, outbound-learning-loop]
 license: MIT
 ---
 
@@ -26,7 +27,9 @@ company brain as linked pages, and prepares follow-up drafts. Built on Andy
 Grove's rule that a meeting's output is decisions and committed actions (High
 Output Management), the DRI principle (one directly responsible individual per
 action), and Rogelberg's research on why meeting outcomes evaporate without a
-written record (The Surprising Science of Meetings).
+written record (The Surprising Science of Meetings). Sales calls are also scored
+against references/shared/b2b-buying-2026.md: founder talks at most 33%, the 8
+must-ask questions, and multi-threading across the buying committee.
 
 The value is not the summary. The value is that every decision and every
 commitment becomes a searchable, linked page that the next skill
@@ -97,6 +100,48 @@ before extracting. Apply these rules:
 Mark anything you are not sure the transcript supports with `[verificar]`.
 A transcript is evidence, not truth: speaker attribution errors are common.
 
+## Step 3b: Sales Call Scoring (prospect and customer sales meetings)
+
+Run this block when the meeting type is prospect, or customer with an upsell,
+renewal or expansion on the table. Read references/shared/b2b-buying-2026.md
+sections 2-4 first. Skip it for internal, investor and hiring meetings.
+
+1. **Founder talk %.** Rule: the founder (and anyone else on the startup's side)
+   talks at most 33% of the call; the client talks the rest. Use the recorder's
+   talk-time metric if it gives one (Fathom, tl;dv, Gong and similar show it). If
+   not, estimate it from the transcript: words spoken by the startup side divided
+   by total words (fall back to speaker turns if words are not countable), and
+   label it `(estimado de la transcripción)`. Above 33%: flag it as
+   `HABLÓ DE MÁS` and point to the longest monologue (minute and length). Gong Labs
+   found top-converting calls around 43% seller talk; that is a reference stat
+   only, the rule here is 33%.
+2. **Must-ask coverage (x/8).** Check each of the 8 questions from section 4 of the
+   shared framework: current tools, budget, actively looking, other options
+   (including doing nothing), timeline, requirements, the no-brainer feature,
+   who decides and approves. Mark each `SÍ` (asked and answered), `PARCIAL`
+   (asked, vague answer, counts as half) or `NO`, with the minute and the answer
+   in the client's words. Score = asked / 8. Below 6/8: recommend a short
+   qualification call before any proposal and draft the missing questions.
+3. **Decision map (multi-threading).** List every buying-committee role found:
+   decider, champion, user, finance or procurement, IT or security, legal. For
+   each: name, page link, how we know (said in the call, inferred). Roles not
+   found are listed as `SIN IDENTIFICAR` with a suggested way in (ask the
+   champion, the association, LinkedIn). One contact only is a risk: say so.
+4. **Meeting structure check.** Short opening, questions before the demo, demo
+   only on the pain they named, dated next step at the close. A call that ends in
+   "te escribo" without a date gets flagged.
+5. **CRM update, same day.** Every sales call updates the CRM the day it
+   happened: deal stage, next step, next step date, and a one-line activity note
+   (date, who, what moved). With a CRM connector, write it (or prepare the update
+   for approval if the connector only drafts). Without one, print the four fields
+   ready to paste and list it under connector gaps. A sales call not in the CRM
+   by end of day did not happen for the pipeline.
+
+Coaching notes (what to ask better next time) go to the brain meeting page,
+never to the follow-up email. Patterns that repeat across calls are saved as a
+learning in the company brain for outbound-learning-loop and
+sales-playbook-generator.
+
 ## Step 4: File in the Brain
 
 Follow references/shared/company-brain-integration.md section 4.
@@ -109,6 +154,8 @@ Follow references/shared/company-brain-integration.md section 4.
 - Link attendees and companies with the brain's link syntax. If a person or
   company page exists, append a dated one-line entry to its history section
   (when the brain uses one) pointing back to the meeting page.
+- Sales calls: the meeting page carries the Step 3b block, and the CRM update
+  (Step 3b.5) is done in the same run, not batched to the weekly review.
 - Never overwrite a previous meeting page. Update only the prior commitments
   status by appending, not by rewriting.
 
@@ -139,9 +186,9 @@ See [TEMPLATES.md](TEMPLATES.md) for the filled example. User-facing output
 is in Spanish unless the meeting was held in another language.
 
 Output order in the chat:
-1. The meeting note (as filed)
+1. The meeting note (as filed), with the sales call block for sales meetings
 2. Follow-up drafts created (recipient, subject, draft link or text)
-3. Brain pages created or updated, and connector gaps
+3. Brain pages and CRM records created or updated, and connector gaps
 4. Próximos pasos
 
 ## Optional: Weekly or Automatic Processing
@@ -189,6 +236,10 @@ End every output with 3-5 concrete actions, for example:
   reunión está fresca para ambos lados."
 - "Confirmar con Ana la cifra de 'USD 4.000 por mes' marcada `[verificar]`
   antes de que entre en la propuesta."
+- "Agendá la llamada de calificación de 20 minutos: cubriste 5/8 preguntas y
+  faltan presupuesto, quién aprueba y plazo."
+- "En la próxima llamada hablá menos de un tercio: hoy fuiste 52%
+  (estimado de la transcripción), con un monólogo de 6 minutos en el min 14."
 
 ## Sources
 
@@ -198,6 +249,10 @@ End every output with 3-5 concrete actions, for example:
   WhatsApp follow-up, name resolution
 - references/shared/company-brain-integration.md - brain read/write and
   scheduled runs
+- references/shared/b2b-buying-2026.md - talk-ratio rule (founder max 33%),
+  must-ask list, multi-threading, decision map
+- Gong Labs, talk-to-listen ratio research (reference stat, 43% seller talk):
+  https://www.gong.io/resources/labs/talk-to-listen-conversion-ratio/
 - Grove, A. (1983). *High Output Management*. Random House.
 - Rogelberg, S. (2019). *The Surprising Science of Meetings*. Oxford
   University Press.

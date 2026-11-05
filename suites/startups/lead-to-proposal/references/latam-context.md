@@ -12,7 +12,10 @@ figure when one exists.
 - **Corporates and subsidiaries of multinationals:** procurement, legal and
   sometimes regional headquarters approval add weeks. Ask about vendor
   registration (alta de proveedor), required tax documents and payment terms
-  in discovery.
+  in discovery. Most large companies register suppliers in a vendor portal
+  before the first invoice: keep the document folder ready (tax ID, good
+  standing and tax certificates, insurance, bylaws, legal representative's
+  powers, bank certificate) so registration takes days, not weeks.
 - Titles: Gerente General, Director Comercial, Gerente de Operaciones,
   Jefe de Compras. Use the title the prospect uses.
 

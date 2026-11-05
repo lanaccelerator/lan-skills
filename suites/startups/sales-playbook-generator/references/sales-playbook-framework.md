@@ -1,4 +1,4 @@
-# Sales Playbook Framework — Predictable Revenue + Challenger Sale
+# Sales Playbook Framework: Predictable Revenue + Challenger Sale
 
 **Purpose:** Structural reference for the sales-playbook-generator skill. Read this
 before designing any prospecting sequence or objection handling matrix.
@@ -10,7 +10,7 @@ before designing any prospecting sequence or objection handling matrix.
 
 ---
 
-## 1. Predictable Revenue — The Outbound Prospecting Machine
+## 1. Predictable Revenue: The Outbound Prospecting Machine
 
 Aaron Ross built Salesforce's outbound machine from $0 to $100M ARR by separating
 prospecting from closing. The insight: the same person cannot do both well.
@@ -29,33 +29,37 @@ demo and close with >25% win rate.
 
 ### Pipeline Stage Definitions
 
-1. **Suspect** — In ICP but no contact yet
-2. **Prospect** — In sequence, not yet qualified
-3. **Qualified** — Confirmed ICP + expressed pain + has budget + has authority
-4. **Demo Scheduled** — Meeting confirmed on calendar
-5. **Proposal Sent** — Pricing/contract delivered
-6. **Closed Won / Lost** — Final outcome recorded
+1. **Suspect**: In ICP but no contact yet
+2. **Prospect**: In sequence, not yet qualified
+3. **Qualified**: Confirmed ICP + expressed pain + has budget + has authority
+4. **Demo Scheduled**: Meeting confirmed on calendar
+5. **Proposal Sent**: Pricing/contract delivered
+6. **Closed Won / Lost**: Final outcome recorded
 
 **Cold Calling 2.0 Principle:** Do not cold call. Sequence via email + LinkedIn +
-WhatsApp to get permission for a meeting. The goal of the first touch is not to sell —
+WhatsApp to get permission for a meeting. The goal of the first touch is not to sell:
 it is to qualify interest and book a call.
 
 ### Sequence Design Principles
 
 - **7–9 touches** over 21 days is optimal for B2B outbound. Fewer touches = low
   conversion. More touches without response = prospect is not ICP.
-- **Multi-channel** — each touch in a different channel increases total read rate
+- **Multi-channel**: each touch in a different channel increases total read rate
   by 30–40% vs single-channel sequences.
-- **Specific intervals** — Day 1, 3, 5, 7, 10, 14, 17, 21. Not "follow up in a week."
+- **Specific intervals**: Day 1, 3, 5, 7, 10, 14, 17, 21. Not "follow up in a week."
   Specific calendar dates prevent drift.
-- **Personalization threshold** — first touch must reference something specific about
+- **Personalization threshold**: first touch must reference something specific about
   the prospect or their company. Generic openers: 10–15% open. Personalized: 30–45%.
-- **Breakup message** at Day 21 — a polite close to the sequence. Often generates
+- **Breakup message** at Day 21: a polite close to the sequence. Often generates
   more responses than earlier touches because it creates a "last chance" dynamic.
+- **Multi-threading:** one contact per account is one point of failure. Sequence 3-5 roles
+  inside the same target company (decider, champion, user, finance or procurement, IT when
+  data is involved), each message written for that role, coordinated by one account owner so
+  two messages never land the same day or contradict each other.
 
 ---
 
-## 2. Challenger Sale — Profile and Tactics
+## 2. Challenger Sale: Profile and Tactics
 
 Dixon & Adamson's CEB research across 6,000+ salespeople identified 5 profiles:
 Hard Worker, Relationship Builder, Lone Wolf, Problem Solver, Challenger.
@@ -69,9 +73,9 @@ Relationship Builders (CEB research as reported in The Challenger Sale, 2011).
 
 | Behavior | Definition | Example |
 |----------|-----------|---------|
-| **Teach** | Offer insight that reframes how the prospect thinks about their problem | "Most logistics companies think their cost problem is fuel. Our data shows it's unplanned overtime from manual route adjustment — 3× higher impact." |
+| **Teach** | Offer insight that reframes how the prospect thinks about their problem | "Most logistics companies think their cost problem is fuel. Our data shows it's unplanned overtime from manual route adjustment, 3× higher impact." |
 | **Tailor** | Customize the message to the specific economic driver of this buyer | For an Operations Manager: "Your fuel costs." For a General Manager: "Your EBITDA margin." Same product, different frame. |
-| **Take Control** | Own the sales process — push back constructively, hold to timeline, qualify hard | "To move forward together I need to speak with whoever approves the budget this week. Can you introduce me to that person?" |
+| **Take Control** | Own the sales process: push back constructively, hold to timeline, qualify hard | "To move forward together I need to speak with whoever approves the budget this week. Can you introduce me to that person?" |
 
 ### Objection Root Cause Analysis
 
@@ -84,7 +88,7 @@ responding is the most important Challenger skill.
 | "No budget" | Not a priority / budget not allocated yet / waiting for year-end | "How much is it costing you per month not to solve this problem?" |
 | "Send me information" | Avoiding decision / not the right contact / no urgency | "What would you need to see in the information for it to be worth a 15-minute call?" |
 | "Too expensive" | Value not communicated / wrong tier of buyer / bad timing | "Expensive compared to which specific alternative?" |
-| "Talk to my boss first" | Wrong level — talking to user not buyer | "Who would be the right person? Can you introduce me?" |
+| "Talk to my boss first" | Wrong level: talking to user not buyer | "Who would be the right person? Can you introduce me?" |
 
 ---
 
@@ -95,9 +99,12 @@ current sample and date): https://www.gong.io/resources/labs/talk-to-listen-conv
 
 ### Talk-to-Listen Ratio
 
-- **Highest-converting B2B calls** run about 43% talking, 57% listening (Gong Labs)
-- **Implication:** If you're talking more than half the time during discovery, stop. You're
-  diagnosing based on your assumptions, not their reality.
+- **The rule for this skill:** the founder talks at most 33% of a sales meeting; the client
+  talks the rest. Founders over-pitch, so the LAN rule is stricter than the Gong average.
+- **Reference stat only:** Gong Labs found top-converting B2B calls around 43% seller talk.
+  Cite it as context, never as the target.
+- **Implication:** If you are talking more than a third of the call, stop and ask the next
+  question. You are diagnosing from your assumptions, not their reality.
 
 ### Discovery Question Volume
 
@@ -150,24 +157,29 @@ The right ICP has 500–2,000 named prospects per geography.
 | ACV Range | Recommended Touches | Rationale |
 |-----------|---------------------|-----------|
 | <$1,000 | 3–5 touches | Low value; diminishing returns beyond 5 |
-| $1k–$10k | 7–9 touches | Core LATAM B2B range — enough to build familiarity |
+| $1k–$10k | 7–9 touches | Core LATAM B2B range, enough to build familiarity |
 | $10k–$50k | 9–12 touches | Higher value justifies more investment per prospect |
 | $50k+ | 12+ touches with account-based approach | Enterprise requires multi-stakeholder sequencing |
 
 ### Channel Mix by Geography
 
-| Market | Primary | Secondary | Last Resort |
+| Market | Primary | Secondary | Third (still a learning channel) |
 |--------|---------|-----------|------------|
 | **Colombia / Mexico / Argentina** | WhatsApp | LinkedIn | Email |
 | **Brazil** | WhatsApp | Email | LinkedIn |
 | **US** | Email | LinkedIn | Phone |
 | **Mixed LATAM + US** | WhatsApp (LATAM) + Email (US) | LinkedIn (both) | Phone (US only) |
 
+Warm intros (super whos, referrals, gremio contacts) come before any of these channels.
+Cold email is third in LATAM, not a last resort: it is the channel that teaches you the most
+per week, because every reply (and every silence) can be logged and compared by subject,
+opening, role and segment.
+
 ### Personalization Requirements by Touch
 
 - **Touch 1 (LinkedIn connect):** Must reference company or role specifically
 - **Touch 2 (WhatsApp first message):** Must reference LinkedIn connection + one
   specific detail about their business
-- **Touch 3 (value asset):** Send case study from same industry/geography — never generic
+- **Touch 3 (value asset):** Send case study from same industry/geography, never generic
 - **Touches 4–7:** Can templatize but maintain first-name personalization
 - **Final touch (breakup):** Must acknowledge time has passed and leave door open
