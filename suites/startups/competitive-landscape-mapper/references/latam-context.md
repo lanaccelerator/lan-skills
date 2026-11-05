@@ -157,3 +157,11 @@ on Crunchbase or TechCrunch, most LATAM funding rounds are not covered in US med
   the strongest of these.
 - **Speed of entry:** AI coding tools lower the cost of copying features. Assume a funded
   competitor can replicate visible features in months, not years.
+- **The baseline row in LATAM:** many SME owners already use the free or US$20 tier of
+  ChatGPT or Claude from their phone for writing, translation and spreadsheets. What they
+  rarely get from an assistant alone: local compliance filings (SAT in Mexico, e-Social in Brazil, DNIT in Paraguay),
+  integrations with local systems (CFDI, PIX, local job boards and ERPs), and someone who
+  answers for the result in their language. Those are the reasons to pay that hold best.
+- **Ongoing monitoring:** competitors in LATAM change pricing and launch countries without
+  press coverage. A weekly look at pricing pages, changelogs and careers pages (who they hire
+  and where) catches moves earlier than news does.

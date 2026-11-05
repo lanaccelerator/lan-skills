@@ -2,7 +2,9 @@
 
 **Source:** LAN Accelerator fundraising masterclass (October 2026) and the LAN idea-engine radar
 (October 2026: published theses of top funds, YC S26 and a16z speedrun portfolios). Every number
-keeps its source in the output; label US data `(US-sourced benchmark)`.
+keeps its source in the output; label US data `(US-sourced benchmark)`. Sections 5 and 6 add YC Requests
+for Startups Summer 2026 (https://www.ycombinator.com/rfs) and Sequoia "Services: The New
+Software" (https://www.sequoiacap.com/article/services-the-new-software).
 **When to use:** venture-model-validator Step 2b, after the five frameworks and before the final
 score. Explains to the founder WHY a VC says no to a good business.
 
@@ -68,3 +70,42 @@ it is a no to the math.
    open to reinvention... many of the defining AI companies do not yet exist." (Greylock, launching
    Greylock 18). LAN's read for LATAM: as AI leaves pure software for the real economy (government,
    agro, finance, services), LATAM founders play at home.
+
+## 5. The "does Claude/ChatGPT already do it?" test
+
+A general AI assistant at about USD 20 per user per month is the new "do nothing" option.
+Investors run this test in the first meeting, often live. Run it first.
+
+1. Take 3 real tasks a customer would give the product (anonymized).
+2. Ask Claude and ChatGPT to do each one with only what a customer would paste in.
+3. Score the share of the job done acceptably: 0%, 25%, 50%, 80%, 100%.
+4. If the average is 80% or more, the startup needs at least one of these four, and must show
+   it, not claim it:
+
+| Reason to exist | What proves it |
+|---|---|
+| Proprietary data | The answer needs data the assistant cannot access, scrape or buy; usage adds more of it |
+| Workflow lock-in | The output lands in a system of record (ERP, payroll, invoicing, filings) with integration and audit trail; ripping it out breaks operations |
+| Distribution | The startup already sits where the buyer works (a channel, a platform, a gremio, an exclusive contract) |
+| Service layer | Someone answers for the result: humans in oversight, an SLA, liability, a licensed signature |
+
+Scoring rule: average 80%+ and none of the four proven = `[RED FLAG: ASSISTANT SUBSTITUTE]`, and
+the Thiel and Sequoia scores cannot exceed 2. Average under 25% = say the assistant is not the
+main threat, and re-test every quarter, because models improve.
+
+## 6. The service horizon: tool -> tool+service -> service
+
+- **YC RFS Summer 2026, "AI-Native Service Companies"** (Gustaf Alströmer): AI agents as the
+  primary workforce, humans in oversight. The company sells the work, not software.
+- **Sequoia, "Services: The New Software"** (Julien Bek, Mar 2026): for every USD 1 spent on
+  software, USD 6 is spent on services. The service budget is the bigger market.
+
+| Position | What the customer buys | Venture-scale when | Watch out for |
+|---|---|---|---|
+| Tool | Software their team operates | Proprietary data or system-of-record position; passes the assistant test | Model providers shipping the same feature |
+| Tool + service | Software plus done-for-you setup, operation or review | Service is a wedge that feeds the product and shrinks per customer over time | Becoming a consultancy with software margins on the slide only |
+| Service (AI-native) | The finished outcome (closed books, filed reports, resolved tickets) | Agents do most of the work; human hours per unit fall every quarter; gross margin trends toward software | Quality and liability; scaling humans linearly with revenue |
+
+Market sizing consequence: a tool sizes against software spend; a service sizes against the
+outsourced or in-house labor budget for the same job, often several times larger (Sequoia 1:6).
+State which one the founder's TAM uses.

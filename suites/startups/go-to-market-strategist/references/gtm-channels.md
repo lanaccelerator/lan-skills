@@ -140,8 +140,12 @@ mature channel; 12–18 month ramp time
   Open rates for cold B2B email in Mexico: 8–12% vs 22% in US *(Operator observation)*
 - **Warm email works:** Email to opt-in list, post-event follow-up, or inbound lead
   nurture performs normally
-- **Recommendation:** Do not lead with cold email in LATAM B2B. Use WhatsApp for
-  first contact; email for follow-up documentation and agreement sending.
+- **Recommendation:** Warm first, but cold email is not a last resort: it is a
+  channel that learns from every reply. Multi-thread each target account (3-5 roles:
+  decider, champion, user, finance or procurement), personalize per role, keep drafts by
+  default, have the founder review the first 20, log every reply in the CRM the same day,
+  and save what worked as a learning in the company brain. For SME owners, WhatsApp after
+  opt-in still carries the conversation.
 
 ---
 
@@ -200,7 +204,9 @@ the buyer needs education before purchasing
 - Cold calls work in LATAM (less gatekeeping at SME level than in US enterprise);
   local phone number increases pick-up rate significantly
 - **Warm intro is the master key:** In LATAM B2B, a mutual connection introduction
-  converts at 5–10× cold outreach. Invest in building the network before scaling
+  converts at 5–10× cold outreach. Find three "super whos" (people with access to
+  thousands of your ICP) across different industries or associations and ask them for
+  intros with one short message. Invest in building the network before scaling
   outbound. *(directional, LAN operator read)*
 
 ---
@@ -231,6 +237,12 @@ propositions, products with natural advocates (accountants, consultants)
   provides distribution to 40M+ active LATAM buyers, a platform-within-a-platform opportunity
 - Accounting software marketplaces (Alegra App Store, Quickbooks Marketplace) are
   emerging as distribution channels for B2B SaaS add-ons in LATAM
+- **AI assistants as a platform (2025-2026):** the Claude connectors directory (Jul 2025)
+  and ChatGPT apps built with the OpenAI Apps SDK (Oct 6, 2025, built on MCP) put a
+  product inside the assistant the buyer already uses. Anthropic reported 10,000+ published
+  MCP servers and 97M monthly SDK downloads (Dec 2025). Score 3 only when the buyer already
+  works in Claude or ChatGPT for this job and the product adds data or an action the
+  assistant cannot reach alone; otherwise ship a small read-only server as an experiment.
 
 ---
 
@@ -242,6 +254,10 @@ propositions, products with natural advocates (accountants, consultants)
 - LATAM industry trade shows with SME decision-maker density: CAINTRA annual
   congress (Monterrey), Expo ANTAD (retail, Guadalajara), Expo Fintech (Mexico City),
   Febraban (Brazil banking sector)
+- Gremios run their own events and member newsletters: Chile (SOFOFA, CChC, SNA,
+  ABIF, FinteChile, ASECH, CONUPIA) and Paraguay (UIP, ARP, CAPECO, CAPACO, ASOBAN,
+  Cámara Paraguaya de Fintech, CISOFT, AMCHAM). A talk or benchmark at a gremio
+  event beats a booth at a generic fair.
 - Decision-making happens in person in LATAM B2B at a higher rate than in US, trade
   show follow-up with WhatsApp (same day) converts 2–3× better than email follow-up
 - Sponsoring smaller vertical association events ($500–$2,000) reaches highly

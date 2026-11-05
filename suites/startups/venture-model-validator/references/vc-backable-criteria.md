@@ -2,10 +2,10 @@
 
 **Source:**
 - [YC Essential Startup Advice](https://www.ycombinator.com/library/Em-yc-s-essential-startup-advice)
-- [Zero to One — Peter Thiel](https://zerotoonebook.com/) (ch. 3–4: monopoly mechanics)
-- [The PMF Method — Andreessen Horowitz](https://a16z.com/the-pmf-method/)
-- [Elements of Enduring Companies — Sequoia Capital](https://www.sequoiacap.com/article/elements-of-enduring-companies/)
-- [How to Miss by a Mile — Bill Gurley](https://abovethecrowd.com/2014/07/11/how-to-miss-by-a-mile-an-alternative-look-at-ubers-potential-market-size/)
+- [Zero to One, Peter Thiel](https://zerotoonebook.com/) (ch. 3–4: monopoly mechanics)
+- [The PMF Method, Andreessen Horowitz](https://a16z.com/the-pmf-method/)
+- [Elements of Enduring Companies, Sequoia Capital](https://www.sequoiacap.com/article/elements-of-enduring-companies/)
+- [How to Miss by a Mile, Bill Gurley](https://abovethecrowd.com/2014/07/11/how-to-miss-by-a-mile-an-alternative-look-at-ubers-potential-market-size/)
 
 **When to use:** venture-model-validator reads this file in Step 2 (Apply Frameworks) and
 Step 3 (Workflow). Score each criterion 1–5. A score below 3 on ANY single criterion is
@@ -52,7 +52,7 @@ All three must be present. Failing any one is disqualifying:
 | 5 | Clear monopoly path: niche small enough to dominate, 2+ of 4 moat types present | Named niche + expansion sequence + specific moat mechanics articulated |
 | 4 | Strong: one moat type present (network effects OR switching costs), clear niche | One moat type clearly demonstrated; niche correctly sized |
 | 3 | Borderline: competitive advantage present but market may fragment; monopoly unclear | Some differentiation; no clear self-reinforcing competitive advantage |
-| 2 | Commodity: differentiates on features only; no structural moat | Moat described as "team" or "customer service" — not structural |
+| 2 | Commodity: differentiates on features only; no structural moat | Moat described as "team" or "customer service", not structural |
 | 1 | Fails: fully commoditized OR identical to existing solutions at lower price | No moat type even partially present |
 
 **Thiel's four moat types:**
@@ -78,7 +78,7 @@ All three must be present. Failing any one is disqualifying:
 | 4 | Early PMF signals: organic growth present, low churn, users "very disappointed" if gone | >40% "very disappointed" in Sean Ellis test; referral present |
 | 3 | Weak PMF: users like it but don't need it; growth stops when paid acquisition pauses | Engagement exists; churn manageable; no organic growth engine |
 | 2 | No PMF: high churn, users leave, heavy sales required to close | Churn >20%/month; sales cycle >6 months for basic contracts |
-| 1 | Pre-PMF: no data — hypothesis only | No customers or <10 users with no engagement evidence |
+| 1 | Pre-PMF: no data: hypothesis only | No customers or <10 users with no engagement evidence |
 
 **a16z PMF indicators:**
 - Users angry when product is slow or down
@@ -102,7 +102,7 @@ All three must be present. Failing any one is disqualifying:
 | 5 | Undeniable timing: specific technology/regulation/behavior shift makes this NOW | Names exact enabling event with timeline; startup was not viable 3 years ago |
 | 4 | Clear timing: one major enabling factor; market window defined | Technology or regulatory change cited with source |
 | 3 | Reasonable: trends favor company but timing is debatable | Market growth trends cited; but no uniquely NOW enabling event |
-| 2 | Weak: "the market is growing" — this is not a "why now" answer | General trend only; no specific enabling event |
+| 2 | Weak: "the market is growing": this is not a "why now" answer | General trend only; no specific enabling event |
 | 1 | No timing: company could have been started 5 years ago with equal logic | No answer to "what changed recently?" |
 
 **Sequoia's test:** "What has happened in the world in the last 2–3 years that makes
@@ -113,7 +113,7 @@ this the right moment?" General growth trends fail this test. Examples that pass
 
 **Red flag triggers (auto-score 1):**
 - "The market is growing" as the entire why-now answer
-- "We saw this problem and decided to solve it" — no external enabling event
+- "We saw this problem and decided to solve it": no external enabling event
 - Company idea identical to competitors founded 5+ years ago
 
 ---
@@ -137,7 +137,7 @@ comparable companies.
 **How to calculate SAM (bottom-up):**
 1. Identify the specific customer segment you can reach in 24 months
 2. Count them (public data, census, vertical databases)
-3. Multiply by your realistic ACV (Annual Contract Value) — use comp company ARPUs
+3. Multiply by your realistic ACV (Annual Contract Value), using comp company ARPUs
 4. Apply realistic penetration rate (1–5% of SAM in 5 years is credible for B2B)
 
 **LATAM adjustment:** For LATAM funds ($50M–$300M fund size), a startup needs SAM
@@ -145,7 +145,7 @@ comparable companies.
 >$500M to return the fund.
 
 **Red flag triggers (auto-score 1):**
-- "If we get 1% of a $50B market" — no SAM calculation
+- "If we get 1% of a $50B market": no SAM calculation
 - TAM from a single analyst report with no bottom-up verification
 - Addressable market defined at global/all-industry level
 
@@ -166,7 +166,7 @@ comparable companies.
 - 22–25: Strong VC candidate. Fundraise now.
 - 18–21: Fundable with caveats. Address specific weak criteria before fundraising.
 - 15–17: Borderline. Fix the weakest criterion before approaching VCs.
-- <15: Not VC-backable at current stage. Identify which criterion fails — solve it first.
+- <15: Not VC-backable at current stage. Identify which criterion fails and solve it first.
 
 **Disqualifying scores:** Any single criterion scoring 2 or below disqualifies the startup
 from VC fundraising regardless of total score. Address the disqualifying criterion first.

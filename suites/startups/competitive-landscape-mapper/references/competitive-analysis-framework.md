@@ -92,6 +92,10 @@ threat often comes from a force that does not yet have a name.
 - DIY solutions (building internally)
 - Outsourcing (hiring a person to do what the software does)
 - Adjacent tools that partially solve the problem
+- General AI assistants (Claude, ChatGPT) at about US$20 per user per month. This is the
+  mandatory baseline row in every map: test 3 real tasks, record the share of the job the
+  assistant does alone, and state why the customer would still pay (proprietary data,
+  workflow lock-in, distribution, a service layer, regulation and trust)
 
 **HIGH substitute threat (bad for the startup):**
 - The current substitute is free or already paid for (spreadsheets, email)

@@ -5,16 +5,19 @@ description: >
   the competitive landscape, analyze or profile competitors, build a competitive matrix or
   2x2, or test their moat and defensibility. Spanish triggers: "quiénes son mis
   competidores?", "armame el mapa competitivo", "análisis de competencia", "cuál es mi
-  ventaja defendible / mi moat?", "qué pasa si entra un grande?". Researches competitors live
-  with sources, applies Porter's Five Forces and a moat taxonomy, and adds LATAM and AI-era
-  dynamics. NOT for overall fundability (use venture-model-validator), the go-to-market plan
-  (use go-to-market-strategist), pricing (use pricing-strategy-designer) or the competition
-  slide of a deck (use pitch-deck-builder).
+  ventaja defendible / mi moat?", "qué pasa si entra un grande?", "ChatGPT me reemplaza?".
+  Researches competitors live with sources, always adds a "Claude/ChatGPT doing it alone"
+  row, applies Porter's Five Forces and a moat taxonomy, and adds LATAM and AI-era dynamics.
+  NOT for overall fundability (use venture-model-validator), weekly competitor monitoring
+  (use competitor-watch), the tool vs service decision (use ai-service-horizon), the
+  go-to-market plan (use go-to-market-strategist), pricing (use pricing-strategy-designer) or
+  the competition slide of a deck (use pitch-deck-builder).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.1"
+  version: "1.2"
   suite: startups
+  complements: [venture-model-validator, go-to-market-strategist, pricing-strategy-designer, competitor-watch, ai-service-horizon]
 license: MIT
 ---
 
@@ -24,6 +27,13 @@ Maps the full competitive landscape using Porter's Five Forces and a defensibili
 moat taxonomy. Produces a 2×2 competitive matrix, competitor profiles, a
 differentiation matrix, structural threat assessment, and defensibility gap analysis
 grounded in the user's actual market, not a generic template.
+
+Every map carries one mandatory baseline: **Claude/ChatGPT doing it alone**. A general AI
+assistant at about US$20 per user per month is the new "do nothing" option for many
+workflows, so it is always a row, always a column, and always placed on the 2x2.
+
+This is a one-time (or quarterly) map. For weekly monitoring of pricing pages,
+changelogs and job posts, hand off to competitor-watch.
 
 ## Step 1: Input Gathering
 
@@ -35,6 +45,7 @@ in ONE message, only for what is missing, and proceed on stated assumptions.
 2. **Target market:** geography + customer segment
 3. **Top 3–5 competitors already known** (name them, do not assume the user is
    unaware of obvious competitors; build from their list, then supplement)
+   [Claude/ChatGPT alone is always added as the baseline row]
 4. **Two dimensions of differentiation** the user believes are most distinctive -
    these become the 2×2 axes (or propose axes if user is unsure)
 5. **Stage and funding status**: calibrates defensibility timeline expectations
@@ -84,14 +95,32 @@ Execute in this exact order:
    come from a dated, linked source (company site, Crunchbase News, LAVCA
    Venture Bulletin, press). Unknown = `[not disclosed]`. Never invent a
    funding amount or customer count.
-4. Build competitor profile table (7 columns) with a source per row
-5. Build differentiation matrix (5–8 capability rows × each competitor)
-6. Apply Porter's Five Forces to identify the biggest structural threat
-7. Assess defensibility, moats built today vs moats required at next stage
-8. Read [references/latam-context.md](references/latam-context.md) BEFORE
+4. **Run the baseline test: Claude/ChatGPT doing it alone.** Take 3 real tasks the
+   customer would give the product, ask Claude and ChatGPT to do them with only what a
+   customer would paste in, and record the share of the job done acceptably (0%, 25%,
+   50%, 80%, 100%). Write what the user gets for about US$20/month and, in one line each,
+   why they would still pay the startup: proprietary data, workflow lock-in (system of
+   record), distribution, a service layer (humans in oversight, SLA, liability) or
+   regulation and trust. If the assistant does 80% or more and none of those holds, flag
+   `[RED FLAG: ASSISTANT SUBSTITUTE]` at the top of the output.
+5. Build competitor profile table (7 columns) with a source per row. The baseline row
+   "Claude/ChatGPT alone" is mandatory: Model = about US$20/user/month subscription,
+   Strengths = what the user gets, Weaknesses = why they would still pay you.
+6. Build differentiation matrix (5–8 capability rows × each competitor, plus the
+   mandatory "Claude/ChatGPT alone" column)
+7. Apply Porter's Five Forces to identify the biggest structural threat. The baseline
+   belongs under threat of substitutes.
+8. Assess defensibility, moats built today vs moats required at next stage
+9. Read [references/latam-context.md](references/latam-context.md) BEFORE
    producing LATAM context annotations
-9. Output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
-10. Next Steps targeting the highest-priority defensibility gap
+10. Output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
+11. **Ongoing monitoring:** list the 5 competitors (plus the baseline) to hand to
+    competitor-watch for weekly tracking, with the pages to watch for each (pricing,
+    changelog, careers, blog).
+12. File the map in the company brain (references/shared/company-brain-integration.md
+    section 4) at `strategy/competition/<YYYY-MM-DD>-landscape` when connected, so
+    competitor-watch diffs against it.
+13. Próximos Pasos targeting the highest-priority defensibility gap
 
 ## Step 4: Output Format
 
@@ -106,15 +135,19 @@ color for the user's company, sources under the chart.
 Required output sections:
 - **2×2 competitive matrix** (text description of quadrant positions, user
   in upper-right represents their differentiation thesis, not a manufactured claim)
-- **Competitor profile table:** Name | Stage | Funding | Model | Strengths | Weaknesses | Direct/Indirect
-- **Differentiation matrix:** capability rows × competitor columns with
-  checkmarks and one-line commentary
+- **Baseline test:** Claude/ChatGPT doing it alone, task by task, share of the job,
+  why the user would still pay
+- **Competitor profile table:** Name | Stage | Funding | Model | Strengths | Weaknesses | Direct/Indirect,
+  with the mandatory "Claude/ChatGPT alone" row
+- **Differentiation matrix:** capability rows × competitor columns (including
+  "Claude/ChatGPT alone") with checkmarks and one-line commentary
 - **Porter's Five Forces assessment:** Force | Risk Level | Commentary
 - **Defensibility analysis:** current moats vs required moats at next stage
 - **LATAM Context box** (from references/latam-context.md, apply where relevant)
-- **Next Steps**
+- **Watch list for competitor-watch**
+- **Próximos Pasos**
 
-## Step 5: LATAM Context
+## LATAM Context
 
 Read [references/latam-context.md](references/latam-context.md) BEFORE
 producing the final output. Apply LATAM-specific competitive dynamics:
@@ -131,12 +164,13 @@ producing the final output. Apply LATAM-specific competitive dynamics:
   capability gap, especially for SME customers.
 - AI-era dynamics (latam-context.md section 6): general AI assistants as
   substitutes, platform risk from model providers, and faster feature copying.
+- For benchmarks, follow references/shared/latam-benchmarks.md.
 
 Label every LATAM-specific observation with `(LATAM)` tag.
 
 ## Tone & Editorial Voice
 
-See references/shared/editorial-voice.md
+See references/shared/editorial-voice.md: direct, not a cheerleader.
 
 Do not validate a weak moat story. If the user claims "our moat is our
 technology" without specifying switching costs or network effects, flag it:
@@ -147,11 +181,11 @@ Name the specific switching cost or network effect that compounds over time."
 If the user claims "no real competitors," challenge it directly: "Every
 market has alternatives. If buyers are not buying your product today, they
 are solving the problem another way, that is a competitor. What are they
-doing instead?"
+doing instead?" Often the answer is "pasting it into ChatGPT": that is the baseline row.
 
-## Step 6: Next Steps
+## Próximos Pasos
 
-End EVERY analysis with 3–5 specific next actions. Use header `## Next Steps`.
+End EVERY analysis with 3–5 specific next actions. Use header `## Próximos Pasos`.
 
 Focus on defensibility gaps: identify which moat to prioritize building
 next quarter. Be specific about the action, not the outcome.
@@ -159,6 +193,8 @@ next quarter. Be specific about the action, not the outcome.
 - Good: "Build a data flywheel by instrumenting [specific user action] and
   storing [specific data asset], this is the proprietary data moat that
   prevents a generic SaaS competitor from replicating your insights in 6 months"
+- Good: "Activá competitor-watch para los 5 competidores de la tabla más la fila
+  Claude/ChatGPT; revisá el resumen cada lunes."
 - Bad: "Build competitive moats"
 
 ## Sources
@@ -169,3 +205,5 @@ next quarter. Be specific about the action, not the outcome.
 - a16z, "The Empty Promise of Data Moats" (2019): https://a16z.com/the-empty-promise-of-data-moats/
 - NFX, "The Network Effects Bible": https://www.nfx.com/post/network-effects-bible
 - CB Insights Market Maps: https://www.cbinsights.com/research/report/venture-capital-market-maps/
+- Hamilton Helmer, *7 Powers* (2016)
+- YC Requests for Startups, Summer 2026, "AI-Native Service Companies": https://www.ycombinator.com/rfs

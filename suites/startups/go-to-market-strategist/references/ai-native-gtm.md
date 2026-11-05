@@ -1,8 +1,21 @@
 # AI-Native GTM and AI in the Sales Stack
 
-**When to use:** go-to-market-strategist Step 2 when the product is AI-native (agents, copilots,
-automation sold on usage or outcomes), or when the team plans to use AI tools in prospecting and
-sales.
+**When to use:** go-to-market-strategist Steps 2-9, for every plan: the default competitor
+(section 6) and the distribution check (section 5) apply to any startup, AI-native or not.
+
+**Sources:**
+- Anthropic, "Donating the Model Context Protocol and establishing the Agentic AI Foundation"
+  (Dec 2025): https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation
+- Claude connectors directory (Jul 2025): https://claude.com/resources/articles/connectors-directory
+- OpenAI, "Introducing apps in ChatGPT and the new Apps SDK" (Oct 6, 2025):
+  https://openai.com/index/introducing-apps-in-chatgpt/
+- YC Requests for Startups, Summer 2026, "AI-Native Service Companies" (Gustaf Alströmer):
+  https://www.ycombinator.com/rfs
+- Sequoia, "Services: The New Software" (Julien Bek, Mar 2026):
+  https://www.sequoiacap.com/article/services-the-new-software
+- a16z, "How 100 Enterprise CIOs Are Building and Buying Gen AI in 2025" (Jun 2025):
+  https://a16z.com/ai-enterprise-2025/
+- Bessemer, State of AI 2025: https://www.bvp.com/atlas/the-state-of-ai-2025
 
 ---
 
@@ -53,3 +66,76 @@ Use AI to multiply founder-led sales, not to replace the relationship:
 - What data, workflow integration or distribution does the product own that a competitor with
   the same model cannot copy in 6 months?
 - Gross margin after inference costs, and how it improves with scale.
+
+## 5. Distribution inside AI assistants (MCP)
+
+Buyers increasingly do their work inside Claude or ChatGPT. A product that shows up there gets
+used where the work happens, without a new tab or a new login.
+
+- **The standard:** the Model Context Protocol (MCP) connects AI assistants to external tools
+  and data. Anthropic reported 10,000+ published MCP servers and 97M monthly SDK downloads when it
+  donated MCP to the Agentic AI Foundation (Dec 2025).
+- **Two storefronts:** the Claude connectors directory (launched Jul 2025) lists MCP servers
+  that users connect in one click; the OpenAI Apps SDK (launched Oct 6, 2025) is built on MCP and
+  lets apps run inside ChatGPT with their own interface. One MCP server can serve both.
+- **When it is a real channel (score 3 on channel 14):** the buyer already uses Claude or
+  ChatGPT daily for this job; the product's value is data or an action the assistant cannot
+  reach alone (your database, your transaction, your human team); and a single tool call shows
+  value in under a minute.
+- **When it is "later" (score 2):** buyers use assistants but not yet for this job, or the
+  product needs a heavy UI. Ship a small read-only MCP server as an experiment.
+- **When it is "never for now" (score 1):** buyers do not use AI assistants at work (common in
+  traditional LATAM SMBs and field operations); WhatsApp is still the interface.
+- **What to measure:** installs, weekly active connections, tool calls per account, and the
+  share of new accounts whose first touch was the assistant.
+- **Guardrails:** least privilege per tool, explicit user consent for every write action,
+  simple tool descriptions, follow each directory's review and data policies. Never expose data
+  of one customer to another through a shared server.
+- **No-dependency path:** if the team cannot ship an MCP server yet, publish a public page with
+  clear structured content and an `llms.txt`, so assistants that browse can find and cite the
+  product, and test discoverability by asking Claude and ChatGPT the buyer's question by hand.
+
+## 6. Competitor 0: Claude/ChatGPT doing the job alone
+
+Every GTM plan analyzes this competitor, even when the founder does not name it. A general
+assistant at about USD 20 per month per user is the new "do nothing" option for many workflows.
+
+Run the test by hand in 20 minutes:
+
+1. Take 3 real tasks the buyer would give your product (anonymized).
+2. Ask Claude and ChatGPT to do each task with only what a buyer would paste in.
+3. Score the share of the job the assistant completes acceptably (0%, 25%, 50%, 80%, 100%).
+4. Write, in one line each, why the buyer would still pay you. Valid reasons:
+
+| Reason | Test |
+|---|---|
+| Proprietary data | The answer needs data the assistant cannot access or buy |
+| Workflow lock-in | The output must land in a system of record (ERP, payroll, invoicing) with integration and audit |
+| Distribution | You already sit where the buyer works (a gremio, a platform, an existing contract) |
+| Service layer | Someone answers for the result: humans in oversight, an SLA, liability, a signature |
+| Regulation or trust | Local compliance, data residency, a licensed professional on record |
+
+Reading: if the assistant does 80% or more of the job and none of the five reasons holds, the
+GTM is not the problem; the wedge is. Say it first and hand off to venture-model-validator or
+ai-service-horizon. If the assistant does under 25%, say it is not the main threat, and keep the
+row so the team re-tests every quarter (models improve; competitor-watch re-runs it weekly).
+
+## 7. The service horizon: tool -> tool+service -> service
+
+- **YC RFS Summer 2026, "AI-Native Service Companies":** AI agents as the primary workforce,
+  humans in oversight. The company sells the finished work, not the software.
+- **Sequoia, "Services: The New Software":** for every USD 1 spent on software, USD 6 is spent
+  on services. Selling the work opens the larger budget.
+
+GTM implications by position:
+
+| Position | What the buyer buys | Motion | Pricing that fits |
+|---|---|---|---|
+| Tool | Software their team operates | Product-led or founder-led SaaS sale | Seat or usage |
+| Tool + service | Software plus done-for-you setup, operation or review | Founder-led sale, onboarding as part of the offer | Setup fee + usage |
+| Service | The outcome (closed books, resolved tickets, filed reports) | Consultative B2B sale to the budget owner of the outsourced work | Outcome or % of savings, with a floor |
+
+A service sells against the agency, the outsourcer or the in-house team, not against software,
+so the competitor list and the buyer change. Price levels go to pricing-strategy-designer (three
+plans: Mínimo, Estándar, Premium, with mixed billing). The full horizon decision goes to
+ai-service-horizon.

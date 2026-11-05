@@ -1,13 +1,13 @@
-# VC Backability Scorecard — Output Template
+# VC Backability Scorecard: Output Template
 
 ALWAYS use this exact structure. Every section is required. Do not change headings,
-table columns, or field order. Fill every section with real analysis — no placeholders.
+table columns, or field order. Fill every section with real analysis, no placeholders.
 
 ---
 
 ## Example Output: FinTrack
 
-*This is a filled example for FinTrack — a hypothetical B2B SaaS startup for SME expense
+*This is a filled example for FinTrack, a hypothetical B2B SaaS startup for SME expense
 management based in Mexico City. Use it as the structural template for every analysis.*
 
 ---
@@ -28,14 +28,14 @@ management based in Mexico City. Use it as the structural template for every ana
 |-----------|-------------|-------------|
 | YC Idea Evaluation | 3/5 | Market exists but no 10x differentiation identified over QuickBooks/Contalink |
 | Thiel Monopoly Test | 2/5 | No clear niche monopoly path; multiple incumbents hold segment; no structural moat |
-| a16z PMF Framework | 1/5 | Pre-product; no PMF signal yet — hypothesis only |
+| a16z PMF Framework | 1/5 | Pre-product; no PMF signal yet, hypothesis only |
 | Sequoia Enduring Companies | 3/5 | Recurring revenue model is enduring, but mission-critical status unproven |
 | Gurley Market Sizing | 4/5 | 500k SMEs × $20/mo ARPU = $120M ARR serviceable market; TAM credible |
 
-**Overall Score: 13/25** — Not VC-backable at this stage.
+**Overall Score: 13/25**. Not VC-backable at this stage.
 
 **Interpretation:** Score below 15 means at least one criterion disqualifies the current
-business as VC-backable. A 2/5 on Monopoly Dynamics is disqualifying — fix this first.
+business as VC-backable. A 2/5 on Monopoly Dynamics is disqualifying: fix this first.
 Fundable at pre-seed/seed with demonstrated PMF signal and a clear niche monopoly thesis.
 
 ---
@@ -43,8 +43,49 @@ Fundable at pre-seed/seed with demonstrated PMF signal and a clear niche monopol
 ## Red Flags
 
 - **[RED FLAG]** No 10x improvement articulated over existing solutions (QuickBooks, Contalink, Aspel). Feature parity at a lower price is not a venture-scale differentiation.
-- **[RED FLAG]** "Why now?" is absent — no regulatory change, no infrastructure shift, no behavioral inflection identified. This company could have been founded in 2018 with equal logic.
+- **[RED FLAG]** "Why now?" is absent: no regulatory change, no infrastructure shift, no behavioral inflection identified. This company could have been founded in 2018 with equal logic.
 - **[RED FLAG]** Founding team has no prior fintech or SaaS experience. No domain credibility in the target vertical.
+
+---
+
+## Why a VC Says Yes or No
+
+**Fund-returner math:** a USD 100M fund at ~10% ownership needs a USD 1B exit to return the
+fund. At an assumed 10x ARR exit multiple, FinTrack needs ~USD 100M ARR `[ASSUMPTION: 10x ARR]`.
+As a USD 20/month tool, the serviceable market is USD 120M ARR: FinTrack would need 83% of it.
+The math does not work as a tool.
+
+**Exit path:** ~97% of 2025 US VC exits were M&A (US-sourced benchmark, PitchBook-NVCA Q1
+2026). Plausible acquirers: Visma, Siigo, Alegra, Intuit, a Mexican bank building an SME
+suite, a payroll platform, a corporate-card fintech. Seven, not ten: the list is thin.
+
+**"Does Claude/ChatGPT already do it?" test** (3 tasks from discovery interviews, run in both
+assistants):
+
+| Task | Share done by Claude/ChatGPT alone | Why a customer would still pay FinTrack |
+|------|-----------------------------------|----------------------------------------|
+| Categorize 40 photographed receipts | 80% | Nothing today. Commodity. |
+| Monthly expense report by cost center | 80% | Nothing today. Commodity. |
+| Match expenses to CFDI invoices downloaded from SAT and flag non-deductible ones | 25% | Workflow lock-in, if built: SAT download, CFDI matching, and the accountant's file in one flow |
+
+**Reading:** average ~62%, under the 80% red-flag line only because of the CFDI task. Two of
+the three features in the current pitch are what an SME owner gets for about USD 20/month. Of
+the four reasons to exist (proprietary data, workflow lock-in, distribution, service layer),
+none is proven yet. CFDI matching is the only candidate.
+
+**Service horizon:**
+
+| | Today (plan) | Recommended |
+|---|---|---|
+| Position | Tool (SME operates the software) | Tool + service: "your monthly expense close, done", agents do the matching, a contador reviews and signs |
+| Who it competes with | QuickBooks, Contalink, Alegra, ChatGPT | The SME's outsourced contador fee |
+| Price logic | USD 20/month per company | USD 150/month per company `[ASSUMPTION: below a typical outsourced bookkeeping fee]` |
+| Serviceable market | ~USD 120M ARR | ~USD 900M ARR (500k SMEs × USD 150 × 12) (directional) |
+
+At 15% share of the service market, ARR reaches ~USD 135M: the fund-returner math works only
+in the service position. YC's Summer 2026 RFS asks for exactly this (AI-native service
+companies, agents as the workforce, humans in oversight), and Sequoia counts USD 6 on services
+for every USD 1 on software. Detailed horizon decision and margin model: `/ai-service-horizon`.
 
 ---
 
@@ -81,27 +122,29 @@ at idea stage, 18-24 months from Series A eligibility assuming execution.
 
 ---
 
-## Next Steps
+## Próximos Pasos
 
 1. Conduct 20 customer discovery interviews with Mexican SMEs (5–50 employees) to identify
-   the single biggest pain point in expense management — find the one workflow where
+   the single biggest pain point in expense management: find the one workflow where
    current tools fail so badly that customers would pay on day one for a fix.
 
-2. Define your 10x differentiation vs Contalink, Alegra and Contpaqi. Answer: "Why would a customer
-   switch from their current tool?" The answer cannot be "it's cheaper" — it must be a
+2. Drop receipt categorization and expense reports from the pitch: ChatGPT does 80% of both.
+   Define your 10x differentiation vs Contalink, Alegra, Contpaqi and ChatGPT around CFDI
+   matching, and test the service version (done-for-you monthly close) with 5 SMEs. Answer: "Why would a customer
+   switch from their current tool?" The answer cannot be "it's cheaper": it must be a
    structural capability they cannot get elsewhere.
 
 3. Build a working prototype in 1-2 weeks with an AI coding agent (`/rapid-mvp-builder`)
    and get 3 paying customers before raising any capital. Pre-revenue at idea stage with no team differentiation is not raiseable
    in the 2025 LATAM pre-seed market.
 
-4. Articulate the "Why Now?" — identify a specific regulatory change (SAT mandate, CFDI
+4. Articulate the "Why Now?": identify a specific regulatory change (SAT mandate, CFDI
    4.0 compliance), infrastructure shift (open banking regulation in Mexico), or behavioral
    change driving urgency that did not exist in 2022.
 
 5. Map who funded SMB finance software in LATAM in the last 24 months and identify 5 LATAM-focused seed funds
    (LAN Accelerator, 500 Latam, Platanus, Magma Partners, ALL VP) for early relationship
-   building — warm intros to these funds require 12–18 months of relationship cultivation.
+   building: warm intros to these funds require 12–18 months of relationship cultivation.
 
 ---
 
@@ -116,3 +159,5 @@ at idea stage, 18-24 months from Series A eligibility assuming execution.
 - a16z PMF Method: https://a16z.com/the-pmf-method/
 - Sequoia Enduring Companies: https://www.sequoiacap.com/article/elements-of-enduring-companies/
 - Bill Gurley Market Sizing: https://abovethecrowd.com/2014/07/11/how-to-miss-by-a-mile-an-alternative-look-at-ubers-potential-market-size/
+- YC Requests for Startups, Summer 2026, "AI-Native Service Companies": https://www.ycombinator.com/rfs
+- Sequoia, "Services: The New Software" (Julien Bek, Mar 2026): https://www.sequoiacap.com/article/services-the-new-software

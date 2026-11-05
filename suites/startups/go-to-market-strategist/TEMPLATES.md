@@ -1,8 +1,10 @@
 # Go-to-Market Strategist: Template
 
 **ALWAYS use this exact template structure.** The output must include: beachhead
-segment definition, channel scorecard, 90-day plan table, and unit economics
-targets. Do not skip sections. Do not substitute narrative for tables.
+segment definition, competitor 0 (Claude/ChatGPT alone), channel scorecard, warm map,
+AI-assistant distribution decision, acquisition plans, unit economics targets, service
+horizon, 90-day plan table and LATAM context. Do not skip sections. Do not substitute
+narrative for tables.
 
 ---
 
@@ -45,7 +47,25 @@ repeat borrowing rate. At that point, expand to Mexico City.
 
 ---
 
-## 2. Channel Scorecard (Weinberg 19 Channels)
+## 2. Competitor 0: Claude/ChatGPT Doing the Job Alone
+
+Tested by hand with 3 anonymized tasks from current borrowers, in Claude and ChatGPT, using
+only what an SME owner would paste in.
+
+| Task the buyer has | What Claude/ChatGPT alone does (about USD 20/month) | Share of the job | Why they would still pay CapitalPyme |
+|---|---|---|---|
+| Size the cash gap between purchase order and customer payment | Builds a cash-flow table from pasted numbers, flags the gap in days | 80% | The job is the money in 48 hours, not the spreadsheet. An assistant cannot lend. |
+| Compare loan offers from banks and fintechs | Explains terms and compares total cost when the owner pastes the offers | 50% | It cannot pre-approve or price the risk from the SME's invoice history |
+| Prepare the loan application file | Drafts a checklist of documents | 25% | CapitalPyme pulls invoices with consent, fills the file and decides in 48 hours |
+
+**Reading:** the general assistant is not the main threat here; it gives away the analysis
+part for free. Consequence for GTM: do not market "financial analysis" or "cash-flow tools" as
+the value, they are commodity now. Market the 48-hour capital against a purchase order.
+**Re-test:** every quarter (competitor-watch tracks it weekly).
+
+---
+
+## 3. Channel Scorecard (Weinberg 19 Channels)
 
 Score each channel 1–3 for this startup:
 - **3** = Ideal fit: channel matches business model, stage, geography, and budget
@@ -61,13 +81,13 @@ Score each channel 1–3 for this startup:
 | 5 | Social & Display Ads | 2 | Facebook ads work for B2C; LinkedIn for B2B, medium effectiveness |
 | 6 | Offline Ads | 1 | Radio/TV: wrong medium for B2B financial product |
 | 7 | SEO / Content Marketing | 2 | Long-term channel; "business credit Monterrey"-style content (in Spanish locally) works |
-| 8 | Email Marketing | 1 | Low deliverability with .mx domains; spam filter issue |
+| 8 | Email Marketing | 2 | Not the opener for SME owners (.mx deliverability), but a learning channel for accountant firms: drafts, founder reviews the first 20, every reply logged |
 | 9 | Engineering as Marketing | 1 | No natural product-led viral loop in lending |
-| 10 | Target Market Blogs | 2 | CAINTRA blog/newsletter is a warm channel worth exploring |
+| 10 | Target Market Blogs | 2 | CAINTRA newsletter and member WhatsApp communities are warm channels worth exploring |
 | 11 | Business Development / Partnerships | **3** | Accountants + CFO advisors as referral partners, high fit |
 | 12 | Sales (direct, founder-led) | **3** | Intros through the industrial association and current borrowers, then WhatsApp follow-up, high fit |
 | 13 | Affiliate Programs | 2 | Accountant referral program (5% of origination fee), testable |
-| 14 | Existing Platforms | 2 | CapitalPyme distribution through accounting software (Alegra, Contpaqi) |
+| 14 | Existing Platforms | 2 | Accounting software add-ons (Alegra, Contpaqi); a read-only MCP pre-qualification tool for accountants in Claude/ChatGPT as an experiment (section 5) |
 | 15 | Trade Shows / Events | 2 | CAINTRA events, COPARMEX, good for early trust building |
 | 16 | Offline Events | 2 | Industry association workshops, relationship-first LATAM approach |
 | 17 | Speaking Engagements | 1 | Too slow for early stage |
@@ -79,7 +99,52 @@ Content + SEO (7)
 
 ---
 
-## 3. Acquisition Plan: Top 3 Channels
+## 4. Warm Map: Gremios and Super Whos
+
+**Gremios (where the ICP already gathers):**
+
+| Gremio | Who is there | First move | Cost |
+|---|---|---|---|
+| CAINTRA Nuevo León | Manufacturing SMEs in Monterrey | Join as financial partner; offer a talk on purchase-order financing at a members breakfast | ~USD 1,500/year |
+| CANACINTRA (Guadalajara delegation) | Manufacturing SMEs in Jalisco | Ask for 10 intros to members with large-buyer purchase orders | Membership fee [ASSUMPTION: similar to CAINTRA] |
+| IMCP local chapter (public accountants) | Accountants serving SMEs | Sponsor one continuing-education session on credit options for clients | ~USD 500 per session [ASSUMPTION] |
+
+**Super whos (people with access to thousands of the ICP), roles only:**
+
+| # | Super who | Reach | Ask |
+|---|---|---|---|
+| 1 | Director of a manufacturing cluster in Monterrey | ~600 member companies | Intro to 10 members with a confirmed purchase order this quarter |
+| 2 | Owner of an ERP reseller serving manufacturing SMEs | ~400 client companies | Co-hosted webinar plus a two-line blurb for their newsletter |
+| 3 | Admin of a WhatsApp community of purchasing and finance managers | ~1,200 members | Permission to share one useful guide; private follow-up only when someone asks |
+
+**Script (Nájera), sent personally:**
+
+Hola [nombre], estoy ayudando a pymes manufactureras de Monterrey a cubrir el hueco entre la
+orden de compra y el cobro con capital en 48 horas. ¿Conocés a alguien que se pueda beneficiar?
+
+**Benchmark:** about 30% reply and 12% positive on Nájera's automated warm outreach
+(directional, single practitioner). Target for CapitalPyme: 2 of 3 super whos reply, 15 intros
+by day 30.
+
+---
+
+## 5. Distribution Inside AI Assistants (MCP)
+
+| Question | Answer for CapitalPyme |
+|---|---|
+| Do buyers already work inside Claude or ChatGPT for this job? | SME owners: rarely (WhatsApp is the interface). Accountants: yes, increasingly, for client analysis. |
+| What would the MCP server or ChatGPT app do that the assistant cannot? | Return an indicative eligibility range from purchase-order amount, buyer name and sector, using CapitalPyme's own approval history |
+| Write actions? | None in v1. Read-only, no client data stored, consent screen before any application starts |
+| Decision | **Later.** Score 2 on channel 14. Ship a read-only server in weeks 9-12 as an experiment for accountant partners |
+| Success metric at day 90 | 20 accountant firms connected, 40 pre-qualifications run, 5 applications started from the assistant |
+
+Context: one MCP server serves both the Claude connectors directory (Jul 2025) and ChatGPT apps
+(Apps SDK, Oct 6, 2025, built on MCP); Anthropic reported 10,000+ published MCP servers (Dec
+2025).
+
+---
+
+## 6. Acquisition Plan: Top 3 Channels
 
 ### Channel 1: Industrial Association Intros + WhatsApp Follow-up
 
@@ -159,7 +224,7 @@ by Day 75; full channel payoff at Month 9+
 
 ---
 
-## 4. Unit Economics Targets
+## 7. Unit Economics Targets
 
 | Metric | Channel 1 (WhatsApp) | Channel 2 (Accountants) | Channel 3 (SEO) |
 |--------|---------------------|------------------------|-----------------|
@@ -181,12 +246,23 @@ at 6-month mark once cohort data is available.
 
 ---
 
-## 5. 90-Day GTM Plan
+## 8. Service Horizon
+
+| Position today | What the agents do | What humans oversee | GTM consequence |
+|---|---|---|---|
+| Service (sells capital, not software) | Pull invoices with consent, score risk, prepare the credit file, draft the offer | Credit committee signs every loan above USD 50K; collections calls on late payers | Sell against banks and factoring firms, not against software. Buyer is the owner or finance director, budget is working capital, not IT. |
+
+Full horizon decision and margin model: ai-service-horizon.
+
+---
+
+## 9. 90-Day GTM Plan
 
 | Week | Goal | Owner | KPI | Budget |
 |------|------|-------|-----|--------|
 | 1–2 | Join CAINTRA; attend the first members event; log every contact with their consent | CEO | 50 contacts with opt-in in CRM | $1,500 CAINTRA fee |
 | 1–2 | Ask 20 current borrowers for 2 intros each; write the post-intro WhatsApp message | CEO | 40 intro requests | $0 |
+| 1–2 | Send the super-who script to the 3 super whos; run the competitor 0 test and file it in the brain | CEO | 2 of 3 replies; test filed | $0 |
 | 3–4 | First 100 opted-in contacts messaged after intros or association events; track replies | CEO | 25+ replies | $0 |
 | 3–4 | Identify top 50 accountants in Monterrey/GDL; draft referral program one-pager | CEO | 50 accountants identified | $200 materials |
 | 5–6 | First 15 qualified loan conversations; submit first 5 loan applications | CEO + Ops | 5 loans in review | $0 |
@@ -194,6 +270,7 @@ at 6-month mark once cohort data is available.
 | 7–8 | Close first 10 loans; collect customer success story from best borrower | CEO + Ops | 10 loans closed | $0 |
 | 7–8 | Onboard first 5 accountant referral partners; set up commission tracking | CEO | 5 active partners | $0 |
 | 9–10 | Publish first 2 blog posts; submit to Google Search Console | Content | 2 posts live | $0 |
+| 9–12 | Ship the read-only MCP pre-qualification server; offer it to accountant partners | CTO | 20 accountant firms connected | $0 (team time) |
 | 9–10 | Launch a click-to-WhatsApp ad test in Monterrey (opt-in by design); iterate the first message | CEO | 300 opted-in conversations total | $1,000 ads |
 | 11–12 | Review 90-day results; score channels vs targets; decide which channel to double down | CEO | Report: CAC/channel vs target | $0 |
 | 11–12 | Build accountant referral partner WhatsApp group; first group update | CEO | 15+ partners in group | $0 |
@@ -201,7 +278,7 @@ at 6-month mark once cohort data is available.
 
 ---
 
-## 6. LATAM Context Box
+## 10. LATAM Context Box
 
 > **WhatsApp is where SME owners reply, and it is opt-in.** Contact people only after
 > they shared their number (intro, event, ad, form). Cold blasts get the number reported
@@ -209,7 +286,7 @@ at 6-month mark once cohort data is available.
 >
 > **Relationship-first sales motion:** In LATAM B2B, warm intro converts at 3–5×
 > the rate of cold outreach (directional). CAINTRA membership, accelerator networks (LAN, Wayra,
-> NXTP, 500 Global), and accountant referral networks are not "nice-to-have", they
+> NXTP, 500 Global), gremios and accountant referral networks are not "nice-to-have", they
 > are the distribution infrastructure for SME fintech in Mexico. *(directional, LAN operator read)*
 >
 > **Only 7% of LATAM seed companies raise a Series A within two years** *(LATAM, LAVCA
@@ -218,15 +295,17 @@ at 6-month mark once cohort data is available.
 
 ---
 
-## Next Steps (Example)
+## Próximos Pasos
 
 1. **Day 1–3:** Join CAINTRA Nuevo León ($1,500 membership). This is table stakes
    for Channel 1 and Channel 2 both, industrial association access is the single
    most leveraged $1,500 you will spend in the first 90 days.
 
-2. **Day 1–5:** Ask each of the 20 best current borrowers for 2 intros to peers
-   (Finance Director / General Manager, 10–50 employees, manufacturing, Monterrey or
-   Guadalajara). Target: 40 intro requests sent by Day 5.
+2. **Day 1–5:** Send the super-who script to the 3 people in the warm map, and ask each of
+   the 20 best current borrowers for 2 intros to peers (Finance Director / General Manager,
+   10–50 employees, manufacturing, Monterrey or Guadalajara). Target: 40 intro requests by
+   Day 5. If no super who replies in 7 days, change the ask (smaller, more specific), not the
+   channel.
 
 3. **Day 5–10:** Message the first 50 introduced contacts on WhatsApp (only after
    they shared their number). Measure reply rate. If under 10%, fix the message and

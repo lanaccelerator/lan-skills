@@ -85,11 +85,65 @@ Cold email faces structural challenges in LATAM that do not apply in the US:
   still 30–40% spam rate for cold outreach
 
 **Recommendation:**
-1. Do NOT lead with cold email for B2B SME in LATAM
-2. Use LinkedIn for first touchpoint (VP+) or WhatsApp for SME owners
-3. Email is appropriate for follow-up after phone/WhatsApp conversation
-4. For email sequences: use Brazilian domain provider (not US host) for better
-   .com.br deliverability if targeting Brazil
+1. Warm first: intros, gremios and super whos open the account (next section).
+2. Cold email is not a last resort: it is a channel that learns from every reply. Run it
+   multi-threaded (3-5 roles inside the same target account: decider, champion, user,
+   finance or procurement), each message personalized to the role and coordinated so two
+   threads never collide. Drafts by default; the founder reviews the first 20; the CRM is
+   updated the same day; what worked is saved as a learning in the company brain.
+3. For SME owners, WhatsApp after opt-in still beats email for the conversation; email
+   carries the proposal and anything procurement or legal reads.
+4. Deliverability: warm up the sending domain, keep volume low per inbox, and use a
+   Brazilian domain provider (not a US host) for better .com.br deliverability if targeting
+   Brazil.
+
+---
+
+## Gremios, Associations and Super Whos (warm channels)
+
+Source: Andrés Nájera, LAN mentor masterclass (Nov 2026); LAN Accelerator founder sales
+sessions (2026).
+
+### Gremios
+
+Industry associations, chambers and clusters gather the ICP in one room, one newsletter and
+one WhatsApp community. Membership or a sponsored talk is often the cheapest qualified
+audience a B2B startup can buy.
+
+| Country | Examples |
+|---|---|
+| Chile | SOFOFA, CChC, SNA, ABIF, FinteChile, AACH, Clínicas de Chile, CCS, ASECH, CONUPIA |
+| Paraguay | UIP, ARP, CAPECO, CAPACO, ASOBAN, Cámara Paraguaya de Fintech, CISOFT, AMCHAM |
+| Mexico | CAINTRA, COPARMEX, CMIC, CANACINTRA |
+| Brazil | FIESP, CNI, FEBRABAN, ABComm |
+
+How to work a gremio: join or sponsor one event, offer a useful talk or benchmark (not a
+pitch), ask the association to introduce you to the 10 members with the trigger event, and
+move each introduced contact to WhatsApp only after they share their number.
+
+### Super whos
+
+A "super who" is a person with access to thousands of your ICP: an association director, an
+accountant with 300 SME clients, a consultant who serves a whole industry, a community admin.
+Find three, across different industries or associations, so one silence does not stop the
+channel.
+
+Script (Nájera), sent as a short personal message:
+
+"Hola [nombre], estoy ayudando a [cliente ideal] a [resolver X] con [solución]. ¿Conocés a
+alguien que se pueda beneficiar?"
+
+Nájera reports about 30% reply and about 12% positive on his automated warm outreach
+(directional, single practitioner). Rules: one ask per message, make the forward easy (a
+two-line blurb they can paste), thank them with the result, and ask existing customers for
+referrals several times a year at the "thank you" moment (after a win, a renewal, a
+compliment).
+
+### WhatsApp communities
+
+Many ICPs already gather in WhatsApp communities (association groups, alumni groups, industry
+groups). Join as a member who contributes; never blast. A useful answer in the group plus a
+private follow-up after someone asks is the pattern that works.
 
 ---
 
