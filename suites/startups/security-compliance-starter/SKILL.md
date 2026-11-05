@@ -118,7 +118,7 @@ SOC 2 and ISO 27001 share about 80% of their controls: build once, map to both.
 Decision rule:
 - **Wait** while questionnaires plus the answer bank and a trust page close deals.
 - **Certify** when the expected value of deals that require it in the next 12 months
-  is at least 3x the all-in cost, or when one strategic buyer makes it a signed condition.
+  clearly outweighs the all-in cost, or when one strategic buyer makes it a signed condition.
 - **Which one:** SOC 2 when US buyers drive the pipeline; ISO 27001 when LATAM or European
   corporates, banks and regulators drive it (directional: ask your top 5 prospects).
 - **Tooling:** Comp AI (trycomp.ai, open source, AGPL) is the cheapest automation path;

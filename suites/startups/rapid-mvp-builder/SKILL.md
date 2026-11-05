@@ -217,6 +217,7 @@ questionnaire.
 - YC Launch Now: https://www.ycombinator.com/library/4D-yc-s-essential-guide-to-go-to-market
 - Claude Code docs: https://code.claude.com/docs
 - Anthropic, "The new rules of context engineering" (claude.dev blog): https://claude.dev/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models/
+- Claude (@claudeai), post of 4 Nov 2026: over 80% of Claude Code's system prompt removed for newer models with no measurable loss: https://www.instagram.com/p/DfVIxvCEbm3/
 - LAN Brain workflow-bench (Aug 2026): curated brain vs raw files, 165 runs, published by LAN Brain
 - gitleaks: https://github.com/gitleaks/gitleaks ; trufflehog: https://github.com/trufflesecurity/trufflehog
 - Trivy: https://trivy.dev ; Semgrep: https://semgrep.dev

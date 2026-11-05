@@ -36,7 +36,7 @@ it to both; the second framework costs much less than the first.
 
 Certify when either is true:
 1. Expected value of deals in the next 12 months that require the certification (deal
-   value x probability) is at least 3x the all-in cost.
+   value x probability) clearly outweighs the all-in cost.
 2. One strategic buyer makes it a signed condition with a date, and the deal alone
    justifies the cost.
 

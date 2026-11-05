@@ -95,7 +95,7 @@ longer needs.
 | Sample, do not dump | Judge excerpts and 20-50 sampled cases, not every full transcript |
 | Log every run | Tokens in, tokens out, cost, model class, pass rate |
 | Who pays | Dev-time LLM work on subscription usage (headless agent runs); API keys only for the product runtime, one per project |
-| Calibrate the judge | 20 human-labeled cases; rule of thumb: trust the judge only above ~85% agreement |
+| Calibrate the judge | 20 human-labeled cases; trust the judge only after measuring how often it agrees with the human labels, and record that rate |
 
 Cost formula for a run: `cases x (input tokens + output tokens) x price per token x judge passes`.
 Write the number in the PR that adds the test.
