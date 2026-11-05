@@ -8,7 +8,7 @@ real analysis from the user's startup.
 distributors, Seed stage, 11 people in 3 teams (Producto, Ventas, Customer
 Success), Asunción. Agenda for Monday 13/10/2026, week 2 of 13 in Q4.
 Sources: brain (previous agenda, 6 meeting notes, Q4 OKRs), Linear, HubSpot,
-billing sheet.*
+billing sheet, PostHog.*
 
 ---
 
@@ -27,6 +27,16 @@ Agenda anterior: [[2026-10-06-agenda]]
 | Churn mensual de logos | 3,1% | 2,8% | +0,3 pp | 2,0% | 2,0% | Fuera de camino |
 | Pipeline calificado | USD 182.000 | USD 160.000 | +22.000 (+14%) | USD 250.000 | - | En camino |
 | Km por entrega (clientes activos) | -9,8% | -9,5% | -0,3 pp | -12% | - | En riesgo |
+
+Uso y benchmarks de la semana (PostHog + página de evals en el brain):
+
+| Métrica | Esta semana | Semana pasada | Delta |
+|---|---|---|---|
+| Cuentas activas semanales | 34 de 39 | 33 de 38 | +1 (87% vs 87%) |
+| Rutas planificadas | 4.120 | 3.860 | +260 (+6,7%) |
+| Activación (primera ruta en 7 días) | 3 de 4 signups | 2 de 4 | +25 pp |
+| Uso del reporte de ahorro | 11 cuentas | 7 cuentas | +4 |
+| Eval de ruteo (200 rutas reales vs ruta óptima) | 94,1% | 92,8% | +1,3 pp; costo por corrida USD 0,90 |
 
 | Key Result | Dueño | Confianza | Cambio |
 |---|---|---|---|
@@ -80,7 +90,7 @@ Ventas está bajo 60% por segunda semana seguida. Se discute en el bloque 4.
 ## 5. Cierre (5 min)
 Leer en voz alta los compromisos confirmados por equipo y sus dueños. Quedan como base de la próxima agenda.
 
-Fuentes: brain `meetings/all-hands/2026-10-06-agenda`, 6 notas de reunión del 06/10 al 10/10, `okrs/2026-q4`; Linear (23 tareas); HubSpot (pipeline al 10/10); planilla de facturación (MRR al 10/10).
+Fuentes: brain `meetings/all-hands/2026-10-06-agenda`, 6 notas de reunión del 06/10 al 10/10, `okrs/2026-q4`; Linear (23 tareas); PostHog (uso 06/10 al 12/10); `evals/ruteo` (corridas 06/10 y 13/10); HubSpot (pipeline al 10/10); planilla de facturación (MRR al 10/10).
 ```
 
 ---
@@ -89,7 +99,7 @@ Fuentes: brain `meetings/all-hands/2026-10-06-agenda`, 6 notas de reunión del 0
 
 - Creada: `meetings/all-hands/2026-10-13-agenda`
 - Vinculada a: `okrs/2026-q4`, notas de reunión de la semana, páginas de cada dueño
-- Conectores usados: Linear, HubSpot, Google Sheets. Sin datos: confianza previa de KR3.
+- Conectores usados: Linear, HubSpot, Google Sheets, PostHog. Sin datos: confianza previa de KR3.
 
 ---
 

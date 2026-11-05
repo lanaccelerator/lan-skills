@@ -4,7 +4,7 @@ description: >
   For STARTUP FOUNDERS and team leads. Use when the user wants to prepare the weekly
   all-hands, team sync, staff meeting or Monday check-in: reads last week's decisions,
   commitments, OKR and KPI status and open tasks from the company brain, CRM and tracker, and
-  builds a time-boxed agenda per team with KPI deltas, delivery rate, blockers as decisions,
+  builds a time-boxed agenda per team with KPI deltas, weekly product usage and benchmark results, delivery rate, blockers as decisions,
   wins with numbers and this week's commitments, saved back to the brain (Grove, Doerr,
   Wodtke). Spanish triggers: "prepará la reunión semanal", "agenda del lunes", "armame el
   all-hands", "reunión de equipo de esta semana". NOT for designing OKRs or KPIs (use
@@ -13,9 +13,9 @@ description: >
 categories: ["startups", "operations", "management"]
 metadata:
   author: lan-accelerator
-  version: "1.1"
+  version: "1.2"
   suite: startups
-  complements: [meeting-notes-to-brain, startup-metrics-okrs, investor-update-compiler]
+  complements: [meeting-notes-to-brain, startup-metrics-okrs, investor-update-compiler, startup-kpi-automator]
 license: MIT
 ---
 
@@ -64,6 +64,12 @@ From connectors (when present):
   delta; deals stalled more than 14 days.
 - **Metrics source** (sheet, BI, billing): latest value of each KPI and the
   value one week earlier.
+- **Product analytics** (PostHog, Umami, Plausible, the KPI system built with
+  startup-kpi-automator, or a usage sheet): weekly active users or accounts,
+  activation, core-action count, top features used, this week and last week.
+- **Benchmarks and evals**: any internal benchmark, eval suite or AI quality
+  run in the window (score, cost per run, time per run), from the brain page
+  or the repo where results are written.
 
 Without a brain: ask for last week's agenda or notes, the OKR doc, and an
 export of the tracker, in one message.
@@ -76,19 +82,24 @@ Read [references/weekly-meeting-framework.md](references/weekly-meeting-framewor
    delta (absolute and %), quarterly target, % of target, and trend status
    (on track / at risk / off track) using the linear-pace rule in the
    reference.
-2. **OKR confidence** - per Key Result, a 0-10 confidence score (Doerr and
+2. **Usage and benchmarks of the week** - 3-5 product usage numbers and
+   every internal benchmark or eval run in the window, each with last week's
+   value and the delta. No analytics yet: say so in one line and use the
+   closest proxy (logins from the database, active accounts in billing).
+   A benchmark with no previous run shows `primera corrida`, not a delta.
+3. **OKR confidence** - per Key Result, a 0-10 confidence score (Doerr and
    Wodtke check-in practice). If the owner's last score is in the brain, show
    its change. If no score exists, propose one from the data and mark
    `[propuesto]`.
-3. **Commitment scorecard** - last week's commitments per team: done / not
+4. **Commitment scorecard** - last week's commitments per team: done / not
    done / partially done, with a delivery rate per team. No excuses column;
    one-line reason only when not done.
-4. **Blockers** - anything overdue, any open question from a meeting note
+5. **Blockers** - anything overdue, any open question from a meeting note
    with no owner, any dependency between teams. Each blocker is phrased as a
    decision the room must make, with who decides.
-5. **Wins** - only with a number or a shipped artifact. "Buena semana" is
+6. **Wins** - only with a number or a shipped artifact. "Buena semana" is
    not a win.
-6. **This week's commitments** - proposed per team from: open tasks due
+7. **This week's commitments** - proposed per team from: open tasks due
    this week, action items due, and the Key Results at risk. Maximum 3 per
    team (Wodtke: priorities, not task lists). Mark `[propuesto]`; the team
    confirms in the meeting.
@@ -99,7 +110,7 @@ Time-box the meeting. Default 45 minutes:
 
 | Block | Minutes | Content |
 |---|---|---|
-| 1. Números | 5 | Company KPI table and OKR confidence, no discussion |
+| 1. Números | 5 | Company KPI table, usage and benchmarks of the week, OKR confidence, no discussion |
 | 2. Compromisos de la semana pasada | 5 | Delivery rate per team, only misses discussed |
 | 3. Por equipo | 20 | Each team: deltas, wins, blockers, 3 commitments |
 | 4. Decisiones | 10 | Blockers that need the room, one by one, decider named |
@@ -169,6 +180,8 @@ End every output with 3-5 concrete actions, for example:
   antes de la reunión."
 - "Pedir a Ventas la confianza actualizada del KR2 antes del lunes; el último
   puntaje tiene 3 semanas."
+- "Instalá analítica de producto esta semana: hoy el bloque de uso sale de
+  logins en la base, y no muestra qué funciones usan."
 - "Decidir en la reunión si se mantiene la meta de 60 clientes del trimestre:
   al ritmo actual se llega a 51."
 

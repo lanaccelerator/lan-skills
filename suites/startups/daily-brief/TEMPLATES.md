@@ -6,7 +6,7 @@ real analysis from the user's startup.
 
 *Hypothetical example: Ruteo, B2B SaaS for route planning for SMB
 distributors, Seed stage, Asunción. Founder: Ana Benitez (CEO). Connected:
-company brain, Gmail, Google Calendar, Granola, Claude Code, 2 repos.
+company brain, Gmail, Google Calendar, Granola, HubSpot CRM, Claude Code, 2 repos.
 WhatsApp not connected. All names are fictional.*
 
 ---
@@ -47,6 +47,12 @@ WhatsApp not connected. All names are fictional.*
 ## Aprendizajes
 - El cliente decide por el ERP, no por el ahorro: el 11% de reducción no movió la firma, la integración sí. [reunión: meetings/2026-10-08-distribuidora-norte-piloto]
 - La daily de producto lleva 3 días sin decisiones; el formato no está sirviendo. [cal] [inferido]
+
+## Sin registrar en CRM (hoy)
+| Toque comercial | Fuente | Nota sugerida para el CRM |
+|---|---|---|
+| Revisión del piloto con [[distribuidora-norte]], 11:00 | [reunión: meetings/2026-10-08-distribuidora-norte-piloto] | "08/10 revisión piloto sem. 4 con Carlos y Laura: +4 semanas sin costo, v1 por CSV nocturno. Próximo paso: propuesta 3 sucursales, 17/10." |
+| Correo de [[agro-sur]] con su planilla de flota | [correo] | "08/10 Agro Sur envió planilla de flota (22 vehículos, 3 depósitos). Próximo paso: propuesta, fecha a definir." |
 
 ## Pendientes para mañana
 **Tuyos abiertos**
@@ -89,6 +95,13 @@ Fuentes no disponibles: WhatsApp no conectado (los compromisos por WhatsApp no e
 2. Propuesta 3 sucursales a Norte (17/10). [daily/2026-10-08]
 3. Revisar contrato de oficina: 5 días arrastrándose. ¿Lo hacés, lo delegás o lo borrás? [daily/2026-10-08]
 
+## Sin registrar en CRM (ayer, 08/10)
+| Toque comercial | Fuente | Nota sugerida para el CRM |
+|---|---|---|
+| Revisión del piloto con [[distribuidora-norte]], 11:00 | [reunión: meetings/2026-10-08-distribuidora-norte-piloto] | Igual que en el cierre de ayer: sigue sin cargar |
+| Correo de [[agro-sur]] con su planilla de flota | [correo] | Igual que en el cierre de ayer: sigue sin cargar |
+2 de 3 toques comerciales de ayer no están en el CRM (el discovery de Agro Sur sí). Regla: van el mismo día; ya pasó un día.
+
 ## Primer bloque sugerido
 08:00-09:45: modelo financiero. Es lo único que vence antes de la llamada de las 10:00.
 ```
@@ -125,14 +138,15 @@ Fuera de este resumen por política: evaluaciones de candidatos y temas personal
 
 - Actualizada: `daily/2026-10-08` (sección `## Cierre`; la sección `## Apertura` de la mañana se mantuvo)
 - Borrador creado: "Bitácora 08/10/2026" en Gmail, para ana@ (vos), no enviado
-- Fuentes: Gmail (14 hilos revisados, 4 clave), Google Calendar (4 eventos), brain (2 reuniones), Claude Code (3 sesiones), git (ruteo-api, ruteo-web)
+- Fuentes: Gmail (14 hilos revisados, 4 clave), Google Calendar (4 eventos), brain (2 reuniones), HubSpot (actividades 07/10 al 08/10), Claude Code (3 sesiones), git (ruteo-api, ruteo-web)
 - No conectado: WhatsApp
 
 ---
 
 ## 5. Próximos Pasos
 
-1. Bloquear 08:00-09:45 mañana para el modelo financiero; vence antes de la llamada con el fondo.
-2. Decidir hoy qué pasa con "revisar contrato de oficina": 4 días abierto, se delega o se borra.
-3. Cambiar el formato de la daily de producto: 3 días seguidos sin decisiones.
-4. Conectar WhatsApp o anotar a mano los compromisos de ese canal; hoy la bitácora no los ve.
+1. Cargar hoy en HubSpot las 2 notas de "Sin registrar en CRM", antes de cerrar el día; un toque comercial que no está en el CRM no existe para el pipeline.
+2. Bloquear 08:00-09:45 mañana para el modelo financiero; vence antes de la llamada con el fondo.
+3. Decidir hoy qué pasa con "revisar contrato de oficina": 4 días abierto, se delega o se borra.
+4. Cambiar el formato de la daily de producto: 3 días seguidos sin decisiones.
+5. Conectar WhatsApp o anotar a mano los compromisos de ese canal; hoy la bitácora no los ve.

@@ -3,7 +3,8 @@ name: daily-brief
 description: >
   For STARTUP FOUNDERS and cofounders. Use when the user wants an end-of-day log or a morning
   agenda built from today's email, calendar, meeting notes, WhatsApp, AI sessions and git
-  commits, filed in the company brain and delivered as a draft to self. Spanish triggers:
+  commits, filed in the company brain and delivered as a draft to self, flagging sales
+  touchpoints missing from the CRM. Spanish triggers:
   "qué hice hoy", "bitácora del día", "resumen del día", "cierre del día", "qué tengo
   mañana", "agenda de hoy", "qué hizo el equipo hoy". Modes: close, open, team; can run on a
   schedule. NOT for processing a single meeting transcript (use meeting-notes-to-brain),
@@ -12,7 +13,7 @@ description: >
 categories: ["startups", "operations", "productivity"]
 metadata:
   author: lan-accelerator
-  version: "1.1"
+  version: "1.2"
   suite: startups
   complements: [meeting-notes-to-brain, all-hands-prep, investor-update-compiler]
 license: MIT
@@ -77,7 +78,7 @@ Follow references/shared/company-brain-integration.md sections 1-3.
 | WhatsApp | Today's chats with work contacts, if connected | Omit the line silently if never configured |
 | AI sessions | Claude Code and Codex session logs for today | "Sesiones de IA no disponibles" |
 | Git | `git log --since=<today 00:00> --author=<user>` per repo | "Sin repos configurados" |
-| CRM (team) | Activities logged today | "CRM no conectado" |
+| CRM | Activities logged yesterday and today (all modes, for the CRM check); today's activity per person (team) | "CRM no conectado": still list the touchpoints, labeled `sin poder cruzar` |
 
 Never block on a missing source. One line in the output per gap.
 
@@ -101,20 +102,32 @@ before writing. Rules:
 5. **Aprendizajes** are at most 3, each tied to an event of the day. If
    nothing was learned, write "Sin aprendizajes registrados hoy". Do not
    invent insight.
-6. **Sensitive items** (compensation, cap table, legal, health, personal
+6. **CRM check ("Sin registrar en CRM").** Collect the commercial
+   touchpoints of the window (open mode: yesterday; close mode: today, so they
+   get logged before the day ends): sales or customer emails with a reply,
+   calendar meetings with prospects or customers, meeting notes of type
+   prospect or customer, and WhatsApp mentions of a deal when connected.
+   Match each one to a CRM activity on the same company and date. Every
+   touchpoint with no match is listed under `Sin registrar en CRM` with its
+   source and a suggested one-line activity note (date, who, what moved, next
+   step). Rule: every commercial touchpoint goes into the CRM the same day.
+   Never write to the CRM from this skill; the founder pastes or approves the
+   note. Investor, hiring and internal threads are not commercial touchpoints.
+7. **Sensitive items** (compensation, cap table, legal, health, personal
    matters, hiring evaluations) stay in the private close; they never enter
    team mode or a shared page.
 
 ### Close mode sections
 
 Resumen del día, Reuniones, Correo (clave enviado / recibido), Lo que se
-trabajó con la IA, Aprendizajes, Pendientes para mañana (tuyos abiertos +
-agenda de mañana).
+trabajó con la IA, Aprendizajes, Sin registrar en CRM (today's touchpoints),
+Pendientes para mañana (tuyos abiertos + agenda de mañana).
 
 ### Open mode sections
 
 Agenda de hoy (with prep needed per meeting), Pendientes que vienen de ayer,
-Primer bloque sugerido (the single most important open item, placed in the
+Sin registrar en CRM (yesterday's touchpoints; omit the section when all are
+logged), Primer bloque sugerido (the single most important open item, placed in the
 first free block of the calendar). Keep it under one screen.
 
 ### Team mode sections
@@ -197,6 +210,8 @@ End every output with 3-5 concrete actions, for example:
   pendientes."
 - "Bloquear 09:00-11:00 para el importador CSV; es el único ítem que mueve el
   piloto."
+- "Cargá en el CRM las 2 notas de 'Sin registrar en CRM' antes de las 09:00;
+  un toque comercial que no está en el CRM no existe para el pipeline."
 - "Decidir si 'revisar contrato de oficina' se delega o se borra: 4 días
   arrastrándose."
 
