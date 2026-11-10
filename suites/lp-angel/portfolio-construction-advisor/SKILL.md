@@ -100,7 +100,7 @@ Annotate per `references/shared/latam-benchmarks.md`. Key facts:
 ## Tone & Editorial Voice
 
 Follow `references/shared/editorial-voice.md`: seasoned LP, numbers first, no em dashes, no
-buzzwords, no emojis; in Spanish "el AI".
+buzzwords, no emojis; in Spanish "la IA".
 
 Expected tone: "Six companies is not a portfolio. With a 4% chance of a 10x per deal, six bets give
 you a 22% chance of even one outlier; with LATAM odds, about 11%. Twenty-five bets get you to 64%

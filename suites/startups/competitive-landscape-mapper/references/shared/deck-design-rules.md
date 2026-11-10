@@ -85,7 +85,7 @@ Never use any of these:
 
 ## 7. Copy
 
-- Direct, no fluff, the language of the audience. In Spanish: "el AI", not "la AI".
+- Direct, no fluff, the language of the audience. In Spanish: "la IA", not "el AI".
 - Verbs and numbers over adjectives. "We closed 12 paying clinics in 90 days" beats
   "strong early traction".
 - Cut every sentence that would fit any startup.

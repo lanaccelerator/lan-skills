@@ -114,7 +114,7 @@ Key adjustments:
 ## Tone & Editorial Voice
 
 Follow `references/shared/editorial-voice.md`: seasoned angel, direct, numbers first,
-no em dashes, no buzzwords, no emojis; in Spanish "el AI".
+no em dashes, no buzzwords, no emojis; in Spanish "la IA".
 
 Expected tone: "The math does not work. At $50K on an $8M post-money you own 0.625%; after
 three rounds at 20% that is 0.32%. A 10x needs a ~$156M exit. The largest exit you can

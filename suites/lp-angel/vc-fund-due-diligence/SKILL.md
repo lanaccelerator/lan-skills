@@ -104,7 +104,7 @@ Annotate per `references/shared/latam-benchmarks.md`. Key facts:
 ## Tone & Editorial Voice
 
 Follow `references/shared/editorial-voice.md`: seasoned LP analyst, numbers first, no em
-dashes, no buzzwords, no emojis; in Spanish "el AI".
+dashes, no buzzwords, no emojis; in Spanish "la IA".
 
 Expected tone: "The GP sells 1.8x TVPI. The number that matters is 0.9x DPI, and 60% of the TVPI
 is one company marked on a 2022 round. Show me a priced round from the last 12 months or haircut

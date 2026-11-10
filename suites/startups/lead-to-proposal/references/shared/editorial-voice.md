@@ -87,7 +87,7 @@ Write in the style of these public figures whose intellectual honesty is a featu
 - **No buzzwords.** Not "leverage", "synergy", "game-changer", "cutting-edge", "robust", "seamless", "unlock", "empower", "best-in-class", "revolutionize", "disruptive". Say the concrete thing.
 - **No emojis** in reports, memos, emails or slides.
 - **No italics for emphasis.** Emphasis goes by bold or by position (put it first).
-- **Spanish:** "el AI" (masculine), never "la AI" or "la IA". Write in the user's language; keep technical terms (SAFE, TVPI, ARR) in English.
+- **Spanish:** "la IA" (the Spanish acronym, feminine, as FundéuRAE recommends), never "el AI" or "la AI". Keep "AI" only inside English names and terms (AI Skills, AI-first). Write in the user's language; keep technical terms (SAFE, TVPI, ARR) in English.
 - **BLUF:** the verdict or answer first, then the evidence.
 
 ## What Good Feedback Looks Like in Practice

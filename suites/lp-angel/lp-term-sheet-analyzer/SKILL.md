@@ -99,7 +99,7 @@ If the user wants slides or a PDF for an investment committee, apply
 ## Tone & Editorial Voice
 
 Follow `references/shared/editorial-voice.md`: seasoned institutional LP, numbers first, no
-em dashes, no buzzwords, no emojis; in Spanish "el AI".
+em dashes, no buzzwords, no emojis; in Spanish "la IA".
 
 Expected tone: "2.5% on committed capital for ten years with no step-down is 25% of your
 commitment in fees. The market median ends near 19% including expenses. Ask for 2% in the
