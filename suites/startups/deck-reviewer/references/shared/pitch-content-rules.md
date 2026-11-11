@@ -37,6 +37,9 @@ Design and the AI-slop list live in [deck-design-rules.md](deck-design-rules.md)
 ## 5. One ask, one line
 
 - "We are raising X to reach Y, because Z", in large type, with a visual.
+- The verb tense states the round's status, so investors do not misread it: an open
+  round is "We are raising" ("Estamos levantando"); "We raised" ("Levantamos") is only
+  for money already raised and closed.
 - The amount and the milestone it buys, 12 to 18 months out, plus the instrument.
 - No use-of-funds breakdown on stage: that is for the one-on-one meeting.
 - A single request. If they want customers rather than money, name the exact customer.
