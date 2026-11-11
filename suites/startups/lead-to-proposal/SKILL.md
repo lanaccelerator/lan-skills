@@ -11,14 +11,15 @@ description: >
   before the decision meeting, the proposal and exec one-pager, and drafts the follow-ups
   (SPIN, MEDDICC, Challenger). Drafts only. NOT for designing the overall sales
   process (use sales-playbook-generator), running outbound campaigns (use
-  outbound-learning-loop), setting price levels (use pricing-strategy-designer) or filing a
-  meeting without a proposal (use meeting-notes-to-brain).
+  outbound-learning-loop), setting price levels (use pricing-strategy-designer), designing a
+  pilot a corporate asked for (use pilot-led-growth) or filing a meeting without a proposal
+  (use meeting-notes-to-brain).
 categories: ["startups", "sales", "business"]
 metadata:
   author: lan-accelerator
-  version: "1.2"
+  version: "1.3"
   suite: startups
-  complements: [meeting-notes-to-brain, sales-playbook-generator, pricing-strategy-designer, outbound-learning-loop, customer-retention-expansion]
+  complements: [meeting-notes-to-brain, sales-playbook-generator, pricing-strategy-designer, outbound-learning-loop, customer-retention-expansion, pilot-led-growth]
 license: MIT
 ---
 
@@ -146,6 +147,12 @@ the decider before the meeting. Price appears as a range or the recommended plan
 the full itemized investment lives in the proposal.
 
 ## Step 7: Proposal and Visual Deck (ready before the meeting, sent the same day after it)
+
+- **If the prospect asks for a pilot first:** run `/pilot-led-growth` before writing the
+  proposal. The proposal then carries the pilot canvas with its "¿Y si funciona?" row (who
+  signs, budget, contract shape and price if it works) and the negotiation checklist (data,
+  IP, confidentiality, logo use, IT requirements, tender after the pilot), closed before
+  Day 1. A pilot proposal without the post-pilot contract is a free mini contract.
 
 - **Proposal document:** the startup's template if it exists, filled field by field.
   Otherwise the default in [TEMPLATES.md](TEMPLATES.md): context in their words,

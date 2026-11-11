@@ -2,7 +2,7 @@
 
 `AGENTS.md` is an identical copy of this file for other agents; edit this file, then copy it over (`cmp` must pass).
 
-41 execution-focused skills by LAN Accelerator for startup founders, VC operators, LPs and angels, and corporates, published as an open-source (MIT) repo on GitHub. Each skill is a folder of markdown that the installer copies to `~/.claude/skills/`.
+42 execution-focused skills by LAN Accelerator for startup founders, VC operators, LPs and angels, and corporates, published as an open-source (MIT) repo on GitHub. Each skill is a folder of markdown that the installer copies to `~/.claude/skills/`.
 
 ## Commands
 
@@ -12,7 +12,7 @@
 
 ## Where things live
 
-- Skills: `suites/<suite>/<skill>/` with `SKILL.md`, `TEMPLATES.md` and `references/`. Suites: `startups` (27), `lp-angel` (5), `vc-operators` (5), `corporates` (4).
+- Skills: `suites/<suite>/<skill>/` with `SKILL.md`, `TEMPLATES.md` and `references/`. Suites: `startups` (28), `lp-angel` (5), `vc-operators` (5), `corporates` (4).
 - How to write a skill (frontmatter, body sections, LATAM context, activation testing, anti-patterns): `docs/how-to-create-skills.md`.
 - Shared frameworks, the source for material several skills use: `shared/frameworks/`.
 - npm installer for `npx github:lanaccelerator/lan-skills`: `bin/install-skills.js`.

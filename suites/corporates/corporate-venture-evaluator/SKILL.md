@@ -14,7 +14,7 @@ description: >
 categories: ["business", "corporate-innovation", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.1"
+  version: "1.2"
   suite: corporates
 license: MIT
 ---
@@ -72,7 +72,13 @@ Total /20: 16-20 READY; 12-15 READY WITH CONDITIONS; 8-11 NOT READY (fix readine
    Investments make sense when the corporate also brings data access, a deployment channel or
    air-gapped/on-prem requirements a startup can be built around (YC RFS Winter 2027,
    "AI for the Air-Gapped Economy").
-7. Apply LATAM context; 3-year milestones; Next Steps.
+7. Venture client check: if the strategic goal is adopting solutions, a venture client program
+   (the corporate as structured first buyer of startup solutions, with designed pilots) may
+   serve it better than investing. Report it inside Optimal CVC Model. Keep three approaches
+   apart, as González (CIVLAC: IDB Lab and Wayra Hispam, 2026) separates them: corporate
+   venturing (how the corporate innovates with startups), venture client (how it tests or buys
+   as a client) and the startup's pilot-led growth (how the startup grows through pilots).
+8. Apply LATAM context; 3-year milestones; Next Steps.
 
 ## Step 4: Output Format
 
@@ -98,6 +104,10 @@ Flag each with `[THEATER]`, plainly:
 - **Return expectation under 5 years:** venture returns take a decade; US 2017-vintage funds
   had a median DPI of 0.37x after about nine years (Carta Q2 2026).
 - **M&A-grade legal review on minority checks:** cost and delay make the program uncompetitive.
+- **Investing to get a custom build:** if the real goal is the startup's technology adapted
+  for in-house use, buy it at full value including IP, or invest so the startup keeps selling
+  to others. A stake that turns the startup into a captive software factory destroys the
+  asset.
 
 ## Step 6: LATAM rules
 

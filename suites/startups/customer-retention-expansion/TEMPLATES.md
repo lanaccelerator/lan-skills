@@ -35,6 +35,9 @@ USD 16.830 (+51%) sin un solo cliente nuevo de outbound.
 |---|---|
 | MRR recurrente | USD 11.180 (6 cuentas) |
 | Pilotos en curso | 2 (USD 2.400 de ingreso de piloto, fuera del MRR) |
+| Pilotos que terminaron en contrato | 4 de 6 (67%) |
+| Meses del inicio del piloto a la firma | 3,5 en promedio |
+| Pilotos con decisor y presupuesto el día 1 | 3 de 6 |
 | Verde / Amarillo / Rojo | 4 / 1 / 1 (USD 9.380 / USD 900 / USD 900) |
 | MRR en riesgo | USD 900 (Cuenta E) |
 | Renovaciones en los próximos 90 días | 3 (A, C, E) |

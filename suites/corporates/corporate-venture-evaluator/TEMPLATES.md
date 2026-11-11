@@ -93,6 +93,10 @@ While the LP commitment matures:
 - Build direct investment pipeline through Ruta N and Platanus Colombia relationships
 - Deploy $15M in 10-15 direct investments using co-investment rights from Phase 1 fund
 
+**Venture client check:** for its two adoption goals (claims automation, fraud scoring), Andino
+should first run a venture client track: structured paid pilots with a named buyer in each
+business unit. Equity comes later, only where a pilot shows the startup is strategic.
+
 **Phase 3 (Year 5-7): Full Captive CVC Assessment**
 At Year 5 with portfolio data, Andino has evidence for the board to evaluate whether a standalone
 captive CVC (for Fund II) is warranted or whether the LP + co-investment model is the permanent structure.

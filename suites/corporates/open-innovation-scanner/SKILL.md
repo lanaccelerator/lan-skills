@@ -14,7 +14,7 @@ description: >
 categories: ["business", "corporate-innovation", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.1"
+  version: "1.2"
   suite: corporates
 license: MIT
 ---
@@ -50,6 +50,11 @@ Apply Chesbrough's three open-innovation flows:
 2. **Inside-out:** internal IP, data or processes that could be licensed or spun out.
 3. **Coupled:** where co-development with a startup beats pure build or buy.
 
+**Challenge articulation** (after CIVLAC's "articulación de desafíos" step; the definition
+is LAN's): a challenge is a prioritized business problem with
+an owner, a metric and urgency, not a theme. Impact problems (climate, health, inclusion) often
+sit with sustainability or operations, far from the innovation unit: route them to their owner.
+
 Classify each gap:
 
 | Mode | Use when |
@@ -58,6 +63,10 @@ Classify each gap:
 | **Buy** (acquire) | Speed matters; a startup has a lead the team cannot close in about 3 years |
 | **Partner** (pilot) | Technology works but is not mature for this context; startup willing to co-develop |
 | **License** (API, white-label) | Commodity capability; licensing beats building over 5 years |
+
+**The custom-build trap:** asking a startup to adapt its product for in-house use is Build or
+Buy, not Partner. Either pay its full value including the IP, or invest in the startup and let
+it sell to others (González, CIVLAC).
 
 **AI-specific rule:** for each AI gap decide whether the company should rent a model (API),
 buy a vertical AI product, or own a specialized model trained on its data. YC's Winter 2027
@@ -116,6 +125,8 @@ Flag each with `[THEATER]`:
 - Data protection (LGPD in Brazil, LFPDPPP in Mexico, Habeas Data in Colombia) and sector
   regulators (banking, insurance, telecom, health) add review time when customer data is used.
 - FX: budgets in local currency, startup pricing often in USD; fix the exchange assumption.
+- Corporates new to open innovation learn faster from peers already running it: CIVLAC builds
+  a network where experienced corporates mentor earlier ones (capacity building).
 - Do not quote pilot success rates or champion multipliers as LATAM statistics: no traceable
   source exists.
 

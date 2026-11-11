@@ -13,7 +13,7 @@ description: >
 categories: ["business", "corporate-innovation", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.1"
+  version: "1.2"
   suite: corporates
 license: MIT
 ---
@@ -68,7 +68,12 @@ and [references/latam-context.md](references/latam-context.md); respect their da
 5. Estimate pilot cost ranges from the vendor's public pricing or quotes; otherwise give a range
    and label it as an estimate.
 6. Flag `[RED FLAG]` and `[THEATER]` items (Steps 5-6).
-7. LATAM adjustments, the RFI plan, Next Steps.
+7. LATAM adjustments, the RFI plan, Next Steps. In the RFI, ask each shortlisted startup for a
+   one-page pilot proposal (hypothesis, one metric, goal ranges, what happens if it works) and
+   score that, not the pitch. Committee criteria (CIVLAC): fit with the challenge and its KPIs;
+   technical and adoption risks and their mitigation; maturity (idea, prototype, validated);
+   prior adoption evidence; a team willing to co-create and iterate. Ask the business owner
+   "what have we tried before, and with what result?" and share the answer with the startups.
 
 ## Step 4: Output Format
 
@@ -101,6 +106,9 @@ Flag each with `[THEATER]`:
 - IT has no capacity, yet the shortlist is full of complexity 4-5 integrations.
 - A 90-day timeline for a complex, regulated integration.
 - A budget that procurement, legal and security review will consume before the pilot starts.
+- Selection by charisma: a demo day or pitch competition that picks the best pitch, not the
+  best answer to the problem. Contract odds after such a pick are close to zero (González,
+  CIVLAC, from experience).
 
 ## Step 7: LATAM rules
 

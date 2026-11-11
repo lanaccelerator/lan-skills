@@ -11,13 +11,14 @@ description: >
   underpricing and ends with a price test. NOT for CAC, LTV or payback math (use
   unit-economics-calculator), the price inside one specific proposal (use lead-to-proposal),
   upsells and renewals with existing customers (use customer-retention-expansion), valuation
-  (use startup-valuation-benchmark) or the sales process (use sales-playbook-generator).
+  (use startup-valuation-benchmark) the sales process (use sales-playbook-generator) or pricing a corporate pilot (use
+  pilot-led-growth).
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.3"
+  version: "1.4"
   suite: startups
-  complements: [unit-economics-calculator, lead-to-proposal, customer-retention-expansion, sales-playbook-generator]
+  complements: [unit-economics-calculator, lead-to-proposal, customer-retention-expansion, sales-playbook-generator, pilot-led-growth]
 license: MIT
 ---
 
@@ -31,7 +32,12 @@ cost), and anchoring research (Tversky and Kahneman, 1974; Huber, Payne and Puto
 The packaging is always three plans:
 
 - **Mínimo:** a small pilot with a narrow scope and a fixed, easy price. Its job is to get
-  in the door and convert most proposals into a first "yes", then upsell.
+  in the door and convert most proposals into a first "yes", then upsell. When the Mínimo
+  is a corporate pilot, price it at its incremental cost (dedicated team not otherwise
+  covered, travel, hardware), never the founder's salary (González, CIVLAC, his personal
+  view); paid if possible. The only exception to "it must not lose money" is a corporate
+  pilot given free as a costed investment, with the scale-up price signed in the same
+  document. Design it with `/pilot-led-growth`.
 - **Estándar:** the average standard work you actually want to sell. Most revenue lands here.
 - **Premium:** the expensive anchor. Few buy it, it makes Estándar look reasonable, and the
   one who buys it pays like several Estándar customers.

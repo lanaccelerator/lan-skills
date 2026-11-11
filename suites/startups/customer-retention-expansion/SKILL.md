@@ -16,9 +16,9 @@ description: >
 categories: ["startups", "sales", "business"]
 metadata:
   author: lan-accelerator
-  version: "1.0"
+  version: "1.1"
   suite: startups
-  complements: [pricing-strategy-designer, lead-to-proposal, sales-playbook-generator, unit-economics-calculator, startup-kpi-automator]
+  complements: [pricing-strategy-designer, lead-to-proposal, sales-playbook-generator, unit-economics-calculator, startup-kpi-automator, pilot-led-growth]
 license: MIT
 ---
 
@@ -127,6 +127,11 @@ Build the calendar for the next 180 days (section 4):
 
 Monthly contracts also get an anniversary review. Pilots get a conversion meeting 5 days
 before the pilot ends. Flag every account already past a milestone.
+
+Track three pilot metrics across the portfolio (González, CIVLAC, adapted from Siota,
+Camacho and Šerić, 2026): pilot-to-contract rate, months from pilot start to signature, and
+the share of pilots with decider and budget named on Day 1. A pilot past its decision date
+with no signature is in pilot purgatory: escalate it with `/pilot-led-growth`, step 9. Report the three metrics in Resumen.
 
 ## Step 6: Business Reviews with Measured Benefits
 

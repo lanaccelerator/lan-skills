@@ -1,12 +1,13 @@
 # B2B Buying in 2026: How Companies Actually Buy
 
-**When to use:** any skill that runs a B2B sale end to end or a single step of it: playbook design, discovery calls, proposals, outbound, meeting review. Referenced by sales-playbook-generator, lead-to-proposal, meeting-notes-to-brain, outbound-learning-loop, customer-retention-expansion, go-to-market-strategist and security-compliance-starter.
+**When to use:** any skill that runs a B2B sale end to end or a single step of it: playbook design, discovery calls, proposals, outbound, meeting review. Referenced by sales-playbook-generator, lead-to-proposal, meeting-notes-to-brain, outbound-learning-loop, customer-retention-expansion, go-to-market-strategist, security-compliance-starter and pilot-led-growth.
 
 **Sources:**
 - Forrester buying research, via Erik Fisher: about 13 people weigh in on the average B2B purchase and 86% of purchases stall at some point.
 - Gong Labs call research (reference stat only, not the rule): top calls run about 43% seller talk.
 - Andrés Nájera, LAN mentor masterclass (Nov 2026): warm intros, "super who", referrals.
 - LAN Accelerator founder sales sessions (2026): talk-ratio rule, must-ask list, full B2B process, vendor-portal readiness.
+- Sebastián González G., CIVLAC (IDB Lab and Wayra Hispam), "Pilot-Led Growth" workshop (Nov 2026): corporate pilot questions, asking for data.
 
 **License/Attribution:** synthesized from the sources above. Cite each individually in output.
 
@@ -60,6 +61,12 @@ Meeting structure:
 | 8 | Who decides and who approves? What is the process? | Decision map for multi-threading |
 
 Coverage is scored after every call: questions asked / 8. Below 6 of 8 means a follow-up qualification call before any proposal.
+
+**Selling to a corporate that may ask for a pilot: two more questions** (not part of the /8 score):
+- What have you tried before for this, and with what results? (The best raw material for the pilot hypothesis.)
+- If a pilot works, what happens next: who signs, from which budget, and is a tender required? (Never start a pilot without this answer.)
+
+Ask for data carefully: a corporate that hears "quiero tus datos" head-on closes the door. Ask what data the test needs, who owns it and how long you keep it.
 
 ## 5. Business case before the proposal
 

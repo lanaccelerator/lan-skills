@@ -9,11 +9,12 @@ description: >
   piloto con una startup", "prueba de concepto", "POC con startup", "criterios de
   salida del piloto", "piloto de IA", "cómo medimos el piloto". NOT for choosing which
   startup (use startup-solution-matcher), NOT for the overall innovation strategy (use
-  open-innovation-scanner), NOT for a CVC program (use corporate-venture-evaluator).
+  open-innovation-scanner), NOT for a CVC program (use corporate-venture-evaluator), NOT for a
+  startup preparing a pilot proposal for a corporate client (use pilot-led-growth).
 categories: ["business", "corporate-innovation", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.1"
+  version: "1.2"
   suite: corporates
 license: MIT
 ---
@@ -57,8 +58,16 @@ Read [references/digital-transformation-context.md](references/digital-transform
    pilot itself); Phase 1 integration and setup; Phase 2 limited live use; Phase 3 full use
    and decision. A formal go/no-go gate at two-thirds of the pilot, not only at the end.
 4. **Budget:** startup fee, internal IT hours x rate, legal and security review, data
-   preparation, contingency of at least 10%.
+   preparation, contingency of at least 10%. From the baseline, compute the break-even result (savings equal
+   the pilot's cost) and the payback in months of the full rollout, as the last rows of
+   Budget Breakdown.
 5. **Kill criteria:** mandatory (below).
+6. **What happens if it works:** the purchase path, agreed before Day 1: who signs, which
+   budget line and budget cycle pays, the contract shape (for example an annual subscription
+   per site) and what scaling needs (integrations, IT approval). Procurement is told the pilot
+   exists. Without this row a validated pilot lands in pilot purgatory: it works and nobody
+   signs (González, CIVLAC). Report it in Governance. The startup side of this conversation
+   is `pilot-led-growth`.
 
 ### AI and agent pilots (add these when the startup sells AI)
 
@@ -77,7 +86,10 @@ Read [references/digital-transformation-context.md](references/digital-transform
 
 ## Kill Criteria Rule
 
-Every design includes all four:
+Every design includes all four. State the success and failure thresholds as bands agreed
+before Day 1 when one number is too blunt (example only, González, CIVLAC: 15-25%, one rerun
+with a fixed end date; 25-35%, extend to a second site; above 35%, buy). Anything under the
+lowest band is NO-GO.
 
 1. **Success threshold** (GO): "Median resolution time <= 12 hours by Day 60."
 2. **Failure threshold** (NO-GO): "Median resolution time > 30 hours at Day 60."
@@ -125,6 +137,12 @@ Flag each with `[THEATER]`:
 - No executive sponsor accountable for the outcome.
 - "We want to explore" with no problem metric.
 - AI pilot run on demo data instead of the corporate's own cases.
+- **Selection by best pitch:** the Selection Day winner was the most charismatic founder, not
+  the one whose pilot proposal solves the problem (CIVLAC dropped generic demo days for this).
+- **Pilot after pilot:** a second pilot is requested before deciding on the first one.
+- **"Install it for 3 months and see":** no hypothesis, no agreed metric, no decision. That is
+  a free mini contract, not a pilot.
+- **No purchase path:** nobody can say who signs and from which budget if it works.
 
 `[NO KILL CRITERIA]` is its own callout, not a theater flag.
 
@@ -160,4 +178,5 @@ further."
 - Techstars for corporations: https://www.techstars.com/corporations
 - 500 Global for corporations: https://500.co/corporations
 - Wayra (Telefónica's open innovation hub): https://www.wayra.com
+- Sebastián González G. (CIVLAC: IDB Lab and Wayra Hispam), "Pilot-Led Growth" workshop, November 2026 (purchase-path row, ranges, pilot purgatory)
 - [references/digital-transformation-context.md](references/digital-transformation-context.md), [references/latam-context.md](references/latam-context.md)

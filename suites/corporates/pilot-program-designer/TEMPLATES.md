@@ -92,6 +92,8 @@ indicator that predicts resolution time trajectory.
 | Internal project management | $5,000 | Innovation team coordination overhead |
 | Contingency (10%) | $9,000 | Integration delays, scope creep, additional IT hours |
 | **Total** | **$99,000** | Within approved budget range |
+| Break-even result | 22-hour median resolution | At that level, agent hours saved over the pilot equal the $99,000 total (Q4 2025 ServiceNow baseline) |
+| Payback of full rollout | 7 months | From go-live of the annual contract, at the 12-hour target |
 
 **Budget note:** This budget covers internal resource costs. The $40k startup fee is the
 minimum viable pilot cost; LATAM enterprise procurement typically adds $25–50k in legal
@@ -136,6 +138,7 @@ that pattern.
 **Weekly standup:** Every Monday, 30 minutes. Jorge Méndez + TechBot IA lead + IT point of contact.
 **Monthly review:** Jorge Méndez + VP Technology + TechBot IA CEO. KPI dashboard review + trajectory assessment.
 **Escalation path:** Jorge Méndez → VP Technology → Chief Digital Officer (for budget or legal escalations)
+**If it works:** VP Technology signs an annual license from the second-half 2026 customer-service budget (approved in May); procurement registered TechBot IA as a vendor before Day 1; rollout to all service lines needs ServiceNow production access and IT security sign-off.
 
 ---
 

@@ -43,6 +43,11 @@ Design and the AI-slop list live in [deck-design-rules.md](deck-design-rules.md)
 - The amount and the milestone it buys, 12 to 18 months out, plus the instrument.
 - No use-of-funds breakdown on stage: that is for the one-on-one meeting.
 - A single request. If they want customers rather than money, name the exact customer.
+- In a corporate pitch (reverse pitch, corporate demo day, open innovation call) the ask is
+  a pilot: one slide "así resolvería su problema y así lo probaríamos con ustedes en
+  [duración]", with their problem, the hypothesis, the experiment (where, scale, metric,
+  goal) and what happens if it works. Corporates that pick the best generic pitch almost
+  never reach a contract (Sebastián González, CIVLAC, from experience).
 
 ## 6. Show, do not explain
 
