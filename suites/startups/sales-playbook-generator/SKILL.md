@@ -15,7 +15,7 @@ description: >
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.2"
+  version: "1.3"
   suite: startups
   complements: [lead-to-proposal, outbound-learning-loop, pricing-strategy-designer, go-to-market-strategist, customer-retention-expansion]
 license: MIT
@@ -50,7 +50,7 @@ have answers or stated assumptions for each.
    (Spanish titles: Gerente General, Director Comercial, Gerente de Operaciones).
 3. **Current sales status**: zero customers / first 10 (founder-led, no process) /
    USD 50k-500k ARR (needs a playbook) / USD 500k+ (hiring SDRs or AEs). [First 10]
-4. **Average contract value (ACV)**: under USD 1k / 1k-10k / 10k-50k / 50k+. [1k-10k]
+4. **Average contract value (ACV)**: under USD 2k / 2k-5k / 5k-15k / 15k-50k / 50k+ (the bands of revenue-bowtie.md section 4). [5k-15k]
 5. **Biggest sales challenge**: generating leads / converting meetings to proposals /
    closing / churn after close. [Generating leads]
 6. **Geography**: which LATAM countries, US, or both. [Founder's home country]
@@ -80,6 +80,10 @@ the shared framework into the output, point to it and use it.
    talk on top calls is a reference stat only, never the target.
 5. **Warm first (Nájera):** three super whos, referrals at the thank-you moment, gremios and
    WhatsApp communities before any cold touch.
+6. **Revenue bowtie (Winning by Design, Diego Morales of Rocket Revenue):** one process from
+   lead to expansion with a conversion rate and a cycle time per stage, the sales motion set by
+   ticket size, BANT or SPICED qualification, and outbound as science (lists, CRM) plus art
+   (the message). Read references/shared/revenue-bowtie.md sections 2, 3, 4 and 7.
 
 ## Step 3: Workflow
 
@@ -87,7 +91,11 @@ Execute in this order.
 
 1. **ICP:** industry + company size + geography + trigger events + buyer title + user
    title. Specific enough to find 50 named people in two hours ("Chilean industrial SME with
-   20-200 vehicles", not "logistics companies").
+   20-200 vehicles", not "logistics companies"). Add a **blacklist**: the customer types the
+   founder will not take even if they ask (distractions, pilots with no buyer), and set the
+   sales motion from the ACV row in revenue-bowtie.md section 4 (one phase, SDR plus closer,
+   or ABM). This is the motion to build toward; the founder runs every phase until win rate is
+   above 25%.
 2. **Buying-group map per account:** the five roles from the shared framework with what each
    cares about and the asset each needs. One contact per account is flagged as a risk.
 3. **Warm-intro map:** three super whos across different industries or associations, the
@@ -102,7 +110,10 @@ Execute in this order.
    as warm, never as a cold benchmark.
 4. **Account sequence (multi-threaded):** 7-12 touches over 21 days depending on ACV, 3-5
    recipients per target account by role, coordinated by one account owner so messages never
-   collide or contradict each other. Order: warm intro if one exists, then LinkedIn,
+   collide or contradict each other. The first message follows the art rule in
+   revenue-bowtie.md section 7: the prospect's specific pain plus peers already served, or a
+   relevant news item about their competitor, written per prospect, never generic. Order: warm
+   intro if one exists, then LinkedIn,
    WhatsApp (only after a connection, referral or opt-in) and email. Cold email is not a last
    resort: it is the channel that learns from every reply. Running and improving the
    campaign is outbound-learning-loop's job; this step designs it.
@@ -121,7 +132,10 @@ Execute in this order.
    vendor-portal folder checklist (tax ID such as RUC or RUT, certificates of good standing
    and tax compliance, insurance policies, bylaws, legal representative's ID and powers,
    bank certificate, security documentation), ready before the first proposal.
-8. **CRM setup:** stages that mirror the process map, conversion targets, key fields
+8. **CRM setup:** stages that mirror the process map, a conversion rate and days-in-stage
+   target per stage (revenue-bowtie.md section 2; Morales, directional: SMB 1-3 months,
+   mid-market 3-5, enterprise 6-18; LATAM mid-market here runs 3-6), qualification fields (BANT
+   or SPICED) filled from the must-ask answers with 6 of 8 still the gate, key fields
    (including every account role and must-ask coverage), and the AI assist per stage: account
    research and first-line personalization drafted from the prospect's site and LinkedIn,
    call notes summarized into the CRM, follow-ups drafted for founder approval.
@@ -145,7 +159,7 @@ startup.
 
 See [TEMPLATES.md](TEMPLATES.md) for the filled example. The playbook contains, in order:
 
-- **ICP** (6 fields minimum)
+- **ICP** (6 fields minimum, plus blacklist and sales motion)
 - **Buying-group map**: Role | Title at target | What they care about | Asset they need
 - **Warm-intro map**: super whos, gremios, WhatsApp communities, referral calendar, script
 - **Account sequence**: Day | Channel | Recipient role | Message type | Snippet | Expected
@@ -153,7 +167,7 @@ See [TEMPLATES.md](TEMPLATES.md) for the filled example. The playbook contains, 
 - **Objection matrix**: Objection | Root cause | Challenger response | Evidence to use
 - **Meeting script**: Phase | Minutes | Founder talk budget | Goal | Must-ask questions
 - **Full B2B process**: Stage | Owner | Exit criterion | Documents
-- **CRM setup**: Stage | Definition | Conversion target | Key activity, plus key fields
+- **CRM setup**: Stage | Definition | Conversion target | Days in stage | Key activity, plus key fields
 - **Outbound operating rules** (drafts, first 20 reviewed, CRM same day, learnings to brain)
 - **LATAM Context box**
 - **Próximos Pasos**: 3-5 concrete actions
@@ -236,4 +250,8 @@ the sales motion, `/customer-retention-expansion` after the first invoice.
 - Forrester B2B buying research (about 13 people per purchase, 86% stall), via Erik Fisher:
   https://www.forrester.com/
 - Andrés Nájera, LAN mentor masterclass on warm intros and referrals (Nov 2026)
+- references/shared/revenue-bowtie.md: bowtie, stage metrics, qualification, motion by ACV, outbound art and science
+- Winning by Design, the Bowtie: https://winningbydesign.com/bowtie/
+- Winning by Design, SPICED: https://winningbydesign.com/spiced/
+- Diego Morales, Rocket Revenue, LAN V5 revenue masterclass (Nov 2026): https://rocketrevenuehq.com
 - WhatsApp Business Messaging Policy: https://business.whatsapp.com/policy

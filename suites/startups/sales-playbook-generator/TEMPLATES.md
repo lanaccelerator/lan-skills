@@ -181,7 +181,7 @@ use. A missing document can delay the first payment by weeks.
 
 ## CRM Setup Recommendation
 
-| Stage | Definition | Conversion Target | Key Activity |
+| Stage | Definition | Conversion Target | Days in Stage | Key Activity |
 |-------|-----------|------------------|-------------|
 | **Prospecting** | Account in sequence, 3-5 roles mapped, no reply | (none) | Next touch per role on schedule |
 | **Qualified** | Reply + ICP fit + interest | 15-25% of accounts | Discovery booked |

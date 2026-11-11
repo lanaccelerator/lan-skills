@@ -330,6 +330,7 @@ These phrases are documented in `shared/frameworks/editorial-voice.md`. They com
 | `deck-design-rules.md` | LAN deck and visual design rules: one idea per slide, real logos, no decorative AI imagery, print-ready | 24 skills that produce decks, PDFs or dashboards, among them pitch-deck-builder, deck-reviewer, lead-to-proposal, investor-update-compiler |
 | `ai-era-evaluation.md` | AI-era moats, wrapper risk, revenue quality, Bessemer archetypes | deal-memo-writer, venture-model-validator, ai-service-horizon |
 | `b2b-buying-2026.md` | How companies buy in 2026: ~13 people per purchase, multi-threading, founder max 33% talk, must-ask list, business case and exec meeting, full B2B process, warm-first outbound | sales-playbook-generator, lead-to-proposal, meeting-notes-to-brain, outbound-learning-loop, customer-retention-expansion, go-to-market-strategist, security-compliance-starter |
+| `revenue-bowtie.md` | Winning by Design bowtie with conversion and time per stage, BANT/SPICED, motion by ticket size, inbound built backwards and AEO, ABM and land and expand, outbound art and science, CS coverage model and manual (Diego Morales, Rocket Revenue) | go-to-market-strategist, sales-playbook-generator, customer-retention-expansion |
 
 **To reference a shared framework from a skill:**
 

@@ -48,7 +48,7 @@ Run this before committing any changes to verify all SKILL.md files are spec-com
 
 ### Shared frameworks
 
-`shared/frameworks/` is the source of truth for material several skills use (editorial voice, LATAM benchmarks, YC metrics, SAFE, ILPA, deck design rules, AI-era evaluation, B2B buying 2026). The installers copy only `suites/`, so every skill carries its own copy in `references/shared/`. After editing a shared file, run:
+`shared/frameworks/` is the source of truth for material several skills use (editorial voice, LATAM benchmarks, YC metrics, SAFE, ILPA, deck design rules, AI-era evaluation, B2B buying 2026, revenue bowtie). The installers copy only `suites/`, so every skill carries its own copy in `references/shared/`. After editing a shared file, run:
 
 ```bash
 python3 scripts/sync-shared.py

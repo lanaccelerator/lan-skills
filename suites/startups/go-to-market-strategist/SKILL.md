@@ -16,7 +16,7 @@ description: >
 categories: ["business", "startups", "venture-capital"]
 metadata:
   author: lan-accelerator
-  version: "1.2"
+  version: "1.3"
   suite: startups
   complements: [sales-playbook-generator, pricing-strategy-designer, competitive-landscape-mapper, ai-service-horizon, competitor-watch, outbound-learning-loop]
 license: MIT
@@ -44,7 +44,7 @@ competitor notes filed by competitor-watch. Then ask, in ONE message, only for w
 4. **Current customers:** number, segment, geography ("none" if pre-revenue)
 5. **Top 3 competitors and the difference** [Claude/ChatGPT alone is always added as competitor 0]
 6. **Channels tried and results**: including what failed
-7. **Deal size and sales cycle:** transactional (under USD 500) / SMB (USD 500-5K) / enterprise (USD 5K+)
+7. **Deal size and sales cycle:** transactional (under USD 500) / SMB (USD 500-5K) / enterprise (USD 5K+); for the motion check also note the band in revenue-bowtie.md section 4 (under 2K, 2-5K, 5-15K, 15-50K, 50K+)
 8. **Warm access:** associations, chambers or communities where your ICP gathers, and people
    who know hundreds of your buyers [none known yet]
 9. **AI-assistant distribution:** do your buyers already work inside Claude or ChatGPT, and do
@@ -62,8 +62,13 @@ Read [references/gtm-channels.md](references/gtm-channels.md) before scoring cha
 3. **YC and Paul Graham:** do things that don't scale; founder-led sales first; one channel
    until it breaks, then the second. Sources: https://paulgraham.com/ds.html,
    https://www.ycombinator.com/library/4D-yc-s-essential-guide-to-go-to-market
-4. **Motion by stage:** founder-led sales, then repeatable sales or product-led adoption, then
-   outbound at scale once CAC payback is proven.
+4. **Motion by stage and by ticket:** founder-led sales, then repeatable sales or product-led
+   adoption, then outbound at scale once CAC payback is proven. Rule of thumb by ticket (Diego
+   Morales, Rocket Revenue, directional): under USD 2K self-serve, USD 2-5K inbound and one-phase
+   sales, USD 5-15K SDR plus closer, USD 50K and above ABM. Stage decides who sells; ticket
+   decides the motion to build toward. Read
+   references/shared/revenue-bowtie.md sections 4 to 6 for the matrix, content built backwards
+   from the purchase decision, AEO, ABM and land and expand.
 5. **How B2B buyers buy in 2026:** about 13 people weigh in on the average B2B purchase and 86%
    of purchases stall (Forrester, via Erik Fisher). A GTM plan with one contact per account is a
    plan with one point of failure. Read references/shared/b2b-buying-2026.md (sections 1, 2, 7
@@ -94,7 +99,11 @@ Read [references/gtm-channels.md](references/gtm-channels.md) before scoring cha
 5. **Distribution inside AI assistants:** decide whether an MCP server or ChatGPT app is a real
    channel for this buyer now, later or never (section 5 of ai-native-gtm.md). Score it as part
    of channel 14.
-6. **Top 3 channels** with the reason each fits this stage, model and geography.
+6. **Top 3 channels** with the reason each fits this stage, model and geography. Check each
+   against the ACV row of the motion matrix (revenue-bowtie.md section 4): an ABM plan for a
+   USD 3K ticket or pure inbound for a USD 60K ticket is a mismatch to flag. For tickets of
+   USD 50K and above, name the 10 target accounts, the ABM scope (one-to-one, one-to-few or
+   one-to-many) and the land ticket vs expansion potential per account.
 7. **Acquisition plan per channel:** owner, budget or hours, 90-day target (leads, demos,
    closed deals), first experiment and its kill criterion.
 8. **Unit economics targets per channel:** CAC target, conversion assumption, LTV basis. Mark
@@ -117,7 +126,7 @@ field order. Fill every [bracketed placeholder] with real analysis from the user
 See [TEMPLATES.md](TEMPLATES.md) for the filled example.
 
 Required: beachhead definition, competitor 0 (Claude/ChatGPT alone), 19-channel scorecard, warm
-map, AI-assistant distribution decision, top-3 acquisition plans, unit economics targets,
+map, AI-assistant distribution decision, motion check against the ACV row, top-3 acquisition plans, unit economics targets,
 service horizon, 90-day plan table, LATAM context box, Next Steps. Tables, not narrative.
 
 If the plan is turned into slides or a one-pager for the team or investors, apply
@@ -169,6 +178,9 @@ The first item is the first step of the top-scoring channel. Examples:
 - [AI-Native GTM](references/ai-native-gtm.md): competitor 0, MCP distribution, service horizon,
   AI in the sales stack
 - references/shared/b2b-buying-2026.md: buying committees, multi-threading, warm-first outbound
+- references/shared/revenue-bowtie.md: bowtie stages, motion by ACV, inbound order and AEO, ABM, land and expand
+- Winning by Design, the Bowtie: https://winningbydesign.com/bowtie/
+- Diego Morales, Rocket Revenue, LAN V5 revenue masterclass (Nov 2026): https://rocketrevenuehq.com
 - Moore, G. (2014). *Crossing the Chasm*, 3rd ed. HarperBusiness.
 - Weinberg, G. and Mares, J. (2015). *Traction*. Portfolio.
 - Paul Graham, "Do Things that Don't Scale" (2013): https://paulgraham.com/ds.html

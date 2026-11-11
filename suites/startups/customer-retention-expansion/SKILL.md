@@ -16,7 +16,7 @@ description: >
 categories: ["startups", "sales", "business"]
 metadata:
   author: lan-accelerator
-  version: "1.1"
+  version: "1.2"
   suite: startups
   complements: [pricing-strategy-designer, lead-to-proposal, sales-playbook-generator, unit-economics-calculator, startup-kpi-automator, pilot-led-growth]
 license: MIT
@@ -101,6 +101,14 @@ Score every account 0-100 with five weighted dimensions (section 2 of the framew
 Green 70 or more, yellow 50-69, red below 50. One dimension at 20 or less is a red flag
 regardless of the total. Adjust weights only if the company saved its own in the brain.
 
+**Coverage model and CS manual** (revenue-bowtie.md section 8, Diego Morales of Rocket
+Revenue): tier every account (strategic 1-5 per person with a weekly check-in, mid 20-30 per
+person every 1-2 months, long tail on tech touch with usage-drop alerts to a person) and write
+the manual: day-1 actions, contact frequency, channel and SLA per tier. Cadence is the
+proactive minimum; the 21-day silence signal counts unanswered messages. Weekly check-ins go
+to Premium accounts. Customer success is measured on retention and expansion, never on
+tickets closed.
+
 ## Step 4: Churn Signals and Save Plays
 
 Check every account against the churn signal list (section 3): usage down 30%+ in 4
@@ -159,6 +167,9 @@ Use the three plans from `/pricing-strategy-designer`:
 - **Estándar to Premium:** triggered by measurable needs: volume above the included
   capacity, a new entity or region, a request for SLA, dedicated support or weekly reviews.
 - **More of the same plan:** more sites, units or users as the customer grows.
+- **Land and expand:** next to every account write its land ticket and its expansion
+  potential (for example USD 1K landed, USD 20K potential), including other countries where
+  the customer operates: a strategic account that gets weekly value is the first cross-sell.
 
 Expansion math (section 6): revenue = customers x average ticket x purchase frequency. Three
 improvements of 20% compound to 1.2 x 1.2 x 1.2 = 1.728, that is **+73%** (Nájera states
@@ -229,10 +240,10 @@ startup.
 See [TEMPLATES.md](TEMPLATES.md) for the filled example. Sections, in order:
 
 1. Resumen: verdict, MRR, accounts by color, the three actions of the week
-2. Cartera y salud: Cuenta | Plan | MRR | Uso | Valor | Relación | Soporte | Pagos | Score | Estado | Señal principal
+2. Cartera y salud: Cuenta | Tier | Plan | MRR | Uso | Valor | Relación | Soporte | Pagos | Score | Estado | Señal principal
 3. Señales de churn y planes de rescate
 4. Calendario de renovaciones: Cuenta | Plan | MRR | Renovación | Próximo hito | Fecha | Estado
-5. Plan de expansión: Cuenta | Hoy | Movimiento | Disparador | Fecha | MRR nuevo | Cambio MRR
+5. Plan de expansión: Cuenta | Hoy | Potencial | Movimiento | Disparador | Fecha | MRR nuevo | Cambio MRR
 6. La cuenta compuesta (1,2 x 1,2 x 1,2)
 7. Pedidos de referidos: Cuenta | Momento del gracias | Fecha | Quién pide | A quién | Estado
 8. Revisión de resultados (one-pager) for the account due first
@@ -283,6 +294,8 @@ End every output with 3-5 concrete actions, for example:
 - [Retention Frameworks](references/retention-frameworks.md): first value, health score, churn signals, renewal calendar, business review, expansion math, case-study write-back, collections, CRM sheet
 - [LATAM Context](references/latam-context.md): decision makers, channels, payment terms, referrals
 - references/shared/b2b-buying-2026.md: multi-threading, executive meeting, talk ratio
+- references/shared/revenue-bowtie.md: bowtie right side, CS coverage model, CS manual, land and expand
+- Diego Morales, Rocket Revenue, LAN V5 revenue masterclass (Nov 2026): https://rocketrevenuehq.com
 - references/shared/company-brain-integration.md: brain read and write, CRM rules, scheduled runs
 - references/shared/editorial-voice.md
 - references/shared/latam-benchmarks.md
