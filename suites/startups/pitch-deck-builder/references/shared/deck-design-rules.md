@@ -95,6 +95,7 @@ Never use any of these:
 - External decks use only numbers the startup can defend in diligence. No invented
   customers, no "logos of companies we talked to".
 - Label US benchmarks as US and LATAM figures as LATAM.
+- Charts that show shares (flows, splits, rings) must add up: sum each column from the numbers on the slide. When the listed items fall short of 100%, show the missing ones from the source data or add an "Others" node computed as the remainder, say so in the footnote and flag it for the founder to confirm.
 - The ask slide is one line: the amount, the milestone it buys and the instrument; the
   use-of-funds breakdown stays for the one-on-one.
 
