@@ -6,7 +6,8 @@ and LP decks) and from every correction the LAN partners made on them. A deck
 that breaks them reads as "made by AI" before the investor reads a single number.
 
 Apply them whenever you produce the actual slides (HTML 16:9, Google Slides,
-Keynote, PowerPoint, PDF), not only the outline.
+Keynote, PowerPoint, PDF), not only the outline. What the pitch has to say lives in
+the pitch content rules (`pitch-content-rules.md`, shipped with the deck skills).
 
 ## 1. The brand is the startup's, not yours
 
@@ -26,12 +27,21 @@ Keynote, PowerPoint, PDF), not only the outline.
 - Body copy: 25 words or fewer per slide. Fragments, not paragraphs. If a slide needs
   three paragraphs, it is two slides or a chart.
 - BLUF: the investor should get the slide from the title alone.
+- Titles are read first: when space is short, shrink the secondary text, never the title.
+- A slide that mixes two ideas is split in two.
 - Before and after beats explanation: "Before: audits in Excel and WhatsApp. With X: one
   photo the AI turns into stock, price and expiry."
 
 ## 3. Show, don't tell
 
 - Numbers big, labels small. A metric slide is one or three numbers, not ten.
+- No large empty areas: enlarge the content, use hero numbers (200 to 300 px), cards that
+  fill their column, text aligned across sibling cards. Bento cards (card-style blocks)
+  separate ideas better than whitespace.
+- The problem slide shows the mess (chat threads, spreadsheets with chaotic names, shelf
+  photos) around a big headline.
+- Maps are heroes when geography matters: at least half the slide.
+- Founder photos cropped tight on face and shoulders, all at the same scale.
 - Charts with the real data, one message per chart, the key series in the accent color
   and the rest in grey. No 3D, no pie charts with more than 3 slices.
 - Real photos (team, product in use, customers, events) over illustrations. Render them
@@ -39,8 +49,9 @@ Keynote, PowerPoint, PDF), not only the outline.
 - Real product screenshots or HTML-built mockups. Never AI-generated UI: generated
   interface text is garbage and investors notice.
 - Real logos for customers, investors, partners and any named product (Claude, AWS,
-  Shopify). Never a text pill pretending to be a logo. Logos in one tone (monochrome)
-  with the same optical size.
+  Shopify). Never a text pill pretending to be a logo. Logos at the same optical size;
+  one muted tone for the rest and full colour for the stars. A missing logo becomes a
+  neutral text tile and is reported, never invented.
 - Generated images only when they show something concrete and real-looking (a jobsite,
   a clinic), never as decoration. No readable text, no logos, no watermarks in them.
 
@@ -56,6 +67,9 @@ Never use any of these:
 - A colored top border on every card to tell cards apart; a small colored rule before
   every label; numbered eyebrows ("01 / THE PROBLEM") on every slide.
 - Pills and chips everywhere. A pill is for a real status or category, not decoration.
+- A highlighter swipe behind headings; diagonal-hairline or other background textures.
+  Backgrounds are flat (at most a soft single-colour gradient); dark slides use a deep
+  tone from the brand palette and alternate with light ones.
 - A repeated footer with the deck title on every slide. Logo plus section label on top,
   page number alone at the bottom.
 - Buzzwords: revolutionary, disruptive, innovative, cutting-edge, seamless, game-changer,
@@ -72,7 +86,8 @@ Never use any of these:
   96 to 150 px, body 28 to 34 px, labels 18 to 20 px. Nothing under 18 px.
 - Margins of 64 to 96 px, one alignment grid for the whole deck, equal gaps between
   repeated elements.
-- Contrast: body text must pass WCAG AA on its background. Grey on grey is not a style.
+- Contrast: body text must pass WCAG AA on its background. Grey on grey is not a style,
+  and neither is coloured text on a coloured background.
 
 ## 6. Data integrity
 
@@ -80,8 +95,8 @@ Never use any of these:
 - External decks use only numbers the startup can defend in diligence. No invented
   customers, no "logos of companies we talked to".
 - Label US benchmarks as US and LATAM figures as LATAM.
-- The ask slide states the amount, what it buys (milestones), the runway in months, and
-  the instrument (SAFE or priced).
+- The ask slide is one line: the amount, the milestone it buys and the instrument; the
+  use-of-funds breakdown stays for the one-on-one.
 
 ## 7. Copy
 

@@ -83,7 +83,9 @@ Execute in this exact order:
    adjust market sizing methodology, investor expectations, and comparable
    companies for LATAM-specific context
 6. Output using the exact structure in [TEMPLATES.md](TEMPLATES.md)
-7. If the user wants the actual slides (not only the outline), build them now
+7. Check the outline against [pitch-content-rules.md](references/shared/pitch-content-rules.md)
+   (opening, star-client thread, business model, team, one-line ask, what stays out).
+   If the user wants the actual slides (not only the outline), build them now
    following references/shared/deck-design-rules.md:
    the startup's own brand, one idea per slide with the claim as the title,
    real numbers, logos and photos, nothing from the banned AI-slop list, and the

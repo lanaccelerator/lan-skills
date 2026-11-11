@@ -82,6 +82,12 @@ A single score of 1 is disqualifying. Flag it immediately as [FATAL].
    slide number and the fix. A deck that reads as AI-generated loses the
    investor before the numbers do.
 
+5. **Pitch content check** (LAN pitch rules):
+   Read [pitch-content-rules.md](references/shared/pitch-content-rules.md)
+   and check the opening, the star-client thread, the business model, the team,
+   the ask and what should stay out of the main pitch. Flag every miss as
+   `[PITCH]` with the slide number and the fix.
+
 ## Step 3: Workflow
 
 Execute in this exact order:
@@ -94,6 +100,7 @@ Execute in this exact order:
 6. Read [references/latam-context.md](references/latam-context.md) BEFORE
    producing LATAM context annotations
 7. Run the design and AI-slop check (framework 4) and list every `[SLOP]` flag
+   and the pitch content check (framework 5) with every `[PITCH]` flag
 8. Produce per-slide scorecard using the exact structure in [TEMPLATES.md](TEMPLATES.md)
 9. Deliver deck-level verdict and Next Steps
 
@@ -162,3 +169,12 @@ Rules:
 - YC, How to design a better pitch deck: https://www.ycombinator.com/library/4T-how-to-design-a-better-pitch-deck
 - YC, How to build your seed round pitch deck: https://www.ycombinator.com/library/2u-how-to-build-your-seed-round-pitch-deck
 - [Deck Design Rules](references/shared/deck-design-rules.md): LAN house rules, AI-slop list
+- [Pitch Content Rules](references/shared/pitch-content-rules.md): what the pitch has to say
+
+## Learning loop
+
+When the user corrects a score, a flag or a rule and means it to stick, or the same
+fix comes up for two or more decks, fold it into `pitch-content-rules.md` or
+`deck-design-rules.md` in place (replace the rule it contradicts, merge overlaps, no
+dates or source headers) in the source the skill was installed from, and say in one
+line what changed. One-off choices for a single deck stay out.
