@@ -87,7 +87,8 @@ Execute in this exact order:
    (opening, star-client thread, business model, team, one-line ask, what stays out).
    If the user wants the actual slides (not only the outline), build them now
    following references/shared/deck-design-rules.md:
-   the startup's own brand, one idea per slide with the claim as the title,
+   the startup's own brand (if the brain has a brand skill from /brand-guidebook, load it first),
+   one idea per slide with the claim as the title,
    real numbers, logos and photos, nothing from the banned AI-slop list, and the
    mandatory render-and-check QA loop before showing anyone
 8. End with Next Steps

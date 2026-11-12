@@ -74,7 +74,8 @@ Score each slide 1–5 using the rubric in references/deck-evaluation-rubric.md:
 A single score of 1 is disqualifying. Flag it immediately as [FATAL].
 
 4. **Design and AI-slop check** (LAN house rules):
-   Read references/shared/deck-design-rules.md and
+   Read references/shared/deck-design-rules.md (and the startup's brand skill from
+   /brand-guidebook, if the brain has one, to grade brand consistency) and
    score the deck's form separately from its content (1 to 5). Flag every item
    from the banned list (decorative node graphs or blobs, purple gradients,
    italics for emphasis, emojis, text pills instead of real logos, buzzwords,

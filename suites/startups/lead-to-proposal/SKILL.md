@@ -54,7 +54,8 @@ Defaults in brackets; mark guesses as `[ASSUMPTION: ...]`.
 3. **What you sell them**: product or package discussed. [Inferred from the call, confirmed
    against the offering pages in the brain]
 4. **Proposal format**: the startup's template (brain page, Drive doc, deck) or default.
-   [Brain template if one exists, else the default in TEMPLATES.md]
+   [Brain template if one exists, else the default in TEMPLATES.md; the startup's own look
+   comes from its brand skill if /brand-guidebook created one]
 5. **Brand assets of the prospect** for the deck mockups: logo, colors, sample of their
    data. [Public logo and site colors; mockup data taken from the call]
 6. **Deadline and language**: [business case today, language of the call]
