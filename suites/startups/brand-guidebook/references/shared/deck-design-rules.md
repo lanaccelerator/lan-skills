@@ -18,7 +18,9 @@ the pitch content rules (`pitch-content-rules.md`, shipped with the deck skills)
 - No brand yet: one dark and one light neutral plus ONE accent color. Never the default
   purple/blue gradient, never a different accent per slide.
 - The accent is for the one thing that matters on the slide (the number, the claim),
-  not for decoration.
+  not for decoration, and never as a full-slide background: a saturated accent behind a
+  whole slide reads as loud. A statement slide (the ask) uses a soft tint of the accent
+  or a deep brand tone, with the accent kept for the key figure.
 
 ## 2. One idea per slide, the title is the claim
 
@@ -35,6 +37,9 @@ the pitch content rules (`pitch-content-rules.md`, shipped with the deck skills)
 ## 3. Show, don't tell
 
 - Numbers big, labels small. A metric slide is one or three numbers, not ten.
+- The cover is anchored, not floating: text laid over a full-bleed photo with a fade
+  reads as loose. Give the photo its own block, set the text in a panel aligned to the
+  margins, and anchor the hook numbers in a full-width band.
 - No large empty areas: enlarge the content, use hero numbers (200 to 300 px), cards that
   fill their column, text aligned across sibling cards. Bento cards (card-style blocks)
   separate ideas better than whitespace.
